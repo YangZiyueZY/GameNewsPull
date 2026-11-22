@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+logs/
+.DS_Store
+*.log
+*.db
+*.db-*
+# public/img 是构建中间产物，由 docs/img（已提交）缓存恢复，无需入库
+apps/web/public/img/
+data/feed.json
+data/feed.rss

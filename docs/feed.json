@@ -1,0 +1,1359 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-11-22T13:17:03.339Z",
+  "ui": {
+    "page": {
+      "title": "二游资讯",
+      "subtitle": "基于 B 站官方账号的资讯聚合",
+      "max_width": "7xl",
+      "density": "compact"
+    },
+    "sections": [
+      {
+        "id": "game-status",
+        "component": "game_status_grid",
+        "source": "data.games",
+        "title": "版本状态",
+        "props": {
+          "columns": {
+            "base": 1,
+            "md": 2,
+            "xl": 2
+          },
+          "show_preview": true,
+          "show_up": true,
+          "show_sources": true,
+          "embedded_media": {
+            "source": "media.items",
+            "position": "after_preview",
+            "categories": [
+              "version_pv",
+              "character_pv",
+              "preview_program",
+              "short_film",
+              "promotional_pv"
+            ],
+            "limit_per_game": 4,
+            "layout": "featured_compact",
+            "show_category": true,
+            "show_duration": true,
+            "show_player": true,
+            "empty_behavior": "hide"
+          }
+        }
+      }
+    ],
+    "components": {
+      "media_card": {
+        "primary_action": {
+          "label": "在 Bilibili 观看"
+        },
+        "player_field": "player_url"
+      }
+    }
+  },
+  "data": {
+    "games": [
+      {
+        "game_name": "原神",
+        "key": "genshin",
+        "icon_url": "img/a98c83cc3d922f29.jpg",
+        "current_version": "「原神千星奇域×乐游上海」版本",
+        "current_content": [
+          "过场动画-「高天的门扉」",
+          "剧情PV-「被赋予的慈爱」",
+          "过场动画-「雷与永恒」",
+          "亲爱的旅行者，「原神千星奇域×乐游上海」特别联动关卡现已正式上线！"
+        ],
+        "current_version_days": 9,
+        "next_version": "暂未公布",
+        "next_content": [],
+        "days_to_next_version": null,
+        "preview_status": "尚未发布",
+        "preview_title": null,
+        "preview_start_at": null,
+        "preview_replay_url": null,
+        "preview_images": [],
+        "up_banners": [
+          {
+            "label": "第 1 期",
+            "phase": null,
+            "characters": [
+              "米提亚",
+              "芙宁娜"
+            ],
+            "start_at": "2026-11-04T00:00:00+08:00",
+            "end_at": "2026-11-24T17:59:00+08:00",
+            "status": "进行中",
+            "days_remaining": 2,
+            "note": null,
+            "source": "config"
+          },
+          {
+            "label": "第 2 期",
+            "phase": null,
+            "characters": [
+              "莉奈娅"
+            ],
+            "start_at": "2026-11-24T18:00:00+08:00",
+            "end_at": null,
+            "status": "未开始",
+            "days_remaining": null,
+            "note": null,
+            "source": "config"
+          }
+        ],
+        "current_up_characters": [
+          "米提亚",
+          "芙宁娜"
+        ],
+        "sources": [
+          {
+            "title": "《原神》过场动画-「高天的门扉」",
+            "url": "https://www.bilibili.com/video/BV1oiWi6oEqR",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-22T13:17:03.339Z"
+          },
+          {
+            "title": "恭喜@我又又又迷路了@少年的飞扬@kayz85等10位同学中奖，已私信通知，详情请点击抽奖查看。",
+            "url": "https://www.bilibili.com/opus/1270441069821034503",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-22T13:17:03.339Z"
+          },
+          {
+            "title": "《原神》剧情PV-「被赋予的慈爱」",
+            "url": "https://www.bilibili.com/video/BV1jiWi6dEQg",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-22T13:17:03.339Z"
+          },
+          {
+            "title": "恭喜@执迷の鲸鱼_@汤圆雨ya@菠罗菠罗哒等10位同学中奖，已私信通知，详情请点击抽奖查看。",
+            "url": "https://www.bilibili.com/opus/1270069971733446680",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-22T13:17:03.339Z"
+          },
+          {
+            "title": "《原神》过场动画-「雷与永恒」",
+            "url": "https://www.bilibili.com/video/BV1zTWd6EE6o",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-22T13:17:03.339Z"
+          },
+          {
+            "title": "亲爱的旅行者，「原神千星奇域×乐游上海」特别联动关卡现已正式上线！",
+            "url": "https://www.bilibili.com/opus/1270024586800398375",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-22T13:17:03.339Z"
+          }
+        ],
+        "facts_checked_at": "2026-11-22T13:17:03.339Z"
+      },
+      {
+        "game_name": "绝区零",
+        "key": "zzz",
+        "icon_url": "img/97329efbfc6004aa.jpg",
+        "current_version": "暂未获取",
+        "current_content": [
+          "第三季纪念回顾 | 新世界前夜",
+          "3.4版本PV | 长日终尽",
+          "3.4 版本「长日终尽」前瞻特别节目将于今晚18:30开启！"
+        ],
+        "current_version_days": 0,
+        "next_version": "3.4版本「长日终尽」",
+        "next_content": [],
+        "days_to_next_version": 10,
+        "preview_status": "已发布",
+        "preview_title": "《绝区零》第三季纪念回顾 | 新世界前夜",
+        "preview_start_at": "2026-11-21T04:00:30.000Z",
+        "preview_replay_url": "https://www.bilibili.com/video/BV1S4yhzcEgW",
+        "preview_images": [
+          "img/4d70768df59ca5ca.jpg"
+        ],
+        "up_banners": [
+          {
+            "label": "上半",
+            "phase": null,
+            "characters": [
+              "菲欧妮",
+              "维琳娜"
+            ],
+            "start_at": "2026-10-21T00:00:00+08:00",
+            "end_at": "2026-11-11T11:59:00+08:00",
+            "status": "已结束",
+            "days_remaining": null,
+            "note": null,
+            "source": "config"
+          },
+          {
+            "label": "下半",
+            "phase": null,
+            "characters": [
+              "赛维里安",
+              "诺姆"
+            ],
+            "start_at": "2026-11-11T12:00:00+08:00",
+            "end_at": "2026-12-01T14:59:00+08:00",
+            "status": "进行中",
+            "days_remaining": 9,
+            "note": null,
+            "source": "config"
+          }
+        ],
+        "current_up_characters": [
+          "菲欧妮",
+          "维琳娜"
+        ],
+        "sources": [
+          {
+            "title": "《绝区零》第三季纪念回顾 | 新世界前夜",
+            "url": "https://www.bilibili.com/video/BV1S4yhzcEgW",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-22T13:17:03.339Z"
+          },
+          {
+            "title": "《绝区零》3.4 版本「长日终尽」前瞻特别节目",
+            "url": "https://www.bilibili.com/video/BV1WwyWzNEXz",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-22T13:17:03.339Z"
+          },
+          {
+            "title": "《绝区零》3.4版本PV | 长日终尽",
+            "url": "https://www.bilibili.com/video/BV1nuyWz8Eji",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-22T13:17:03.339Z"
+          },
+          {
+            "title": "《绝区零》3.4 版本「长日终尽」前瞻特别节目将于今晚18:30开启！",
+            "url": "https://www.bilibili.com/opus/1272636670003380229",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-22T13:17:03.339Z"
+          },
+          {
+            "title": "恭喜@御坂Official_@夜微凉172@綮枫等50位同学中奖，已私信通知，详情请点击抽奖查看。",
+            "url": "https://www.bilibili.com/opus/1272250079986581657",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-22T13:17:03.339Z"
+          },
+          {
+            "title": "恭喜@AAA墨13@Alimost@明亦又咕了等10位同学中奖，已私信通知，详情请点击抽奖查看。",
+            "url": "https://www.bilibili.com/opus/1271878994776555603",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-22T13:17:03.339Z"
+          }
+        ],
+        "facts_checked_at": "2026-11-22T13:17:03.339Z"
+      },
+      {
+        "game_name": "明日方舟：终末地",
+        "key": "endfield",
+        "icon_url": "img/21014115f43d4219.jpg",
+        "current_version": "「穿越甚大蘑境与你相逢」版本",
+        "current_content": [
+          "「全新版本&2.0揭幕前瞻」特别节目回顾",
+          "特别映像「基石」",
+          "干员影像-「群像：信号预联」",
+          "「穿越甚大蘑境与你相逢」版本PV"
+        ],
+        "current_version_days": 1,
+        "next_version": "暂未公布",
+        "next_content": [],
+        "days_to_next_version": null,
+        "preview_status": "已发布",
+        "preview_title": "《明日方舟：终末地》「全新版本&2.0揭幕前瞻」特别节目回顾",
+        "preview_start_at": "2026-11-21T12:45:01.000Z",
+        "preview_replay_url": "https://www.bilibili.com/video/BV1pvyhzdER5",
+        "preview_images": [
+          "img/62d28e52d8989aba.jpg"
+        ],
+        "up_banners": [
+          {
+            "label": "第 1 期",
+            "phase": null,
+            "characters": [
+              "祀"
+            ],
+            "start_at": "2026-10-15T12:00:00+08:00",
+            "end_at": "2026-11-05T11:59:00+08:00",
+            "status": "已结束",
+            "days_remaining": null,
+            "note": null,
+            "source": "config"
+          },
+          {
+            "label": "重构寻访",
+            "phase": null,
+            "characters": [
+              "汤汤"
+            ],
+            "start_at": "2026-10-29T12:00:00+08:00",
+            "end_at": "2026-11-19T11:59:00+08:00",
+            "status": "已结束",
+            "days_remaining": null,
+            "note": null,
+            "source": "config"
+          },
+          {
+            "label": "第 2 期",
+            "phase": null,
+            "characters": [
+              "明河"
+            ],
+            "start_at": "2026-11-05T12:00:00+08:00",
+            "end_at": null,
+            "status": "进行中",
+            "days_remaining": null,
+            "note": null,
+            "source": "config"
+          }
+        ],
+        "current_up_characters": [
+          "祀"
+        ],
+        "sources": [
+          {
+            "title": "《明日方舟：终末地》「全新版本&2.0揭幕前瞻」特别节目回顾",
+            "url": "https://www.bilibili.com/video/BV1pvyhzdER5",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-22T13:17:03.339Z"
+          },
+          {
+            "title": "《明日方舟：终末地》特别映像「基石」",
+            "url": "https://www.bilibili.com/video/BV1MMyazPEKy",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-22T13:17:03.339Z"
+          },
+          {
+            "title": "《明日方舟：终末地》干员影像-「群像：信号预联」",
+            "url": "https://www.bilibili.com/video/BV1yGyaz8EXM",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-22T13:17:03.339Z"
+          },
+          {
+            "title": "《明日方舟：终末地》「穿越甚大蘑境与你相逢」版本PV",
+            "url": "https://www.bilibili.com/video/BV1nHyazWEDV",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-22T13:17:03.339Z"
+          },
+          {
+            "title": "「全新版本&2.0揭幕前瞻」特别节目即将于2026年11月21日（今日）19:30开始。管理员，敬请期待。",
+            "url": "https://www.bilibili.com/opus/1273069701443878962",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-22T13:17:03.339Z"
+          },
+          {
+            "title": "新章揭幕，火种未熄。《明日方舟：终末地》全新版本&2.0揭幕前瞻特别节目即将于11月21日19:30播出。",
+            "url": "https://www.bilibili.com/video/BV1NgsB67EYH",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-22T13:17:03.339Z"
+          }
+        ],
+        "facts_checked_at": "2026-11-22T13:17:03.339Z"
+      },
+      {
+        "game_name": "崩坏：星穹铁道",
+        "key": "hsr",
+        "icon_url": "img/0f01306058505549.jpg",
+        "current_version": "暂未获取",
+        "current_content": [
+          "EP：「无中生有」",
+          "#崩坏星穹铁道# #歌曲无中生有# #星穹铁道音乐#",
+          "星旅一瞬：「皆大欢喜！」",
+          "动画短片：「月下的欢快葬礼」"
+        ],
+        "current_version_days": 0,
+        "next_version": "暂未公布",
+        "next_content": [],
+        "days_to_next_version": null,
+        "preview_status": "已发布",
+        "preview_title": "《崩坏：星穹铁道》走近星穹——「货币战争•入画奇航」特别节目",
+        "preview_start_at": "2026-11-10T04:00:13.000Z",
+        "preview_replay_url": "https://www.bilibili.com/video/BV1ShWx6nEp8",
+        "preview_images": [
+          "img/3338aaf10a8f4a44.jpg"
+        ],
+        "up_banners": [],
+        "current_up_characters": [],
+        "sources": [
+          {
+            "title": "恭喜@弄鸦@红豆抹茶波波@一夜不不等10位同学中奖，已私信通知，详情请点击抽奖查看。",
+            "url": "https://www.bilibili.com/opus/1272313722814070793",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-22T13:17:03.339Z"
+          },
+          {
+            "title": "恭喜@星语颩@乔叶萤@ZXYMQYWY等10位同学中奖，已私信通知，详情请点击抽奖查看。",
+            "url": "https://www.bilibili.com/opus/1271942641933615124",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-22T13:17:03.339Z"
+          },
+          {
+            "title": "恭喜@゙希望有羽毛和翅膀@-我也要中奖@高木罗等10位同学中奖，已私信通知，详情请点击抽奖查看。",
+            "url": "https://www.bilibili.com/opus/1271942637606141953",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-22T13:17:03.339Z"
+          },
+          {
+            "title": "恭喜@bili_56067234849@改什么名字好呢96@中二病谛某等10位同学中奖，已私信通知，详情请点击抽奖查看。",
+            "url": "https://www.bilibili.com/opus/1271571552462176260",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-22T13:17:03.339Z"
+          },
+          {
+            "title": "恭喜@搞怪且有趣的网名@鸽中豪杰@ycuyfgjih等10位同学中奖，已私信通知，详情请点击抽奖查看。",
+            "url": "https://www.bilibili.com/opus/1271200505944604674",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-22T13:17:03.339Z"
+          },
+          {
+            "title": "恭喜@雪灵elsa@笑对百味人生@semi-howitze等10位同学中奖，已私信通知，详情请点击抽奖查看。",
+            "url": "https://www.bilibili.com/opus/1271200501599305736",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-22T13:17:03.339Z"
+          }
+        ],
+        "facts_checked_at": "2026-11-22T13:17:03.339Z"
+      },
+      {
+        "game_name": "异环",
+        "key": "yh",
+        "icon_url": "img/633672ebf3738e81.jpg",
+        "current_version": "「致电，空想迷数」版本",
+        "current_content": [
+          "角色实机战斗丨Exe",
+          "#异环曳尔沐# #致电空想迷数# #异环#",
+          "特别剧情短片丨X+Y=10KB世界",
+          "曳尔沐EP丨Here we are again"
+        ],
+        "current_version_days": 17,
+        "next_version": "暂未公布",
+        "next_content": [],
+        "days_to_next_version": null,
+        "preview_status": "尚未发布",
+        "preview_title": null,
+        "preview_start_at": null,
+        "preview_replay_url": null,
+        "preview_images": [],
+        "up_banners": [
+          {
+            "label": "第 1 期",
+            "phase": null,
+            "characters": [
+              "曳尔沐"
+            ],
+            "start_at": "2026-11-05T00:00:00+08:00",
+            "end_at": "2026-11-26T05:59:00+08:00",
+            "status": "进行中",
+            "days_remaining": 4,
+            "note": null,
+            "source": "config"
+          },
+          {
+            "label": "返场",
+            "phase": null,
+            "characters": [
+              "真红"
+            ],
+            "start_at": "2026-11-05T00:00:00+08:00",
+            "end_at": "2026-11-26T05:59:00+08:00",
+            "status": "进行中",
+            "days_remaining": 4,
+            "note": null,
+            "source": "config"
+          }
+        ],
+        "current_up_characters": [
+          "曳尔沐"
+        ],
+        "sources": [
+          {
+            "title": "《异环》角色实机战斗丨Exe",
+            "url": "https://www.bilibili.com/video/BV1Nbsq6LE4G",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-22T13:17:03.339Z"
+          },
+          {
+            "title": "恭喜@饼叔sama中奖，已私信通知，详情请点击抽奖查看。",
+            "url": "https://www.bilibili.com/opus/1272821903318319107",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-22T13:17:03.339Z"
+          },
+          {
+            "title": "恭喜@SOX丶沐@多聂_@新昵称示范等10位同学中奖，已私信通知，详情请点击抽奖查看。",
+            "url": "https://www.bilibili.com/opus/1270966520402411541",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-22T13:17:03.339Z"
+          },
+          {
+            "title": "恭喜@幻想-AH@我永远喜欢莫妮卡@FlankedA等10位同学中奖，已私信通知，详情请点击抽奖查看。",
+            "url": "https://www.bilibili.com/opus/1270966511811428354",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-22T13:17:03.339Z"
+          },
+          {
+            "title": "恭喜@恶毒人儿@元气满满小真寻@きょうはく脅迫する等10位同学中奖，已私信通知，详情请点击抽奖查看。",
+            "url": "https://www.bilibili.com/opus/1270966486073081857",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-22T13:17:03.339Z"
+          },
+          {
+            "title": "恭喜@记忆琐碎中奖，已私信通知，详情请点击抽奖查看。",
+            "url": "https://www.bilibili.com/opus/1270966477482098721",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-22T13:17:03.339Z"
+          }
+        ],
+        "facts_checked_at": "2026-11-22T13:17:03.339Z"
+      }
+    ]
+  },
+  "media": {
+    "categories": [
+      {
+        "id": "version_pv",
+        "label": "版本 PV"
+      },
+      {
+        "id": "character_pv",
+        "label": "角色 PV"
+      },
+      {
+        "id": "preview_program",
+        "label": "版本前瞻"
+      },
+      {
+        "id": "short_film",
+        "label": "动画短片"
+      },
+      {
+        "id": "promotional_pv",
+        "label": "宣传影像"
+      }
+    ],
+    "items": [
+      {
+        "id": "endfield:BV1pvyhzdER5",
+        "game_name": "明日方舟：终末地",
+        "game_key": "endfield",
+        "category": "preview_program",
+        "category_label": "版本前瞻",
+        "title": "《明日方舟：终末地》「全新版本&2.0揭幕前瞻」特别节目回顾",
+        "description": "《明日方舟：终末地》「全新版本&2.0揭幕前瞻」特别节目现已结束，感谢管理员的观看。\n为了方便管理员更快捷地了解新版本内容，我们已上线【新版本导览】专题网页。浏览网页并点击领取奖励，即可获得嵌晶玉×1000，折金票×10000，初级认知载体×8，武器检查套组×4。\n\n管理员可以通过下方链接、前瞻特别节目中的二维码，或者游戏内邮件、游戏内公告、官方自媒体账号等方式进入【新版本导览】专题网页。\n>>点击前往：https://b23.tv/tY0Y0hP\n\n未来我们也会在官方自媒体账号陆续更新《明日方舟：终末地",
+        "version": null,
+        "bvid": "BV1pvyhzdER5",
+        "published_at": "2026-11-21T12:45:01.000Z",
+        "duration": "01:01:59",
+        "url": "https://www.bilibili.com/video/BV1pvyhzdER5",
+        "player_url": "https://player.bilibili.com/player.html?bvid=BV1pvyhzdER5",
+        "poster_url": "img/62d28e52d8989aba.jpg",
+        "source": {
+          "platform": "bilibili",
+          "official_mid": "1265652806",
+          "dynamic_url": "https://www.bilibili.com/video/BV1pvyhzdER5"
+        }
+      },
+      {
+        "id": "endfield:BV1nHyazWEDV",
+        "game_name": "明日方舟：终末地",
+        "game_key": "endfield",
+        "category": "version_pv",
+        "category_label": "版本 PV",
+        "title": "《明日方舟：终末地》「穿越甚大蘑境与你相逢」版本PV",
+        "description": "【蜜饼·使用说明】\n适应症：暴躁蘑菇撸起袖子要揍你、协议采录桩跟你打招呼、自己头顶悄悄长出了菌盖等幻觉症状。\n用法用量：对准脑门，一次一块，用力扔出。\n不良反应：清醒后可能会懵上一小会儿，本品概不负责。\n\n咔嚓一口，美梦醒来——\n“神秘蘑菇追人事件”调查启动！冒险堂堂开场——这就去会会那群蘑菇╭(′▽‵)╯！",
+        "version": null,
+        "bvid": "BV1nHyazWEDV",
+        "published_at": "2026-11-21T11:35:02.000Z",
+        "duration": "18:21",
+        "url": "https://www.bilibili.com/video/BV1nHyazWEDV",
+        "player_url": "https://player.bilibili.com/player.html?bvid=BV1nHyazWEDV",
+        "poster_url": "img/cc7538a399a72191.jpg",
+        "source": {
+          "platform": "bilibili",
+          "official_mid": "1265652806",
+          "dynamic_url": "https://www.bilibili.com/video/BV1nHyazWEDV"
+        }
+      },
+      {
+        "id": "zzz:BV1S4yhzcEgW",
+        "game_name": "绝区零",
+        "game_key": "zzz",
+        "category": "preview_program",
+        "category_label": "版本前瞻",
+        "title": "《绝区零》第三季纪念回顾 | 新世界前夜",
+        "description": "「是啊，一个错误，一场危机…」\n「一个从百年前的赫利俄斯机关开始，就已经存在的错误…」\n「和一个直到今天，才终于在罗斯凯利法…在整个新艾利都，即将爆发而出的危机。」\n \n—— 欢迎来到罗斯凯利法！——\n▼《绝区零》3.4版本「长日终尽」将于12月2日上线！\n3.4版本「决战于黎明之前」预约活动现已开启，参与版本预约&签到活动，共可领取640菲林！\n版本期间，登录即领联动限定S级代理人「知更鸟」及其养成材料，参与签到即可领取加密母带×10、菲林×1840、配饰：「帕姆」趴趴等奖励，参与活动还可免费领取邦布「",
+        "version": null,
+        "bvid": "BV1S4yhzcEgW",
+        "published_at": "2026-11-21T04:00:30.000Z",
+        "duration": "14:19",
+        "url": "https://www.bilibili.com/video/BV1S4yhzcEgW",
+        "player_url": "https://player.bilibili.com/player.html?bvid=BV1S4yhzcEgW",
+        "poster_url": "img/4d70768df59ca5ca.jpg",
+        "source": {
+          "platform": "bilibili",
+          "official_mid": "1636034895",
+          "dynamic_url": "https://www.bilibili.com/video/BV1S4yhzcEgW"
+        }
+      },
+      {
+        "id": "zzz:BV1WwyWzNEXz",
+        "game_name": "绝区零",
+        "game_key": "zzz",
+        "category": "preview_program",
+        "category_label": "版本前瞻",
+        "title": "《绝区零》3.4 版本「长日终尽」前瞻特别节目",
+        "description": "全新虚狩、首位结使代理人「挽昼」即将登场！3.4版本期间，登录即可领取联动S级限定代理人「知更鸟」！12月2日，不见不散！\n \n本次特别节目中的一切人物、故事、设定仅为节目包装，均与《绝区零》原作无关，展示画面与奖励等均为开发中内容，实际内容请以正式上线为准。\n另外，本次特别节目中的兑换码将于11月22日 23:59:59失效，记得尽快兑换哦~\n出镜嘉宾：阿朋、coma、ZK、十代、LK、小摇、小y、小F、振宇[ZYL]\n \n—— 欢迎来到罗斯凯利法！——\n▼《绝区零》3.4版本「长日终尽」将于12月2日",
+        "version": null,
+        "bvid": "BV1WwyWzNEXz",
+        "published_at": "2026-11-20T11:35:01.000Z",
+        "duration": "56:18",
+        "url": "https://www.bilibili.com/video/BV1WwyWzNEXz",
+        "player_url": "https://player.bilibili.com/player.html?bvid=BV1WwyWzNEXz",
+        "poster_url": "img/b464ad7c6ef8c19a.jpg",
+        "source": {
+          "platform": "bilibili",
+          "official_mid": "1636034895",
+          "dynamic_url": "https://www.bilibili.com/video/BV1WwyWzNEXz"
+        }
+      },
+      {
+        "id": "zzz:BV1nuyWz8Eji",
+        "game_name": "绝区零",
+        "game_key": "zzz",
+        "category": "version_pv",
+        "category_label": "版本 PV",
+        "title": "《绝区零》3.4版本PV | 长日终尽",
+        "description": "你所选择的命运，远比卡洛丝曾为你编排的…更加残酷。\n你与她…逐日者们的生死相搏，本就注定会将世界再度撕裂——正如他们所期望的那样。\n曾一度坠落的太阳之子啊，现在…该到你做出选择的时候了。\n \n—— 欢迎来到罗斯凯利法！——\n▼《绝区零》3.4版本「长日终尽」将于12月2日上线！\n3.4版本「决战于黎明之前」预约活动现已开启，参与版本预约&签到活动，可领取640菲林！\n版本期间，登录即领联动限定S级代理人「知更鸟」及其养成材料，参与签到即可领取加密母带×10、菲林×1840、配饰：「帕姆」趴趴等奖励，参与活",
+        "version": null,
+        "bvid": "BV1nuyWz8Eji",
+        "published_at": "2026-11-20T11:30:11.000Z",
+        "duration": "44:04",
+        "url": "https://www.bilibili.com/video/BV1nuyWz8Eji",
+        "player_url": "https://player.bilibili.com/player.html?bvid=BV1nuyWz8Eji",
+        "poster_url": "img/b2424390991dc361.jpg",
+        "source": {
+          "platform": "bilibili",
+          "official_mid": "1636034895",
+          "dynamic_url": "https://www.bilibili.com/video/BV1nuyWz8Eji"
+        }
+      },
+      {
+        "id": "endfield:BV1NgsB67EYH",
+        "game_name": "明日方舟：终末地",
+        "game_key": "endfield",
+        "category": "preview_program",
+        "category_label": "版本前瞻",
+        "title": "新章揭幕，火种未熄。《明日方舟：终末地》全新版本&2.0揭幕前瞻特别节目即将于11月21日19:30播出。",
+        "description": "新章揭幕，火种未熄。\n《明日方舟：终末地》全新版本&2.0揭幕前瞻特别节目即将于11月21日19:30播出。",
+        "version": null,
+        "bvid": "BV1NgsB67EYH",
+        "published_at": "2026-11-20T04:02:29.000Z",
+        "duration": "00:17",
+        "url": "https://www.bilibili.com/video/BV1NgsB67EYH",
+        "player_url": "https://player.bilibili.com/player.html?bvid=BV1NgsB67EYH",
+        "poster_url": "img/22e72faa2a522119.jpg",
+        "source": {
+          "platform": "bilibili",
+          "official_mid": "1265652806",
+          "dynamic_url": "https://www.bilibili.com/video/BV1NgsB67EYH"
+        }
+      },
+      {
+        "id": "endfield:BV1mPs46QEtr",
+        "game_name": "明日方舟：终末地",
+        "game_key": "endfield",
+        "category": "preview_program",
+        "category_label": "版本前瞻",
+        "title": "“小刻这里有好吃的蜜饼，这一块是特别留给管理员的！”《明日方舟：终末地》全新版本&2.0揭幕前瞻特别节目即将于11月21日19:30播出。",
+        "description": "“小刻这里有好吃的蜜饼，这一块是特别留给管理员的！”\n《明日方舟：终末地》全新版本&2.0揭幕前瞻特别节目即将于11月21日19:30播出。",
+        "version": null,
+        "bvid": "BV1mPs46QEtr",
+        "published_at": "2026-11-19T04:01:00.000Z",
+        "duration": "00:16",
+        "url": "https://www.bilibili.com/video/BV1mPs46QEtr",
+        "player_url": "https://player.bilibili.com/player.html?bvid=BV1mPs46QEtr",
+        "poster_url": "img/1aa97e0e60b10ce9.jpg",
+        "source": {
+          "platform": "bilibili",
+          "official_mid": "1265652806",
+          "dynamic_url": "https://www.bilibili.com/video/BV1mPs46QEtr"
+        }
+      },
+      {
+        "id": "endfield:BV1Uis16kEnY",
+        "game_name": "明日方舟：终末地",
+        "game_key": "endfield",
+        "category": "preview_program",
+        "category_label": "版本前瞻",
+        "title": "时间于此停滞，蘑境悄然生长。《明日方舟：终末地》全新版本&2.0揭幕前瞻特别节目即将于11月21日19:30播出。",
+        "description": "时间于此停滞，蘑境悄然生长。\n《明日方舟：终末地》全新版本&2.0揭幕前瞻特别节目即将于11月21日19:30播出。",
+        "version": null,
+        "bvid": "BV1Uis16kEnY",
+        "published_at": "2026-11-18T04:02:20.000Z",
+        "duration": "00:16",
+        "url": "https://www.bilibili.com/video/BV1Uis16kEnY",
+        "player_url": "https://player.bilibili.com/player.html?bvid=BV1Uis16kEnY",
+        "poster_url": "img/b05bfbac05f4ad96.jpg",
+        "source": {
+          "platform": "bilibili",
+          "official_mid": "1265652806",
+          "dynamic_url": "https://www.bilibili.com/video/BV1Uis16kEnY"
+        }
+      },
+      {
+        "id": "genshin:BV1oiWi6oEqR",
+        "game_name": "原神",
+        "game_key": "genshin",
+        "category": "short_film",
+        "category_label": "动画短片",
+        "title": "《原神》过场动画-「高天的门扉」",
+        "description": "似乎是认可了众人的答卷，高天为他们打开了通向终幕的门扉。\n只是高天为他们准备的答案，又能获得谁的认可呢。\n\n《原神》bilibili服下载地址： https://www.biligame.com/detail/?id=103496",
+        "version": null,
+        "bvid": "BV1oiWi6oEqR",
+        "published_at": "2026-11-15T04:00:12.000Z",
+        "duration": "00:52",
+        "url": "https://www.bilibili.com/video/BV1oiWi6oEqR",
+        "player_url": "https://player.bilibili.com/player.html?bvid=BV1oiWi6oEqR",
+        "poster_url": "img/f086f1a9f2ff53d8.jpg",
+        "source": {
+          "platform": "bilibili",
+          "official_mid": "401742377",
+          "dynamic_url": "https://www.bilibili.com/video/BV1oiWi6oEqR"
+        }
+      },
+      {
+        "id": "genshin:BV1jiWi6dEQg",
+        "game_name": "原神",
+        "game_key": "genshin",
+        "category": "promotional_pv",
+        "category_label": "宣传影像",
+        "title": "《原神》剧情PV-「被赋予的慈爱」",
+        "description": "神降下它能带来的慈爱，为世间众生解除万千的苦痛。\n直到有人问出：慈爱来源于何处？苦痛又因何而生？\n \n中文CV：\n安娜丝塔夏·费奥多罗夫娜·雪奈茨娜娅——刘校妤\n\n日文CV：\n安娜丝塔夏·费奥多罗夫娜·雪奈茨娜娅——户松遥\n\n《原神》bilibili服下载地址： https://www.biligame.com/detail/?id=103496",
+        "version": null,
+        "bvid": "BV1jiWi6dEQg",
+        "published_at": "2026-11-14T04:00:18.000Z",
+        "duration": "08:38",
+        "url": "https://www.bilibili.com/video/BV1jiWi6dEQg",
+        "player_url": "https://player.bilibili.com/player.html?bvid=BV1jiWi6dEQg",
+        "poster_url": "img/5fedaa60c8127d89.jpg",
+        "source": {
+          "platform": "bilibili",
+          "official_mid": "401742377",
+          "dynamic_url": "https://www.bilibili.com/video/BV1jiWi6dEQg"
+        }
+      },
+      {
+        "id": "genshin:BV1zTWd6EE6o",
+        "game_name": "原神",
+        "game_key": "genshin",
+        "category": "short_film",
+        "category_label": "动画短片",
+        "title": "《原神》过场动画-「雷与永恒」",
+        "description": "面对不可理喻的个体，没有对话的必要。\n通过「梦想一心」，她为天理带去了「永恒」的答案。\n\n中文CV：\n影——菊花花\n\n日文CV：\n影——泽城美雪\n\n《原神》bilibili服下载地址： https://www.biligame.com/detail/?id=103496",
+        "version": null,
+        "bvid": "BV1zTWd6EE6o",
+        "published_at": "2026-11-13T04:00:10.000Z",
+        "duration": "05:45",
+        "url": "https://www.bilibili.com/video/BV1zTWd6EE6o",
+        "player_url": "https://player.bilibili.com/player.html?bvid=BV1zTWd6EE6o",
+        "poster_url": "img/e3eebea8c5d4918a.jpg",
+        "source": {
+          "platform": "bilibili",
+          "official_mid": "401742377",
+          "dynamic_url": "https://www.bilibili.com/video/BV1zTWd6EE6o"
+        }
+      },
+      {
+        "id": "genshin:BV1aTWm6jEL8",
+        "game_name": "原神",
+        "game_key": "genshin",
+        "category": "short_film",
+        "category_label": "动画短片",
+        "title": "《原神》过场动画-「岩与契约」",
+        "description": "随着象征契约的摩拉在契约之神手中凝成，璃月的试炼已然通过。\n以此为始，判罚之钉的符号消失了第一枚。\n \n中文CV：\n钟离——彭博\n空——鹿喑\n派蒙——多多\n\n日文CV：\n钟离——前野智昭\n空——堀江瞬\n派蒙——古贺葵\n\n《原神》bilibili服下载地址： https://www.biligame.com/detail/?id=103496",
+        "version": null,
+        "bvid": "BV1aTWm6jEL8",
+        "published_at": "2026-11-12T04:00:10.000Z",
+        "duration": "06:05",
+        "url": "https://www.bilibili.com/video/BV1aTWm6jEL8",
+        "player_url": "https://player.bilibili.com/player.html?bvid=BV1aTWm6jEL8",
+        "poster_url": "img/4823a669677791df.jpg",
+        "source": {
+          "platform": "bilibili",
+          "official_mid": "401742377",
+          "dynamic_url": "https://www.bilibili.com/video/BV1aTWm6jEL8"
+        }
+      },
+      {
+        "id": "hsr:BV1gHWg6GEqj",
+        "game_name": "崩坏：星穹铁道",
+        "game_key": "hsr",
+        "category": "short_film",
+        "category_label": "动画短片",
+        "title": "《崩坏：星穹铁道》动画短片：「月下的欢快葬礼」",
+        "description": "遥遥致意，远道而来的客人，\n \n「何不尝试，再次开始一场游戏，再次品味其中痛苦，再次为其无情而颤动，再次在内心的地狱徘徊，往返多次，然后你终将会将这游戏玩得更好，也终将学会笑。」\n \n不欢迎你的，阿哈\n \n※建议体验4.7版本开拓任务后观看本视频。\n \n中文CV：\n星神★阿哈——子音\n另一个开拓者——秦且歌、陈婷婷\n \n日文CV：\n星神★阿哈——户松遥\n另一个开拓者——榎木淳弥、石川由依\n \n英文CV：\n星神★阿哈——Amber Lee Connors\n另一个开拓者——Shaun Mendum、Chloe",
+        "version": null,
+        "bvid": "BV1gHWg6GEqj",
+        "published_at": "2026-11-11T04:00:12.000Z",
+        "duration": "25:00",
+        "url": "https://www.bilibili.com/video/BV1gHWg6GEqj",
+        "player_url": "https://player.bilibili.com/player.html?bvid=BV1gHWg6GEqj",
+        "poster_url": "img/770951d8f37d9c5b.jpg",
+        "source": {
+          "platform": "bilibili",
+          "official_mid": "1340190821",
+          "dynamic_url": "https://www.bilibili.com/video/BV1gHWg6GEqj"
+        }
+      },
+      {
+        "id": "hsr:BV1ShWx6nEp8",
+        "game_name": "崩坏：星穹铁道",
+        "game_key": "hsr",
+        "category": "preview_program",
+        "category_label": "版本前瞻",
+        "title": "《崩坏：星穹铁道》走近星穹——「货币战争•入画奇航」特别节目",
+        "description": "号外号外！「苍天航路绒绒号」即将与「货币战争」展开深度合作！\n绒绒号伙伴强势加入「货币战争」，搭配全新「主角光环」与全新调整的角色、装备与羁绊，带来全新的游玩体验！\n欲知更多详情，还请关注本期的《走近星穹》特别节目！\n \n※画面演示具体数值与机制仅供参考，请开拓者以上线版本为准。\n \n中文CV：\n叽米——刘北辰\n真珠——苏婉\n虚照——子音\n绯英——溯浔",
+        "version": null,
+        "bvid": "BV1ShWx6nEp8",
+        "published_at": "2026-11-10T04:00:13.000Z",
+        "duration": "11:02",
+        "url": "https://www.bilibili.com/video/BV1ShWx6nEp8",
+        "player_url": "https://player.bilibili.com/player.html?bvid=BV1ShWx6nEp8",
+        "poster_url": "img/3338aaf10a8f4a44.jpg",
+        "source": {
+          "platform": "bilibili",
+          "official_mid": "1340190821",
+          "dynamic_url": "https://www.bilibili.com/video/BV1ShWx6nEp8"
+        }
+      },
+      {
+        "id": "yh:BV1PWxT6cE4E",
+        "game_name": "异环",
+        "game_key": "yh",
+        "category": "short_film",
+        "category_label": "动画短片",
+        "title": "《异环》特别剧情短片丨X+Y=10KB世界",
+        "description": "超自然都市开放世界RPG《异环》全新版本「致电，空想迷数」现已开启！立刻下载>>>https://www.biligame.com/detail/?id=111795\n\n和「住在电脑里的你」一起玩，是超乎我想象的最有趣的事了！\n欢声笑语间携手闯关！一切尽在屏幕之内，想怎么乱来都可以，开心就好啦~\n秘密基地中自由自在的缤纷时光，统统刻入档案，留作我们彼此永远的宝物吧！\n——所以，游戏的全流程……直到结局的每一点一滴，都必须好好保存记录才行喔。",
+        "version": null,
+        "bvid": "BV1PWxT6cE4E",
+        "published_at": "2026-11-06T03:00:01.000Z",
+        "duration": "15:47",
+        "url": "https://www.bilibili.com/video/BV1PWxT6cE4E",
+        "player_url": "https://player.bilibili.com/player.html?bvid=BV1PWxT6cE4E",
+        "poster_url": "img/bc3562787933c4b5.jpg",
+        "source": {
+          "platform": "bilibili",
+          "official_mid": "3546636978489848",
+          "dynamic_url": "https://www.bilibili.com/video/BV1PWxT6cE4E"
+        }
+      },
+      {
+        "id": "yh:BV1NWxT6cEWk",
+        "game_name": "异环",
+        "game_key": "yh",
+        "category": "character_pv",
+        "category_label": "角色 PV",
+        "title": "《异环》曳尔沐角色PV丨我们重归于好",
+        "description": "从遥远的梦中浮现新的回忆。\n\n发生未知记术故障。\n如果您需要帮住，请联系技术支持人员。\n远程空制已激活。\n系统已重启，运行状态良号。\n\n超自然都市开放世界RPG《异环》全新版本「致电，空想迷数」将于11月5日更新后正式开启！预下载现已开启！>>>https://www.biligame.com/detail/?id=111795",
+        "version": null,
+        "bvid": "BV1NWxT6cEWk",
+        "published_at": "2026-11-04T03:00:00.000Z",
+        "duration": "13:45",
+        "url": "https://www.bilibili.com/video/BV1NWxT6cEWk",
+        "player_url": "https://player.bilibili.com/player.html?bvid=BV1NWxT6cEWk",
+        "poster_url": "img/6f9e686493c60bcd.jpg",
+        "source": {
+          "platform": "bilibili",
+          "official_mid": "3546636978489848",
+          "dynamic_url": "https://www.bilibili.com/video/BV1NWxT6cEWk"
+        }
+      }
+    ]
+  },
+  "news": [
+    {
+      "id": "1273363318307815427",
+      "game_key": "yh",
+      "game_name": "异环",
+      "published_at": "2026-11-22T03:00:01.000Z",
+      "url": "https://www.bilibili.com/video/BV1Nbsq6LE4G",
+      "source_mid": "3546636978489848",
+      "source_name": "异环",
+      "images": [],
+      "type": "video",
+      "title": "《异环》角色实机战斗丨Exe",
+      "summary": "超自然都市开放世界RPG《异环》全新版本「致电，空想迷数」现已开启！立刻下载>>>https://www.biligame.com/detail/?id=111795\n\n「权限解锁，开始寻找解法。」",
+      "bvid": "BV1Nbsq6LE4G",
+      "cover": "https://i2.hdslb.com/bfs/archive/c032b98bf4ce82836ac72519de0e68bb7b2bdb6a.jpg",
+      "duration": "06:05"
+    },
+    {
+      "id": "1273142986500210768",
+      "game_key": "endfield",
+      "game_name": "明日方舟：终末地",
+      "published_at": "2026-11-21T12:45:01.000Z",
+      "url": "https://www.bilibili.com/video/BV1pvyhzdER5",
+      "source_mid": "1265652806",
+      "source_name": "明日方舟终末地",
+      "images": [],
+      "type": "video",
+      "title": "《明日方舟：终末地》「全新版本&2.0揭幕前瞻」特别节目回顾",
+      "summary": "《明日方舟：终末地》「全新版本&2.0揭幕前瞻」特别节目现已结束，感谢管理员的观看。\n为了方便管理员更快捷地了解新版本内容，我们已上线【新版本导览】专题网页。浏览网页并点击领取奖励，即可获得嵌晶玉×1000，折金票×10000，初级认知载体×8，武器检查套组×4。\n\n管理员可以通过下方链接、前瞻特别节目中的二维码，或者游戏内邮件、游戏内公告、官方自媒体账号等方式进入【新版本导览】专题网页。\n>>点击前往：https://b23.tv/tY0Y0hP\n\n未来我们也会在官方自媒体账号陆续更新《明日方舟：终末地",
+      "bvid": "BV1pvyhzdER5",
+      "cover": "https://i1.hdslb.com/bfs/archive/fa5eb58bbe92b733402d839102f8de2da3946aba.jpg",
+      "duration": "01:01:59"
+    },
+    {
+      "id": "1273140409531367493",
+      "game_key": "endfield",
+      "game_name": "明日方舟：终末地",
+      "published_at": "2026-11-21T12:35:01.000Z",
+      "url": "https://www.bilibili.com/video/BV1MMyazPEKy",
+      "source_mid": "1265652806",
+      "source_name": "明日方舟终末地",
+      "images": [],
+      "type": "video",
+      "title": "《明日方舟：终末地》特别映像「基石」",
+      "summary": "新生的文明迟早会认清现实——造物从不具备造主的视野。",
+      "bvid": "BV1MMyazPEKy",
+      "cover": "https://i1.hdslb.com/bfs/archive/bd5cb516b96b19247e46491b4b457f48a032776b.jpg",
+      "duration": "03:12"
+    },
+    {
+      "id": "1273136548346331144",
+      "game_key": "endfield",
+      "game_name": "明日方舟：终末地",
+      "published_at": "2026-11-21T12:20:02.000Z",
+      "url": "https://www.bilibili.com/video/BV1yGyaz8EXM",
+      "source_mid": "1265652806",
+      "source_name": "明日方舟终末地",
+      "images": [],
+      "type": "video",
+      "title": "《明日方舟：终末地》干员影像-「群像：信号预联」",
+      "summary": "混沌开始浸染秩序，生灵不愿染上污浊，我们正站在命运的岔路前。\n但这一次，你不必独行。",
+      "bvid": "BV1yGyaz8EXM",
+      "cover": "https://i2.hdslb.com/bfs/archive/85823f839b0d3f319839ef76863d7e2d96c56ade.jpg",
+      "duration": "02:22"
+    },
+    {
+      "id": "1273124951938826248",
+      "game_key": "endfield",
+      "game_name": "明日方舟：终末地",
+      "published_at": "2026-11-21T11:35:02.000Z",
+      "url": "https://www.bilibili.com/video/BV1nHyazWEDV",
+      "source_mid": "1265652806",
+      "source_name": "明日方舟终末地",
+      "images": [],
+      "type": "video",
+      "title": "《明日方舟：终末地》「穿越甚大蘑境与你相逢」版本PV",
+      "summary": "【蜜饼·使用说明】\n适应症：暴躁蘑菇撸起袖子要揍你、协议采录桩跟你打招呼、自己头顶悄悄长出了菌盖等幻觉症状。\n用法用量：对准脑门，一次一块，用力扔出。\n不良反应：清醒后可能会懵上一小会儿，本品概不负责。\n\n咔嚓一口，美梦醒来——\n“神秘蘑菇追人事件”调查启动！冒险堂堂开场——这就去会会那群蘑菇╭(′▽‵)╯！",
+      "bvid": "BV1nHyazWEDV",
+      "cover": "https://i0.hdslb.com/bfs/archive/47cbc4bc40fe8100b7014a2e87c93415ea47e90f.jpg",
+      "duration": "18:21"
+    },
+    {
+      "id": "1273069701443878962",
+      "game_key": "endfield",
+      "game_name": "明日方舟：终末地",
+      "published_at": "2026-11-21T08:00:38.000Z",
+      "url": "https://www.bilibili.com/opus/1273069701443878962",
+      "source_mid": "1265652806",
+      "source_name": "明日方舟终末地",
+      "images": [],
+      "type": "forward",
+      "title": "「全新版本&2.0揭幕前瞻」特别节目即将于2026年11月21日（今日）19:30开始。管理员，敬请期待。",
+      "summary": "「全新版本&2.0揭幕前瞻」特别节目即将于2026年11月21日（今日）19:30开始。管理员，敬请期待。"
+    },
+    {
+      "id": "1273007819588632665",
+      "game_key": "zzz",
+      "game_name": "绝区零",
+      "published_at": "2026-11-21T04:00:30.000Z",
+      "url": "https://www.bilibili.com/video/BV1S4yhzcEgW",
+      "source_mid": "1636034895",
+      "source_name": "绝区零",
+      "images": [],
+      "type": "video",
+      "title": "《绝区零》第三季纪念回顾 | 新世界前夜",
+      "summary": "「是啊，一个错误，一场危机…」\n「一个从百年前的赫利俄斯机关开始，就已经存在的错误…」\n「和一个直到今天，才终于在罗斯凯利法…在整个新艾利都，即将爆发而出的危机。」\n \n—— 欢迎来到罗斯凯利法！——\n▼《绝区零》3.4版本「长日终尽」将于12月2日上线！\n3.4版本「决战于黎明之前」预约活动现已开启，参与版本预约&签到活动，共可领取640菲林！\n版本期间，登录即领联动限定S级代理人「知更鸟」及其养成材料，参与签到即可领取加密母带×10、菲林×1840、配饰：「帕姆」趴趴等奖励，参与活动还可免费领取邦布「",
+      "bvid": "BV1S4yhzcEgW",
+      "cover": "https://i1.hdslb.com/bfs/archive/69d6d79fd4cad883c512c752b671049b611ec785.jpg",
+      "duration": "14:19"
+    },
+    {
+      "id": "1272752616937357364",
+      "game_key": "zzz",
+      "game_name": "绝区零",
+      "published_at": "2026-11-20T11:30:11.000Z",
+      "url": "https://www.bilibili.com/video/BV1nuyWz8Eji",
+      "source_mid": "1636034895",
+      "source_name": "绝区零",
+      "images": [],
+      "type": "video",
+      "title": "《绝区零》3.4版本PV | 长日终尽",
+      "summary": "你所选择的命运，远比卡洛丝曾为你编排的…更加残酷。\n你与她…逐日者们的生死相搏，本就注定会将世界再度撕裂——正如他们所期望的那样。\n曾一度坠落的太阳之子啊，现在…该到你做出选择的时候了。\n \n—— 欢迎来到罗斯凯利法！——\n▼《绝区零》3.4版本「长日终尽」将于12月2日上线！\n3.4版本「决战于黎明之前」预约活动现已开启，参与版本预约&签到活动，可领取640菲林！\n版本期间，登录即领联动限定S级代理人「知更鸟」及其养成材料，参与签到即可领取加密母带×10、菲林×1840、配饰：「帕姆」趴趴等奖励，参与活",
+      "bvid": "BV1nuyWz8Eji",
+      "cover": "https://i2.hdslb.com/bfs/archive/bc3734511d7a3a28767ad739dcaee70303bac544.jpg",
+      "duration": "44:04"
+    },
+    {
+      "id": "1272637245517463556",
+      "game_key": "endfield",
+      "game_name": "明日方舟：终末地",
+      "published_at": "2026-11-20T04:02:29.000Z",
+      "url": "https://www.bilibili.com/video/BV1NgsB67EYH",
+      "source_mid": "1265652806",
+      "source_name": "明日方舟终末地",
+      "images": [],
+      "type": "video",
+      "title": "新章揭幕，火种未熄。《明日方舟：终末地》全新版本&2.0揭幕前瞻特别节目即将于11月21日19:30播出。",
+      "summary": "新章揭幕，火种未熄。\n《明日方舟：终末地》全新版本&2.0揭幕前瞻特别节目即将于11月21日19:30播出。",
+      "bvid": "BV1NgsB67EYH",
+      "cover": "https://i0.hdslb.com/bfs/archive/4e4a4cb9d495b1c9b2a732f7d157cff6dc073065.jpg",
+      "duration": "00:17"
+    },
+    {
+      "id": "1272636670003380229",
+      "game_key": "zzz",
+      "game_name": "绝区零",
+      "published_at": "2026-11-20T04:00:15.000Z",
+      "url": "https://www.bilibili.com/opus/1272636670003380229",
+      "source_mid": "1636034895",
+      "source_name": "绝区零",
+      "images": [],
+      "type": "forward",
+      "title": "《绝区零》3.4 版本「长日终尽」前瞻特别节目将于今晚18:30开启！",
+      "summary": "《绝区零》3.4 版本「长日终尽」前瞻特别节目将于今晚18:30开启！\n本期节目会带来「挽昼」、「卡芙卡」、「知更鸟」的最新情报披露。绳匠们，不见不散噢~"
+    },
+    {
+      "id": "1272265778051153961",
+      "game_key": "endfield",
+      "game_name": "明日方舟：终末地",
+      "published_at": "2026-11-19T04:01:00.000Z",
+      "url": "https://www.bilibili.com/video/BV1mPs46QEtr",
+      "source_mid": "1265652806",
+      "source_name": "明日方舟终末地",
+      "images": [],
+      "type": "video",
+      "title": "“小刻这里有好吃的蜜饼，这一块是特别留给管理员的！”《明日方舟：终末地》全新版本&2.0揭幕前瞻特别节目即将于11月21日19:30播出。",
+      "summary": "“小刻这里有好吃的蜜饼，这一块是特别留给管理员的！”\n《明日方舟：终末地》全新版本&2.0揭幕前瞻特别节目即将于11月21日19:30播出。",
+      "bvid": "BV1mPs46QEtr",
+      "cover": "https://i1.hdslb.com/bfs/archive/1a97b8761a9d75e15bed56cdaba218837bfa67c3.jpg",
+      "duration": "00:16"
+    },
+    {
+      "id": "1271895036521349153",
+      "game_key": "endfield",
+      "game_name": "明日方舟：终末地",
+      "published_at": "2026-11-18T04:02:20.000Z",
+      "url": "https://www.bilibili.com/video/BV1Uis16kEnY",
+      "source_mid": "1265652806",
+      "source_name": "明日方舟终末地",
+      "images": [],
+      "type": "video",
+      "title": "时间于此停滞，蘑境悄然生长。《明日方舟：终末地》全新版本&2.0揭幕前瞻特别节目即将于11月21日19:30播出。",
+      "summary": "时间于此停滞，蘑境悄然生长。\n《明日方舟：终末地》全新版本&2.0揭幕前瞻特别节目即将于11月21日19:30播出。",
+      "bvid": "BV1Uis16kEnY",
+      "cover": "https://i2.hdslb.com/bfs/archive/39a000beaa0a658b52f9f7951830e48eda717094.jpg",
+      "duration": "00:16"
+    },
+    {
+      "id": "1270781231204663297",
+      "game_key": "genshin",
+      "game_name": "原神",
+      "published_at": "2026-11-15T04:00:12.000Z",
+      "url": "https://www.bilibili.com/video/BV1oiWi6oEqR",
+      "source_mid": "401742377",
+      "source_name": "原神",
+      "images": [],
+      "type": "video",
+      "title": "《原神》过场动画-「高天的门扉」",
+      "summary": "似乎是认可了众人的答卷，高天为他们打开了通向终幕的门扉。\n只是高天为他们准备的答案，又能获得谁的认可呢。\n\n《原神》bilibili服下载地址： https://www.biligame.com/detail/?id=103496",
+      "bvid": "BV1oiWi6oEqR",
+      "cover": "https://i0.hdslb.com/bfs/archive/de50b38b4821bdd4294fca0239ee4b34b7dc70b6.jpg",
+      "duration": "00:52"
+    },
+    {
+      "id": "1270410171844132901",
+      "game_key": "genshin",
+      "game_name": "原神",
+      "published_at": "2026-11-14T04:00:18.000Z",
+      "url": "https://www.bilibili.com/video/BV1jiWi6dEQg",
+      "source_mid": "401742377",
+      "source_name": "原神",
+      "images": [],
+      "type": "video",
+      "title": "《原神》剧情PV-「被赋予的慈爱」",
+      "summary": "神降下它能带来的慈爱，为世间众生解除万千的苦痛。\n直到有人问出：慈爱来源于何处？苦痛又因何而生？\n \n中文CV：\n安娜丝塔夏·费奥多罗夫娜·雪奈茨娜娅——刘校妤\n\n日文CV：\n安娜丝塔夏·费奥多罗夫娜·雪奈茨娜娅——户松遥\n\n《原神》bilibili服下载地址： https://www.biligame.com/detail/?id=103496",
+      "bvid": "BV1jiWi6dEQg",
+      "cover": "https://i2.hdslb.com/bfs/archive/109430d5f063be93576b5d38e529985786683183.jpg",
+      "duration": "08:38"
+    },
+    {
+      "id": "1270039052295340082",
+      "game_key": "genshin",
+      "game_name": "原神",
+      "published_at": "2026-11-13T04:00:10.000Z",
+      "url": "https://www.bilibili.com/video/BV1zTWd6EE6o",
+      "source_mid": "401742377",
+      "source_name": "原神",
+      "images": [],
+      "type": "video",
+      "title": "《原神》过场动画-「雷与永恒」",
+      "summary": "面对不可理喻的个体，没有对话的必要。\n通过「梦想一心」，她为天理带去了「永恒」的答案。\n\n中文CV：\n影——菊花花\n\n日文CV：\n影——泽城美雪\n\n《原神》bilibili服下载地址： https://www.biligame.com/detail/?id=103496",
+      "bvid": "BV1zTWd6EE6o",
+      "cover": "https://i1.hdslb.com/bfs/archive/21dfc7af92a30f03a00aeed2f9338f65d7e49379.jpg",
+      "duration": "05:45"
+    },
+    {
+      "id": "1270024586800398375",
+      "game_key": "genshin",
+      "game_name": "原神",
+      "published_at": "2026-11-13T03:04:02.000Z",
+      "url": "https://www.bilibili.com/opus/1270024586800398375",
+      "source_mid": "401742377",
+      "source_name": "原神",
+      "images": [],
+      "type": "forward",
+      "title": "亲爱的旅行者，「原神千星奇域×乐游上海」特别联动关卡现已正式上线！",
+      "summary": "亲爱的旅行者，「原神千星奇域×乐游上海」特别联动关卡现已正式上线！"
+    },
+    {
+      "id": "1269675668000473120",
+      "game_key": "endfield",
+      "game_name": "明日方舟：终末地",
+      "published_at": "2026-11-12T04:30:03.000Z",
+      "url": "https://www.bilibili.com/video/BV1ACWU6rEmF",
+      "source_mid": "1265652806",
+      "source_name": "明日方舟终末地",
+      "images": [],
+      "type": "video",
+      "title": "铁痕电台游离信号 | 离离剑上尘",
+      "summary": "这里是铁痕电台。错误的频道，正确的质感。\n还真收到我们的信号了？看来画出这个世界的人还舍不得把音乐擦掉。",
+      "bvid": "BV1ACWU6rEmF",
+      "cover": "https://i1.hdslb.com/bfs/archive/22a3c55cdde15f3299c5efab437f537098348c79.jpg",
+      "duration": "08:18"
+    },
+    {
+      "id": "1269667967082168340",
+      "game_key": "genshin",
+      "game_name": "原神",
+      "published_at": "2026-11-12T04:00:10.000Z",
+      "url": "https://www.bilibili.com/video/BV1aTWm6jEL8",
+      "source_mid": "401742377",
+      "source_name": "原神",
+      "images": [],
+      "type": "video",
+      "title": "《原神》过场动画-「岩与契约」",
+      "summary": "随着象征契约的摩拉在契约之神手中凝成，璃月的试炼已然通过。\n以此为始，判罚之钉的符号消失了第一枚。\n \n中文CV：\n钟离——彭博\n空——鹿喑\n派蒙——多多\n\n日文CV：\n钟离——前野智昭\n空——堀江瞬\n派蒙——古贺葵\n\n《原神》bilibili服下载地址： https://www.biligame.com/detail/?id=103496",
+      "bvid": "BV1aTWm6jEL8",
+      "cover": "https://i0.hdslb.com/bfs/archive/a54099d8519c96d6e506cfabe34c7773549ab0db.jpg",
+      "duration": "06:05"
+    },
+    {
+      "id": "1269667949910687785",
+      "game_key": "hsr",
+      "game_name": "崩坏：星穹铁道",
+      "published_at": "2026-11-12T04:00:06.000Z",
+      "url": "https://www.bilibili.com/video/BV1nEWu6xEyq",
+      "source_mid": "1340190821",
+      "source_name": "崩坏星穹铁道",
+      "images": [],
+      "type": "video",
+      "title": "《崩坏：星穹铁道》EP：「无中生有」",
+      "summary": "当第一声「阿哈」响起，「欢愉」将再度诞生。\n在虚与实的边缘起舞吧，今夜，奇迹将由众生缔造！",
+      "bvid": "BV1nEWu6xEyq",
+      "cover": "https://i0.hdslb.com/bfs/archive/e846ede98eb27b98a77c8746591e4be4b2a9b993.jpg",
+      "duration": "03:40"
+    },
+    {
+      "id": "1269660459520229385",
+      "game_key": "genshin",
+      "game_name": "原神",
+      "published_at": "2026-11-12T03:31:02.000Z",
+      "url": "https://www.bilibili.com/video/BV1xtWQ6EEuv",
+      "source_mid": "401742377",
+      "source_name": "原神",
+      "images": [],
+      "type": "forward",
+      "title": "星境奇景·沪上奇缘 | 欢迎大家来到上海",
+      "summary": "亲爱的旅行者，「原神千星奇域×乐游上海」特别联动关卡将于11月13日正式上线！\n#原神# #原神千星奇域# #千星奇域沪上奇景#\n星境奇景·沪上奇缘 | 欢迎大家来到上海\n「原神千星奇域×乐游上海」特别联动关卡将于11月13日正式上线！\n一起跟随镜头穿行奇域，提前领略独特的沪上风光吧~！\n\n*展示关卡均为创作者作品，最终游玩体验请以奇域内实机表现为准。",
+      "bvid": "BV1xtWQ6EEuv",
+      "cover": "https://i2.hdslb.com/bfs/archive/e20621bdc763618902003068f3a0526ca5651ce0.jpg"
+    },
+    {
+      "id": "1269637666125643779",
+      "game_key": "hsr",
+      "game_name": "崩坏：星穹铁道",
+      "published_at": "2026-11-12T02:02:35.000Z",
+      "url": "https://www.bilibili.com/opus/1269637666125643779",
+      "source_mid": "1340190821",
+      "source_name": "崩坏星穹铁道",
+      "images": [],
+      "type": "forward",
+      "title": "#崩坏星穹铁道# #歌曲无中生有# #星穹铁道音乐# ",
+      "summary": "#崩坏星穹铁道# #歌曲无中生有# #星穹铁道音乐# \n「二相乐园」全新音乐专辑「神说要有笑（下篇）」现已正式上线。专辑包含与「贪欢的神颅」的战斗背景音乐《无中生有 Ex Nihilo》。\n各位开拓者前往音乐平台搜索「无中生有」即可收听~"
+    },
+    {
+      "id": "1269390091331043337",
+      "game_key": "hsr",
+      "game_name": "崩坏：星穹铁道",
+      "published_at": "2026-11-11T10:01:52.000Z",
+      "url": "https://www.bilibili.com/video/BV1gyW16VE28",
+      "source_mid": "1340190821",
+      "source_name": "崩坏星穹铁道",
+      "images": [],
+      "type": "forward",
+      "title": "《崩坏：星穹铁道》星旅一瞬：「皆大欢喜！」",
+      "summary": "「欢愉」的即兴巡演，无处不在[崩坏：星穹铁道_打招呼]\n#崩坏星穹铁道# #星穹铁道星神阿哈# 《崩坏：星穹铁道》星旅一瞬：「皆大欢喜！」\n\n全宇宙是一个舞台，\n每个人不过都是演员，\n他们有时下场，有时上场，\n有时扮演多个角色，\n直到演出结束，然后\n像你期待的那样宣布——\n「欢愉」——永不谢幕！\n全宇宙是一个舞台，\n每个人不过都是演员，\n他们有时下场，有时上场，\n有时扮演多个角色，\n直到演出结束，然后\n像你期待的那样宣布——\n「欢愉」——永不谢幕！",
+      "bvid": "BV1gyW16VE28",
+      "cover": "https://i2.hdslb.com/bfs/archive/842bf0054c038790d00c1cde7deee67a71738eb4.jpg"
+    },
+    {
+      "id": "1269296890535477319",
+      "game_key": "hsr",
+      "game_name": "崩坏：星穹铁道",
+      "published_at": "2026-11-11T04:00:12.000Z",
+      "url": "https://www.bilibili.com/video/BV1gHWg6GEqj",
+      "source_mid": "1340190821",
+      "source_name": "崩坏星穹铁道",
+      "images": [],
+      "type": "video",
+      "title": "《崩坏：星穹铁道》动画短片：「月下的欢快葬礼」",
+      "summary": "遥遥致意，远道而来的客人，\n \n「何不尝试，再次开始一场游戏，再次品味其中痛苦，再次为其无情而颤动，再次在内心的地狱徘徊，往返多次，然后你终将会将这游戏玩得更好，也终将学会笑。」\n \n不欢迎你的，阿哈\n \n※建议体验4.7版本开拓任务后观看本视频。\n \n中文CV：\n星神★阿哈——子音\n另一个开拓者——秦且歌、陈婷婷\n \n日文CV：\n星神★阿哈——户松遥\n另一个开拓者——榎木淳弥、石川由依\n \n英文CV：\n星神★阿哈——Amber Lee Connors\n另一个开拓者——Shaun Mendum、Chloe",
+      "bvid": "BV1gHWg6GEqj",
+      "cover": "https://i2.hdslb.com/bfs/archive/c0a5a017af42394c23881e80777d9554d45de1fc.jpg",
+      "duration": "25:00"
+    },
+    {
+      "id": "1268978032148742153",
+      "game_key": "yh",
+      "game_name": "异环",
+      "published_at": "2026-11-10T07:22:52.000Z",
+      "url": "https://www.bilibili.com/opus/1268978032148742153",
+      "source_mid": "3546636978489848",
+      "source_name": "异环",
+      "images": [],
+      "type": "forward",
+      "title": "#异环曳尔沐# #致电空想迷数# #异环#",
+      "summary": "#异环曳尔沐# #致电空想迷数# #异环#\n感谢各位鉴定师对同人创作的热情支持~~~[打call][打call][打call]"
+    },
+    {
+      "id": "1268925809630904345",
+      "game_key": "hsr",
+      "game_name": "崩坏：星穹铁道",
+      "published_at": "2026-11-10T04:00:13.000Z",
+      "url": "https://www.bilibili.com/video/BV1ShWx6nEp8",
+      "source_mid": "1340190821",
+      "source_name": "崩坏星穹铁道",
+      "images": [],
+      "type": "video",
+      "title": "《崩坏：星穹铁道》走近星穹——「货币战争•入画奇航」特别节目",
+      "summary": "号外号外！「苍天航路绒绒号」即将与「货币战争」展开深度合作！\n绒绒号伙伴强势加入「货币战争」，搭配全新「主角光环」与全新调整的角色、装备与羁绊，带来全新的游玩体验！\n欲知更多详情，还请关注本期的《走近星穹》特别节目！\n \n※画面演示具体数值与机制仅供参考，请开拓者以上线版本为准。\n \n中文CV：\n叽米——刘北辰\n真珠——苏婉\n虚照——子音\n绯英——溯浔",
+      "bvid": "BV1ShWx6nEp8",
+      "cover": "https://i1.hdslb.com/bfs/archive/ac0138de3139a0215b48b28c870fed3a7ffcf19e.jpg",
+      "duration": "11:02"
+    },
+    {
+      "id": "1267425955549282310",
+      "game_key": "yh",
+      "game_name": "异环",
+      "published_at": "2026-11-06T03:00:01.000Z",
+      "url": "https://www.bilibili.com/video/BV1PWxT6cE4E",
+      "source_mid": "3546636978489848",
+      "source_name": "异环",
+      "images": [],
+      "type": "video",
+      "title": "《异环》特别剧情短片丨X+Y=10KB世界",
+      "summary": "超自然都市开放世界RPG《异环》全新版本「致电，空想迷数」现已开启！立刻下载>>>https://www.biligame.com/detail/?id=111795\n\n和「住在电脑里的你」一起玩，是超乎我想象的最有趣的事了！\n欢声笑语间携手闯关！一切尽在屏幕之内，想怎么乱来都可以，开心就好啦~\n秘密基地中自由自在的缤纷时光，统统刻入档案，留作我们彼此永远的宝物吧！\n——所以，游戏的全流程……直到结局的每一点一滴，都必须好好保存记录才行喔。",
+      "bvid": "BV1PWxT6cE4E",
+      "cover": "https://i1.hdslb.com/bfs/archive/7b60bbdffeddb3fc157d1afced012ec224d83c27.jpg",
+      "duration": "15:47"
+    },
+    {
+      "id": "1267054866055823364",
+      "game_key": "yh",
+      "game_name": "异环",
+      "published_at": "2026-11-05T03:00:00.000Z",
+      "url": "https://www.bilibili.com/video/BV1NWxT6cEEe",
+      "source_mid": "3546636978489848",
+      "source_name": "异环",
+      "images": [],
+      "type": "video",
+      "title": "《异环》曳尔沐EP丨Here we are again",
+      "summary": "超自然都市开放世界RPG《异环》全新版本「致电，空想迷数」现已开启！立刻下载>>>https://www.biligame.com/detail/?id=111795\n\n来吧和我一起奔跑\n穿过光 穿过雨\n只要你还记得我 老朋友",
+      "bvid": "BV1NWxT6cEEe",
+      "cover": "https://i2.hdslb.com/bfs/archive/4652825ecdf57531d8164f1b1552a9ba611fcad8.jpg",
+      "duration": "03:45"
+    },
+    {
+      "id": "1266683780878303257",
+      "game_key": "yh",
+      "game_name": "异环",
+      "published_at": "2026-11-04T03:00:00.000Z",
+      "url": "https://www.bilibili.com/video/BV1NWxT6cEWk",
+      "source_mid": "3546636978489848",
+      "source_name": "异环",
+      "images": [],
+      "type": "video",
+      "title": "《异环》曳尔沐角色PV丨我们重归于好",
+      "summary": "从遥远的梦中浮现新的回忆。\n\n发生未知记术故障。\n如果您需要帮住，请联系技术支持人员。\n远程空制已激活。\n系统已重启，运行状态良号。\n\n超自然都市开放世界RPG《异环》全新版本「致电，空想迷数」将于11月5日更新后正式开启！预下载现已开启！>>>https://www.biligame.com/detail/?id=111795",
+      "bvid": "BV1NWxT6cEWk",
+      "cover": "https://i0.hdslb.com/bfs/archive/9a7fce21216072d553a26558db8d88c24f14a4a1.jpg",
+      "duration": "13:45"
+    },
+    {
+      "id": "1266665746333696007",
+      "game_key": "genshin",
+      "game_name": "原神",
+      "published_at": "2026-11-04T01:50:01.000Z",
+      "url": "https://www.bilibili.com/opus/1266665746333696007",
+      "source_mid": "401742377",
+      "source_name": "原神",
+      "images": [],
+      "type": "forward",
+      "title": "旅行者们好呀~",
+      "summary": "旅行者们好呀~\n本期活动祈愿现已开启~"
+    },
+    {
+      "id": "1266329802540843040",
+      "game_key": "genshin",
+      "game_name": "原神",
+      "published_at": "2026-11-03T04:06:23.000Z",
+      "url": "https://www.bilibili.com/opus/1266329802540843040",
+      "source_mid": "401742377",
+      "source_name": "原神",
+      "images": [],
+      "type": "forward",
+      "title": "亲爱的旅行者，千星创作赛·拾光季将于11月4日正式启程！",
+      "summary": "亲爱的旅行者，千星创作赛·拾光季将于11月4日正式启程！"
+    }
+  ]
+}

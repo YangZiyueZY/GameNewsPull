@@ -1,0 +1,22 @@
+{
+  "name": "er-you-news",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "crawl": "tsx apps/crawler/src/index.ts",
+    "crawl:once": "tsx apps/crawler/src/index.ts --once",
+    "web:dev": "vite --config apps/web/vite.config.ts",
+    "web:build": "vite build --config apps/web/vite.config.ts",
+    "build": "npm run web:build"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "vite": "^6.1.0"
+  }
+}
