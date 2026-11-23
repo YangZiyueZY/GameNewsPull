@@ -68,13 +68,57 @@ export class BiliClient {
     return info;
   }
 
+  /**
+   * 拉取官方账号的动态流。
+   * 单一端点有被风控/参数变更的风险，失败时按变体重试：
+   *   ① features=itemOpusStyle（默认，Opus 结构最完整）
+   *   ② 不带 features
+   *   ③ 不带 features 且 type=all
+   * 三个变体都失败才抛错，避免一次参数变更导致整条数据管线停摆。
+   */
   async getDynamicFeed(mid: string, offset = ''): Promise<{ items: any[]; offset: string; hasMore: boolean }> {
-    const r = await this.getSigned<{ items: any[]; offset: string; has_more: boolean }>(
-      '/x/polymer/web-dynamic/v1/feed/space',
-      { host_mid: mid, timezone_offset: -480, features: 'itemOpusStyle', offset, type: '' }
+    const base = { host_mid: mid, timezone_offset: -480, offset };
+    const variants: Array<Record<string, string | number>> = [
+      { ...base, features: 'itemOpusStyle', type: '' },
+      { ...base, type: '' },
+      { ...base, type: 'all' },
+    ];
+    let lastError: unknown = null;
+    for (let i = 0; i < variants.length; i++) {
+      try {
+        const r = await this.getSigned<{ items: any[]; offset: string; has_more: boolean }>(
+          '/x/polymer/web-dynamic/v1/feed/space', variants[i]
+        );
+        if (r.code !== 0) throw new Error(`拉取动态失败 mid=${mid}: ${r.code} ${r.message}`);
+        return { items: r.data?.items || [], offset: r.data?.offset || '', hasMore: !!r.data?.has_more };
+      } catch (e: any) {
+        lastError = e;
+        if (i < variants.length - 1) {
+          console.warn(`[bili] 动态接口变体 ${i + 1} 失败（${e.message}），改用变体 ${i + 2} 重试`);
+          await new Promise(r => setTimeout(r, 600));
+        }
+      }
+    }
+    throw lastError instanceof Error ? lastError : new Error(`拉取动态失败 mid=${mid}: ${String(lastError)}`);
+  }
+
+  /**
+   * 投稿视频列表（/x/space/wbi/arc/search）。
+   * 作为端点级兜底与健康检查：动态接口挂掉时据此判断「账号/网络可达，只是动态接口不可用」。
+   */
+  async getSpaceVideos(mid: string, pageSize = 10): Promise<Array<{ bvid: string; title: string; created: number; cover: string }>> {
+    const r = await this.getSigned<{ list: { vlist: any[] } }>(
+      '/x/space/wbi/arc/search',
+      { mid, ps: pageSize, pn: 1, order: 'pubdate', index: 0, keyword: '', tid: 0 }
     );
-    if (r.code !== 0) throw new Error(`拉取动态失败 mid=${mid}: ${r.code} ${r.message}`);
-    return { items: r.data.items || [], offset: r.data.offset || '', hasMore: !!r.data.has_more };
+    if (r.code !== 0) throw new Error(`拉取投稿失败 mid=${mid}: ${r.code} ${r.message}`);
+    const list = r.data?.list?.vlist || [];
+    return list.map((v: any) => ({
+      bvid: v?.bvid || '',
+      title: v?.title || '',
+      created: Number(v?.created) || 0,
+      cover: v?.pic || '',
+    })).filter(v => v.bvid);
   }
 
   async getVideoInfo(bvid: string): Promise<any | null> {

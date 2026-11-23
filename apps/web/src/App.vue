@@ -85,7 +85,7 @@ function img(url?: string | null) {
               </div>
             </div>
             <div class="stats">
-              <div class="stat"><div>下个版本</div><div>{{ g.next_version }}</div></div>
+              <div class="stat"><div>下个节点</div><div>{{ g.next_version }}</div></div>
               <div class="stat"><div>距离更新</div><div :style="{color: g.days_to_next_version != null ? 'var(--primary)' : 'var(--muted)'}">{{ days(g.days_to_next_version) }}</div></div>
               <div class="stat"><div>已开启</div><div>{{ g.current_version_days }} 天</div></div>
             </div>

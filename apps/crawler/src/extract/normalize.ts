@@ -1,5 +1,12 @@
 import { tsToIso } from '../utils/datetime.ts';
 import type { GameConfig } from '../../config/games.ts';
+import {
+  readDynamicText,
+  readDynamicImages,
+  readDynamicTitle,
+  readDynamicOpusTitle,
+  toHttpsUrl,
+} from './opus.ts';
 
 export interface NewsItem {
   id: string;
@@ -18,14 +25,89 @@ export interface NewsItem {
   source_name: string;
 }
 
+const toHttps = (url: any): string | undefined => toHttpsUrl(url) || undefined;
+
+function normalizeVideo(item: any, game: GameConfig, author: any, dynamicUrl: string, publishedAt: string): NewsItem | null {
+  const arc = item?.modules?.module_dynamic?.major?.archive;
+  if (!arc) return null;
+  return {
+    id: String(item.id_str || item.id),
+    game_key: game.key,
+    game_name: game.name,
+    published_at: publishedAt,
+    url: toHttps(arc.jump_url) ?? dynamicUrl,
+    source_mid: game.mid,
+    source_name: author.name || game.name,
+    images: [],
+    type: 'video',
+    title: arc.title || '(无标题)',
+    summary: (arc.desc || '').slice(0, 500),
+    bvid: arc.bvid,
+    cover: toHttps(arc.cover),
+    duration: arc.duration_text,
+  };
+}
+
+function normalizeForward(item: any, game: GameConfig, author: any, dynamicUrl: string, publishedAt: string): NewsItem | null {
+  const orig = item.orig || {};
+  const origArchive = orig?.modules?.module_dynamic?.major?.archive;
+  // 转发者自己说的话（通常很短，或者只是抽奖结果）
+  const forwardText = (item?.modules?.module_dynamic?.desc?.text || '').trim();
+  // 被转发内容的正文：orig 已是 Opus 格式时必须走统一读取
+  const origText = readDynamicText(orig);
+  const title = origArchive?.title
+    || readDynamicTitle(orig)
+    || readDynamicText(item).split('\n')[0]
+    || forwardText.split('\n')[0]
+    || '转发动态';
+  const summary = [forwardText, origText, origArchive?.desc || ''].filter(Boolean).join('\n').slice(0, 800);
+  const images = readDynamicImages(orig);
+
+  if (!title && !summary && !images.length) return null;
+
+  return {
+    id: String(item.id_str || item.id),
+    game_key: game.key,
+    game_name: game.name,
+    published_at: publishedAt,
+    url: toHttps(origArchive?.jump_url) ?? dynamicUrl,
+    source_mid: game.mid,
+    source_name: author.name || game.name,
+    images,
+    type: 'forward',
+    title: title.length > 60 ? title.slice(0, 59) + '…' : title,
+    summary,
+    bvid: origArchive?.bvid,
+    cover: toHttps(origArchive?.cover),
+  };
+}
+
 export function normalizeDynamic(item: any, game: GameConfig): NewsItem | null {
-  const modules = item.modules || {};
+  const modules = item?.modules || {};
   const author = modules.module_author || {};
-  const dyn = modules.module_dynamic || {};
-  const pubTs = author.pub_ts || item.pub_ts;
+  const pubTs = author.pub_ts || item?.pub_ts;
   const publishedAt = pubTs ? tsToIso(pubTs) : new Date().toISOString();
-  const dynamicUrl = `https://www.bilibili.com/opus/${item.id_str || item.id}`;
-  const base = {
+  const dynamicUrl = `https://www.bilibili.com/opus/${item?.id_str || item?.id}`;
+
+  if (item?.type === 'DYNAMIC_TYPE_AV' || item?.type === 'DYNAMIC_TYPE_PGC') {
+    return normalizeVideo(item, game, author, dynamicUrl, publishedAt);
+  }
+
+  if (item?.type === 'DYNAMIC_TYPE_FORWARD') {
+    return normalizeForward(item, game, author, dynamicUrl, publishedAt);
+  }
+
+  // 图文动态：Opus（major.opus）与旧版 major.draw 统一读取，
+  // 只要 text 或 images 有一个非空就必须保留（旧实现只读 desc.text 导致整类丢失）。
+  const text = readDynamicText(item);
+  const images = readDynamicImages(item);
+  if (!text && !images.length) return null;
+
+  const title = readDynamicTitle(item)
+    || readDynamicOpusTitle(item)
+    || '[图片动态]';
+
+  return {
     id: String(item.id_str || item.id),
     game_key: game.key,
     game_name: game.name,
@@ -33,56 +115,10 @@ export function normalizeDynamic(item: any, game: GameConfig): NewsItem | null {
     url: dynamicUrl,
     source_mid: game.mid,
     source_name: author.name || game.name,
-    images: [] as string[],
-  };
-
-  if (item.type === 'DYNAMIC_TYPE_AV' || item.type === 'DYNAMIC_TYPE_PGC') {
-    const arc = dyn.major?.archive;
-    if (!arc) return null;
-    return {
-      ...base,
-      type: 'video',
-      title: arc.title || '(无标题)',
-      summary: (arc.desc || '').slice(0, 500),
-      bvid: arc.bvid,
-      cover: arc.cover?.replace(/^http:/, 'https:'),
-      duration: arc.duration_text,
-      url: arc.jump_url ? `https:${arc.jump_url}` : dynamicUrl,
-    };
-  }
-
-  if (item.type === 'DYNAMIC_TYPE_FORWARD') {
-    const orig = item.orig || {};
-    const origMods = orig.modules || {};
-    const origDyn = origMods.module_dynamic || {};
-    const forwardText = (dyn.desc?.text || '').trim();
-    const origText = (origDyn.desc?.text || '').trim();
-    const origArchive = origDyn.major?.archive;
-    const title = origArchive?.title || origText.split('\n')[0] || forwardText.split('\n')[0] || '转发动态';
-    const summary = [forwardText, origText, origArchive?.desc || ''].filter(Boolean).join('\n').slice(0, 800);
-    return {
-      ...base,
-      type: 'forward',
-      title: title.length > 60 ? title.slice(0, 60) + '…' : title,
-      summary,
-      bvid: origArchive?.bvid,
-      cover: origArchive?.cover?.replace(/^http:/, 'https:'),
-      url: origArchive?.jump_url ? `https:${origArchive.jump_url}` : dynamicUrl,
-      images: (origDyn.major?.draw?.items || []).map((i: any) => i.src?.replace(/^http:/, 'https:')).filter(Boolean),
-    };
-  }
-
-  const text = (dyn.desc?.text || '').trim();
-  const drawItems = dyn.major?.draw?.items || [];
-  const images = drawItems.map((i: any) => i.src?.replace(/^http:/, 'https:')).filter(Boolean);
-  if (!text && !images.length) return null;
-  const firstLine = text.split('\n').find((l: string) => l.trim())?.trim() || '[图片动态]';
-  return {
-    ...base,
-    type: 'dynamic',
-    title: firstLine.length > 60 ? firstLine.slice(0, 60) + '…' : firstLine,
-    summary: text.slice(0, 500),
     images,
+    type: 'dynamic',
+    title: title.length > 60 ? title.slice(0, 59) + '…' : title,
+    summary: text.slice(0, 500),
   };
 }
 

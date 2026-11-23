@@ -1,0 +1,62 @@
+{
+  "status": "ok",
+  "checked_at": "2026-11-23T16:16:17.150Z",
+  "stale_since": null,
+  "reason": null,
+  "games": [
+    {
+      "name": "原神",
+      "mid": "401742377",
+      "pages": 1,
+      "fetched": 13,
+      "parsed": 13,
+      "inserted": 0,
+      "coverage": 100,
+      "opus": "12/12"
+    },
+    {
+      "name": "绝区零",
+      "mid": "1636034895",
+      "pages": 1,
+      "fetched": 12,
+      "parsed": 12,
+      "inserted": 0,
+      "coverage": 100,
+      "opus": "9/9"
+    },
+    {
+      "name": "明日方舟：终末地",
+      "mid": "1265652806",
+      "pages": 1,
+      "fetched": 13,
+      "parsed": 13,
+      "inserted": 0,
+      "coverage": 100,
+      "opus": "8/8"
+    },
+    {
+      "name": "崩坏：星穹铁道",
+      "mid": "1340190821",
+      "pages": 1,
+      "fetched": 13,
+      "parsed": 13,
+      "inserted": 0,
+      "coverage": 100,
+      "opus": "5/5"
+    },
+    {
+      "name": "异环",
+      "mid": "3546636978489848",
+      "pages": 1,
+      "fetched": 13,
+      "parsed": 13,
+      "inserted": 0,
+      "coverage": 100,
+      "opus": "7/7"
+    }
+  ],
+  "failed_games": [],
+  "endpoint_check": {},
+  "store_count": 479,
+  "feed_generated_at": "2026-11-23T16:16:16.941Z"
+}

@@ -2,8 +2,11 @@ import type { NewsItem } from './normalize.ts';
 import { classifyMedia } from './normalize.ts';
 import { GAMES } from '../../config/games.ts';
 import type { GameConfig } from '../../config/games.ts';
-import { BANNERS } from '../../config/banners.ts';
-import type { BannerPeriod } from '../../config/banners.ts';
+import { buildBanners, parseBannerAnnouncements } from './banners.ts';
+import type { BannerOutput } from './banners.ts';
+
+// 卡池抽取已迁到 extract/banners.ts，这里保持既有 import 兼容
+export { buildBanners } from './banners.ts';
 
 const MEDIA_CATS: Record<string, string> = {
   version_pv: '版本 PV',
@@ -48,7 +51,33 @@ export function collectVersions(items: NewsItem[]): VersionCandidate[] {
 interface ReleaseStatement { name: string; label: string; at: number; numeric: boolean }
 
 // 从「「X」版本将于 M月D日上线」这类句子直接解析版本与上线时间
-const ACTIVITY_RE = /活动|关卡|合约|测试|联动|预售|周边|手办|音乐会|展览|问卷|兑换码|福利|签到|抽奖|直播预约/;
+const ACTIVITY_RE = /活动|关卡|合约|测试|联动|预售|周边|手办|音乐会|展览|问卷|兑换码|福利|签到|抽奖|直播预约|特别节目|千星|嘉年华|巡礼|预约|前瞻|节日|声优|访谈|短片|表情包/;
+
+// 卡池/祈愿公告不是「版本上线」
+const GACHA_STATEMENT_RE = /祈愿|卡池|寻访|跃迁|调频|招募|集录/;
+
+// 话题标签里的版本号：#原神7.2版本# → 7.2（官方自己打的标签最权威）
+const TOPIC_VERSION_RE = /#([^#\n]{1,24})#/g;
+const VERSION_IN_TAG_RE = /(\d+\.\d+)\s*版本/;
+
+interface TopicVersion { version: string; num: number; at: number; upcoming: boolean }
+
+function collectTopicVersions(items: NewsItem[]): TopicVersion[] {
+  const out: TopicVersion[] = [];
+  for (const it of items) {
+    const text = `${it.title}\n${it.summary}`;
+    const at = new Date(it.published_at).getTime();
+    const safeAt = Number.isFinite(at) ? at : 0;
+    // 「前瞻/即将上线」类话题不算当前版本
+    const upcoming = UPCOMING_RE.test(text) && !LIVE_RE.test(text);
+    for (const tag of text.matchAll(TOPIC_VERSION_RE)) {
+      const hit = tag[1].match(VERSION_IN_TAG_RE);
+      if (!hit) continue;
+      out.push({ version: hit[1], num: Number(hit[1]), at: safeAt, upcoming });
+    }
+  }
+  return out.filter(t => Number.isFinite(t.num));
+}
 
 export function findReleaseStatements(items: NewsItem[]): ReleaseStatement[] {
   const versionNum = new Map<string, string>();
@@ -68,6 +97,8 @@ export function findReleaseStatements(items: NewsItem[]): ReleaseStatement[] {
       const name = m[1];
       const num = versionNum.get(name);
       if (!num && ACTIVITY_RE.test(name)) continue;      // 活动/联动类不算版本
+      // 祈愿/卡池公告里的「华黍由仪」「呀吼吼博物志」是卡池名，不是版本名
+      if (!num && GACHA_STATEMENT_RE.test(m[0])) continue;
       const ym = m[2].match(/(?:(\d{4})年)?(\d{1,2})月(\d{1,2})日/);
       if (!ym) continue;
       let year = ym[1] ? +ym[1] : new Date().getFullYear();
@@ -87,142 +118,170 @@ export function findReleaseStatements(items: NewsItem[]): ReleaseStatement[] {
   return out;
 }
 
-export function extractVersion(items: NewsItem[]) {
-  const statements = findReleaseStatements(items);
-  const now = Date.now();
-  const past = statements.filter(s => s.at <= now).sort((a, b) => Number(b.numeric) - Number(a.numeric) || b.at - a.at);
-  const future = statements.filter(s => s.at > now).sort((a, b) => Number(b.numeric) - Number(a.numeric) || a.at - b.at);
+export type NextVersionKind = 'version' | 'phase' | null;
 
-  if (past.length || future.length) {
-    const cur = past[0] || null;
-    let nxt = future.find(f => f.label !== cur?.label) || null;
-    // 没有带日期的下版本时，退而求其次：找「X.Y版本」+ 即将/将于 的提及
-    if (!nxt) {
-      const curNum = cur ? Number(cur.label.match(/^(\d+\.\d+)/)?.[1] ?? NaN) : NaN;
-      const cutoff = Date.now() - 45 * 86400000;
-      const recent = items.filter(i => new Date(i.published_at).getTime() >= cutoff);
-      const all = recent.map(i => `${i.title}\n${i.summary}`).join('\n');
-      let best = -1;
-      for (const m of all.matchAll(/(\d+\.\d+)\s*版本[^。\n]{0,20}?(?:即将|将于|敬请期待)/g)) {
-        const v = Number(m[1]);
-        if (!Number.isFinite(curNum) || v <= curNum) continue;
-        if (v > best) best = v;
-      }
-      for (const m of all.matchAll(/(?:即将|将于|预计)[^。\n]{0,24}?(\d+\.\d+)\s*版本/g)) {
-        const v = Number(m[1]);
-        if (!Number.isFinite(curNum) || v <= curNum) continue;
-        if (v > best) best = v;
-      }
-      if (best > 0) nxt = { name: String(best), label: `${best}版本`, at: Number.POSITIVE_INFINITY, numeric: true } as any;
-    }
-    const chars2 = new Set<string>();
-    for (const it of items) {
-      for (const m of `${it.title}\n${it.summary}`.matchAll(/[「『]([^」』]{2,10})[」』]/g)) {
-        const s = m[1];
-        if (cur && s === cur.name) continue;
-        if (nxt && s === nxt.name) continue;
-        if (/角色|代理人|干员|共鸣者|旅人|限定|调频|寻访|祈愿|招募|返场/.test(s)) chars2.add(s);
-      }
-    }
-    return {
-      current: cur ? { key: cur.name, label: cur.label, posts: [], live: 1, upcoming: 0, firstAt: cur.at } : null,
-      next: nxt ? { key: nxt.name, label: nxt.label, posts: [], live: 0, upcoming: 1, firstAt: nxt.at } : null,
-      nextRelease: nxt && Number.isFinite(nxt.at) ? nxt.at : null,
-      characters: [...chars2].slice(0, 6),
-    };
-  }
-
-  const cands = collectVersions(items);
-  // 当前版本：偏向「已上线」信号，其次帖子最多
-  const byLive = [...cands].sort((a, b) => (b.live - a.live) || (b.posts.length - a.posts.length));
-  const current = byLive[0] || null;
-  // 下个版本：明显偏「即将」且不是当前版本
-  const nextPool = cands.filter(c =>
-    c.key !== current?.key &&
-    c.upcoming > 0 &&
-    c.live <= c.upcoming &&
-    (!current || c.firstAt > current.firstAt)
-  );
-  const next = nextPool.sort((a, b) => (b.upcoming - b.live) - (a.upcoming - a.live) || a.firstAt - b.firstAt)[0] || null;
-
-  const chars = new Set<string>();
-  for (const it of items) {
-    for (const m of `${it.title}\n${it.summary}`.matchAll(/[「『]([^」』]{2,10})[」』]/g)) {
-      const s = m[1];
-      if (current && s === current.key) continue;
-      if (/角色|代理人|干员|共鸣者|旅人|干员|限定|调频|寻访|祈愿|招募|返场/.test(s)) chars.add(s);
-    }
-  }
-  // 从「将于 11 月 25 日上线」这类文本里解析下个版本日期
-  let nextRelease: number | null = null;
-  if (next) {
-    for (const p of next.posts) {
-      const text = `${p.title}\n${p.summary}`;
-      const m = text.match(/(?:将于|即将于|预计)?\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日[^。\n]{0,12}(?:上线|开启|更新|登场)/);
-      if (m) {
-        const now = new Date();
-        let y = now.getFullYear();
-        let d = new Date(y, +m[1] - 1, +m[2], 12, 0, 0);
-        if (d.getTime() < now.getTime() - 20 * 86400000) d = new Date(y + 1, +m[1] - 1, +m[2], 12, 0, 0);
-        nextRelease = d.getTime();
-        break;
-      }
-    }
-  }
-  return { current, next, nextRelease, characters: [...chars].slice(0, 6) };
+export interface VersionState {
+  current: VersionCandidate | null;
+  next: VersionCandidate | null;
+  nextRelease: number | null;
+  characters: string[];
+  nextKind: NextVersionKind;
 }
 
-export function buildBanners(gameKey: string, items: NewsItem[]) {
-  const now = Date.now();
-  const DAY = 86_400_000;
-  const configured: BannerPeriod[] = BANNERS[gameKey] ?? [];
+// 未来语境：这些词出现时，更强的 X.Y版本 才可能是「下个版本」
+const FUTURE_CONTEXT_RE = /即将|将于|预计|更新后|敬请期待|后续版本|下个版本|新版本/;
 
-  const decorate = (p: BannerPeriod) => {
-    const startAt = p.start ? new Date(p.start).getTime() : null;
-    const endAt = p.end ? new Date(p.end).getTime() : null;
-    let status: '进行中' | '未开始' | '已结束' = '进行中';
-    if (startAt !== null && now < startAt) status = '未开始';
-    else if (endAt !== null && now > endAt) status = '已结束';
-    const daysRemaining = status === '进行中' && endAt !== null ? Math.max(0, Math.ceil((endAt - now) / DAY)) : null;
-    return {
-      label: p.label,
-      phase: null,
-      characters: p.characters,
-      start_at: p.start,
-      end_at: p.end,
-      status,
-      days_remaining: daysRemaining,
-      note: p.note ?? null,
-      source: 'config',
-    };
-  };
-
-  if (configured.length) return configured.map(decorate);
-
-  // 未配置时：从官方最近的卡池类动态里兜底抽取角色名
-  const cutoff = now - 60 * DAY;
-  const names = new Set<string>();
-  for (const it of items) {
-    if (new Date(it.published_at).getTime() < cutoff) continue;
-    const text = `${it.title}\n${it.summary}`;
-    if (!/祈愿|调频|寻访|跃迁|招募|卡池/.test(text)) continue;
-    for (const m of text.matchAll(/限定(?:5星|S级|五星)?[^「]{0,6}[「『]([^」』]{2,18})[」』]/g)) {
-      names.add(m[1].replace(/\([^)]*\)$/, ''));
+/**
+ * 在近 45 天、带未来语境的动态里找「下一个」X.Y 版本号：
+ * 比当前更高，取其中**最小**的一个（不是取最大——「4.8版本更新后到5.0版本结束前」的下一版本是 4.8）。
+ * 返回原始字符串以保留小数位（5.0 不能变成 5）。
+ */
+function findNextVersionMention(items: NewsItem[], curNum: number, now: number): string | null {
+  if (!Number.isFinite(curNum)) return null;
+  const cutoff = now - 45 * 86400000;
+  let bestNum = Number.POSITIVE_INFINITY;
+  let bestVersion: string | null = null;
+  for (const item of items) {
+    if (new Date(item.published_at).getTime() < cutoff) continue;
+    const text = `${item.title}\n${item.summary}`;
+    if (!FUTURE_CONTEXT_RE.test(text)) continue;
+    for (const m of text.matchAll(/(\d+\.\d+)\s*版本/g)) {
+      const version = Number(m[1]);
+      if (!Number.isFinite(version) || version <= curNum) continue;
+      if (version < bestNum) { bestNum = version; bestVersion = m[1]; }
     }
-    for (const m of text.matchAll(/[「『]([^」』]{2,18})\([^)]{1,3}\)[」』]/g)) names.add(m[1]);
   }
-  if (!names.size) return [];
-  return [{
-    label: '当前卡池',
-    phase: null,
-    characters: [...names].slice(0, 6),
-    start_at: null,
-    end_at: null,
-    status: '进行中' as const,
-    days_remaining: null,
-    note: '时段官方未公布',
-    source: 'bilibili_auto',
-  }];
+  return bestVersion;
+}
+
+export function extractVersion(items: NewsItem[], gameKey?: string): VersionState {
+  const now = Date.now();
+  const statements = findReleaseStatements(items);
+  const topics = collectTopicVersions(items);
+  const officialBanners = parseBannerAnnouncements(items);
+
+  const msOf = (iso: string | null): number | null => {
+    if (!iso) return null;
+    const ms = new Date(iso).getTime();
+    return Number.isFinite(ms) ? ms : null;
+  };
+  const poolStarts = (version: string | null): number[] => officialBanners
+    .filter(b => (!version || b.version === version) && b.start)
+    .map(b => msOf(b.start))
+    .filter((ms): ms is number => ms !== null)
+    .sort((a, b) => a - b);
+
+  // ① 当前版本：话题标签 #原神7.2版本# 最权威，「前瞻/即将」不算当前版本
+  const liveTopic = topics.filter(t => !t.upcoming).sort((a, b) => b.num - a.num || b.at - a.at)[0] ?? null;
+  const upcomingTopic = liveTopic
+    ? topics.filter(t => t.num > liveTopic.num).sort((a, b) => a.num - b.num || a.at - b.at)[0] ?? null
+    : null;
+
+  let current: VersionCandidate | null = null;
+  let next: VersionCandidate | null = null;
+  let nextRelease: number | null = null;
+  let nextKind: NextVersionKind = null;
+
+  if (liveTopic) {
+    // 版本开始时间锚点：官方「X版本将于…上线」语句 → 卡池公告开池时间 → 话题首次出现
+    const stmt = statements.filter(s => s.numeric && s.name === liveTopic.version).sort((a, b) => a.at - b.at)[0];
+    const firstMention = topics
+      .filter(t => t.version === liveTopic.version && !t.upcoming)
+      .reduce((min, t) => Math.min(min, t.at), Number.POSITIVE_INFINITY);
+    const poolStart = poolStarts(liveTopic.version)[0];
+    current = {
+      key: liveTopic.version,
+      label: `${liveTopic.version}版本`,
+      posts: [],
+      live: 1,
+      upcoming: 0,
+      firstAt: stmt ? stmt.at : Math.min(poolStart ?? Number.POSITIVE_INFINITY, firstMention),
+    };
+  }
+
+  if (!current) {
+    // 没有话题标签时回退到「X版本将于…上线」语句
+    const past = statements.filter(s => s.at <= now).sort((a, b) => Number(b.numeric) - Number(a.numeric) || b.at - a.at);
+    if (past[0]) current = { key: past[0].name, label: past[0].label, posts: [], live: 1, upcoming: 0, firstAt: past[0].at };
+  }
+
+  const curNum = current ? Number(String(current.label).match(/(\d+\.\d+)/)?.[1] ?? NaN) : NaN;
+
+  // ② 下个版本（高版本号）：话题标签 → 未来的「X版本将于…上线」语句 → 未来语境里更高的 X.Y版本
+  if (upcomingTopic) {
+    const stmt = statements
+      .filter(s => s.numeric && s.name === upcomingTopic.version && s.at > now)
+      .sort((a, b) => a.at - b.at)[0];
+    const poolStart = poolStarts(upcomingTopic.version)[0];
+    next = {
+      key: upcomingTopic.version,
+      label: `${upcomingTopic.version}版本`,
+      posts: [],
+      live: 0,
+      upcoming: 1,
+      firstAt: stmt?.at ?? poolStart ?? Number.POSITIVE_INFINITY,
+    };
+    nextRelease = stmt?.at ?? poolStart ?? null;
+    nextKind = 'version';
+  } else {
+    const future = statements.filter(s => s.at > now).sort((a, b) => Number(b.numeric) - Number(a.numeric) || a.at - b.at);
+    const guess = future.find(s => s.label !== current?.label) ?? null;
+    if (guess) {
+      next = { key: guess.name, label: guess.label, posts: [], live: 0, upcoming: 1, firstAt: guess.at };
+      nextRelease = guess.at;
+      nextKind = 'version';
+    } else {
+      const higher = findNextVersionMention(items, curNum, now);
+      if (higher) {
+        next = { key: higher, label: `${higher}版本`, posts: [], live: 0, upcoming: 1, firstAt: Number.POSITIVE_INFINITY };
+        nextKind = 'version';
+      }
+    }
+  }
+
+  // ③ 没有更高版本时：退化为「未开始的卡池期次」（label 形如「7.2 第 2 期」）
+  if (!next) {
+    const banners: BannerOutput[] = gameKey ? buildBanners(gameKey, items) : [];
+    const upcoming = banners
+      .filter(b => b.status === '未开始' && b.start_at)
+      .map(b => ({ banner: b, at: msOf(b.start_at) }))
+      .filter((x): x is { banner: BannerOutput; at: number } => x.at !== null)
+      .sort((a, b) => a.at - b.at)[0];
+    if (upcoming) {
+      const versionNum = current ? String(current.label).match(/(\d+\.\d+)/)?.[1] ?? null : null;
+      next = {
+        key: upcoming.banner.label,
+        label: versionNum ? `${versionNum} ${upcoming.banner.label}` : upcoming.banner.label,
+        posts: [],
+        live: 0,
+        upcoming: 1,
+        firstAt: upcoming.at,
+      };
+      nextRelease = upcoming.at;
+      nextKind = 'phase';
+    }
+  }
+
+  // ④ 版本开始时间锚点：官方卡池公告的开池时间（仅当已判定是「版本」，避免把同版本上下半当成新版本）
+  if (next && nextKind === 'version' && nextRelease === null) {
+    const candidates = officialBanners
+      .filter(b => b.start && (b.version === next!.key || (!b.version || Number(b.version) > curNum)))
+      .map(b => msOf(b.start))
+      .filter((ms): ms is number => ms !== null && ms > now - 86400000)
+      .sort((a, b) => a - b);
+    if (candidates.length) nextRelease = candidates[0];
+  }
+
+  // ⑤ 卡池角色：只取官方公告（进行中/即将开始的期次）。
+  // 旧实现「从所有「」里挑含角色/祈愿字样的词」会把「星神★阿哈」「随机角色周边」当成角色，已移除。
+  const activeBanners = officialBanners
+    .filter(b => b.characters.length)
+    .map(b => ({ banner: b, start: msOf(b.start) ?? Number.POSITIVE_INFINITY, end: msOf(b.end) }))
+    .filter(x => x.end === null || x.end >= now)
+    .sort((a, b) => a.start - b.start);
+  const characters: string[] = activeBanners.length ? [...activeBanners[0].banner.characters] : [];
+
+  return { current, next, nextRelease, characters, nextKind };
 }
 
 export function buildFeed(allItems: NewsItem[], gameConfigs: GameConfig[] = GAMES, icons: Record<string, string> = {}) {
@@ -232,7 +291,8 @@ export function buildFeed(allItems: NewsItem[], gameConfigs: GameConfig[] = GAME
 
   for (const game of gameConfigs) {
     const items = allItems.filter(i => i.game_key === game.key);
-    const { current, next, nextRelease, characters } = extractVersion(items);
+    const banners = buildBanners(game.key, items);
+    const { current, next, nextRelease, characters, nextKind } = extractVersion(items, game.key);
     const videos = items.filter(i => i.type === 'video');
     const contentItems = items.filter(i => !NOISE_RE.test(i.title) && !NOISE_RE.test(i.summary));
     const preview = videos.find(v => classifyMedia(v) === 'preview_program');
@@ -247,6 +307,7 @@ export function buildFeed(allItems: NewsItem[], gameConfigs: GameConfig[] = GAME
       current_content: contentItems.slice(0, 4).map(i => (i.title.replace(/^《[^》]+》/, '').trim() || i.title)),
       current_version_days: versionStart ? Math.max(0, Math.floor((Date.now() - versionStart) / 86400000)) : 0,
       next_version: next ? next.label : '暂未公布',
+      next_version_kind: nextKind,
       next_content: next ? next.posts.slice(0, 3).map(p => p.title) : [],
       days_to_next_version: nextStart ? Math.max(0, Math.ceil((nextStart - Date.now()) / 86400000)) : null,
       preview_status: preview ? '已发布' : '尚未发布',
@@ -254,8 +315,8 @@ export function buildFeed(allItems: NewsItem[], gameConfigs: GameConfig[] = GAME
       preview_start_at: preview?.published_at || null,
       preview_replay_url: preview?.url || null,
       preview_images: preview?.cover ? [preview.cover] : [],
-      up_banners: buildBanners(game.key, items),
-      current_up_characters: (buildBanners(game.key, items)[0]?.characters ?? characters),
+      up_banners: banners,
+      current_up_characters: (banners.find(b => b.status === '进行中')?.characters ?? banners[0]?.characters ?? characters),
       sources: items.slice(0, 6).map(i => ({ title: i.title, url: i.url, type: 'official_community', claims: [], checked_at: generatedAt })),
       facts_checked_at: generatedAt,
     });
