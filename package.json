@@ -5,6 +5,7 @@
   "scripts": {
     "crawl": "tsx apps/crawler/src/index.ts",
     "crawl:once": "tsx apps/crawler/src/index.ts --once",
+    "feed:rebuild": "tsx apps/crawler/src/rebuild.ts",
     "fixtures": "tsx scripts/snapshot-fixtures.ts",
     "test": "tsx --test tests/*.test.ts",
     "web:dev": "vite --config apps/web/vite.config.ts",

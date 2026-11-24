@@ -7,10 +7,11 @@ function devImageProxy() {
   return {
     name: 'dev-image-proxy',
     configureServer(server: any) {
-      server.middlewares.use('/img', async (req: any, res: any) => {
+      // 只拦截带 ?u= 的远程图片代理请求；本地 public/img 静态资源继续交给 Vite 处理。
+      server.middlewares.use('/img', async (req: any, res: any, next: any) => {
         try {
           const u = new URL(req.url, 'http://localhost').searchParams.get('u');
-          if (!u) { res.statusCode = 400; return res.end('missing u'); }
+          if (!u) return next();
           const target = new URL(u);
           if (!/(^|\.)hdslb\.com$/.test(target.hostname)) { res.statusCode = 403; return res.end('forbidden host'); }
           const r = await fetch(target.href, {

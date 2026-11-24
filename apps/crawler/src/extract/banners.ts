@@ -406,8 +406,9 @@ function startMsOf(banner: BannerOutput): number {
  * 卡池期次：config 为骨架（决定期次与时段），官方公告补充角色（并集，不删除人工项）。
  * 无 config 时直接用官方公告结果；官方公告里 config 未覆盖的新期次会追加。
  */
-export function buildBanners(gameKey: string, items: NewsItem[]): BannerOutput[] {
-  const now = Date.now();
+export function buildBanners(gameKey: string, items: NewsItem[], nowMs?: number): BannerOutput[] {
+  // nowMs 可注入：便于离线重建与测试固定时钟
+  const now = nowMs ?? Date.now();
   const configured: BannerPeriod[] = BANNERS[gameKey] ?? [];
   const official = parseBannerAnnouncements(items);
 

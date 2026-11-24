@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "checked_at": "2026-11-23T16:16:17.150Z",
+  "checked_at": "2026-11-24T16:07:01.324Z",
   "stale_since": null,
   "reason": null,
   "games": [
@@ -12,7 +12,7 @@
       "parsed": 13,
       "inserted": 0,
       "coverage": 100,
-      "opus": "12/12"
+      "opus": "11/11"
     },
     {
       "name": "绝区零",
@@ -25,8 +25,18 @@
       "opus": "9/9"
     },
     {
-      "name": "明日方舟：终末地",
-      "mid": "1265652806",
+      "name": "崩坏：星穹铁道",
+      "mid": "1340190821",
+      "pages": 1,
+      "fetched": 13,
+      "parsed": 13,
+      "inserted": 0,
+      "coverage": 100,
+      "opus": "4/4"
+    },
+    {
+      "name": "崩坏：因缘精灵",
+      "mid": "3546886017387331",
       "pages": 1,
       "fetched": 13,
       "parsed": 13,
@@ -35,14 +45,64 @@
       "opus": "8/8"
     },
     {
-      "name": "崩坏：星穹铁道",
-      "mid": "1340190821",
+      "name": "明日方舟",
+      "mid": "161775300",
+      "pages": 1,
+      "fetched": 12,
+      "parsed": 12,
+      "inserted": 0,
+      "coverage": 100,
+      "opus": "10/10"
+    },
+    {
+      "name": "明日方舟：终末地",
+      "mid": "1265652806",
       "pages": 1,
       "fetched": 13,
       "parsed": 13,
       "inserted": 0,
       "coverage": 100,
-      "opus": "5/5"
+      "opus": "10/10"
+    },
+    {
+      "name": "鸣潮",
+      "mid": "1955897084",
+      "pages": 1,
+      "fetched": 13,
+      "parsed": 13,
+      "inserted": 0,
+      "coverage": 100,
+      "opus": "6/6"
+    },
+    {
+      "name": "蔚蓝档案",
+      "mid": "3493265644980448",
+      "pages": 1,
+      "fetched": 12,
+      "parsed": 12,
+      "inserted": 0,
+      "coverage": 100,
+      "opus": "10/10"
+    },
+    {
+      "name": "蓝色星原：旅谣",
+      "mid": "3546569016085336",
+      "pages": 1,
+      "fetched": 12,
+      "parsed": 12,
+      "inserted": 0,
+      "coverage": 100,
+      "opus": "9/9"
+    },
+    {
+      "name": "白银之城",
+      "mid": "3546879304403742",
+      "pages": 1,
+      "fetched": 12,
+      "parsed": 12,
+      "inserted": 0,
+      "coverage": 100,
+      "opus": "4/4"
     },
     {
       "name": "异环",
@@ -52,11 +112,11 @@
       "parsed": 13,
       "inserted": 0,
       "coverage": 100,
-      "opus": "7/7"
+      "opus": "10/10"
     }
   ],
   "failed_games": [],
   "endpoint_check": {},
-  "store_count": 479,
-  "feed_generated_at": "2026-11-23T16:16:16.941Z"
+  "store_count": 926,
+  "feed_generated_at": "2026-11-24T16:07:00.646Z"
 }

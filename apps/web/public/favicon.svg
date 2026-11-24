@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">二游资讯</title>
+  <desc id="desc">深色圆角方块中叠放两张琥珀色资讯卡，右上角有星火信号。</desc>
+  <defs>
+    <linearGradient id="bg" x1="40" y1="24" x2="472" y2="488" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2b2428"/>
+      <stop offset="0.52" stop-color="#181518"/>
+      <stop offset="1" stop-color="#100e10"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(390 120) rotate(90) scale(250)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffb454" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ffb454" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="front" x1="126" y1="164" x2="376" y2="376" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffd58a"/>
+      <stop offset="0.45" stop-color="#ffb454"/>
+      <stop offset="1" stop-color="#f38b2f"/>
+    </linearGradient>
+    <linearGradient id="back" x1="172" y1="116" x2="388" y2="316" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffe0a6" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#ff9f3d" stop-opacity="0.72"/>
+    </linearGradient>
+    <linearGradient id="inner" x1="168" y1="208" x2="344" y2="348" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fffaf0"/>
+      <stop offset="1" stop-color="#ffc76f"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+    <filter id="sparkGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="8" y="8" width="496" height="496" rx="116" fill="url(#bg)"/>
+  <rect x="8" y="8" width="496" height="496" rx="116" fill="url(#glow)"/>
+  <rect x="8.75" y="8.75" width="494.5" height="494.5" rx="115.25" fill="none" stroke="#ffffff" stroke-opacity="0.09" stroke-width="1.5"/>
+  <g filter="url(#softShadow)">
+    <rect x="174" y="120" width="190" height="238" rx="28" transform="rotate(13 174 120)" fill="url(#back)"/>
+    <rect x="174" y="120" width="190" height="238" rx="28" transform="rotate(13 174 120)" fill="none" stroke="#fff4d6" stroke-opacity="0.5" stroke-width="4"/>
+    <rect x="126" y="166" width="228" height="234" rx="32" fill="url(#front)"/>
+    <rect x="126.75" y="166.75" width="226.5" height="232.5" rx="31.25" fill="none" stroke="#fff3d2" stroke-opacity="0.58" stroke-width="1.5"/>
+    <rect x="154" y="194" width="172" height="178" rx="20" fill="#181518" fill-opacity="0.94"/>
+    <rect x="154.75" y="194.75" width="170.5" height="176.5" rx="19.25" fill="none" stroke="#ffdda1" stroke-opacity="0.34" stroke-width="1.5"/>
+    <path d="M185 252h110M185 280h110M185 308h74" fill="none" stroke="url(#inner)" stroke-linecap="round" stroke-width="20"/>
+    <circle cx="293" cy="308" r="10" fill="#ffb454"/>
+  </g>
+  <g filter="url(#sparkGlow)">
+    <path d="M372 88l12 32 32 12-32 12-12 32-12-32-32-12 32-12z" fill="#fff4d6"/>
+    <circle cx="392" cy="276" r="8" fill="#ffd58a"/>
+    <circle cx="424" cy="304" r="5" fill="#ffb454" fill-opacity="0.88"/>
+    <circle cx="364" cy="310" r="4" fill="#ffb454" fill-opacity="0.7"/>
+  </g>
+</svg>

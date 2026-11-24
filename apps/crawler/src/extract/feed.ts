@@ -2,8 +2,11 @@ import type { NewsItem } from './normalize.ts';
 import { classifyMedia } from './normalize.ts';
 import { GAMES } from '../../config/games.ts';
 import type { GameConfig } from '../../config/games.ts';
+import { PUBLISHERS, PUBLISHER_BY_KEY } from '../../config/publishers.ts';
 import { buildBanners, parseBannerAnnouncements } from './banners.ts';
 import type { BannerOutput } from './banners.ts';
+import { buildEvents, birthdayItems } from './calendar.ts';
+import type { BirthdayBook } from './calendar.ts';
 
 // 卡池抽取已迁到 extract/banners.ts，这里保持既有 import 兼容
 export { buildBanners } from './banners.ts';
@@ -154,8 +157,8 @@ function findNextVersionMention(items: NewsItem[], curNum: number, now: number):
   return bestVersion;
 }
 
-export function extractVersion(items: NewsItem[], gameKey?: string): VersionState {
-  const now = Date.now();
+export function extractVersion(items: NewsItem[], gameKey?: string, nowMs: number = Date.now()): VersionState {
+  const now = nowMs;
   const statements = findReleaseStatements(items);
   const topics = collectTopicVersions(items);
   const officialBanners = parseBannerAnnouncements(items);
@@ -241,7 +244,7 @@ export function extractVersion(items: NewsItem[], gameKey?: string): VersionStat
 
   // ③ 没有更高版本时：退化为「未开始的卡池期次」（label 形如「7.2 第 2 期」）
   if (!next) {
-    const banners: BannerOutput[] = gameKey ? buildBanners(gameKey, items) : [];
+    const banners: BannerOutput[] = gameKey ? buildBanners(gameKey, items, now) : [];
     const upcoming = banners
       .filter(b => b.status === '未开始' && b.start_at)
       .map(b => ({ banner: b, at: msOf(b.start_at) }))
@@ -284,39 +287,130 @@ export function extractVersion(items: NewsItem[], gameKey?: string): VersionStat
   return { current, next, nextRelease, characters, nextKind };
 }
 
-export function buildFeed(allItems: NewsItem[], gameConfigs: GameConfig[] = GAMES, icons: Record<string, string> = {}) {
-  const generatedAt = new Date().toISOString();
+export interface FeedExtras {
+  /** 生日簿（data/birthdays.json 的 games 段），按 game key 分组 */
+  birthdays?: BirthdayBook;
+  /** 统一「当前时间」，便于离线重建与测试复现 */
+  now?: number;
+}
+
+function buildFallbackGame(game: GameConfig, icons: Record<string, string>, generatedAt: string) {
+  const publisher = PUBLISHER_BY_KEY.get(game.publisher);
+  const prelaunch = game.stage === 'prelaunch';
+  const releaseDate = game.release?.date ?? null;
+  return {
+    game_name: game.name,
+    key: game.key,
+    icon_url: icons[game.key] || game.icon,
+    publisher_key: game.publisher,
+    publisher_name: publisher?.name ?? game.publisher,
+    publisher_color: publisher?.color ?? '#ffb454',
+    stage: game.stage,
+    official_account: {
+      mid: game.official?.mid ?? game.mid,
+      name: game.official?.name ?? game.name,
+      url: game.official?.url ?? 'https://space.bilibili.com/' + game.mid,
+    },
+    download: { available: !!game.download?.available, label: game.download?.label ?? '官方下载', url: game.download?.url ?? null },
+    release: { label: game.release?.label ?? '已上线', date: releaseDate, days_until: null },
+    // 构建失败时不猜测活动/生日内容，宁可留空（前端会隐藏这两块）
+    events: [],
+    birthdays: [],
+    current_version: prelaunch ? '尚未上线' : '版本资讯更新中',
+    current_content: [],
+    current_version_days: 0,
+    next_version: prelaunch ? '待定档' : '暂未公布',
+    next_version_kind: null,
+    next_content: [],
+    days_to_next_version: null,
+    preview_status: '尚未发布',
+    preview_title: null,
+    preview_start_at: null,
+    preview_replay_url: null,
+    preview_images: [],
+    up_banners: [],
+    current_up_characters: [],
+    sources: [],
+    facts_checked_at: generatedAt,
+  };
+}
+
+const BIRTHDAY_POST_RE = /生日快乐|生日贺图/;
+
+export function buildFeed(
+  allItems: NewsItem[],
+  gameConfigs: GameConfig[] = GAMES,
+  icons: Record<string, string> = {},
+  extras: FeedExtras = {},
+) {
+  const now = extras.now ?? Date.now();
+  const generatedAt = new Date(now).toISOString();
+  const birthdayBook: BirthdayBook = extras.birthdays ?? {};
   const games: any[] = [];
   const mediaItems: any[] = [];
 
   for (const game of gameConfigs) {
+   try {
     const items = allItems.filter(i => i.game_key === game.key);
-    const banners = buildBanners(game.key, items);
-    const { current, next, nextRelease, characters, nextKind } = extractVersion(items, game.key);
+    const prelaunch = game.stage === 'prelaunch';
+    // 预约游戏没有正式卡池，不能用历史/测试期数据伪装成正式版本内容
+    const banners = prelaunch ? [] : buildBanners(game.key, items, now);
+    const { current, next, nextRelease, characters, nextKind } = extractVersion(items, game.key, now);
     const videos = items.filter(i => i.type === 'video');
-    const contentItems = items.filter(i => !NOISE_RE.test(i.title) && !NOISE_RE.test(i.summary));
+    // 生日动态单独进 birthdays 块，避免与「版本内容」重复
+    const contentItems = items.filter(i => !NOISE_RE.test(i.title) && !NOISE_RE.test(i.summary)
+      && !BIRTHDAY_POST_RE.test(i.title + i.summary));
     const preview = videos.find(v => classifyMedia(v) === 'preview_program');
     const versionStart = current && Number.isFinite(current.firstAt) ? current.firstAt : null;
     const nextStart = nextRelease ?? null;
+    const publisher = PUBLISHER_BY_KEY.get(game.publisher);
+    const events = buildEvents(game, items, now);
+    const birthdays = birthdayItems(birthdayBook[game.key] ?? [], now);
+    const releaseDate = game.release?.date ?? null;
+    const releaseMs = releaseDate ? new Date(releaseDate).getTime() : null;
+    const releaseDays = releaseMs !== null && Number.isFinite(releaseMs)
+      ? Math.max(0, Math.ceil((releaseMs - now) / 86_400_000))
+      : null;
 
     games.push({
       game_name: game.name,
       key: game.key,
       icon_url: icons[game.key] || game.icon,
-      current_version: current ? current.label : '暂未获取',
+      publisher_key: game.publisher,
+      publisher_name: publisher?.name ?? game.publisher,
+      publisher_color: publisher?.color ?? '#ffb454',
+      stage: game.stage,
+      official_account: {
+        mid: game.official?.mid ?? game.mid,
+        name: game.official?.name ?? game.name,
+        url: game.official?.url ?? `https://space.bilibili.com/${game.mid}`,
+      },
+      download: {
+        available: !!game.download?.available,
+        label: game.download?.label ?? '官方下载',
+        url: game.download?.url ?? null,
+      },
+      release: {
+        label: game.release?.label ?? '已上线',
+        date: releaseDate,
+        days_until: releaseDays,
+      },
+      events,
+      birthdays,
+      current_version: prelaunch ? '尚未上线' : (current ? current.label : '版本资讯更新中'),
       current_content: contentItems.slice(0, 4).map(i => (i.title.replace(/^《[^》]+》/, '').trim() || i.title)),
-      current_version_days: versionStart ? Math.max(0, Math.floor((Date.now() - versionStart) / 86400000)) : 0,
-      next_version: next ? next.label : '暂未公布',
-      next_version_kind: nextKind,
-      next_content: next ? next.posts.slice(0, 3).map(p => p.title) : [],
-      days_to_next_version: nextStart ? Math.max(0, Math.ceil((nextStart - Date.now()) / 86400000)) : null,
+      current_version_days: prelaunch ? 0 : (versionStart ? Math.max(0, Math.floor((now - versionStart) / 86400000)) : 0),
+      next_version: prelaunch ? '待定档' : (next ? next.label : '暂未公布'),
+      next_version_kind: prelaunch ? null : nextKind,
+      next_content: prelaunch ? [] : (next ? next.posts.slice(0, 3).map(p => p.title) : []),
+      days_to_next_version: prelaunch ? null : (nextStart ? Math.max(0, Math.ceil((nextStart - now) / 86400000)) : null),
       preview_status: preview ? '已发布' : '尚未发布',
       preview_title: preview?.title || null,
       preview_start_at: preview?.published_at || null,
       preview_replay_url: preview?.url || null,
       preview_images: preview?.cover ? [preview.cover] : [],
       up_banners: banners,
-      current_up_characters: (banners.find(b => b.status === '进行中')?.characters ?? banners[0]?.characters ?? characters),
+      current_up_characters: prelaunch ? [] : (banners.find(b => b.status === '进行中')?.characters ?? banners[0]?.characters ?? characters),
       sources: items.slice(0, 6).map(i => ({ title: i.title, url: i.url, type: 'official_community', claims: [], checked_at: generatedAt })),
       facts_checked_at: generatedAt,
     });
@@ -342,13 +436,20 @@ export function buildFeed(allItems: NewsItem[], gameConfigs: GameConfig[] = GAME
         source: { platform: 'bilibili', official_mid: game.mid, dynamic_url: v.url },
       });
     }
+   } catch (e: any) {
+      // 单款游戏构建失败不能阻塞全站：输出降级卡片（仍保留厂商 / 预约 / 官方账号信息）
+      console.error('[feed] WARN ' + game.name + ' 构建失败，输出降级卡片:', e?.message ?? e);
+      games.push(buildFallbackGame(game, icons, generatedAt));
+    }
   }
 
   mediaItems.sort((a, b) => new Date(b.published_at).getTime() - new Date(a.published_at).getTime());
 
   return {
-    schema_version: 2,
+    schema_version: 3,
     generated_at: generatedAt,
+    // 厂商标签页：顺序由 config/publishers.ts 的 order 决定
+    publishers: [...PUBLISHERS].sort((a, b) => a.order - b.order),
     ui: {
       page: { title: '二游资讯', subtitle: '基于 B 站官方账号的资讯聚合', max_width: '7xl', density: 'compact' },
       sections: [{
@@ -391,7 +492,7 @@ export function buildRss(items: NewsItem[], gameConfigs: GameConfig[] = GAMES): 
   <channel>
     <title>二游资讯 · B站官方动态</title>
     <link>http://localhost:5173/</link>
-    <description>原神、绝区零、终末地、星穹铁道、异环官方 B 站资讯聚合</description>
+    <description>${esc(gameConfigs.map(g => g.name).slice(0, 8).join('、'))} 等 ${gameConfigs.length} 款二游官方 B 站资讯聚合</description>
     <language>zh-CN</language>
     <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
 ${itemsXml}

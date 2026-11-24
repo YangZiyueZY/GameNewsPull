@@ -1,0 +1,127 @@
+{
+  "generated_at": "2026-11-24T16:26:40.432Z",
+  "games": {
+    "genshin": [
+      {
+        "character": "芙宁娜",
+        "month_day": "10-13",
+        "url": "https://www.bilibili.com/opus/1258535371102224393",
+        "source": "official",
+        "learned_at": "2026-11-24T16:26:40.389Z",
+        "explicit": false
+      },
+      {
+        "character": "欧洛伦",
+        "month_day": "10-14",
+        "url": "https://www.bilibili.com/opus/1258906456270307337",
+        "source": "official",
+        "learned_at": "2026-11-24T16:26:40.389Z",
+        "explicit": false
+      },
+      {
+        "character": "辛焱",
+        "month_day": "10-16",
+        "url": "https://www.bilibili.com/opus/1259648626612764673",
+        "source": "official",
+        "learned_at": "2026-11-24T16:26:40.389Z",
+        "explicit": false
+      },
+      {
+        "character": "早柚",
+        "month_day": "10-19",
+        "url": "https://www.bilibili.com/opus/1260761882134839296",
+        "source": "official",
+        "learned_at": "2026-11-24T16:26:40.389Z",
+        "explicit": false
+      },
+      {
+        "character": "优菈",
+        "month_day": "10-25",
+        "url": "https://www.bilibili.com/opus/1262988393175842838",
+        "source": "official",
+        "learned_at": "2026-11-24T16:26:40.389Z",
+        "explicit": false
+      },
+      {
+        "character": "纳西妲",
+        "month_day": "10-27",
+        "url": "https://www.bilibili.com/opus/1263730563498377222",
+        "source": "official",
+        "learned_at": "2026-11-24T16:26:40.389Z",
+        "explicit": false
+      },
+      {
+        "character": "枫原万叶",
+        "month_day": "10-29",
+        "url": "https://www.bilibili.com/opus/1264472733873340419",
+        "source": "official",
+        "learned_at": "2026-11-24T16:26:40.389Z",
+        "explicit": false
+      },
+      {
+        "character": "菲林斯",
+        "month_day": "10-31",
+        "url": "https://www.bilibili.com/opus/1265214904208457746",
+        "source": "official",
+        "learned_at": "2026-11-24T16:26:40.389Z",
+        "explicit": false
+      },
+      {
+        "character": "香菱",
+        "month_day": "11-02",
+        "url": "https://www.bilibili.com/opus/1265957074590760966",
+        "source": "official",
+        "learned_at": "2026-11-24T16:26:40.389Z",
+        "explicit": false
+      },
+      {
+        "character": "丝柯克",
+        "month_day": "11-05",
+        "url": "https://www.bilibili.com/opus/1267070330112835603",
+        "source": "official",
+        "learned_at": "2026-11-24T16:26:40.389Z",
+        "explicit": false
+      },
+      {
+        "character": "基尼奇",
+        "month_day": "11-11",
+        "url": "https://www.bilibili.com/opus/1269296841156984832",
+        "source": "official",
+        "learned_at": "2026-11-24T16:26:40.389Z",
+        "explicit": false
+      },
+      {
+        "character": "瓦雷莎",
+        "month_day": "11-15",
+        "url": "https://www.bilibili.com/opus/1270781181855531017",
+        "source": "official",
+        "learned_at": "2026-11-24T16:26:40.389Z",
+        "explicit": false
+      },
+      {
+        "character": "刻晴",
+        "month_day": "11-20",
+        "url": "https://www.bilibili.com/opus/1272636607710625801",
+        "source": "official",
+        "learned_at": "2026-11-24T16:26:40.389Z",
+        "explicit": false
+      },
+      {
+        "character": "布伦妮",
+        "month_day": "11-20",
+        "url": "https://www.bilibili.com/opus/1272636607701188631",
+        "source": "official",
+        "learned_at": "2026-11-24T16:26:40.389Z",
+        "explicit": false
+      },
+      {
+        "character": "莱欧斯利",
+        "month_day": "11-23",
+        "url": "https://www.bilibili.com/opus/1273749863246331908",
+        "source": "official",
+        "learned_at": "2026-11-24T16:26:40.389Z",
+        "explicit": false
+      }
+    ]
+  }
+}

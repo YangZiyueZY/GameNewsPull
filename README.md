@@ -1,6 +1,6 @@
 # 二游资讯 · 静态资讯站
 
-基于 B 站**蓝 V 官方账号**的二游资讯聚合站，覆盖原神 / 绝区零 / 明日方舟：终末地 / 崩坏：星穹铁道 / 异环。
+基于 B 站**蓝 V 官方账号**的二游资讯聚合站，覆盖 11 款二次元游戏、7 家厂商（米哈游 / 鹰角网络 / 库洛游戏 / 悠星网络 / 蛮啾网络 / 乐元素 / 完美世界）。站点按厂商标签页组织，每张游戏卡片展示版本节点、当前活动、角色生日、限定卡池与官方影像。
 
 **定位：纯静态项目。** 数据由 GitHub Actions 定时抓取并提交到仓库，站点托管在 GitHub Pages，无需服务器、无需数据库、无需代理。
 
@@ -62,7 +62,7 @@ npm run fixtures        # 重新抓取 5 款游戏首屏，生成/覆盖 data/fi
 npm test                # 离线运行 tests/*.test.ts（node:test + node:assert，通过 tsx）
 ```
 
-`npm test`（18 个用例）断言：原神 12 条 opus-only 动态 normalize 后文本与图片均非空；祈愿公告解析出 `['兹白', '莉奈娅']`、开池时间 `2026-11-24T18:00:00+08:00`；视频与转发条目不回归；5 个游戏 fixture 全部可解析；HSR 深度快照解析出 4.7 期（`2026-11-11T00:00:00+08:00` ~ `2026-12-22T15:00:00+08:00`，含星神★阿哈/银狼LV.999/火花/爻光）且已结束期次不显示；`compactRaw` 压缩后解析结果等价且幂等；原神下个节点语义（`next_version_kind='phase'`、label 含「第 2 期」）。测试无需联网与 Cookie。
+`npm test`（38 个用例）断言：原神 12 条 opus-only 动态 normalize 后文本与图片均非空；祈愿公告解析出 `['兹白', '莉奈娅']`、开池时间 `2026-11-24T18:00:00+08:00`；视频与转发条目不回归；5 个游戏 fixture 全部可解析；HSR 深度快照解析出 4.7 期（`2026-11-11T00:00:00+08:00` ~ `2026-12-22T15:00:00+08:00`，含星神★阿哈/银狼LV.999/火花/爻光）且已结束期次不显示；`compactRaw` 压缩后解析结果等价且幂等；原神下个节点语义（`next_version_kind='phase'`、label 含「第 2 期」）。测试无需联网与 Cookie。
 
 ## 首次部署
 
@@ -84,22 +84,32 @@ npm run crawl:once          # 抓取一次，生成数据并本地化图片
 npm run web:dev             # http://localhost:5173 （dev 有图片代理）
 npm run web:build           # 构建到 docs/（纯静态，无代理）
 npm run fixtures            # 更新首屏 fixture 快照
-npm test                    # 离线回归测试（18 个用例）
+npm test                    # 离线回归测试（38 个用例）
 ```
 
 本地 dev 模式会用 Vite 中间件代理 B 站图片；构建后的 `docs/` 是纯静态，所有图片已是本地文件。
 
 ## 数据来源（全部蓝 V 核验）
 
-| 游戏 | B站 UID | 认证信息 |
-|---|---|---|
-| 原神 | 401742377 | 原神官方账号 |
-| 绝区零 | 1636034895 | 绝区零官方账号 |
-| 明日方舟：终末地 | 1265652806 | 《明日方舟：终末地》官方账号 |
-| 崩坏：星穹铁道 | 1340190821 | 崩坏：星穹铁道官方账号 |
-| 异环 | 3546636978489848 | 《异环》官方账号 |
+| 游戏 | 厂商 | B站 UID | 认证信息 |
+|---|---|---|---|
+| 原神 | 米哈游 | 401742377 | 原神官方账号（蓝 V） |
+| 绝区零 | 米哈游 | 1636034895 | 绝区零官方账号（蓝 V） |
+| 崩坏：星穹铁道 | 米哈游 | 1340190821 | 崩坏：星穹铁道官方账号（蓝 V） |
+| 崩坏：因缘精灵 | 米哈游 | 3546886017387331 | 崩坏：因缘精灵官方账号（蓝 V） |
+| 明日方舟 | 鹰角网络 | 161775300 | 明日方舟官方账号（蓝 V） |
+| 明日方舟：终末地 | 鹰角网络 | 1265652806 | 《明日方舟：终末地》官方账号（蓝 V） |
+| 鸣潮 | 库洛游戏 | 1955897084 | 鸣潮官方账号（蓝 V） |
+| 蔚蓝档案 | 悠星网络 | 3493265644980448 | 蔚蓝档案官方账号（蓝 V） |
+| 蓝色星原：旅谣 | 蛮啾网络 | 3546569016085336 | 蓝色星原：旅谣官方账号（蓝 V） |
+| 白银之城 | 乐元素 | 3546879304403742 | 白银之城官方账号（蓝 V） |
+| 异环 | 完美世界 | 3546636978489848 | 《异环》官方账号（蓝 V） |
 
 每次运行都会调用 `x/web-interface/card` 复核 `official_verify.type === 1`，异常会在日志里告警。
+
+### 网站图标与 Manifest
+
+`apps/web/public/` 下的 `favicon.svg`、`favicon-32.png`、`apple-touch-icon.png`、`icon-192.png` 与 `icon-512.png` 是站点图标资源；`site.webmanifest` 提供 PWA 元数据，其中 `theme_color` / `background_color` 均为 `#181518`，并声明 192×192 与 512×512 两个 PNG 图标。图标采用深色圆角方块、琥珀渐变资讯卡与星火信号点，呼应站内主色 `#ffb454` 与「二游资讯 + 更新」主题。
 
 ## 刷新频率与体积控制
 
@@ -107,6 +117,19 @@ npm test                    # 离线回归测试（18 个用例）
 - `data/store.json` 每游戏保留最近 400 条 / 150 天内的动态；raw 字段压缩存储（约 10x），控制仓库体积
 - 图片按 URL 的 SHA1 命名并缓存，重复图片不重复下载
 - 站点全相对路径（`base: './'`），支持 `https://<user>.github.io/<repo>/` 子路径部署
+
+## 厂商标签页 / 当前活动 / 角色生日
+
+前端按厂商把 11 款游戏分成 7 个标签页，默认选中「米哈游」；切换标签会同步 `#publisher=<key>` 深链，支持左右方向键 / Home / End。标签顺序与厂商配置在 `apps/crawler/config/publishers.ts`。
+
+每张游戏卡片新增两个数据块：
+
+- **当前活动**：来自 `apps/crawler/config/curation.ts` 的人工种子 ∪ 官方动态自动识别（活动 / 限时 / 复刻 / 预下载 / 测试 / 预约等关键词），最多 3 条，按「进行中 → 即将开始 → 时间待定 → 最近结束」排序，附官方动态链接。没有活动数据的卡片不渲染该块。
+- **角色生日**：从官方 `#角色# #生日快乐#` 动态学习 MM-DD，按「今天 / 未来 30 天 → 过去 30 天 → 其余」排序，最多 4 条；跨运行累积到 `data/birthdays.json`。绝区零等账号的生日动态多为互动抽奖、同一角色日期不一致，不做发布日推断；**没有生日数据的游戏完全隐藏该块**，不显示空占位。原神是当前唯一稳定可学习生日数据的游戏。
+
+预约阶段的游戏（崩坏：因缘精灵 / 蓝色星原：旅谣 / 白银之城）使用 `stage: 'prelaunch'`：卡片显示「未开放下载 · 预约中」、官方账号入口与预热里程碑，隐藏版本统计与卡池；官方已公布档期时 `release.date` 会写入真实日期，但直到正式上线前仍保持预约态。
+
+`feed.json` 已升级到 `schema_version: 3`：顶层新增 `publishers`，每款游戏新增 `publisher_key / publisher_name / publisher_color / stage / official_account / download / release / events / birthdays`，旧字段全部保留。无网络时可用 `npm run feed:rebuild` 从 `data/store.json` 离线重建。
 
 ## 限定卡池
 
@@ -117,22 +140,25 @@ npm test                    # 离线回归测试（18 个用例）
 ```
 .github/workflows/refresh.yml   定时刷新 + 提交 + 触发 Pages 部署
 apps/crawler/
-  config/                       游戏 UID / 卡池配置
+  config/                       游戏 UID / 厂商 / 活动与生日种子 / 卡池配置
   src/sources/bilibili/         客户端（WBI 签名 / Cookie）
   src/extract/
     opus.ts                     Opus 统一内容模型（文本 / 图片 / 标题）
     banners.ts                  祈愿公告解析 + config∪官方合并
     normalize.ts                动态归一化（视频 / 图文 / 转发）
-    feed.ts                     版本识别 / 下个节点 / feed+RSS 构建
-  src/index.ts                  深度回填 + 覆盖率告警 + health 兜底
+    feed.ts                     版本识别 / 下个节点 / 活动生日 / feed+RSS 构建
+    calendar.ts                 活动状态 / 生日学习 / 下一次生日（纯函数）
+  src/index.ts                  深度回填 + 生日簿落盘 + 覆盖率告警 + health 兜底
+  src/rebuild.ts                离线重建 feed（feed:rebuild）
   src/store/json.ts             无状态 JSON 存储 + raw 压缩（compactRaw）
   src/utils/media.ts            图片本地化
-apps/web/                       Vue 3 + Vite 前端（统计块显示「下个节点」）
+apps/web/                       Vue 3 + Vite 前端（厂商标签页 / 活动 / 生日卡片）
 data/store.json                 持久状态（随 git 提交，raw 压缩）
 data/health.json                抓取健康状态（ok / degraded / stale）
-data/fixtures/                  首屏 + HSR 深度快照（fixture 回归测试用）
+data/birthdays.json             跨运行累积的角色生日簿
+data/fixtures/                  首屏 + HSR 深度快照（fixture 回归测试用；新游无 fixture 自动跳过）
 scripts/snapshot-fixtures.ts    fixture 抓取脚本（--pages / --game / --out）
-tests/                          opus / banners / 压缩 / 下个节点离线回归测试
+tests/                          opus / banners / 压缩 / 下个节点 / 活动生日离线回归测试
 docs/                           构建产物（Pages 托管源）
 ```
 

@@ -83,9 +83,13 @@ test('compactRaw 后 normalizeDynamic 结果等价，且幂等', () => {
 
 // ——————————————————————— 下个节点语义 ———————————————————————
 
+// fixture 快照时间：第 2 期卡池（11-24 18:00）当时尚未开始。
+// 固定时钟避免测试随真实时间漂移（开池后「下个节点」语义会自然变化）。
+const FIXTURE_NOW = Date.parse(fixture('genshin.json').captured_at);
+
 test('原神无更高版本时，下个节点取未开始的 7.2 第 2 期卡池期次', () => {
   const items = normalized('genshin.json', 'genshin');
-  const state = extractVersion(items, 'genshin');
+  const state = extractVersion(items, 'genshin', FIXTURE_NOW);
   assert.equal(state.nextKind, 'phase');
   assert.ok(state.next, '应有下个节点');
   assert.match(state.next!.label, /第 2 期/, 'label 应含「第 2 期」');
@@ -94,7 +98,7 @@ test('原神无更高版本时，下个节点取未开始的 7.2 第 2 期卡池
 
 test('buildFeed 输出 next_version_kind=phase，next_version 含第 2 期', () => {
   const items = normalized('genshin.json', 'genshin');
-  const feed = buildFeed(items, [gameOf('genshin')]);
+  const feed = buildFeed(items, [gameOf('genshin')], {}, { now: FIXTURE_NOW });
   const g = feed.data.games[0];
   assert.equal(g.next_version_kind, 'phase');
   assert.match(g.next_version, /第 2 期/);

@@ -6,6 +6,8 @@ import { Store } from './store/json.ts';
 import { normalizeDynamic, type NewsItem } from './extract/normalize.ts';
 import { isOpusOnlyItem, readDynamicPubTime } from './extract/opus.ts';
 import { buildFeed, buildRss } from './extract/feed.ts';
+import { learnBirthdays, mergeBirthdayBook } from './extract/calendar.ts';
+import type { BirthdayBook } from './extract/calendar.ts';
 import { localizeImages } from './utils/media.ts';
 import { GAMES } from '../config/games.ts';
 import type { GameConfig } from '../config/games.ts';
@@ -71,6 +73,27 @@ function firstScreenCoverage(stats: CrawlStats): number {
 
 function readJsonFile(file: string): any | null {
   try { return JSON.parse(fs.readFileSync(file, 'utf8')); } catch { return null; }
+}
+
+const BIRTHDAY_FILE = path.join(DATA_DIR, 'birthdays.json');
+
+/** 读取跨运行累积的生日簿（data/birthdays.json → { generated_at, games: { key: [...] } }） */
+function readBirthdayBook(): BirthdayBook {
+  const raw = readJsonFile(BIRTHDAY_FILE);
+  const games = raw?.games;
+  return games && typeof games === 'object' ? games as BirthdayBook : {};
+}
+
+function writeBirthdayBook(book: BirthdayBook): void {
+  try {
+    fs.mkdirSync(DATA_DIR, { recursive: true });
+    fs.writeFileSync(BIRTHDAY_FILE, JSON.stringify({
+      generated_at: new Date().toISOString(),
+      games: book,
+    }, null, 2));
+  } catch (e: any) {
+    log('写入 birthdays.json 失败:', e.message);
+  }
 }
 
 function writeHealth(health: HealthReport): void {
@@ -270,16 +293,37 @@ async function runOnce() {
     return;
   }
 
-  const allItems: NewsItem[] = store.getAllDynamics(2000)
+  const allItems: NewsItem[] = store.getAllDynamics(5000)
     .map(row => {
-      const raw = JSON.parse(row.raw);
-      const game = GAMES.find(g => g.key === row.game_key) || GAMES.find(g => g.mid === row.mid);
-      return game ? normalizeDynamic(raw, game) : null;
+      try {
+        const raw = JSON.parse(row.raw);
+        const game = GAMES.find(g => g.key === row.game_key) || GAMES.find(g => g.mid === row.mid);
+        return game ? normalizeDynamic(raw, game) : null;
+      } catch (e: any) {
+        // 单条数据损坏不能拖垮整站输出
+        console.warn('[crawler] WARN 跳过无法解析的库存条目', row.id, e.message);
+        return null;
+      }
     })
     .filter((item): item is NewsItem => !!item);
 
+  // 生日跨运行累积：先读旧簿，再用本次动态学习（只保留有官方根据的角色）
+  const previousBirthdays = readBirthdayBook();
+  const learnedBirthdays: BirthdayBook = {};
+  for (const game of GAMES) {
+    try {
+      const records = learnBirthdays(game, allItems.filter(i => i.game_key === game.key));
+      if (records.length) learnedBirthdays[game.key] = records;
+    } catch (e: any) {
+      log(`生日学习失败（${game.name}，不影响其他游戏）:`, e.message);
+    }
+  }
+  const birthdays = mergeBirthdayBook(previousBirthdays, learnedBirthdays);
+  writeBirthdayBook(birthdays);
+  log(`生日簿：${Object.entries(birthdays).map(([k, v]) => k + '=' + v.length).join(' ') || '（暂无）'}`);
+
   const icons = await resolveIcons();
-  let feed = buildFeed(allItems, GAMES, icons);
+  let feed = buildFeed(allItems, GAMES, icons, { birthdays });
   const rss = buildRss(allItems);
 
   // 图片本地化：静态站没有服务端代理
