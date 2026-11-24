@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-23T16:16:16.941Z",
+  "generated_at": "2026-11-24T11:25:28.438Z",
   "ui": {
     "page": {
       "title": "二游资讯",
@@ -61,15 +61,15 @@
         "current_version": "7.2版本",
         "current_content": [
           "#原神# #原神7.2版本# 旅行者好呀~",
+          "#原神# #原神7.2版本# 旅行者好呀~",
           "#原神# #莱欧斯利# #生日快乐# 每份礼物都贴着不一样的贴纸啊，还有独家定制的糖霜饼干？",
-          "#原神# #兹白# 为守护故土，兹白曾以身对抗天罚。幸而，她最终还是循着月光，回到了她所珍爱的故土。",
-          "#原神# #莉奈娅# 生活应在每一个当下，而非等待未来的某一天。命运无法改变，可同样不变的，是家人间注定相连的牵绊。"
+          "#原神# #兹白# 为守护故土，兹白曾以身对抗天罚。幸而，她最终还是循着月光，回到了她所珍爱的故土。"
         ],
         "current_version_days": 31,
-        "next_version": "7.2 第 2 期",
-        "next_version_kind": "phase",
+        "next_version": "暂未公布",
+        "next_version_kind": null,
         "next_content": [],
-        "days_to_next_version": 1,
+        "days_to_next_version": null,
         "preview_status": "已发布",
         "preview_title": "《原神》7.2版本「坏灭肇始之时」前瞻特别节目",
         "preview_start_at": "2026-10-23T12:50:01.000Z",
@@ -87,8 +87,8 @@
             ],
             "start_at": "2026-11-04T00:00:00+08:00",
             "end_at": "2026-11-24T17:59:00+08:00",
-            "status": "进行中",
-            "days_remaining": 1,
+            "status": "已结束",
+            "days_remaining": null,
             "note": null,
             "source": "config+bilibili"
           },
@@ -101,61 +101,61 @@
             ],
             "start_at": "2026-11-24T18:00:00+08:00",
             "end_at": "2026-12-15T14:59:00+08:00",
-            "status": "未开始",
-            "days_remaining": null,
+            "status": "进行中",
+            "days_remaining": 21,
             "note": null,
             "source": "config+bilibili"
           }
         ],
         "current_up_characters": [
-          "米提亚",
-          "芙宁娜"
+          "莉奈娅",
+          "兹白"
         ],
         "sources": [
+          {
+            "title": "#原神# #原神7.2版本# 旅行者好呀~",
+            "url": "https://www.bilibili.com/opus/1274214112706953219",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-24T11:25:28.438Z"
+          },
           {
             "title": "#原神# #原神7.2版本# 旅行者好呀~",
             "url": "https://www.bilibili.com/opus/1273842634488545282",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-23T16:16:16.941Z"
+            "checked_at": "2026-11-24T11:25:28.438Z"
           },
           {
             "title": "#原神# #莱欧斯利# #生日快乐# 每份礼物都贴着不一样的贴纸啊，还有独家定制的糖霜饼干？",
             "url": "https://www.bilibili.com/opus/1273749863246331908",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-23T16:16:16.941Z"
+            "checked_at": "2026-11-24T11:25:28.438Z"
           },
           {
             "title": "#原神# #兹白# 为守护故土，兹白曾以身对抗天罚。幸而，她最终还是循着月光，回到了她所珍爱的故土。",
             "url": "https://www.bilibili.com/opus/1273471549368696833",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-23T16:16:16.941Z"
+            "checked_at": "2026-11-24T11:25:28.438Z"
           },
           {
             "title": "#原神# #莉奈娅# 生活应在每一个当下，而非等待未来的某一天。命运无法改变，可同样不变的，是家人间注定相连的牵绊。",
             "url": "https://www.bilibili.com/opus/1273378778045743106",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-23T16:16:16.941Z"
+            "checked_at": "2026-11-24T11:25:28.438Z"
           },
           {
             "title": "#原神# 「挪德卡莱」、「至冬」…",
             "url": "https://www.bilibili.com/opus/1273007692840960000",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-23T16:16:16.941Z"
-          },
-          {
-            "title": "#原神# 「须弥」、「枫丹」、「纳塔」…",
-            "url": "https://www.bilibili.com/opus/1272636607715868696",
-            "type": "official_community",
-            "claims": [],
-            "checked_at": "2026-11-23T16:16:16.941Z"
+            "checked_at": "2026-11-24T11:25:28.438Z"
           }
         ],
-        "facts_checked_at": "2026-11-23T16:16:16.941Z"
+        "facts_checked_at": "2026-11-24T11:25:28.438Z"
       },
       {
         "game_name": "绝区零",
@@ -205,7 +205,7 @@
             "start_at": "2026-11-11T12:00:00+08:00",
             "end_at": "2026-12-01T14:59:00+08:00",
             "status": "进行中",
-            "days_remaining": 8,
+            "days_remaining": 7,
             "note": null,
             "source": "config"
           }
@@ -220,45 +220,45 @@
             "url": "https://www.bilibili.com/opus/1273749863225360393",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-23T16:16:16.941Z"
+            "checked_at": "2026-11-24T11:25:28.438Z"
           },
           {
             "title": "#绝区零# #长日终尽# #绝区零挽昼# 🎁决战于黎明之前丨薪火之影挑战现已开启",
             "url": "https://www.bilibili.com/opus/1273471549317316616",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-23T16:16:16.941Z"
+            "checked_at": "2026-11-24T11:25:28.438Z"
           },
           {
             "title": "互动抽奖 #绝区零# #绝区零席德# #生日快乐席德#",
             "url": "https://www.bilibili.com/opus/1273386614183165954",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-23T16:16:16.941Z"
+            "checked_at": "2026-11-24T11:25:28.438Z"
           },
           {
             "title": "#绝区零# #长日终尽# #绝区零挽昼# 🎁决战于黎明之前丨长明之影挑战现已开启",
             "url": "https://www.bilibili.com/opus/1273100464181739527",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-23T16:16:16.941Z"
+            "checked_at": "2026-11-24T11:25:28.438Z"
           },
           {
             "title": "#绝区零# #绝区零挽昼# #绝区零知更鸟# 养成指南上新丨挽昼&知更鸟养成材料预告",
             "url": "https://www.bilibili.com/opus/1273023154723225608",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-23T16:16:16.941Z"
+            "checked_at": "2026-11-24T11:25:28.438Z"
           },
           {
             "title": "互动抽奖  #绝区零# #绝区零混剪# #绝区零第三季#",
             "url": "https://www.bilibili.com/opus/1273007858246484035",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-23T16:16:16.941Z"
+            "checked_at": "2026-11-24T11:25:28.438Z"
           }
         ],
-        "facts_checked_at": "2026-11-23T16:16:16.941Z"
+        "facts_checked_at": "2026-11-24T11:25:28.438Z"
       },
       {
         "game_name": "明日方舟：终末地",
@@ -266,10 +266,10 @@
         "icon_url": "img/21014115f43d4219.jpg",
         "current_version": "「丹青渡」版本",
         "current_content": [
-          "我们已经了解危机关头需要呼叫谁的支援",
-          "#明日方舟终末地##穿越甚大蘑境与你相逢# 《明日方舟：终末地》「穿越甚大蘑境与你相逢」版本日历",
-          "#明日方舟终末地##穿越甚大蘑境与你相逢# 管理员，旧水坝方向近期传回了若干难以用常规逻辑解释的消息。",
-          "#明日方舟终末地##穿越甚大蘑境与你相逢# 《明日方舟：终末地》表情包#11即将上线微信、QQ平台。 管理员可前往上述…"
+          "#明日方舟终末地##穿越甚大蘑境与你相逢# 「战争回响 - 游离赛季」赛季轮换一览",
+          "#明日方舟终末地##穿越甚大蘑境与你相逢# 「装饰物品」「拍照动作」上新",
+          "#明日方舟终末地##穿越甚大蘑境与你相逢# 「协议通行证·蘑境」说明",
+          "#明日方舟终末地##穿越甚大蘑境与你相逢# //干员回顾//洁尔佩塔"
         ],
         "current_version_days": 25,
         "next_version": "「穿越甚大蘑境与你相逢」版本",
@@ -329,49 +329,49 @@
         ],
         "sources": [
           {
-            "title": "我们已经了解危机关头需要呼叫谁的支援",
-            "url": "https://www.bilibili.com/video/BV1FEyDzuETZ",
+            "title": "#明日方舟终末地##穿越甚大蘑境与你相逢# 「战争回响 - 游离赛季」赛季轮换一览",
+            "url": "https://www.bilibili.com/opus/1274229181564059648",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-23T16:16:16.941Z"
+            "checked_at": "2026-11-24T11:25:28.438Z"
           },
           {
-            "title": "#明日方舟终末地##穿越甚大蘑境与你相逢# 《明日方舟：终末地》「穿越甚大蘑境与你相逢」版本日历",
-            "url": "https://www.bilibili.com/opus/1273842634518953988",
+            "title": "#明日方舟终末地##穿越甚大蘑境与你相逢# 「装饰物品」「拍照动作」上新",
+            "url": "https://www.bilibili.com/opus/1274221450601955331",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-23T16:16:16.941Z"
+            "checked_at": "2026-11-24T11:25:28.438Z"
           },
           {
-            "title": "#明日方舟终末地##穿越甚大蘑境与你相逢# 管理员，旧水坝方向近期传回了若干难以用常规逻辑解释的消息。",
-            "url": "https://www.bilibili.com/opus/1273827172632494086",
+            "title": "#明日方舟终末地##穿越甚大蘑境与你相逢# 「协议通行证·蘑境」说明",
+            "url": "https://www.bilibili.com/opus/1274151872174751744",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-23T16:16:16.941Z"
+            "checked_at": "2026-11-24T11:25:28.438Z"
           },
           {
-            "title": "互动抽奖 #明日方舟终末地##丹青渡#",
-            "url": "https://www.bilibili.com/opus/1273757609221947394",
+            "title": "#明日方舟终末地##穿越甚大蘑境与你相逢# //干员回顾//洁尔佩塔",
+            "url": "https://www.bilibili.com/opus/1274144141229424642",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-23T16:16:16.941Z"
+            "checked_at": "2026-11-24T11:25:28.438Z"
           },
           {
-            "title": "#明日方舟终末地##穿越甚大蘑境与你相逢# 《明日方舟：终末地》表情包#11即将上线微信、QQ平台。 管理员可前往上述…",
-            "url": "https://www.bilibili.com/opus/1273757594139230214",
+            "title": "#明日方舟终末地##穿越甚大蘑境与你相逢# 「致每一个飘游之愿」重构寻访1与「飘行申领」重构申领1开放",
+            "url": "https://www.bilibili.com/opus/1274136410262077463",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-23T16:16:16.941Z"
+            "checked_at": "2026-11-24T11:25:28.438Z"
           },
           {
-            "title": "塔卫二地理志——菇菇绕坝坝",
-            "url": "https://www.bilibili.com/video/BV1hhy5zWEVC",
+            "title": "#明日方舟终末地##穿越甚大蘑境与你相逢# 「恣游申领」限时特卖说明",
+            "url": "https://www.bilibili.com/opus/1274128679336673287",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-23T16:16:16.941Z"
+            "checked_at": "2026-11-24T11:25:28.438Z"
           }
         ],
-        "facts_checked_at": "2026-11-23T16:16:16.941Z"
+        "facts_checked_at": "2026-11-24T11:25:28.438Z"
       },
       {
         "game_name": "崩坏：星穹铁道",
@@ -409,7 +409,7 @@
             "start_at": "2026-11-11T00:00:00+08:00",
             "end_at": "2026-12-22T15:00:00+08:00",
             "status": "进行中",
-            "days_remaining": 29,
+            "days_remaining": 28,
             "note": null,
             "source": "bilibili"
           }
@@ -422,49 +422,49 @@
         ],
         "sources": [
           {
+            "title": "互动抽奖 #崩坏星穹铁道# #星穹铁道填色挑战#  #抵达彩色的彼方# #星穹铁道公益第三卷#",
+            "url": "https://www.bilibili.com/opus/1274169148675457064",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-24T11:25:28.438Z"
+          },
+          {
             "title": "#崩坏星穹铁道# #此刻将群星付之一笑# 「位面分裂」活动说明",
             "url": "https://www.bilibili.com/opus/1273378778045743111",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-23T16:16:16.941Z"
+            "checked_at": "2026-11-24T11:25:28.438Z"
           },
           {
             "title": "互动抽奖 #崩坏星穹铁道# #绝区零# #星穹铁道绝区零联动# 限定5星角色登录即领",
             "url": "https://www.bilibili.com/opus/1272748712773287971",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-23T16:16:16.941Z"
+            "checked_at": "2026-11-24T11:25:28.438Z"
           },
           {
             "title": "互动抽奖 #崩坏星穹铁道# #此刻将群星付之一笑# #歌曲无中生有#",
             "url": "https://www.bilibili.com/opus/1272313722814070793",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-23T16:16:16.941Z"
+            "checked_at": "2026-11-24T11:25:28.438Z"
           },
           {
             "title": "互动抽奖 #崩坏星穹铁道# #此刻将群星付之一笑# #崩坏：星穹铁道创作者激励计划#",
             "url": "https://www.bilibili.com/opus/1271942641933615124",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-23T16:16:16.941Z"
+            "checked_at": "2026-11-24T11:25:28.438Z"
           },
           {
             "title": "互动抽奖 #崩坏星穹铁道# #此刻将群星付之一笑# #星穹铁道星神阿哈#",
             "url": "https://www.bilibili.com/opus/1271942637606141953",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-23T16:16:16.941Z"
-          },
-          {
-            "title": "互动抽奖 #崩坏星穹铁道# #星穹铁道填色挑战#  #抵达彩色的彼方# #星穹铁道公益第三卷#",
-            "url": "https://www.bilibili.com/opus/1271616499278151728",
-            "type": "official_community",
-            "claims": [],
-            "checked_at": "2026-11-23T16:16:16.941Z"
+            "checked_at": "2026-11-24T11:25:28.438Z"
           }
         ],
-        "facts_checked_at": "2026-11-23T16:16:16.941Z"
+        "facts_checked_at": "2026-11-24T11:25:28.438Z"
       },
       {
         "game_name": "异环",
@@ -472,10 +472,10 @@
         "icon_url": "img/633672ebf3738e81.jpg",
         "current_version": "1.5版本",
         "current_content": [
-          "海特洛衣橱 | Exe时装展示",
-          "离线的算式 | 特惠礼包",
-          "Exe时装 | 不逝于雨",
-          "角色实机战斗丨Exe"
+          "限定S级角色「卡厄斯」即将返场",
+          "读数礼遇丨离线的算式",
+          "「密钥特刊」弧盘研募计划即将开启",
+          "「离线的算式」限定棋盘即将开启"
         ],
         "current_version_days": 18,
         "next_version": "暂未公布",
@@ -499,7 +499,7 @@
             "start_at": "2026-11-05T00:00:00+08:00",
             "end_at": "2026-11-26T05:59:00+08:00",
             "status": "进行中",
-            "days_remaining": 3,
+            "days_remaining": 2,
             "note": null,
             "source": "config"
           },
@@ -512,7 +512,7 @@
             "start_at": "2026-11-05T00:00:00+08:00",
             "end_at": "2026-11-26T05:59:00+08:00",
             "status": "进行中",
-            "days_remaining": 3,
+            "days_remaining": 2,
             "note": null,
             "source": "config"
           }
@@ -522,49 +522,49 @@
         ],
         "sources": [
           {
+            "title": "限定S级角色「卡厄斯」即将返场",
+            "url": "https://www.bilibili.com/opus/1274182795947671576",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-24T11:25:28.438Z"
+          },
+          {
+            "title": "读数礼遇丨离线的算式",
+            "url": "https://www.bilibili.com/opus/1274167334012977176",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-24T11:25:28.438Z"
+          },
+          {
+            "title": "「密钥特刊」弧盘研募计划即将开启",
+            "url": "https://www.bilibili.com/opus/1274151872190480389",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-24T11:25:28.438Z"
+          },
+          {
+            "title": "「离线的算式」限定棋盘即将开启",
+            "url": "https://www.bilibili.com/opus/1274120948395540484",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-24T11:25:28.438Z"
+          },
+          {
             "title": "海特洛衣橱 | Exe时装展示",
             "url": "https://www.bilibili.com/opus/1273811710780637191",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-23T16:16:16.941Z"
+            "checked_at": "2026-11-24T11:25:28.438Z"
           },
           {
             "title": "离线的算式 | 特惠礼包",
             "url": "https://www.bilibili.com/opus/1273749863191805956",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-23T16:16:16.941Z"
-          },
-          {
-            "title": "Exe时装 | 不逝于雨",
-            "url": "https://www.bilibili.com/opus/1273734401360920594",
-            "type": "official_community",
-            "claims": [],
-            "checked_at": "2026-11-23T16:16:16.941Z"
-          },
-          {
-            "title": "《异环》角色实机战斗丨Exe",
-            "url": "https://www.bilibili.com/opus/1273382117396447240",
-            "type": "official_community",
-            "claims": [],
-            "checked_at": "2026-11-23T16:16:16.941Z"
-          },
-          {
-            "title": "《异环》角色实机战斗丨Exe",
-            "url": "https://www.bilibili.com/video/BV1Nbsq6LE4G",
-            "type": "official_community",
-            "claims": [],
-            "checked_at": "2026-11-23T16:16:16.941Z"
-          },
-          {
-            "title": "海特洛档案丨Exe",
-            "url": "https://www.bilibili.com/opus/1272992230969180179",
-            "type": "official_community",
-            "claims": [],
-            "checked_at": "2026-11-23T16:16:16.941Z"
+            "checked_at": "2026-11-24T11:25:28.438Z"
           }
         ],
-        "facts_checked_at": "2026-11-23T16:16:16.941Z"
+        "facts_checked_at": "2026-11-24T11:25:28.438Z"
       }
     ]
   },
@@ -1330,6 +1330,207 @@
     ]
   },
   "news": [
+    {
+      "id": "1274229181564059648",
+      "game_key": "endfield",
+      "game_name": "明日方舟：终末地",
+      "published_at": "2026-11-24T11:00:00.000Z",
+      "url": "https://www.bilibili.com/opus/1274229181564059648",
+      "source_mid": "1265652806",
+      "source_name": "明日方舟终末地",
+      "images": [
+        "https://i0.hdslb.com/bfs/new_dyn/c80659fdadfeabda0f5efded2cb985b51265652806.jpg"
+      ],
+      "type": "dynamic",
+      "title": "#明日方舟终末地##穿越甚大蘑境与你相逢# 「战争回响 - 游离赛季」赛季轮换一览",
+      "summary": "#明日方舟终末地##穿越甚大蘑境与你相逢#\n「战争回响 - 游离赛季」赛季轮换一览\n\n战争残留的痕迹仍存在于您的刀剑之上，感受它，阅读它，哀悼它，让勋章与荣耀再度降于掌心吧，管理员。\n「战争回响 - 游离赛季」将于「穿越甚大蘑境与你相逢」版本更新后正式开启，「狂热赛季」将同步结束，请管理员查收「游离赛季」相关信息。\n————————\n▼//「穿越甚大蘑境与你相逢」版本将于11月25日上线！\n新干员【小刻】登场，全新区域「旧水坝」开放！全新活动「阵列建设：旧伤弥合」即将开启！\n前往下载：https://www.biligame.com/detail?id=108406"
+    },
+    {
+      "id": "1274221450601955331",
+      "game_key": "endfield",
+      "game_name": "明日方舟：终末地",
+      "published_at": "2026-11-24T10:30:00.000Z",
+      "url": "https://www.bilibili.com/opus/1274221450601955331",
+      "source_mid": "1265652806",
+      "source_name": "明日方舟终末地",
+      "images": [
+        "https://i0.hdslb.com/bfs/new_dyn/2e5dd44134375878d83b08bc70c61e201265652806.jpg",
+        "https://i0.hdslb.com/bfs/new_dyn/7face28a0713d1ef8e063b42726129601265652806.jpg"
+      ],
+      "type": "dynamic",
+      "title": "#明日方舟终末地##穿越甚大蘑境与你相逢# 「装饰物品」「拍照动作」上新",
+      "summary": "#明日方舟终末地##穿越甚大蘑境与你相逢#\n「装饰物品」「拍照动作」上新\n\n《明日方舟：终末地》「穿越甚大蘑境与你相逢」版本全新「装饰物品」与「拍照动作」即将上线，请管理员查阅。\n————————\n▼//「穿越甚大蘑境与你相逢」版本将于11月25日上线！\n新干员【小刻】登场，全新区域「旧水坝」开放！全新活动「阵列建设：旧伤弥合」即将开启！\n前往下载：https://www.biligame.com/detail?id=108406"
+    },
+    {
+      "id": "1274214112706953219",
+      "game_key": "genshin",
+      "game_name": "原神",
+      "published_at": "2026-11-24T10:01:32.000Z",
+      "url": "https://www.bilibili.com/opus/1274214112706953219",
+      "source_mid": "401742377",
+      "source_name": "原神",
+      "images": [
+        "https://i0.hdslb.com/bfs/new_dyn/4afcf04e453773bc4391710cfc230335401742377.jpg"
+      ],
+      "type": "forward",
+      "title": "#原神# #原神7.2版本# 旅行者好呀~",
+      "summary": "旅行者们好呀~\n本期活动祈愿现已开启~\n#原神# #原神7.2版本# \n\n旅行者好呀~\n本期活动祈愿时间为2026/11/24 18:00 ~ 2026/12/15 14:59。\n限定5星角色「驹隙隐泉·兹白(岩)」「博闻异旅·莉奈娅(岩)」，限定5星武器「朏魄含光」「霜结的誓金枝」等的祈愿获取概率将大幅提升。\n此外还将开启「炎天铸名」集录祈愿，旅行者可以获取更多角色与武器，组建强大的队伍！"
+    },
+    {
+      "id": "1274182795947671576",
+      "game_key": "yh",
+      "game_name": "异环",
+      "published_at": "2026-11-24T08:00:00.000Z",
+      "url": "https://www.bilibili.com/opus/1274182795947671576",
+      "source_mid": "3546636978489848",
+      "source_name": "异环",
+      "images": [
+        "https://i0.hdslb.com/bfs/new_dyn/7aad7308bb3729c52ddb38d333d47ef13546636978489848.jpg",
+        "https://i0.hdslb.com/bfs/new_dyn/8cfbb3f063afbf987de6db753d9e4c6e3546636978489848.jpg",
+        "https://i0.hdslb.com/bfs/new_dyn/74926ab47e438115e9a624532720560a3546636978489848.jpg"
+      ],
+      "type": "dynamic",
+      "title": "限定S级角色「卡厄斯」即将返场",
+      "summary": "#致电空想迷数# #异环# #异环卡厄斯#\n「无归路」限定棋盘、「沉雾礼遇」、「追猎特刊」弧盘研募计划即将返场，可获得限定S级角色「卡厄斯」和限定S级弧盘「众人追寻之物」！\n\n▸开放时间\n2026/11/26 更新维护后~2026/12/17 5:59（服务器时间）\n\n▸特别说明\n所有「限定棋盘」共享S级角色保底计数、集点赠礼计数和棋盘变格计数；\n装扮礼遇活动计数仅跟随对应棋盘，不同棋盘互相独立，同名棋盘的对应礼遇活动计数将被保留。\n\n*更多详情，请前往游戏内「斯卡布罗集市」、「弧盘商店」查看。"
+    },
+    {
+      "id": "1274167334012977176",
+      "game_key": "yh",
+      "game_name": "异环",
+      "published_at": "2026-11-24T07:00:00.000Z",
+      "url": "https://www.bilibili.com/opus/1274167334012977176",
+      "source_mid": "3546636978489848",
+      "source_name": "异环",
+      "images": [
+        "https://i0.hdslb.com/bfs/new_dyn/fefa90a5cf688483cf89b25dfae96be23546636978489848.jpg"
+      ],
+      "type": "dynamic",
+      "title": "读数礼遇丨离线的算式",
+      "summary": "#致电空想迷数# #异环# #异环Exe# \n「离线的算式」读数礼遇即将开启！\n\n活动期间，限定棋盘「离线的算式」内新增：滑翔翼涂装「Y之手」、「E001」车辆涂装「executer」、Exe时装「蓝雪」。累计掷骰50/120/200次可分别在装扮礼遇处直接领取，同时也有概率在棋盘掷骰中提前获得。\n\n*更多详情，请前往游戏内「斯卡布罗集市」查看。"
+    },
+    {
+      "id": "1274151872174751744",
+      "game_key": "endfield",
+      "game_name": "明日方舟：终末地",
+      "published_at": "2026-11-24T06:00:00.000Z",
+      "url": "https://www.bilibili.com/opus/1274151872174751744",
+      "source_mid": "1265652806",
+      "source_name": "明日方舟终末地",
+      "images": [
+        "https://i0.hdslb.com/bfs/new_dyn/d263b86e87f04381319930158e5d333c1265652806.png"
+      ],
+      "type": "dynamic",
+      "title": "#明日方舟终末地##穿越甚大蘑境与你相逢# 「协议通行证·蘑境」说明",
+      "summary": "#明日方舟终末地##穿越甚大蘑境与你相逢#\n「协议通行证·蘑境」说明\n\n亲爱的管理员：\n「协议通行证·蘑境」开放期间，您可在「协议通行证」中获得武库工程师列出的各类支援项目。每期协议通行证开启时，将默认解锁「基础配给」。提升通行证等级，可获得【基础寻访凭证】【嵌晶玉】【兑换惊喜箱】【培养素材】等奖励。\n使用【衍质源石】解锁「源石配给」后，还可额外获得【基础寻访凭证】【贴纸·黏腻与甜香】【滤镜·金色黄昏】，以及【武器补给·蘑境】【衍质源石】【应急理智加强剂】等奖励。\n购买「协议定制」后，还可额外获得【名片·蜜境蘑城】【头像框·食用后的色彩】【头像·蕈类住民】，此外，还可额外获得【武器补给·蘑境】【武库配额】【协议化武器原型】等奖励。\n————————\n▼//「穿越甚大蘑境与你相逢」版本将于11月25日上线！\n新干员【小刻】登场，全新区域「旧水坝」开放！全新活动「阵列建设：旧伤弥合」即将开启！\n前往下载：https://www.biligame.com/detail?id=108406"
+    },
+    {
+      "id": "1274151872190480389",
+      "game_key": "yh",
+      "game_name": "异环",
+      "published_at": "2026-11-24T06:00:00.000Z",
+      "url": "https://www.bilibili.com/opus/1274151872190480389",
+      "source_mid": "3546636978489848",
+      "source_name": "异环",
+      "images": [
+        "https://i0.hdslb.com/bfs/new_dyn/973e5058037e99bd680fa4fe3756cb7b3546636978489848.jpg"
+      ],
+      "type": "dynamic",
+      "title": "「密钥特刊」弧盘研募计划即将开启",
+      "summary": "#致电空想迷数# #异环# #异环Exe# \n「密钥特刊」弧盘研募计划即将开启，当期限定S级弧盘「虚线彼方」获取概率提升！\n\n▸研募计划开放时间\n2026/11/26 更新维护后~2026/12/17 5:59（服务器时间）\n\n▸研募计划开放条件\n完成正篇任务「序章 - 全新的目的地 - 前往『伊波恩古董店』」\n\n▸研募计划说明\n1.「密钥特刊」研募计划限时开启，消耗「三重钥匙」或「密钥钥匙」参与本期弧盘研募计划并获取当期计划奖励。\n2.活动期间，限定S级弧盘「虚线彼方」的获取概率将大幅提升！\n3.「密钥特刊」研募计划的研募类型为「限定特刊」，开启1次「限定特刊」共计可获得10个任意品质的弧盘奖励。\n4.所有「限定特刊」中获取弧盘的保底次数完全共享。\n5.「密钥特刊」研募计划中，至多6次研募必定能通过保底获得S级弧盘，至多8次研募必能通过保底获取当期限定S级弧盘「虚线彼方」。该研募保底次数将永久累计并可以继承至其他「限定特刊」中。\n6.限定S级弧盘「虚线彼方」仅可在「密钥特刊」研募计划中获得，活动结束后暂无获取途径。\n\n*更多详情，请前往游戏内「弧盘商店」-「弧盘研募计划」查看。"
+    },
+    {
+      "id": "1274144141229424642",
+      "game_key": "endfield",
+      "game_name": "明日方舟：终末地",
+      "published_at": "2026-11-24T05:30:00.000Z",
+      "url": "https://www.bilibili.com/opus/1274144141229424642",
+      "source_mid": "1265652806",
+      "source_name": "明日方舟终末地",
+      "images": [
+        "https://i0.hdslb.com/bfs/new_dyn/31a7944dfbc9d0d87db0d74ec0a46d951265652806.png",
+        "https://i0.hdslb.com/bfs/new_dyn/da0a6937f347a493c0d269ca2bfe03941265652806.jpg",
+        "https://i0.hdslb.com/bfs/new_dyn/4f4d36768c3c25a764521f11307045d61265652806.jpg"
+      ],
+      "type": "dynamic",
+      "title": "#明日方舟终末地##穿越甚大蘑境与你相逢# //干员回顾//洁尔佩塔",
+      "summary": "#明日方舟终末地##穿越甚大蘑境与你相逢#\n//干员回顾//洁尔佩塔\n“你好呀！你身上有一股令人怀念的气味……好像一封没有写完的信，我很好奇它会去往哪里。” \n\n——————————\n「致每一个飘游之愿」重构寻访1将于「穿越甚大蘑境与你相逢」版本更新后开启，活动期间6星干员【洁尔佩塔】获取概率大幅提升。\n————————\n▼//「穿越甚大蘑境与你相逢」版本将于11月25日上线！\n新干员【小刻】登场，全新区域「旧水坝」开放！全新活动「阵列建设：旧伤弥合」即将开启！\n前往下载：https://www.biligame.com/detail?id=108406"
+    },
+    {
+      "id": "1274136410262077463",
+      "game_key": "endfield",
+      "game_name": "明日方舟：终末地",
+      "published_at": "2026-11-24T05:00:00.000Z",
+      "url": "https://www.bilibili.com/opus/1274136410262077463",
+      "source_mid": "1265652806",
+      "source_name": "明日方舟终末地",
+      "images": [
+        "https://i0.hdslb.com/bfs/new_dyn/f5e13a5f492c26acb4f52e10804145191265652806.jpg"
+      ],
+      "type": "dynamic",
+      "title": "#明日方舟终末地##穿越甚大蘑境与你相逢# 「致每一个飘游之愿」重构寻访1与「飘行申领」重构申领1开放",
+      "summary": "#明日方舟终末地##穿越甚大蘑境与你相逢#\n「致每一个飘游之愿」重构寻访1与「飘行申领」重构申领1开放\n\n亲爱的管理员：\n「致每一个飘游之愿」重构寻访1开放期间，6星干员【洁尔佩塔】获取概率提升！\n「飘行申领」重构申领1开放期间，6星武器【使命必达（施术单元）】获取概率提升！\n\n▼//开放时间\n「穿越甚大蘑境与你相逢」版本更新后 - 2026/12/16 11:59（服务器时间）\n\n▼//开放条件\n完成主线任务「第一章 - 进程Ⅰ - 基地解围」\n\n▼//「致每一个飘游之愿」重构寻访1说明\n■ 寻访说明\n「致每一个飘游之愿」重构寻访中，概率提升的6星干员为【洁尔佩塔】。在本寻访中，前120次寻访必定能获取6星干员【洁尔佩塔】，该规则在所有「致每一个飘游之愿」重构寻访中仅生效1次。该计数将继承到后续的「致每一个飘游之愿」重构寻访中。\n\n■ 寻访奖励\n「致每一个飘游之愿」重构寻访中，累计达到指定寻访次数，即可获得对应奖励。其中累计的寻访次数，将继承至后续的「致每一个飘游之愿」重构寻访中。\n\n· 加急招募\n累计寻访次数达到30/60/90次时，将分别额外获得10次加急招募（即分别额外获得1次"
+    },
+    {
+      "id": "1274128679336673287",
+      "game_key": "endfield",
+      "game_name": "明日方舟：终末地",
+      "published_at": "2026-11-24T04:30:00.000Z",
+      "url": "https://www.bilibili.com/opus/1274128679336673287",
+      "source_mid": "1265652806",
+      "source_name": "明日方舟终末地",
+      "images": [
+        "https://i0.hdslb.com/bfs/new_dyn/0790a2ff995bdd1643a0da2891b44d791265652806.png"
+      ],
+      "type": "dynamic",
+      "title": "#明日方舟终末地##穿越甚大蘑境与你相逢# 「恣游申领」限时特卖说明",
+      "summary": "#明日方舟终末地##穿越甚大蘑境与你相逢#\n「恣游申领」限时特卖说明\n\n亲爱的管理员：\n「恣游申领」开放期间，6星武器【甜美交易（长柄武器）】获取概率提升！\n\n▼//「恣游申领」\n· 开放时间：「穿越甚大蘑境与你相逢」版本更新后开启，于3次「特许寻访」后结束（从「锻砧、行囊与蜜糖」起计算）\n· 开放条件：完成主线任务「第一章 - 进程Ⅰ - 基地解围」\n· 「恣游申领」中，概率提升的6星武器为【甜美交易（长柄武器）】。\n· 「恣游申领」中，全部可能出现的6星武器包括：甜美交易（长柄武器）/扶摇（单手剑）/骁勇（长柄武器）/J.E.T.（长柄武器）/爆破单元（施术单元）/楔子（手铳）/昔日精品（双手剑）。\n\n▼//「武库申领」奖励\n在每个「武库申领」中，累计达到指定申领次数，即可交替获得「武库申领」对应的【补充武库箱】或【概率提升的6星武器】。武库申领奖励计数会在每个「武库申领」关闭时清零，不会继承到其他的「武库申领」中。\n\n▼//「武库申领」说明\n· 在「武库申领」中，可使用【武库配额】进行申领。\n· 每申领1次，可随机获得全部可能出现的武器列表中的10件武器，其中必定包含5星或以上武"
+    },
+    {
+      "id": "1274120948367228936",
+      "game_key": "endfield",
+      "game_name": "明日方舟：终末地",
+      "published_at": "2026-11-24T04:00:00.000Z",
+      "url": "https://www.bilibili.com/opus/1274120948367228936",
+      "source_mid": "1265652806",
+      "source_name": "明日方舟终末地",
+      "images": [
+        "https://i0.hdslb.com/bfs/new_dyn/c29ccad124dcf59dad845a27a01d4bb11265652806.jpg"
+      ],
+      "type": "dynamic",
+      "title": "#明日方舟终末地##穿越甚大蘑境与你相逢# 亲爱的管理员：",
+      "summary": "#明日方舟终末地##穿越甚大蘑境与你相逢#\n亲爱的管理员：\n「锻砧、行囊与蜜糖」特许寻访开放期间，6星干员【小刻】获取概率提升！\n「漫野探奇」限时签到活动同步开放，累计签到可获得【漫野探奇寻访凭证】×5等奖励，还可在【集成配额交易】中进行【漫野探奇寻访凭证】的特惠兑换。同时，开放「作战演练」干员试用活动。\n\n▼//「锻砧、行囊与蜜糖」特许寻访说明\n· 开放时间：「穿越甚大蘑境与你相逢」版本更新后 - 2026/12/23 11:59（服务器时间）\n· 开放条件：完成主线任务「第一章 - 进程Ⅰ - 基地解围」\n· 「锻砧、行囊与蜜糖」特许寻访中，概率提升的6星干员为【小刻】。\n· 「锻砧、行囊与蜜糖」特许寻访中，全部可能出现的6星干员包括：小刻/明河/祀/余烬/黎风/艾尔黛拉/别礼/骏卫。\n· 「锻砧、行囊与蜜糖」特许寻访中，可使用【漫野探奇寻访凭证】【特许寻访凭证】或【嵌晶玉】进行寻访。\n※ 在「特许寻访」中概率提升的6星干员，将于3次「特许寻访」结束后，移出「特许寻访」全部可能出现的干员列表。移出后，概率提升的6星干员不会进入「基础寻访」。\n\n▼//「特许寻访」奖励\n在「锻砧、行囊"
+    },
+    {
+      "id": "1274120948395540484",
+      "game_key": "yh",
+      "game_name": "异环",
+      "published_at": "2026-11-24T04:00:00.000Z",
+      "url": "https://www.bilibili.com/opus/1274120948395540484",
+      "source_mid": "3546636978489848",
+      "source_name": "异环",
+      "images": [
+        "https://i0.hdslb.com/bfs/new_dyn/df5a6e44eb473ba13b5358d7ffbdf3e83546636978489848.jpg"
+      ],
+      "type": "dynamic",
+      "title": "「离线的算式」限定棋盘即将开启",
+      "summary": "#致电空想迷数# #异环# #异环Exe# \n「离线的算式」限定棋盘即将开启，可获得当期限定S级角色「Exe」！\n\n▸棋盘开放时间\n2026/11/26 更新维护后~2026/12/17 5:59（服务器时间）\n\n▸棋盘开放条件\n完成正篇任务「序章 - 全新的目的地 - 前往『伊波恩古董店』」\n\n▸棋盘详情\n1.「离线的算式」棋盘可获得当期限定S级角色「Exe」，同时A级角色「哈尼娅」、「海月」、「翳」也将出现在该棋盘上。\n2.滑翔翼涂装「Y之手」、「E001」车辆涂装「executer」、Exe时装「蓝雪」也将出现在「离线的算式」棋盘上。\n\n▸棋盘规则\n1.「离线的算式」棋盘可使用「质实骰子」或「读数骰子」进行投掷，掷骰将等概率获得1至6点移动点数，并移动至对应格子内获得所示道具。\n2.所有「限定棋盘」共享S级角色保底计数、集点赠礼计数和棋盘变格计数。\n3.「离线的算式」的装扮礼遇为限时活动，其跟随「离线的算式」棋盘出现，不与其他限定棋盘共用；本期装扮礼遇包含【今日穿搭】、【改装时刻·涂装】、【风向标】。\n4.棋盘初始为基准棋盘，若连续70次掷骰没有获得当期限定S级角色，将触发「棋盘"
+    },
+    {
+      "id": "1274113236811120720",
+      "game_key": "endfield",
+      "game_name": "明日方舟：终末地",
+      "published_at": "2026-11-24T03:30:05.000Z",
+      "url": "https://www.bilibili.com/video/BV1aoyQzwEx9",
+      "source_mid": "1265652806",
+      "source_name": "明日方舟终末地",
+      "images": [],
+      "type": "video",
+      "title": "《明日方舟：终末地》干员叙事 [小刻：很新的旅程]",
+      "summary": "为了送出珍贵的礼物踏上旅程的小刻，这一次的目的地是……？",
+      "bvid": "BV1aoyQzwEx9",
+      "cover": "https://i1.hdslb.com/bfs/archive/d7e58eb34ec0f23fdfbca4f2ef59f1d297e6af6c.jpg",
+      "duration": "12:42"
+    },
     {
       "id": "1273858154352869427",
       "game_key": "endfield",
