@@ -1,13 +1,26 @@
 name: 刷新二游资讯
 
+# 每天北京时间 09:30 抓取一次，产出 data/ 与 docs/ 并提交回 main；Pages 直接托管 docs/。
+# 时区口径：代码侧时间戳由 src/utils/datetime.ts 统一 +08:00；这里让 shell 的 date 也走东八区。
+env:
+  TZ: Asia/Shanghai
+  # fork 后无需改代码：站点与 CDN 地址自动取当前仓库
+  SITE_OWNER: ${{ github.repository_owner }}
+  SITE_REPO: ${{ github.event.repository.name }}
+
 on:
   schedule:
-    # 每天 UTC 01:30 = 北京时间 09:30
+    # cron 用 UTC：每天 UTC 01:30 = 北京时间 09:30（不要按北京时间改这个值）
     - cron: '30 1 * * *'
-  workflow_dispatch:  # 支持手动触发
+  workflow_dispatch:      # 支持手动触发（首次部署 / 补数据）
+    inputs:
+      skip_tests:
+        description: '跳过回归测试（仅紧急补数据时用）'
+        type: boolean
+        default: false
 
 permissions:
-  contents: write
+  contents: write         # 提交数据与构建产物
 
 concurrency:
   group: refresh
@@ -16,6 +29,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
 
@@ -27,23 +41,54 @@ jobs:
       - name: 安装依赖
         run: npm ci
 
-      - name: 抓取 B站官方动态并生成数据
+      - name: 离线回归测试（卡池解析 / 时区 / API 契约）
+        if: ${{ !inputs.skip_tests }}
+        run: npm test
+
+      - name: 抓取各游戏官方动态并生成数据
         env:
           BILIBILI_COOKIE: ${{ secrets.BILIBILI_COOKIE }}
           CI: 'true'
         run: npm run crawl:once
 
-      - name: 构建静态站点到 docs/
+      # crawl 成功时两处都会写；crawl 失败（stale）时必须保住已提交的图片与 API，
+      # 否则下一步 vite build 会用空的 public/ 覆盖掉 docs/img 与 docs/api。
+      - name: 同步已提交产物到 public/（防止构建清空 docs）
+        run: |
+          mkdir -p apps/web/public/img apps/web/public/api
+          cp -a docs/img/. apps/web/public/img/ 2>/dev/null || true
+          cp -a docs/api/. apps/web/public/api/ 2>/dev/null || true
+
+      - name: 构建静态站点（含 docs/api 端点）
         run: npm run web:build
 
-      - name: 提交变更
+      - name: 产出摘要（便于排查）
+        run: |
+          node -e "const d=require('./docs/feed.json');console.log('generated_at',d.generated_at);console.log('games',d.data.games.length,'news',d.news.length);"
+          node -e "const h=require('./data/health.json');console.log('health',h.status,h.checked_at,h.banner_warnings||'no banner warnings');"
+
+      - name: 上传健康报告
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: health-report
+          path: |
+            data/health.json
+            docs/feed.json
+          retention-days: 7
+
+      - name: 提交并推送
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/store.json docs/ 2>/dev/null || true
+          # data/ 全量提交：store(库存) / health(健康) / birthdays / char-names(角色字典) /
+          # image-manifest+image-cache(图片缓存) / source-cache(信源快照，供离线重建)
+          git add data/ docs/ README.md 2>/dev/null || true
           if git diff --cached --quiet; then
             echo '无变更，跳过提交'
           else
-            git commit -m "chore: 定时刷新资讯 $(date -u +%Y-%m-%dT%H:%MZ)"
-            git push
+            git commit -m "chore: 定时刷新资讯 $(date '+%Y-%m-%d %H:%M') (CST)"
+            for i in 1 2 3; do
+              git push && break || { echo "push 失败，第 $i 次重试"; sleep 10; git pull --rebase --autostash; }
+            done
           fi
