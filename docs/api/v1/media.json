@@ -1,9 +1,9 @@
 {
   "api_version": "v1",
   "schema_version": 4,
-  "generated_at": "2026-11-26T22:30:14+08:00",
-  "generated_at_utc": "2026-11-26T14:30:14.000Z",
-  "count": 64,
+  "generated_at": "2026-11-26T23:13:37+08:00",
+  "generated_at_utc": "2026-11-26T15:13:37.000Z",
+  "count": 65,
   "cdn": {
     "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
     "api": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/api/v1"
@@ -23,14 +23,14 @@
       "duration": "04:36",
       "url": "https://www.bilibili.com/video/BV1UByzzRE4K",
       "player_url": "https://player.bilibili.com/player.html?bvid=BV1UByzzRE4K",
-      "poster_url": "https://i1.hdslb.com/bfs/archive/e29374ce6788de77caef8070b7ee5137813dfe61.jpg",
+      "poster_url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/449ca376aaba346e.jpg",
       "source": {
         "platform": "bilibili",
         "official_mid": "3546569016085336",
         "dynamic_url": "https://www.bilibili.com/video/BV1UByzzRE4K"
       },
-      "poster_url_fallback": "https://i1.hdslb.com/bfs/archive/e29374ce6788de77caef8070b7ee5137813dfe61.jpg",
-      "poster_url_local": "https://i1.hdslb.com/bfs/archive/e29374ce6788de77caef8070b7ee5137813dfe61.jpg"
+      "poster_url_fallback": "https://yangziyuezy.github.io/GameNewsPull/img/449ca376aaba346e.jpg",
+      "poster_url_local": "img/449ca376aaba346e.jpg"
     },
     {
       "id": "zzz:BV1esyZz7ExF",
@@ -46,14 +46,14 @@
       "duration": "20:00",
       "url": "https://www.bilibili.com/video/BV1esyZz7ExF",
       "player_url": "https://player.bilibili.com/player.html?bvid=BV1esyZz7ExF",
-      "poster_url": "https://i2.hdslb.com/bfs/archive/71002494ce562c07fa51d2ab20e727c81a746391.jpg",
+      "poster_url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/7b70784cafc07f50.jpg",
       "source": {
         "platform": "bilibili",
         "official_mid": "1636034895",
         "dynamic_url": "https://www.bilibili.com/video/BV1esyZz7ExF"
       },
-      "poster_url_fallback": "https://i2.hdslb.com/bfs/archive/71002494ce562c07fa51d2ab20e727c81a746391.jpg",
-      "poster_url_local": "https://i2.hdslb.com/bfs/archive/71002494ce562c07fa51d2ab20e727c81a746391.jpg"
+      "poster_url_fallback": "https://yangziyuezy.github.io/GameNewsPull/img/7b70784cafc07f50.jpg",
+      "poster_url_local": "img/7b70784cafc07f50.jpg"
     },
     {
       "id": "yh:BV1wYsq6kEeg",
@@ -69,14 +69,14 @@
       "duration": "13:18",
       "url": "https://www.bilibili.com/video/BV1wYsq6kEeg",
       "player_url": "https://player.bilibili.com/player.html?bvid=BV1wYsq6kEeg",
-      "poster_url": "https://i1.hdslb.com/bfs/archive/c558c93769c7a19d3d1c988c998c34bf6080d1e4.jpg",
+      "poster_url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/5ec1e88e6ade97cf.jpg",
       "source": {
         "platform": "bilibili",
         "official_mid": "3546636978489848",
         "dynamic_url": "https://www.bilibili.com/video/BV1wYsq6kEeg"
       },
-      "poster_url_fallback": "https://i1.hdslb.com/bfs/archive/c558c93769c7a19d3d1c988c998c34bf6080d1e4.jpg",
-      "poster_url_local": "https://i1.hdslb.com/bfs/archive/c558c93769c7a19d3d1c988c998c34bf6080d1e4.jpg"
+      "poster_url_fallback": "https://yangziyuezy.github.io/GameNewsPull/img/5ec1e88e6ade97cf.jpg",
+      "poster_url_local": "img/5ec1e88e6ade97cf.jpg"
     },
     {
       "id": "azurpromilia:BV1j3yHznECD",
@@ -115,14 +115,14 @@
       "duration": "01:31",
       "url": "https://www.bilibili.com/video/BV14QynzPEUj",
       "player_url": "https://player.bilibili.com/player.html?bvid=BV14QynzPEUj",
-      "poster_url": "https://i1.hdslb.com/bfs/archive/5667e55c285f76faa44c880890d0ef00d5c60a3c.jpg",
+      "poster_url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/8bf2aca13724b9f8.jpg",
       "source": {
         "platform": "bilibili",
         "official_mid": "233114659",
         "dynamic_url": "https://www.bilibili.com/video/BV14QynzPEUj"
       },
-      "poster_url_fallback": "https://i1.hdslb.com/bfs/archive/5667e55c285f76faa44c880890d0ef00d5c60a3c.jpg",
-      "poster_url_local": "https://i1.hdslb.com/bfs/archive/5667e55c285f76faa44c880890d0ef00d5c60a3c.jpg"
+      "poster_url_fallback": "https://yangziyuezy.github.io/GameNewsPull/img/8bf2aca13724b9f8.jpg",
+      "poster_url_local": "img/8bf2aca13724b9f8.jpg"
     },
     {
       "id": "endfield:BV1pvyhzdER5",
@@ -1434,6 +1434,29 @@
       },
       "poster_url_fallback": "https://yangziyuezy.github.io/GameNewsPull/img/77e274bfd702d4a4.jpg",
       "poster_url_local": "img/77e274bfd702d4a4.jpg"
+    },
+    {
+      "id": "azurlane:BV14Bnz6GExo",
+      "game_name": "碧蓝航线",
+      "game_key": "azurlane",
+      "category": "preview_program",
+      "category_label": "版本前瞻",
+      "title": "《碧蓝航线》「飓风与雾霭回廊」活动前瞻",
+      "description": "10月22日维护后~11月5日维护，大型活动「飓风与雾霭回廊」开启。详情可查阅维护公告。\n更多信息可前往：https://game.bilibili.com/blhx/jfywahlbb/h5/\n\n>>全新角色登场<<\n水星号-超稀有\n塞利米耶号-超稀有\n铁角号-超稀有\n长蛇号-精锐\n雷伊尔·贝号-精锐\n\n>>全新换装限时登场<<\n时间：10月22日维护后~10月28日23:59\n水星号-「天使降临之日」【Live2D+】\n塞利米耶号-「自投罗网的预言家？」【Live2D+】\n约克公爵-「魅惑的夜之猎手」",
+      "version": null,
+      "bvid": "BV14Bnz6GExo",
+      "published_at": "2026-10-21T18:01:26+08:00",
+      "duration": "01:52",
+      "url": "https://www.bilibili.com/video/BV14Bnz6GExo",
+      "player_url": "https://player.bilibili.com/player.html?bvid=BV14Bnz6GExo",
+      "poster_url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/52cfe311f83ea757.jpg",
+      "source": {
+        "platform": "bilibili",
+        "official_mid": "233114659",
+        "dynamic_url": "https://www.bilibili.com/video/BV14Bnz6GExo"
+      },
+      "poster_url_fallback": "https://yangziyuezy.github.io/GameNewsPull/img/52cfe311f83ea757.jpg",
+      "poster_url_local": "img/52cfe311f83ea757.jpg"
     },
     {
       "id": "yh:BV1gHp46pER8",

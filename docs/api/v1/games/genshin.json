@@ -1,8 +1,8 @@
 {
   "api_version": "v1",
   "schema_version": 4,
-  "generated_at": "2026-11-26T22:30:14+08:00",
-  "generated_at_utc": "2026-11-26T14:30:14.000Z",
+  "generated_at": "2026-11-26T23:13:37+08:00",
+  "generated_at_utc": "2026-11-26T15:13:37.000Z",
   "count": 1,
   "cdn": {
     "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
@@ -113,10 +113,10 @@
     ],
     "current_version": "7.2版本",
     "current_content": [
-      "剧情PV-「被赋予的慈爱」",
-      "过场动画-「高天的门扉」",
-      "过场动画-「雷与永恒」",
-      "过场动画-「岩与契约」"
+      "#原神# #原神7.2版本# 旅行者好呀~",
+      "#原神# #原神7.2版本# 旅行者好呀~",
+      "#原神# #兹白# 为守护故土，兹白曾以身对抗天罚。幸而，她最终还是循着月光，回到了她所珍爱的故土。",
+      "#原神# #莉奈娅# 生活应在每一个当下，而非等待未来的某一天。命运无法改变，可同样不变的，是家人间注定相连的牵绊。"
     ],
     "current_version_days": 34,
     "next_version": "暂未公布",
@@ -150,13 +150,13 @@
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1257794489195429889",
-            "fetched_at": "2026-11-26T22:30:14+08:00"
+            "fetched_at": "2026-11-26T23:13:37+08:00"
           },
           {
             "id": "akasha",
             "tier": "L2",
             "url": "https://www.miyoushe.com/ys/article/78782590",
-            "fetched_at": "2026-11-26T22:30:14+08:00"
+            "fetched_at": "2026-11-26T23:13:37+08:00"
           }
         ],
         "version": "7.1",
@@ -183,7 +183,7 @@
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1258536659570393096",
-            "fetched_at": "2026-11-26T22:30:14+08:00"
+            "fetched_at": "2026-11-26T23:13:37+08:00"
           }
         ],
         "version": null,
@@ -210,7 +210,7 @@
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1273842634488545282",
-            "fetched_at": "2026-11-26T22:30:14+08:00"
+            "fetched_at": "2026-11-26T23:13:37+08:00"
           }
         ],
         "version": "7.2",
@@ -236,13 +236,13 @@
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1273378778045743106",
-            "fetched_at": "2026-11-26T22:30:14+08:00"
+            "fetched_at": "2026-11-26T23:13:37+08:00"
           },
           {
             "id": "akasha",
             "tier": "L2",
             "url": "https://www.miyoushe.com/ys/article/79660850",
-            "fetched_at": "2026-11-26T22:30:14+08:00"
+            "fetched_at": "2026-11-26T23:13:37+08:00"
           }
         ],
         "version": "7.2",
@@ -256,49 +256,49 @@
     ],
     "sources": [
       {
-        "title": "《原神》剧情PV-「被赋予的慈爱」",
-        "url": "https://www.bilibili.com/video/BV1jiWi6dEQg",
+        "title": "#原神# #砂糖# #生日快乐# 今天天气很好，阳光暖洋洋的，洒在脸上很舒服。",
+        "url": "https://www.bilibili.com/opus/1274863118730657797",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:30:14+08:00"
+        "checked_at": "2026-11-26T23:13:37+08:00"
       },
       {
-        "title": "《原神》过场动画-「高天的门扉」",
-        "url": "https://www.bilibili.com/video/BV1oiWi6oEqR",
+        "title": "#原神# #原神7.2版本# 旅行者好呀~",
+        "url": "https://www.bilibili.com/opus/1274214112706953219",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:30:14+08:00"
+        "checked_at": "2026-11-26T23:13:37+08:00"
       },
       {
-        "title": "互动抽奖 #原神# #达妮卡# #冬宫侍影#",
-        "url": "https://www.bilibili.com/opus/1270441069821034503",
+        "title": "#原神# #原神7.2版本# 旅行者好呀~",
+        "url": "https://www.bilibili.com/opus/1273842634488545282",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:30:14+08:00"
+        "checked_at": "2026-11-26T23:13:37+08:00"
       },
       {
-        "title": "互动抽奖 #原神# #安娜丝塔夏# #霜冕昭苏#",
-        "url": "https://www.bilibili.com/opus/1270069971733446680",
+        "title": "#原神# #莱欧斯利# #生日快乐# 每份礼物都贴着不一样的贴纸啊，还有独家定制的糖霜饼干？",
+        "url": "https://www.bilibili.com/opus/1273749863246331908",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:30:14+08:00"
+        "checked_at": "2026-11-26T23:13:37+08:00"
       },
       {
-        "title": "《原神》过场动画-「雷与永恒」",
-        "url": "https://www.bilibili.com/video/BV1zTWd6EE6o",
+        "title": "#原神# #兹白# 为守护故土，兹白曾以身对抗天罚。幸而，她最终还是循着月光，回到了她所珍爱的故土。",
+        "url": "https://www.bilibili.com/opus/1273471549368696833",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:30:14+08:00"
+        "checked_at": "2026-11-26T23:13:37+08:00"
       },
       {
-        "title": "互动抽奖 #原神# #原神千星奇域# #千星奇域沪上奇景#",
-        "url": "https://www.bilibili.com/opus/1270024586800398375",
+        "title": "#原神# #莉奈娅# 生活应在每一个当下，而非等待未来的某一天。命运无法改变，可同样不变的，是家人间注定相连的牵绊。",
+        "url": "https://www.bilibili.com/opus/1273378778045743106",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:30:14+08:00"
+        "checked_at": "2026-11-26T23:13:37+08:00"
       }
     ],
-    "facts_checked_at": "2026-11-26T22:30:14+08:00",
+    "facts_checked_at": "2026-11-26T23:13:37+08:00",
     "pact_banners": [],
     "next_node_at": "2026-12-15T14:59:00+08:00",
     "next_node_label": "本期卡池结束（活动祈愿）",

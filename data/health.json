@@ -1,6 +1,7 @@
 {
   "status": "ok",
-  "checked_at": "2026-11-24T16:07:01.324Z",
+  "checked_at": "2026-11-26T23:15:05+08:00",
+  "checked_at_utc": "2026-11-26T15:15:05.178Z",
   "stale_since": null,
   "reason": null,
   "games": [
@@ -17,12 +18,12 @@
     {
       "name": "绝区零",
       "mid": "1636034895",
-      "pages": 1,
-      "fetched": 12,
-      "parsed": 12,
-      "inserted": 0,
+      "pages": 2,
+      "fetched": 24,
+      "parsed": 24,
+      "inserted": 1,
       "coverage": 100,
-      "opus": "9/9"
+      "opus": "16/16"
     },
     {
       "name": "崩坏：星穹铁道",
@@ -32,7 +33,7 @@
       "parsed": 13,
       "inserted": 0,
       "coverage": 100,
-      "opus": "4/4"
+      "opus": "5/5"
     },
     {
       "name": "崩坏：因缘精灵",
@@ -42,7 +43,7 @@
       "parsed": 13,
       "inserted": 0,
       "coverage": 100,
-      "opus": "8/8"
+      "opus": "9/9"
     },
     {
       "name": "明日方舟",
@@ -62,7 +63,7 @@
       "parsed": 13,
       "inserted": 0,
       "coverage": 100,
-      "opus": "10/10"
+      "opus": "11/11"
     },
     {
       "name": "鸣潮",
@@ -72,27 +73,27 @@
       "parsed": 13,
       "inserted": 0,
       "coverage": 100,
-      "opus": "6/6"
+      "opus": "4/4"
     },
     {
       "name": "蔚蓝档案",
       "mid": "3493265644980448",
       "pages": 1,
-      "fetched": 12,
-      "parsed": 12,
+      "fetched": 13,
+      "parsed": 13,
       "inserted": 0,
       "coverage": 100,
-      "opus": "10/10"
+      "opus": "13/13"
     },
     {
       "name": "蓝色星原：旅谣",
       "mid": "3546569016085336",
-      "pages": 1,
-      "fetched": 12,
-      "parsed": 12,
-      "inserted": 0,
+      "pages": 2,
+      "fetched": 24,
+      "parsed": 24,
+      "inserted": 1,
       "coverage": 100,
-      "opus": "9/9"
+      "opus": "17/17"
     },
     {
       "name": "白银之城",
@@ -102,14 +103,24 @@
       "parsed": 12,
       "inserted": 0,
       "coverage": 100,
-      "opus": "4/4"
+      "opus": "3/3"
+    },
+    {
+      "name": "碧蓝航线",
+      "mid": "233114659",
+      "pages": 8,
+      "fetched": 96,
+      "parsed": 96,
+      "inserted": 60,
+      "coverage": 100,
+      "opus": "79/79"
     },
     {
       "name": "异环",
       "mid": "3546636978489848",
       "pages": 1,
-      "fetched": 13,
-      "parsed": 13,
+      "fetched": 12,
+      "parsed": 12,
       "inserted": 0,
       "coverage": 100,
       "opus": "10/10"
@@ -117,6 +128,128 @@
   ],
   "failed_games": [],
   "endpoint_check": {},
-  "store_count": 926,
-  "feed_generated_at": "2026-11-24T16:07:00.646Z"
+  "store_count": 1089,
+  "feed_generated_at": "2026-11-26T23:13:37+08:00",
+  "banner_warnings": [
+    "[azurpromilia] 角色字典覆盖不足(3 条)，已跳过名单校验并降级置信度",
+    "[yh] 「离线的算式」字典未收录（官方源，已保留）: Exe",
+    "[bluearchive] 「夏日炎炎 笑靥未改」字典未收录（官方源，已保留）: 野宫",
+    "[bluearchive] 「指挥室通知监视员，迅速前往滑梯」字典未收录（官方源，已保留）: 康娜",
+    "[bluearchive] 「监视员了解。等我吃完甜甜圈冰淇淋哦」字典未收录（官方源，已保留）: 吹雪",
+    "[arknights] 丢弃候选「常驻标准寻访」: UP 角色 5 人超过上限 2",
+    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 但书、深律、阿罗玛",
+    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 玫拉、波卜、雪猎",
+    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 和弦、寒檀、聆音",
+    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 洋灰、海霓、录武官",
+    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 烈夏、折桠、裂响",
+    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 空构、衡沙、风絮",
+    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 鸿雪、逻各斯、晓歌、铎铃、撷英调香师",
+    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 琳琅诗怀雅、缇缇、子月、深律、温米",
+    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 焰影苇草、莱伊、刺玫、历阵锐枪芬、特克诺",
+    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 林、但书、阿罗玛、波卜",
+    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 赫德雷、阿斯卡纶、明椒、和弦、响石",
+    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 白铁、维娜·维多利亚、渡桥、寻澜、吉星",
+    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 圣约送葬人、洋灰、海霓、录武官",
+    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 杏仁、诺威尔",
+    "[arknights] 丢弃候选「常驻标准寻访」: UP 角色 3 人超过上限 2",
+    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 鸿雪、铎铃、青枳、烈夏",
+    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 历阵锐枪芬、衡沙、特克诺",
+    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 白铁、莱伊、寒檀、深律、吉星",
+    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 多萝西、焰影苇草、玫拉、聆音、雪猎",
+    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 琳琅诗怀雅、锏、夏栎、阿罗玛、阿兰娜",
+    "[genshin] 「7.2 版本」结束时间由 akasha(L2)补齐",
+    "[zzz] 「3.3 版本」开始时间由 akasha(L2)补齐",
+    "[zzz] 「3.3 版本」结束时间由 akasha(L2)补齐",
+    "[zzz] 「3.3 版本」开始时间由 akasha(L2)补齐",
+    "[zzz] 「3.3 版本」结束时间由 akasha(L2)补齐",
+    "[hsr] 「其一」开始时间由 akasha(L2)补齐",
+    "[hsr] 「其一」开始时间由 akasha(L2)补齐",
+    "[hsr] 「其一」以 L0 源为基础，合并结构化源补充角色: 火花、爻光",
+    "[genshin] 「7.2 武器祈愿」开始时间由 bili-dynamics(L0)补齐",
+    "[genshin] 「7.2 武器祈愿」结束时间由 bili-dynamics(L0)补齐",
+    "[hsr] 「其二」开始时间由 akasha(L2)补齐",
+    "[genshin] 「7.1 版本」结束时间由 akasha(L2)补齐",
+    "[genshin] 丢弃无 UP 角色的卡池: 7.1 版本",
+    "[genshin] 丢弃无 UP 角色的卡池: 7.2 版本",
+    "[genshin] 丢弃无 UP 角色的卡池: 7.2 版本",
+    "[genshin] 丢弃无 UP 角色的卡池: 7.2 版本",
+    "[genshin] 丢弃无起止时间的卡池: 7.2 活动祈愿",
+    "[arknights] 丢弃无 UP 角色的卡池: 常驻标准寻访",
+    "[arknights] 丢弃无 UP 角色的卡池: 常驻标准寻访",
+    "[arknights] 丢弃无 UP 角色的卡池: 常驻标准寻访",
+    "[arknights] 丢弃无 UP 角色的卡池: 常驻标准寻访",
+    "[arknights] 丢弃无 UP 角色的卡池: 常驻标准寻访",
+    "[arknights] 丢弃无 UP 角色的卡池: 常驻标准寻访",
+    "[arknights] 丢弃无 UP 角色的卡池: 常驻标准寻访",
+    "[arknights] 丢弃无 UP 角色的卡池: 常驻标准寻访",
+    "[endfield] 丢弃无起止时间的卡池: 重构寻访1",
+    "[wutheringwaves] 丢弃无 UP 角色的卡池: 第一期",
+    "[wutheringwaves] 丢弃无 UP 角色的卡池: 第一期",
+    "[节点告警] 以下游戏既无版本日期也无卡池排期，页面只能显示「暂未公布」: arknights"
+  ],
+  "banner_sources": [
+    {
+      "id": "hypergryph-cms",
+      "candidates": 11,
+      "ok": true
+    },
+    {
+      "id": "kuro-site",
+      "candidates": 0,
+      "ok": true
+    },
+    {
+      "id": "azurlane-jp",
+      "candidates": 0,
+      "ok": true,
+      "error": "filtered 1 外服候选"
+    },
+    {
+      "id": "azurlane-en",
+      "candidates": 1,
+      "ok": true
+    },
+    {
+      "id": "bili-dynamics",
+      "candidates": 44,
+      "ok": true
+    },
+    {
+      "id": "nte-site",
+      "candidates": 5,
+      "ok": true
+    },
+    {
+      "id": "prts-smw",
+      "candidates": 20,
+      "ok": true
+    },
+    {
+      "id": "akasha",
+      "candidates": 18,
+      "ok": true
+    },
+    {
+      "id": "bluearchive-cargo",
+      "candidates": 0,
+      "ok": true
+    },
+    {
+      "id": "nte-guide",
+      "candidates": 0,
+      "ok": true
+    },
+    {
+      "id": "nte-history",
+      "candidates": 6,
+      "ok": true
+    }
+  ],
+  "banner_dict": {
+    "added": 0,
+    "updated": 0
+  },
+  "next_node_missing": [
+    "arknights"
+  ]
 }

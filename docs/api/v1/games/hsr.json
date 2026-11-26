@@ -1,8 +1,8 @@
 {
   "api_version": "v1",
   "schema_version": 4,
-  "generated_at": "2026-11-26T22:30:14+08:00",
-  "generated_at_utc": "2026-11-26T14:30:14.000Z",
+  "generated_at": "2026-11-26T23:13:37+08:00",
+  "generated_at_utc": "2026-11-26T15:13:37.000Z",
   "count": 1,
   "cdn": {
     "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
@@ -72,10 +72,10 @@
     "birthdays": [],
     "current_version": "4.7版本「此刻，将群星付之一笑」",
     "current_content": [
-      "EP：「无中生有」",
-      "#崩坏星穹铁道# #星穹铁道音乐# #歌曲无中生有# 歌曲《无中生有 Ex Nihilo》即将上线",
-      "星旅一瞬：「皆大欢喜！」",
-      "动画短片：「月下的欢快葬礼」"
+      "#崩坏星穹铁道# #此刻将群星付之一笑# 「帕姆展览馆 | 此刻，将群星付之一笑•其一」",
+      "#崩坏星穹铁道# #此刻将群星付之一笑# 「位面分裂」活动说明",
+      "#崩坏星穹铁道# #此刻将群星付之一笑# 欢迎来到乐园 | 来自点星船的邀请函",
+      "#崩坏星穹铁道# #此刻将群星付之一笑# 命运的魔术"
     ],
     "current_version_days": 15,
     "next_version": "4.8版本",
@@ -109,13 +109,13 @@
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1261163891038093314",
-            "fetched_at": "2026-11-26T22:30:14+08:00"
+            "fetched_at": "2026-11-26T23:13:37+08:00"
           },
           {
             "id": "akasha",
             "tier": "L2",
             "url": "https://www.miyoushe.com/sr/article/78448395",
-            "fetched_at": "2026-11-26T22:30:14+08:00"
+            "fetched_at": "2026-11-26T23:13:37+08:00"
           }
         ],
         "version": "4.6",
@@ -141,13 +141,13 @@
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1261163891038093314",
-            "fetched_at": "2026-11-26T22:30:14+08:00"
+            "fetched_at": "2026-11-26T23:13:37+08:00"
           },
           {
             "id": "akasha",
             "tier": "L2",
             "url": "https://www.miyoushe.com/sr/article/79023863",
-            "fetched_at": "2026-11-26T22:30:14+08:00"
+            "fetched_at": "2026-11-26T23:13:37+08:00"
           }
         ],
         "version": "4.6",
@@ -173,13 +173,13 @@
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1268910294088810533",
-            "fetched_at": "2026-11-26T22:30:14+08:00"
+            "fetched_at": "2026-11-26T23:13:37+08:00"
           },
           {
             "id": "akasha",
             "tier": "L2",
             "url": "https://www.miyoushe.com/sr/article/79466344",
-            "fetched_at": "2026-11-26T22:30:14+08:00"
+            "fetched_at": "2026-11-26T23:13:37+08:00"
           }
         ],
         "version": "4.7",
@@ -207,13 +207,13 @@
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1268910294088810533",
-            "fetched_at": "2026-11-26T22:30:14+08:00"
+            "fetched_at": "2026-11-26T23:13:37+08:00"
           },
           {
             "id": "akasha",
             "tier": "L2",
             "url": "https://www.miyoushe.com/sr/article/79466344",
-            "fetched_at": "2026-11-26T22:30:14+08:00"
+            "fetched_at": "2026-11-26T23:13:37+08:00"
           }
         ],
         "version": "4.7",
@@ -229,49 +229,49 @@
     ],
     "sources": [
       {
+        "title": "#崩坏星穹铁道# #此刻将群星付之一笑# 「帕姆展览馆 | 此刻，将群星付之一笑•其一」",
+        "url": "https://www.bilibili.com/opus/1274492033569914949",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T23:13:37+08:00"
+      },
+      {
+        "title": "互动抽奖 #崩坏星穹铁道# #星穹铁道填色挑战#  #抵达彩色的彼方# #星穹铁道公益第三卷#",
+        "url": "https://www.bilibili.com/opus/1274169148675457064",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T23:13:37+08:00"
+      },
+      {
+        "title": "#崩坏星穹铁道# #此刻将群星付之一笑# 「位面分裂」活动说明",
+        "url": "https://www.bilibili.com/opus/1273378778045743111",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T23:13:37+08:00"
+      },
+      {
+        "title": "互动抽奖 #崩坏星穹铁道# #绝区零# #星穹铁道绝区零联动# 限定5星角色登录即领",
+        "url": "https://www.bilibili.com/opus/1272748712773287971",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T23:13:37+08:00"
+      },
+      {
         "title": "互动抽奖 #崩坏星穹铁道# #此刻将群星付之一笑# #歌曲无中生有#",
         "url": "https://www.bilibili.com/opus/1272313722814070793",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:30:14+08:00"
+        "checked_at": "2026-11-26T23:13:37+08:00"
       },
       {
         "title": "互动抽奖 #崩坏星穹铁道# #此刻将群星付之一笑# #崩坏：星穹铁道创作者激励计划#",
         "url": "https://www.bilibili.com/opus/1271942641933615124",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:30:14+08:00"
-      },
-      {
-        "title": "互动抽奖 #崩坏星穹铁道# #此刻将群星付之一笑# #星穹铁道星神阿哈#",
-        "url": "https://www.bilibili.com/opus/1271942637606141953",
-        "type": "official_community",
-        "claims": [],
-        "checked_at": "2026-11-26T22:30:14+08:00"
-      },
-      {
-        "title": "互动抽奖 #崩坏星穹铁道# #1111开启阿哈时刻# 倒计时1天 |「阿哈全明星」",
-        "url": "https://www.bilibili.com/opus/1271571552462176260",
-        "type": "official_community",
-        "claims": [],
-        "checked_at": "2026-11-26T22:30:14+08:00"
-      },
-      {
-        "title": "互动抽奖 #崩坏星穹铁道# #1111开启阿哈时刻# 倒计时4天 |「阿哈全明星」",
-        "url": "https://www.bilibili.com/opus/1271200505944604674",
-        "type": "official_community",
-        "claims": [],
-        "checked_at": "2026-11-26T22:30:14+08:00"
-      },
-      {
-        "title": "互动抽奖 #崩坏星穹铁道# #此刻将群星付之一笑# #星穹铁道星神阿哈#",
-        "url": "https://www.bilibili.com/opus/1271200501599305736",
-        "type": "official_community",
-        "claims": [],
-        "checked_at": "2026-11-26T22:30:14+08:00"
+        "checked_at": "2026-11-26T23:13:37+08:00"
       }
     ],
-    "facts_checked_at": "2026-11-26T22:30:14+08:00",
+    "facts_checked_at": "2026-11-26T23:13:37+08:00",
     "pact_banners": [],
     "next_node_at": "2026-12-22T15:00:00+08:00",
     "next_node_label": "本期卡池结束（星神★阿哈）",

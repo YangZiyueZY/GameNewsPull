@@ -1,8 +1,8 @@
 {
   "api_version": "v1",
   "schema_version": 4,
-  "generated_at": "2026-11-26T22:30:14+08:00",
-  "generated_at_utc": "2026-11-26T14:30:14.000Z",
+  "generated_at": "2026-11-26T23:13:37+08:00",
+  "generated_at_utc": "2026-11-26T15:13:37.000Z",
   "count": 1,
   "cdn": {
     "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
@@ -72,10 +72,10 @@
     "birthdays": [],
     "current_version": "版本资讯更新中",
     "current_content": [
-      "预下载现已开启",
-      "公测常见问题说明",
-      "公测B站UP主激励计划现已开启！",
-      "涂山小玉PV | 一笺桃花"
+      "花间千丝系尘缘 | 涂山小玉",
+      "亲爱的星临者，羁点观测「绯影入怀」现已开启。",
+      "公测版本PV | 星跃始动",
+      "星旅指南 | Vol.06"
     ],
     "current_version_days": 0,
     "next_version": "暂未公布",
@@ -109,7 +109,7 @@
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1274151900107767840",
-            "fetched_at": "2026-11-26T22:30:14+08:00"
+            "fetched_at": "2026-11-26T23:13:37+08:00"
           }
         ],
         "version": null,
@@ -123,48 +123,48 @@
     "sources": [
       {
         "title": "互动抽奖",
-        "url": "https://www.bilibili.com/opus/1274106205897228296",
+        "url": "https://www.bilibili.com/opus/1274955922253283329",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:30:14+08:00"
-      },
-      {
-        "title": "《蓝色星原：旅谣》预下载现已开启 ！！",
-        "url": "https://www.bilibili.com/opus/1274167727012970499",
-        "type": "official_community",
-        "claims": [],
-        "checked_at": "2026-11-26T22:30:14+08:00"
-      },
-      {
-        "title": "《蓝色星原：旅谣》预下载现已开启",
-        "url": "https://www.bilibili.com/opus/1274167331926310949",
-        "type": "official_community",
-        "claims": [],
-        "checked_at": "2026-11-26T22:30:14+08:00"
+        "checked_at": "2026-11-26T23:13:37+08:00"
       },
       {
         "title": "互动抽奖",
-        "url": "https://www.bilibili.com/opus/1274151900107767840",
+        "url": "https://www.bilibili.com/opus/1274948182749478961",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:30:14+08:00"
+        "checked_at": "2026-11-26T23:13:37+08:00"
       },
       {
-        "title": "《蓝色星原：旅谣》公测常见问题说明",
-        "url": "https://www.bilibili.com/opus/1274128690074091522",
+        "title": "互动抽奖",
+        "url": "https://www.bilibili.com/opus/1274940490464100389",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:30:14+08:00"
+        "checked_at": "2026-11-26T23:13:37+08:00"
       },
       {
-        "title": "《蓝色星原：旅谣》公测B站UP主激励计划现已开启！",
-        "url": "https://www.bilibili.com/opus/1274113217435533320",
+        "title": "花间千丝系尘缘 | 涂山小玉",
+        "url": "https://www.bilibili.com/video/BV1KKyrzxEds",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:30:14+08:00"
+        "checked_at": "2026-11-26T23:13:37+08:00"
+      },
+      {
+        "title": "亲爱的星临者，羁点观测「绯影入怀」现已开启。",
+        "url": "https://www.bilibili.com/opus/1274894042517209129",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T23:13:37+08:00"
+      },
+      {
+        "title": "互动抽奖",
+        "url": "https://www.bilibili.com/opus/1274832218622001289",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T23:13:37+08:00"
       }
     ],
-    "facts_checked_at": "2026-11-26T22:30:14+08:00",
+    "facts_checked_at": "2026-11-26T23:13:37+08:00",
     "pact_banners": [],
     "next_node_at": "2026-12-17T03:59:00+08:00",
     "next_node_label": "本期卡池结束（桃笺为契）",

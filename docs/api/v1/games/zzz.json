@@ -1,8 +1,8 @@
 {
   "api_version": "v1",
   "schema_version": 4,
-  "generated_at": "2026-11-26T22:30:14+08:00",
-  "generated_at_utc": "2026-11-26T14:30:14.000Z",
+  "generated_at": "2026-11-26T23:13:37+08:00",
+  "generated_at_utc": "2026-11-26T15:13:37.000Z",
   "count": 1,
   "cdn": {
     "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
@@ -72,10 +72,10 @@
     "birthdays": [],
     "current_version": "3.3版本「重返天空的旅程」",
     "current_content": [
-      "第三季纪念回顾 | 新世界前夜",
-      "3.4版本PV | 长日终尽",
-      "#绝区零# #重返天空的旅程# 「数据悬赏-实战模拟」活动说明",
-      "#绝区零# #长日终尽# #绝区零挽昼# 🎁决战于黎明之前丨薪火之影挑战现已开启"
+      "#绝区零# #长日终尽# #绝区零挽昼# 代理人机制介绍丨挽昼篇",
+      "新品情报丨咔嚓留影系列mini相机盲盒",
+      "挽昼角色展示 | 日陨之前",
+      "#绝区零# #重返天空的旅程# 「数据悬赏-实战模拟」活动说明"
     ],
     "current_version_days": 36,
     "next_version": "3.4版本「长日终尽」",
@@ -110,13 +110,13 @@
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1268925755981561865",
-            "fetched_at": "2026-11-26T22:30:14+08:00"
+            "fetched_at": "2026-11-26T23:13:37+08:00"
           },
           {
             "id": "akasha",
             "tier": "L2",
             "url": "https://www.miyoushe.com/zzz/article/79004828",
-            "fetched_at": "2026-11-26T22:30:14+08:00"
+            "fetched_at": "2026-11-26T23:13:37+08:00"
           }
         ],
         "version": "3.3",
@@ -143,13 +143,13 @@
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1271894437347196948",
-            "fetched_at": "2026-11-26T22:30:14+08:00"
+            "fetched_at": "2026-11-26T23:13:37+08:00"
           },
           {
             "id": "akasha",
             "tier": "L2",
             "url": "https://www.miyoushe.com/zzz/article/79450581",
-            "fetched_at": "2026-11-26T22:30:14+08:00"
+            "fetched_at": "2026-11-26T23:13:37+08:00"
           }
         ],
         "version": "3.3",
@@ -163,49 +163,49 @@
     ],
     "sources": [
       {
-        "title": "《绝区零》第三季纪念回顾 | 新世界前夜",
-        "url": "https://www.bilibili.com/video/BV1S4yhzcEgW",
+        "title": "互动抽奖 #绝区零# #长日终尽# #绝区零星穹铁道联动# #绝区零知更鸟#",
+        "url": "https://www.bilibili.com/opus/1274959796308541461",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:30:14+08:00"
+        "checked_at": "2026-11-26T23:13:37+08:00"
       },
       {
-        "title": "《绝区零》3.4 版本「长日终尽」前瞻特别节目",
-        "url": "https://www.bilibili.com/video/BV1WwyWzNEXz",
+        "title": "互动抽奖 #绝区零# #绝区零周边# #绝区零南宫羽#",
+        "url": "https://www.bilibili.com/opus/1274881228482281478",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:30:14+08:00"
+        "checked_at": "2026-11-26T23:13:37+08:00"
       },
       {
-        "title": "《绝区零》3.4版本PV | 长日终尽",
-        "url": "https://www.bilibili.com/video/BV1nuyWz8Eji",
+        "title": "互动抽奖 #绝区零# #绝区零周边# #绝区零艾莲#",
+        "url": "https://www.bilibili.com/opus/1274872054440525828",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:30:14+08:00"
+        "checked_at": "2026-11-26T23:13:37+08:00"
       },
       {
-        "title": "​#绝区零# #长日终尽#",
-        "url": "https://www.bilibili.com/opus/1272636670003380229",
+        "title": "#绝区零# #长日终尽# #绝区零挽昼# 代理人机制介绍丨挽昼篇",
+        "url": "https://www.bilibili.com/opus/1274870849653964825",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:30:14+08:00"
+        "checked_at": "2026-11-26T23:13:37+08:00"
       },
       {
-        "title": "互动抽奖  #绝区零#",
-        "url": "https://www.bilibili.com/opus/1272250079986581657",
+        "title": "互动抽奖 #绝区零# #长日终尽# #绝区零挽昼#",
+        "url": "https://www.bilibili.com/opus/1274507553423753222",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:30:14+08:00"
+        "checked_at": "2026-11-26T23:13:37+08:00"
       },
       {
-        "title": "互动抽奖 #绝区零# #绝区零妮可# #生日快乐妮可#",
-        "url": "https://www.bilibili.com/opus/1271878994776555603",
+        "title": "互动抽奖 #绝区零# #绝区零比利# #生日快乐比利#",
+        "url": "https://www.bilibili.com/opus/1274499874006499351",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:30:14+08:00"
+        "checked_at": "2026-11-26T23:13:37+08:00"
       }
     ],
-    "facts_checked_at": "2026-11-26T22:30:14+08:00",
+    "facts_checked_at": "2026-11-26T23:13:37+08:00",
     "pact_banners": [],
     "next_node_at": "2026-12-01T14:59:00+08:00",
     "next_node_label": "本期卡池结束（代理人调频）",

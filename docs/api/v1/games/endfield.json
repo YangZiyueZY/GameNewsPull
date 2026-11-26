@@ -1,8 +1,8 @@
 {
   "api_version": "v1",
   "schema_version": 4,
-  "generated_at": "2026-11-26T22:30:14+08:00",
-  "generated_at_utc": "2026-11-26T14:30:14.000Z",
+  "generated_at": "2026-11-26T23:13:37+08:00",
+  "generated_at_utc": "2026-11-26T15:13:37.000Z",
   "count": 1,
   "cdn": {
     "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
@@ -72,10 +72,10 @@
     "birthdays": [],
     "current_version": "「穿越甚大蘑境与你相逢」版本",
     "current_content": [
-      "「穿越甚大蘑境与你相逢」版本PV",
-      "「全新版本&2.0揭幕前瞻」特别节目回顾",
-      "特别映像「基石」",
-      "干员影像-「群像：信号预联」"
+      "#明日方舟终末地##穿越甚大蘑境与你相逢# 后勤备忘 - 独家揭秘! | 小刻",
+      "#明日方舟终末地创作者应援计划# 管理员，明日方舟：终末地「穿越甚大蘑境与你相逢」UP主应援计划正在进行中。",
+      "#明日方舟终末地##穿越甚大蘑境与你相逢# 《明日方舟：终末地》「穿越甚大蘑境与你相逢」版本现已开启！",
+      "小刻EP - JUST THE START"
     ],
     "current_version_days": 1,
     "next_version": "暂未公布",
@@ -109,7 +109,7 @@
             "id": "hypergryph-cms",
             "tier": "L0",
             "url": "https://endfield.hypergryph.com/news/8548",
-            "fetched_at": "2026-11-26T22:30:14+08:00"
+            "fetched_at": "2026-11-26T23:13:37+08:00"
           }
         ],
         "version": null,
@@ -135,7 +135,7 @@
             "id": "hypergryph-cms",
             "tier": "L0",
             "url": "https://endfield.hypergryph.com/news/7204",
-            "fetched_at": "2026-11-26T22:30:14+08:00"
+            "fetched_at": "2026-11-26T23:13:37+08:00"
           }
         ],
         "version": null,
@@ -161,7 +161,7 @@
             "id": "hypergryph-cms",
             "tier": "L0",
             "url": "https://endfield.hypergryph.com/news/8535",
-            "fetched_at": "2026-11-26T22:30:14+08:00"
+            "fetched_at": "2026-11-26T23:13:37+08:00"
           }
         ],
         "version": null,
@@ -187,7 +187,7 @@
             "id": "hypergryph-cms",
             "tier": "L0",
             "url": "https://endfield.hypergryph.com/news/7201",
-            "fetched_at": "2026-11-26T22:30:14+08:00"
+            "fetched_at": "2026-11-26T23:13:37+08:00"
           }
         ],
         "version": null,
@@ -201,49 +201,49 @@
     ],
     "sources": [
       {
-        "title": "《明日方舟：终末地》「穿越甚大蘑境与你相逢」版本PV",
-        "url": "https://www.bilibili.com/video/BV1nHyazWEDV",
+        "title": "#明日方舟终末地##穿越甚大蘑境与你相逢# 后勤备忘 - 独家揭秘! | 小刻",
+        "url": "https://www.bilibili.com/opus/1274863118723317794",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:30:14+08:00"
+        "checked_at": "2026-11-26T23:13:37+08:00"
       },
       {
-        "title": "《明日方舟：终末地》「全新版本&2.0揭幕前瞻」特别节目回顾",
-        "url": "https://www.bilibili.com/video/BV1pvyhzdER5",
+        "title": "互动抽奖   #明日方舟终末地##穿越甚大蘑境与你相逢#",
+        "url": "https://www.bilibili.com/opus/1274585597269245957",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:30:14+08:00"
+        "checked_at": "2026-11-26T23:13:37+08:00"
       },
       {
-        "title": "《明日方舟：终末地》特别映像「基石」",
-        "url": "https://www.bilibili.com/video/BV1MMyazPEKy",
+        "title": "#明日方舟终末地创作者应援计划# 管理员，明日方舟：终末地「穿越甚大蘑境与你相逢」UP主应援计划正在进行中。",
+        "url": "https://www.bilibili.com/opus/1274522957363806216",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:30:14+08:00"
+        "checked_at": "2026-11-26T23:13:37+08:00"
       },
       {
-        "title": "《明日方舟：终末地》干员影像-「群像：信号预联」",
-        "url": "https://www.bilibili.com/video/BV1yGyaz8EXM",
+        "title": "互动抽奖 #明日方舟终末地##穿越甚大蘑境与你相逢#",
+        "url": "https://www.bilibili.com/opus/1274499908377772052",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:30:14+08:00"
+        "checked_at": "2026-11-26T23:13:37+08:00"
       },
       {
-        "title": "#明日方舟终末地##穿越甚大蘑境与你相逢# 《明日方舟：终末地》全新版本&2.0揭幕前瞻特别节目即将于11月21日19…",
-        "url": "https://www.bilibili.com/opus/1273069701443878962",
+        "title": "#明日方舟终末地##穿越甚大蘑境与你相逢# 《明日方舟：终末地》「穿越甚大蘑境与你相逢」版本现已开启！",
+        "url": "https://www.bilibili.com/opus/1274492033541603347",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:30:14+08:00"
+        "checked_at": "2026-11-26T23:13:37+08:00"
       },
       {
-        "title": "新章揭幕，火种未熄。《明日方舟：终末地》全新版本&2.0揭幕前瞻特别节目即将于11月21日19:30播出。",
-        "url": "https://www.bilibili.com/video/BV1NgsB67EYH",
+        "title": "互动抽奖 #明日方舟终末地##穿越甚大蘑境与你相逢##小刻#",
+        "url": "https://www.bilibili.com/opus/1274478115740975104",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:30:14+08:00"
+        "checked_at": "2026-11-26T23:13:37+08:00"
       }
     ],
-    "facts_checked_at": "2026-11-26T22:30:14+08:00",
+    "facts_checked_at": "2026-11-26T23:13:37+08:00",
     "pact_banners": [],
     "next_node_at": "2026-12-23T11:59:00+08:00",
     "next_node_label": "本期卡池结束（锻砧、行囊与蜜糖）",

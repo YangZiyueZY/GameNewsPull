@@ -1,8 +1,8 @@
 {
   "api_version": "v1",
   "schema_version": 4,
-  "generated_at": "2026-11-26T22:30:14+08:00",
-  "generated_at_utc": "2026-11-26T14:30:14.000Z",
+  "generated_at": "2026-11-26T23:13:37+08:00",
+  "generated_at_utc": "2026-11-26T15:13:37.000Z",
   "count": 500,
   "cdn": {
     "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
@@ -20,9 +20,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/529c5d086e4f8323891ea0173507493d233114659.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/529c5d086e4f8323891ea0173507493d233114659.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/529c5d086e4f8323891ea0173507493d233114659.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/835b1a4ace1a8293.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/835b1a4ace1a8293.png",
+          "local": "img/835b1a4ace1a8293.png"
         }
       ],
       "cover": null
@@ -38,14 +38,14 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/f51ecd671f8babeab36b2151be1d147f161775300.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/f51ecd671f8babeab36b2151be1d147f161775300.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/f51ecd671f8babeab36b2151be1d147f161775300.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/e9887024d35a9965.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/e9887024d35a9965.png",
+          "local": "img/e9887024d35a9965.png"
         },
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/64b94ebb8d78c32c94bde2ee04faeb90161775300.gif",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/64b94ebb8d78c32c94bde2ee04faeb90161775300.gif",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/64b94ebb8d78c32c94bde2ee04faeb90161775300.gif"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/ab6d96d24c78ce35.gif",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/ab6d96d24c78ce35.gif",
+          "local": "img/ab6d96d24c78ce35.gif"
         }
       ],
       "cover": null
@@ -61,9 +61,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/44791865bfc6945a5dd6a47cc77eb0913493265644980448.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/44791865bfc6945a5dd6a47cc77eb0913493265644980448.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/44791865bfc6945a5dd6a47cc77eb0913493265644980448.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/6a2711eaf078818b.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/6a2711eaf078818b.png",
+          "local": "img/6a2711eaf078818b.png"
         }
       ],
       "cover": null
@@ -79,14 +79,14 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/6e740bb57f94876f66fd397183792ee0161775300.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/6e740bb57f94876f66fd397183792ee0161775300.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/6e740bb57f94876f66fd397183792ee0161775300.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/9ee98e95edcaa1d7.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/9ee98e95edcaa1d7.jpg",
+          "local": "img/9ee98e95edcaa1d7.jpg"
         },
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/4a64679d20f42df0a225e25d092b636d161775300.gif",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/4a64679d20f42df0a225e25d092b636d161775300.gif",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/4a64679d20f42df0a225e25d092b636d161775300.gif"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/b947759e2c4bf4c1.gif",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/b947759e2c4bf4c1.gif",
+          "local": "img/b947759e2c4bf4c1.gif"
         },
         {
           "url": "https://i0.hdslb.com/bfs/new_dyn/7bdc78e7a00fbe3e6cb94bdb9d82f142161775300.gif",
@@ -127,9 +127,9 @@
       "type": "video",
       "images": [],
       "cover": {
-        "url": "https://i1.hdslb.com/bfs/archive/4f4163d4921572149067d782e17250fe1705b016.jpg",
-        "fallback": "https://i1.hdslb.com/bfs/archive/4f4163d4921572149067d782e17250fe1705b016.jpg",
-        "local": "https://i1.hdslb.com/bfs/archive/4f4163d4921572149067d782e17250fe1705b016.jpg"
+        "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/8af604c8dbe95f3f.jpg",
+        "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/8af604c8dbe95f3f.jpg",
+        "local": "img/8af604c8dbe95f3f.jpg"
       }
     },
     {
@@ -143,9 +143,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/0ab697990125b341f04590a8809d2e053546636978489848.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/0ab697990125b341f04590a8809d2e053546636978489848.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/0ab697990125b341f04590a8809d2e053546636978489848.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/06826165e4d44d5b.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/06826165e4d44d5b.jpg",
+          "local": "img/06826165e4d44d5b.jpg"
         }
       ],
       "cover": null
@@ -161,9 +161,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/f932eee42431e06628b7de65b00f707b3493265644980448.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/f932eee42431e06628b7de65b00f707b3493265644980448.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/f932eee42431e06628b7de65b00f707b3493265644980448.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/47dced32bb462b7e.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/47dced32bb462b7e.png",
+          "local": "img/47dced32bb462b7e.png"
         }
       ],
       "cover": null
@@ -179,9 +179,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/57468ee85fc408496420c4342611e6653546569016085336.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/57468ee85fc408496420c4342611e6653546569016085336.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/57468ee85fc408496420c4342611e6653546569016085336.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/bd5e91e5d042522d.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/bd5e91e5d042522d.png",
+          "local": "img/bd5e91e5d042522d.png"
         }
       ],
       "cover": null
@@ -197,14 +197,14 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/5b199c213d3ccb08e841b8e593e306a81636034895.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/5b199c213d3ccb08e841b8e593e306a81636034895.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/5b199c213d3ccb08e841b8e593e306a81636034895.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/79f0ebf111e6fa7e.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/79f0ebf111e6fa7e.png",
+          "local": "img/79f0ebf111e6fa7e.png"
         },
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/c4799f31fd87326a1206aea1fd08f1ae1636034895.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/c4799f31fd87326a1206aea1fd08f1ae1636034895.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/c4799f31fd87326a1206aea1fd08f1ae1636034895.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/598834827aa08b56.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/598834827aa08b56.png",
+          "local": "img/598834827aa08b56.png"
         },
         {
           "url": "https://i0.hdslb.com/bfs/new_dyn/1925d672b6b8a06a33a7cd75962b33951636034895.png",
@@ -255,9 +255,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/10706ff0f09ca78582e56901fe4a2635401742377.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/10706ff0f09ca78582e56901fe4a2635401742377.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/10706ff0f09ca78582e56901fe4a2635401742377.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/29f436ae64c09e34.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/29f436ae64c09e34.jpg",
+          "local": "img/29f436ae64c09e34.jpg"
         }
       ],
       "cover": null
@@ -273,9 +273,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/ffda6edc821cb4f4f0e1c366860282e61265652806.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/ffda6edc821cb4f4f0e1c366860282e61265652806.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/ffda6edc821cb4f4f0e1c366860282e61265652806.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/6e3ebeada578f828.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/6e3ebeada578f828.png",
+          "local": "img/6e3ebeada578f828.png"
         }
       ],
       "cover": null
@@ -291,9 +291,9 @@
       "type": "video",
       "images": [],
       "cover": {
-        "url": "https://i2.hdslb.com/bfs/archive/9474c91e2b27b98247b9b178120d7f0dcafeba6f.jpg",
-        "fallback": "https://i2.hdslb.com/bfs/archive/9474c91e2b27b98247b9b178120d7f0dcafeba6f.jpg",
-        "local": "https://i2.hdslb.com/bfs/archive/9474c91e2b27b98247b9b178120d7f0dcafeba6f.jpg"
+        "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/237fd107d21f80ba.jpg",
+        "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/237fd107d21f80ba.jpg",
+        "local": "img/237fd107d21f80ba.jpg"
       }
     },
     {
@@ -307,9 +307,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/cb030ceca93439d1eb1c92810115dbb63493265644980448.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/cb030ceca93439d1eb1c92810115dbb63493265644980448.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/cb030ceca93439d1eb1c92810115dbb63493265644980448.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/30e8a62fe4f9943a.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/30e8a62fe4f9943a.png",
+          "local": "img/30e8a62fe4f9943a.png"
         }
       ],
       "cover": null
@@ -325,9 +325,9 @@
       "type": "video",
       "images": [],
       "cover": {
-        "url": "https://i2.hdslb.com/bfs/archive/a1091239307a2043355a7769a23fcca091853c2b.jpg",
-        "fallback": "https://i2.hdslb.com/bfs/archive/a1091239307a2043355a7769a23fcca091853c2b.jpg",
-        "local": "https://i2.hdslb.com/bfs/archive/a1091239307a2043355a7769a23fcca091853c2b.jpg"
+        "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/432738c5db49451c.jpg",
+        "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/432738c5db49451c.jpg",
+        "local": "img/432738c5db49451c.jpg"
       }
     },
     {
@@ -341,9 +341,9 @@
       "type": "video",
       "images": [],
       "cover": {
-        "url": "https://i1.hdslb.com/bfs/archive/e29374ce6788de77caef8070b7ee5137813dfe61.jpg",
-        "fallback": "https://i1.hdslb.com/bfs/archive/e29374ce6788de77caef8070b7ee5137813dfe61.jpg",
-        "local": "https://i1.hdslb.com/bfs/archive/e29374ce6788de77caef8070b7ee5137813dfe61.jpg"
+        "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/449ca376aaba346e.jpg",
+        "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/449ca376aaba346e.jpg",
+        "local": "img/449ca376aaba346e.jpg"
       }
     },
     {
@@ -357,9 +357,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/c63ce120f2e4ebf9164470366c1bcb68161775300.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/c63ce120f2e4ebf9164470366c1bcb68161775300.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/c63ce120f2e4ebf9164470366c1bcb68161775300.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/7b71c375e5cb8fb9.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/7b71c375e5cb8fb9.png",
+          "local": "img/7b71c375e5cb8fb9.png"
         }
       ],
       "cover": null
@@ -375,14 +375,14 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/e681a111f023f993bc422592800293a73546569016085336.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/e681a111f023f993bc422592800293a73546569016085336.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/e681a111f023f993bc422592800293a73546569016085336.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/1fe564de75dc1f77.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/1fe564de75dc1f77.png",
+          "local": "img/1fe564de75dc1f77.png"
         },
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/fc921bcbb9121c2d56e3ff00610bc2643546569016085336.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/fc921bcbb9121c2d56e3ff00610bc2643546569016085336.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/fc921bcbb9121c2d56e3ff00610bc2643546569016085336.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/0264cc56c7724690.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/0264cc56c7724690.png",
+          "local": "img/0264cc56c7724690.png"
         }
       ],
       "cover": null
@@ -398,9 +398,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/9b00cb88bb9a37719a954b4ce519243c3493265644980448.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/9b00cb88bb9a37719a954b4ce519243c3493265644980448.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/9b00cb88bb9a37719a954b4ce519243c3493265644980448.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/fe5b9ff33f51ceaf.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/fe5b9ff33f51ceaf.jpg",
+          "local": "img/fe5b9ff33f51ceaf.jpg"
         }
       ],
       "cover": null
@@ -428,9 +428,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/f915a75dd52b1f9612a8368efb7494663546569016085336.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/f915a75dd52b1f9612a8368efb7494663546569016085336.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/f915a75dd52b1f9612a8368efb7494663546569016085336.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/dd944c20393bd61e.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/dd944c20393bd61e.png",
+          "local": "img/dd944c20393bd61e.png"
         }
       ],
       "cover": null
@@ -446,9 +446,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/ff78113885bdf0b2319cc433d606a089161775300.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/ff78113885bdf0b2319cc433d606a089161775300.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/ff78113885bdf0b2319cc433d606a089161775300.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/fd3006f5d19cc5bc.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/fd3006f5d19cc5bc.jpg",
+          "local": "img/fd3006f5d19cc5bc.jpg"
         }
       ],
       "cover": null
@@ -464,9 +464,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/2d12aeb80bae459c6f0c45e817486aae3493265644980448.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/2d12aeb80bae459c6f0c45e817486aae3493265644980448.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/2d12aeb80bae459c6f0c45e817486aae3493265644980448.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/1de93f54f895705d.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/1de93f54f895705d.png",
+          "local": "img/1de93f54f895705d.png"
         }
       ],
       "cover": null
@@ -482,14 +482,14 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/dad80889f9b60a1ccd555d9c8411159d3546636978489848.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/dad80889f9b60a1ccd555d9c8411159d3546636978489848.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/dad80889f9b60a1ccd555d9c8411159d3546636978489848.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/5186eec0159b1c3b.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/5186eec0159b1c3b.jpg",
+          "local": "img/5186eec0159b1c3b.jpg"
         },
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/b8f0300ede51c9e98ce96a9f1db86f7c3546636978489848.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/b8f0300ede51c9e98ce96a9f1db86f7c3546636978489848.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/b8f0300ede51c9e98ce96a9f1db86f7c3546636978489848.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/0834971aed5dda94.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/0834971aed5dda94.jpg",
+          "local": "img/0834971aed5dda94.jpg"
         }
       ],
       "cover": null
@@ -505,9 +505,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/1abf6589208981022a6f5160587490e61265652806.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/1abf6589208981022a6f5160587490e61265652806.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/1abf6589208981022a6f5160587490e61265652806.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/39b373e415c6001f.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/39b373e415c6001f.jpg",
+          "local": "img/39b373e415c6001f.jpg"
         }
       ],
       "cover": null
@@ -523,9 +523,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/846b57b22a5443335e2e4fa51f38396a3493265644980448.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/846b57b22a5443335e2e4fa51f38396a3493265644980448.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/846b57b22a5443335e2e4fa51f38396a3493265644980448.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/53acd8372e2af433.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/53acd8372e2af433.jpg",
+          "local": "img/53acd8372e2af433.jpg"
         }
       ],
       "cover": null
@@ -541,9 +541,9 @@
       "type": "forward",
       "images": [],
       "cover": {
-        "url": "https://i1.hdslb.com/bfs/archive/e39cfeed4f4210c7ca817b90a161d2be2ae5e4f0.jpg",
-        "fallback": "https://i1.hdslb.com/bfs/archive/e39cfeed4f4210c7ca817b90a161d2be2ae5e4f0.jpg",
-        "local": "https://i1.hdslb.com/bfs/archive/e39cfeed4f4210c7ca817b90a161d2be2ae5e4f0.jpg"
+        "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/58f72a34cda4fb16.jpg",
+        "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/58f72a34cda4fb16.jpg",
+        "local": "img/58f72a34cda4fb16.jpg"
       }
     },
     {
@@ -557,9 +557,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/cde343fe65a94285da3cd126d6dd948e3546636978489848.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/cde343fe65a94285da3cd126d6dd948e3546636978489848.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/cde343fe65a94285da3cd126d6dd948e3546636978489848.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/bfd0e8ea238dbb44.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/bfd0e8ea238dbb44.jpg",
+          "local": "img/bfd0e8ea238dbb44.jpg"
         }
       ],
       "cover": null
@@ -575,9 +575,9 @@
       "type": "video",
       "images": [],
       "cover": {
-        "url": "https://i2.hdslb.com/bfs/archive/71002494ce562c07fa51d2ab20e727c81a746391.jpg",
-        "fallback": "https://i2.hdslb.com/bfs/archive/71002494ce562c07fa51d2ab20e727c81a746391.jpg",
-        "local": "https://i2.hdslb.com/bfs/archive/71002494ce562c07fa51d2ab20e727c81a746391.jpg"
+        "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/7b70784cafc07f50.jpg",
+        "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/7b70784cafc07f50.jpg",
+        "local": "img/7b70784cafc07f50.jpg"
       }
     },
     {
@@ -591,14 +591,14 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/7469cfd8dcab45afc0a57326ac803e021340190821.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/7469cfd8dcab45afc0a57326ac803e021340190821.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/7469cfd8dcab45afc0a57326ac803e021340190821.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/995f66333f87ea55.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/995f66333f87ea55.jpg",
+          "local": "img/995f66333f87ea55.jpg"
         },
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/5f16df94cfae5c88d5218def183e9d0a1340190821.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/5f16df94cfae5c88d5218def183e9d0a1340190821.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/5f16df94cfae5c88d5218def183e9d0a1340190821.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/b791f6d84a255eef.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/b791f6d84a255eef.jpg",
+          "local": "img/b791f6d84a255eef.jpg"
         },
         {
           "url": "https://i0.hdslb.com/bfs/new_dyn/61939264b5edea59101959e92f65a1d81340190821.jpg",
@@ -674,9 +674,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/730ecc368b9e5c970f87992159374a121265652806.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/730ecc368b9e5c970f87992159374a121265652806.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/730ecc368b9e5c970f87992159374a121265652806.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/d7f2907a025c4820.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/d7f2907a025c4820.png",
+          "local": "img/d7f2907a025c4820.png"
         }
       ],
       "cover": null
@@ -692,14 +692,14 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/3e9cb87cbf838177cf33588a52d97d5d3546636978489848.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/3e9cb87cbf838177cf33588a52d97d5d3546636978489848.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/3e9cb87cbf838177cf33588a52d97d5d3546636978489848.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/347d67023d60cdea.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/347d67023d60cdea.jpg",
+          "local": "img/347d67023d60cdea.jpg"
         },
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/05b270541b91c0d9d72087f9876007603546636978489848.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/05b270541b91c0d9d72087f9876007603546636978489848.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/05b270541b91c0d9d72087f9876007603546636978489848.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/c52f089b7b9b7616.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/c52f089b7b9b7616.jpg",
+          "local": "img/c52f089b7b9b7616.jpg"
         },
         {
           "url": "https://i0.hdslb.com/bfs/new_dyn/2c4482f17314769e96df1481a184e4713546636978489848.gif",
@@ -750,9 +750,9 @@
       "type": "video",
       "images": [],
       "cover": {
-        "url": "https://i1.hdslb.com/bfs/archive/95afedd836af1e5f7bf3f2eeca1a625f8231e3a9.jpg",
-        "fallback": "https://i1.hdslb.com/bfs/archive/95afedd836af1e5f7bf3f2eeca1a625f8231e3a9.jpg",
-        "local": "https://i1.hdslb.com/bfs/archive/95afedd836af1e5f7bf3f2eeca1a625f8231e3a9.jpg"
+        "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/399afb73968c75db.jpg",
+        "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/399afb73968c75db.jpg",
+        "local": "img/399afb73968c75db.jpg"
       }
     },
     {
@@ -766,9 +766,9 @@
       "type": "video",
       "images": [],
       "cover": {
-        "url": "https://i1.hdslb.com/bfs/archive/c558c93769c7a19d3d1c988c998c34bf6080d1e4.jpg",
-        "fallback": "https://i1.hdslb.com/bfs/archive/c558c93769c7a19d3d1c988c998c34bf6080d1e4.jpg",
-        "local": "https://i1.hdslb.com/bfs/archive/c558c93769c7a19d3d1c988c998c34bf6080d1e4.jpg"
+        "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/5ec1e88e6ade97cf.jpg",
+        "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/5ec1e88e6ade97cf.jpg",
+        "local": "img/5ec1e88e6ade97cf.jpg"
       }
     },
     {
@@ -782,9 +782,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/1b8ea19810a5db457714fe988fca96811955897084.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/1b8ea19810a5db457714fe988fca96811955897084.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/1b8ea19810a5db457714fe988fca96811955897084.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/2711f864f42a77e6.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/2711f864f42a77e6.jpg",
+          "local": "img/2711f864f42a77e6.jpg"
         }
       ],
       "cover": null
@@ -800,9 +800,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/70f4e33cc22d2a434514ea0debad5cb03493265644980448.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/70f4e33cc22d2a434514ea0debad5cb03493265644980448.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/70f4e33cc22d2a434514ea0debad5cb03493265644980448.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/c523a9ba4972d0ca.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/c523a9ba4972d0ca.png",
+          "local": "img/c523a9ba4972d0ca.png"
         }
       ],
       "cover": null
@@ -818,9 +818,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/b764e6a20517f1b3a31279c721f6d2ed3546886017387331.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/b764e6a20517f1b3a31279c721f6d2ed3546886017387331.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/b764e6a20517f1b3a31279c721f6d2ed3546886017387331.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/089e6b67ab25d716.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/089e6b67ab25d716.png",
+          "local": "img/089e6b67ab25d716.png"
         }
       ],
       "cover": null
@@ -836,9 +836,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/7ab00d0c0d9e1dddbc91dba9f67157041265652806.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/7ab00d0c0d9e1dddbc91dba9f67157041265652806.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/7ab00d0c0d9e1dddbc91dba9f67157041265652806.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/dbb7bda31d7a2418.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/dbb7bda31d7a2418.jpg",
+          "local": "img/dbb7bda31d7a2418.jpg"
         }
       ],
       "cover": null
@@ -866,9 +866,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/c80659fdadfeabda0f5efded2cb985b51265652806.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/c80659fdadfeabda0f5efded2cb985b51265652806.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/c80659fdadfeabda0f5efded2cb985b51265652806.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/6c98131646366510.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/6c98131646366510.jpg",
+          "local": "img/6c98131646366510.jpg"
         }
       ],
       "cover": null
@@ -884,14 +884,14 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/2e5dd44134375878d83b08bc70c61e201265652806.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/2e5dd44134375878d83b08bc70c61e201265652806.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/2e5dd44134375878d83b08bc70c61e201265652806.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/75b326b3926ed79e.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/75b326b3926ed79e.jpg",
+          "local": "img/75b326b3926ed79e.jpg"
         },
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/7face28a0713d1ef8e063b42726129601265652806.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/7face28a0713d1ef8e063b42726129601265652806.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/7face28a0713d1ef8e063b42726129601265652806.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/265f618717f4cd56.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/265f618717f4cd56.jpg",
+          "local": "img/265f618717f4cd56.jpg"
         }
       ],
       "cover": null
@@ -907,9 +907,9 @@
       "type": "forward",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/4afcf04e453773bc4391710cfc230335401742377.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/4afcf04e453773bc4391710cfc230335401742377.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/4afcf04e453773bc4391710cfc230335401742377.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/f7fc503b2341b797.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/f7fc503b2341b797.jpg",
+          "local": "img/f7fc503b2341b797.jpg"
         }
       ],
       "cover": null
@@ -925,9 +925,9 @@
       "type": "forward",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/b9d314989c57795ee5244cf975effabc233114659.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/b9d314989c57795ee5244cf975effabc233114659.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/b9d314989c57795ee5244cf975effabc233114659.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/8bb3c8fed91b3ca6.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/8bb3c8fed91b3ca6.jpg",
+          "local": "img/8bb3c8fed91b3ca6.jpg"
         }
       ],
       "cover": null
@@ -943,14 +943,14 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/7aad7308bb3729c52ddb38d333d47ef13546636978489848.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/7aad7308bb3729c52ddb38d333d47ef13546636978489848.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/7aad7308bb3729c52ddb38d333d47ef13546636978489848.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/f16fda7a18a201fe.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/f16fda7a18a201fe.jpg",
+          "local": "img/f16fda7a18a201fe.jpg"
         },
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/8cfbb3f063afbf987de6db753d9e4c6e3546636978489848.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/8cfbb3f063afbf987de6db753d9e4c6e3546636978489848.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/8cfbb3f063afbf987de6db753d9e4c6e3546636978489848.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/44defa520ab4702c.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/44defa520ab4702c.jpg",
+          "local": "img/44defa520ab4702c.jpg"
         },
         {
           "url": "https://i0.hdslb.com/bfs/new_dyn/74926ab47e438115e9a624532720560a3546636978489848.jpg",
@@ -971,9 +971,9 @@
       "type": "forward",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/608283c019d2d7e52d0fc78806931697233114659.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/608283c019d2d7e52d0fc78806931697233114659.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/608283c019d2d7e52d0fc78806931697233114659.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/f5d606cfc3edc9ba.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/f5d606cfc3edc9ba.jpg",
+          "local": "img/f5d606cfc3edc9ba.jpg"
         }
       ],
       "cover": null
@@ -989,9 +989,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/5a782b17372f3c73ac5464a7f0e997363546569016085336.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/5a782b17372f3c73ac5464a7f0e997363546569016085336.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/5a782b17372f3c73ac5464a7f0e997363546569016085336.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/4332279187f6390d.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/4332279187f6390d.png",
+          "local": "img/4332279187f6390d.png"
         }
       ],
       "cover": null
@@ -1007,9 +1007,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/fefa90a5cf688483cf89b25dfae96be23546636978489848.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/fefa90a5cf688483cf89b25dfae96be23546636978489848.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/fefa90a5cf688483cf89b25dfae96be23546636978489848.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/6be2d4221eb90031.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/6be2d4221eb90031.jpg",
+          "local": "img/6be2d4221eb90031.jpg"
         }
       ],
       "cover": null
@@ -1025,9 +1025,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/d263b86e87f04381319930158e5d333c1265652806.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/d263b86e87f04381319930158e5d333c1265652806.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/d263b86e87f04381319930158e5d333c1265652806.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/3ae7e41a40ddf490.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/3ae7e41a40ddf490.png",
+          "local": "img/3ae7e41a40ddf490.png"
         }
       ],
       "cover": null
@@ -1043,9 +1043,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/973e5058037e99bd680fa4fe3756cb7b3546636978489848.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/973e5058037e99bd680fa4fe3756cb7b3546636978489848.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/973e5058037e99bd680fa4fe3756cb7b3546636978489848.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/cda49bfbdeddd7e5.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/cda49bfbdeddd7e5.jpg",
+          "local": "img/cda49bfbdeddd7e5.jpg"
         }
       ],
       "cover": null
@@ -1061,14 +1061,14 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/31a7944dfbc9d0d87db0d74ec0a46d951265652806.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/31a7944dfbc9d0d87db0d74ec0a46d951265652806.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/31a7944dfbc9d0d87db0d74ec0a46d951265652806.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/6d8d46c02c718451.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/6d8d46c02c718451.png",
+          "local": "img/6d8d46c02c718451.png"
         },
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/da0a6937f347a493c0d269ca2bfe03941265652806.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/da0a6937f347a493c0d269ca2bfe03941265652806.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/da0a6937f347a493c0d269ca2bfe03941265652806.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/02a9adde551bc385.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/02a9adde551bc385.jpg",
+          "local": "img/02a9adde551bc385.jpg"
         },
         {
           "url": "https://i0.hdslb.com/bfs/new_dyn/4f4d36768c3c25a764521f11307045d61265652806.jpg",
@@ -1089,9 +1089,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/f5e13a5f492c26acb4f52e10804145191265652806.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/f5e13a5f492c26acb4f52e10804145191265652806.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/f5e13a5f492c26acb4f52e10804145191265652806.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/c06e17afc2897cf8.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/c06e17afc2897cf8.jpg",
+          "local": "img/c06e17afc2897cf8.jpg"
         }
       ],
       "cover": null
@@ -1107,9 +1107,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/586acc2b5c0dfbe05c1412e03bf73df03546569016085336.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/586acc2b5c0dfbe05c1412e03bf73df03546569016085336.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/586acc2b5c0dfbe05c1412e03bf73df03546569016085336.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/454af65d4604cdf5.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/454af65d4604cdf5.png",
+          "local": "img/454af65d4604cdf5.png"
         }
       ],
       "cover": null
@@ -1125,9 +1125,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/0790a2ff995bdd1643a0da2891b44d791265652806.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/0790a2ff995bdd1643a0da2891b44d791265652806.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/0790a2ff995bdd1643a0da2891b44d791265652806.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/7daa8fa0d3d26a8f.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/7daa8fa0d3d26a8f.png",
+          "local": "img/7daa8fa0d3d26a8f.png"
         }
       ],
       "cover": null
@@ -1143,9 +1143,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/c29ccad124dcf59dad845a27a01d4bb11265652806.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/c29ccad124dcf59dad845a27a01d4bb11265652806.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/c29ccad124dcf59dad845a27a01d4bb11265652806.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/0349952024bb02df.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/0349952024bb02df.jpg",
+          "local": "img/0349952024bb02df.jpg"
         }
       ],
       "cover": null
@@ -1161,9 +1161,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/df5a6e44eb473ba13b5358d7ffbdf3e83546636978489848.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/df5a6e44eb473ba13b5358d7ffbdf3e83546636978489848.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/df5a6e44eb473ba13b5358d7ffbdf3e83546636978489848.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/3278012bfebf50fe.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/3278012bfebf50fe.jpg",
+          "local": "img/3278012bfebf50fe.jpg"
         }
       ],
       "cover": null
@@ -1179,9 +1179,9 @@
       "type": "video",
       "images": [],
       "cover": {
-        "url": "https://i1.hdslb.com/bfs/archive/d7e58eb34ec0f23fdfbca4f2ef59f1d297e6af6c.jpg",
-        "fallback": "https://i1.hdslb.com/bfs/archive/d7e58eb34ec0f23fdfbca4f2ef59f1d297e6af6c.jpg",
-        "local": "https://i1.hdslb.com/bfs/archive/d7e58eb34ec0f23fdfbca4f2ef59f1d297e6af6c.jpg"
+        "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/97c039fafcca014e.jpg",
+        "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/97c039fafcca014e.jpg",
+        "local": "img/97c039fafcca014e.jpg"
       }
     },
     {
@@ -1195,9 +1195,9 @@
       "type": "video",
       "images": [],
       "cover": {
-        "url": "https://i2.hdslb.com/bfs/archive/33a39e14242a63f07cc870cb59b9c84f19ecf1d4.jpg",
-        "fallback": "https://i2.hdslb.com/bfs/archive/33a39e14242a63f07cc870cb59b9c84f19ecf1d4.jpg",
-        "local": "https://i2.hdslb.com/bfs/archive/33a39e14242a63f07cc870cb59b9c84f19ecf1d4.jpg"
+        "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/e3345418da767981.jpg",
+        "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/e3345418da767981.jpg",
+        "local": "img/e3345418da767981.jpg"
       }
     },
     {
@@ -1211,9 +1211,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/076eb9b937b1a7fd44b92814262301673546569016085336.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/076eb9b937b1a7fd44b92814262301673546569016085336.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/076eb9b937b1a7fd44b92814262301673546569016085336.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/41bbac48f253a366.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/41bbac48f253a366.jpg",
+          "local": "img/41bbac48f253a366.jpg"
         }
       ],
       "cover": null
@@ -1245,14 +1245,14 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/7c590c323fe029475f83a8efb5d1d5f53493265644980448.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/7c590c323fe029475f83a8efb5d1d5f53493265644980448.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/7c590c323fe029475f83a8efb5d1d5f53493265644980448.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/010fd2481c409c43.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/010fd2481c409c43.png",
+          "local": "img/010fd2481c409c43.png"
         },
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/a9667f05876ed3fee3d3e12e05e4375d3493265644980448.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/a9667f05876ed3fee3d3e12e05e4375d3493265644980448.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/a9667f05876ed3fee3d3e12e05e4375d3493265644980448.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/f7c7cdc9f1f5a261.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/f7c7cdc9f1f5a261.png",
+          "local": "img/f7c7cdc9f1f5a261.png"
         }
       ],
       "cover": null
@@ -1268,9 +1268,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/93759be67c831277136c3e0a2d59cf033546569016085336.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/93759be67c831277136c3e0a2d59cf033546569016085336.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/93759be67c831277136c3e0a2d59cf033546569016085336.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/d3187f27b6742d3d.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/d3187f27b6742d3d.png",
+          "local": "img/d3187f27b6742d3d.png"
         }
       ],
       "cover": null
@@ -1286,9 +1286,9 @@
       "type": "video",
       "images": [],
       "cover": {
-        "url": "https://i0.hdslb.com/bfs/archive/208de5c61d3969a046c6824372762086513a4a25.jpg",
-        "fallback": "https://i0.hdslb.com/bfs/archive/208de5c61d3969a046c6824372762086513a4a25.jpg",
-        "local": "https://i0.hdslb.com/bfs/archive/208de5c61d3969a046c6824372762086513a4a25.jpg"
+        "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/0ae31c2c831581d0.jpg",
+        "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/0ae31c2c831581d0.jpg",
+        "local": "img/0ae31c2c831581d0.jpg"
       }
     },
     {
@@ -1302,9 +1302,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/608283c019d2d7e52d0fc78806931697233114659.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/608283c019d2d7e52d0fc78806931697233114659.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/608283c019d2d7e52d0fc78806931697233114659.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/f5d606cfc3edc9ba.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/f5d606cfc3edc9ba.jpg",
+          "local": "img/f5d606cfc3edc9ba.jpg"
         }
       ],
       "cover": null
@@ -1320,9 +1320,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/4afcf04e453773bc4391710cfc230335401742377.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/4afcf04e453773bc4391710cfc230335401742377.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/4afcf04e453773bc4391710cfc230335401742377.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/f7fc503b2341b797.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/f7fc503b2341b797.jpg",
+          "local": "img/f7fc503b2341b797.jpg"
         }
       ],
       "cover": null
@@ -1338,9 +1338,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/a502e9ddd7fa8bb426be856da0803f091265652806.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/a502e9ddd7fa8bb426be856da0803f091265652806.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/a502e9ddd7fa8bb426be856da0803f091265652806.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/4a779395417817f3.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/4a779395417817f3.png",
+          "local": "img/4a779395417817f3.png"
         }
       ],
       "cover": null
@@ -1356,9 +1356,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/e981a07dc38de97709c687f0f346239b233114659.gif",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/e981a07dc38de97709c687f0f346239b233114659.gif",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/e981a07dc38de97709c687f0f346239b233114659.gif"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/82da95b7afbe62b1.gif",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/82da95b7afbe62b1.gif",
+          "local": "img/82da95b7afbe62b1.gif"
         }
       ],
       "cover": null
@@ -1374,9 +1374,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/1c8ec2991687b9149914f54e4edf8a161265652806.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/1c8ec2991687b9149914f54e4edf8a161265652806.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/1c8ec2991687b9149914f54e4edf8a161265652806.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/ef36c4bb2eef1a07.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/ef36c4bb2eef1a07.png",
+          "local": "img/ef36c4bb2eef1a07.png"
         }
       ],
       "cover": null
@@ -1392,9 +1392,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/3986da503aa28de3a59826e405315561233114659.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/3986da503aa28de3a59826e405315561233114659.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/3986da503aa28de3a59826e405315561233114659.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/a928b000b949317a.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/a928b000b949317a.png",
+          "local": "img/a928b000b949317a.png"
         }
       ],
       "cover": null
@@ -1410,9 +1410,9 @@
       "type": "video",
       "images": [],
       "cover": {
-        "url": "https://i1.hdslb.com/bfs/archive/5667e55c285f76faa44c880890d0ef00d5c60a3c.jpg",
-        "fallback": "https://i1.hdslb.com/bfs/archive/5667e55c285f76faa44c880890d0ef00d5c60a3c.jpg",
-        "local": "https://i1.hdslb.com/bfs/archive/5667e55c285f76faa44c880890d0ef00d5c60a3c.jpg"
+        "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/8bf2aca13724b9f8.jpg",
+        "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/8bf2aca13724b9f8.jpg",
+        "local": "img/8bf2aca13724b9f8.jpg"
       }
     },
     {
@@ -1426,14 +1426,14 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/cf68caf602297366517686bda15177db3546636978489848.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/cf68caf602297366517686bda15177db3546636978489848.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/cf68caf602297366517686bda15177db3546636978489848.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/c3836cf53edac11b.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/c3836cf53edac11b.jpg",
+          "local": "img/c3836cf53edac11b.jpg"
         },
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/a0ac7e0002392cfe736cd41c1b0ca6c53546636978489848.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/a0ac7e0002392cfe736cd41c1b0ca6c53546636978489848.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/a0ac7e0002392cfe736cd41c1b0ca6c53546636978489848.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/aae5508843c7f7f4.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/aae5508843c7f7f4.jpg",
+          "local": "img/aae5508843c7f7f4.jpg"
         },
         {
           "url": "https://i0.hdslb.com/bfs/new_dyn/92f4da113099d29fc25fbbae7f2a789b3546636978489848.gif",
@@ -1474,9 +1474,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/eaf742201fbb0b5614b93bd93440133b1265652806.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/eaf742201fbb0b5614b93bd93440133b1265652806.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/eaf742201fbb0b5614b93bd93440133b1265652806.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/3a4655f2482ed950.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/3a4655f2482ed950.jpg",
+          "local": "img/3a4655f2482ed950.jpg"
         }
       ],
       "cover": null
@@ -1492,9 +1492,9 @@
       "type": "video",
       "images": [],
       "cover": {
-        "url": "https://i1.hdslb.com/bfs/archive/bb862d2b3e87c87f2d52c19e624a42966784e77b.jpg",
-        "fallback": "https://i1.hdslb.com/bfs/archive/bb862d2b3e87c87f2d52c19e624a42966784e77b.jpg",
-        "local": "https://i1.hdslb.com/bfs/archive/bb862d2b3e87c87f2d52c19e624a42966784e77b.jpg"
+        "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/bd28363253201f67.jpg",
+        "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/bd28363253201f67.jpg",
+        "local": "img/bd28363253201f67.jpg"
       }
     },
     {
@@ -1508,9 +1508,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/887df6c1954787763bd73aff73269fe9401742377.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/887df6c1954787763bd73aff73269fe9401742377.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/887df6c1954787763bd73aff73269fe9401742377.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/6d2d13929b8f361f.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/6d2d13929b8f361f.jpg",
+          "local": "img/6d2d13929b8f361f.jpg"
         }
       ],
       "cover": null
@@ -1526,9 +1526,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/da379afcf2916277c8fb5317647238311636034895.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/da379afcf2916277c8fb5317647238311636034895.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/da379afcf2916277c8fb5317647238311636034895.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/0da27a5b05a9f63c.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/0da27a5b05a9f63c.jpg",
+          "local": "img/0da27a5b05a9f63c.jpg"
         }
       ],
       "cover": null
@@ -1544,9 +1544,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/d539f9dc453fb3fd08561b667b555e071265652806.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/d539f9dc453fb3fd08561b667b555e071265652806.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/d539f9dc453fb3fd08561b667b555e071265652806.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/91f163fd774c3345.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/91f163fd774c3345.jpg",
+          "local": "img/91f163fd774c3345.jpg"
         }
       ],
       "cover": null
@@ -1562,9 +1562,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/51005b0a536d68c235f53838cc8da2dd3546636978489848.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/51005b0a536d68c235f53838cc8da2dd3546636978489848.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/51005b0a536d68c235f53838cc8da2dd3546636978489848.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/4176c34b273dd26c.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/4176c34b273dd26c.jpg",
+          "local": "img/4176c34b273dd26c.jpg"
         }
       ],
       "cover": null
@@ -1580,14 +1580,14 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/d3e65664655eb767f89086ff3c816e281955897084.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/d3e65664655eb767f89086ff3c816e281955897084.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/d3e65664655eb767f89086ff3c816e281955897084.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/f7b725ef4da2d9ca.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/f7b725ef4da2d9ca.png",
+          "local": "img/f7b725ef4da2d9ca.png"
         },
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/9b7b94cfc354e9c0b0fb7d150f73e61e1955897084.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/9b7b94cfc354e9c0b0fb7d150f73e61e1955897084.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/9b7b94cfc354e9c0b0fb7d150f73e61e1955897084.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/28031a176235e866.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/28031a176235e866.png",
+          "local": "img/28031a176235e866.png"
         },
         {
           "url": "https://i0.hdslb.com/bfs/new_dyn/17b9af677fcb3de672c5289819b6c35f1955897084.png",
@@ -1683,9 +1683,9 @@
       "type": "video",
       "images": [],
       "cover": {
-        "url": "https://i2.hdslb.com/bfs/archive/524ab24e12399b635abbe3c57a80dbb55c8de6cd.jpg",
-        "fallback": "https://i2.hdslb.com/bfs/archive/524ab24e12399b635abbe3c57a80dbb55c8de6cd.jpg",
-        "local": "https://i2.hdslb.com/bfs/archive/524ab24e12399b635abbe3c57a80dbb55c8de6cd.jpg"
+        "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/72d807568fde3744.jpg",
+        "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/72d807568fde3744.jpg",
+        "local": "img/72d807568fde3744.jpg"
       }
     },
     {
@@ -1699,9 +1699,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/2b88a22690781493c1684eb8ba29c8003546636978489848.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/2b88a22690781493c1684eb8ba29c8003546636978489848.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/2b88a22690781493c1684eb8ba29c8003546636978489848.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/e004e41b4c45ad4f.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/e004e41b4c45ad4f.jpg",
+          "local": "img/e004e41b4c45ad4f.jpg"
         }
       ],
       "cover": null
@@ -1717,9 +1717,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/e5992a43a194f6d2e7039dbe7889ed313493265644980448.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/e5992a43a194f6d2e7039dbe7889ed313493265644980448.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/e5992a43a194f6d2e7039dbe7889ed313493265644980448.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/502d5ac7ef22f1cd.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/502d5ac7ef22f1cd.png",
+          "local": "img/502d5ac7ef22f1cd.png"
         }
       ],
       "cover": null
@@ -1735,9 +1735,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/f3723dfad9f1e667b366ab2904c1833a3546569016085336.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/f3723dfad9f1e667b366ab2904c1833a3546569016085336.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/f3723dfad9f1e667b366ab2904c1833a3546569016085336.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/85facab95fd54776.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/85facab95fd54776.png",
+          "local": "img/85facab95fd54776.png"
         }
       ],
       "cover": null
@@ -1753,9 +1753,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/19d19d1a7728aef7c020cb3d5651b9053546886017387331.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/19d19d1a7728aef7c020cb3d5651b9053546886017387331.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/19d19d1a7728aef7c020cb3d5651b9053546886017387331.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/f55892c108c9931f.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/f55892c108c9931f.jpg",
+          "local": "img/f55892c108c9931f.jpg"
         }
       ],
       "cover": null
@@ -1771,14 +1771,14 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/45daa8062ffeb56c3d29daa1bdd397921265652806.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/45daa8062ffeb56c3d29daa1bdd397921265652806.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/45daa8062ffeb56c3d29daa1bdd397921265652806.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/c688cba80a864467.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/c688cba80a864467.jpg",
+          "local": "img/c688cba80a864467.jpg"
         },
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/36939e97102aefff286cc16b2baf9c5c1265652806.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/36939e97102aefff286cc16b2baf9c5c1265652806.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/36939e97102aefff286cc16b2baf9c5c1265652806.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/9b86ef79d565d510.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/9b86ef79d565d510.jpg",
+          "local": "img/9b86ef79d565d510.jpg"
         }
       ],
       "cover": null
@@ -1794,14 +1794,14 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/3d635f591555e0293169d7c266fe57a3401742377.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/3d635f591555e0293169d7c266fe57a3401742377.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/3d635f591555e0293169d7c266fe57a3401742377.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/a8b1b1f3cb46b750.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/a8b1b1f3cb46b750.jpg",
+          "local": "img/a8b1b1f3cb46b750.jpg"
         },
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/a51acfdf617e0be6e076c23bd8d3b1f4401742377.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/a51acfdf617e0be6e076c23bd8d3b1f4401742377.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/a51acfdf617e0be6e076c23bd8d3b1f4401742377.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/f3b186332cf53263.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/f3b186332cf53263.jpg",
+          "local": "img/f3b186332cf53263.jpg"
         },
         {
           "url": "https://i0.hdslb.com/bfs/new_dyn/701e4c5252e074c30ca62f573d644dac401742377.jpg",
@@ -1955,9 +1955,9 @@
       "type": "video",
       "images": [],
       "cover": {
-        "url": "https://i1.hdslb.com/bfs/archive/9e9b64cd06246189e9a962e722dd1dfd041bf927.jpg",
-        "fallback": "https://i1.hdslb.com/bfs/archive/9e9b64cd06246189e9a962e722dd1dfd041bf927.jpg",
-        "local": "https://i1.hdslb.com/bfs/archive/9e9b64cd06246189e9a962e722dd1dfd041bf927.jpg"
+        "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/a4ef72a1a36fa4d7.jpg",
+        "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/a4ef72a1a36fa4d7.jpg",
+        "local": "img/a4ef72a1a36fa4d7.jpg"
       }
     },
     {
@@ -1971,9 +1971,9 @@
       "type": "video",
       "images": [],
       "cover": {
-        "url": "https://i2.hdslb.com/bfs/archive/c032b98bf4ce82836ac72519de0e68bb7b2bdb6a.jpg",
-        "fallback": "https://i2.hdslb.com/bfs/archive/c032b98bf4ce82836ac72519de0e68bb7b2bdb6a.jpg",
-        "local": "https://i2.hdslb.com/bfs/archive/c032b98bf4ce82836ac72519de0e68bb7b2bdb6a.jpg"
+        "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/c1fa5089c9525667.jpg",
+        "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/c1fa5089c9525667.jpg",
+        "local": "img/c1fa5089c9525667.jpg"
       }
     },
     {
@@ -2010,9 +2010,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/5bc06681caa7f7580946ff960aaa76a81265652806.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/5bc06681caa7f7580946ff960aaa76a81265652806.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/5bc06681caa7f7580946ff960aaa76a81265652806.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/f2e67aa3b0bf9f73.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/f2e67aa3b0bf9f73.jpg",
+          "local": "img/f2e67aa3b0bf9f73.jpg"
         }
       ],
       "cover": null
@@ -2911,9 +2911,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/bd966f63ce2e4039c73b8b509c6987ae233114659.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/bd966f63ce2e4039c73b8b509c6987ae233114659.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/bd966f63ce2e4039c73b8b509c6987ae233114659.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/e18ec8103972990c.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/e18ec8103972990c.jpg",
+          "local": "img/e18ec8103972990c.jpg"
         }
       ],
       "cover": null
@@ -3036,9 +3036,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/b9d314989c57795ee5244cf975effabc233114659.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/b9d314989c57795ee5244cf975effabc233114659.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/b9d314989c57795ee5244cf975effabc233114659.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/8bb3c8fed91b3ca6.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/8bb3c8fed91b3ca6.jpg",
+          "local": "img/8bb3c8fed91b3ca6.jpg"
         }
       ],
       "cover": null
@@ -6572,6 +6572,74 @@
       "cover": null
     },
     {
+      "id": "1267587837163732999",
+      "game_key": "azurlane",
+      "game_name": "碧蓝航线",
+      "title": "各位亲爱的指挥官：",
+      "summary": "各位亲爱的指挥官：\n       司令部已于21:15进行在线更新，修复了以下问题（不需要停服维护，重新进入游戏后进行更新）：\n\n『涉及港区』\niOS全港区、安卓全港区、HarmonyOS NEXT全港区\n\n『改建内容』\n1.修复了每日挑战任务跳转位置错误的问题；\n2.优化了部分立绘资源切换时的显示效果；\n3.优化、修正了部分图片、文字等资源；\n\nFrom 司令部\n在这里联系我们↓↓↓\n在线客服：https://game.bilibili.com/sdk/cs-h5/\n电话：400-178-2233",
+      "url": "https://www.bilibili.com/opus/1267587837163732999",
+      "published_at": "2026-11-06T21:28:12+08:00",
+      "type": "dynamic",
+      "images": [],
+      "cover": null
+    },
+    {
+      "id": "1267572841245573139",
+      "game_key": "azurlane",
+      "game_name": "碧蓝航线",
+      "title": "#碧蓝航线# #2.5次元的诱惑# 联动角色「美莉艾拉 天使空降队」前来报到！",
+      "summary": "#碧蓝航线# #2.5次元的诱惑#\n联动角色「美莉艾拉 天使空降队」前来报到！\n将化身轻巡洋舰加入港区！\n“我是天使美莉艾拉……不过，这样自称果然还是有点难为情呢。现在我正作为天使空降队一员四处奔波。要是能多少帮上大家一点忙就好了……”\n<该联动角色可通过限时活动获取>\n※实装效果以游戏内为准",
+      "url": "https://www.bilibili.com/opus/1267572841245573139",
+      "published_at": "2026-11-06T20:30:00+08:00",
+      "type": "dynamic",
+      "images": [
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/685a62b1b61b313c4b359ca713bff2f5233114659.png",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/685a62b1b61b313c4b359ca713bff2f5233114659.png",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/685a62b1b61b313c4b359ca713bff2f5233114659.png"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/0c03c743200bf3da230839788089cc71233114659.png",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/0c03c743200bf3da230839788089cc71233114659.png",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/0c03c743200bf3da230839788089cc71233114659.png"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/7eff3cc6d8072706be6658a924be9c8c233114659.gif",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/7eff3cc6d8072706be6658a924be9c8c233114659.gif",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/7eff3cc6d8072706be6658a924be9c8c233114659.gif"
+        }
+      ],
+      "cover": null
+    },
+    {
+      "id": "1267565110333800454",
+      "game_key": "azurlane",
+      "game_name": "碧蓝航线",
+      "title": "#碧蓝航线# #2.5次元的诱惑# 联动角色「莉莉艾露 天使空降队」前来报到！",
+      "summary": "#碧蓝航线# #2.5次元的诱惑#\n联动角色「莉莉艾露 天使空降队」前来报到！\n将化身轻型航母加入港区！\n“天使莉莉艾露，作为天使空降队的一员自天际归来！我会充分使用这份新获得的力量守护你的！不论遇到什么烦恼都可以找我商量哦♪”\n<该联动角色可通过限时活动获取>\n※实装效果以游戏内为准",
+      "url": "https://www.bilibili.com/opus/1267565110333800454",
+      "published_at": "2026-11-06T20:00:00+08:00",
+      "type": "dynamic",
+      "images": [
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/6c57eda6ce215263372618ed0929f517233114659.png",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/6c57eda6ce215263372618ed0929f517233114659.png",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/6c57eda6ce215263372618ed0929f517233114659.png"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/4a8b09f2aa8e76b74b49bf2356a53e49233114659.png",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/4a8b09f2aa8e76b74b49bf2356a53e49233114659.png",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/4a8b09f2aa8e76b74b49bf2356a53e49233114659.png"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/81dc46461f67d591657629ff7ec727c1233114659.gif",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/81dc46461f67d591657629ff7ec727c1233114659.gif",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/81dc46461f67d591657629ff7ec727c1233114659.gif"
+        }
+      ],
+      "cover": null
+    },
+    {
       "id": "1267562533305188388",
       "game_key": "wutheringwaves",
       "game_name": "鸣潮",
@@ -6888,6 +6956,30 @@
       "cover": null
     },
     {
+      "id": "1267254401651703809",
+      "game_key": "azurlane",
+      "game_name": "碧蓝航线",
+      "title": "各位亲爱的指挥官：",
+      "summary": "各位亲爱的指挥官：\n       司令部已于23:40进行在线更新，修复了以下问题（不需要停服维护，重新进入游戏后进行更新）：\n\n『涉及港区』\niOS全港区、安卓全港区、HarmonyOS NEXT全港区\n\n『改建内容』\n1.修复了部分情况下，主界面互动功能异常的问题；\n2.修复了作战档案部分关卡通关次数显示错误的问题；\n\nFrom 司令部\n在这里联系我们↓↓↓\n在线客服：https://game.bilibili.com/sdk/cs-h5/\n电话：400-178-2233",
+      "url": "https://www.bilibili.com/opus/1267254401651703809",
+      "published_at": "2026-11-05T23:54:18+08:00",
+      "type": "dynamic",
+      "images": [],
+      "cover": null
+    },
+    {
+      "id": "1267200770365718552",
+      "game_key": "azurlane",
+      "game_name": "碧蓝航线",
+      "title": "各位亲爱的指挥官：",
+      "summary": "各位亲爱的指挥官：\n       司令部已于20:15进行在线更新，修复了以下问题（不需要停服维护，重新进入游戏后进行更新）：\n\n『涉及港区』\niOS全港区、安卓全港区、HarmonyOS NEXT全港区\n\n『改建内容』\n1.修复了部分情况下，「简易靶场」家具多人互动功能异常的问题；\n2.修复了部分情况下，「每日任务」界面点击“前往”按钮后无法正常跳转的问题；\n3.修复了部分Live2D资源加载过程中异常黑屏的问题；\n4.修复了「岛屿计划」部分物品售卖价格错误的问题；\n※非常抱歉给各位指挥官带来了不便，我们将于后续为您已出售的相关物品补偿对应的差价，感谢您的理解和支持；\n5.修复了「岛屿计划」部分动作错误的问题；\n6.优化、修正了部分图片、文字等资源；\n\nFrom 司令部\n在这里联系我们↓↓↓\n在线客服：https://game.bilibili.com/sdk/cs-h5/\n电话：400-178-2233",
+      "url": "https://www.bilibili.com/opus/1267200770365718552",
+      "published_at": "2026-11-05T20:26:11+08:00",
+      "type": "dynamic",
+      "images": [],
+      "cover": null
+    },
+    {
       "id": "1267165865164406791",
       "game_key": "azurpromilia",
       "game_name": "蓝色星原：旅谣",
@@ -6901,6 +6993,42 @@
           "url": "https://i0.hdslb.com/bfs/new_dyn/f711a9328b7cfe948893ab2bff0f8ccc3546569016085336.png",
           "fallback": "https://i0.hdslb.com/bfs/new_dyn/f711a9328b7cfe948893ab2bff0f8ccc3546569016085336.png",
           "local": "https://i0.hdslb.com/bfs/new_dyn/f711a9328b7cfe948893ab2bff0f8ccc3546569016085336.png"
+        }
+      ],
+      "cover": null
+    },
+    {
+      "id": "1267163101374971925",
+      "game_key": "azurlane",
+      "game_name": "碧蓝航线",
+      "title": "#碧蓝航线# #碧蓝玩家团激励计划# 第60期激励计划获奖名单揭晓~",
+      "summary": "#碧蓝航线# #碧蓝玩家团激励计划#\n第60期激励计划获奖名单揭晓~\n恭喜获奖的指挥官！同时也非常感谢大家的热情投稿哦~ヾ(☆'∀'☆)\n\n💌热心提示~碧蓝玩家团激励计划第61期已经开启，时间截至11月19日00:00。投稿还请不要忘记带上活动话题#碧蓝玩家团激励计划#\n💌活动详情请戳：https://www.bilibili.com/blackboard/era/oC083cnLknJWBW9s.html\n\n—— 奖励说明——\n※获得实物奖励的指挥官我们将通过站内信联络，请获奖指挥官注意查看站内信；\n※游戏内奖励（优秀奖、明日之星、≥50000播放量的梯度激励及≥5000、≥10000播放量梯度奖励获得3份及以上等情况）将通过游戏内邮件发放，请获奖指挥官注意查看私信并填写游戏信息收集问卷；\n※其他游戏内奖项将通过站内信的形式发放；\n※各项奖励将于获奖名单公示后60日内发放。",
+      "url": "https://www.bilibili.com/opus/1267163101374971925",
+      "published_at": "2026-11-05T18:00:00+08:00",
+      "type": "dynamic",
+      "images": [
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/4ef60c38ee9efddc75313aa2ac70d122233114659.jpg",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/4ef60c38ee9efddc75313aa2ac70d122233114659.jpg",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/4ef60c38ee9efddc75313aa2ac70d122233114659.jpg"
+        }
+      ],
+      "cover": null
+    },
+    {
+      "id": "1267116932655480887",
+      "game_key": "azurlane",
+      "game_name": "碧蓝航线",
+      "title": "作战档案新增「愚者的天平」！11月5日10:00港区改建",
+      "summary": "改建已经完成，全港区正常开放(`・ω・´)ゞ\n各位亲爱的指挥官：\n司令部将于11月5日10:00~15:00对以下港区进行为期5小时的改造建设（如有变动将会另行发布通知）。改建期间将暂时无法进入港区，还请各位指挥官提前做好下线准备，给各位带来的不便敬请谅解。 \n\n『涉及港区』 \n安卓全港区、iOS全港区、HarmonyOS NEXT全港区\n『改建内容』\n一、内容新增\n1.「作战档案」新增：「愚者的天平」\n※档案内的海域各关卡的掉落与活动开放时保持一致，但无法获得往期活动道具及往期活动任务奖励内容；\n...",
+      "url": "https://www.bilibili.com/opus/1267116932655480887",
+      "published_at": "2026-11-05T15:00:51+08:00",
+      "type": "forward",
+      "images": [
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/48fe160d5e6fa27fe89e1528b873dc63233114659.jpg",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/48fe160d5e6fa27fe89e1528b873dc63233114659.jpg",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/48fe160d5e6fa27fe89e1528b873dc63233114659.jpg"
         }
       ],
       "cover": null
@@ -7376,6 +7504,18 @@
       "cover": null
     },
     {
+      "id": "1266745630531780642",
+      "game_key": "azurlane",
+      "game_name": "碧蓝航线",
+      "title": "#碧蓝航线# ◆活动时间注意◆",
+      "summary": "#碧蓝航线#\n◆活动时间注意◆\n「飓风与雾霭回廊」限时活动将于11月5日10:00结束\n※相关活动海域及相关活动页将于以上时间关闭，还请注意活动道具「瓶装雾霭」的获取；\n※活动结束后限时建造也将同时关闭；\n※活动奖励领取界面、活动兑换界面将保留至11月11日23:59（所获得活动道具「瓶装雾霭」可在“商店→补给商店→活动商店”中兑换本期活动内容）；\n※还请指挥官注意相关任务的完成及奖励的领取；\n\n「港区假日故事集 光与暗的邀约」「严厉女仆不严厉」限时活动将于11月5日10:00结束；\n※还请指挥官注意相关任务的完成及奖励的领取；\n\n「飓风的藏宝地」限时活动将于11月5日10:00结束\n※还请指挥官注意相关奖励的领取；\n\n◆相关限时上架注意◆\n※限时上架主题家具「冒险者公会」将于11月4日（今日）23:59结束贩售；\n※限时上架优惠礼包「限时攻略补给」「限时建造补给」「家具币礼包」「心智单元礼包」将于11月4日（今日）23:59结束贩售；\n※军火商店限时上架「外观装备箱（光暗夜想曲）」和「外观装备箱（深海寻宝）」将于11月4日（今日）23:59结束贩售；\n\n以上信息还请指挥官注意(`・ω",
+      "url": "https://www.bilibili.com/opus/1266745630531780642",
+      "published_at": "2026-11-04T15:00:00+08:00",
+      "type": "dynamic",
+      "images": [],
+      "cover": null
+    },
+    {
       "id": "1266730168680972307",
       "game_key": "yh",
       "game_name": "异环",
@@ -7783,6 +7923,24 @@
           "url": "https://i0.hdslb.com/bfs/new_dyn/2e59edc3adb447b11b30b60d6c4ed8f1401742377.jpg",
           "fallback": "https://i0.hdslb.com/bfs/new_dyn/2e59edc3adb447b11b30b60d6c4ed8f1401742377.jpg",
           "local": "https://i0.hdslb.com/bfs/new_dyn/2e59edc3adb447b11b30b60d6c4ed8f1401742377.jpg"
+        }
+      ],
+      "cover": null
+    },
+    {
+      "id": "1266420950374547544",
+      "game_key": "azurlane",
+      "game_name": "碧蓝航线",
+      "title": "作战档案新增「愚者的天平」！11月5日10:00港区改建",
+      "summary": "各位亲爱的指挥官：\n司令部将于11月5日10:00~15:00对以下港区进行为期5小时的改造建设（如有变动将会另行发布通知）。改建期间将暂时无法进入港区，还请各位指挥官提前做好下线准备，给各位带来的不便敬请谅解。 \n\n『涉及港区』 \n安卓全港区、iOS全港区、HarmonyOS NEXT全港区\n『改建内容』\n一、内容新增\n1.「作战档案」新增：「愚者的天平」\n※档案内的海域各关卡的掉落与活动开放时保持一致，但无法获得往期活动道具及往期活动任务奖励内容；\n...",
+      "url": "https://www.bilibili.com/opus/1266420950374547544",
+      "published_at": "2026-11-03T18:00:05+08:00",
+      "type": "dynamic",
+      "images": [
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/48fe160d5e6fa27fe89e1528b873dc63233114659.jpg",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/48fe160d5e6fa27fe89e1528b873dc63233114659.jpg",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/48fe160d5e6fa27fe89e1528b873dc63233114659.jpg"
         }
       ],
       "cover": null
@@ -8983,6 +9141,24 @@
       "cover": null
     },
     {
+      "id": "1265261289877274624",
+      "game_key": "azurlane",
+      "game_name": "碧蓝航线",
+      "title": "#碧蓝航线# ◆科研·七期◆",
+      "summary": "#碧蓝航线#\n◆科研·七期◆\n前方最新情报——\n方案舰「贝亚德」追赶活动即将开启！\n\n活动开启后，指挥官可在每次完成军部科研室的研发项目后额外获得一定数量的「蓝图：贝亚德」。\n※该加速活动可与【定向追赶】功能叠加\n\n以上信息还请指挥官注意！(`・ω・´)ゞ",
+      "url": "https://www.bilibili.com/opus/1265261289877274624",
+      "published_at": "2026-10-31T15:00:00+08:00",
+      "type": "dynamic",
+      "images": [
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/4a96818ef357d6f17f4280afd69a8b6d233114659.gif",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/4a96818ef357d6f17f4280afd69a8b6d233114659.gif",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/4a96818ef357d6f17f4280afd69a8b6d233114659.gif"
+        }
+      ],
+      "cover": null
+    },
+    {
       "id": "1265245827992911881",
       "game_key": "endfield",
       "game_name": "明日方舟：终末地",
@@ -9001,6 +9177,24 @@
       "cover": null
     },
     {
+      "id": "1265245827995009031",
+      "game_key": "azurlane",
+      "game_name": "碧蓝航线",
+      "title": "#碧蓝航线# ◆「限界挑战」小贴士◆",
+      "summary": "#碧蓝航线#\n◆「限界挑战」小贴士◆\n限时复刻活动「限界挑战：天蝎座」即将开启！活动时间：11月1日00:00~11月30日23:59\n完成窥探、审视、洞察三种难度的挑战可对应获得头像框「限界的挑战者Ⅵ」、星座聊天气泡「限界的挑战者·天蝎座」、星座头像框「限界的挑战者·天蝎座」奖励~\n\n※指挥官等级达到80级以后可进行「限界挑战」挑战，完成前一难度挑战方可解锁后续难度挑战；\n※「限界挑战」以12个月为周期轮换开放，关卡再次开放时，以往错过奖励的指挥官仍能够获取奖励；\n※重复获取头像框、聊天气泡将自动折算为物资；\n以上信息还请指挥官注意！(`・ω・´)ゞ",
+      "url": "https://www.bilibili.com/opus/1265245827995009031",
+      "published_at": "2026-10-31T14:00:00+08:00",
+      "type": "dynamic",
+      "images": [
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/bab87cb24601830ba31a461b897a072a233114659.png",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/bab87cb24601830ba31a461b897a072a233114659.png",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/bab87cb24601830ba31a461b897a072a233114659.png"
+        }
+      ],
+      "cover": null
+    },
+    {
       "id": "1265230366117986311",
       "game_key": "zzz",
       "game_name": "绝区零",
@@ -9014,6 +9208,24 @@
           "url": "https://i0.hdslb.com/bfs/new_dyn/4554e99c2c932014f7ddb1974c3b1f971636034895.jpg",
           "fallback": "https://i0.hdslb.com/bfs/new_dyn/4554e99c2c932014f7ddb1974c3b1f971636034895.jpg",
           "local": "https://i0.hdslb.com/bfs/new_dyn/4554e99c2c932014f7ddb1974c3b1f971636034895.jpg"
+        }
+      ],
+      "cover": null
+    },
+    {
+      "id": "1265230366071848994",
+      "game_key": "azurlane",
+      "game_name": "碧蓝航线",
+      "title": "#碧蓝航线# OST「飓风与雾霭回廊」已上线！",
+      "summary": "#碧蓝航线#\nOST「飓风与雾霭回廊」已上线！\n欢迎指挥官前往收听~\n\n〓「飓风与雾霭回廊」OST专辑链接〓\n网易云音乐收听地址：https://music.163.com/#/album?id=405471510\nQQ音乐收听地址：https://y.qq.com/w/album.html?albumId=105635143&ADTAG=hz_wb_sf&channelId=10081987\n酷狗音乐收听地址：https://www.kugou.com/album/212715621.html\n酷我音乐收听地址：https://m.kuwo.cn/newh5app/album_detail/105839769\n\n〓「飓风与雾霭回廊」OST专辑曲目信息〓\n1.雾霭沉星之海\n2.映星启辉\n3.五海之王座\n4.天域逆潮\n5.云散潮舒",
+      "url": "https://www.bilibili.com/opus/1265230366071848994",
+      "published_at": "2026-10-31T13:00:00+08:00",
+      "type": "dynamic",
+      "images": [
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/a727823a22259e9ccd7694d60f64cc2f233114659.jpg",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/a727823a22259e9ccd7694d60f64cc2f233114659.jpg",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/a727823a22259e9ccd7694d60f64cc2f233114659.jpg"
         }
       ],
       "cover": null
@@ -9161,6 +9373,24 @@
           "url": "https://i0.hdslb.com/bfs/new_dyn/f731231593f0df0fc9d82e491fe661931265652806.jpg",
           "fallback": "https://i0.hdslb.com/bfs/new_dyn/f731231593f0df0fc9d82e491fe661931265652806.jpg",
           "local": "https://i0.hdslb.com/bfs/new_dyn/f731231593f0df0fc9d82e491fe661931265652806.jpg"
+        }
+      ],
+      "cover": null
+    },
+    {
+      "id": "1265214904214749204",
+      "game_key": "azurlane",
+      "game_name": "碧蓝航线",
+      "title": "#碧蓝航线# 「作战档案」录入更新中——",
+      "summary": "#碧蓝航线#\n「作战档案」录入更新中——\n「愚者的天平」将在下次维护后加入~！\n※档案内的海域各关卡的掉落与活动开放时保持一致，但无法获得往期活动道具及往期活动任务奖励内容； \n• 海域内打捞保底角色：伴尔维（超稀有）\n\n※下列角色将永久回归常规建造：\n• 特型建造池常驻新增：伴尔维（超稀有）\n• 重型建造池常驻新增：克莱蒙梭（超稀有）、里昂（精锐）、絮弗伦（精锐）\n• 轻型建造池常驻新增：吉尚（超稀有）\n\n※军需商店下次维护后兑换新增：凯尔圣（精锐）\n\n以上信息还请指挥官注意！(`・ω・´)ゞ",
+      "url": "https://www.bilibili.com/opus/1265214904214749204",
+      "published_at": "2026-10-31T12:00:00+08:00",
+      "type": "dynamic",
+      "images": [
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/d8d2a92c8cb928a43e0dca84445cf1c4233114659.gif",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/d8d2a92c8cb928a43e0dca84445cf1c4233114659.gif",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/d8d2a92c8cb928a43e0dca84445cf1c4233114659.gif"
         }
       ],
       "cover": null
@@ -10406,6 +10636,18 @@
       "cover": null
     },
     {
+      "id": "1264163496209154072",
+      "game_key": "azurlane",
+      "game_name": "碧蓝航线",
+      "title": "#碧蓝航线# ◆相关限时上架注意◆",
+      "summary": "#碧蓝航线#\n◆相关限时上架注意◆\n※以下限时上架角色换装将于10月28日（今日）23:59从换装商城下架：\n水星号-「天使降临之日」【Live2D+】\n塞利米耶号-「自投罗网的预言家？」【Live2D+】\n约克公爵-「魅惑的夜之猎手」【特殊动态立绘】\n铁角号-「迷惘的堕天使」【动态立绘】\n安妮女王复仇号-「堕翼之诱」【动态立绘】\n七省-「秽翼天使」【动态立绘】\n长蛇号-「纯白的捕食者」\n雷伊尔·贝号-「偶像天使☆闪耀练习中！」\n鳝-「恶魔少女天使心」\n\n※以下限时上架密语剧情将于10月28日（今日）23:59结束贩售：\n塞利米耶号-「专属占卜时间」（日文）\n\n※以下限时重返上架密语剧情将于10月28日（今日）23:59结束贩售：\n皇家财富号-「受困于甜蜜陷阱」（日文）\n\n※限时上架换装抵扣礼包「换装抵扣礼包（天使降临之日）」「换装抵扣礼包（自投罗网的预言家？）」「换装抵扣礼包（迷惘的堕天使）」将于10月28日（今日）23:59结束贩售；\n\n以上信息还请指挥官注意(`・ω・´)ゞ",
+      "url": "https://www.bilibili.com/opus/1264163496209154072",
+      "published_at": "2026-10-28T16:00:00+08:00",
+      "type": "dynamic",
+      "images": [],
+      "cover": null
+    },
+    {
       "id": "1264148092302655508",
       "game_key": "arknights",
       "game_name": "明日方舟",
@@ -11009,362 +11251,6 @@
         "fallback": "https://i2.hdslb.com/bfs/archive/d90b5186464c332b416fec0941cd57f15cfd9d96.jpg",
         "local": "https://i2.hdslb.com/bfs/archive/d90b5186464c332b416fec0941cd57f15cfd9d96.jpg"
       }
-    },
-    {
-      "id": "1263730563498377222",
-      "game_key": "genshin",
-      "game_name": "原神",
-      "title": "#原神# #纳西妲# #生日快乐# 兰阐荼的怀里，暖暖的，你要不要也来摸摸看？",
-      "summary": "#原神# #纳西妲# #生日快乐# \n\n兰阐荼的怀里，暖暖的，你要不要也来摸摸看？\n能和大家共同度过这个日子，真是令人高兴呢。\n这是你和兰那罗一起编的花环？很漂亮，我很喜欢。\n我们把它编得更大一点吧？做一个五颜六色的、能戴在我们所有人头上的花环。",
-      "url": "https://www.bilibili.com/opus/1263730563498377222",
-      "published_at": "2026-10-27T12:00:00+08:00",
-      "type": "dynamic",
-      "images": [
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/3039badcab5b346b9402cf31fc9e6056401742377.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/3039badcab5b346b9402cf31fc9e6056401742377.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/3039badcab5b346b9402cf31fc9e6056401742377.jpg"
-        }
-      ],
-      "cover": null
-    },
-    {
-      "id": "1263708893270245395",
-      "game_key": "yh",
-      "game_name": "异环",
-      "title": "异环×炫迈联名活动即将开启！",
-      "summary": "#异环# #异环炫迈联名#\n异能爆棚，根本停不下来！\n异环×@Stride炫迈 联名活动即将开启，10月30日起，联名产品和主题周边将在线上多平台同步售卖！\n>>>联名套餐 即将上线\n套餐A \n起售时间：10月30日10:00\n套餐B\n起售时间：10月30日10:00\n套餐C\n起售时间：10月30日17:00\n*购买渠道详见@Stride炫迈 官方自媒体公告 \n\n>>>限时活动 即将登场\n来片炫迈，异能爆棚，调查异象根本停不下来!\n10月30日5:00-11月30日24:00，鉴定师前往海特洛任意2-Four便利店或普通售货机即可购买“炫迈口香糖”限时联动道具!\n\n>>>线下快闪 即将登场\n11月6日-11月8日，异环×炫迈联动快闪活动即将亮相上海市杨浦区百联ZX造趣场L1(服务台对面)。\n欢迎鉴定师们现场打卡，更多线下资讯请鉴定师关注@Stride炫迈 官方账号！\n*更多联名活动详情请打开下方长图查看。",
-      "url": "https://www.bilibili.com/opus/1263708893270245395",
-      "published_at": "2026-10-27T10:35:55+08:00",
-      "type": "dynamic",
-      "images": [
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/a6e29b00cde93c624918769cbec1b6df3546636978489848.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/a6e29b00cde93c624918769cbec1b6df3546636978489848.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/a6e29b00cde93c624918769cbec1b6df3546636978489848.jpg"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/6605e94d94617f224cdcae2845683e253546636978489848.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/6605e94d94617f224cdcae2845683e253546636978489848.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/6605e94d94617f224cdcae2845683e253546636978489848.jpg"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/ec25800a8f34870fe28e327cee4c62eb3546636978489848.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/ec25800a8f34870fe28e327cee4c62eb3546636978489848.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/ec25800a8f34870fe28e327cee4c62eb3546636978489848.jpg"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/0db4e80f53f01a42f7adbefb904aef4a3546636978489848.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/0db4e80f53f01a42f7adbefb904aef4a3546636978489848.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/0db4e80f53f01a42f7adbefb904aef4a3546636978489848.jpg"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/bc9d00244d667e1fcbf0be7f580496143546636978489848.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/bc9d00244d667e1fcbf0be7f580496143546636978489848.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/bc9d00244d667e1fcbf0be7f580496143546636978489848.jpg"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/491e242676c9aa16ee03266dd0268abe3546636978489848.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/491e242676c9aa16ee03266dd0268abe3546636978489848.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/491e242676c9aa16ee03266dd0268abe3546636978489848.jpg"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/29e1eae92600ddea139b3d1d2d7c34bc3546636978489848.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/29e1eae92600ddea139b3d1d2d7c34bc3546636978489848.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/29e1eae92600ddea139b3d1d2d7c34bc3546636978489848.jpg"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/02a3f6ae78ae213c27f1375a7aca34a13546636978489848.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/02a3f6ae78ae213c27f1375a7aca34a13546636978489848.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/02a3f6ae78ae213c27f1375a7aca34a13546636978489848.jpg"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/81c88cb04040686136d5a19b8f0a3fca3546636978489848.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/81c88cb04040686136d5a19b8f0a3fca3546636978489848.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/81c88cb04040686136d5a19b8f0a3fca3546636978489848.jpg"
-        }
-      ],
-      "cover": null
-    },
-    {
-      "id": "1263452367722905618",
-      "game_key": "arknights",
-      "game_name": "明日方舟",
-      "title": "一分（多）钟看泰拉#5",
-      "summary": "一包动物饼干的时间了解一个泰拉知识，关注我的频道，大地的秘密等你来揭开。",
-      "url": "https://www.bilibili.com/video/BV1mpnd64Ep2",
-      "published_at": "2026-10-26T18:00:28+08:00",
-      "type": "video",
-      "images": [],
-      "cover": {
-        "url": "https://i0.hdslb.com/bfs/archive/3ad14573ed11d5e8eece77323ec7e996ea48c78b.jpg",
-        "fallback": "https://i0.hdslb.com/bfs/archive/3ad14573ed11d5e8eece77323ec7e996ea48c78b.jpg",
-        "local": "https://i0.hdslb.com/bfs/archive/3ad14573ed11d5e8eece77323ec7e996ea48c78b.jpg"
-      }
-    },
-    {
-      "id": "1263452277521252377",
-      "game_key": "hsr",
-      "game_name": "崩坏：星穹铁道",
-      "title": "#崩坏星穹铁道# #此刻将群星付之一笑# 疯狂的寂静中，有声音说：「笑吧，让祂听见你的存在。」于是，群星不再沉默，他们…",
-      "summary": "#崩坏星穹铁道# #此刻将群星付之一笑#\n\n疯狂的寂静中，有声音说：「笑吧，让祂听见你的存在。」于是，群星不再沉默，他们将所有的光明付于一声欢笑。\n\n寰宇的乐子人们，戴上你最欢愉的面具~ \n从米哈游归来的乐子神，将上演直播首秀！祂会为我们带来怎样的情报？\n\n2026年10月30日19:30，锁定官方直播间，《阿哈之夜》等你参演！\n\n点击预约直播间：http://live.bilibili.com/27263119",
-      "url": "https://www.bilibili.com/opus/1263452277521252377",
-      "published_at": "2026-10-26T18:00:07+08:00",
-      "type": "dynamic",
-      "images": [
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/39f5ce8d71361e5932c833d8c48bd7011340190821.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/39f5ce8d71361e5932c833d8c48bd7011340190821.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/39f5ce8d71361e5932c833d8c48bd7011340190821.jpg"
-        }
-      ],
-      "cover": null
-    },
-    {
-      "id": "1263452249621790723",
-      "game_key": "endfield",
-      "game_name": "明日方舟：终末地",
-      "title": "#明日方舟终末地##丹青渡# //干员回顾//汤汤",
-      "summary": "#明日方舟终末地##丹青渡#\n//干员回顾//汤汤\n“清波寨大当家汤汤，如约前来！你放心把这终末地交给我管，我保证让它变成全塔卫二最厉害的地方——”\n\n—————————— \n「祖泉的新流」重构寻访<1>将于2026年10月29日12:00（服务器时间）开启，活动期间6星干员【汤汤】获取概率大幅提升。\n————————\n▼ 「丹青渡」核心章节版本现已开启！\n新干员「祀」「明河」依次登场，全新区域「祀的画」开放！全新活动「烟火生缘」现已开启！\n前往下载：https://www.biligame.com/detail?id=108406",
-      "url": "https://www.bilibili.com/opus/1263452249621790723",
-      "published_at": "2026-10-26T18:00:00+08:00",
-      "type": "dynamic",
-      "images": [
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/8a628e39835159e372fe1b3a645ce3971265652806.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/8a628e39835159e372fe1b3a645ce3971265652806.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/8a628e39835159e372fe1b3a645ce3971265652806.jpg"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/2da684f406c3f88829b81ecfc8d74cde1265652806.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/2da684f406c3f88829b81ecfc8d74cde1265652806.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/2da684f406c3f88829b81ecfc8d74cde1265652806.jpg"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/552b95e0f7bb422d22587cbfba825cf51265652806.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/552b95e0f7bb422d22587cbfba825cf51265652806.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/552b95e0f7bb422d22587cbfba825cf51265652806.jpg"
-        }
-      ],
-      "cover": null
-    },
-    {
-      "id": "1263436787736379411",
-      "game_key": "arknights",
-      "game_name": "明日方舟",
-      "title": "【新增服饰】",
-      "summary": "【新增服饰】\n//暖冬教室 - 凯瑟琳\n罗德厨房系列/暖冬教室。凯瑟琳在家中教孩子们烘焙时的穿着。经典的格纹毛衣，厚实的烤箱手套，虽然并不绚丽，但这就是生活应有的模样。\n\n_____________\n午后的阳光照进屋内，费斯特偷吃了一块刚烤好的饼干，她只是微笑看着，静静度过这段温柔的时光。",
-      "url": "https://www.bilibili.com/opus/1263436787736379411",
-      "published_at": "2026-10-26T17:00:00+08:00",
-      "type": "dynamic",
-      "images": [
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/23d99c01714fd2b3bc7c1c3bcb7eb7e9161775300.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/23d99c01714fd2b3bc7c1c3bcb7eb7e9161775300.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/23d99c01714fd2b3bc7c1c3bcb7eb7e9161775300.jpg"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/f9ddfc4b873c6dae6b9d26db64cad5e7161775300.gif",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/f9ddfc4b873c6dae6b9d26db64cad5e7161775300.gif",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/f9ddfc4b873c6dae6b9d26db64cad5e7161775300.gif"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/fa14d18ff6d973e270321f371515e5b3161775300.gif",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/fa14d18ff6d973e270321f371515e5b3161775300.gif",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/fa14d18ff6d973e270321f371515e5b3161775300.gif"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/68ba3e9c4a1e2896e48438301419f7a4161775300.gif",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/68ba3e9c4a1e2896e48438301419f7a4161775300.gif",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/68ba3e9c4a1e2896e48438301419f7a4161775300.gif"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/4bbc0faef40422b2a2b5def714e4a106161775300.gif",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/4bbc0faef40422b2a2b5def714e4a106161775300.gif",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/4bbc0faef40422b2a2b5def714e4a106161775300.gif"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/276cb87a8f0ac7c4a7b78897719b3937161775300.gif",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/276cb87a8f0ac7c4a7b78897719b3937161775300.gif",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/276cb87a8f0ac7c4a7b78897719b3937161775300.gif"
-        }
-      ],
-      "cover": null
-    },
-    {
-      "id": "1263421325854113841",
-      "game_key": "arknights",
-      "game_name": "明日方舟",
-      "title": "【采购凭证区-新增干员】",
-      "summary": "【采购凭证区-新增干员】\n//镜匠\n“我叫卡莱朵，来自卡兹戴尔，是一名镜匠。办公室这面墙有点空啊，加一面装饰镜怎么样？什么样的镜子我都会做。可以打八折哦。”\n\n__________________\n招聘公告\n现为镜子铺招收一名学徒，负责切割镜片及打磨镜框工作。\n包吃住，薪酬除基础工资外含额外奖金，具体金额视订单量决定。\n有意请来东侧大街拐角木屋处联系。\n\n“在卡兹戴尔这地方，做镜子……真能挣钱？我可不信。”\n“可是，你看贴传单的那个人，她不是做镜子做了很久吗？现在又要开店了？”\n“哎，别走啊。上去问问？咱们家里……好像确实缺一面镜子。”",
-      "url": "https://www.bilibili.com/opus/1263421325854113841",
-      "published_at": "2026-10-26T16:00:00+08:00",
-      "type": "dynamic",
-      "images": [
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/63b32da66d22224f0ee7e1afd18de6ef161775300.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/63b32da66d22224f0ee7e1afd18de6ef161775300.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/63b32da66d22224f0ee7e1afd18de6ef161775300.png"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/5545d6b9227e7def26614d4a417120c3161775300.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/5545d6b9227e7def26614d4a417120c3161775300.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/5545d6b9227e7def26614d4a417120c3161775300.jpg"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/754e138fa9fcac97a9f5f2b402bd9824161775300.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/754e138fa9fcac97a9f5f2b402bd9824161775300.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/754e138fa9fcac97a9f5f2b402bd9824161775300.jpg"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/7b60450da910237e034b01264cf6b3d4161775300.gif",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/7b60450da910237e034b01264cf6b3d4161775300.gif",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/7b60450da910237e034b01264cf6b3d4161775300.gif"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/644dedbb3099ceed4a610d849ce50e16161775300.gif",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/644dedbb3099ceed4a610d849ce50e16161775300.gif",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/644dedbb3099ceed4a610d849ce50e16161775300.gif"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/bfc07dbc25a086dacdbe2557ceb2a814161775300.gif",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/bfc07dbc25a086dacdbe2557ceb2a814161775300.gif",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/bfc07dbc25a086dacdbe2557ceb2a814161775300.gif"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/8add67681423dbe06baad8b9f00e6d88161775300.gif",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/8add67681423dbe06baad8b9f00e6d88161775300.gif",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/8add67681423dbe06baad8b9f00e6d88161775300.gif"
-        }
-      ],
-      "cover": null
-    },
-    {
-      "id": "1263367209248358403",
-      "game_key": "zzz",
-      "game_name": "绝区零",
-      "title": "#绝区零# #重返天空的旅程# 「赛博圣手，出诊!」活动说明",
-      "summary": "#绝区零# #重返天空的旅程# \n「赛博圣手，出诊!」活动说明\n \n【活动时间】\n2026/10/28 10:00~ 2026/11/16 03:59\n \n【参与条件】\n绳网等级≥20级，完成主线第一章·幕间后即可参与。\n \n【活动说明】\n• 活动期间，绳匠可以前往「毛绒扳手」，和店长杰佩琳对话，帮忙修复感染了病毒的小邦布们。\n• 活动期间，维修关卡将逐天解锁。完成当日维修，即可帮助小邦布们恢复正常。\n• 完成维修关卡，即可获得[菲林]、[邦布券]和各类养成材料奖励。\n \n—— 欢迎来到罗斯凯利法！——\n▼《绝区零》3.3版本「重返天空的旅程」现已上线！\n限定S级代理人「菲欧妮」&「维琳娜」现已加入调频&复刻。\n版本期间，参与活动可免费领取妄想天使时装！\nbilibili安卓端下载地址：https://www.biligame.com/detail/?id=108434\nbilibiliPC端下载地址：https://www.biligame.com/detail/?id=111210",
-      "url": "https://www.bilibili.com/opus/1263367209248358403",
-      "published_at": "2026-10-26T12:30:00+08:00",
-      "type": "dynamic",
-      "images": [
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/14563e51f1cec1f9b5255f677384c5191636034895.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/14563e51f1cec1f9b5255f677384c5191636034895.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/14563e51f1cec1f9b5255f677384c5191636034895.jpg"
-        }
-      ],
-      "cover": null
-    },
-    {
-      "id": "1263359497681764483",
-      "game_key": "hsr",
-      "game_name": "崩坏：星穹铁道",
-      "title": "「乐子神智取米哈游」第六话 | 撤离",
-      "summary": "「接下来只要辞职撤退美美抽身，贪饕就输定了！」\n\n欲知后事如何，敬请关注4.7版本前瞻直播。\n\n————————\n▉ 阿哈的赠礼\n\n欢愉嗅觉敏锐的乐子神识别到了独特的风尚——\n\n跨越次元的伴手礼，希望你喜欢！\n\n● 4.7版本登录游戏即可领取开拓穿搭服装「黄紫风尚」。",
-      "url": "https://www.bilibili.com/video/BV1Wxnh6EE1Q",
-      "published_at": "2026-10-26T12:00:05+08:00",
-      "type": "video",
-      "images": [],
-      "cover": {
-        "url": "https://i0.hdslb.com/bfs/archive/3055305a4c7b01a59ae0cd4eb8621e15bb24a8d8.jpg",
-        "fallback": "https://i0.hdslb.com/bfs/archive/3055305a4c7b01a59ae0cd4eb8621e15bb24a8d8.jpg",
-        "local": "https://i0.hdslb.com/bfs/archive/3055305a4c7b01a59ae0cd4eb8621e15bb24a8d8.jpg"
-      }
-    },
-    {
-      "id": "1263359478320857090",
-      "game_key": "endfield",
-      "game_name": "明日方舟：终末地",
-      "title": "#明日方舟终末地##丹青渡# 「百趣演武」活动介绍",
-      "summary": "#明日方舟终末地##丹青渡#\n「百趣演武」活动介绍\n\n小道奇已将最新最潮的功能整合进了演武平台。\n百种趣味，万般奇巧，尽在其中。快来试试吧，管理员！\n————————\n▼ 「丹青渡」核心章节版本现已开启！\n新干员「祀」「明河」依次登场，全新区域「祀的画」开放！全新活动「烟火生缘」现已开启！\n前往下载：https://www.biligame.com/detail?id=108406",
-      "url": "https://www.bilibili.com/opus/1263359478320857090",
-      "published_at": "2026-10-26T12:00:00+08:00",
-      "type": "dynamic",
-      "images": [
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/464684839d1587e1ddc224a6b953af191265652806.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/464684839d1587e1ddc224a6b953af191265652806.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/464684839d1587e1ddc224a6b953af191265652806.png"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/55cd9c1bef4051c51ef97efc405889861265652806.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/55cd9c1bef4051c51ef97efc405889861265652806.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/55cd9c1bef4051c51ef97efc405889861265652806.png"
-        }
-      ],
-      "cover": null
-    },
-    {
-      "id": "1263359478332391428",
-      "game_key": "arknights",
-      "game_name": "明日方舟",
-      "title": "10 月 26 日 视相博物馆：演化OST 正式上架各音乐平台",
-      "summary": "10 月 26 日 视相博物馆：演化OST 正式上架各音乐平台\n\n【专辑介绍】\n一步一步升级，达成至高演化。\n\n【歌曲列表】\n超级演化\n视相博物馆欢迎您！\n卡带盒\n闯关时刻",
-      "url": "https://www.bilibili.com/opus/1263359478332391428",
-      "published_at": "2026-10-26T12:00:00+08:00",
-      "type": "dynamic",
-      "images": [
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/580f31bb5a5d7771d1a3174bb72307b1161775300.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/580f31bb5a5d7771d1a3174bb72307b1161775300.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/580f31bb5a5d7771d1a3174bb72307b1161775300.jpg"
-        }
-      ],
-      "cover": null
-    },
-    {
-      "id": "1263344031462588473",
-      "game_key": "arknights",
-      "game_name": "明日方舟",
-      "title": "《明日方舟》特别映像[维多利亚：很久很久以前]",
-      "summary": "不过，对于那些即将上演的童话来说，就没必要再用这句话开头了。",
-      "url": "https://www.bilibili.com/video/BV1TVHG6BENZ",
-      "published_at": "2026-10-26T11:00:04+08:00",
-      "type": "video",
-      "images": [],
-      "cover": {
-        "url": "https://i1.hdslb.com/bfs/archive/f6bb6b8e8ffa2803080ede585b915e0992ac8843.jpg",
-        "fallback": "https://i1.hdslb.com/bfs/archive/f6bb6b8e8ffa2803080ede585b915e0992ac8843.jpg",
-        "local": "https://i1.hdslb.com/bfs/archive/f6bb6b8e8ffa2803080ede585b915e0992ac8843.jpg"
-      }
-    },
-    {
-      "id": "1263344016486826018",
-      "game_key": "yh",
-      "game_name": "异环",
-      "title": "海特洛之声丨鬼屋行",
-      "summary": "#异环# 「嘁嘻嘻嘻嘻嘻~哇！！!」\n「QAQ嗷呜呜呜呜呜！！！」\n「这家伙，打架的时候胆子也没这么小啊……」\n「噢！小贞的样子好可爱！」 \n\n超自然都市开放世界RPG《异环》全新版本「祷歌为谁而诵」现已开启！立刻下载>>>https://www.biligame.com/detail/?id=111795",
-      "url": "https://www.bilibili.com/opus/1263344016486826018",
-      "published_at": "2026-10-26T11:00:00+08:00",
-      "type": "dynamic",
-      "images": [
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/86c7168092546b4343fb370e28cc4f6b3546636978489848.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/86c7168092546b4343fb370e28cc4f6b3546636978489848.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/86c7168092546b4343fb370e28cc4f6b3546636978489848.jpg"
-        }
-      ],
-      "cover": null
-    },
-    {
-      "id": "1263124318123982870",
-      "game_key": "bluearchive",
-      "game_name": "蔚蓝档案",
-      "title": "关于《蔚蓝档案》国服运营安排的说明",
-      "summary": "\"欢迎连接什亭之箱，老师。\"\n\n由于《蔚蓝档案》海外服务器运营安排发生变更，为避免各位老师对简中服的运营安排产生顾虑与不安，特此向各位老师说明如下：\n\n《蔚蓝档案》简中服将继续由上海星啸网络科技有限公司负责发行与运营。上海星啸网络科技有限公司对简中服承担的运营与服务责任保持不变。\n\n自简中服与老师相遇的那天起，为大家带来良好的本地化游戏体验与服务，便是我们立足的根本。这份初心不会改变。接下来的日子，简中服运营团队将继续与NEXON GAMES保持良好合作关系，共同努力为老师提供更加优质的游戏内外内容与服务。\n\n感谢各位老师一直以来对《蔚蓝档案》的支持与陪伴。\n\n《蔚蓝档案》简中服运营团队",
-      "url": "https://www.bilibili.com/opus/1263124318123982870",
-      "published_at": "2026-10-25T20:47:28+08:00",
-      "type": "dynamic",
-      "images": [
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/36e4d0a0ffea8c1d48251223239534b63493265644980448.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/36e4d0a0ffea8c1d48251223239534b63493265644980448.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/36e4d0a0ffea8c1d48251223239534b63493265644980448.jpg"
-        }
-      ],
-      "cover": null
     }
   ]
 }

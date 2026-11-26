@@ -1,8 +1,8 @@
 {
   "api_version": "v1",
   "schema_version": 4,
-  "generated_at": "2026-11-26T22:30:14+08:00",
-  "generated_at_utc": "2026-11-26T14:30:14.000Z",
+  "generated_at": "2026-11-26T23:13:37+08:00",
+  "generated_at_utc": "2026-11-26T15:13:37.000Z",
   "count": 50,
   "cdn": {
     "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
@@ -20,9 +20,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/529c5d086e4f8323891ea0173507493d233114659.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/529c5d086e4f8323891ea0173507493d233114659.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/529c5d086e4f8323891ea0173507493d233114659.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/835b1a4ace1a8293.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/835b1a4ace1a8293.png",
+          "local": "img/835b1a4ace1a8293.png"
         }
       ],
       "cover": null
@@ -38,14 +38,14 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/f51ecd671f8babeab36b2151be1d147f161775300.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/f51ecd671f8babeab36b2151be1d147f161775300.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/f51ecd671f8babeab36b2151be1d147f161775300.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/e9887024d35a9965.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/e9887024d35a9965.png",
+          "local": "img/e9887024d35a9965.png"
         },
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/64b94ebb8d78c32c94bde2ee04faeb90161775300.gif",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/64b94ebb8d78c32c94bde2ee04faeb90161775300.gif",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/64b94ebb8d78c32c94bde2ee04faeb90161775300.gif"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/ab6d96d24c78ce35.gif",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/ab6d96d24c78ce35.gif",
+          "local": "img/ab6d96d24c78ce35.gif"
         }
       ],
       "cover": null
@@ -61,9 +61,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/44791865bfc6945a5dd6a47cc77eb0913493265644980448.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/44791865bfc6945a5dd6a47cc77eb0913493265644980448.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/44791865bfc6945a5dd6a47cc77eb0913493265644980448.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/6a2711eaf078818b.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/6a2711eaf078818b.png",
+          "local": "img/6a2711eaf078818b.png"
         }
       ],
       "cover": null
@@ -79,14 +79,14 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/6e740bb57f94876f66fd397183792ee0161775300.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/6e740bb57f94876f66fd397183792ee0161775300.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/6e740bb57f94876f66fd397183792ee0161775300.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/9ee98e95edcaa1d7.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/9ee98e95edcaa1d7.jpg",
+          "local": "img/9ee98e95edcaa1d7.jpg"
         },
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/4a64679d20f42df0a225e25d092b636d161775300.gif",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/4a64679d20f42df0a225e25d092b636d161775300.gif",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/4a64679d20f42df0a225e25d092b636d161775300.gif"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/b947759e2c4bf4c1.gif",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/b947759e2c4bf4c1.gif",
+          "local": "img/b947759e2c4bf4c1.gif"
         },
         {
           "url": "https://i0.hdslb.com/bfs/new_dyn/7bdc78e7a00fbe3e6cb94bdb9d82f142161775300.gif",
@@ -127,9 +127,9 @@
       "type": "video",
       "images": [],
       "cover": {
-        "url": "https://i1.hdslb.com/bfs/archive/4f4163d4921572149067d782e17250fe1705b016.jpg",
-        "fallback": "https://i1.hdslb.com/bfs/archive/4f4163d4921572149067d782e17250fe1705b016.jpg",
-        "local": "https://i1.hdslb.com/bfs/archive/4f4163d4921572149067d782e17250fe1705b016.jpg"
+        "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/8af604c8dbe95f3f.jpg",
+        "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/8af604c8dbe95f3f.jpg",
+        "local": "img/8af604c8dbe95f3f.jpg"
       }
     },
     {
@@ -143,9 +143,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/0ab697990125b341f04590a8809d2e053546636978489848.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/0ab697990125b341f04590a8809d2e053546636978489848.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/0ab697990125b341f04590a8809d2e053546636978489848.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/06826165e4d44d5b.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/06826165e4d44d5b.jpg",
+          "local": "img/06826165e4d44d5b.jpg"
         }
       ],
       "cover": null
@@ -161,9 +161,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/f932eee42431e06628b7de65b00f707b3493265644980448.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/f932eee42431e06628b7de65b00f707b3493265644980448.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/f932eee42431e06628b7de65b00f707b3493265644980448.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/47dced32bb462b7e.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/47dced32bb462b7e.png",
+          "local": "img/47dced32bb462b7e.png"
         }
       ],
       "cover": null
@@ -179,9 +179,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/57468ee85fc408496420c4342611e6653546569016085336.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/57468ee85fc408496420c4342611e6653546569016085336.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/57468ee85fc408496420c4342611e6653546569016085336.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/bd5e91e5d042522d.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/bd5e91e5d042522d.png",
+          "local": "img/bd5e91e5d042522d.png"
         }
       ],
       "cover": null
@@ -197,14 +197,14 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/5b199c213d3ccb08e841b8e593e306a81636034895.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/5b199c213d3ccb08e841b8e593e306a81636034895.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/5b199c213d3ccb08e841b8e593e306a81636034895.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/79f0ebf111e6fa7e.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/79f0ebf111e6fa7e.png",
+          "local": "img/79f0ebf111e6fa7e.png"
         },
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/c4799f31fd87326a1206aea1fd08f1ae1636034895.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/c4799f31fd87326a1206aea1fd08f1ae1636034895.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/c4799f31fd87326a1206aea1fd08f1ae1636034895.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/598834827aa08b56.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/598834827aa08b56.png",
+          "local": "img/598834827aa08b56.png"
         },
         {
           "url": "https://i0.hdslb.com/bfs/new_dyn/1925d672b6b8a06a33a7cd75962b33951636034895.png",
@@ -255,9 +255,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/10706ff0f09ca78582e56901fe4a2635401742377.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/10706ff0f09ca78582e56901fe4a2635401742377.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/10706ff0f09ca78582e56901fe4a2635401742377.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/29f436ae64c09e34.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/29f436ae64c09e34.jpg",
+          "local": "img/29f436ae64c09e34.jpg"
         }
       ],
       "cover": null
@@ -273,9 +273,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/ffda6edc821cb4f4f0e1c366860282e61265652806.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/ffda6edc821cb4f4f0e1c366860282e61265652806.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/ffda6edc821cb4f4f0e1c366860282e61265652806.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/6e3ebeada578f828.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/6e3ebeada578f828.png",
+          "local": "img/6e3ebeada578f828.png"
         }
       ],
       "cover": null
@@ -291,9 +291,9 @@
       "type": "video",
       "images": [],
       "cover": {
-        "url": "https://i2.hdslb.com/bfs/archive/9474c91e2b27b98247b9b178120d7f0dcafeba6f.jpg",
-        "fallback": "https://i2.hdslb.com/bfs/archive/9474c91e2b27b98247b9b178120d7f0dcafeba6f.jpg",
-        "local": "https://i2.hdslb.com/bfs/archive/9474c91e2b27b98247b9b178120d7f0dcafeba6f.jpg"
+        "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/237fd107d21f80ba.jpg",
+        "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/237fd107d21f80ba.jpg",
+        "local": "img/237fd107d21f80ba.jpg"
       }
     },
     {
@@ -307,9 +307,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/cb030ceca93439d1eb1c92810115dbb63493265644980448.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/cb030ceca93439d1eb1c92810115dbb63493265644980448.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/cb030ceca93439d1eb1c92810115dbb63493265644980448.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/30e8a62fe4f9943a.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/30e8a62fe4f9943a.png",
+          "local": "img/30e8a62fe4f9943a.png"
         }
       ],
       "cover": null
@@ -325,9 +325,9 @@
       "type": "video",
       "images": [],
       "cover": {
-        "url": "https://i2.hdslb.com/bfs/archive/a1091239307a2043355a7769a23fcca091853c2b.jpg",
-        "fallback": "https://i2.hdslb.com/bfs/archive/a1091239307a2043355a7769a23fcca091853c2b.jpg",
-        "local": "https://i2.hdslb.com/bfs/archive/a1091239307a2043355a7769a23fcca091853c2b.jpg"
+        "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/432738c5db49451c.jpg",
+        "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/432738c5db49451c.jpg",
+        "local": "img/432738c5db49451c.jpg"
       }
     },
     {
@@ -341,9 +341,9 @@
       "type": "video",
       "images": [],
       "cover": {
-        "url": "https://i1.hdslb.com/bfs/archive/e29374ce6788de77caef8070b7ee5137813dfe61.jpg",
-        "fallback": "https://i1.hdslb.com/bfs/archive/e29374ce6788de77caef8070b7ee5137813dfe61.jpg",
-        "local": "https://i1.hdslb.com/bfs/archive/e29374ce6788de77caef8070b7ee5137813dfe61.jpg"
+        "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/449ca376aaba346e.jpg",
+        "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/449ca376aaba346e.jpg",
+        "local": "img/449ca376aaba346e.jpg"
       }
     },
     {
@@ -357,9 +357,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/c63ce120f2e4ebf9164470366c1bcb68161775300.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/c63ce120f2e4ebf9164470366c1bcb68161775300.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/c63ce120f2e4ebf9164470366c1bcb68161775300.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/7b71c375e5cb8fb9.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/7b71c375e5cb8fb9.png",
+          "local": "img/7b71c375e5cb8fb9.png"
         }
       ],
       "cover": null
@@ -375,14 +375,14 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/e681a111f023f993bc422592800293a73546569016085336.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/e681a111f023f993bc422592800293a73546569016085336.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/e681a111f023f993bc422592800293a73546569016085336.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/1fe564de75dc1f77.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/1fe564de75dc1f77.png",
+          "local": "img/1fe564de75dc1f77.png"
         },
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/fc921bcbb9121c2d56e3ff00610bc2643546569016085336.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/fc921bcbb9121c2d56e3ff00610bc2643546569016085336.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/fc921bcbb9121c2d56e3ff00610bc2643546569016085336.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/0264cc56c7724690.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/0264cc56c7724690.png",
+          "local": "img/0264cc56c7724690.png"
         }
       ],
       "cover": null
@@ -398,9 +398,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/9b00cb88bb9a37719a954b4ce519243c3493265644980448.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/9b00cb88bb9a37719a954b4ce519243c3493265644980448.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/9b00cb88bb9a37719a954b4ce519243c3493265644980448.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/fe5b9ff33f51ceaf.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/fe5b9ff33f51ceaf.jpg",
+          "local": "img/fe5b9ff33f51ceaf.jpg"
         }
       ],
       "cover": null
@@ -428,9 +428,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/f915a75dd52b1f9612a8368efb7494663546569016085336.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/f915a75dd52b1f9612a8368efb7494663546569016085336.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/f915a75dd52b1f9612a8368efb7494663546569016085336.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/dd944c20393bd61e.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/dd944c20393bd61e.png",
+          "local": "img/dd944c20393bd61e.png"
         }
       ],
       "cover": null
@@ -446,9 +446,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/ff78113885bdf0b2319cc433d606a089161775300.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/ff78113885bdf0b2319cc433d606a089161775300.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/ff78113885bdf0b2319cc433d606a089161775300.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/fd3006f5d19cc5bc.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/fd3006f5d19cc5bc.jpg",
+          "local": "img/fd3006f5d19cc5bc.jpg"
         }
       ],
       "cover": null
@@ -464,9 +464,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/2d12aeb80bae459c6f0c45e817486aae3493265644980448.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/2d12aeb80bae459c6f0c45e817486aae3493265644980448.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/2d12aeb80bae459c6f0c45e817486aae3493265644980448.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/1de93f54f895705d.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/1de93f54f895705d.png",
+          "local": "img/1de93f54f895705d.png"
         }
       ],
       "cover": null
@@ -482,14 +482,14 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/dad80889f9b60a1ccd555d9c8411159d3546636978489848.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/dad80889f9b60a1ccd555d9c8411159d3546636978489848.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/dad80889f9b60a1ccd555d9c8411159d3546636978489848.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/5186eec0159b1c3b.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/5186eec0159b1c3b.jpg",
+          "local": "img/5186eec0159b1c3b.jpg"
         },
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/b8f0300ede51c9e98ce96a9f1db86f7c3546636978489848.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/b8f0300ede51c9e98ce96a9f1db86f7c3546636978489848.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/b8f0300ede51c9e98ce96a9f1db86f7c3546636978489848.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/0834971aed5dda94.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/0834971aed5dda94.jpg",
+          "local": "img/0834971aed5dda94.jpg"
         }
       ],
       "cover": null
@@ -505,9 +505,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/1abf6589208981022a6f5160587490e61265652806.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/1abf6589208981022a6f5160587490e61265652806.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/1abf6589208981022a6f5160587490e61265652806.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/39b373e415c6001f.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/39b373e415c6001f.jpg",
+          "local": "img/39b373e415c6001f.jpg"
         }
       ],
       "cover": null
@@ -523,9 +523,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/846b57b22a5443335e2e4fa51f38396a3493265644980448.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/846b57b22a5443335e2e4fa51f38396a3493265644980448.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/846b57b22a5443335e2e4fa51f38396a3493265644980448.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/53acd8372e2af433.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/53acd8372e2af433.jpg",
+          "local": "img/53acd8372e2af433.jpg"
         }
       ],
       "cover": null
@@ -541,9 +541,9 @@
       "type": "forward",
       "images": [],
       "cover": {
-        "url": "https://i1.hdslb.com/bfs/archive/e39cfeed4f4210c7ca817b90a161d2be2ae5e4f0.jpg",
-        "fallback": "https://i1.hdslb.com/bfs/archive/e39cfeed4f4210c7ca817b90a161d2be2ae5e4f0.jpg",
-        "local": "https://i1.hdslb.com/bfs/archive/e39cfeed4f4210c7ca817b90a161d2be2ae5e4f0.jpg"
+        "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/58f72a34cda4fb16.jpg",
+        "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/58f72a34cda4fb16.jpg",
+        "local": "img/58f72a34cda4fb16.jpg"
       }
     },
     {
@@ -557,9 +557,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/cde343fe65a94285da3cd126d6dd948e3546636978489848.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/cde343fe65a94285da3cd126d6dd948e3546636978489848.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/cde343fe65a94285da3cd126d6dd948e3546636978489848.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/bfd0e8ea238dbb44.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/bfd0e8ea238dbb44.jpg",
+          "local": "img/bfd0e8ea238dbb44.jpg"
         }
       ],
       "cover": null
@@ -575,9 +575,9 @@
       "type": "video",
       "images": [],
       "cover": {
-        "url": "https://i2.hdslb.com/bfs/archive/71002494ce562c07fa51d2ab20e727c81a746391.jpg",
-        "fallback": "https://i2.hdslb.com/bfs/archive/71002494ce562c07fa51d2ab20e727c81a746391.jpg",
-        "local": "https://i2.hdslb.com/bfs/archive/71002494ce562c07fa51d2ab20e727c81a746391.jpg"
+        "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/7b70784cafc07f50.jpg",
+        "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/7b70784cafc07f50.jpg",
+        "local": "img/7b70784cafc07f50.jpg"
       }
     },
     {
@@ -591,14 +591,14 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/7469cfd8dcab45afc0a57326ac803e021340190821.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/7469cfd8dcab45afc0a57326ac803e021340190821.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/7469cfd8dcab45afc0a57326ac803e021340190821.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/995f66333f87ea55.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/995f66333f87ea55.jpg",
+          "local": "img/995f66333f87ea55.jpg"
         },
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/5f16df94cfae5c88d5218def183e9d0a1340190821.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/5f16df94cfae5c88d5218def183e9d0a1340190821.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/5f16df94cfae5c88d5218def183e9d0a1340190821.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/b791f6d84a255eef.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/b791f6d84a255eef.jpg",
+          "local": "img/b791f6d84a255eef.jpg"
         },
         {
           "url": "https://i0.hdslb.com/bfs/new_dyn/61939264b5edea59101959e92f65a1d81340190821.jpg",
@@ -674,9 +674,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/730ecc368b9e5c970f87992159374a121265652806.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/730ecc368b9e5c970f87992159374a121265652806.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/730ecc368b9e5c970f87992159374a121265652806.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/d7f2907a025c4820.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/d7f2907a025c4820.png",
+          "local": "img/d7f2907a025c4820.png"
         }
       ],
       "cover": null
@@ -692,14 +692,14 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/3e9cb87cbf838177cf33588a52d97d5d3546636978489848.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/3e9cb87cbf838177cf33588a52d97d5d3546636978489848.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/3e9cb87cbf838177cf33588a52d97d5d3546636978489848.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/347d67023d60cdea.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/347d67023d60cdea.jpg",
+          "local": "img/347d67023d60cdea.jpg"
         },
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/05b270541b91c0d9d72087f9876007603546636978489848.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/05b270541b91c0d9d72087f9876007603546636978489848.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/05b270541b91c0d9d72087f9876007603546636978489848.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/c52f089b7b9b7616.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/c52f089b7b9b7616.jpg",
+          "local": "img/c52f089b7b9b7616.jpg"
         },
         {
           "url": "https://i0.hdslb.com/bfs/new_dyn/2c4482f17314769e96df1481a184e4713546636978489848.gif",
@@ -750,9 +750,9 @@
       "type": "video",
       "images": [],
       "cover": {
-        "url": "https://i1.hdslb.com/bfs/archive/95afedd836af1e5f7bf3f2eeca1a625f8231e3a9.jpg",
-        "fallback": "https://i1.hdslb.com/bfs/archive/95afedd836af1e5f7bf3f2eeca1a625f8231e3a9.jpg",
-        "local": "https://i1.hdslb.com/bfs/archive/95afedd836af1e5f7bf3f2eeca1a625f8231e3a9.jpg"
+        "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/399afb73968c75db.jpg",
+        "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/399afb73968c75db.jpg",
+        "local": "img/399afb73968c75db.jpg"
       }
     },
     {
@@ -766,9 +766,9 @@
       "type": "video",
       "images": [],
       "cover": {
-        "url": "https://i1.hdslb.com/bfs/archive/c558c93769c7a19d3d1c988c998c34bf6080d1e4.jpg",
-        "fallback": "https://i1.hdslb.com/bfs/archive/c558c93769c7a19d3d1c988c998c34bf6080d1e4.jpg",
-        "local": "https://i1.hdslb.com/bfs/archive/c558c93769c7a19d3d1c988c998c34bf6080d1e4.jpg"
+        "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/5ec1e88e6ade97cf.jpg",
+        "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/5ec1e88e6ade97cf.jpg",
+        "local": "img/5ec1e88e6ade97cf.jpg"
       }
     },
     {
@@ -782,9 +782,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/1b8ea19810a5db457714fe988fca96811955897084.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/1b8ea19810a5db457714fe988fca96811955897084.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/1b8ea19810a5db457714fe988fca96811955897084.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/2711f864f42a77e6.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/2711f864f42a77e6.jpg",
+          "local": "img/2711f864f42a77e6.jpg"
         }
       ],
       "cover": null
@@ -800,9 +800,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/70f4e33cc22d2a434514ea0debad5cb03493265644980448.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/70f4e33cc22d2a434514ea0debad5cb03493265644980448.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/70f4e33cc22d2a434514ea0debad5cb03493265644980448.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/c523a9ba4972d0ca.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/c523a9ba4972d0ca.png",
+          "local": "img/c523a9ba4972d0ca.png"
         }
       ],
       "cover": null
@@ -818,9 +818,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/b764e6a20517f1b3a31279c721f6d2ed3546886017387331.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/b764e6a20517f1b3a31279c721f6d2ed3546886017387331.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/b764e6a20517f1b3a31279c721f6d2ed3546886017387331.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/089e6b67ab25d716.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/089e6b67ab25d716.png",
+          "local": "img/089e6b67ab25d716.png"
         }
       ],
       "cover": null
@@ -836,9 +836,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/7ab00d0c0d9e1dddbc91dba9f67157041265652806.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/7ab00d0c0d9e1dddbc91dba9f67157041265652806.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/7ab00d0c0d9e1dddbc91dba9f67157041265652806.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/dbb7bda31d7a2418.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/dbb7bda31d7a2418.jpg",
+          "local": "img/dbb7bda31d7a2418.jpg"
         }
       ],
       "cover": null
@@ -866,9 +866,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/c80659fdadfeabda0f5efded2cb985b51265652806.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/c80659fdadfeabda0f5efded2cb985b51265652806.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/c80659fdadfeabda0f5efded2cb985b51265652806.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/6c98131646366510.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/6c98131646366510.jpg",
+          "local": "img/6c98131646366510.jpg"
         }
       ],
       "cover": null
@@ -884,14 +884,14 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/2e5dd44134375878d83b08bc70c61e201265652806.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/2e5dd44134375878d83b08bc70c61e201265652806.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/2e5dd44134375878d83b08bc70c61e201265652806.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/75b326b3926ed79e.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/75b326b3926ed79e.jpg",
+          "local": "img/75b326b3926ed79e.jpg"
         },
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/7face28a0713d1ef8e063b42726129601265652806.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/7face28a0713d1ef8e063b42726129601265652806.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/7face28a0713d1ef8e063b42726129601265652806.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/265f618717f4cd56.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/265f618717f4cd56.jpg",
+          "local": "img/265f618717f4cd56.jpg"
         }
       ],
       "cover": null
@@ -907,9 +907,9 @@
       "type": "forward",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/4afcf04e453773bc4391710cfc230335401742377.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/4afcf04e453773bc4391710cfc230335401742377.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/4afcf04e453773bc4391710cfc230335401742377.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/f7fc503b2341b797.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/f7fc503b2341b797.jpg",
+          "local": "img/f7fc503b2341b797.jpg"
         }
       ],
       "cover": null
@@ -925,9 +925,9 @@
       "type": "forward",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/b9d314989c57795ee5244cf975effabc233114659.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/b9d314989c57795ee5244cf975effabc233114659.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/b9d314989c57795ee5244cf975effabc233114659.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/8bb3c8fed91b3ca6.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/8bb3c8fed91b3ca6.jpg",
+          "local": "img/8bb3c8fed91b3ca6.jpg"
         }
       ],
       "cover": null
@@ -943,14 +943,14 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/7aad7308bb3729c52ddb38d333d47ef13546636978489848.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/7aad7308bb3729c52ddb38d333d47ef13546636978489848.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/7aad7308bb3729c52ddb38d333d47ef13546636978489848.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/f16fda7a18a201fe.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/f16fda7a18a201fe.jpg",
+          "local": "img/f16fda7a18a201fe.jpg"
         },
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/8cfbb3f063afbf987de6db753d9e4c6e3546636978489848.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/8cfbb3f063afbf987de6db753d9e4c6e3546636978489848.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/8cfbb3f063afbf987de6db753d9e4c6e3546636978489848.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/44defa520ab4702c.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/44defa520ab4702c.jpg",
+          "local": "img/44defa520ab4702c.jpg"
         },
         {
           "url": "https://i0.hdslb.com/bfs/new_dyn/74926ab47e438115e9a624532720560a3546636978489848.jpg",
@@ -971,9 +971,9 @@
       "type": "forward",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/608283c019d2d7e52d0fc78806931697233114659.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/608283c019d2d7e52d0fc78806931697233114659.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/608283c019d2d7e52d0fc78806931697233114659.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/f5d606cfc3edc9ba.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/f5d606cfc3edc9ba.jpg",
+          "local": "img/f5d606cfc3edc9ba.jpg"
         }
       ],
       "cover": null
@@ -989,9 +989,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/5a782b17372f3c73ac5464a7f0e997363546569016085336.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/5a782b17372f3c73ac5464a7f0e997363546569016085336.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/5a782b17372f3c73ac5464a7f0e997363546569016085336.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/4332279187f6390d.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/4332279187f6390d.png",
+          "local": "img/4332279187f6390d.png"
         }
       ],
       "cover": null
@@ -1007,9 +1007,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/fefa90a5cf688483cf89b25dfae96be23546636978489848.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/fefa90a5cf688483cf89b25dfae96be23546636978489848.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/fefa90a5cf688483cf89b25dfae96be23546636978489848.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/6be2d4221eb90031.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/6be2d4221eb90031.jpg",
+          "local": "img/6be2d4221eb90031.jpg"
         }
       ],
       "cover": null
@@ -1025,9 +1025,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/d263b86e87f04381319930158e5d333c1265652806.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/d263b86e87f04381319930158e5d333c1265652806.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/d263b86e87f04381319930158e5d333c1265652806.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/3ae7e41a40ddf490.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/3ae7e41a40ddf490.png",
+          "local": "img/3ae7e41a40ddf490.png"
         }
       ],
       "cover": null
@@ -1043,9 +1043,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/973e5058037e99bd680fa4fe3756cb7b3546636978489848.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/973e5058037e99bd680fa4fe3756cb7b3546636978489848.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/973e5058037e99bd680fa4fe3756cb7b3546636978489848.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/cda49bfbdeddd7e5.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/cda49bfbdeddd7e5.jpg",
+          "local": "img/cda49bfbdeddd7e5.jpg"
         }
       ],
       "cover": null
@@ -1061,14 +1061,14 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/31a7944dfbc9d0d87db0d74ec0a46d951265652806.png",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/31a7944dfbc9d0d87db0d74ec0a46d951265652806.png",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/31a7944dfbc9d0d87db0d74ec0a46d951265652806.png"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/6d8d46c02c718451.png",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/6d8d46c02c718451.png",
+          "local": "img/6d8d46c02c718451.png"
         },
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/da0a6937f347a493c0d269ca2bfe03941265652806.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/da0a6937f347a493c0d269ca2bfe03941265652806.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/da0a6937f347a493c0d269ca2bfe03941265652806.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/02a9adde551bc385.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/02a9adde551bc385.jpg",
+          "local": "img/02a9adde551bc385.jpg"
         },
         {
           "url": "https://i0.hdslb.com/bfs/new_dyn/4f4d36768c3c25a764521f11307045d61265652806.jpg",
@@ -1089,9 +1089,9 @@
       "type": "dynamic",
       "images": [
         {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/f5e13a5f492c26acb4f52e10804145191265652806.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/f5e13a5f492c26acb4f52e10804145191265652806.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/f5e13a5f492c26acb4f52e10804145191265652806.jpg"
+          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/c06e17afc2897cf8.jpg",
+          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/c06e17afc2897cf8.jpg",
+          "local": "img/c06e17afc2897cf8.jpg"
         }
       ],
       "cover": null
