@@ -1,8 +1,8 @@
 {
   "api_version": "v1",
   "schema_version": 4,
-  "generated_at": "2026-11-26T21:03:58+08:00",
-  "generated_at_utc": "2026-11-26T13:03:58.000Z",
+  "generated_at": "2026-11-26T21:05:56+08:00",
+  "generated_at_utc": "2026-11-26T13:05:56.000Z",
   "count": 1,
   "cdn": {
     "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
@@ -109,7 +109,7 @@
             "id": "hypergryph-cms",
             "tier": "L0",
             "url": "https://endfield.hypergryph.com/news/7204",
-            "fetched_at": "2026-11-26T21:03:58+08:00"
+            "fetched_at": "2026-11-26T21:05:56+08:00"
           }
         ],
         "version": null,
@@ -135,7 +135,7 @@
             "id": "hypergryph-cms",
             "tier": "L0",
             "url": "https://endfield.hypergryph.com/news/8535",
-            "fetched_at": "2026-11-26T21:03:58+08:00"
+            "fetched_at": "2026-11-26T21:05:56+08:00"
           }
         ],
         "version": null,
@@ -161,7 +161,7 @@
             "id": "hypergryph-cms",
             "tier": "L0",
             "url": "https://endfield.hypergryph.com/news/7201",
-            "fetched_at": "2026-11-26T21:03:58+08:00"
+            "fetched_at": "2026-11-26T21:05:56+08:00"
           }
         ],
         "version": null,
@@ -179,45 +179,45 @@
         "url": "https://www.bilibili.com/video/BV1nHyazWEDV",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:03:58+08:00"
+        "checked_at": "2026-11-26T21:05:56+08:00"
       },
       {
         "title": "《明日方舟：终末地》「全新版本&2.0揭幕前瞻」特别节目回顾",
         "url": "https://www.bilibili.com/video/BV1pvyhzdER5",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:03:58+08:00"
+        "checked_at": "2026-11-26T21:05:56+08:00"
       },
       {
         "title": "《明日方舟：终末地》特别映像「基石」",
         "url": "https://www.bilibili.com/video/BV1MMyazPEKy",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:03:58+08:00"
+        "checked_at": "2026-11-26T21:05:56+08:00"
       },
       {
         "title": "《明日方舟：终末地》干员影像-「群像：信号预联」",
         "url": "https://www.bilibili.com/video/BV1yGyaz8EXM",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:03:58+08:00"
+        "checked_at": "2026-11-26T21:05:56+08:00"
       },
       {
         "title": "#明日方舟终末地##穿越甚大蘑境与你相逢# 《明日方舟：终末地》全新版本&2.0揭幕前瞻特别节目即将于11月21日19…",
         "url": "https://www.bilibili.com/opus/1273069701443878962",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:03:58+08:00"
+        "checked_at": "2026-11-26T21:05:56+08:00"
       },
       {
         "title": "新章揭幕，火种未熄。《明日方舟：终末地》全新版本&2.0揭幕前瞻特别节目即将于11月21日19:30播出。",
         "url": "https://www.bilibili.com/video/BV1NgsB67EYH",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:03:58+08:00"
+        "checked_at": "2026-11-26T21:05:56+08:00"
       }
     ],
-    "facts_checked_at": "2026-11-26T21:03:58+08:00",
+    "facts_checked_at": "2026-11-26T21:05:56+08:00",
     "pact_banners": [],
     "icon_url_fallback": "https://yangziyuezy.github.io/GameNewsPull/img/21014115f43d4219.jpg",
     "icon_url_local": "img/21014115f43d4219.jpg",
