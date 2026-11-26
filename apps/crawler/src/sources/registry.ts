@@ -1,5 +1,6 @@
 // 信源适配器注册表：所有卡池信源在这里汇总（resolver 按 tier 裁决，注册顺序不影响结果）。
-// 新增信源：实现 SourceAdapter → 在此追加 → 在 data/source-cache 放裁剪 fixture 供离线测试。
+// 新增信源：实现 SourceAdapter → 在此追加 → 在 data/fixtures/sources 放裁剪 fixture 供离线测试
+//（data/source-cache 是运行时缓存，每日抓取会覆盖，不能当测试快照）。
 import type { SourceAdapter } from '../pools/types.ts';
 import { hypergryphCmsAdapter } from './hypergryph/cms.ts';
 import { prtsSmwAdapter } from './prts/smw.ts';

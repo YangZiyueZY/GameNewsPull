@@ -280,3 +280,24 @@ docs/                           构建产物（Pages 托管源）
 
 页面右上角的 **「API 文档」** 按钮会打开本项目「拉取 API」的速查面板：基址（CDN / raw / 站点）、端点表（读 `api/v1/index.json` 自描述）、响应信封、图片三地址、卡池字段与可直接复制的调用示例。
 信源侧接口（Akasha、鹰角 CMS、PRTS、库洛、悠星、蛮啾、异环等）的端点与字段口径见 [plans/multi-source-banner-contract.md](plans/multi-source-banner-contract.md) 第 4 节「信源适配器」。
+
+## 每日抓取的信源清单（Actions 实际调用）
+
+每天 09:30 的运行会依次调用下列信源（`apps/crawler/src/sources/registry.ts` 注册，日志里会打印每个源贡献的候选数）：
+
+| 信源 id | tier | 覆盖游戏 | 抓什么 |
+|---|---|---|---|
+| `hypergryph-cms` | L0 | 明日方舟 / 终末地 | 鹰角官网公告 CMS（特许寻访 / 重构寻访 / 限定寻访 / 版本维护时间） |
+| `kuro-site` | L0 | 鸣潮 | 官网公告 JSON（活动唤取、武器唤取） |
+| `azurlane-jp` / `azurlane-en` | L0 | 碧蓝航线 | 日服公告（含维护窗口）/ 国际服 WP REST |
+| `bili-dynamics` | L0 | 蓝色星原 / 原神 / 鸣潮 / 蔚蓝档案 / 星铁 / 异环 | 库内 B 站官方正文（由上一步抓取产生，不进网络） |
+| `prts-smw` | L2 | 明日方舟 | PRTS SMW `ask` + 卡池一览 wikitext（常驻轮换） |
+| `akasha` | L2 | 原神 / 星铁 / 绝区零 | 卡池日历（池名 + 绝对起止 + 版本） |
+| `bluearchive-cargo` | L2 | 蔚蓝档案 | 日服/国际服卡池表（仅交叉校验，不渲染国服） |
+| `nte-guide` | L2 | 异环 | 角色名单（用于角色名校验） |
+
+失败与降级：
+
+- 单个信源失败 → 自动回落到 `data/source-cache/`（运行时缓存，不入库）并写日志；不会中断其它源。
+- **B 站动态整体抓取失败**（风控/接口变更）→ 仍会用「库存 + 其它信源」继续重建站点，`health.json` 记 `stale` 并让 CI 红灯，而不是整站停更。
+- 测试用的信源快照固定在 `data/fixtures/sources/`，与运行时缓存分离，避免每日抓取把断言数据覆盖掉。

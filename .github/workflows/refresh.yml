@@ -45,7 +45,7 @@ jobs:
         if: ${{ !inputs.skip_tests }}
         run: npm test
 
-      - name: 抓取各游戏官方动态并生成数据
+      - name: 抓取 B 站官号 + 各信源并生成数据
         env:
           BILIBILI_COOKIE: ${{ secrets.BILIBILI_COOKIE }}
           CI: 'true'
@@ -65,7 +65,7 @@ jobs:
       - name: 产出摘要（便于排查）
         run: |
           node -e "const d=require('./docs/feed.json');console.log('generated_at',d.generated_at);console.log('games',d.data.games.length,'news',d.news.length);"
-          node -e "const h=require('./data/health.json');console.log('health',h.status,h.checked_at,h.banner_warnings||'no banner warnings');"
+          node -e "const h=require('./data/health.json');console.log('health',h.status,h.checked_at);console.log('banner sources',JSON.stringify(h.banner_sources||[]));console.log('banner warnings',JSON.stringify(h.banner_warnings||[]));"
 
       - name: 上传健康报告
         if: always()

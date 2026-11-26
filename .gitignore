@@ -13,3 +13,5 @@ apps/web/public/img/
 apps/web/public/api/
 data/feed.json
 data/feed.rss
+# 信源运行时缓存（每天抓取都会变，不入库；测试用的固定快照在 data/fixtures/sources/）
+data/source-cache/

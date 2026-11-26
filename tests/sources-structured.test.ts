@@ -1,5 +1,6 @@
 // 结构化 JSON 类信源的离线回归测试：鹰角 CMS（终末地 / 明日方舟）、PRTS SMW、Akasha 日历。
-// 断言口径：池名 / 类型 / 角色 / 东八区时间；数据全部来自 data/source-cache/*.json 的真实响应裁剪快照。
+// 断言口径：池名 / 类型 / 角色 / 东八区时间；数据全部来自 data/fixtures/sources/*.json 的真实响应裁剪快照。
+// 注意：data/source-cache/ 是运行时缓存（每天抓取都会覆盖），测试绝不能读它，否则第二天就红。
 // 不联网、不读进程时区（TZ=UTC / TZ=America/New_York 结果必须一致）。
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
@@ -14,7 +15,7 @@ import { akashaAdapter, classifyAkashaPool, utcToCstIso } from '../apps/crawler/
 import type { PoolCandidate, SourceContext } from '../apps/crawler/src/pools/types.ts';
 import { withSourceCache } from '../apps/crawler/src/sources/http.ts';
 
-const CACHE_DIR = fileURLToPath(new URL('../data/source-cache', import.meta.url));
+const CACHE_DIR = fileURLToPath(new URL('../data/fixtures/sources', import.meta.url));
 const NOW = Date.parse('2026-11-26T14:00:00+08:00');
 
 function makeCtx(cacheDir = CACHE_DIR): { ctx: SourceContext; logs: string[] } {

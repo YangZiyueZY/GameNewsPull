@@ -1,5 +1,6 @@
 // 离线测试：鸣潮官网 / 蔚蓝档案 Cargo / 碧蓝航线（日服+国际服）/ 异环角色库 / B 站动态正文卡池解析。
-// 全部 fixture 都在 data/source-cache 下（真实响应裁剪快照），测试用 offline ctx，绝不联网。
+// 全部 fixture 都在 data/fixtures/sources 下（真实响应裁剪快照），测试用 offline ctx，绝不联网。
+// data/source-cache/ 是运行时缓存，会被每日抓取覆盖，禁止用于断言。
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -22,7 +23,7 @@ import {
 } from '../apps/crawler/src/sources/bili/pools.ts';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const CACHE_DIR = resolve(ROOT, 'data/source-cache');
+const CACHE_DIR = resolve(ROOT, 'data/fixtures/sources');
 
 /** 固定的「当前时间」：2026-11-26T14:00:00+08:00 */
 const NOW = Date.parse('2026-11-26T14:00:00+08:00');

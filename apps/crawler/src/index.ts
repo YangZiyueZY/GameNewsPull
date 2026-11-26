@@ -290,24 +290,33 @@ async function runOnce() {
     };
   });
 
-  // —— 全部游戏都没抓到：不覆盖 feed，保留上一次数据，写 health 并红灯 ——
-  if (!statsList.length || totalFetched === 0) {
-    const staleSince = previousHealth?.stale_since ?? previousHealth?.checked_at ?? lastFeedGeneratedAt() ?? nowCstIso();
-    writeHealth({
-      status: 'stale',
-      checked_at: nowCstIso(),
-      checked_at_utc: new Date().toISOString(),
-      stale_since: staleSince,
-      reason: failures.length ? failures.join('；') : '全部游戏抓取失败（fetched=0）',
-      games: gamesHealth,
-      failed_games: failedGames.length ? failedGames : GAMES.map(g => g.name),
-      endpoint_check: endpointCheck,
-      store_count: store.count(),
-    });
-    console.error('[crawler] ERROR 全部游戏抓取失败，保留上一次 feed.json/feed.rss 不覆盖（避免空数据顶掉线上），health.json 已记录 stale');
-    store.flush();
-    process.exitCode = 1;
-    return;
+  // —— B 站动态全部抓取失败 ——
+  // 注意：B 站只是信源之一。只要库存还在，就用「库存 + 多信源（Akasha/鹰角 CMS/PRTS/库洛/…）」继续重建，
+  // 否则一次 B 站风控就会让整站停更，与「多信源」的设计初衷相悖。
+  const allCrawlFailed = !statsList.length || totalFetched === 0;
+  let staleSinceValue: string | null = null;
+  if (allCrawlFailed) {
+    staleSinceValue = previousHealth?.stale_since ?? previousHealth?.checked_at ?? lastFeedGeneratedAt() ?? nowCstIso();
+    if (store.count() === 0) {
+      // 库存也为空：真的没有任何数据可发，保留旧 feed 并红灯
+      writeHealth({
+        status: 'stale',
+        checked_at: nowCstIso(),
+        checked_at_utc: new Date().toISOString(),
+        stale_since: staleSinceValue,
+        reason: failures.length ? failures.join('；') : '全部游戏抓取失败且库存为空',
+        games: gamesHealth,
+        failed_games: failedGames.length ? failedGames : GAMES.map(g => g.name),
+        endpoint_check: endpointCheck,
+        store_count: store.count(),
+      });
+      console.error('[crawler] ERROR 全部游戏抓取失败且库存为空，保留上一次 feed.json/feed.rss 不覆盖');
+      store.flush();
+      process.exitCode = 1;
+      return;
+    }
+    console.warn('[crawler] WARN B 站动态全部抓取失败（fetched=0），改用「库存 + 多信源」重建，health 记为 stale 并红灯');
+    bannerWarnings.push('B 站动态抓取失败，本次用库存 + 多信源重建');
   }
 
   const allItems: NewsItem[] = store.getAllDynamics(5000)
@@ -351,6 +360,7 @@ async function runOnce() {
     dataDir: DATA_DIR,
     log,
   };
+  log(`[banners] 信源 ${SOURCE_ADAPTERS.length} 个: ${SOURCE_ADAPTERS.map((a) => a.id + '(' + a.tier + ')').join(', ')}`);
   try {
     const bannerResult = await runBannerPipeline(sourceCtx, SOURCE_ADAPTERS, feed);
     feed = bannerResult.feed;
@@ -407,10 +417,10 @@ async function runOnce() {
   log(`完成：库存 ${store.count()} 条，本次新增 ${added} 条`);
 
   writeHealth({
-    status: failedGames.length ? 'degraded' : 'ok',
+    status: staleSinceValue ? 'stale' : failedGames.length ? 'degraded' : 'ok',
     checked_at: nowCstIso(),
     checked_at_utc: new Date().toISOString(),
-    stale_since: null,
+    stale_since: staleSinceValue,
     reason: failedGames.length ? `部分游戏抓取失败：${failedGames.join('、')}` : null,
     games: gamesHealth,
     failed_games: failedGames,
