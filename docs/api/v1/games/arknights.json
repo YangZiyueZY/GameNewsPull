@@ -1,0 +1,234 @@
+{
+  "api_version": "v1",
+  "schema_version": 4,
+  "generated_at": "2026-11-26T21:03:58+08:00",
+  "generated_at_utc": "2026-11-26T13:03:58.000Z",
+  "count": 1,
+  "cdn": {
+    "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
+    "api": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/api/v1"
+  },
+  "game": {
+    "game_name": "明日方舟",
+    "key": "arknights",
+    "icon_url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/7b9eaa62e6d43d44.jpg",
+    "publisher_key": "hypergryph",
+    "publisher_name": "鹰角网络",
+    "publisher_color": "#e8e8e8",
+    "stage": "live",
+    "official_account": {
+      "mid": "161775300",
+      "name": "明日方舟",
+      "url": "https://space.bilibili.com/161775300"
+    },
+    "download": {
+      "available": true,
+      "label": "官方下载",
+      "url": null
+    },
+    "release": {
+      "label": "已上线",
+      "date": null,
+      "days_until": null
+    },
+    "events": [
+      {
+        "id": "curated:arknights-audiobook",
+        "title": "有声剧「风雪过境」",
+        "category": "event",
+        "status": "进行中",
+        "start_at": "2026-10-24T00:00:00+08:00",
+        "end_at": null,
+        "days_remaining": null,
+        "note": "官方公告：已上架喜马拉雅，可收听",
+        "url": "https://www.bilibili.com/opus/1262756492878020614",
+        "source": "curated"
+      },
+      {
+        "id": "curated:arknights-autumn-tea-party",
+        "title": "「秋意茶话会」× 名创优品 合作活动",
+        "category": "event",
+        "status": "进行中",
+        "start_at": "2026-10-30T00:00:00+08:00",
+        "end_at": null,
+        "days_remaining": null,
+        "note": "官方公告：合作活动现已开启",
+        "url": "https://www.bilibili.com/opus/1264813692011151366",
+        "source": "curated"
+      },
+      {
+        "id": "curated:arknights-snow-reprint",
+        "title": "SideStory「雪山降临1101」限时复刻",
+        "category": "event",
+        "status": "进行中",
+        "start_at": "2026-11-22T04:00:00+08:00",
+        "end_at": null,
+        "days_remaining": null,
+        "note": "官方公告：11 月 22 日 04:00 开启，含新装上架与主题家具复刻",
+        "url": "https://www.bilibili.com/opus/1273100464188030994",
+        "source": "curated"
+      }
+    ],
+    "birthdays": [],
+    "current_version": "「雪山降临1101」版本",
+    "current_content": [
+      "SideStory「雪山降临1101」复刻即将于11月22日04:00开启！",
+      "#123罗德岛！？##明日方舟# 明日方舟官方四格漫画《123罗德岛！？》",
+      "《乌萨斯人那些事》",
+      "【常驻标准寻访】"
+    ],
+    "current_version_days": 4,
+    "next_version": "暂未公布",
+    "next_version_kind": null,
+    "next_content": [],
+    "days_to_next_version": null,
+    "preview_status": "已发布",
+    "preview_title": "《明日方舟》限定干员「塔露拉」前瞻PV",
+    "preview_start_at": "2026-10-29T11:00:04+08:00",
+    "preview_replay_url": "https://www.bilibili.com/video/BV1eZsX66EfW",
+    "preview_images": [
+      "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/9cec8a9ec1de8fed.jpg"
+    ],
+    "up_banners": [
+      {
+        "label": "限定寻访·庆典",
+        "phase": null,
+        "pool_name": "将雪投火",
+        "pool_type": "fes",
+        "pool_type_label": "庆典",
+        "characters": [
+          "塔露拉",
+          "冻河"
+        ],
+        "start_at": "2026-11-01T12:00:00+08:00",
+        "end_at": "2026-11-15T03:59:00+08:00",
+        "status": "已结束",
+        "days_remaining": null,
+        "confidence": "high",
+        "sources": [
+          {
+            "id": "hypergryph-cms",
+            "tier": "L0",
+            "url": "https://ak.hypergryph.com/news/4916",
+            "fetched_at": "2026-11-26T21:03:58+08:00"
+          }
+        ],
+        "version": null,
+        "note": "系列：限定寻访·庆典；5 倍权值：凛御银灰、新约能天使、荒芜拉普兰德",
+        "source": "hypergryph-cms"
+      },
+      {
+        "label": "常驻标准寻访 197 期",
+        "phase": null,
+        "pool_name": "常驻标准寻访",
+        "pool_type": "standard_character",
+        "pool_type_label": "常驻角色",
+        "characters": [
+          "薇薇安娜",
+          "隐德来希"
+        ],
+        "start_at": "2026-11-05T04:00:00+08:00",
+        "end_at": "2026-11-19T03:59:00+08:00",
+        "status": "已结束",
+        "days_remaining": null,
+        "confidence": "low",
+        "sources": [
+          {
+            "id": "prts-smw",
+            "tier": "L2",
+            "url": "https://prts.wiki/w/%E5%8D%A1%E6%B1%A0%E4%B8%80%E8%A7%88%2F%E5%B8%B8%E9%A9%BB%E6%A0%87%E5%87%86%E5%AF%BB%E8%AE%BF%2F2026",
+            "fetched_at": "2026-11-26T21:03:58+08:00"
+          }
+        ],
+        "version": null,
+        "note": "5★ 出率提升：深律、但书、阿罗玛",
+        "source": "prts-smw"
+      },
+      {
+        "label": "常驻标准寻访 198 期",
+        "phase": null,
+        "pool_name": "常驻标准寻访",
+        "pool_type": "standard_character",
+        "pool_type_label": "常驻角色",
+        "characters": [
+          "娜仁图亚",
+          "霍尔海雅"
+        ],
+        "start_at": "2026-11-19T04:00:00+08:00",
+        "end_at": "2026-12-03T03:59:00+08:00",
+        "status": "进行中",
+        "days_remaining": 7,
+        "confidence": "low",
+        "sources": [
+          {
+            "id": "prts-smw",
+            "tier": "L2",
+            "url": "https://prts.wiki/w/%E5%8D%A1%E6%B1%A0%E4%B8%80%E8%A7%88%2F%E5%B8%B8%E9%A9%BB%E6%A0%87%E5%87%86%E5%AF%BB%E8%AE%BF%2F2026",
+            "fetched_at": "2026-11-26T21:03:58+08:00"
+          }
+        ],
+        "version": null,
+        "note": "5★ 出率提升：裁度、小满、乌啾",
+        "source": "prts-smw"
+      }
+    ],
+    "current_up_characters": [
+      "娜仁图亚",
+      "霍尔海雅"
+    ],
+    "sources": [
+      {
+        "title": "互动抽奖 《明日方舟》× 名创优品「秋意茶话会」合作宣传PV 现已发布",
+        "url": "https://www.bilibili.com/opus/1274136425281880082",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "SideStory「雪山降临1101」复刻即将于11月22日04:00开启！",
+        "url": "https://www.bilibili.com/opus/1273100464188030994",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "#123罗德岛！？##明日方舟# 明日方舟官方四格漫画《123罗德岛！？》",
+        "url": "https://www.bilibili.com/opus/1272992231006928896",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "《乌萨斯人那些事》",
+        "url": "https://www.bilibili.com/opus/1272713917107273761",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "【常驻标准寻访】",
+        "url": "https://www.bilibili.com/opus/1271956284886745094",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "【新增服饰】",
+        "url": "https://www.bilibili.com/opus/1271940823012868096",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      }
+    ],
+    "facts_checked_at": "2026-11-26T21:03:58+08:00",
+    "pact_banners": [],
+    "icon_url_fallback": "https://yangziyuezy.github.io/GameNewsPull/img/7b9eaa62e6d43d44.jpg",
+    "icon_url_local": "img/7b9eaa62e6d43d44.jpg",
+    "preview_images_fallback": [
+      "https://yangziyuezy.github.io/GameNewsPull/img/9cec8a9ec1de8fed.jpg"
+    ],
+    "preview_images_local": [
+      "img/9cec8a9ec1de8fed.jpg"
+    ]
+  }
+}

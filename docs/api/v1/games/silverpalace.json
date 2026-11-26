@@ -1,0 +1,141 @@
+{
+  "api_version": "v1",
+  "schema_version": 4,
+  "generated_at": "2026-11-26T21:03:58+08:00",
+  "generated_at_utc": "2026-11-26T13:03:58.000Z",
+  "count": 1,
+  "cdn": {
+    "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
+    "api": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/api/v1"
+  },
+  "game": {
+    "game_name": "白银之城",
+    "key": "silverpalace",
+    "icon_url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/d46b90c7d46dfe05.jpg",
+    "publisher_key": "happyelements",
+    "publisher_name": "乐元素",
+    "publisher_color": "#ffb3c7",
+    "stage": "prelaunch",
+    "official_account": {
+      "mid": "3546879304403742",
+      "name": "白银之城",
+      "url": "https://space.bilibili.com/3546879304403742"
+    },
+    "download": {
+      "available": false,
+      "label": "未开放下载 · 预约中",
+      "url": null
+    },
+    "release": {
+      "label": "全球公测定档 2026 年 12 月 14 日",
+      "date": "2026-12-14T00:00:00+08:00",
+      "days_until": 18
+    },
+    "events": [
+      {
+        "id": "curated:silverpalace-hidden-pages",
+        "title": "「隐藏的书页」角色短片系列",
+        "category": "prelaunch",
+        "status": "进行中",
+        "start_at": "2026-11-08T00:00:00+08:00",
+        "end_at": null,
+        "days_remaining": null,
+        "note": "官方连载中，持续更新角色短片",
+        "url": "https://www.bilibili.com/video/BV1ScyXztEMY",
+        "source": "curated"
+      },
+      {
+        "id": "curated:silverpalace-release-date",
+        "title": "全球公测定档 2026 年 12 月 14 日",
+        "category": "prelaunch",
+        "status": "即将开始",
+        "start_at": "2026-12-14T00:00:00+08:00",
+        "end_at": null,
+        "days_remaining": null,
+        "note": "官方公告：全球公测正式定档 2026 年 12 月 14 日",
+        "url": "https://www.bilibili.com/video/BV1BJnR66Eij",
+        "source": "curated"
+      },
+      {
+        "id": "curated:silverpalace-character-pv",
+        "title": "角色 PV「馨西亚二世：到月下的城邦去」",
+        "category": "prelaunch",
+        "status": "已结束",
+        "start_at": "2026-11-12T00:00:00+08:00",
+        "end_at": null,
+        "days_remaining": null,
+        "note": "官方角色 PV 已发布",
+        "url": "https://www.bilibili.com/video/BV1PoW16NEZN",
+        "source": "curated"
+      }
+    ],
+    "birthdays": [],
+    "current_version": "尚未上线",
+    "current_content": [
+      "隐藏的书页丨「小聪明之谜」",
+      "隐藏的书页丨「青春期之谜」",
+      "角色PV - 馨西亚二世：到月下的城邦去",
+      "隐藏的书页丨「午间梦之谜」"
+    ],
+    "current_version_days": 0,
+    "next_version": "待定档",
+    "next_version_kind": null,
+    "next_content": [],
+    "days_to_next_version": null,
+    "preview_status": "尚未发布",
+    "preview_title": null,
+    "preview_start_at": null,
+    "preview_replay_url": null,
+    "preview_images": [],
+    "up_banners": [],
+    "current_up_characters": [],
+    "sources": [
+      {
+        "title": "互动抽奖 #白银之城##白银之城突袭上线##白银之城预抽卡送5080##馨西亚二世#",
+        "url": "https://www.bilibili.com/opus/1274151917234159616",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "角色扉页 |「汀思黎·优等生」",
+        "url": "https://www.bilibili.com/opus/1274151895813849095",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "隐藏的书页丨「小聪明之谜」",
+        "url": "https://www.bilibili.com/video/BV1ScyXztEMY",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "同谋情报 |「菲斯·招待」",
+        "url": "https://www.bilibili.com/opus/1274105492954677251",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "角色扉页 |「蓝舌·军师」",
+        "url": "https://www.bilibili.com/opus/1273409729740144645",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "隐藏的书页丨「青春期之谜」",
+        "url": "https://www.bilibili.com/video/BV1rByhzXEZm",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      }
+    ],
+    "facts_checked_at": "2026-11-26T21:03:58+08:00",
+    "pact_banners": [],
+    "icon_url_fallback": "https://yangziyuezy.github.io/GameNewsPull/img/d46b90c7d46dfe05.jpg",
+    "icon_url_local": "img/d46b90c7d46dfe05.jpg"
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "api_version": "v1",
+  "schema_version": 4,
+  "generated_at": "2026-11-26T21:03:58+08:00",
+  "generated_at_utc": "2026-11-26T13:03:58.000Z",
+  "count": 1,
+  "cdn": {
+    "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
+    "api": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/api/v1"
+  },
+  "game": {
+    "game_name": "明日方舟：终末地",
+    "key": "endfield",
+    "icon_url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/21014115f43d4219.jpg",
+    "publisher_key": "hypergryph",
+    "publisher_name": "鹰角网络",
+    "publisher_color": "#e8e8e8",
+    "stage": "live",
+    "official_account": {
+      "mid": "1265652806",
+      "name": "明日方舟：终末地",
+      "url": "https://space.bilibili.com/1265652806"
+    },
+    "download": {
+      "available": true,
+      "label": "官方下载",
+      "url": null
+    },
+    "release": {
+      "label": "已上线",
+      "date": null,
+      "days_until": null
+    },
+    "events": [
+      {
+        "id": "curated:endfield-pass-boost",
+        "title": "「协议通行证」提速任务",
+        "category": "event",
+        "status": "进行中",
+        "start_at": "2026-11-18T04:00:00+08:00",
+        "end_at": null,
+        "days_remaining": null,
+        "note": "官方说明：开放至版本更新维护前",
+        "url": "https://www.bilibili.com/opus/1272280984403836947",
+        "source": "curated"
+      },
+      {
+        "id": "curated:endfield-mushroom-signin",
+        "title": "「蕈属集群」限时签到活动",
+        "category": "event",
+        "status": "进行中",
+        "start_at": "2026-11-21T12:00:00+08:00",
+        "end_at": null,
+        "days_remaining": null,
+        "note": "官方活动说明：闪断更新后开启，累计签到 3 日可得寻访凭证与嵌晶玉",
+        "url": "https://www.bilibili.com/opus/1273131387929493526",
+        "source": "curated"
+      },
+      {
+        "id": "curated:endfield-sanity-supply",
+        "title": "「理智补给」限时活动",
+        "category": "event",
+        "status": "已结束",
+        "start_at": "2026-11-18T04:00:00+08:00",
+        "end_at": "2026-11-25T04:00:00+08:00",
+        "days_remaining": null,
+        "note": "官方活动说明：每日完成指定任务领取理智补给",
+        "url": "https://www.bilibili.com/opus/1271538814034116615",
+        "source": "curated"
+      }
+    ],
+    "birthdays": [],
+    "current_version": "「穿越甚大蘑境与你相逢」版本",
+    "current_content": [
+      "「穿越甚大蘑境与你相逢」版本PV",
+      "「全新版本&2.0揭幕前瞻」特别节目回顾",
+      "特别映像「基石」",
+      "干员影像-「群像：信号预联」"
+    ],
+    "current_version_days": 1,
+    "next_version": "暂未公布",
+    "next_version_kind": null,
+    "next_content": [],
+    "days_to_next_version": null,
+    "preview_status": "已发布",
+    "preview_title": "《明日方舟：终末地》「全新版本&2.0揭幕前瞻」特别节目回顾",
+    "preview_start_at": "2026-11-21T20:45:01+08:00",
+    "preview_replay_url": "https://www.bilibili.com/video/BV1pvyhzdER5",
+    "preview_images": [
+      "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/62d28e52d8989aba.jpg"
+    ],
+    "up_banners": [
+      {
+        "label": "特许寻访",
+        "phase": null,
+        "pool_name": "烟火邀星河",
+        "pool_type": "limited_character",
+        "pool_type_label": "限定角色",
+        "characters": [
+          "明河"
+        ],
+        "start_at": "2026-11-05T12:00:00+08:00",
+        "end_at": "2026-11-25T06:00:00+08:00",
+        "status": "已结束",
+        "days_remaining": null,
+        "confidence": "high",
+        "sources": [
+          {
+            "id": "hypergryph-cms",
+            "tier": "L0",
+            "url": "https://endfield.hypergryph.com/news/7204",
+            "fetched_at": "2026-11-26T21:03:58+08:00"
+          }
+        ],
+        "version": null,
+        "note": "相对时间按同版本「更新维护时间」2026-11-25T06:00:00+08:00锚定",
+        "source": "hypergryph-cms"
+      },
+      {
+        "label": "特许寻访",
+        "phase": null,
+        "pool_name": "锻砧、行囊与蜜糖",
+        "pool_type": "limited_character",
+        "pool_type_label": "限定角色",
+        "characters": [
+          "小刻"
+        ],
+        "start_at": "2026-11-25T06:00:00+08:00",
+        "end_at": "2026-12-23T11:59:00+08:00",
+        "status": "进行中",
+        "days_remaining": 27,
+        "confidence": "high",
+        "sources": [
+          {
+            "id": "hypergryph-cms",
+            "tier": "L0",
+            "url": "https://endfield.hypergryph.com/news/8535",
+            "fetched_at": "2026-11-26T21:03:58+08:00"
+          }
+        ],
+        "version": null,
+        "note": "相对时间按同版本「更新维护时间」2026-11-25T06:00:00+08:00锚定",
+        "source": "hypergryph-cms"
+      },
+      {
+        "label": "重构寻访1",
+        "phase": null,
+        "pool_name": "致每一个飘游之愿",
+        "pool_type": "rerun_character",
+        "pool_type_label": "复刻角色",
+        "characters": [
+          "洁尔佩塔"
+        ],
+        "start_at": "2026-11-25T06:00:00+08:00",
+        "end_at": "2026-12-16T11:59:00+08:00",
+        "status": "进行中",
+        "days_remaining": 20,
+        "confidence": "high",
+        "sources": [
+          {
+            "id": "hypergryph-cms",
+            "tier": "L0",
+            "url": "https://endfield.hypergryph.com/news/7201",
+            "fetched_at": "2026-11-26T21:03:58+08:00"
+          }
+        ],
+        "version": null,
+        "note": "相对时间按同版本「更新维护时间」2026-11-25T06:00:00+08:00锚定",
+        "source": "hypergryph-cms"
+      }
+    ],
+    "current_up_characters": [
+      "小刻",
+      "洁尔佩塔"
+    ],
+    "sources": [
+      {
+        "title": "《明日方舟：终末地》「穿越甚大蘑境与你相逢」版本PV",
+        "url": "https://www.bilibili.com/video/BV1nHyazWEDV",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "《明日方舟：终末地》「全新版本&2.0揭幕前瞻」特别节目回顾",
+        "url": "https://www.bilibili.com/video/BV1pvyhzdER5",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "《明日方舟：终末地》特别映像「基石」",
+        "url": "https://www.bilibili.com/video/BV1MMyazPEKy",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "《明日方舟：终末地》干员影像-「群像：信号预联」",
+        "url": "https://www.bilibili.com/video/BV1yGyaz8EXM",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "#明日方舟终末地##穿越甚大蘑境与你相逢# 《明日方舟：终末地》全新版本&2.0揭幕前瞻特别节目即将于11月21日19…",
+        "url": "https://www.bilibili.com/opus/1273069701443878962",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "新章揭幕，火种未熄。《明日方舟：终末地》全新版本&2.0揭幕前瞻特别节目即将于11月21日19:30播出。",
+        "url": "https://www.bilibili.com/video/BV1NgsB67EYH",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      }
+    ],
+    "facts_checked_at": "2026-11-26T21:03:58+08:00",
+    "pact_banners": [],
+    "icon_url_fallback": "https://yangziyuezy.github.io/GameNewsPull/img/21014115f43d4219.jpg",
+    "icon_url_local": "img/21014115f43d4219.jpg",
+    "preview_images_fallback": [
+      "https://yangziyuezy.github.io/GameNewsPull/img/62d28e52d8989aba.jpg"
+    ],
+    "preview_images_local": [
+      "img/62d28e52d8989aba.jpg"
+    ]
+  }
+}

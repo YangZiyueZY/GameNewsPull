@@ -1,0 +1,129 @@
+{
+  "api_version": "v1",
+  "schema_version": 4,
+  "generated_at": "2026-11-26T21:03:58+08:00",
+  "generated_at_utc": "2026-11-26T13:03:58.000Z",
+  "count": 1,
+  "cdn": {
+    "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
+    "api": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/api/v1"
+  },
+  "game": {
+    "game_name": "崩坏：因缘精灵",
+    "key": "nexusanima",
+    "icon_url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/835f9f6b8e4350e9.jpg",
+    "publisher_key": "mihoyo",
+    "publisher_name": "米哈游",
+    "publisher_color": "#7cc7ff",
+    "stage": "prelaunch",
+    "official_account": {
+      "mid": "3546886017387331",
+      "name": "崩坏：因缘精灵",
+      "url": "https://space.bilibili.com/3546886017387331"
+    },
+    "download": {
+      "available": false,
+      "label": "未开放下载 · 预约中",
+      "url": null
+    },
+    "release": {
+      "label": "幸福测试 11 月 25 日开启 · 公测定档 2027 年春季",
+      "date": null,
+      "days_until": null
+    },
+    "events": [
+      {
+        "id": "curated:nexusanima-happiness-test",
+        "title": "「幸福测试」招募开启",
+        "category": "prelaunch",
+        "status": "进行中",
+        "start_at": "2026-11-25T00:00:00+08:00",
+        "end_at": null,
+        "days_remaining": null,
+        "note": "官方公告：幸福测试 11 月 25 日开启，可填写问卷参与招募",
+        "url": "https://www.bilibili.com/video/BV1nm4g6NE71",
+        "source": "curated"
+      },
+      {
+        "id": "curated:nexusanima-release-window",
+        "title": "公测定档 2027 年春季 · App Store 预约开放",
+        "category": "prelaunch",
+        "status": "时间待定",
+        "start_at": null,
+        "end_at": null,
+        "days_remaining": null,
+        "note": "官方公告：公测定档 2027 年春季，App Store 已开放预约",
+        "url": "https://www.bilibili.com/video/BV1nm4g6NE71",
+        "source": "curated"
+      }
+    ],
+    "birthdays": [],
+    "current_version": "尚未上线",
+    "current_content": [
+      "#崩坏因缘精灵# #幸福测试# 「幸福测试」资格发放及预下载开启",
+      "#崩坏因缘精灵# #幸福测试# 同行手记丨亨格丽&猪莉哼",
+      "\"#崩坏因缘精灵# #幸福测试#",
+      "#崩坏因缘精灵# #幸福测试# 同行手记丨帕拉雅雅&寐魔"
+    ],
+    "current_version_days": 0,
+    "next_version": "待定档",
+    "next_version_kind": null,
+    "next_content": [],
+    "days_to_next_version": null,
+    "preview_status": "尚未发布",
+    "preview_title": null,
+    "preview_start_at": null,
+    "preview_replay_url": null,
+    "preview_images": [],
+    "up_banners": [],
+    "current_up_characters": [],
+    "sources": [
+      {
+        "title": "互动抽奖 #崩坏因缘精灵# #幸福测试# #崩坏因缘精灵公测定档#",
+        "url": "https://www.bilibili.com/opus/1267070422448341012",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "#崩坏因缘精灵# #幸福测试# 「幸福测试」资格发放及预下载开启",
+        "url": "https://www.bilibili.com/opus/1273718939472363542",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "#崩坏因缘精灵# #幸福测试# 同行手记丨亨格丽&猪莉哼",
+        "url": "https://www.bilibili.com/opus/1272636607669731348",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "\"#崩坏因缘精灵# #幸福测试#",
+        "url": "https://www.bilibili.com/opus/1271894437323079704",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "#崩坏因缘精灵# #幸福测试# 同行手记丨帕拉雅雅&寐魔",
+        "url": "https://www.bilibili.com/opus/1271152267022565397",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "互动抽奖 #崩坏因缘精灵# #幸福测试#",
+        "url": "https://www.bilibili.com/opus/1270039013635391504",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      }
+    ],
+    "facts_checked_at": "2026-11-26T21:03:58+08:00",
+    "pact_banners": [],
+    "icon_url_fallback": "https://yangziyuezy.github.io/GameNewsPull/img/835f9f6b8e4350e9.jpg",
+    "icon_url_local": "img/835f9f6b8e4350e9.jpg"
+  }
+}

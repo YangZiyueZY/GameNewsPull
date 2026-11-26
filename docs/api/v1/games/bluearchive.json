@@ -1,0 +1,249 @@
+{
+  "api_version": "v1",
+  "schema_version": 4,
+  "generated_at": "2026-11-26T21:03:58+08:00",
+  "generated_at_utc": "2026-11-26T13:03:58.000Z",
+  "count": 1,
+  "cdn": {
+    "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
+    "api": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/api/v1"
+  },
+  "game": {
+    "game_name": "蔚蓝档案",
+    "key": "bluearchive",
+    "icon_url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/5420ec47013166fa.jpg",
+    "publisher_key": "yostar",
+    "publisher_name": "悠星网络",
+    "publisher_color": "#6fe0c4",
+    "stage": "live",
+    "official_account": {
+      "mid": "3493265644980448",
+      "name": "蔚蓝档案",
+      "url": "https://space.bilibili.com/3493265644980448"
+    },
+    "download": {
+      "available": true,
+      "label": "官方下载",
+      "url": null
+    },
+    "release": {
+      "label": "已上线",
+      "date": null,
+      "days_until": null
+    },
+    "events": [
+      {
+        "id": "curated:bluearchive-reprint-recruit",
+        "title": "限时复刻招募【银装素裹，一樽星月】等",
+        "category": "event",
+        "status": "进行中",
+        "start_at": "2026-11-26T00:00:00+08:00",
+        "end_at": "2026-12-10T13:59:00+08:00",
+        "days_remaining": 14,
+        "note": "官方公告：11 月 26 日维护结束后 ~ 12 月 10 日 13:59",
+        "url": "https://www.bilibili.com/opus/1274105486497546261",
+        "source": "curated"
+      },
+      {
+        "id": "curated:bluearchive-occult-event",
+        "title": "限时活动「我等乃神秘学研究会！~学院之谜与古老咒文~」",
+        "category": "event",
+        "status": "进行中",
+        "start_at": "2026-10-29T00:00:00+08:00",
+        "end_at": null,
+        "days_remaining": null,
+        "note": "官方公告：10 月 29 日开启，结束时间未公布",
+        "url": "https://www.bilibili.com/video/BV1vAnJ6vEqm",
+        "source": "curated"
+      },
+      {
+        "id": "curated:bluearchive-art-event",
+        "title": "限时活动「为谁而存的艺术 ~赝品与美学的归宿~」",
+        "category": "event",
+        "status": "进行中",
+        "start_at": "2026-11-26T00:00:00+08:00",
+        "end_at": null,
+        "days_remaining": null,
+        "note": "官方公告：11 月 26 日开启",
+        "url": "https://www.bilibili.com/video/BV1kTs36eEaL",
+        "source": "curated"
+      }
+    ],
+    "birthdays": [],
+    "current_version": "版本资讯更新中",
+    "current_content": [
+      "#蔚蓝档案# 限时复刻招募活动即将开启，请老师不要错过哦！",
+      "#蔚蓝档案# 全新咖啡厅套装【狂猎校园】即将更新！",
+      "#蔚蓝档案# 全新成员&家具互动动作即将更新！在咖啡厅配置“可互动的家具”后，当特定成员来访时，就会与家具产生交互动作！",
+      "#蔚蓝档案# //////////档案启封//////////"
+    ],
+    "current_version_days": 0,
+    "next_version": "暂未公布",
+    "next_version_kind": null,
+    "next_content": [],
+    "days_to_next_version": null,
+    "preview_status": "尚未发布",
+    "preview_title": null,
+    "preview_start_at": null,
+    "preview_replay_url": null,
+    "preview_images": [],
+    "up_banners": [
+      {
+        "label": "夏空渺渺 遥寄心愿",
+        "phase": null,
+        "pool_name": "夏空渺渺 遥寄心愿",
+        "pool_type": "rerun_character",
+        "pool_type_label": "复刻角色",
+        "characters": [
+          "白子"
+        ],
+        "start_at": "2026-11-12T14:00:00+08:00",
+        "end_at": "2026-11-26T13:59:00+08:00",
+        "status": "已结束",
+        "days_remaining": null,
+        "confidence": "high",
+        "sources": [
+          {
+            "id": "bili-dynamics",
+            "tier": "L0",
+            "url": "https://www.bilibili.com/opus/1268539208915484704",
+            "fetched_at": "2026-11-26T21:03:58+08:00"
+          }
+        ],
+        "version": null,
+        "note": "动态 1268539208915484704；起点按「维护结束后」当日 14:00 近似；招募时间原文 招募时间 11月12日 维护结束后 ~ 11月26日 13:59",
+        "source": "bili-dynamics"
+      },
+      {
+        "label": "花阴映白浪",
+        "phase": null,
+        "pool_name": "花阴映白浪",
+        "pool_type": "rerun_character",
+        "pool_type_label": "复刻角色",
+        "characters": [
+          "纱织"
+        ],
+        "start_at": "2026-11-12T14:00:00+08:00",
+        "end_at": "2026-11-26T13:59:00+08:00",
+        "status": "已结束",
+        "days_remaining": null,
+        "confidence": "high",
+        "sources": [
+          {
+            "id": "bili-dynamics",
+            "tier": "L0",
+            "url": "https://www.bilibili.com/opus/1268539208915484704",
+            "fetched_at": "2026-11-26T21:03:58+08:00"
+          }
+        ],
+        "version": null,
+        "note": "动态 1268539208915484704；起点按「维护结束后」当日 14:00 近似；招募时间原文 招募时间 11月12日 维护结束后 ~ 11月26日 13:59",
+        "source": "bili-dynamics"
+      },
+      {
+        "label": "这里是RABBIT 4，凭指尖完成证明",
+        "phase": null,
+        "pool_name": "这里是RABBIT 4，凭指尖完成证明",
+        "pool_type": "rerun_character",
+        "pool_type_label": "复刻角色",
+        "characters": [
+          "美游"
+        ],
+        "start_at": "2026-11-26T14:00:00+08:00",
+        "end_at": "2026-12-10T13:59:00+08:00",
+        "status": "进行中",
+        "days_remaining": 14,
+        "confidence": "high",
+        "sources": [
+          {
+            "id": "bili-dynamics",
+            "tier": "L0",
+            "url": "https://www.bilibili.com/opus/1274105486497546261",
+            "fetched_at": "2026-11-26T21:03:58+08:00"
+          }
+        ],
+        "version": null,
+        "note": "动态 1274105486497546261；起点按「维护结束后」当日 14:00 近似；招募时间原文 招募时间 11月26日 维护结束后 ~ 12月10日 13:59",
+        "source": "bili-dynamics"
+      },
+      {
+        "label": "银装素裹，一樽星月",
+        "phase": null,
+        "pool_name": "银装素裹，一樽星月",
+        "pool_type": "rerun_character",
+        "pool_type_label": "复刻角色",
+        "characters": [
+          "时雨"
+        ],
+        "start_at": "2026-11-26T14:00:00+08:00",
+        "end_at": "2026-12-10T13:59:00+08:00",
+        "status": "进行中",
+        "days_remaining": 14,
+        "confidence": "high",
+        "sources": [
+          {
+            "id": "bili-dynamics",
+            "tier": "L0",
+            "url": "https://www.bilibili.com/opus/1274105486497546261",
+            "fetched_at": "2026-11-26T21:03:58+08:00"
+          }
+        ],
+        "version": null,
+        "note": "动态 1274105486497546261；起点按「维护结束后」当日 14:00 近似；招募时间原文 招募时间 11月26日 维护结束后 ~ 12月10日 13:59",
+        "source": "bili-dynamics"
+      }
+    ],
+    "current_up_characters": [
+      "美游",
+      "时雨"
+    ],
+    "sources": [
+      {
+        "title": "互动抽奖 #蔚蓝档案#",
+        "url": "https://www.bilibili.com/opus/1272250157293895685",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "#蔚蓝档案# 限时复刻招募活动即将开启，请老师不要错过哦！",
+        "url": "https://www.bilibili.com/opus/1274105486497546261",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "#蔚蓝档案# 全新咖啡厅套装【狂猎校园】即将更新！",
+        "url": "https://www.bilibili.com/opus/1273734401369309202",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "#蔚蓝档案# 全新成员&家具互动动作即将更新！在咖啡厅配置“可互动的家具”后，当特定成员来访时，就会与家具产生交互动作！",
+        "url": "https://www.bilibili.com/opus/1273363316182351891",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "#蔚蓝档案# //////////档案启封//////////",
+        "url": "https://www.bilibili.com/opus/1272992231018463249",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "#蔚蓝档案# //////////档案启封//////////",
+        "url": "https://www.bilibili.com/opus/1272621145813680134",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      }
+    ],
+    "facts_checked_at": "2026-11-26T21:03:58+08:00",
+    "pact_banners": [],
+    "icon_url_fallback": "https://yangziyuezy.github.io/GameNewsPull/img/5420ec47013166fa.jpg",
+    "icon_url_local": "img/5420ec47013166fa.jpg"
+  }
+}

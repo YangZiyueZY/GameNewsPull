@@ -1,17 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>二游资讯 · B站官方动态</title>
-    <link>http://localhost:5173/</link>
-    <description>原神、绝区零、崩坏：星穹铁道、崩坏：因缘精灵、明日方舟、明日方舟：终末地、鸣潮、蔚蓝档案 等 11 款二游官方 B 站资讯聚合</description>
+    <link>https://yangziyuezy.github.io/GameNewsPull/</link>
+    <atom:link href="https://yangziyuezy.github.io/GameNewsPull/feed.rss" rel="self" type="application/rss+xml"/>
+    <description>原神、绝区零、崩坏：星穹铁道、崩坏：因缘精灵、明日方舟、明日方舟：终末地、鸣潮、蔚蓝档案 等 12 款二游官方 B 站资讯聚合</description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 24 Nov 2026 16:26:40 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 21:03:58 +0800</lastBuildDate>
+    <item>
+      <title>[碧蓝航线] #碧蓝航线# #碧蓝玩家团激励计划# 第61期激励计划获奖名单揭晓~</title>
+      <link>https://www.bilibili.com/opus/1274940428149325825</link>
+      <guid isPermaLink="false">1274940428149325825</guid>
+      <pubDate>Thu, 26 Nov 2026 17:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#碧蓝航线# #碧蓝玩家团激励计划#
+第61期激励计划获奖名单揭晓~
+恭喜获奖的指挥官！同时也非常感谢大家的热情投稿哦~ヾ(☆&apos;∀&apos;☆)
+
+💌热心提示~碧蓝玩家团激励计划第62期已经开启，时间截至12月16日00:00。投稿还请不要忘记带上活动话题#碧蓝玩家团激励计划#
+💌活动详情请戳：https://www.bilibili.com/blackboard/era/oC083cnLknJWBW9s.html
+
+—— 奖励说明——
+※获得实物奖励的指挥官我们将通过站内信联络，请获奖指挥官注意查看站内信；
+※游戏内奖励（优秀奖、明日之星、≥50000播放量的梯度激励及≥5000、≥10000播</p><img src="https://i0.hdslb.com/bfs/new_dyn/529c5d086e4f8323891ea0173507493d233114659.png" alt="#碧蓝航线# #碧蓝玩家团激励计划# 第61期激励计划获奖名单揭晓~"/>]]></description>
+      <category>碧蓝航线</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/529c5d086e4f8323891ea0173507493d233114659.png" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/529c5d086e4f8323891ea0173507493d233114659.png" medium="image"/>
+    </item>
+    <item>
+      <title>[碧蓝航线] #碧蓝航线# ◆活动时间注意◆</title>
+      <link>https://www.bilibili.com/opus/1274584804875042840</link>
+      <guid isPermaLink="false">1274584804875042840</guid>
+      <pubDate>Wed, 25 Nov 2026 18:00:00 +0800</pubDate>
+      <description>#碧蓝航线#
+◆活动时间注意◆
+「开幕！天使们的碧蓝舞台」限时联动活动将于11月26日23:59结束
+※还请指挥官注意相关任务的完成及奖励的领取；
+
+「港区时尚特刊：心动诊疗时间」限时活动将于11月25日（今日）23:59结束
+※还请指挥官注意活动奖励的领取；
+
+◆相关限时上架注意◆
+※以下限时上架角色换装将于11月25日（今日）23:59从换装商城下架：
+那不勒斯-「误入纯白迷途」【Live2D+】
+新奥尔良-「深夜的亲密触诊」【特殊动态立绘】
+伴尔维-「风中的纯白絮语」【动态立绘】
+
+※以下限时上架角色换装将于11月26日23:59从换装商城下架：
+莉莉艾露 天使空降队/理理沙-「身心皆奉</description>
+      <category>碧蓝航线</category>
+    </item>
+    <item>
+      <title>[碧蓝航线] 各位亲爱的指挥官：</title>
+      <link>https://www.bilibili.com/opus/1274266627254255616</link>
+      <guid isPermaLink="false">1274266627254255616</guid>
+      <pubDate>Tue, 24 Nov 2026 21:25:19 +0800</pubDate>
+      <description>各位亲爱的指挥官：
+       司令部已于21:15进行在线更新，优化、修复了以下内容（不需要停服维护，重新进入游戏后进行更新）：
+
+『涉及港区』
+iOS全港区、安卓全港区、HarmonyOS NEXT全港区
+
+『改建内容』
+1.修正了活动关卡排行榜跳转至PT排行榜的问题；
+2.优化了莫洛托夫换装「水上微醺」部分组件资源显示效果；
+3.修复了「开幕！天使们的碧蓝舞台」活动关卡出击按钮显示异常的问题；
+4.活动勋章新增红点提示功能；
+5.修复了部分情况下，舰船通关后获取经验显示错误的问题；
+※该问题仅影响经验获取的显示情况，不影响实际获得经验数量；
+6.修复了「真理学院的转校生」关卡作战准备界</description>
+      <category>碧蓝航线</category>
+    </item>
     <item>
       <title>[明日方舟：终末地] #明日方舟终末地##穿越甚大蘑境与你相逢# 「战争回响 - 游离赛季」赛季轮换一览</title>
       <link>https://www.bilibili.com/opus/1274229181564059648</link>
       <guid isPermaLink="false">1274229181564059648</guid>
-      <pubDate>Tue, 24 Nov 2026 11:00:00 GMT</pubDate>
-      <description>#明日方舟终末地##穿越甚大蘑境与你相逢#
+      <pubDate>Tue, 24 Nov 2026 19:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#明日方舟终末地##穿越甚大蘑境与你相逢#
 「战争回响 - 游离赛季」赛季轮换一览
 
 战争残留的痕迹仍存在于您的刀剑之上，感受它，阅读它，哀悼它，让勋章与荣耀再度降于掌心吧，管理员。
@@ -19,45 +83,68 @@
 ————————
 ▼//「穿越甚大蘑境与你相逢」版本将于11月25日上线！
 新干员【小刻】登场，全新区域「旧水坝」开放！全新活动「阵列建设：旧伤弥合」即将开启！
-前往下载：https://www.biligame.com/detail?id=108406</description>
+前往下载：https://www.biligame.com/detail?id=108406</p><img src="https://i0.hdslb.com/bfs/new_dyn/c80659fdadfeabda0f5efded2cb985b51265652806.jpg" alt="#明日方舟终末地##穿越甚大蘑境与你相逢# 「战争回响 - 游离赛季」赛季轮换一览"/>]]></description>
       <category>明日方舟：终末地</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/c80659fdadfeabda0f5efded2cb985b51265652806.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/c80659fdadfeabda0f5efded2cb985b51265652806.jpg" medium="image"/>
     </item>
     <item>
       <title>[明日方舟：终末地] #明日方舟终末地##穿越甚大蘑境与你相逢# 「装饰物品」「拍照动作」上新</title>
       <link>https://www.bilibili.com/opus/1274221450601955331</link>
       <guid isPermaLink="false">1274221450601955331</guid>
-      <pubDate>Tue, 24 Nov 2026 10:30:00 GMT</pubDate>
-      <description>#明日方舟终末地##穿越甚大蘑境与你相逢#
+      <pubDate>Tue, 24 Nov 2026 18:30:00 +0800</pubDate>
+      <description><![CDATA[<p>#明日方舟终末地##穿越甚大蘑境与你相逢#
 「装饰物品」「拍照动作」上新
 
 《明日方舟：终末地》「穿越甚大蘑境与你相逢」版本全新「装饰物品」与「拍照动作」即将上线，请管理员查阅。
 ————————
 ▼//「穿越甚大蘑境与你相逢」版本将于11月25日上线！
 新干员【小刻】登场，全新区域「旧水坝」开放！全新活动「阵列建设：旧伤弥合」即将开启！
-前往下载：https://www.biligame.com/detail?id=108406</description>
+前往下载：https://www.biligame.com/detail?id=108406</p><img src="https://i0.hdslb.com/bfs/new_dyn/2e5dd44134375878d83b08bc70c61e201265652806.jpg" alt="#明日方舟终末地##穿越甚大蘑境与你相逢# 「装饰物品」「拍照动作」上新"/>]]></description>
       <category>明日方舟：终末地</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/2e5dd44134375878d83b08bc70c61e201265652806.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/2e5dd44134375878d83b08bc70c61e201265652806.jpg" medium="image"/>
     </item>
     <item>
       <title>[原神] #原神# #原神7.2版本# 旅行者好呀~</title>
       <link>https://www.bilibili.com/opus/1274214112706953219</link>
       <guid isPermaLink="false">1274214112706953219</guid>
-      <pubDate>Tue, 24 Nov 2026 10:01:32 GMT</pubDate>
-      <description>旅行者们好呀~
+      <pubDate>Tue, 24 Nov 2026 18:01:32 +0800</pubDate>
+      <description><![CDATA[<p>旅行者们好呀~
 本期活动祈愿现已开启~
 #原神# #原神7.2版本# 
 
 旅行者好呀~
 本期活动祈愿时间为2026/11/24 18:00 ~ 2026/12/15 14:59。
 限定5星角色「驹隙隐泉·兹白(岩)」「博闻异旅·莉奈娅(岩)」，限定5星武器「朏魄含光」「霜结的誓金枝」等的祈愿获取概率将大幅提升。
-此外还将开启「炎天铸名」集录祈愿，旅行者可以获取更多角色与武器，组建强大的队伍！</description>
+此外还将开启「炎天铸名」集录祈愿，旅行者可以获取更多角色与武器，组建强大的队伍！</p><img src="https://i0.hdslb.com/bfs/new_dyn/4afcf04e453773bc4391710cfc230335401742377.jpg" alt="#原神# #原神7.2版本# 旅行者好呀~"/>]]></description>
       <category>原神</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/4afcf04e453773bc4391710cfc230335401742377.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/4afcf04e453773bc4391710cfc230335401742377.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>[碧蓝航线] #碧蓝航线# #碧蓝玩家团激励计划# ★碧蓝玩家团激励计划第62期★ 现已开启！</title>
+      <link>https://www.bilibili.com/opus/1274190546193088517</link>
+      <guid isPermaLink="false">1274190546193088517</guid>
+      <pubDate>Tue, 24 Nov 2026 16:30:05 +0800</pubDate>
+      <description><![CDATA[<p>★碧蓝玩家团激励计划第62期★ 「新服攻略赛道」现已开启！选择 #碧蓝玩家团激励计划# 活动话题投稿新赛道相关内容，并额外添加 #碧蓝新服攻略赛道# 标签，可额外参与对应赛道的评选哦~(≧∀≦)♪ 具体规则请戳→→https://www.bilibili.com/blackboard/era/oC083cnLknJWBW9s.html
+#碧蓝航线# #碧蓝玩家团激励计划#
+★碧蓝玩家团激励计划第62期★ 现已开启！
+期待指挥官的精彩作品哦~(`・ω・´)ゞ
+
+☆ 投稿时间：11月19日00:00~12月16日00:00
+☆ 选择 #碧蓝玩家团激励计划# 活动话题投稿视频，即可参加活动！
+※稿件</p><img src="https://i0.hdslb.com/bfs/new_dyn/b9d314989c57795ee5244cf975effabc233114659.jpg" alt="#碧蓝航线# #碧蓝玩家团激励计划# ★碧蓝玩家团激励计划第62期★ 现已开启！"/>]]></description>
+      <category>碧蓝航线</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/b9d314989c57795ee5244cf975effabc233114659.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/b9d314989c57795ee5244cf975effabc233114659.jpg" medium="image"/>
     </item>
     <item>
       <title>[异环] 限定S级角色「卡厄斯」即将返场</title>
       <link>https://www.bilibili.com/opus/1274182795947671576</link>
       <guid isPermaLink="false">1274182795947671576</guid>
-      <pubDate>Tue, 24 Nov 2026 08:00:00 GMT</pubDate>
-      <description>#致电空想迷数# #异环# #异环卡厄斯#
+      <pubDate>Tue, 24 Nov 2026 16:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#致电空想迷数# #异环# #异环卡厄斯#
 「无归路」限定棋盘、「沉雾礼遇」、「追猎特刊」弧盘研募计划即将返场，可获得限定S级角色「卡厄斯」和限定S级弧盘「众人追寻之物」！
 
 ▸开放时间
@@ -67,152 +154,83 @@
 所有「限定棋盘」共享S级角色保底计数、集点赠礼计数和棋盘变格计数；
 装扮礼遇活动计数仅跟随对应棋盘，不同棋盘互相独立，同名棋盘的对应礼遇活动计数将被保留。
 
-*更多详情，请前往游戏内「斯卡布罗集市」、「弧盘商店」查看。</description>
+*更多详情，请前往游戏内「斯卡布罗集市」、「弧盘商店」查看。</p><img src="https://i0.hdslb.com/bfs/new_dyn/7aad7308bb3729c52ddb38d333d47ef13546636978489848.jpg" alt="限定S级角色「卡厄斯」即将返场"/>]]></description>
       <category>异环</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/7aad7308bb3729c52ddb38d333d47ef13546636978489848.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/7aad7308bb3729c52ddb38d333d47ef13546636978489848.jpg" medium="image"/>
     </item>
     <item>
-      <title>[崩坏：星穹铁道] 互动抽奖 #崩坏星穹铁道# #星穹铁道填色挑战#  #抵达彩色的彼方# #星穹铁道公益第三卷#</title>
-      <link>https://www.bilibili.com/opus/1274169148675457064</link>
-      <guid isPermaLink="false">1274169148675457064</guid>
-      <pubDate>Tue, 24 Nov 2026 07:07:03 GMT</pubDate>
-      <description>恭喜@-夏色之影-@诸葛洋芋@知雨律等10位同学中奖，已私信通知，详情请点击抽奖查看。
-互动抽奖 #崩坏星穹铁道# #星穹铁道填色挑战#  #抵达彩色的彼方# #星穹铁道公益第三卷#
+      <title>[碧蓝航线] 「真理学院的转校生」即将开启！11月24日10:00港区改建</title>
+      <link>https://www.bilibili.com/opus/1274179770151600137</link>
+      <guid isPermaLink="false">1274179770151600137</guid>
+      <pubDate>Tue, 24 Nov 2026 15:48:16 +0800</pubDate>
+      <description><![CDATA[<p>改建已经完成，全港区正常开放(`・ω・´)ゞ
+各位亲爱的指挥官：
+司令部将于11月24日10:00~16:00对以下港区进行为期6小时的改造建设（如有变动将会另行发布通知）。改建期间将暂时无法进入港区，还请各位指挥官提前做好下线准备，给各位带来的不便敬请谅解。 
 
-这场魔术没有标准答案，每一片彩色的天空下都绽放出了温暖的颜色。
-谢谢每一位落笔的你。
-
-如果你很难过，没关系，我们在这里陪着你~
-
-「群星沉默不语，但我说，要有笑声。」 
-———————————————————
-▉转发抽奖：
-关注并转发本条动态，帕姆将于11月24日抽取10位幸运开拓者各获得「随机角色周边」一份。</description>
-      <category>崩坏：星穹铁道</category>
-    </item>
-    <item>
-      <title>[蓝色星原：旅谣] 《蓝色星原：旅谣》预下载现已开启 ！！</title>
-      <link>https://www.bilibili.com/opus/1274167727012970499</link>
-      <guid isPermaLink="false">1274167727012970499</guid>
-      <pubDate>Tue, 24 Nov 2026 07:01:32 GMT</pubDate>
-      <description>《蓝色星原：旅谣》预下载现已开启 ！！
-✦ 请星临者务必仔细阅读哦 ：https://www.bilibili.com/opus/1274167331926310949?spm_id_from=333.1365.0.0 
-
-《蓝色星原：旅谣》全平台公测将于2026年11月26日 10:00（UTC+8）正式开启。
-预下载已于2026年11月24日 15:00（UTC+8）开启。
-
-✦ 转发有奖 ✦ 
-叮——露米为星临者带来了好东西！关注@蓝色星原旅谣 并转发本内容，即有机会获得【现金328】*1（10名）
-欢迎各位星临者参与！活动将于 11月30日 17:30 结束并开奖，敬请关注官方消息。 </description>
-      <category>蓝色星原：旅谣</category>
+『涉及港区』 
+安卓全港区、iOS全港区、HarmonyOS NEXT全港区
+ 
+『改建内容』
+一、内容新增
+1.开启限时活动「真理学院的转校生」，活动时间11月24日维护后~12月10日维护
+...</p><img src="https://i0.hdslb.com/bfs/new_dyn/608283c019d2d7e52d0fc78806931697233114659.jpg" alt="「真理学院的转校生」即将开启！11月24日10:00港区改建"/>]]></description>
+      <category>碧蓝航线</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/608283c019d2d7e52d0fc78806931697233114659.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/608283c019d2d7e52d0fc78806931697233114659.jpg" medium="image"/>
     </item>
     <item>
       <title>[蓝色星原：旅谣] 《蓝色星原：旅谣》预下载现已开启</title>
       <link>https://www.bilibili.com/opus/1274167331926310949</link>
       <guid isPermaLink="false">1274167331926310949</guid>
-      <pubDate>Tue, 24 Nov 2026 07:00:00 GMT</pubDate>
-      <description>[图片]
+      <pubDate>Tue, 24 Nov 2026 15:00:00 +0800</pubDate>
+      <description><![CDATA[<p>[图片]
 《蓝色星原：旅谣》全平台公测将于2026年11月26日 10:00（UTC+8）正式开启。预下载已于2026年11月24日 15:00（UTC+8）开启，PC、Android、iOS、鸿蒙四个平台同步开放。星临者可提前完成客户端与公测更新资源的下载与安装，以便在公测开启后顺利进入游戏。
 一、预下载说明
 预下载开启后，客户端与公测更新资源将同步开放下载。
 官方服务器支持PC、Android、iOS、鸿蒙四端数据互通，星临者可使用同一账号在多端登录，游戏进度同步。渠道服与官方服务器数据不互通，具体安排以对应渠道说明为准。
-...</description>
+...</p><img src="https://i0.hdslb.com/bfs/new_dyn/5a782b17372f3c73ac5464a7f0e997363546569016085336.png" alt="《蓝色星原：旅谣》预下载现已开启"/>]]></description>
       <category>蓝色星原：旅谣</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/5a782b17372f3c73ac5464a7f0e997363546569016085336.png" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/5a782b17372f3c73ac5464a7f0e997363546569016085336.png" medium="image"/>
     </item>
     <item>
       <title>[异环] 读数礼遇丨离线的算式</title>
       <link>https://www.bilibili.com/opus/1274167334012977176</link>
       <guid isPermaLink="false">1274167334012977176</guid>
-      <pubDate>Tue, 24 Nov 2026 07:00:00 GMT</pubDate>
-      <description>#致电空想迷数# #异环# #异环Exe# 
+      <pubDate>Tue, 24 Nov 2026 15:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#致电空想迷数# #异环# #异环Exe# 
 「离线的算式」读数礼遇即将开启！
 
 活动期间，限定棋盘「离线的算式」内新增：滑翔翼涂装「Y之手」、「E001」车辆涂装「executer」、Exe时装「蓝雪」。累计掷骰50/120/200次可分别在装扮礼遇处直接领取，同时也有概率在棋盘掷骰中提前获得。
 
-*更多详情，请前往游戏内「斯卡布罗集市」查看。</description>
+*更多详情，请前往游戏内「斯卡布罗集市」查看。</p><img src="https://i0.hdslb.com/bfs/new_dyn/fefa90a5cf688483cf89b25dfae96be23546636978489848.jpg" alt="读数礼遇丨离线的算式"/>]]></description>
       <category>异环</category>
-    </item>
-    <item>
-      <title>[白银之城] 互动抽奖 #白银之城##白银之城突袭上线##白银之城预抽卡送5080##馨西亚二世#</title>
-      <link>https://www.bilibili.com/opus/1274151917234159616</link>
-      <guid isPermaLink="false">1274151917234159616</guid>
-      <pubDate>Tue, 24 Nov 2026 06:00:11 GMT</pubDate>
-      <description>恭喜@Colin林望夏@什兔子@小希力量注入等13位同学中奖，已私信通知，详情请点击抽奖查看。
-互动抽奖 #白银之城##白银之城突袭上线##白银之城预抽卡送5080##馨西亚二世# 
-https://www.bilibili.com/video/BV1PoW16NEZN/ 
-百金铸造的玩偶之屋，年幼的主人尚未懂得这名为权力的绞索。
-那一百把钥匙，通往无垠的盛幕与特许。
-昂首叉腰，率领永不背叛的忠诚骑士。
-
-镜中局，笼中梦。
-未熟的金枝，到月下的城邦去。
-
-🎁转发本贴+关注@白银之城 ，我们将在11月24日从参与活动的侦探中抽取13位侦探，送出以下奖品：
-「500元京东卡」 （3名）
-「白银之</description>
-      <category>白银之城</category>
-    </item>
-    <item>
-      <title>[蓝色星原：旅谣] 互动抽奖</title>
-      <link>https://www.bilibili.com/opus/1274151900107767840</link>
-      <guid isPermaLink="false">1274151900107767840</guid>
-      <pubDate>Tue, 24 Nov 2026 06:00:07 GMT</pubDate>
-      <description>互动抽奖  
-亲爱的星临者，弦定观测「桃笺为契」即将开启。
-
-▶ 观测时间
-2026年11月26日开服后 - 2026年12月17日 03:59（UTC+8）
-
-▶ 观测说明
-● 活动期间，可通过「桃笺为契」观测获取当期限定五星角色「涂山小玉（猛攻·风&amp;光）」。如果连续70次观测未获得限定五星角色，后续每次获得限定五星角色概率都会进行递增，直至第90次观测必定获得限定五星角色。
-● 活动期间，通过「桃笺为契」观测获取四星角色「枫糖（增幅·光&amp;木）」、「艾妮丝（赋予·光&amp;地）」的概率将大幅提升。
-● 「桃笺为契」属于「弦定观测」，在「桃笺为契」的观测保底次数会一直累积在「弦定观测」中，所有「弦定</description>
-      <category>蓝色星原：旅谣</category>
-    </item>
-    <item>
-      <title>[白银之城] 角色扉页 |「汀思黎·优等生」</title>
-      <link>https://www.bilibili.com/opus/1274151895813849095</link>
-      <guid isPermaLink="false">1274151895813849095</guid>
-      <pubDate>Tue, 24 Nov 2026 06:00:06 GMT</pubDate>
-      <description>恭喜@凑凑の鹅企@墨之玲珑@苹果精灵D等10位同学中奖，已私信通知，详情请点击抽奖查看。
-互动抽奖 #白银之城##白银之城突袭上线##白银之城预抽卡送5080##汀思黎# 
-角色扉页 Title Page
-|| 汀思黎·优等生
-
-—— 远大前程 Great Expectations ——
-
---
-“完美的设计只是起点。真正伟大的发明家，我还离得很远。”
---
-
-天才、宠儿、优等生，空心的发明者。
-矿业不息运转，她研究齿轮，拨弄齿轮，亦同样身为齿轮。
-先驱在前，世界的轰鸣自远方传来——
-
-齿轮转动，图纸延伸，她须找寻属于自己的愿望。
-
-转发+关注@白银之城 ，我们将在11月24日从参与活动的侦探</description>
-      <category>白银之城</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/fefa90a5cf688483cf89b25dfae96be23546636978489848.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/fefa90a5cf688483cf89b25dfae96be23546636978489848.jpg" medium="image"/>
     </item>
     <item>
       <title>[明日方舟：终末地] #明日方舟终末地##穿越甚大蘑境与你相逢# 「协议通行证·蘑境」说明</title>
       <link>https://www.bilibili.com/opus/1274151872174751744</link>
       <guid isPermaLink="false">1274151872174751744</guid>
-      <pubDate>Tue, 24 Nov 2026 06:00:00 GMT</pubDate>
-      <description>#明日方舟终末地##穿越甚大蘑境与你相逢#
+      <pubDate>Tue, 24 Nov 2026 14:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#明日方舟终末地##穿越甚大蘑境与你相逢#
 「协议通行证·蘑境」说明
 
 亲爱的管理员：
 「协议通行证·蘑境」开放期间，您可在「协议通行证」中获得武库工程师列出的各类支援项目。每期协议通行证开启时，将默认解锁「基础配给」。提升通行证等级，可获得【基础寻访凭证】【嵌晶玉】【兑换惊喜箱】【培养素材】等奖励。
 使用【衍质源石】解锁「源石配给」后，还可额外获得【基础寻访凭证】【贴纸·黏腻与甜香】【滤镜·金色黄昏】，以及【武器补给·蘑境】【衍质源石】【应急理智加强剂】等奖励。
-购买「协议定制」后，还可额外获得【名片·蜜境蘑城】【头像框·食用后的色彩】【头像·蕈类住民】，此外，还可额外获得【武器补给·蘑境】</description>
+购买「协议定制」后，还可额外获得【名片·蜜境蘑城】【头像框·食用后的色彩】【头像·蕈类住民】，此外，还可额外获得【武器补给·蘑境】</p><img src="https://i0.hdslb.com/bfs/new_dyn/d263b86e87f04381319930158e5d333c1265652806.png" alt="#明日方舟终末地##穿越甚大蘑境与你相逢# 「协议通行证·蘑境」说明"/>]]></description>
       <category>明日方舟：终末地</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/d263b86e87f04381319930158e5d333c1265652806.png" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/d263b86e87f04381319930158e5d333c1265652806.png" medium="image"/>
     </item>
     <item>
       <title>[异环] 「密钥特刊」弧盘研募计划即将开启</title>
       <link>https://www.bilibili.com/opus/1274151872190480389</link>
       <guid isPermaLink="false">1274151872190480389</guid>
-      <pubDate>Tue, 24 Nov 2026 06:00:00 GMT</pubDate>
-      <description>#致电空想迷数# #异环# #异环Exe# 
+      <pubDate>Tue, 24 Nov 2026 14:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#致电空想迷数# #异环# #异环Exe# 
 「密钥特刊」弧盘研募计划即将开启，当期限定S级弧盘「虚线彼方」获取概率提升！
 
 ▸研募计划开放时间
@@ -224,15 +242,17 @@ https://www.bilibili.com/video/BV1PoW16NEZN/
 ▸研募计划说明
 1.「密钥特刊」研募计划限时开启，消耗「三重钥匙」或「密钥钥匙」参与本期弧盘研募计划并获取当期计划奖励。
 2.活动期间，限定S级弧盘「虚线彼方」的获取概率将大幅提升！
-3.「密钥特刊」研募计划的研募类型为「限定特刊」，开启1次「限定特刊」共计可获得10个任意品质的弧盘</description>
+3.「密钥特刊」研募计划的研募类型为「限定特刊」，开启1次「限定特刊」共计可获得10个任意品质的弧盘</p><img src="https://i0.hdslb.com/bfs/new_dyn/973e5058037e99bd680fa4fe3756cb7b3546636978489848.jpg" alt="「密钥特刊」弧盘研募计划即将开启"/>]]></description>
       <category>异环</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/973e5058037e99bd680fa4fe3756cb7b3546636978489848.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/973e5058037e99bd680fa4fe3756cb7b3546636978489848.jpg" medium="image"/>
     </item>
     <item>
       <title>[明日方舟：终末地] #明日方舟终末地##穿越甚大蘑境与你相逢# //干员回顾//洁尔佩塔</title>
       <link>https://www.bilibili.com/opus/1274144141229424642</link>
       <guid isPermaLink="false">1274144141229424642</guid>
-      <pubDate>Tue, 24 Nov 2026 05:30:00 GMT</pubDate>
-      <description>#明日方舟终末地##穿越甚大蘑境与你相逢#
+      <pubDate>Tue, 24 Nov 2026 13:30:00 +0800</pubDate>
+      <description><![CDATA[<p>#明日方舟终末地##穿越甚大蘑境与你相逢#
 //干员回顾//洁尔佩塔
 “你好呀！你身上有一股令人怀念的气味……好像一封没有写完的信，我很好奇它会去往哪里。” 
 
@@ -241,33 +261,17 @@ https://www.bilibili.com/video/BV1PoW16NEZN/
 ————————
 ▼//「穿越甚大蘑境与你相逢」版本将于11月25日上线！
 新干员【小刻】登场，全新区域「旧水坝」开放！全新活动「阵列建设：旧伤弥合」即将开启！
-前往下载：https://www.biligame.com/detail?id=108406</description>
+前往下载：https://www.biligame.com/detail?id=108406</p><img src="https://i0.hdslb.com/bfs/new_dyn/31a7944dfbc9d0d87db0d74ec0a46d951265652806.png" alt="#明日方舟终末地##穿越甚大蘑境与你相逢# //干员回顾//洁尔佩塔"/>]]></description>
       <category>明日方舟：终末地</category>
-    </item>
-    <item>
-      <title>[明日方舟] 互动抽奖 《明日方舟》× 名创优品「秋意茶话会」合作宣传PV 现已发布</title>
-      <link>https://www.bilibili.com/opus/1274136425281880082</link>
-      <guid isPermaLink="false">1274136425281880082</guid>
-      <pubDate>Tue, 24 Nov 2026 05:00:04 GMT</pubDate>
-      <description>恭喜@萝卜不怕-@大份水果酸奶@瑞阳炎风等10位同学中奖，已私信通知，详情请点击抽奖查看。
-互动抽奖 《明日方舟》× 名创优品「秋意茶话会」合作宣传PV 现已发布
-https://www.bilibili.com/video/BV16QHP6zEDa/ 
-
-暖光浸木，落叶叩窗。
-明日方舟携手@MINISO名创优品 ，邀博士共赴茶会，叙一杯焦糖色的午后。
-
-关注@明日方舟 并转发本条动态，将抽取10位博士每人赠送【明日方舟×名创优品 「秋意茶话会」亚克力挂件套组（含5款）】1份。
-
-更多活动详情，请关注名创优品官方自媒体账号。
-#明日方舟# #明日方舟名创优品联动# #名创优品联名#</description>
-      <category>明日方舟</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/31a7944dfbc9d0d87db0d74ec0a46d951265652806.png" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/31a7944dfbc9d0d87db0d74ec0a46d951265652806.png" medium="image"/>
     </item>
     <item>
       <title>[明日方舟：终末地] #明日方舟终末地##穿越甚大蘑境与你相逢# 「致每一个飘游之愿」重构寻访1与「飘行申领」重构申领1开放</title>
       <link>https://www.bilibili.com/opus/1274136410262077463</link>
       <guid isPermaLink="false">1274136410262077463</guid>
-      <pubDate>Tue, 24 Nov 2026 05:00:00 GMT</pubDate>
-      <description>#明日方舟终末地##穿越甚大蘑境与你相逢#
+      <pubDate>Tue, 24 Nov 2026 13:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#明日方舟终末地##穿越甚大蘑境与你相逢#
 「致每一个飘游之愿」重构寻访1与「飘行申领」重构申领1开放
 
 亲爱的管理员：
@@ -282,28 +286,32 @@ https://www.bilibili.com/video/BV16QHP6zEDa/
 
 ▼//「致每一个飘游之愿」重构寻访1说明
 ■ 寻访说明
-「致每一个飘游之愿」重构寻访中，概率提升的6星干员为【洁尔佩塔】。在本寻访中，前120次寻</description>
+「致每一个飘游之愿」重构寻访中，概率提升的6星干员为【洁尔佩塔】。在本寻访中，前120次寻</p><img src="https://i0.hdslb.com/bfs/new_dyn/f5e13a5f492c26acb4f52e10804145191265652806.jpg" alt="#明日方舟终末地##穿越甚大蘑境与你相逢# 「致每一个飘游之愿」重构寻访1与「飘行申领」重构申领1开放"/>]]></description>
       <category>明日方舟：终末地</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/f5e13a5f492c26acb4f52e10804145191265652806.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/f5e13a5f492c26acb4f52e10804145191265652806.jpg" medium="image"/>
     </item>
     <item>
       <title>[蓝色星原：旅谣] 《蓝色星原：旅谣》公测常见问题说明</title>
       <link>https://www.bilibili.com/opus/1274128690074091522</link>
       <guid isPermaLink="false">1274128690074091522</guid>
-      <pubDate>Tue, 24 Nov 2026 04:30:03 GMT</pubDate>
-      <description>[图片]
+      <pubDate>Tue, 24 Nov 2026 12:30:03 +0800</pubDate>
+      <description><![CDATA[<p>[图片]
 《蓝色星原：旅谣》预下载将于2026年11月24日 15:00（UTC+8）开启，公测将于2026年11月26日 10:00（UTC+8）正式开启。本次公测将开放PC、Android、iOS、鸿蒙四个平台。为帮助星临者顺利开启普罗米利亚之旅，我们整理了以下常见问题。如后续安排有调整，请以官方最新公告为准。
 一、开服信息
 Q：《蓝色星原：旅谣》公测何时开启？
 A：公测将于2026年11月26日 10:00（UTC+8）正式开启，开放PC、Android、iOS、鸿蒙四个平台。
-...</description>
+...</p><img src="https://i0.hdslb.com/bfs/new_dyn/586acc2b5c0dfbe05c1412e03bf73df03546569016085336.png" alt="《蓝色星原：旅谣》公测常见问题说明"/>]]></description>
       <category>蓝色星原：旅谣</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/586acc2b5c0dfbe05c1412e03bf73df03546569016085336.png" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/586acc2b5c0dfbe05c1412e03bf73df03546569016085336.png" medium="image"/>
     </item>
     <item>
       <title>[明日方舟：终末地] #明日方舟终末地##穿越甚大蘑境与你相逢# 「恣游申领」限时特卖说明</title>
       <link>https://www.bilibili.com/opus/1274128679336673287</link>
       <guid isPermaLink="false">1274128679336673287</guid>
-      <pubDate>Tue, 24 Nov 2026 04:30:00 GMT</pubDate>
-      <description>#明日方舟终末地##穿越甚大蘑境与你相逢#
+      <pubDate>Tue, 24 Nov 2026 12:30:00 +0800</pubDate>
+      <description><![CDATA[<p>#明日方舟终末地##穿越甚大蘑境与你相逢#
 「恣游申领」限时特卖说明
 
 亲爱的管理员：
@@ -313,15 +321,17 @@ A：公测将于2026年11月26日 10:00（UTC+8）正式开启，开放PC、Andr
 · 开放时间：「穿越甚大蘑境与你相逢」版本更新后开启，于3次「特许寻访」后结束（从「锻砧、行囊与蜜糖」起计算）
 · 开放条件：完成主线任务「第一章 - 进程Ⅰ - 基地解围」
 · 「恣游申领」中，概率提升的6星武器为【甜美交易（长柄武器）】。
-· 「恣游申领」中，全部可能出现的6星武器包括：甜美交易（长柄武器）/扶摇（单手剑）/骁勇（长柄武器）/J.E.T.（长柄武器）/爆破单元（施术单元）/楔子（手铳）/昔日精品（</description>
+· 「恣游申领」中，全部可能出现的6星武器包括：甜美交易（长柄武器）/扶摇（单手剑）/骁勇（长柄武器）/J.E.T.（长柄武器）/爆破单元（施术单元）/楔子（手铳）/昔日精品（</p><img src="https://i0.hdslb.com/bfs/new_dyn/0790a2ff995bdd1643a0da2891b44d791265652806.png" alt="#明日方舟终末地##穿越甚大蘑境与你相逢# 「恣游申领」限时特卖说明"/>]]></description>
       <category>明日方舟：终末地</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/0790a2ff995bdd1643a0da2891b44d791265652806.png" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/0790a2ff995bdd1643a0da2891b44d791265652806.png" medium="image"/>
     </item>
     <item>
       <title>[明日方舟：终末地] #明日方舟终末地##穿越甚大蘑境与你相逢# 亲爱的管理员：</title>
       <link>https://www.bilibili.com/opus/1274120948367228936</link>
       <guid isPermaLink="false">1274120948367228936</guid>
-      <pubDate>Tue, 24 Nov 2026 04:00:00 GMT</pubDate>
-      <description>#明日方舟终末地##穿越甚大蘑境与你相逢#
+      <pubDate>Tue, 24 Nov 2026 12:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#明日方舟终末地##穿越甚大蘑境与你相逢#
 亲爱的管理员：
 「锻砧、行囊与蜜糖」特许寻访开放期间，6星干员【小刻】获取概率提升！
 「漫野探奇」限时签到活动同步开放，累计签到可获得【漫野探奇寻访凭证】×5等奖励，还可在【集成配额交易】中进行【漫野探奇寻访凭证】的特惠兑换。同时，开放「作战演练」干员试用活动。
@@ -330,15 +340,17 @@ A：公测将于2026年11月26日 10:00（UTC+8）正式开启，开放PC、Andr
 · 开放时间：「穿越甚大蘑境与你相逢」版本更新后 - 2026/12/23 11:59（服务器时间）
 · 开放条件：完成主线任务「第一章 - 进程Ⅰ - 基地解围」
 · 「锻砧、行囊与蜜糖」特许寻访中，概率提升的6星干员为【小刻】。
-· 「锻砧、行囊</description>
+· 「锻砧、行囊</p><img src="https://i0.hdslb.com/bfs/new_dyn/c29ccad124dcf59dad845a27a01d4bb11265652806.jpg" alt="#明日方舟终末地##穿越甚大蘑境与你相逢# 亲爱的管理员："/>]]></description>
       <category>明日方舟：终末地</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/c29ccad124dcf59dad845a27a01d4bb11265652806.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/c29ccad124dcf59dad845a27a01d4bb11265652806.jpg" medium="image"/>
     </item>
     <item>
       <title>[异环] 「离线的算式」限定棋盘即将开启</title>
       <link>https://www.bilibili.com/opus/1274120948395540484</link>
       <guid isPermaLink="false">1274120948395540484</guid>
-      <pubDate>Tue, 24 Nov 2026 04:00:00 GMT</pubDate>
-      <description>#致电空想迷数# #异环# #异环Exe# 
+      <pubDate>Tue, 24 Nov 2026 12:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#致电空想迷数# #异环# #异环Exe# 
 「离线的算式」限定棋盘即将开启，可获得当期限定S级角色「Exe」！
 
 ▸棋盘开放时间
@@ -352,41 +364,27 @@ A：公测将于2026年11月26日 10:00（UTC+8）正式开启，开放PC、Andr
 2.滑翔翼涂装「Y之手」、「E001」车辆涂装「executer」、Exe时装「蓝雪」也将出现在「离线的算式」棋盘上。
 
 ▸棋盘规则
-1.「离线的算式」棋盘可使用「质实骰子</description>
+1.「离线的算式」棋盘可使用「质实骰子</p><img src="https://i0.hdslb.com/bfs/new_dyn/df5a6e44eb473ba13b5358d7ffbdf3e83546636978489848.jpg" alt="「离线的算式」限定棋盘即将开启"/>]]></description>
       <category>异环</category>
-    </item>
-    <item>
-      <title>[明日方舟：终末地] 互动抽奖 #明日方舟终末地##穿越甚大蘑境与你相逢#</title>
-      <link>https://www.bilibili.com/opus/1274114520994807841</link>
-      <guid isPermaLink="false">1274114520994807841</guid>
-      <pubDate>Tue, 24 Nov 2026 03:35:04 GMT</pubDate>
-      <description>互动抽奖 #明日方舟终末地##穿越甚大蘑境与你相逢#
-《明日方舟：终末地》干员叙事 [小刻：很新的旅程] 现已发布！
- https://www.bilibili.com/video/BV1aoyQzwEx9/ 
-
-为了送出珍贵的礼物踏上旅程的小刻，这一次的目的地是……？
-
-关注@明日方舟终末地 并转发此动态，我们将于12月23日抽取10位管理员送出【明日方舟：终末地-角色亚克力立牌-小刻】。
-————————
-▼//「穿越甚大蘑境与你相逢」版本将于11月25日上线！
-新干员【小刻】登场，全新区域「旧水坝」开放！全新活动「阵列建设：旧伤弥合」即将开启！
-前往下载：https://www.bili</description>
-      <category>明日方舟：终末地</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/df5a6e44eb473ba13b5358d7ffbdf3e83546636978489848.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/df5a6e44eb473ba13b5358d7ffbdf3e83546636978489848.jpg" medium="image"/>
     </item>
     <item>
       <title>[明日方舟：终末地] 《明日方舟：终末地》干员叙事 [小刻：很新的旅程]</title>
       <link>https://www.bilibili.com/video/BV1aoyQzwEx9</link>
       <guid isPermaLink="false">1274113236811120720</guid>
-      <pubDate>Tue, 24 Nov 2026 03:30:05 GMT</pubDate>
-      <description>为了送出珍贵的礼物踏上旅程的小刻，这一次的目的地是……？</description>
+      <pubDate>Tue, 24 Nov 2026 11:30:05 +0800</pubDate>
+      <description><![CDATA[<p>为了送出珍贵的礼物踏上旅程的小刻，这一次的目的地是……？</p><img src="https://i1.hdslb.com/bfs/archive/d7e58eb34ec0f23fdfbca4f2ef59f1d297e6af6c.jpg" alt="《明日方舟：终末地》干员叙事 [小刻：很新的旅程]"/>]]></description>
       <category>明日方舟：终末地</category>
+      <enclosure url="https://i1.hdslb.com/bfs/archive/d7e58eb34ec0f23fdfbca4f2ef59f1d297e6af6c.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i1.hdslb.com/bfs/archive/d7e58eb34ec0f23fdfbca4f2ef59f1d297e6af6c.jpg" medium="image"/>
     </item>
     <item>
       <title>[白银之城] 隐藏的书页丨「小聪明之谜」</title>
       <link>https://www.bilibili.com/video/BV1ScyXztEMY</link>
       <guid isPermaLink="false">1274113236794343443</guid>
-      <pubDate>Tue, 24 Nov 2026 03:30:05 GMT</pubDate>
-      <description>隐藏的书页 Hidden Pages
+      <pubDate>Tue, 24 Nov 2026 11:30:05 +0800</pubDate>
+      <description><![CDATA[<p>隐藏的书页 Hidden Pages
 
 —— 小聪明之谜 ——
 
@@ -399,15 +397,17 @@ A：公测将于2026年11月26日 10:00（UTC+8）正式开启，开放PC、Andr
 ----------------------------------
 《白银之城》全球公测正式定档2026年12月14日！
 ▍「疑案开幕」预抽卡活动开启中
-参与网页活动</description>
+参与网页活动</p><img src="https://i2.hdslb.com/bfs/archive/33a39e14242a63f07cc870cb59b9c84f19ecf1d4.jpg" alt="隐藏的书页丨「小聪明之谜」"/>]]></description>
       <category>白银之城</category>
+      <enclosure url="https://i2.hdslb.com/bfs/archive/33a39e14242a63f07cc870cb59b9c84f19ecf1d4.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i2.hdslb.com/bfs/archive/33a39e14242a63f07cc870cb59b9c84f19ecf1d4.jpg" medium="image"/>
     </item>
     <item>
       <title>[蓝色星原：旅谣] 《蓝色星原：旅谣》公测B站UP主激励计划现已开启！</title>
       <link>https://www.bilibili.com/opus/1274113217435533320</link>
       <guid isPermaLink="false">1274113217435533320</guid>
-      <pubDate>Tue, 24 Nov 2026 03:30:00 GMT</pubDate>
-      <description>《蓝色星原：旅谣》公测B站UP主激励计划现已开启！
+      <pubDate>Tue, 24 Nov 2026 11:30:00 +0800</pubDate>
+      <description><![CDATA[<p>《蓝色星原：旅谣》公测B站UP主激励计划现已开启！
 
 投稿＆开播双赛道，参与活动赢激励奖金及游戏道具。期待星临者的创作！
 
@@ -422,73 +422,33 @@ A：公测将于2026年11月26日 10:00（UTC+8）正式开启，开放PC、Andr
 ✦ 参与方式 ✦ 
 投稿时手动选择 #蓝色星原旅谣公测 活动话题，并在游戏分区进行投稿，即可成功参与视频投稿赛道。
 本次活动设置定向内容投稿，选择对应的主题标签，即有机会额外获得优秀稿件评选奖励！
-直播时选择《蓝色星原：旅</description>
+直播时选择《蓝色星原：旅</p><img src="https://i0.hdslb.com/bfs/new_dyn/076eb9b937b1a7fd44b92814262301673546569016085336.jpg" alt="《蓝色星原：旅谣》公测B站UP主激励计划现已开启！"/>]]></description>
       <category>蓝色星原：旅谣</category>
-    </item>
-    <item>
-      <title>[蓝色星原：旅谣] 互动抽奖</title>
-      <link>https://www.bilibili.com/opus/1274106205897228296</link>
-      <guid isPermaLink="false">1274106205897228296</guid>
-      <pubDate>Tue, 24 Nov 2026 03:02:48 GMT</pubDate>
-      <description>互动抽奖 
-《蓝色星原：旅谣》涂山小玉PV | 一笺桃花 
-https://www.bilibili.com/video/BV1j3yHznECD 
-
-牵丝绕指，终须有结。
-桃花一笺，夙缔良缘。
-
-今后，我们就是拍档了！
-
-《蓝色星原：旅谣》11月26日正式公测！ 
-
-✦ 转发有奖 ✦ 
-叮——露米为星临者带来了好东西！关注@蓝色星原旅谣 并转发本内容，即有机会获得【摸摸耳朵小立牌-涂山小玉款】*1（10名）、【毛绒捏捏徽章-随机款】*1（10名）、 【角色设定稿系列色纸-随机款】*1（10名） 
-欢迎各位星临者参与！活动将于 11月28日 17:00 结束并开奖，敬请关注官方消息。
- 
-——</description>
-      <category>蓝色星原：旅谣</category>
-    </item>
-    <item>
-      <title>[白银之城] 同谋情报 |「菲斯·招待」</title>
-      <link>https://www.bilibili.com/opus/1274105492954677251</link>
-      <guid isPermaLink="false">1274105492954677251</guid>
-      <pubDate>Tue, 24 Nov 2026 03:00:02 GMT</pubDate>
-      <description>互动抽奖 #白银之城##白银之城突袭上线##白银之城预抽卡送5080##菲斯# 
-同谋情报 Acquaintance File
-|| 菲斯·招待
-
-女仆协会的前台招待，八十五号女仆。
-认真起来的确有几分完美女仆的样子，不过三分钟热度过后，又会原形毕露。
-虽然喜欢偷懒、爱耍小聪明，但是个本性不坏的可靠帮手。
-
-转发+关注@白银之城SilverPalace ，我们将在11月30日从参与活动的侦探中抽取10位侦探，送出以下奖品：
-「白银之城-角色亚克力立牌（款式随机）」 （5名）
-「白银之城-数探事务所挂画」 （5名）
-
-----------------------------------
-《白银之</description>
-      <category>白银之城</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/076eb9b937b1a7fd44b92814262301673546569016085336.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/076eb9b937b1a7fd44b92814262301673546569016085336.jpg" medium="image"/>
     </item>
     <item>
       <title>[蓝色星原：旅谣] 《蓝色星原：旅谣》涂山小玉PV | 一笺桃花</title>
       <link>https://www.bilibili.com/video/BV1j3yHznECD</link>
       <guid isPermaLink="false">1274105488677535761</guid>
-      <pubDate>Tue, 24 Nov 2026 03:00:01 GMT</pubDate>
-      <description>牵丝绕指，终须有结。
+      <pubDate>Tue, 24 Nov 2026 11:00:01 +0800</pubDate>
+      <description><![CDATA[<p>牵丝绕指，终须有结。
 桃花一笺，夙缔良缘。
 
 今后，我们就是拍档了！
 
 《蓝色星原：旅谣》11月26日正式公测！
-✦ bilibili预约地址：https://www.biligame.com/detail/?id=111392</description>
+✦ bilibili预约地址：https://www.biligame.com/detail/?id=111392</p><img src="https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/4afa7f101e12a559.jpg" alt="《蓝色星原：旅谣》涂山小玉PV | 一笺桃花"/>]]></description>
       <category>蓝色星原：旅谣</category>
+      <enclosure url="https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/4afa7f101e12a559.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/4afa7f101e12a559.jpg" medium="image"/>
     </item>
     <item>
       <title>[蔚蓝档案] #蔚蓝档案# 限时复刻招募活动即将开启，请老师不要错过哦！</title>
       <link>https://www.bilibili.com/opus/1274105486497546261</link>
       <guid isPermaLink="false">1274105486497546261</guid>
-      <pubDate>Tue, 24 Nov 2026 03:00:00 GMT</pubDate>
-      <description>#蔚蓝档案# 
+      <pubDate>Tue, 24 Nov 2026 11:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#蔚蓝档案# 
 限时复刻招募活动即将开启，请老师不要错过哦！
 
 ■ 招募时间
@@ -500,15 +460,17 @@ https://www.bilibili.com/video/BV1j3yHznECD
 限时复刻招募【这里是RABBIT 4，凭指尖完成证明】即将开启！
 在本次招募中，3★成员&quot;美游&quot;的招募概率得到提升！
 
-※ 具体成员信息和概率信息可以前往游戏内招募界面查看。</description>
+※ 具体成员信息和概率信息可以前往游戏内招募界面查看。</p><img src="https://i0.hdslb.com/bfs/new_dyn/7c590c323fe029475f83a8efb5d1d5f53493265644980448.png" alt="#蔚蓝档案# 限时复刻招募活动即将开启，请老师不要错过哦！"/>]]></description>
       <category>蔚蓝档案</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/7c590c323fe029475f83a8efb5d1d5f53493265644980448.png" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/7c590c323fe029475f83a8efb5d1d5f53493265644980448.png" medium="image"/>
     </item>
     <item>
       <title>[蓝色星原：旅谣] 《蓝色星原：旅谣》公测倒计时2天！</title>
       <link>https://www.bilibili.com/opus/1274097755594162177</link>
       <guid isPermaLink="false">1274097755594162177</guid>
-      <pubDate>Tue, 24 Nov 2026 02:30:00 GMT</pubDate>
-      <description>《蓝色星原：旅谣》公测倒计时2天！
+      <pubDate>Tue, 24 Nov 2026 10:30:00 +0800</pubDate>
+      <description><![CDATA[<p>《蓝色星原：旅谣》公测倒计时2天！
 
 新的伙伴、新的风景，旅途的序章，正等待你来书写。 
 
@@ -516,60 +478,61 @@ https://www.bilibili.com/video/BV1j3yHznECD
 《蓝色星原：旅谣》11/26正式公测！
 顶级美术！海量福利！各种美少女角色、全新载具、灵子、星彩奇波等奖励等你拿！ 
 ✦《蓝色星原：旅谣》预约地址：https://www.biligame.com/detail/?id=111392&amp;spm_id_from=333.1369.0.0
-#蓝色星原旅谣# #蓝色星原1126正式公测#</description>
+#蓝色星原旅谣# #蓝色星原1126正式公测#</p><img src="https://i0.hdslb.com/bfs/new_dyn/93759be67c831277136c3e0a2d59cf033546569016085336.png" alt="《蓝色星原：旅谣》公测倒计时2天！"/>]]></description>
       <category>蓝色星原：旅谣</category>
-    </item>
-    <item>
-      <title>[蓝色星原：旅谣] 互动抽奖</title>
-      <link>https://www.bilibili.com/opus/1273893832671363078</link>
-      <guid isPermaLink="false">1273893832671363078</guid>
-      <pubDate>Mon, 23 Nov 2026 13:18:41 GMT</pubDate>
-      <description>互动抽奖 
-亲爱的星临者，「小小侠客养成记」即将开启。
-
-参与活动完成指定任务内容，可获得五星角色「佩佩」、五星灵子「佩佩-修行中」、专属宿舍「佩佩·听竹小筑」等奖励。
-
-▶ 活动时间
-2026年11月26日开服后
-
-▶ 开放条件
-完成主线任务「初见新芽山谷」
-
-▶ 活动说明
-● 「小小侠客养成记」自开启后，会每日解锁1组任务，最多解锁7组。星临者累计完成的任务数量达到对应要求后，即可领取五星角色「佩佩」、五星灵子「佩佩-修行中」。
-● 当完成第7日的任务后，可获得专属宿舍「佩佩·听竹小筑」，包含佩佩专属睡衣装扮及佩佩专属宿舍场景。 
-
-✦ 转发有奖 ✦ 
-叮——露米为星临者带来了好东西！关注</description>
-      <category>蓝色星原：旅谣</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/93759be67c831277136c3e0a2d59cf033546569016085336.png" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/93759be67c831277136c3e0a2d59cf033546569016085336.png" medium="image"/>
     </item>
     <item>
       <title>[明日方舟：终末地] 我们已经了解危机关头需要呼叫谁的支援</title>
       <link>https://www.bilibili.com/video/BV1FEyDzuETZ</link>
       <guid isPermaLink="false">1273858154352869427</guid>
-      <pubDate>Mon, 23 Nov 2026 11:00:14 GMT</pubDate>
-      <description>我们已经了解危机关头需要呼叫谁的支援</description>
+      <pubDate>Mon, 23 Nov 2026 19:00:14 +0800</pubDate>
+      <description><![CDATA[<p>我们已经了解危机关头需要呼叫谁的支援</p><img src="https://i0.hdslb.com/bfs/archive/208de5c61d3969a046c6824372762086513a4a25.jpg" alt="我们已经了解危机关头需要呼叫谁的支援"/>]]></description>
       <category>明日方舟：终末地</category>
+      <enclosure url="https://i0.hdslb.com/bfs/archive/208de5c61d3969a046c6824372762086513a4a25.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/archive/208de5c61d3969a046c6824372762086513a4a25.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>[碧蓝航线] 「真理学院的转校生」即将开启！11月24日10:00港区改建</title>
+      <link>https://www.bilibili.com/opus/1273842640930996313</link>
+      <guid isPermaLink="false">1273842640930996313</guid>
+      <pubDate>Mon, 23 Nov 2026 18:00:02 +0800</pubDate>
+      <description><![CDATA[<p>各位亲爱的指挥官：
+司令部将于11月24日10:00~16:00对以下港区进行为期6小时的改造建设（如有变动将会另行发布通知）。改建期间将暂时无法进入港区，还请各位指挥官提前做好下线准备，给各位带来的不便敬请谅解。 
+
+『涉及港区』 
+安卓全港区、iOS全港区、HarmonyOS NEXT全港区
+ 
+『改建内容』
+一、内容新增
+1.开启限时活动「真理学院的转校生」，活动时间11月24日维护后~12月10日维护
+...</p><img src="https://i0.hdslb.com/bfs/new_dyn/608283c019d2d7e52d0fc78806931697233114659.jpg" alt="「真理学院的转校生」即将开启！11月24日10:00港区改建"/>]]></description>
+      <category>碧蓝航线</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/608283c019d2d7e52d0fc78806931697233114659.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/608283c019d2d7e52d0fc78806931697233114659.jpg" medium="image"/>
     </item>
     <item>
       <title>[原神] #原神# #原神7.2版本# 旅行者好呀~</title>
       <link>https://www.bilibili.com/opus/1273842634488545282</link>
       <guid isPermaLink="false">1273842634488545282</guid>
-      <pubDate>Mon, 23 Nov 2026 10:00:00 GMT</pubDate>
-      <description>#原神# #原神7.2版本# 
+      <pubDate>Mon, 23 Nov 2026 18:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#原神# #原神7.2版本# 
 
 旅行者好呀~
 本期活动祈愿时间为2026/11/24 18:00 ~ 2026/12/15 14:59。
 限定5星角色「驹隙隐泉·兹白(岩)」「博闻异旅·莉奈娅(岩)」，限定5星武器「朏魄含光」「霜结的誓金枝」等的祈愿获取概率将大幅提升。
-此外还将开启「炎天铸名」集录祈愿，旅行者可以获取更多角色与武器，组建强大的队伍！</description>
+此外还将开启「炎天铸名」集录祈愿，旅行者可以获取更多角色与武器，组建强大的队伍！</p><img src="https://i0.hdslb.com/bfs/new_dyn/4afcf04e453773bc4391710cfc230335401742377.jpg" alt="#原神# #原神7.2版本# 旅行者好呀~"/>]]></description>
       <category>原神</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/4afcf04e453773bc4391710cfc230335401742377.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/4afcf04e453773bc4391710cfc230335401742377.jpg" medium="image"/>
     </item>
     <item>
       <title>[明日方舟：终末地] #明日方舟终末地##穿越甚大蘑境与你相逢# 《明日方舟：终末地》「穿越甚大蘑境与你相逢」版本日历</title>
       <link>https://www.bilibili.com/opus/1273842634518953988</link>
       <guid isPermaLink="false">1273842634518953988</guid>
-      <pubDate>Mon, 23 Nov 2026 10:00:00 GMT</pubDate>
-      <description>#明日方舟终末地##穿越甚大蘑境与你相逢#
+      <pubDate>Mon, 23 Nov 2026 18:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#明日方舟终末地##穿越甚大蘑境与你相逢#
 《明日方舟：终末地》「穿越甚大蘑境与你相逢」版本日历
 
 《明日方舟：终末地》新版本「穿越甚大蘑境与你相逢」将于11月25日正式开启！
@@ -577,159 +540,147 @@ https://www.bilibili.com/video/BV1j3yHznECD
 ————————
 ▼//「穿越甚大蘑境与你相逢」版本将于11月25日上线！
 新干员【小刻】登场，全新区域「旧水坝」开放！全新活动「阵列建设：旧伤弥合」即将开启！
-前往下载：https://www.biligame.com/detail?id=108406</description>
+前往下载：https://www.biligame.com/detail?id=108406</p><img src="https://i0.hdslb.com/bfs/new_dyn/a502e9ddd7fa8bb426be856da0803f091265652806.png" alt="#明日方舟终末地##穿越甚大蘑境与你相逢# 《明日方舟：终末地》「穿越甚大蘑境与你相逢」版本日历"/>]]></description>
       <category>明日方舟：终末地</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/a502e9ddd7fa8bb426be856da0803f091265652806.png" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/a502e9ddd7fa8bb426be856da0803f091265652806.png" medium="image"/>
     </item>
     <item>
-      <title>[蓝色星原：旅谣] 互动抽奖</title>
-      <link>https://www.bilibili.com/opus/1273834918601818163</link>
-      <guid isPermaLink="false">1273834918601818163</guid>
-      <pubDate>Mon, 23 Nov 2026 09:30:04 GMT</pubDate>
-      <description>恭喜@域优神@晃之@友人M9527等10位同学中奖，已私信通知，详情请点击抽奖查看。
-互动抽奖 
-亲爱的星临者，《蓝色星原：旅谣》公测福利一览现已公开。
+      <title>[碧蓝航线] #碧蓝航线# ◆家具贩售注意◆</title>
+      <link>https://www.bilibili.com/opus/1273834903596695572</link>
+      <guid isPermaLink="false">1273834903596695572</guid>
+      <pubDate>Mon, 23 Nov 2026 17:30:00 +0800</pubDate>
+      <description><![CDATA[<p>#碧蓝航线#
+◆家具贩售注意◆
+暖阳将悠然铺洒指尖，微风把惬意吹上心头~
+指挥官，一同享受假日中每分每秒的悠闲吧。
 
-登录即送66抽，探索与任务累计可得510抽+，完成指定任务还可免费获得五星角色与五星灵子。福利与获取方式已整理在下图中。
-
-※更多公测福利将在旅途中陆续呈现，等待星临者探索发现。 
-
-✦ 转发有奖 ✦ 
-叮——露米为星临者带来了好东西！关注@蓝色星原旅谣 并转发本内容，即有机会获得【现金648元】*1（10名）
-欢迎各位星临者参与！活动将于 11月23日 17:30 结束并开奖，敬请关注官方消息。
- 
-———————————————————</description>
-      <category>蓝色星原：旅谣</category>
-    </item>
-    <item>
-      <title>[蓝色星原：旅谣] 互动抽奖</title>
-      <link>https://www.bilibili.com/opus/1273827191946215441</link>
-      <guid isPermaLink="false">1273827191946215441</guid>
-      <pubDate>Mon, 23 Nov 2026 09:00:05 GMT</pubDate>
-      <description>恭喜@桉のHana@ypyyyc@战地记者影杜等10位同学中奖，已私信通知，详情请点击抽奖查看。
-互动抽奖 
-亲爱的星临者，《蓝色星原：旅谣》公测前瞻节目内容一览来啦。 
-点击查看公测前瞻节目回顾：https://www.bilibili.com/video/BV13Fsb6AEam/?spm_id_from=333.1387.list.card_archive.click&amp;vd_source=6039c7db64cdbc9116c4e42f4a89dea5 
-
-点开下图，即可快速了解本次前瞻的重点内容。
-
-※内容整理自本次前瞻直播，具体请以游戏内实际情况为准。 
-
-✦ 转发有奖 ✦ 
-叮——</description>
-      <category>蓝色星原：旅谣</category>
+「悠游假日」主题家具将于维护后登场~！
+贩售时间：2026年11月24日维护后~2026年12月9日23:59
+※相关钻石购买家具「假日饮品台」将于以上时间同期上架；
+※实装效果以游戏内为准。</p><img src="https://i0.hdslb.com/bfs/new_dyn/e981a07dc38de97709c687f0f346239b233114659.gif" alt="#碧蓝航线# ◆家具贩售注意◆"/>]]></description>
+      <category>碧蓝航线</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/e981a07dc38de97709c687f0f346239b233114659.gif" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/e981a07dc38de97709c687f0f346239b233114659.gif" medium="image"/>
     </item>
     <item>
       <title>[明日方舟：终末地] #明日方舟终末地##穿越甚大蘑境与你相逢# 管理员，旧水坝方向近期传回了若干难以用常规逻辑解释的消息。</title>
       <link>https://www.bilibili.com/opus/1273827172632494086</link>
       <guid isPermaLink="false">1273827172632494086</guid>
-      <pubDate>Mon, 23 Nov 2026 09:00:00 GMT</pubDate>
-      <description>#明日方舟终末地##穿越甚大蘑境与你相逢#
+      <pubDate>Mon, 23 Nov 2026 17:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#明日方舟终末地##穿越甚大蘑境与你相逢#
 管理员，旧水坝方向近期传回了若干难以用常规逻辑解释的消息。
 探索期间，请谨慎甄别环境信息，注意饮食安全。详情请查阅下方报道。
 ————————
 ▼//「穿越甚大蘑境与你相逢」版本将于11月25日上线！
 新干员【小刻】登场，全新区域「旧水坝」开放！全新活动「阵列建设：旧伤弥合」即将开启！
-前往下载：https://www.biligame.com/detail?id=108406</description>
+前往下载：https://www.biligame.com/detail?id=108406</p><img src="https://i0.hdslb.com/bfs/new_dyn/1c8ec2991687b9149914f54e4edf8a161265652806.png" alt="#明日方舟终末地##穿越甚大蘑境与你相逢# 管理员，旧水坝方向近期传回了若干难以用常规逻辑解释的消息。"/>]]></description>
       <category>明日方舟：终末地</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/1c8ec2991687b9149914f54e4edf8a161265652806.png" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/1c8ec2991687b9149914f54e4edf8a161265652806.png" medium="image"/>
+    </item>
+    <item>
+      <title>[碧蓝航线] #碧蓝航线# ◆新服开服庆典活动预告◆</title>
+      <link>https://www.bilibili.com/opus/1273827172644028425</link>
+      <guid isPermaLink="false">1273827172644028425</guid>
+      <pubDate>Mon, 23 Nov 2026 17:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#碧蓝航线#
+◆新服开服庆典活动预告◆
+11月24日维护后，安卓新港区「永夜巡弋」与安卓渠道新港区「独角鲸行动」将正式开启！
+司令部为各位指挥官准备了丰富的新服开服庆典活动，多重超值礼包也将同期限时上架贩售~
+惊喜与福利加码，欢迎指挥官与港区成员们并肩携手，快乐启航！
+
+※更多活动详情可查阅以下长图~</p><img src="https://i0.hdslb.com/bfs/new_dyn/3986da503aa28de3a59826e405315561233114659.png" alt="#碧蓝航线# ◆新服开服庆典活动预告◆"/>]]></description>
+      <category>碧蓝航线</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/3986da503aa28de3a59826e405315561233114659.png" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/3986da503aa28de3a59826e405315561233114659.png" medium="image"/>
+    </item>
+    <item>
+      <title>[碧蓝航线] 《碧蓝航线》「真理学院的转校生」活动前瞻</title>
+      <link>https://www.bilibili.com/video/BV14QynzPEUj</link>
+      <guid isPermaLink="false">1273811914786340864</guid>
+      <pubDate>Mon, 23 Nov 2026 16:00:48 +0800</pubDate>
+      <description><![CDATA[<p>11月24日维护后~12月10日维护，大型活动「真理学院的转校生」开启。详情可查阅维护公告。
+更多信息可前往：https://game.bilibili.com/blhx/blzlxydzxs/h5/
+
+&gt;&gt;全新角色登场&lt;&lt;
+莫洛托夫-超稀有
+锡诺普-超稀有
+玛丽亚皇后-精锐
+
+&gt;&gt;全新换装限时登场&lt;&lt;
+时间：11月24日维护后~11月29日23:59
+莫洛托夫-「水上微醺」【Live2D+】
+克利奥佩特拉-「清凉的祝福试炼」【特殊动态立绘】
+锡诺普-「沉溺妄想」【动态立绘】
+玛丽亚皇后-「摇曳风情」
+
+</p><img src="https://i1.hdslb.com/bfs/archive/5667e55c285f76faa44c880890d0ef00d5c60a3c.jpg" alt="《碧蓝航线》「真理学院的转校生」活动前瞻"/>]]></description>
+      <category>碧蓝航线</category>
+      <enclosure url="https://i1.hdslb.com/bfs/archive/5667e55c285f76faa44c880890d0ef00d5c60a3c.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i1.hdslb.com/bfs/archive/5667e55c285f76faa44c880890d0ef00d5c60a3c.jpg" medium="image"/>
     </item>
     <item>
       <title>[异环] 海特洛衣橱 | Exe时装展示</title>
       <link>https://www.bilibili.com/opus/1273811710780637191</link>
       <guid isPermaLink="false">1273811710780637191</guid>
-      <pubDate>Mon, 23 Nov 2026 08:00:00 GMT</pubDate>
-      <description>#致电空想迷数# #异环Exe# #异环#
+      <pubDate>Mon, 23 Nov 2026 16:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#致电空想迷数# #异环Exe# #异环#
 「听着雨声，有些人工作效率会提高，有些人只觉得聒噪。我都无所谓。」 
 
-超自然都市开放世界RPG《异环》全新版本「致电，空想迷数」现已开启！立刻下载&gt;&gt;&gt;https://www.biligame.com/detail/?id=111795</description>
+超自然都市开放世界RPG《异环》全新版本「致电，空想迷数」现已开启！立刻下载&gt;&gt;&gt;https://www.biligame.com/detail/?id=111795</p><img src="https://i0.hdslb.com/bfs/new_dyn/cf68caf602297366517686bda15177db3546636978489848.jpg" alt="海特洛衣橱 | Exe时装展示"/>]]></description>
       <category>异环</category>
-    </item>
-    <item>
-      <title>[蓝色星原：旅谣] 互动抽奖</title>
-      <link>https://www.bilibili.com/opus/1273780797696901157</link>
-      <guid isPermaLink="false">1273780797696901157</guid>
-      <pubDate>Mon, 23 Nov 2026 06:00:03 GMT</pubDate>
-      <description>互动抽奖 
-角色档案 | 涂山小玉
-
-在普罗米利亚的旅途中，每一次相遇都值得记录。
-这一次，星临者遇见了「涂山小玉」。
-属于这场相遇的故事，也将从此刻开始。
-「世间百业，因果相续。」 
-
-✦ 转发有奖 ✦ 
-叮——露米为星临者带来了好东西！关注@蓝色星原旅谣 并转发本内容，即有机会获得【摸摸耳朵小立牌-涂山小玉款】*1（10名）
-欢迎各位星临者参与！活动将于 11月27日 17:00 结束并开奖，敬请关注官方消息。
- 
-———————————————————
-《蓝色星原：旅谣》11/26正式公测！
-顶级美术！海量福利！各种美少女角色、全新载具、灵子、星彩奇波等奖励等你拿！ 
-✦《蓝色星原：旅谣</description>
-      <category>蓝色星原：旅谣</category>
-    </item>
-    <item>
-      <title>[明日方舟：终末地] 互动抽奖 #明日方舟终末地##丹青渡#</title>
-      <link>https://www.bilibili.com/opus/1273757609221947394</link>
-      <guid isPermaLink="false">1273757609221947394</guid>
-      <pubDate>Mon, 23 Nov 2026 04:30:04 GMT</pubDate>
-      <description>恭喜@汇伞@とうかいていすめらぎ@Sylvage等10位同学中奖，已私信通知，详情请点击抽奖查看。
-互动抽奖 #明日方舟终末地##丹青渡#
-美味探店 | 缘缘庄客栈
-
-精选好食材，地道好滋味。
-缘缘庄客栈，人气口碑飙升中！
-众人实探，好评如潮！
-
-🍽️ 快来评论区分享推荐菜品吧！
-
-关注@明日方舟终末地 并转发此动态，我们将于11月23日 抽取10位管理员送出【明日方舟：终末地-山团团毛绒挂件-随机款】。
-————————
-▼ 「丹青渡」核心章节版本现已开启！
-新干员「祀」「明河」依次登场，全新区域「祀的画」开放！全新活动「烟火生缘」现已开启！
-前往下载：https://www.biliga</description>
-      <category>明日方舟：终末地</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/cf68caf602297366517686bda15177db3546636978489848.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/cf68caf602297366517686bda15177db3546636978489848.jpg" medium="image"/>
     </item>
     <item>
       <title>[明日方舟：终末地] #明日方舟终末地##穿越甚大蘑境与你相逢# 《明日方舟：终末地》表情包#11即将上线微信、QQ平台。 管理员可前往上述…</title>
       <link>https://www.bilibili.com/opus/1273757594139230214</link>
       <guid isPermaLink="false">1273757594139230214</guid>
-      <pubDate>Mon, 23 Nov 2026 04:30:00 GMT</pubDate>
-      <description>#明日方舟终末地##穿越甚大蘑境与你相逢#
+      <pubDate>Mon, 23 Nov 2026 12:30:00 +0800</pubDate>
+      <description><![CDATA[<p>#明日方舟终末地##穿越甚大蘑境与你相逢#
 《明日方舟：终末地》表情包#11即将上线微信、QQ平台。 管理员可前往上述平台搜索“终末地表情包11”下载使用。
 
 ————————
 ▼//「穿越甚大蘑境与你相逢」版本将于11月25日上线！
 新干员【小刻】登场，全新区域「旧水坝」开放！全新活动「阵列建设：旧伤弥合」即将开启！
-前往下载：https://www.biligame.com/detail?id=108406</description>
+前往下载：https://www.biligame.com/detail?id=108406</p><img src="https://i0.hdslb.com/bfs/new_dyn/eaf742201fbb0b5614b93bd93440133b1265652806.jpg" alt="#明日方舟终末地##穿越甚大蘑境与你相逢# 《明日方舟：终末地》表情包#11即将上线微信、QQ平台。 管理员可前往上述…"/>]]></description>
       <category>明日方舟：终末地</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/eaf742201fbb0b5614b93bd93440133b1265652806.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/eaf742201fbb0b5614b93bd93440133b1265652806.jpg" medium="image"/>
     </item>
     <item>
       <title>[明日方舟：终末地] 塔卫二地理志——菇菇绕坝坝</title>
       <link>https://www.bilibili.com/video/BV1hhy5zWEVC</link>
       <guid isPermaLink="false">1273749921220001843</guid>
-      <pubDate>Mon, 23 Nov 2026 04:00:14 GMT</pubDate>
-      <description>菇菇绕坝坝，蜜饼除菌子</description>
+      <pubDate>Mon, 23 Nov 2026 12:00:14 +0800</pubDate>
+      <description><![CDATA[<p>菇菇绕坝坝，蜜饼除菌子</p><img src="https://i1.hdslb.com/bfs/archive/bb862d2b3e87c87f2d52c19e624a42966784e77b.jpg" alt="塔卫二地理志——菇菇绕坝坝"/>]]></description>
       <category>明日方舟：终末地</category>
+      <enclosure url="https://i1.hdslb.com/bfs/archive/bb862d2b3e87c87f2d52c19e624a42966784e77b.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i1.hdslb.com/bfs/archive/bb862d2b3e87c87f2d52c19e624a42966784e77b.jpg" medium="image"/>
     </item>
     <item>
       <title>[原神] #原神# #莱欧斯利# #生日快乐# 每份礼物都贴着不一样的贴纸啊，还有独家定制的糖霜饼干？</title>
       <link>https://www.bilibili.com/opus/1273749863246331908</link>
       <guid isPermaLink="false">1273749863246331908</guid>
-      <pubDate>Mon, 23 Nov 2026 04:00:00 GMT</pubDate>
-      <description>#原神# #莱欧斯利# #生日快乐# 
+      <pubDate>Mon, 23 Nov 2026 12:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#原神# #莱欧斯利# #生日快乐# 
 
 每份礼物都贴着不一样的贴纸啊，还有独家定制的糖霜饼干？
 让你们如此费心，我都有点舍不得下口了。
 不过要是配上我刚刚冲泡好的红茶，二者加在一起的风味一定更为美妙，你觉得呢？
  
-感谢画师：tokki 绘制贺图</description>
+感谢画师：tokki 绘制贺图</p><img src="https://i0.hdslb.com/bfs/new_dyn/887df6c1954787763bd73aff73269fe9401742377.jpg" alt="#原神# #莱欧斯利# #生日快乐# 每份礼物都贴着不一样的贴纸啊，还有独家定制的糖霜饼干？"/>]]></description>
       <category>原神</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/887df6c1954787763bd73aff73269fe9401742377.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/887df6c1954787763bd73aff73269fe9401742377.jpg" medium="image"/>
     </item>
     <item>
       <title>[绝区零] #绝区零# #重返天空的旅程# 「数据悬赏-实战模拟」活动说明</title>
       <link>https://www.bilibili.com/opus/1273749863225360393</link>
       <guid isPermaLink="false">1273749863225360393</guid>
-      <pubDate>Mon, 23 Nov 2026 04:00:00 GMT</pubDate>
-      <description>#绝区零# #重返天空的旅程#
+      <pubDate>Mon, 23 Nov 2026 12:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#绝区零# #重返天空的旅程#
 「数据悬赏-实战模拟」活动说明
  
 【活动时间】
@@ -744,15 +695,17 @@ https://www.bilibili.com/video/BV1j3yHznECD
    
 —— 欢迎来到罗斯凯利法！——
 ▼《绝区零》3.4版本「长日终尽」将于12月2日上线！
-3.4版本「决战于黎明之前」预约活动现已开启，参与版本预约&amp;签到活动，可领取6</description>
+3.4版本「决战于黎明之前」预约活动现已开启，参与版本预约&amp;签到活动，可领取6</p><img src="https://i0.hdslb.com/bfs/new_dyn/da379afcf2916277c8fb5317647238311636034895.jpg" alt="#绝区零# #重返天空的旅程# 「数据悬赏-实战模拟」活动说明"/>]]></description>
       <category>绝区零</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/da379afcf2916277c8fb5317647238311636034895.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/da379afcf2916277c8fb5317647238311636034895.jpg" medium="image"/>
     </item>
     <item>
       <title>[明日方舟：终末地] #明日方舟终末地##穿越甚大蘑境与你相逢# 亲爱的管理员：</title>
       <link>https://www.bilibili.com/opus/1273749863230603283</link>
       <guid isPermaLink="false">1273749863230603283</guid>
-      <pubDate>Mon, 23 Nov 2026 04:00:00 GMT</pubDate>
-      <description>#明日方舟终末地##穿越甚大蘑境与你相逢#
+      <pubDate>Mon, 23 Nov 2026 12:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#明日方舟终末地##穿越甚大蘑境与你相逢#
 亲爱的管理员：
 《明日方舟：终末地》「穿越甚大蘑境与你相逢」版本预下载现已开启，管理员可提前下载PC端、移动端及PlayStation®5的部分游戏资源，在版本更新维护结束后，更快地进入游戏。
 此外，我们计划将于2026/11/25 06:00（UTC+8）开始对游戏客户端进行版本更新停机维护，维护完成后将更新至全新版本「穿越甚大蘑境与你相逢」。
@@ -760,27 +713,31 @@ https://www.bilibili.com/video/BV1j3yHznECD
 
 ▼//预下载指引
 ■ PC端
-打开鹰角</description>
+打开鹰角</p><img src="https://i0.hdslb.com/bfs/new_dyn/d539f9dc453fb3fd08561b667b555e071265652806.jpg" alt="#明日方舟终末地##穿越甚大蘑境与你相逢# 亲爱的管理员："/>]]></description>
       <category>明日方舟：终末地</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/d539f9dc453fb3fd08561b667b555e071265652806.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/d539f9dc453fb3fd08561b667b555e071265652806.jpg" medium="image"/>
     </item>
     <item>
       <title>[异环] 离线的算式 | 特惠礼包</title>
       <link>https://www.bilibili.com/opus/1273749863191805956</link>
       <guid isPermaLink="false">1273749863191805956</guid>
-      <pubDate>Mon, 23 Nov 2026 04:00:00 GMT</pubDate>
-      <description>#致电空想迷数# #异环Exe# #异环#
+      <pubDate>Mon, 23 Nov 2026 12:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#致电空想迷数# #异环Exe# #异环#
 全新S级角色「Exe」即将登场！我们为鉴定师带来了「离线的算式」特惠礼包一览。
 *更多礼包详情，鉴定师可于更新维护后前往游戏内查看。 
 
-超自然都市开放世界RPG《异环》全新版本「致电，空想迷数」现已开启！立刻下载&gt;&gt;&gt;https://www.biligame.com/detail/?id=111795</description>
+超自然都市开放世界RPG《异环》全新版本「致电，空想迷数」现已开启！立刻下载&gt;&gt;&gt;https://www.biligame.com/detail/?id=111795</p><img src="https://i0.hdslb.com/bfs/new_dyn/51005b0a536d68c235f53838cc8da2dd3546636978489848.jpg" alt="离线的算式 | 特惠礼包"/>]]></description>
       <category>异环</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/51005b0a536d68c235f53838cc8da2dd3546636978489848.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/51005b0a536d68c235f53838cc8da2dd3546636978489848.jpg" medium="image"/>
     </item>
     <item>
       <title>[鸣潮] #鸣潮# #鸣潮3.8版本# 你知道，梦终有一天会醒，但回忆中的事物会一直闪耀。</title>
       <link>https://www.bilibili.com/opus/1273749863207534596</link>
       <guid isPermaLink="false">1273749863207534596</guid>
-      <pubDate>Mon, 23 Nov 2026 04:00:00 GMT</pubDate>
-      <description>#鸣潮# #鸣潮3.8版本#
+      <pubDate>Mon, 23 Nov 2026 12:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#鸣潮# #鸣潮3.8版本#
 你知道，梦终有一天会醒，但回忆中的事物会一直闪耀。
 
 —————————————————— 
@@ -791,67 +748,58 @@ https://www.bilibili.com/video/BV1j3yHznECD
 &gt;&gt;&gt;前往《第二索拉：未名之梦》主题网站查看飞讯：https://diersuola.kurogames-global.com/?source=bilibili
 ——————————————————
 《鸣潮》3.8版本「旧梦凋零的百合」已开启！
-下载游戏：https://www.biligame.com/detail/?id=108820</description>
+下载游戏：https://www.biligame.com/detail/?id=108820</p><img src="https://i0.hdslb.com/bfs/new_dyn/d3e65664655eb767f89086ff3c816e281955897084.png" alt="#鸣潮# #鸣潮3.8版本# 你知道，梦终有一天会醒，但回忆中的事物会一直闪耀。"/>]]></description>
       <category>鸣潮</category>
-    </item>
-    <item>
-      <title>[明日方舟：终末地] 互动抽奖 #明日方舟终末地##穿越甚大蘑境与你相逢#</title>
-      <link>https://www.bilibili.com/opus/1273735082095411202</link>
-      <guid isPermaLink="false">1273735082095411202</guid>
-      <pubDate>Mon, 23 Nov 2026 03:02:39 GMT</pubDate>
-      <description>互动抽奖 #明日方舟终末地##穿越甚大蘑境与你相逢#
-《明日方舟：终末地》干员战斗演示 - 小刻 现已发布！
-https://www.bilibili.com/video/BV1aty5zxEYc/ 
-准备出发啦，干粮不够的话，小刻可以分点给你！
-
-关注@明日方舟终末地 并转发此动态，我们将于12月23日抽取10位管理员送出【明日方舟：终末地-角色亚克力立牌-小刻】。
-————————
-▼//「穿越甚大蘑境与你相逢」版本将于11月25日上线！
-新干员【小刻】登场，全新区域「旧水坝」开放！全新活动「阵列建设：旧伤弥合」即将开启！
-前往下载：https://www.biligame.com/det</description>
-      <category>明日方舟：终末地</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/d3e65664655eb767f89086ff3c816e281955897084.png" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/d3e65664655eb767f89086ff3c816e281955897084.png" medium="image"/>
     </item>
     <item>
       <title>[明日方舟：终末地] 《明日方舟：终末地》干员战斗演示 - 小刻</title>
       <link>https://www.bilibili.com/video/BV1aty5zxEYc</link>
       <guid isPermaLink="false">1273734424965414995</guid>
-      <pubDate>Mon, 23 Nov 2026 03:00:06 GMT</pubDate>
-      <description>准备出发啦，干粮不够的话，小刻可以分点给你！</description>
+      <pubDate>Mon, 23 Nov 2026 11:00:06 +0800</pubDate>
+      <description><![CDATA[<p>准备出发啦，干粮不够的话，小刻可以分点给你！</p><img src="https://i2.hdslb.com/bfs/archive/524ab24e12399b635abbe3c57a80dbb55c8de6cd.jpg" alt="《明日方舟：终末地》干员战斗演示 - 小刻"/>]]></description>
       <category>明日方舟：终末地</category>
+      <enclosure url="https://i2.hdslb.com/bfs/archive/524ab24e12399b635abbe3c57a80dbb55c8de6cd.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i2.hdslb.com/bfs/archive/524ab24e12399b635abbe3c57a80dbb55c8de6cd.jpg" medium="image"/>
     </item>
     <item>
       <title>[异环] Exe时装 | 不逝于雨</title>
       <link>https://www.bilibili.com/opus/1273734401360920594</link>
       <guid isPermaLink="false">1273734401360920594</guid>
-      <pubDate>Mon, 23 Nov 2026 03:00:00 GMT</pubDate>
-      <description>#致电空想迷数# #异环Exe# #异环#
+      <pubDate>Mon, 23 Nov 2026 11:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#致电空想迷数# #异环Exe# #异环#
 特别的户外防水服饰，可能会导致被判定为雨夜的杀人鬼或死神一类的角色。
 ——洗刷不去的颜色所代表的是，绝不容许消逝的一切瞬间。 
 
-超自然都市开放世界RPG《异环》全新版本「致电，空想迷数」现已开启！立刻下载&gt;&gt;&gt;https://www.biligame.com/detail/?id=111795</description>
+超自然都市开放世界RPG《异环》全新版本「致电，空想迷数」现已开启！立刻下载&gt;&gt;&gt;https://www.biligame.com/detail/?id=111795</p><img src="https://i0.hdslb.com/bfs/new_dyn/2b88a22690781493c1684eb8ba29c8003546636978489848.jpg" alt="Exe时装 | 不逝于雨"/>]]></description>
       <category>异环</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/2b88a22690781493c1684eb8ba29c8003546636978489848.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/2b88a22690781493c1684eb8ba29c8003546636978489848.jpg" medium="image"/>
     </item>
     <item>
       <title>[蔚蓝档案] #蔚蓝档案# 全新咖啡厅套装【狂猎校园】即将更新！</title>
       <link>https://www.bilibili.com/opus/1273734401369309202</link>
       <guid isPermaLink="false">1273734401369309202</guid>
-      <pubDate>Mon, 23 Nov 2026 03:00:00 GMT</pubDate>
-      <description>#蔚蓝档案#
+      <pubDate>Mon, 23 Nov 2026 11:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#蔚蓝档案#
 全新咖啡厅套装【狂猎校园】即将更新！
 新家具总计45种，其中部分可通过【制造】、【家具自选箱】等方式获取！
 
 ■ 套装更新时间
 11月26日 维护结束后
 
-※【狂猎校园】家具套装具体信息可通过游戏内公告查看。</description>
+※【狂猎校园】家具套装具体信息可通过游戏内公告查看。</p><img src="https://i0.hdslb.com/bfs/new_dyn/e5992a43a194f6d2e7039dbe7889ed313493265644980448.png" alt="#蔚蓝档案# 全新咖啡厅套装【狂猎校园】即将更新！"/>]]></description>
       <category>蔚蓝档案</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/e5992a43a194f6d2e7039dbe7889ed313493265644980448.png" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/e5992a43a194f6d2e7039dbe7889ed313493265644980448.png" medium="image"/>
     </item>
     <item>
       <title>[蓝色星原：旅谣] 《蓝色星原：旅谣》公测倒计时3天！</title>
       <link>https://www.bilibili.com/opus/1273726670379941928</link>
       <guid isPermaLink="false">1273726670379941928</guid>
-      <pubDate>Mon, 23 Nov 2026 02:30:00 GMT</pubDate>
-      <description>《蓝色星原：旅谣》公测倒计时3天！
+      <pubDate>Mon, 23 Nov 2026 10:30:00 +0800</pubDate>
+      <description><![CDATA[<p>《蓝色星原：旅谣》公测倒计时3天！
 
 星光指引的方向，通往未知，也通往相遇。
 普罗米利亚大陆，等待你的到来。 
@@ -860,15 +808,17 @@ https://www.bilibili.com/video/BV1aty5zxEYc/
 《蓝色星原：旅谣》11/26正式公测！
 顶级美术！海量福利！各种美少女角色、全新载具、灵子、星彩奇波等奖励等你拿！ 
 ✦《蓝色星原：旅谣》预约地址：https://www.biligame.com/detail/?id=111392&amp;spm_id_from=333.1369.0.0
-#蓝色星原旅谣# #蓝色星原1126正式公测#</description>
+#蓝色星原旅谣# #蓝色星原1126正式公测#</p><img src="https://i0.hdslb.com/bfs/new_dyn/f3723dfad9f1e667b366ab2904c1833a3546569016085336.png" alt="《蓝色星原：旅谣》公测倒计时3天！"/>]]></description>
       <category>蓝色星原：旅谣</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/f3723dfad9f1e667b366ab2904c1833a3546569016085336.png" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/f3723dfad9f1e667b366ab2904c1833a3546569016085336.png" medium="image"/>
     </item>
     <item>
       <title>[崩坏：因缘精灵] #崩坏因缘精灵# #幸福测试# 「幸福测试」资格发放及预下载开启</title>
       <link>https://www.bilibili.com/opus/1273718939472363542</link>
       <guid isPermaLink="false">1273718939472363542</guid>
-      <pubDate>Mon, 23 Nov 2026 02:00:00 GMT</pubDate>
-      <description>#崩坏因缘精灵# #幸福测试#
+      <pubDate>Mon, 23 Nov 2026 10:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#崩坏因缘精灵# #幸福测试#
 「幸福测试」资格发放及预下载开启 
 
 亲爱的因缘师：
@@ -881,15 +831,17 @@ https://www.bilibili.com/video/BV1aty5zxEYc/
 ▌bilibili资格查询方式
 •请查看bilibili消息-站内私信和短信是否收到相关通知。
 •通过bilibili安卓端App或网页端，进入游戏中心《崩坏：因缘精灵》游戏详情页面查询。如您获得资格，可在页面上下载测试包体。
-※若在游戏详情页面查询到</description>
+※若在游戏详情页面查询到</p><img src="https://i0.hdslb.com/bfs/new_dyn/19d19d1a7728aef7c020cb3d5651b9053546886017387331.jpg" alt="#崩坏因缘精灵# #幸福测试# 「幸福测试」资格发放及预下载开启"/>]]></description>
       <category>崩坏：因缘精灵</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/19d19d1a7728aef7c020cb3d5651b9053546886017387331.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/19d19d1a7728aef7c020cb3d5651b9053546886017387331.jpg" medium="image"/>
     </item>
     <item>
       <title>[明日方舟：终末地] #明日方舟终末地##穿越甚大蘑境与你相逢# 「阵列建设：旧伤弥合」活动介绍</title>
       <link>https://www.bilibili.com/opus/1273479280285712389</link>
       <guid isPermaLink="false">1273479280285712389</guid>
-      <pubDate>Sun, 22 Nov 2026 10:30:00 GMT</pubDate>
-      <description>#明日方舟终末地##穿越甚大蘑境与你相逢#
+      <pubDate>Sun, 22 Nov 2026 18:30:00 +0800</pubDate>
+      <description><![CDATA[<p>#明日方舟终末地##穿越甚大蘑境与你相逢#
 「阵列建设：旧伤弥合」活动介绍
 
 北部禁区尚有大量分支裂隙带，宏山科学院正在规划北部禁区后续的重建工作。
@@ -897,26 +849,30 @@ https://www.bilibili.com/video/BV1aty5zxEYc/
 ————————
 ▼//「穿越甚大蘑境与你相逢」版本将于11月25日上线！
 新干员【小刻】登场，全新区域「旧水坝」开放！全新活动「阵列建设：旧伤弥合」即将开启！
-前往下载：https://www.biligame.com/detail?id=108406</description>
+前往下载：https://www.biligame.com/detail?id=108406</p><img src="https://i0.hdslb.com/bfs/new_dyn/45daa8062ffeb56c3d29daa1bdd397921265652806.jpg" alt="#明日方舟终末地##穿越甚大蘑境与你相逢# 「阵列建设：旧伤弥合」活动介绍"/>]]></description>
       <category>明日方舟：终末地</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/45daa8062ffeb56c3d29daa1bdd397921265652806.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/45daa8062ffeb56c3d29daa1bdd397921265652806.jpg" medium="image"/>
     </item>
     <item>
       <title>[原神] #原神# #兹白# 为守护故土，兹白曾以身对抗天罚。幸而，她最终还是循着月光，回到了她所珍爱的故土。</title>
       <link>https://www.bilibili.com/opus/1273471549368696833</link>
       <guid isPermaLink="false">1273471549368696833</guid>
-      <pubDate>Sun, 22 Nov 2026 10:00:00 GMT</pubDate>
-      <description>#原神# #兹白# 
+      <pubDate>Sun, 22 Nov 2026 18:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#原神# #兹白# 
 
 为守护故土，兹白曾以身对抗天罚。幸而，她最终还是循着月光，回到了她所珍爱的故土。
-旅行者好呀，「华黍由仪」祈愿将于11月24日18:00开启，届时「驹隙隐泉·兹白(岩)」的祈愿获取概率将大幅提升！</description>
+旅行者好呀，「华黍由仪」祈愿将于11月24日18:00开启，届时「驹隙隐泉·兹白(岩)」的祈愿获取概率将大幅提升！</p><img src="https://i0.hdslb.com/bfs/new_dyn/3d635f591555e0293169d7c266fe57a3401742377.jpg" alt="#原神# #兹白# 为守护故土，兹白曾以身对抗天罚。幸而，她最终还是循着月光，回到了她所珍爱的故土。"/>]]></description>
       <category>原神</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/3d635f591555e0293169d7c266fe57a3401742377.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/3d635f591555e0293169d7c266fe57a3401742377.jpg" medium="image"/>
     </item>
     <item>
       <title>[绝区零] #绝区零# #长日终尽# #绝区零挽昼# 🎁决战于黎明之前丨薪火之影挑战现已开启</title>
       <link>https://www.bilibili.com/opus/1273471549317316616</link>
       <guid isPermaLink="false">1273471549317316616</guid>
-      <pubDate>Sun, 22 Nov 2026 10:00:00 GMT</pubDate>
-      <description>#绝区零# #长日终尽# #绝区零挽昼# 
+      <pubDate>Sun, 22 Nov 2026 18:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#绝区零# #长日终尽# #绝区零挽昼# 
 🎁决战于黎明之前丨薪火之影挑战现已开启
   
 亲爱的绳匠，梦现追影第三关现已解锁，快来看看艾尔妲整理的映像谜题吧！你能全部答对吗？
@@ -926,15 +882,17 @@ https://www.bilibili.com/video/BV1aty5zxEYc/
 ▼《绝区零》3.4版本「长日终尽」将于12月2日上线！
 3.4版本「决战于黎明之前」预约活动现已开启，参与版本预约&amp;签到活动，可领取640菲林！
 版本期间，登录即领联动限定S级代理人「知更鸟」及其养成材料，参与签到即可领取加密母带×10、菲林×1840、配饰：「帕姆」趴趴等奖励，参与活动还可免费领取邦布「帕姆」。
-bilibili安卓端下载地址：ht</description>
+bilibili安卓端下载地址：ht</p><img src="https://i0.hdslb.com/bfs/new_dyn/e2e83486af2ecb91b9827ea8059aae481636034895.jpg" alt="#绝区零# #长日终尽# #绝区零挽昼# 🎁决战于黎明之前丨薪火之影挑战现已开启"/>]]></description>
       <category>绝区零</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/e2e83486af2ecb91b9827ea8059aae481636034895.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/e2e83486af2ecb91b9827ea8059aae481636034895.jpg" medium="image"/>
     </item>
     <item>
       <title>[明日方舟：终末地] #明日方舟终末地##穿越甚大蘑境与你相逢# 《明日方舟：终末地》「穿越甚大蘑境与你相逢」版本内容说明</title>
       <link>https://www.bilibili.com/opus/1273471549311025159</link>
       <guid isPermaLink="false">1273471549311025159</guid>
-      <pubDate>Sun, 22 Nov 2026 10:00:00 GMT</pubDate>
-      <description>#明日方舟终末地##穿越甚大蘑境与你相逢#
+      <pubDate>Sun, 22 Nov 2026 18:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#明日方舟终末地##穿越甚大蘑境与你相逢#
 《明日方舟：终末地》「穿越甚大蘑境与你相逢」版本内容说明
 
 《明日方舟：终末地》新版本「穿越甚大蘑境与你相逢」将于11月25日正式开启！
@@ -944,15 +902,17 @@ bilibili安卓端下载地址：ht</description>
 ————————
 ▼//「穿越甚大蘑境与你相逢」版本将于11月25日上线！
 新干员【小刻】登场，全新区域「旧水坝」开放！全新活动「阵列建设：旧伤弥合」即将开启！
-前往下载：https://www.biligame.com/detail?id=108406</description>
+前往下载：https://www.biligame.com/detail?id=108406</p><img src="https://i0.hdslb.com/bfs/new_dyn/42f471f1ef1fba0f658807bc6eb3d11d1265652806.jpg" alt="#明日方舟终末地##穿越甚大蘑境与你相逢# 《明日方舟：终末地》「穿越甚大蘑境与你相逢」版本内容说明"/>]]></description>
       <category>明日方舟：终末地</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/42f471f1ef1fba0f658807bc6eb3d11d1265652806.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/42f471f1ef1fba0f658807bc6eb3d11d1265652806.jpg" medium="image"/>
     </item>
     <item>
       <title>[蓝色星原：旅谣] 星旅指南 | Vol.05</title>
       <link>https://www.bilibili.com/opus/1273471549371842560</link>
       <guid isPermaLink="false">1273471549371842560</guid>
-      <pubDate>Sun, 22 Nov 2026 10:00:00 GMT</pubDate>
-      <description>星旅指南 | Vol.05
+      <pubDate>Sun, 22 Nov 2026 18:00:00 +0800</pubDate>
+      <description><![CDATA[<p>星旅指南 | Vol.05
 
 “危机讨伐”
 
@@ -962,75 +922,17 @@ bilibili安卓端下载地址：ht</description>
 《蓝色星原：旅谣》11/26正式公测！
 顶级美术！海量福利！各种美少女角色、全新载具、灵子、星彩奇波等奖励等你拿！ 
 ✦《蓝色星原：旅谣》预约地址：https://www.biligame.com/detail/?id=111392&amp;spm_id_from=333.1369.0.0
-#蓝色星原旅谣# #蓝色星原1126正式公测#</description>
+#蓝色星原旅谣# #蓝色星原1126正式公测#</p><img src="https://i0.hdslb.com/bfs/new_dyn/939b171c5f880daed14e833ad67783263546569016085336.png" alt="星旅指南 | Vol.05"/>]]></description>
       <category>蓝色星原：旅谣</category>
-    </item>
-    <item>
-      <title>[蓝色星原：旅谣] 互动抽奖</title>
-      <link>https://www.bilibili.com/opus/1273463842025766950</link>
-      <guid isPermaLink="false">1273463842025766950</guid>
-      <pubDate>Sun, 22 Nov 2026 09:30:06 GMT</pubDate>
-      <description>恭喜@萌葉_@甜菜根武士@叮当猫油狸猫等10位同学中奖，已私信通知，详情请点击抽奖查看。
-互动抽奖  
-今天坐点啥 | 「神辉圣蒜鸟」
-
-本期《今天坐点啥》，寒悠悠要给大家推荐的载具，不一定是坐着最舒服的，不一定是动起来最快的，但是，一定是最有表达力的！
-
-无需多言，无论是在新芽山谷的兽人村落，还是在弗利斯的繁华街道，神辉圣蒜鸟只要出现在人来人往的道路上，就一定是最吸睛的那个！
-
-据说每一个坐过「神辉圣蒜鸟」的人都说，「神辉圣蒜鸟」带给他们一种如同时间冻结般的沉浸感。我有时忍不住想，那些有着诸多著作流传至今的普罗米利亚名人，会不会正是在「神辉圣蒜鸟」的原型上忘我地思考，才能孜孜不倦地写作呢？
-</description>
-      <category>蓝色星原：旅谣</category>
-    </item>
-    <item>
-      <title>[蓝色星原：旅谣] 互动抽奖</title>
-      <link>https://www.bilibili.com/opus/1273456106795958344</link>
-      <guid isPermaLink="false">1273456106795958344</guid>
-      <pubDate>Sun, 22 Nov 2026 09:00:05 GMT</pubDate>
-      <description>恭喜@bili_78229366650@不喜欢吃饭的饭桶@柒丶不柒等10位同学中奖，已私信通知，详情请点击抽奖查看。
-互动抽奖 
-今天坐点啥 | 「砂糖面团号」
-
-普罗米利亚最权威的载具推荐，《今天坐点啥》，今日更新！承蒙各位读者关照！
-
-本期要介绍的，也是一款以奇波为灵感的载具：「砂糖面团号」。不难看出，它的灵感来源于备受欢迎的奇波大明星，小星喵。无论是在哪一片天空，被小星喵的星光环绕的「砂糖面团号」总是璀璨夺目。
-
-「砂糖面团号」最大的特色，就是那张弗利斯风格的柔软沙发。放眼全普罗米利亚，「砂糖面团号」也是最舒适的乘坐体验的有力竞争者。
-
-这就是「砂糖面团号」，为您带来云中漫步的感官冲击。</description>
-      <category>蓝色星原：旅谣</category>
-    </item>
-    <item>
-      <title>[白银之城] 角色扉页 |「蓝舌·军师」</title>
-      <link>https://www.bilibili.com/opus/1273409729740144645</link>
-      <guid isPermaLink="false">1273409729740144645</guid>
-      <pubDate>Sun, 22 Nov 2026 06:00:07 GMT</pubDate>
-      <description>恭喜@-尾骨-@一块钱买不来的窝头@百春kksk等10位同学中奖，已私信通知，详情请点击抽奖查看。
-互动抽奖 #白银之城##白银之城突袭上线##白银之城预抽卡送5080##蓝舌# 
-角色扉页 Title Page
-|| 蓝舌·军师
-
-—— 口蜜剑 The Honeyed Tongue ——
-
---
-“在下蓝舌，棱地帮的编外顾问，擅长处理人际纠纷和一些见不得人的小麻烦……合作愉快。”
---
-
-自血腥游戏中死里逃生，这只异国的爬虫流落到白银城。
-幸而中岛的阴影足够深沉，使他不至在阳光下暴露闪亮的鳞片。
-时过境迁，流淌于血液的美好秉性日渐冷却。
-
-如今，他混迹于温血的群兽之间，凭毒刃与诡计谋生。
-
-</description>
-      <category>白银之城</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/939b171c5f880daed14e833ad67783263546569016085336.png" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/939b171c5f880daed14e833ad67783263546569016085336.png" medium="image"/>
     </item>
     <item>
       <title>[蓝色星原：旅谣] 予你，启程的祝福 | 涂山小玉篇</title>
       <link>https://www.bilibili.com/opus/1273409701779865601</link>
       <guid isPermaLink="false">1273409701779865601</guid>
-      <pubDate>Sun, 22 Nov 2026 06:00:00 GMT</pubDate>
-      <description>予你，启程的祝福 | 涂山小玉篇
+      <pubDate>Sun, 22 Nov 2026 14:00:00 +0800</pubDate>
+      <description><![CDATA[<p>予你，启程的祝福 | 涂山小玉篇
 
 「牵丝绕指，终须有结。」
 「啊，是桃花笺！呼~快去有情人身边~」
@@ -1043,94 +945,47 @@ bilibili安卓端下载地址：ht</description>
 ———————————————————
 《蓝色星原：旅谣》11/26正式公测！
 顶级美术！海量福利！各种美少女角色、全新载具、灵子、星彩奇波等奖励等你拿！ 
-✦《蓝色星原：旅谣》预约地址：https://www.biligame.com/detail/?id=111392&amp;spm_id_from=333.</description>
+✦《蓝色星原：旅谣》预约地址：https://www.biligame.com/detail/?id=111392&amp;spm_id_from=333.</p><img src="https://i0.hdslb.com/bfs/new_dyn/5e09b1c93d7ed79358ce8e6af99bace53546569016085336.jpg" alt="予你，启程的祝福 | 涂山小玉篇"/>]]></description>
       <category>蓝色星原：旅谣</category>
-    </item>
-    <item>
-      <title>[绝区零] 互动抽奖 #绝区零# #绝区零席德# #生日快乐席德#</title>
-      <link>https://www.bilibili.com/opus/1273386614183165954</link>
-      <guid isPermaLink="false">1273386614183165954</guid>
-      <pubDate>Sun, 22 Nov 2026 04:30:25 GMT</pubDate>
-      <description>互动抽奖 #绝区零# #绝区零席德# #生日快乐席德#
-生日快乐「席德」丨再来一次！
-  
-「谢谢绳匠今天来陪我打电玩，好久没有这么热血沸腾了~」
-「来，请你吃冰棍降降温~嗯呣嗯呣——」
-「咦？这根好像中奖了！送给你啦~等你下次想吃的时候拿这个来兑换吧~」
-  
-—— 欢迎来到新艾利都！——
-▼ 关注@绝区零 并转发本条动态，我们将随机抽取10位绳匠送出「游园熠刻系列旋转亚克力立牌 随机款*1」。 
-本次活动将于11月29日上午11:00开奖，请关注官方动态消息。
-  
-▼《绝区零》3.4版本「长日终尽」将于12月2日上线！
-3.4版本「决战于黎明之前」预约活动现已开启，参与版本预约&amp;签到活动</description>
-      <category>绝区零</category>
-    </item>
-    <item>
-      <title>[异环] 《异环》角色实机战斗丨Exe</title>
-      <link>https://www.bilibili.com/opus/1273382117396447240</link>
-      <guid isPermaLink="false">1273382117396447240</guid>
-      <pubDate>Sun, 22 Nov 2026 04:12:58 GMT</pubDate>
-      <description>互动抽奖 #致电空想迷数# #异环Exe# #异环#
-「权限解锁，开始寻找解法。」 &gt;&gt;&gt;https://www.bilibili.com/video/BV1Nbsq6LE4G/ 
-
-超自然都市开放世界RPG《异环》全新版本「致电，空想迷数」现已开启！立刻下载&gt;&gt;&gt;https://www.biligame.com/detail/?id=111795
-
-嘿，你和《异环》好像很有缘！关注并转发本条动态即有机会获得——
-《异环》随机周边*1（10名）
-期待你得到这份好运！</description>
-      <category>异环</category>
-    </item>
-    <item>
-      <title>[明日方舟：终末地] 互动抽奖 #明日方舟终末地##穿越甚大蘑境与你相逢#</title>
-      <link>https://www.bilibili.com/opus/1273378904727355399</link>
-      <guid isPermaLink="false">1273378904727355399</guid>
-      <pubDate>Sun, 22 Nov 2026 04:00:30 GMT</pubDate>
-      <description>互动抽奖 #明日方舟终末地##穿越甚大蘑境与你相逢#
-//塔卫二畅游指南//旧水坝//
-
-噫，这眼前咋有小人儿在跳舞呢？
-
-关注@明日方舟终末地 并转发此动态，我们将于12月22日抽取10位管理员送出【明日方舟：终末地-贴纸包-&quot;有惊喜&quot;】。
-
-————————
-▼//「穿越甚大蘑境与你相逢」版本将于11月25日上线！
-新干员【小刻】登场，全新区域「旧水坝」开放！全新活动「阵列建设：旧伤弥合」即将开启！
-前往下载：https://www.biligame.com/detail?id=108406</description>
-      <category>明日方舟：终末地</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/5e09b1c93d7ed79358ce8e6af99bace53546569016085336.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/5e09b1c93d7ed79358ce8e6af99bace53546569016085336.jpg" medium="image"/>
     </item>
     <item>
       <title>[原神] #原神# #莉奈娅# 生活应在每一个当下，而非等待未来的某一天。命运无法改变，可同样不变的，是家人间注定相连的牵绊。</title>
       <link>https://www.bilibili.com/opus/1273378778045743106</link>
       <guid isPermaLink="false">1273378778045743106</guid>
-      <pubDate>Sun, 22 Nov 2026 04:00:00 GMT</pubDate>
-      <description>#原神# #莉奈娅# 
+      <pubDate>Sun, 22 Nov 2026 12:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#原神# #莉奈娅# 
 
 生活应在每一个当下，而非等待未来的某一天。命运无法改变，可同样不变的，是家人间注定相连的牵绊。
-「呀吼吼博物志」活动祈愿将于2026年11月24日18:00开启，届时，限定5星角色「博闻异旅·莉奈娅(岩)」的祈愿获取概率将大幅提升！</description>
+「呀吼吼博物志」活动祈愿将于2026年11月24日18:00开启，届时，限定5星角色「博闻异旅·莉奈娅(岩)」的祈愿获取概率将大幅提升！</p><img src="https://i0.hdslb.com/bfs/new_dyn/65d5034bedde830d394dc6a728a5e506401742377.jpg" alt="#原神# #莉奈娅# 生活应在每一个当下，而非等待未来的某一天。命运无法改变，可同样不变的，是家人间注定相连的牵绊。"/>]]></description>
       <category>原神</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/65d5034bedde830d394dc6a728a5e506401742377.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/65d5034bedde830d394dc6a728a5e506401742377.jpg" medium="image"/>
     </item>
     <item>
       <title>[崩坏：星穹铁道] #崩坏星穹铁道# #此刻将群星付之一笑# 「位面分裂」活动说明</title>
       <link>https://www.bilibili.com/opus/1273378778045743111</link>
       <guid isPermaLink="false">1273378778045743111</guid>
-      <pubDate>Sun, 22 Nov 2026 04:00:00 GMT</pubDate>
-      <description>#崩坏星穹铁道# #此刻将群星付之一笑# 「位面分裂」活动说明 
+      <pubDate>Sun, 22 Nov 2026 12:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#崩坏星穹铁道# #此刻将群星付之一笑# 「位面分裂」活动说明 
 
 亲爱的开拓者：
 
 本期「位面分裂」活动时间为 2026/11/23 04:00 - 2026/12/07 03:59。
 活动期间将获得一定的双倍奖励次数，在「模拟宇宙」中获取沉浸奖励或进行「饰品提取」时，可获得双倍奖励。
 
-※详情可前往游戏内公告查看。</description>
+※详情可前往游戏内公告查看。</p><img src="https://i0.hdslb.com/bfs/new_dyn/6578fe945988ce2dedb98506077f0b2b1340190821.png" alt="#崩坏星穹铁道# #此刻将群星付之一笑# 「位面分裂」活动说明"/>]]></description>
       <category>崩坏：星穹铁道</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/6578fe945988ce2dedb98506077f0b2b1340190821.png" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/6578fe945988ce2dedb98506077f0b2b1340190821.png" medium="image"/>
     </item>
     <item>
       <title>[白银之城] 隐藏的书页丨「青春期之谜」</title>
       <link>https://www.bilibili.com/video/BV1rByhzXEZm</link>
       <guid isPermaLink="false">1273371070743707656</guid>
-      <pubDate>Sun, 22 Nov 2026 03:30:06 GMT</pubDate>
-      <description>隐藏的书页 Hidden Pages
+      <pubDate>Sun, 22 Nov 2026 11:30:06 +0800</pubDate>
+      <description><![CDATA[<p>隐藏的书页 Hidden Pages
 
 —— 青春期之谜 ——
 
@@ -1141,64 +996,29 @@ bilibili安卓端下载地址：ht</description>
 
 ----------------------------------
 《白银之城》全球公测正式定档2026年12月14日！
-▍「</description>
+▍「</p><img src="https://i1.hdslb.com/bfs/archive/9e9b64cd06246189e9a962e722dd1dfd041bf927.jpg" alt="隐藏的书页丨「青春期之谜」"/>]]></description>
       <category>白银之城</category>
-    </item>
-    <item>
-      <title>[明日方舟：终末地] 互动抽奖 #明日方舟终末地##穿越甚大蘑境与你相逢#</title>
-      <link>https://www.bilibili.com/opus/1273363541670232067</link>
-      <guid isPermaLink="false">1273363541670232067</guid>
-      <pubDate>Sun, 22 Nov 2026 03:00:53 GMT</pubDate>
-      <description>互动抽奖 #明日方舟终末地##穿越甚大蘑境与你相逢#
-//小刻 - 干员演示
-
-“从那里到这里……哇，原来小刻已经走过这么远的路，打败过这么多坏蛋了吗？”
-从罗德岛出发、踏上旅途的小刻，立志要走遍脚下的大地，只为一个简单的愿望：找到终末地，找到管理员。不知不觉，她的足迹已经遍布这颗星球的各个角落。
-现在的小刻面对世界依然保持好奇，而终末地与管理员的事迹，也让她诞生了新的梦想。
-
-关注@明日方舟终末地 并转发此动态，我们将于12月22日抽取10位管理员送出【明日方舟：终末地-角色亚克力立牌-小刻】。
-————————
-▼//「穿越甚大蘑境与你相逢」版本将于11月25日上线！
-新干员【小刻】登场，</description>
-      <category>明日方舟：终末地</category>
+      <enclosure url="https://i1.hdslb.com/bfs/archive/9e9b64cd06246189e9a962e722dd1dfd041bf927.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i1.hdslb.com/bfs/archive/9e9b64cd06246189e9a962e722dd1dfd041bf927.jpg" medium="image"/>
     </item>
     <item>
       <title>[异环] 《异环》角色实机战斗丨Exe</title>
       <link>https://www.bilibili.com/video/BV1Nbsq6LE4G</link>
       <guid isPermaLink="false">1273363318307815427</guid>
-      <pubDate>Sun, 22 Nov 2026 03:00:01 GMT</pubDate>
-      <description>超自然都市开放世界RPG《异环》全新版本「致电，空想迷数」现已开启！立刻下载&gt;&gt;&gt;https://www.biligame.com/detail/?id=111795
+      <pubDate>Sun, 22 Nov 2026 11:00:01 +0800</pubDate>
+      <description><![CDATA[<p>超自然都市开放世界RPG《异环》全新版本「致电，空想迷数」现已开启！立刻下载&gt;&gt;&gt;https://www.biligame.com/detail/?id=111795
 
-「权限解锁，开始寻找解法。」</description>
+「权限解锁，开始寻找解法。」</p><img src="https://i2.hdslb.com/bfs/archive/c032b98bf4ce82836ac72519de0e68bb7b2bdb6a.jpg" alt="《异环》角色实机战斗丨Exe"/>]]></description>
       <category>异环</category>
-    </item>
-    <item>
-      <title>[白银之城] 同谋情报 |「考狄莱·坏学生」</title>
-      <link>https://www.bilibili.com/opus/1273363318336126984</link>
-      <guid isPermaLink="false">1273363318336126984</guid>
-      <pubDate>Sun, 22 Nov 2026 03:00:01 GMT</pubDate>
-      <description>互动抽奖 #白银之城##白银之城突袭上线##白银之城预抽卡送5080##考狄莱# 
-同谋情报 Acquaintance File
-|| 考狄莱·坏学生
-
-盎世冶金学校的学生。
-原本是“叛逆三人组”的领袖，似乎因这几个小混混另拜他人当老大而相当恼火。
-每次都会斗志昂扬地前来挑战，不过……某种程度上来说，相当好骗。
-
-转发+关注@白银之城 ，我们将在11月28日从参与活动的侦探中抽取10位侦探，送出以下奖品：
-「白银之城-角色亚克力立牌（款式随机）」 （5名）
-「白银之城-数探事务所挂画」 （5名）
-
-----------------------------------
-《白银之城》全球公测正式定</description>
-      <category>白银之城</category>
+      <enclosure url="https://i2.hdslb.com/bfs/archive/c032b98bf4ce82836ac72519de0e68bb7b2bdb6a.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i2.hdslb.com/bfs/archive/c032b98bf4ce82836ac72519de0e68bb7b2bdb6a.jpg" medium="image"/>
     </item>
     <item>
       <title>[蔚蓝档案] #蔚蓝档案# 全新成员&amp;家具互动动作即将更新！在咖啡厅配置“可互动的家具”后，当特定成员来访时，就会与家具产生交互动作！</title>
       <link>https://www.bilibili.com/opus/1273363316182351891</link>
       <guid isPermaLink="false">1273363316182351891</guid>
-      <pubDate>Sun, 22 Nov 2026 03:00:00 GMT</pubDate>
-      <description>#蔚蓝档案#
+      <pubDate>Sun, 22 Nov 2026 11:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#蔚蓝档案#
 全新成员&amp;家具互动动作即将更新！在咖啡厅配置“可互动的家具”后，当特定成员来访时，就会与家具产生交互动作！
 
 ■ 更新时间
@@ -1213,28 +1033,32 @@ bilibili安卓端下载地址：ht</description>
 • 冬 &amp; 艺术家的早期作品
 某位艺术家的早期作品。
 堆叠的古旧电视，不禁让人思考媒体与现实之间的关系……
-好吧，万一真出了问题，还是现实的手段比较好用。</description>
+好吧，万一真出了问题，还是现实的手段比较好用。</p><img src="https://i0.hdslb.com/bfs/new_dyn/c6179e562b4d0c4e25138be550c78c783493265644980448.gif" alt="#蔚蓝档案# 全新成员&amp;家具互动动作即将更新！在咖啡厅配置“可互动的家具”后，当特定成员来访时，就会与家具产生交互动作！"/>]]></description>
       <category>蔚蓝档案</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/c6179e562b4d0c4e25138be550c78c783493265644980448.gif" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/c6179e562b4d0c4e25138be550c78c783493265644980448.gif" medium="image"/>
     </item>
     <item>
       <title>[明日方舟：终末地] 《明日方舟：终末地》「穿越甚大蘑境与你相逢」版本研发通讯</title>
       <link>https://www.bilibili.com/opus/1273355587399188546</link>
       <guid isPermaLink="false">1273355587399188546</guid>
-      <pubDate>Sun, 22 Nov 2026 02:30:01 GMT</pubDate>
-      <description>亲爱的管理员：
+      <pubDate>Sun, 22 Nov 2026 10:30:01 +0800</pubDate>
+      <description><![CDATA[<p>亲爱的管理员：
 这里是《明日方舟：终末地》项目组。
 用晦而明，万物将新。《明日方舟：终末地》新版本「穿越甚大蘑境与你相逢」将于2026年11月25日开启。通过本期研发通讯，我们将为管理员介绍即将在此版本中上线的一系列优化与调整。
 「新版本导览」专题网页现已更新
 为了便于管理员查阅新版本内容，「新版本导览」专题网页已更新「穿越甚大蘑境与你相逢」版本的主要内容与信息。进入该网页并点击【领取奖励】，即可在新版本更新前于游戏内领取前瞻节目奖励【嵌晶玉】×1000、【折金票】×10000、【初级认知载体】×8、【武器检查套组】×4。
-...</description>
+...</p><img src="https://i0.hdslb.com/bfs/new_dyn/5bc06681caa7f7580946ff960aaa76a81265652806.jpg" alt="《明日方舟：终末地》「穿越甚大蘑境与你相逢」版本研发通讯"/>]]></description>
       <category>明日方舟：终末地</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/5bc06681caa7f7580946ff960aaa76a81265652806.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/5bc06681caa7f7580946ff960aaa76a81265652806.jpg" medium="image"/>
     </item>
     <item>
       <title>[蓝色星原：旅谣] 《蓝色星原：旅谣》公测倒计时4天！</title>
       <link>https://www.bilibili.com/opus/1273355585239121987</link>
       <guid isPermaLink="false">1273355585239121987</guid>
-      <pubDate>Sun, 22 Nov 2026 02:30:00 GMT</pubDate>
-      <description>《蓝色星原：旅谣》公测倒计时4天！
+      <pubDate>Sun, 22 Nov 2026 10:30:00 +0800</pubDate>
+      <description><![CDATA[<p>《蓝色星原：旅谣》公测倒计时4天！
 
 风穿过新芽山谷，把相逢的消息送向远方。 
 
@@ -1242,101 +1066,71 @@ bilibili安卓端下载地址：ht</description>
 《蓝色星原：旅谣》11/26正式公测！
 顶级美术！海量福利！各种美少女角色、全新载具、灵子、星彩奇波等奖励等你拿！ 
 ✦《蓝色星原：旅谣》预约地址：https://www.biligame.com/detail/?id=111392&amp;spm_id_from=333.1369.0.0
-#蓝色星原旅谣# #蓝色星原1126正式公测#</description>
+#蓝色星原旅谣# #蓝色星原1126正式公测#</p><img src="https://i0.hdslb.com/bfs/new_dyn/2235896b261d2eb5a058a44194c5bc5c3546569016085336.png" alt="《蓝色星原：旅谣》公测倒计时4天！"/>]]></description>
       <category>蓝色星原：旅谣</category>
-    </item>
-    <item>
-      <title>[明日方舟：终末地] 互动抽奖 #明日方舟终末地##穿越甚大蘑境与你相逢#</title>
-      <link>https://www.bilibili.com/opus/1273147277176733731</link>
-      <guid isPermaLink="false">1273147277176733731</guid>
-      <pubDate>Sat, 21 Nov 2026 13:01:40 GMT</pubDate>
-      <description>互动抽奖 #明日方舟终末地##穿越甚大蘑境与你相逢#
-《明日方舟：终末地》「全新版本&amp;2.0揭幕前瞻」特别节目现已结束，感谢管理员的观看，为您奉上本次特别节目的情报。
-
-▼//版本寻访公开
-▼//版本故事前瞻
-▼//新玩法前瞻
-▼//版本活动前瞻
-▼//前瞻节目奖励
-▼//未来版本前瞻
-
-关注@明日方舟终末地 并转发此动态，我们将于12月21日抽取10位管理员送出【明日方舟：终末地-贴纸包-&quot;有惊喜&quot;】。
-————————
-▼//「穿越甚大蘑境与你相逢」版本将于11月25日上线！
-新干员【小刻】登场，全新区域「旧水坝」开放！全新活动「阵列建设：旧伤弥合」即将开启！
-前往下载：https://w</description>
-      <category>明日方舟：终末地</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/2235896b261d2eb5a058a44194c5bc5c3546569016085336.png" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/2235896b261d2eb5a058a44194c5bc5c3546569016085336.png" medium="image"/>
     </item>
     <item>
       <title>[明日方舟：终末地] 《明日方舟：终末地》「全新版本&amp;2.0揭幕前瞻」特别节目回顾</title>
       <link>https://www.bilibili.com/video/BV1pvyhzdER5</link>
       <guid isPermaLink="false">1273142986500210768</guid>
-      <pubDate>Sat, 21 Nov 2026 12:45:01 GMT</pubDate>
-      <description>《明日方舟：终末地》「全新版本&amp;2.0揭幕前瞻」特别节目现已结束，感谢管理员的观看。
+      <pubDate>Sat, 21 Nov 2026 20:45:01 +0800</pubDate>
+      <description><![CDATA[<p>《明日方舟：终末地》「全新版本&amp;2.0揭幕前瞻」特别节目现已结束，感谢管理员的观看。
 为了方便管理员更快捷地了解新版本内容，我们已上线【新版本导览】专题网页。浏览网页并点击领取奖励，即可获得嵌晶玉×1000，折金票×10000，初级认知载体×8，武器检查套组×4。
 
 管理员可以通过下方链接、前瞻特别节目中的二维码，或者游戏内邮件、游戏内公告、官方自媒体账号等方式进入【新版本导览】专题网页。
 &gt;&gt;点击前往：https://b23.tv/tY0Y0hP
 
-未来我们也会在官方自媒体账号陆续更新《明日方舟：终末地</description>
+未来我们也会在官方自媒体账号陆续更新《明日方舟：终末地</p><img src="https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/62d28e52d8989aba.jpg" alt="《明日方舟：终末地》「全新版本&amp;2.0揭幕前瞻」特别节目回顾"/>]]></description>
       <category>明日方舟：终末地</category>
+      <enclosure url="https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/62d28e52d8989aba.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/62d28e52d8989aba.jpg" medium="image"/>
     </item>
     <item>
       <title>[明日方舟：终末地] #明日方舟终末地##穿越甚大蘑境与你相逢# 新生的文明迟早会认清现实——造物从不具备造主的视野。</title>
       <link>https://www.bilibili.com/opus/1273141695825838103</link>
       <guid isPermaLink="false">1273141695825838103</guid>
-      <pubDate>Sat, 21 Nov 2026 12:40:00 GMT</pubDate>
-      <description>#明日方舟终末地##穿越甚大蘑境与你相逢#
+      <pubDate>Sat, 21 Nov 2026 20:40:00 +0800</pubDate>
+      <description><![CDATA[<p>#明日方舟终末地##穿越甚大蘑境与你相逢#
 新生的文明迟早会认清现实——造物从不具备造主的视野。
 
 https://www.bilibili.com/video/BV1MMyazPEKy/ 
 ————————
 ▼//「穿越甚大蘑境与你相逢」版本将于11月25日上线！
 新干员【小刻】登场，全新区域「旧水坝」开放！全新活动「阵列建设：旧伤弥合」即将开启！
-前往下载：https://www.biligame.com/detail?id=108406</description>
+前往下载：https://www.biligame.com/detail?id=108406</p><img src="https://i0.hdslb.com/bfs/new_dyn/11e643ccd9df4730a2917c814da475391265652806.jpg" alt="#明日方舟终末地##穿越甚大蘑境与你相逢# 新生的文明迟早会认清现实——造物从不具备造主的视野。"/>]]></description>
       <category>明日方舟：终末地</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/11e643ccd9df4730a2917c814da475391265652806.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/11e643ccd9df4730a2917c814da475391265652806.jpg" medium="image"/>
     </item>
     <item>
       <title>[明日方舟：终末地] 《明日方舟：终末地》特别映像「基石」</title>
       <link>https://www.bilibili.com/video/BV1MMyazPEKy</link>
       <guid isPermaLink="false">1273140409531367493</guid>
-      <pubDate>Sat, 21 Nov 2026 12:35:01 GMT</pubDate>
-      <description>新生的文明迟早会认清现实——造物从不具备造主的视野。</description>
+      <pubDate>Sat, 21 Nov 2026 20:35:01 +0800</pubDate>
+      <description><![CDATA[<p>新生的文明迟早会认清现实——造物从不具备造主的视野。</p><img src="https://i1.hdslb.com/bfs/archive/bd5cb516b96b19247e46491b4b457f48a032776b.jpg" alt="《明日方舟：终末地》特别映像「基石」"/>]]></description>
       <category>明日方舟：终末地</category>
-    </item>
-    <item>
-      <title>[明日方舟：终末地] 互动抽奖 #明日方舟终末地##穿越甚大蘑境与你相逢#</title>
-      <link>https://www.bilibili.com/opus/1273137905566482436</link>
-      <guid isPermaLink="false">1273137905566482436</guid>
-      <pubDate>Sat, 21 Nov 2026 12:25:18 GMT</pubDate>
-      <description>互动抽奖 #明日方舟终末地##穿越甚大蘑境与你相逢#
-混沌开始浸染秩序，生灵不愿染上污浊，我们正站在命运的岔路前。
-但这一次，你不必独行。
-
-https://www.bilibili.com/video/BV1yGyaz8EXM/ 
-
-关注@明日方舟终末地 并转发此动态，我们将于12月21日抽取10位管理员送出【明日方舟：终末地-山山兔毛绒玩偶-随机款】。
-————————
-▼//「穿越甚大蘑境与你相逢」版本将于11月25日上线！
-新干员【小刻】登场，全新区域「旧水坝」开放！全新活动「阵列建设：旧伤弥合」即将开启！
-前往下载：https://www.biligame.com/detail?id</description>
-      <category>明日方舟：终末地</category>
+      <enclosure url="https://i1.hdslb.com/bfs/archive/bd5cb516b96b19247e46491b4b457f48a032776b.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i1.hdslb.com/bfs/archive/bd5cb516b96b19247e46491b4b457f48a032776b.jpg" medium="image"/>
     </item>
     <item>
       <title>[明日方舟：终末地] 《明日方舟：终末地》干员影像-「群像：信号预联」</title>
       <link>https://www.bilibili.com/video/BV1yGyaz8EXM</link>
       <guid isPermaLink="false">1273136548346331144</guid>
-      <pubDate>Sat, 21 Nov 2026 12:20:02 GMT</pubDate>
-      <description>混沌开始浸染秩序，生灵不愿染上污浊，我们正站在命运的岔路前。
-但这一次，你不必独行。</description>
+      <pubDate>Sat, 21 Nov 2026 20:20:02 +0800</pubDate>
+      <description><![CDATA[<p>混沌开始浸染秩序，生灵不愿染上污浊，我们正站在命运的岔路前。
+但这一次，你不必独行。</p><img src="https://i2.hdslb.com/bfs/archive/85823f839b0d3f319839ef76863d7e2d96c56ade.jpg" alt="《明日方舟：终末地》干员影像-「群像：信号预联」"/>]]></description>
       <category>明日方舟：终末地</category>
+      <enclosure url="https://i2.hdslb.com/bfs/archive/85823f839b0d3f319839ef76863d7e2d96c56ade.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i2.hdslb.com/bfs/archive/85823f839b0d3f319839ef76863d7e2d96c56ade.jpg" medium="image"/>
     </item>
     <item>
       <title>[明日方舟：终末地] #明日方舟终末地##穿越甚大蘑境与你相逢# 「穿越甚大蘑境与你相逢」新版本导览专题网页已上线。</title>
       <link>https://www.bilibili.com/opus/1273135990005825590</link>
       <guid isPermaLink="false">1273135990005825590</guid>
-      <pubDate>Sat, 21 Nov 2026 12:17:52 GMT</pubDate>
-      <description>#明日方舟终末地##穿越甚大蘑境与你相逢#
+      <pubDate>Sat, 21 Nov 2026 20:17:52 +0800</pubDate>
+      <description><![CDATA[<p>#明日方舟终末地##穿越甚大蘑境与你相逢#
 「穿越甚大蘑境与你相逢」新版本导览专题网页已上线。
 一站式查阅新版本内容，浏览即可领取【嵌晶玉】×1000、【折金票】×10000、【初级认知载体】×8、【武器检查套组】×4。
 领取时间：2026/11/21 20:00 - 2026/11/25 06:00（UTC+8）
@@ -1347,49 +1141,32 @@ https://www.bilibili.com/video/BV1yGyaz8EXM/
 
 ▼//网页上线时间
 · 新版本导览专题网页自2026/10/06 20:00（UTC+8）起长期可浏览，内容将随游戏版本替换。
-· 每期新版本导览专题网</description>
+· 每期新版本导览专题网</p><img src="https://i0.hdslb.com/bfs/new_dyn/411083e4dc1913d5b5217efcf16f91101265652806.png" alt="#明日方舟终末地##穿越甚大蘑境与你相逢# 「穿越甚大蘑境与你相逢」新版本导览专题网页已上线。"/>]]></description>
       <category>明日方舟：终末地</category>
-    </item>
-    <item>
-      <title>[蓝色星原：旅谣] 互动抽奖</title>
-      <link>https://www.bilibili.com/opus/1273131823893839873</link>
-      <guid isPermaLink="false">1273131823893839873</guid>
-      <pubDate>Sat, 21 Nov 2026 12:01:42 GMT</pubDate>
-      <description>互动抽奖 
-《蓝色星原：旅谣》公测动画短片
-https://www.bilibili.com/video/BV1oRsu6XE2o/
-
-到了出发的时间啦，星临者！
-
-特别感谢 水树奈奈 带来的合作歌曲《Starry Garden》
-
-《蓝色星原：旅谣》11月26日正式公测！ 
-
-✦ 转发有奖 ✦ 
-叮——露米为星临者带来了好东西！关注@蓝色星原旅谣 并转发本内容，即有机会获得【角色主题鼠标垫-阿比款】*1（10名）、【亚克力抽拉挂件-森彩灵蝶款】*1（10名）、 【角色设定稿系列色纸套组】*1（10名） 
-欢迎各位星临者参与！活动将于 11月26日 17:00 结束并开奖，敬请关注官方消息。
-</description>
-      <category>蓝色星原：旅谣</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/411083e4dc1913d5b5217efcf16f91101265652806.png" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/411083e4dc1913d5b5217efcf16f91101265652806.png" medium="image"/>
     </item>
     <item>
       <title>[蓝色星原：旅谣] 《蓝色星原：旅谣》公测动画短片</title>
       <link>https://www.bilibili.com/video/BV1oRsu6XE2o</link>
       <guid isPermaLink="false">1273131390103191606</guid>
-      <pubDate>Sat, 21 Nov 2026 12:00:01 GMT</pubDate>
-      <description>到了出发的时间啦，星临者！
+      <pubDate>Sat, 21 Nov 2026 20:00:01 +0800</pubDate>
+      <description><![CDATA[<p>到了出发的时间啦，星临者！
 
 特别感谢 水树奈奈 带来的合作歌曲《Starry Garden》
 
 《蓝色星原：旅谣》11月26日正式公测！
-✦ bilibili预约地址：https://www.biligame.com/detail/?id=111392</description>
+✦ bilibili预约地址：https://www.biligame.com/detail/?id=111392</p><img src="https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/97c17a9165715e5c.jpg" alt="《蓝色星原：旅谣》公测动画短片"/>]]></description>
       <category>蓝色星原：旅谣</category>
+      <enclosure url="https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/97c17a9165715e5c.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/97c17a9165715e5c.jpg" medium="image"/>
     </item>
     <item>
       <title>[明日方舟：终末地] #明日方舟终末地##穿越甚大蘑境与你相逢# 「蕈属集群」限时签到活动说明</title>
       <link>https://www.bilibili.com/opus/1273131387929493526</link>
       <guid isPermaLink="false">1273131387929493526</guid>
-      <pubDate>Sat, 21 Nov 2026 12:00:00 GMT</pubDate>
-      <description>#明日方舟终末地##穿越甚大蘑境与你相逢#
+      <pubDate>Sat, 21 Nov 2026 20:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#明日方舟终末地##穿越甚大蘑境与你相逢#
 「蕈属集群」限时签到活动说明
 
 ▼//活动时间
@@ -1400,71 +1177,33 @@ https://www.bilibili.com/video/BV1oRsu6XE2o/
 
 ▼//活动说明
 · 每日登录游戏即可领取签到奖励。
-· 完成3日签到累计可领取【基础寻访凭证】×2和【嵌晶玉】×500等奖励。</description>
+· 完成3日签到累计可领取【基础寻访凭证】×2和【嵌晶玉】×500等奖励。</p><img src="https://i0.hdslb.com/bfs/new_dyn/82e209c5c989439d2409a231f77417321265652806.png" alt="#明日方舟终末地##穿越甚大蘑境与你相逢# 「蕈属集群」限时签到活动说明"/>]]></description>
       <category>明日方舟：终末地</category>
-    </item>
-    <item>
-      <title>[明日方舟：终末地] 互动抽奖 #明日方舟终末地##穿越甚大蘑境与你相逢#</title>
-      <link>https://www.bilibili.com/opus/1273125377138491392</link>
-      <guid isPermaLink="false">1273125377138491392</guid>
-      <pubDate>Sat, 21 Nov 2026 11:36:41 GMT</pubDate>
-      <description>互动抽奖 #明日方舟终末地##穿越甚大蘑境与你相逢#
-《明日方舟：终末地》「穿越甚大蘑境与你相逢」版本PV 现已发布！
-https://www.bilibili.com/video/BV1nHyazWEDV/ 
-
-【蜜饼·使用说明】
-适应症：暴躁蘑菇撸起袖子要揍你、协议采录桩跟你打招呼、自己头顶悄悄长出了菌盖等幻觉症状。
-用法用量：对准脑门，一次一块，用力扔出。
-不良反应：清醒后可能会懵上一小会儿，本品概不负责。
-
-咔嚓一口，美梦醒来——
-“神秘蘑菇追人事件”调查启动！冒险堂堂开场——这就去会会那群蘑菇╭(′▽‵)╯！
-
-关注@明日方舟终末地 并转发此动态，我们将于12月21日抽取5位管理员送</description>
-      <category>明日方舟：终末地</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/82e209c5c989439d2409a231f77417321265652806.png" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/82e209c5c989439d2409a231f77417321265652806.png" medium="image"/>
     </item>
     <item>
       <title>[明日方舟：终末地] 《明日方舟：终末地》「穿越甚大蘑境与你相逢」版本PV</title>
       <link>https://www.bilibili.com/video/BV1nHyazWEDV</link>
       <guid isPermaLink="false">1273124951938826248</guid>
-      <pubDate>Sat, 21 Nov 2026 11:35:02 GMT</pubDate>
-      <description>【蜜饼·使用说明】
+      <pubDate>Sat, 21 Nov 2026 19:35:02 +0800</pubDate>
+      <description><![CDATA[<p>【蜜饼·使用说明】
 适应症：暴躁蘑菇撸起袖子要揍你、协议采录桩跟你打招呼、自己头顶悄悄长出了菌盖等幻觉症状。
 用法用量：对准脑门，一次一块，用力扔出。
 不良反应：清醒后可能会懵上一小会儿，本品概不负责。
 
 咔嚓一口，美梦醒来——
-“神秘蘑菇追人事件”调查启动！冒险堂堂开场——这就去会会那群蘑菇╭(′▽‵)╯！</description>
+“神秘蘑菇追人事件”调查启动！冒险堂堂开场——这就去会会那群蘑菇╭(′▽‵)╯！</p><img src="https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/cc7538a399a72191.jpg" alt="《明日方舟：终末地》「穿越甚大蘑境与你相逢」版本PV"/>]]></description>
       <category>明日方舟：终末地</category>
-    </item>
-    <item>
-      <title>[蓝色星原：旅谣] 互动抽奖</title>
-      <link>https://www.bilibili.com/opus/1273100474897137680</link>
-      <guid isPermaLink="false">1273100474897137680</guid>
-      <pubDate>Sat, 21 Nov 2026 10:00:03 GMT</pubDate>
-      <description>互动抽奖 
-亲爱的星临者，《蓝色星原：旅谣》公测将于11月26日 10:00正式开启。
-
-星临者可通过下方内容一览，快速了解本次版本的重点内容。
-
-※素材内容仅供参考，具体请以游戏内实际情况为准。 
-
-✦ 转发有奖 ✦ 
-叮——露米为星临者带来了好东西！关注@蓝色星原旅谣 并转发本内容，即有机会获得【随机周边】*1（10名）
-欢迎各位星临者参与！活动将于 11月26日 17:30 结束并开奖，敬请关注官方消息。
- 
-———————————————————
-《蓝色星原：旅谣》11/26正式公测！
-顶级美术！海量福利！各种美少女角色、全新载具、灵子、星彩奇波等奖励等你拿！ 
-✦《蓝色星原：旅谣》预</description>
-      <category>蓝色星原：旅谣</category>
+      <enclosure url="https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/cc7538a399a72191.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/cc7538a399a72191.jpg" medium="image"/>
     </item>
     <item>
       <title>[绝区零] #绝区零# #长日终尽# #绝区零挽昼# 🎁决战于黎明之前丨长明之影挑战现已开启</title>
       <link>https://www.bilibili.com/opus/1273100464181739527</link>
       <guid isPermaLink="false">1273100464181739527</guid>
-      <pubDate>Sat, 21 Nov 2026 10:00:00 GMT</pubDate>
-      <description>#绝区零# #长日终尽# #绝区零挽昼# 
+      <pubDate>Sat, 21 Nov 2026 18:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#绝区零# #长日终尽# #绝区零挽昼# 
 🎁决战于黎明之前丨长明之影挑战现已开启
   
 亲爱的绳匠，梦现追影第二关现已解锁，一起来看看林德薇恩整理的数据里都有哪些有趣的见闻吧~
@@ -1474,23 +1213,27 @@ https://www.bilibili.com/video/BV1nHyazWEDV/
 ▼《绝区零》3.4版本「长日终尽」将于12月2日上线！
 3.4版本「决战于黎明之前」预约活动现已开启，参与版本预约&amp;签到活动，可领取640菲林！
 版本期间，登录即领联动限定S级代理人「知更鸟」及其养成材料，参与签到即可领取加密母带×10、菲林×1840、配饰：「帕姆」趴趴等奖励，参与活动还可免费领取邦布「帕姆」。
-bilibili安卓端下载地址：</description>
+bilibili安卓端下载地址：</p><img src="https://i0.hdslb.com/bfs/new_dyn/867eae997d664fd969a081ff697730f41636034895.png" alt="#绝区零# #长日终尽# #绝区零挽昼# 🎁决战于黎明之前丨长明之影挑战现已开启"/>]]></description>
       <category>绝区零</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/867eae997d664fd969a081ff697730f41636034895.png" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/867eae997d664fd969a081ff697730f41636034895.png" medium="image"/>
     </item>
     <item>
       <title>[明日方舟] SideStory「雪山降临1101」复刻即将于11月22日04:00开启！</title>
       <link>https://www.bilibili.com/opus/1273100464188030994</link>
       <guid isPermaLink="false">1273100464188030994</guid>
-      <pubDate>Sat, 21 Nov 2026 10:00:00 GMT</pubDate>
-      <description>SideStory「雪山降临1101」复刻即将于11月22日04:00开启！</description>
+      <pubDate>Sat, 21 Nov 2026 18:00:00 +0800</pubDate>
+      <description><![CDATA[<p>SideStory「雪山降临1101」复刻即将于11月22日04:00开启！</p><img src="https://i0.hdslb.com/bfs/new_dyn/66393be95423fe010587d056e2d55ff8161775300.jpg" alt="SideStory「雪山降临1101」复刻即将于11月22日04:00开启！"/>]]></description>
       <category>明日方舟</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/66393be95423fe010587d056e2d55ff8161775300.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/66393be95423fe010587d056e2d55ff8161775300.jpg" medium="image"/>
     </item>
     <item>
       <title>[明日方舟：终末地] #明日方舟终末地##穿越甚大蘑境与你相逢# 《明日方舟：终末地》全新版本&amp;2.0揭幕前瞻特别节目即将于11月21日19…</title>
       <link>https://www.bilibili.com/opus/1273069701443878962</link>
       <guid isPermaLink="false">1273069701443878962</guid>
-      <pubDate>Sat, 21 Nov 2026 08:00:38 GMT</pubDate>
-      <description>「全新版本&amp;2.0揭幕前瞻」特别节目即将于2026年11月21日（今日）19:30开始。管理员，敬请期待。
+      <pubDate>Sat, 21 Nov 2026 16:00:38 +0800</pubDate>
+      <description><![CDATA[<p>「全新版本&amp;2.0揭幕前瞻」特别节目即将于2026年11月21日（今日）19:30开始。管理员，敬请期待。
 #明日方舟终末地##穿越甚大蘑境与你相逢#
 《明日方舟：终末地》全新版本&amp;2.0揭幕前瞻特别节目即将于11月21日19:30播出。
 穿越蘑境，共赴新程。
@@ -1500,59 +1243,45 @@ bilibili安卓端下载地址：</description>
 观看地址:
 Bilibili：https://live.bilibili.com/1921300321
 
-点击下方【预约直播】</description>
+点击下方【预约直播】</p><img src="https://i0.hdslb.com/bfs/new_dyn/d1fb63e04b7d6274d033fdae6a7ae71b1265652806.png" alt="#明日方舟终末地##穿越甚大蘑境与你相逢# 《明日方舟：终末地》全新版本&amp;2.0揭幕前瞻特别节目即将于11月21日19…"/>]]></description>
       <category>明日方舟：终末地</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/d1fb63e04b7d6274d033fdae6a7ae71b1265652806.png" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/d1fb63e04b7d6274d033fdae6a7ae71b1265652806.png" medium="image"/>
     </item>
     <item>
-      <title>[蓝色星原：旅谣] 互动抽奖</title>
-      <link>https://www.bilibili.com/opus/1273038657428652039</link>
-      <guid isPermaLink="false">1273038657428652039</guid>
-      <pubDate>Sat, 21 Nov 2026 06:00:10 GMT</pubDate>
-      <description>互动抽奖 
-星原吟游的图绘 | 涂山小玉
-
-「我叫涂山小玉，是来自青华乡的狐狸，也是涂山氏的后人——虽然在镜花洲的传说故事里大家都称我为守护缘分的狐仙，但要成为真正的大狐仙，我还需要更多的修行……与你的相遇，一定也是命定的因缘吧！」
-
-对这只小狐仙而言，世间万物皆有缘法，哪怕只是替人牵一根红线，或是分去一半解馋的甜食，都是漫长岁月里值得珍视的羁绊。
-
-「牵丝绕指，终须有结。」这只活泼的狐仙会用自己的方式悄悄替迷途之人牵起一段善缘…… 
-
-✦ 转发有奖 ✦ 
-叮——露米为星临者带来了好东西！关注@蓝色星原旅谣 并转发本内容，即有机会获得【摸摸耳朵小立牌-涂山小玉款】*1（10名）
-欢迎各位星临者</description>
-      <category>蓝色星原：旅谣</category>
+      <title>[碧蓝航线] #碧蓝航线# 玛丽亚皇后换装「摇曳风情」参上~</title>
+      <link>https://www.bilibili.com/opus/1273054078487756804</link>
+      <guid isPermaLink="false">1273054078487756804</guid>
+      <pubDate>Sat, 21 Nov 2026 15:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#碧蓝航线#
+玛丽亚皇后换装「摇曳风情」参上~
+将于下次维护后限时贩售登场！
+“摩天轮升得那样高，本该令人有些心神不宁……但只要将你抱在怀里，我就一点也不觉得害怕了。指挥官阁下，你总是有办法让我安心下来呢。”
+※实装效果以游戏内为准</p><img src="https://i0.hdslb.com/bfs/new_dyn/5e7a23304e95ac53203d29bfea973742233114659.png" alt="#碧蓝航线# 玛丽亚皇后换装「摇曳风情」参上~"/>]]></description>
+      <category>碧蓝航线</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/5e7a23304e95ac53203d29bfea973742233114659.png" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/5e7a23304e95ac53203d29bfea973742233114659.png" medium="image"/>
     </item>
     <item>
-      <title>[白银之城] 角色扉页 |「梭闪·信使」</title>
-      <link>https://www.bilibili.com/opus/1273038648872271879</link>
-      <guid isPermaLink="false">1273038648872271879</guid>
-      <pubDate>Sat, 21 Nov 2026 06:00:08 GMT</pubDate>
-      <description>恭喜@通宵妲旦@晓天try@一只煤球_QAQ等10位同学中奖，已私信通知，详情请点击抽奖查看。
-互动抽奖 #白银之城##白银之城突袭上线##白银之城预抽卡送5080##梭闪# 
-角色扉页 Title Page
-|| 梭闪·信使
-
-—— 迷途不鸣鸟 The Songless Bird, Lost ——
-
---
-“书信是，情感寄托。收到信的人，开心，我也，开心。”
---
-
-无言的信使，衔令的发条鸟。
-忠实于他人的心意，牢记每一条路巷，机械地执行，机械地发声。
-唯独自我的话语，在经年的缄默中失却了出口。
-
-迷途的鸟儿尚未知晓——“幸福”就住在“不幸”的近前。
-
-转发+关注@白银之城 ，我们将在11月</description>
-      <category>白银之城</category>
+      <title>[碧蓝航线] #碧蓝航线# 克利奥佩特拉换装「清凉的祝福试炼」参上~</title>
+      <link>https://www.bilibili.com/opus/1273038616605491200</link>
+      <guid isPermaLink="false">1273038616605491200</guid>
+      <pubDate>Sat, 21 Nov 2026 14:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#碧蓝航线#
+克利奥佩特拉换装「清凉的祝福试炼」参上~
+将于下次维护后限时贩售登场！特殊动态立绘同期实装~
+“呼哇~周围的水柱好像在蓄力了呢？接下来只需要保持微笑，静静感受恩泽的流向……哇噗！等、等一下，这祝福怎么全都冲着脸来了呀！”
+※实装效果以游戏内为准</p><img src="https://i0.hdslb.com/bfs/new_dyn/cd68ecb11e57ecd9295140f9f339aa9b233114659.png" alt="#碧蓝航线# 克利奥佩特拉换装「清凉的祝福试炼」参上~"/>]]></description>
+      <category>碧蓝航线</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/cd68ecb11e57ecd9295140f9f339aa9b233114659.png" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/cd68ecb11e57ecd9295140f9f339aa9b233114659.png" medium="image"/>
     </item>
     <item>
       <title>[绝区零] #绝区零# #绝区零挽昼# #绝区零知更鸟# 养成指南上新丨挽昼&amp;知更鸟养成材料预告</title>
       <link>https://www.bilibili.com/opus/1273023154723225608</link>
       <guid isPermaLink="false">1273023154723225608</guid>
-      <pubDate>Sat, 21 Nov 2026 05:00:00 GMT</pubDate>
-      <description>#绝区零# #绝区零挽昼# #绝区零知更鸟#
+      <pubDate>Sat, 21 Nov 2026 13:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#绝区零# #绝区零挽昼# #绝区零知更鸟#
 养成指南上新丨挽昼&amp;知更鸟养成材料预告
  
 想要提前准备挽昼&amp;知更鸟养成材料的绳匠们注意啦：
@@ -1566,120 +1295,425 @@ Bilibili：https://live.bilibili.com/1921300321
 【养成指南入口】
 游戏内：ESC - 更多 - 养成指南
 游戏外：绝区零官方小程序 - 养成指南
-</description>
+</p><img src="https://i0.hdslb.com/bfs/new_dyn/4edb8d584f9808ce7019952c74836a9a1636034895.jpg" alt="#绝区零# #绝区零挽昼# #绝区零知更鸟# 养成指南上新丨挽昼&amp;知更鸟养成材料预告"/>]]></description>
       <category>绝区零</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/4edb8d584f9808ce7019952c74836a9a1636034895.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/4edb8d584f9808ce7019952c74836a9a1636034895.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>[碧蓝航线] #碧蓝航线# 锡诺普换装「沉溺妄想」参上~</title>
+      <link>https://www.bilibili.com/opus/1273023154778800133</link>
+      <guid isPermaLink="false">1273023154778800133</guid>
+      <pubDate>Sat, 21 Nov 2026 13:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#碧蓝航线#
+锡诺普换装「沉溺妄想」参上~
+将于下次维护后限时贩售登场！动态立绘同期实装~
+“指挥官，抱歉咯……明明是请你来帮我拍泳装写真的，结果一紧张就把你也拉进水里了。作为赔罪，请尽情命令我、惩罚我吧。你的话，怎样对待我都可以哦///”
+※实装效果以游戏内为准</p><img src="https://i0.hdslb.com/bfs/new_dyn/2ad7a7471a6121805f549021029df896233114659.png" alt="#碧蓝航线# 锡诺普换装「沉溺妄想」参上~"/>]]></description>
+      <category>碧蓝航线</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/2ad7a7471a6121805f549021029df896233114659.png" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/2ad7a7471a6121805f549021029df896233114659.png" medium="image"/>
     </item>
     <item>
       <title>[鸣潮] 【IGN独家】《鸣潮：永明的烬焰》实机演示</title>
       <link>https://www.bilibili.com/video/BV1jKsq6cEEP</link>
       <guid isPermaLink="false">1273015563376918549</guid>
-      <pubDate>Sat, 21 Nov 2026 04:30:33 GMT</pubDate>
-      <description>《鸣潮：永明的烬焰》实机演示已发布，欢迎漂泊者前往观看。版本将于12月22日开启，敬请期待！
+      <pubDate>Sat, 21 Nov 2026 12:30:33 +0800</pubDate>
+      <description><![CDATA[<p>《鸣潮：永明的烬焰》实机演示已发布，欢迎漂泊者前往观看。版本将于12月22日开启，敬请期待！
 本视频演示内容为开发中版本进度演示，不代表最终画面与品质。
 《鸣潮》即将于12月22日开启全新的年度篇章《永明的烬焰》，在4.0版本中玩家将可以使用全新共鸣者「安娜」、「露希尔」，并操纵名为「隧铠」的穿戴式机甲进行360度高机动性探索，甚至直接参与战斗。在即将到来的4.0版本中，漂泊者将率先抵达新联邦的布法罗山脉，以此为起点开启全新的冒险。本视频演示内容为开发中版本进度演示，不代表最终画面与品质。
-《鸣潮》即将于12月22日开启全新的年度篇章《永明的烬焰》，在4.0版本中玩家将可以使用全新共鸣者「安娜</description>
+《鸣潮》即将于12月22日开启全新的年度篇章《永明的烬焰》，在4.0版本中玩家将可以使用全新共鸣者「安娜</p><img src="https://i2.hdslb.com/bfs/archive/336534bb7ad630e967560852481755847f0e908b.jpg" alt="【IGN独家】《鸣潮：永明的烬焰》实机演示"/>]]></description>
       <category>鸣潮</category>
-    </item>
-    <item>
-      <title>[绝区零] 互动抽奖  #绝区零# #绝区零混剪# #绝区零第三季#</title>
-      <link>https://www.bilibili.com/opus/1273007858246484035</link>
-      <guid isPermaLink="false">1273007858246484035</guid>
-      <pubDate>Sat, 21 Nov 2026 04:00:39 GMT</pubDate>
-      <description>互动抽奖  #绝区零# #绝区零混剪# #绝区零第三季#
-
-《绝区零》第三季纪念回顾 | 新世界前夜
-https://www.bilibili.com/video/BV1S4yhzcEgW/ 
-   
-「是啊，一个错误，一场危机…」
-「一个从百年前的赫利俄斯机关开始，就已经存在的错误…」
-「和一个直到今天，才终于在罗斯凯利法…在整个新艾利都，即将爆发而出的危机。」
-   
-—— 欢迎来到罗斯凯利法！——
-▼ 关注@绝区零 并转发本条动态，我们将随机抽取10位绳匠送出「菲林*200」。 
-本次活动将于11月28日上午11:00开奖，请关注官方动态消息。
-
-▼《绝区零》3.4版本「长日终尽」将于1</description>
-      <category>绝区零</category>
+      <enclosure url="https://i2.hdslb.com/bfs/archive/336534bb7ad630e967560852481755847f0e908b.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i2.hdslb.com/bfs/archive/336534bb7ad630e967560852481755847f0e908b.jpg" medium="image"/>
     </item>
     <item>
       <title>[绝区零] 《绝区零》第三季纪念回顾 | 新世界前夜</title>
       <link>https://www.bilibili.com/video/BV1S4yhzcEgW</link>
       <guid isPermaLink="false">1273007819588632665</guid>
-      <pubDate>Sat, 21 Nov 2026 04:00:30 GMT</pubDate>
-      <description>「是啊，一个错误，一场危机…」
+      <pubDate>Sat, 21 Nov 2026 12:00:30 +0800</pubDate>
+      <description><![CDATA[<p>「是啊，一个错误，一场危机…」
 「一个从百年前的赫利俄斯机关开始，就已经存在的错误…」
 「和一个直到今天，才终于在罗斯凯利法…在整个新艾利都，即将爆发而出的危机。」
  
 —— 欢迎来到罗斯凯利法！——
 ▼《绝区零》3.4版本「长日终尽」将于12月2日上线！
 3.4版本「决战于黎明之前」预约活动现已开启，参与版本预约&amp;签到活动，共可领取640菲林！
-版本期间，登录即领联动限定S级代理人「知更鸟」及其养成材料，参与签到即可领取加密母带×10、菲林×1840、配饰：「帕姆」趴趴等奖励，参与活动还可免费领取邦布「</description>
+版本期间，登录即领联动限定S级代理人「知更鸟」及其养成材料，参与签到即可领取加密母带×10、菲林×1840、配饰：「帕姆」趴趴等奖励，参与活动还可免费领取邦布「</p><img src="https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/4d70768df59ca5ca.jpg" alt="《绝区零》第三季纪念回顾 | 新世界前夜"/>]]></description>
       <category>绝区零</category>
-    </item>
-    <item>
-      <title>[鸣潮] #鸣潮# #鸣潮永明的烬焰# #鸣潮露希尔#互动抽奖</title>
-      <link>https://www.bilibili.com/opus/1273007699332694072</link>
-      <guid isPermaLink="false">1273007699332694072</guid>
-      <pubDate>Sat, 21 Nov 2026 04:00:02 GMT</pubDate>
-      <description>#鸣潮# #鸣潮永明的烬焰# #鸣潮露希尔#互动抽奖 
-共鸣者档案前瞻 | 露希尔
-“嘿嘿，轮到我大显身手了~”
-共鸣属性：衍射
-武器类型：佩枪
-—————————————————— 
-关注@鸣潮 并转发本条内容，我们会抽取10位漂泊者送出「《鸣潮》玄方万象系列亚克力立牌（随机款）」*1，截止至11月27日20:00。
-——————————————————
-下载游戏：https://www.biligame.com/detail/?id=108820</description>
-      <category>鸣潮</category>
+      <enclosure url="https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/4d70768df59ca5ca.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/4d70768df59ca5ca.jpg" medium="image"/>
     </item>
     <item>
       <title>[原神] #原神# 「挪德卡莱」、「至冬」…</title>
       <link>https://www.bilibili.com/opus/1273007692840960000</link>
       <guid isPermaLink="false">1273007692840960000</guid>
-      <pubDate>Sat, 21 Nov 2026 04:00:00 GMT</pubDate>
-      <description>#原神# 
+      <pubDate>Sat, 21 Nov 2026 12:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#原神# 
 
 「挪德卡莱」、「至冬」…
 提瓦特的命运，正悬于每一处仍在燃烧的前线之上。
-顺应天上的意志不会有出路，我们唯有反抗到底。</description>
+顺应天上的意志不会有出路，我们唯有反抗到底。</p><img src="https://i0.hdslb.com/bfs/new_dyn/8afd08900035bd5ece711325403b83f4401742377.jpg" alt="#原神# 「挪德卡莱」、「至冬」…"/>]]></description>
       <category>原神</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/8afd08900035bd5ece711325403b83f4401742377.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/8afd08900035bd5ece711325403b83f4401742377.jpg" medium="image"/>
     </item>
     <item>
-      <title>[鸣潮] #鸣潮# #鸣潮永明的烬焰# #鸣潮安娜#互动抽奖</title>
-      <link>https://www.bilibili.com/opus/1272992258930507959</link>
-      <guid isPermaLink="false">1272992258930507959</guid>
-      <pubDate>Sat, 21 Nov 2026 03:00:07 GMT</pubDate>
-      <description>#鸣潮# #鸣潮永明的烬焰# #鸣潮安娜#互动抽奖 
-共鸣者档案前瞻 | 安娜
-“你的欲望，我收下了。”
-共鸣属性：热熔
-武器类型：音感仪
-—————————————————— 
-关注@鸣潮 并转发本条内容，我们会抽取10位漂泊者送出「《鸣潮》玄方万象系列亚克力立牌（随机款）」*1，截止至11月27日20:00。
-——————————————————
-下载游戏：https://www.biligame.com/detail/?id=108820</description>
-      <category>鸣潮</category>
+      <title>[碧蓝航线] #碧蓝航线# 莫洛托夫换装「水上微醺」参上~</title>
+      <link>https://www.bilibili.com/opus/1273007692849348611</link>
+      <guid isPermaLink="false">1273007692849348611</guid>
+      <pubDate>Sat, 21 Nov 2026 12:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#碧蓝航线#
+莫洛托夫换装「水上微醺」参上~
+将于下次维护后限时贩售登场！Live2D+同期实装~！
+“指挥官同志，要一起打水仗吗？……计、计划有变，我怎么站不起来……被游泳圈卡住了……？！”
+
+※「Live2D+」换装相较于其他Live2D换装新增了特殊画面及互动状态，指挥官可通过点击特定部位进入该画面并与之互动；
+※实装效果以游戏内为准。</p><img src="https://i0.hdslb.com/bfs/new_dyn/ca01f57e78cf0be6e8f91addf0b3a4eb233114659.png" alt="#碧蓝航线# 莫洛托夫换装「水上微醺」参上~"/>]]></description>
+      <category>碧蓝航线</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/ca01f57e78cf0be6e8f91addf0b3a4eb233114659.png" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/ca01f57e78cf0be6e8f91addf0b3a4eb233114659.png" medium="image"/>
     </item>
     <item>
       <title>[异环] 海特洛档案丨Exe</title>
       <link>https://www.bilibili.com/opus/1272992230969180179</link>
       <guid isPermaLink="false">1272992230969180179</guid>
-      <pubDate>Sat, 21 Nov 2026 03:00:00 GMT</pubDate>
-      <description>#致电空想迷数# #异环Exe# #异环#
+      <pubDate>Sat, 21 Nov 2026 11:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#致电空想迷数# #异环Exe# #异环#
 「日夜颠倒是形容白日休眠夜晚在线，但如果是全时段在线，中间随机抽取碎片时间休眠的话，我想那不能被称作日夜颠倒。」 
 
-超自然都市开放世界RPG《异环》全新版本「致电，空想迷数」现已开启！立刻下载&gt;&gt;&gt;https://www.biligame.com/detail/?id=111795</description>
+超自然都市开放世界RPG《异环》全新版本「致电，空想迷数」现已开启！立刻下载&gt;&gt;&gt;https://www.biligame.com/detail/?id=111795</p><img src="https://i0.hdslb.com/bfs/new_dyn/9da1b63196fd76350ef6e9fb2a7d0ee93546636978489848.jpg" alt="海特洛档案丨Exe"/>]]></description>
       <category>异环</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/9da1b63196fd76350ef6e9fb2a7d0ee93546636978489848.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/9da1b63196fd76350ef6e9fb2a7d0ee93546636978489848.jpg" medium="image"/>
     </item>
     <item>
       <title>[明日方舟] #123罗德岛！？##明日方舟# 明日方舟官方四格漫画《123罗德岛！？》</title>
       <link>https://www.bilibili.com/opus/1272992231006928896</link>
       <guid isPermaLink="false">1272992231006928896</guid>
-      <pubDate>Sat, 21 Nov 2026 03:00:00 GMT</pubDate>
-      <description>#123罗德岛！？##明日方舟#
+      <pubDate>Sat, 21 Nov 2026 11:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#123罗德岛！？##明日方舟#
 明日方舟官方四格漫画《123罗德岛！？》
-——「乌有」篇</description>
+——「乌有」篇</p><img src="https://i0.hdslb.com/bfs/new_dyn/12c5ad65e9451600dcc51640655bf92e161775300.png" alt="#123罗德岛！？##明日方舟# 明日方舟官方四格漫画《123罗德岛！？》"/>]]></description>
       <category>明日方舟</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/12c5ad65e9451600dcc51640655bf92e161775300.png" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/12c5ad65e9451600dcc51640655bf92e161775300.png" medium="image"/>
+    </item>
+    <item>
+      <title>[蔚蓝档案] #蔚蓝档案# //////////档案启封//////////</title>
+      <link>https://www.bilibili.com/opus/1272992231018463249</link>
+      <guid isPermaLink="false">1272992231018463249</guid>
+      <pubDate>Sat, 21 Nov 2026 11:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#蔚蓝档案#
+//////////档案启封//////////
+■ 美代
+
+狂猎艺术学院的学员，是从事不法走私的非官方社团“特殊交易部”的部长。
+她的愿望是解散特殊交易部，但由于自己性格过于谨慎，加上部员们总是擅自行动，实现愿望的机会似乎十分渺茫。
+
+“我也可以……成为恋爱小说家吗？”</p><img src="https://i0.hdslb.com/bfs/new_dyn/9c4eb9cbf7214116fd6e122115ae7fb43493265644980448.jpg" alt="#蔚蓝档案# //////////档案启封//////////"/>]]></description>
+      <category>蔚蓝档案</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/9c4eb9cbf7214116fd6e122115ae7fb43493265644980448.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/9c4eb9cbf7214116fd6e122115ae7fb43493265644980448.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>[蓝色星原：旅谣] 《蓝色星原：旅谣》公测倒计时5天！</title>
+      <link>https://www.bilibili.com/opus/1272984500020707332</link>
+      <guid isPermaLink="false">1272984500020707332</guid>
+      <pubDate>Sat, 21 Nov 2026 10:30:00 +0800</pubDate>
+      <description><![CDATA[<p>《蓝色星原：旅谣》公测倒计时5天！
+
+每一颗闪烁的星，都在指引一场新的邂逅。 
+
+———————————————————
+《蓝色星原：旅谣》11/26正式公测！
+顶级美术！海量福利！各种美少女角色、全新载具、灵子、星彩奇波等奖励等你拿！ 
+✦《蓝色星原：旅谣》预约地址：https://www.biligame.com/detail/?id=111392&amp;spm_id_from=333.1369.0.0
+#蓝色星原旅谣# #蓝色星原1126正式公测#</p><img src="https://i0.hdslb.com/bfs/new_dyn/1f70879b375f57d37a3d72445158b80d3546569016085336.png" alt="《蓝色星原：旅谣》公测倒计时5天！"/>]]></description>
+      <category>蓝色星原：旅谣</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/1f70879b375f57d37a3d72445158b80d3546569016085336.png" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/1f70879b375f57d37a3d72445158b80d3546569016085336.png" medium="image"/>
+    </item>
+    <item>
+      <title>[蓝色星原：旅谣] 《蓝色星原：旅谣》公测前瞻节目回顾</title>
+      <link>https://www.bilibili.com/video/BV13Fsb6AEam</link>
+      <guid isPermaLink="false">1272768035864707079</guid>
+      <pubDate>Fri, 20 Nov 2026 20:30:01 +0800</pubDate>
+      <description><![CDATA[<p>星临者，欢迎来到普罗米利亚！全新的冒险即将开始，在此之前，先来认识一下这片神奇的大陆吧～
+
+《蓝色星原：旅谣》11月26日正式公测！
+✦ bilibili预约地址：https://www.biligame.com/detail/?id=111392</p><img src="https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/881a153ec86be306.jpg" alt="《蓝色星原：旅谣》公测前瞻节目回顾"/>]]></description>
+      <category>蓝色星原：旅谣</category>
+      <enclosure url="https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/881a153ec86be306.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/881a153ec86be306.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>[绝区零] 《绝区零》3.4版本PV | 长日终尽</title>
+      <link>https://www.bilibili.com/video/BV1nuyWz8Eji</link>
+      <guid isPermaLink="false">1272752616937357364</guid>
+      <pubDate>Fri, 20 Nov 2026 19:30:11 +0800</pubDate>
+      <description><![CDATA[<p>你所选择的命运，远比卡洛丝曾为你编排的…更加残酷。
+你与她…逐日者们的生死相搏，本就注定会将世界再度撕裂——正如他们所期望的那样。
+曾一度坠落的太阳之子啊，现在…该到你做出选择的时候了。
+ 
+—— 欢迎来到罗斯凯利法！——
+▼《绝区零》3.4版本「长日终尽」将于12月2日上线！
+3.4版本「决战于黎明之前」预约活动现已开启，参与版本预约&amp;签到活动，可领取640菲林！
+版本期间，登录即领联动限定S级代理人「知更鸟」及其养成材料，参与签到即可领取加密母带×10、菲林×1840、配饰：「帕姆」趴趴等奖励，参与活</p><img src="https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/b2424390991dc361.jpg" alt="《绝区零》3.4版本PV | 长日终尽"/>]]></description>
+      <category>绝区零</category>
+      <enclosure url="https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/b2424390991dc361.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/b2424390991dc361.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>[绝区零] #绝区零# #长日终尽# 《绝区零》官方调频统计工具上线！</title>
+      <link>https://www.bilibili.com/opus/1272750510209761289</link>
+      <guid isPermaLink="false">1272750510209761289</guid>
+      <pubDate>Fri, 20 Nov 2026 19:22:00 +0800</pubDate>
+      <description><![CDATA[<p>#绝区零# #长日终尽# 
+《绝区零》官方调频统计工具上线！
+ 
+绳匠前往官方小程序，登录后即可查看调频记录，欢迎复制评论区链接前往体验！
+  
+—— 欢迎来到罗斯凯利法！——
+▼《绝区零》3.4版本「长日终尽」将于12月2日上线！
+3.4版本「决战于黎明之前」预约活动现已开启，参与版本预约&amp;签到活动，可领取640菲林！
+版本期间，登录即领联动限定S级代理人「知更鸟」及其养成材料，参与签到即可领取加密母带×10、菲林×1840、配饰：「帕姆」趴趴等奖励，参与活动还可免费领取邦布「帕姆」。
+bilibili安卓端下载地址：https://www.biligame.com/detail/?id=1</p><img src="https://i0.hdslb.com/bfs/new_dyn/6571b1a1979e2b176c1b61c717a2f86d1636034895.jpg" alt="#绝区零# #长日终尽# 《绝区零》官方调频统计工具上线！"/>]]></description>
+      <category>绝区零</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/6571b1a1979e2b176c1b61c717a2f86d1636034895.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/6571b1a1979e2b176c1b61c717a2f86d1636034895.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>[鸣潮] 《鸣潮》先约电台——群星交错音乐特辑Vol.4</title>
+      <link>https://www.bilibili.com/video/BV1oYsh67EqR</link>
+      <guid isPermaLink="false">1272730669614628993</guid>
+      <pubDate>Fri, 20 Nov 2026 18:05:01 +0800</pubDate>
+      <description><![CDATA[<p>鸣潮先约电台《群星交错 音乐特辑 Vol.4》现已正式上架QQ音乐、酷狗音乐、酷我音乐、网易云音乐等平台，欢迎漂泊者前往收听！</p><img src="https://i2.hdslb.com/bfs/archive/7d2d433bba7b5932d232d8a625424ce2582ff58b.jpg" alt="《鸣潮》先约电台——群星交错音乐特辑Vol.4"/>]]></description>
+      <category>鸣潮</category>
+      <enclosure url="https://i2.hdslb.com/bfs/archive/7d2d433bba7b5932d232d8a625424ce2582ff58b.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i2.hdslb.com/bfs/archive/7d2d433bba7b5932d232d8a625424ce2582ff58b.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>[鸣潮] #鸣潮#​</title>
+      <link>https://www.bilibili.com/opus/1272730330324795444</link>
+      <guid isPermaLink="false">1272730330324795444</guid>
+      <pubDate>Fri, 20 Nov 2026 18:03:42 +0800</pubDate>
+      <description><![CDATA[<p>#鸣潮#​
+鸣潮先约电台《群星交错 音乐特辑 Vol.4》现已正式上架QQ音乐、酷狗音乐、酷我音乐、网易云音乐等平台，欢迎漂泊者前往收听！
+
+监制/制作统筹Music Supervisor：杨超/肖超逸Grass
+母带工程师 Mastering Engineer:阿烈@Prototype Studio
+专辑统筹 Coordinate:SmileL/小巫
+出品 Produced by:鸣潮先约电台
+——————————————————
+下载游戏：https://www.biligame.com/detail/?id=108820</p><img src="https://i0.hdslb.com/bfs/new_dyn/4fe2ba50d9ee90d5c4638f3903efdbeb1955897084.jpg" alt="#鸣潮#​"/>]]></description>
+      <category>鸣潮</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/4fe2ba50d9ee90d5c4638f3903efdbeb1955897084.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/4fe2ba50d9ee90d5c4638f3903efdbeb1955897084.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>[明日方舟] 《乌萨斯人那些事》</title>
+      <link>https://www.bilibili.com/opus/1272713917107273761</link>
+      <guid isPermaLink="false">1272713917107273761</guid>
+      <pubDate>Fri, 20 Nov 2026 17:00:00 +0800</pubDate>
+      <description><![CDATA[<p>《乌萨斯人那些事》</p><img src="https://i0.hdslb.com/bfs/new_dyn/83ca4f0963c29cf54ad2de392794a565161775300.jpg" alt="《乌萨斯人那些事》"/>]]></description>
+      <category>明日方舟</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/83ca4f0963c29cf54ad2de392794a565161775300.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/83ca4f0963c29cf54ad2de392794a565161775300.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>[蓝色星原：旅谣] ✦ 奇波图鉴 | 小芽狐·河狸仔·焰哞哞 ✦</title>
+      <link>https://www.bilibili.com/opus/1272667531480399872</link>
+      <guid isPermaLink="false">1272667531480399872</guid>
+      <pubDate>Fri, 20 Nov 2026 14:00:00 +0800</pubDate>
+      <description><![CDATA[<p>✦ 奇波图鉴 | 小芽狐·河狸仔·焰哞哞 ✦
+
+小芽狐、河狸仔，还有焰哞哞，长久以来都只是古书中的传说。可如今这三种奇波却不约而同地在普罗米利亚大陆现身了！
+
+人们对它们可爱的外表与习性赞叹不已，也不禁对是什么力量唤起了传说中的奇波议论纷纷。
+
+「真好奇，是哪位了不起的大人物能和这些奇波星结呢？」
+「我猜一定是普罗米利亚最厉害的冒险家！」 
+
+———————————————————
+✦《蓝色星原：旅谣》预约地址：https://www.biligame.com/detail/?id=111392&amp;spm_id_from=333.1369.0.0 
+#蓝色星原旅谣# #蓝色星原1126正式公测#</p><img src="https://i0.hdslb.com/bfs/new_dyn/e691389b2f3c9dc69911da1b597ee9423546569016085336.jpg" alt="✦ 奇波图鉴 | 小芽狐·河狸仔·焰哞哞 ✦"/>]]></description>
+      <category>蓝色星原：旅谣</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/e691389b2f3c9dc69911da1b597ee9423546569016085336.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/e691389b2f3c9dc69911da1b597ee9423546569016085336.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>[碧蓝航线] #碧蓝航线# #舰船新增# 战列舰「玛丽亚皇后」参上！</title>
+      <link>https://www.bilibili.com/opus/1272652069592891394</link>
+      <guid isPermaLink="false">1272652069592891394</guid>
+      <pubDate>Fri, 20 Nov 2026 13:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#碧蓝航线# #舰船新增#
+战列舰「玛丽亚皇后」参上！
+“指挥官阁下，玛丽亚向你问好。请原谅我暂时不便向你行礼……我怀中的这个‘孩子’相当怕生，要是不小心惊扰了它，恐怕要大闹一场了呢。”
+&lt;该角色下次维护后可通过限时活动获取&gt;
+※实装效果以游戏内为准</p><img src="https://i0.hdslb.com/bfs/new_dyn/74f39f79c12ccb646fa251c1b441f6a9233114659.png" alt="#碧蓝航线# #舰船新增# 战列舰「玛丽亚皇后」参上！"/>]]></description>
+      <category>碧蓝航线</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/74f39f79c12ccb646fa251c1b441f6a9233114659.png" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/74f39f79c12ccb646fa251c1b441f6a9233114659.png" medium="image"/>
+    </item>
+    <item>
+      <title>[碧蓝航线] #碧蓝航线# #舰船新增# 战列舰「锡诺普」参上！</title>
+      <link>https://www.bilibili.com/opus/1272644338618204194</link>
+      <guid isPermaLink="false">1272644338618204194</guid>
+      <pubDate>Fri, 20 Nov 2026 12:30:00 +0800</pubDate>
+      <description><![CDATA[<p>#碧蓝航线# #舰船新增#
+战列舰「锡诺普」参上！
+“我是锡诺普。呼，打招呼真是费劲……随便给我安排一个角落休息就好。如果想让我认真做事，不如拿出指挥官的威严，强迫我……乖乖听话吧……？”
+&lt;该角色下次维护后可通过限时建造获取&gt;
+※实装效果以游戏内为准</p><img src="https://i0.hdslb.com/bfs/new_dyn/c19c8688b2633b9cab69dda18e5717f4233114659.jpg" alt="#碧蓝航线# #舰船新增# 战列舰「锡诺普」参上！"/>]]></description>
+      <category>碧蓝航线</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/c19c8688b2633b9cab69dda18e5717f4233114659.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/c19c8688b2633b9cab69dda18e5717f4233114659.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>[明日方舟：终末地] 新章揭幕，火种未熄。《明日方舟：终末地》全新版本&amp;2.0揭幕前瞻特别节目即将于11月21日19:30播出。</title>
+      <link>https://www.bilibili.com/video/BV1NgsB67EYH</link>
+      <guid isPermaLink="false">1272637245517463556</guid>
+      <pubDate>Fri, 20 Nov 2026 12:02:29 +0800</pubDate>
+      <description><![CDATA[<p>新章揭幕，火种未熄。
+《明日方舟：终末地》全新版本&amp;2.0揭幕前瞻特别节目即将于11月21日19:30播出。</p><img src="https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/22e72faa2a522119.jpg" alt="新章揭幕，火种未熄。《明日方舟：终末地》全新版本&amp;2.0揭幕前瞻特别节目即将于11月21日19:30播出。"/>]]></description>
+      <category>明日方舟：终末地</category>
+      <enclosure url="https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/22e72faa2a522119.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/22e72faa2a522119.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>[蓝色星原：旅谣] 《蓝色星原：旅谣》公测前瞻节目预告</title>
+      <link>https://www.bilibili.com/opus/1272636622711554145</link>
+      <guid isPermaLink="false">1272636622711554145</guid>
+      <pubDate>Fri, 20 Nov 2026 12:00:04 +0800</pubDate>
+      <description><![CDATA[<p>今晚19点，《蓝色星原：旅谣》公测前瞻节目准时开播！直播中随机掉落【现金648】*20，还有超多限定周边！星临者，不要错过哦！
+《蓝色星原：旅谣》公测前瞻节目预告
+
+《蓝色星原：旅谣》公测前瞻节目将于11月20日19:00 开启！
+届时将为星临者带来公测福利、版本情报与最新资讯~
+
+本次前瞻节目将在《蓝色星原：旅谣》官方直播间播出，欢迎星临者前来收看！ 
+
+———————————————————
+✦《蓝色星原：旅谣》预约地址：https://www.biligame.com/detail/?id=111392&amp;spm_id_from=333.1369.0.0 
+#蓝色星原旅谣# #蓝色星原11</p><img src="https://i0.hdslb.com/bfs/new_dyn/46c7f9b8240c430f192a8c3fe0cbb2ff3546569016085336.jpg" alt="《蓝色星原：旅谣》公测前瞻节目预告"/>]]></description>
+      <category>蓝色星原：旅谣</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/46c7f9b8240c430f192a8c3fe0cbb2ff3546569016085336.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/46c7f9b8240c430f192a8c3fe0cbb2ff3546569016085336.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>[原神] #原神# 「须弥」、「枫丹」、「纳塔」…</title>
+      <link>https://www.bilibili.com/opus/1272636607715868696</link>
+      <guid isPermaLink="false">1272636607715868696</guid>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#原神# 
+
+「须弥」、「枫丹」、「纳塔」…
+灭世的预言…天理那所谓的「愿景」，从未把当下的「我们」包含在内。
+而命运不该被框定，生命也不该被当做「薪柴」。</p><img src="https://i0.hdslb.com/bfs/new_dyn/6eb8aefc7d243c7092e5a9f13529a6b8401742377.jpg" alt="#原神# 「须弥」、「枫丹」、「纳塔」…"/>]]></description>
+      <category>原神</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/6eb8aefc7d243c7092e5a9f13529a6b8401742377.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/6eb8aefc7d243c7092e5a9f13529a6b8401742377.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>[原神] #原神# #刻晴# #生日快乐# 夜凉如水，这种天气最适合出来走走逛逛了。</title>
+      <link>https://www.bilibili.com/opus/1272636607710625801</link>
+      <guid isPermaLink="false">1272636607710625801</guid>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#原神# #刻晴# #生日快乐# 
+
+夜凉如水，这种天气最适合出来走走逛逛了。
+看，没想到这里除了我们，还有一位不请自来的客人呢。
+你说，蝴蝶停留在指尖，是不是意味着会有好运降临？
+让我许个愿望的话…那就希望璃月的灯火长明不熄，你我能常常像现在这样赏花、戏水…
+ 
+感谢画师：BiBi绘制贺图</p><img src="https://i0.hdslb.com/bfs/new_dyn/2b2a4811327c30e04538a0243af38e48401742377.jpg" alt="#原神# #刻晴# #生日快乐# 夜凉如水，这种天气最适合出来走走逛逛了。"/>]]></description>
+      <category>原神</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/2b2a4811327c30e04538a0243af38e48401742377.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/2b2a4811327c30e04538a0243af38e48401742377.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>[原神] #原神# #布伦妮# #生日快乐# 呵欠…刚刚陪可莉一起画画，折腾了我好长时间。</title>
+      <link>https://www.bilibili.com/opus/1272636607701188631</link>
+      <guid isPermaLink="false">1272636607701188631</guid>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#原神# #布伦妮# #生日快乐# 
+
+呵欠…刚刚陪可莉一起画画，折腾了我好长时间。
+正好让你来评一评，是不是我画的嘟嘟可更胜一筹？
+欸，我看起来真的很困吗…那我先睡个十分钟，等会你记得叫我起来。
+等睡醒了，我一定要把这本书给读完…就差、就差一点点！</p><img src="https://i0.hdslb.com/bfs/new_dyn/da8b74d39a3aa8be479d2c8a9839dc83401742377.jpg" alt="#原神# #布伦妮# #生日快乐# 呵欠…刚刚陪可莉一起画画，折腾了我好长时间。"/>]]></description>
+      <category>原神</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/da8b74d39a3aa8be479d2c8a9839dc83401742377.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/da8b74d39a3aa8be479d2c8a9839dc83401742377.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>[崩坏：因缘精灵] #崩坏因缘精灵# #幸福测试# 同行手记丨亨格丽&amp;猪莉哼</title>
+      <link>https://www.bilibili.com/opus/1272636607669731348</link>
+      <guid isPermaLink="false">1272636607669731348</guid>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#崩坏因缘精灵# #幸福测试#
+同行手记丨亨格丽&amp;猪莉哼
+
+因为很喜欢，所以想要吃掉；因为很喜欢，所以也不舍得吃掉。
+
+*游戏研发中，非最终品质。
+
+-------------------
+「幸福测试」 将于11月25日正式开启！
+
+因缘的丝线已将我们连结，春天见！《崩坏：因缘精灵》公测定档2027年春季，App Store现已开放预约！</p><img src="https://i0.hdslb.com/bfs/new_dyn/f28fa737012790b6d8efb6086c7ec3d43546886017387331.jpg" alt="#崩坏因缘精灵# #幸福测试# 同行手记丨亨格丽&amp;猪莉哼"/>]]></description>
+      <category>崩坏：因缘精灵</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/f28fa737012790b6d8efb6086c7ec3d43546886017387331.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/f28fa737012790b6d8efb6086c7ec3d43546886017387331.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>[碧蓝航线] #碧蓝航线# #舰船新增# 轻巡洋舰「莫洛托夫」参上！</title>
+      <link>https://www.bilibili.com/opus/1272636607720062999</link>
+      <guid isPermaLink="false">1272636607720062999</guid>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 +0800</pubDate>
+      <description><![CDATA[<p>#碧蓝航线# #舰船新增#
+轻巡洋舰「莫洛托夫」参上！
+“指挥官同志您好，港区互助委员会负责人，莫洛托夫向您报到。如果您近期有帮助过其它人，可以在我这里登记互助分。至于互助分的用途……稍后我会说明。”
+&lt;该角色下次维护后可通过限时建造获取&gt;
+※实装效果以游戏内为准</p><img src="https://i0.hdslb.com/bfs/new_dyn/97686886852499da3a10e65e556c3ea1233114659.png" alt="#碧蓝航线# #舰船新增# 轻巡洋舰「莫洛托夫」参上！"/>]]></description>
+      <category>碧蓝航线</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/97686886852499da3a10e65e556c3ea1233114659.png" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/97686886852499da3a10e65e556c3ea1233114659.png" medium="image"/>
+    </item>
+    <item>
+      <title>[碧蓝航线] #碧蓝航线# ◆服务器新增预告◆</title>
+      <link>https://www.bilibili.com/opus/1272628896109428737</link>
+      <guid isPermaLink="false">1272628896109428737</guid>
+      <pubDate>Fri, 20 Nov 2026 11:30:05 +0800</pubDate>
+      <description><![CDATA[<p>#碧蓝航线#
+◆服务器新增预告◆ 
+
+为了让更多的指挥官能更好地体验游戏，司令部将于11月24日维护后新增以下全新港区：
+
+安卓：永夜巡弋
+安卓渠道：独角鲸行动
+
+届时，还请【11月24日】维护后新注册的指挥官，尽量选择新港区进行注册。
+
+此外，2026年11月24日维护后~2027年4月14日23:59期间，司令部为于2026年11月19日~2027年4月14日23:59期间注册的【所有港区】（不局限于新增港区）的新晋指挥官准备了包括新手建造、BUFF助力等一系列新服开服庆典活动及专属礼包。
+
+当然，司令部也为2026年11月19日前注册的资深指挥官准备了对应的特别活动！
+
+欢迎各位指挥官与</p><img src="https://i0.hdslb.com/bfs/new_dyn/bd966f63ce2e4039c73b8b509c6987ae233114659.jpg" alt="#碧蓝航线# ◆服务器新增预告◆"/>]]></description>
+      <category>碧蓝航线</category>
+      <enclosure url="https://i0.hdslb.com/bfs/new_dyn/bd966f63ce2e4039c73b8b509c6987ae233114659.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i0.hdslb.com/bfs/new_dyn/bd966f63ce2e4039c73b8b509c6987ae233114659.jpg" medium="image"/>
+    </item>
+    <item>
+      <title>[鸣潮] 《寰宇人类注疏：群星交错》——露希尔</title>
+      <link>https://www.bilibili.com/video/BV1bHsv6GEwA</link>
+      <guid isPermaLink="false">1272621186604335158</guid>
+      <pubDate>Fri, 20 Nov 2026 11:00:10 +0800</pubDate>
+      <description><![CDATA[<p>“放心，接下来就交给我吧！”</p><img src="https://i2.hdslb.com/bfs/archive/541acfc0ce1bb67b7040d44b8e47a6a32399eef5.jpg" alt="《寰宇人类注疏：群星交错》——露希尔"/>]]></description>
+      <category>鸣潮</category>
+      <enclosure url="https://i2.hdslb.com/bfs/archive/541acfc0ce1bb67b7040d44b8e47a6a32399eef5.jpg" type="image/jpeg" length="0"/>
+      <media:content url="https://i2.hdslb.com/bfs/archive/541acfc0ce1bb67b7040d44b8e47a6a32399eef5.jpg" medium="image"/>
     </item>
   </channel>
 </rss>

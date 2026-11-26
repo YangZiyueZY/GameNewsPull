@@ -1,0 +1,207 @@
+{
+  "api_version": "v1",
+  "schema_version": 4,
+  "generated_at": "2026-11-26T21:03:58+08:00",
+  "generated_at_utc": "2026-11-26T13:03:58.000Z",
+  "count": 1,
+  "cdn": {
+    "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
+    "api": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/api/v1"
+  },
+  "game": {
+    "game_name": "绝区零",
+    "key": "zzz",
+    "icon_url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/97329efbfc6004aa.jpg",
+    "publisher_key": "mihoyo",
+    "publisher_name": "米哈游",
+    "publisher_color": "#7cc7ff",
+    "stage": "live",
+    "official_account": {
+      "mid": "1636034895",
+      "name": "绝区零",
+      "url": "https://space.bilibili.com/1636034895"
+    },
+    "download": {
+      "available": true,
+      "label": "官方下载",
+      "url": null
+    },
+    "release": {
+      "label": "已上线",
+      "date": null,
+      "days_until": null
+    },
+    "events": [
+      {
+        "id": "curated:zzz-data-bounty",
+        "title": "「数据悬赏-实战模拟」活动",
+        "category": "event",
+        "status": "进行中",
+        "start_at": "2026-11-25T04:00:00+08:00",
+        "end_at": "2026-11-30T03:59:00+08:00",
+        "days_remaining": 4,
+        "note": "官方活动说明：实战模拟室双倍奖励",
+        "url": "https://www.bilibili.com/opus/1273749863225360393",
+        "source": "curated"
+      },
+      {
+        "id": "curated:zzz-34-reservation",
+        "title": "3.4 版本「决战于黎明之前」预约 & 签到活动",
+        "category": "event",
+        "status": "进行中",
+        "start_at": "2026-11-20T00:00:00+08:00",
+        "end_at": "2026-12-02T05:59:00+08:00",
+        "days_remaining": 6,
+        "note": "网页预约与游戏内签到活动进行中",
+        "url": "https://www.bilibili.com/opus/1272751066454163522",
+        "source": "curated"
+      },
+      {
+        "id": "curated:zzz-34-version",
+        "title": "3.4 版本「长日终尽」上线",
+        "category": "event",
+        "status": "即将开始",
+        "start_at": "2026-12-02T00:00:00+08:00",
+        "end_at": null,
+        "days_remaining": null,
+        "note": "官方公告：3.4 版本将于 12 月 2 日上线",
+        "url": "https://www.bilibili.com/opus/1273749863225360393",
+        "source": "curated"
+      }
+    ],
+    "birthdays": [],
+    "current_version": "3.3版本「重返天空的旅程」",
+    "current_content": [
+      "第三季纪念回顾 | 新世界前夜",
+      "3.4版本PV | 长日终尽",
+      "#绝区零# #重返天空的旅程# 「数据悬赏-实战模拟」活动说明",
+      "#绝区零# #长日终尽# #绝区零挽昼# 🎁决战于黎明之前丨薪火之影挑战现已开启"
+    ],
+    "current_version_days": 36,
+    "next_version": "3.4版本「长日终尽」",
+    "next_version_kind": "version",
+    "next_content": [],
+    "days_to_next_version": 6,
+    "preview_status": "已发布",
+    "preview_title": "《绝区零》第三季纪念回顾 | 新世界前夜",
+    "preview_start_at": "2026-11-21T12:00:30+08:00",
+    "preview_replay_url": "https://www.bilibili.com/video/BV1S4yhzcEgW",
+    "preview_images": [
+      "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/4d70768df59ca5ca.jpg"
+    ],
+    "up_banners": [
+      {
+        "label": "3.3 版本",
+        "phase": null,
+        "pool_name": "代理人调频",
+        "pool_type": "limited_character",
+        "pool_type_label": "限定角色",
+        "characters": [
+          "菲欧妮",
+          "维琳娜"
+        ],
+        "start_at": "2026-10-21T11:00:00+08:00",
+        "end_at": "2026-11-11T11:59:00+08:00",
+        "status": "已结束",
+        "days_remaining": null,
+        "confidence": "low",
+        "sources": [
+          {
+            "id": "akasha",
+            "tier": "L2",
+            "url": "https://www.miyoushe.com/zzz/article/79004828",
+            "fetched_at": "2026-11-26T21:03:58+08:00"
+          }
+        ],
+        "version": "3.3",
+        "note": null,
+        "source": "akasha"
+      },
+      {
+        "label": "3.3 版本",
+        "phase": null,
+        "pool_name": "代理人调频",
+        "pool_type": "limited_character",
+        "pool_type_label": "限定角色",
+        "characters": [
+          "赛维里安",
+          "诺姆"
+        ],
+        "start_at": "2026-11-11T12:00:00+08:00",
+        "end_at": "2026-12-01T14:59:00+08:00",
+        "status": "进行中",
+        "days_remaining": 5,
+        "confidence": "low",
+        "sources": [
+          {
+            "id": "akasha",
+            "tier": "L2",
+            "url": "https://www.miyoushe.com/zzz/article/79450581",
+            "fetched_at": "2026-11-26T21:03:58+08:00"
+          }
+        ],
+        "version": "3.3",
+        "note": null,
+        "source": "akasha"
+      }
+    ],
+    "current_up_characters": [
+      "赛维里安",
+      "诺姆"
+    ],
+    "sources": [
+      {
+        "title": "《绝区零》第三季纪念回顾 | 新世界前夜",
+        "url": "https://www.bilibili.com/video/BV1S4yhzcEgW",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "《绝区零》3.4 版本「长日终尽」前瞻特别节目",
+        "url": "https://www.bilibili.com/video/BV1WwyWzNEXz",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "《绝区零》3.4版本PV | 长日终尽",
+        "url": "https://www.bilibili.com/video/BV1nuyWz8Eji",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "​#绝区零# #长日终尽#",
+        "url": "https://www.bilibili.com/opus/1272636670003380229",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "互动抽奖  #绝区零#",
+        "url": "https://www.bilibili.com/opus/1272250079986581657",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "互动抽奖 #绝区零# #绝区零妮可# #生日快乐妮可#",
+        "url": "https://www.bilibili.com/opus/1271878994776555603",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      }
+    ],
+    "facts_checked_at": "2026-11-26T21:03:58+08:00",
+    "pact_banners": [],
+    "icon_url_fallback": "https://yangziyuezy.github.io/GameNewsPull/img/97329efbfc6004aa.jpg",
+    "icon_url_local": "img/97329efbfc6004aa.jpg",
+    "preview_images_fallback": [
+      "https://yangziyuezy.github.io/GameNewsPull/img/4d70768df59ca5ca.jpg"
+    ],
+    "preview_images_local": [
+      "img/4d70768df59ca5ca.jpg"
+    ]
+  }
+}

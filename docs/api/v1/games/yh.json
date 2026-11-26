@@ -1,0 +1,245 @@
+{
+  "api_version": "v1",
+  "schema_version": 4,
+  "generated_at": "2026-11-26T21:03:58+08:00",
+  "generated_at_utc": "2026-11-26T13:03:58.000Z",
+  "count": 1,
+  "cdn": {
+    "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
+    "api": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/api/v1"
+  },
+  "game": {
+    "game_name": "异环",
+    "key": "yh",
+    "icon_url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/633672ebf3738e81.jpg",
+    "publisher_key": "perfectworld",
+    "publisher_name": "完美世界",
+    "publisher_color": "#c9a6ff",
+    "stage": "live",
+    "official_account": {
+      "mid": "3546636978489848",
+      "name": "异环",
+      "url": "https://space.bilibili.com/3546636978489848"
+    },
+    "download": {
+      "available": true,
+      "label": "官方下载",
+      "url": null
+    },
+    "release": {
+      "label": "已上线",
+      "date": null,
+      "days_until": null
+    },
+    "events": [
+      {
+        "id": "curated:yh-stride-collab",
+        "title": "异环 × 炫迈 联动活动",
+        "category": "event",
+        "status": "进行中",
+        "start_at": "2026-10-30T00:00:00+08:00",
+        "end_at": null,
+        "days_remaining": null,
+        "note": "官方公告：10 月 30 日起联名产品与主题周边线上多平台开售",
+        "url": "https://www.bilibili.com/video/BV12Gnm6wEAt",
+        "source": "curated"
+      },
+      {
+        "id": "curated:yh-15-version",
+        "title": "1.5 版本「致电，空想迷数」",
+        "category": "event",
+        "status": "进行中",
+        "start_at": null,
+        "end_at": null,
+        "days_remaining": null,
+        "note": "官方已发布版本 PV 与前瞻节目，版本内容持续开放",
+        "url": "https://www.bilibili.com/video/BV1TExT6eEsF",
+        "source": "curated"
+      }
+    ],
+    "birthdays": [],
+    "current_version": "1.5版本",
+    "current_content": [
+      "曳尔沐角色PV丨我们重归于好",
+      "角色实机战斗丨Exe",
+      "特别剧情短片丨X+Y=10KB世界",
+      "曳尔沐EP丨Here we are again"
+    ],
+    "current_version_days": 21,
+    "next_version": "暂未公布",
+    "next_version_kind": null,
+    "next_content": [],
+    "days_to_next_version": null,
+    "preview_status": "已发布",
+    "preview_title": "《异环》1.5版本前瞻特别节目回顾",
+    "preview_start_at": "2026-10-28T20:05:01+08:00",
+    "preview_replay_url": "https://www.bilibili.com/video/BV1AtxT6tETW",
+    "preview_images": [
+      "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/9dcffaa31bb48599.jpg"
+    ],
+    "up_banners": [],
+    "current_up_characters": [
+      "卡厄斯",
+      "Exe"
+    ],
+    "sources": [
+      {
+        "title": "《异环》曳尔沐角色PV丨我们重归于好",
+        "url": "https://www.bilibili.com/video/BV1NWxT6cEWk",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "《异环》角色实机战斗丨Exe",
+        "url": "https://www.bilibili.com/video/BV1Nbsq6LE4G",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "《异环》×北通 联动第二弹 现货发售！",
+        "url": "https://www.bilibili.com/opus/1272821903318319107",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "《异环》曳尔沐角色PV丨我们重归于好",
+        "url": "https://www.bilibili.com/opus/1270966520402411541",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "《异环》曳尔沐EP丨Here we are again",
+        "url": "https://www.bilibili.com/opus/1270966511811428354",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "《异环》特别剧情短片丨X+Y=10KB世界",
+        "url": "https://www.bilibili.com/opus/1270966486073081857",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      }
+    ],
+    "facts_checked_at": "2026-11-26T21:03:58+08:00",
+    "pact_banners": [
+      {
+        "label": "电子人之梦",
+        "phase": null,
+        "pool_name": "电子人之梦",
+        "pool_type": "pact",
+        "pool_type_label": "协定",
+        "characters": [
+          "曳尔沐"
+        ],
+        "start_at": "2026-11-05T05:00:00+08:00",
+        "end_at": "2026-11-26T05:59:00+08:00",
+        "status": "已结束",
+        "days_remaining": null,
+        "confidence": "low",
+        "sources": [
+          {
+            "id": "bili-dynamics",
+            "tier": "L0",
+            "url": "https://www.bilibili.com/opus/1266312697850363910",
+            "fetched_at": "2026-11-26T21:03:58+08:00"
+          }
+        ],
+        "version": null,
+        "note": "异环限定棋盘（官方措辞）；起点按版更日 05:00 近似（原文：版本更新后）",
+        "source": "bili-dynamics"
+      },
+      {
+        "label": "破晓前",
+        "phase": null,
+        "pool_name": "破晓前",
+        "pool_type": "pact",
+        "pool_type_label": "协定",
+        "characters": [
+          "真红"
+        ],
+        "start_at": "2026-11-05T05:00:00+08:00",
+        "end_at": "2026-11-26T05:59:00+08:00",
+        "status": "已结束",
+        "days_remaining": null,
+        "confidence": "low",
+        "sources": [
+          {
+            "id": "bili-dynamics",
+            "tier": "L0",
+            "url": "https://www.bilibili.com/opus/1266374545351114759",
+            "fetched_at": "2026-11-26T21:03:58+08:00"
+          }
+        ],
+        "version": null,
+        "note": "异环限定棋盘（官方措辞）；返场/复刻；起点按版更日 05:00 近似（原文：版本更新后）",
+        "source": "bili-dynamics"
+      },
+      {
+        "label": "无归路",
+        "phase": null,
+        "pool_name": "无归路",
+        "pool_type": "pact",
+        "pool_type_label": "协定",
+        "characters": [
+          "卡厄斯"
+        ],
+        "start_at": "2026-11-26T05:00:00+08:00",
+        "end_at": "2026-12-17T05:59:00+08:00",
+        "status": "进行中",
+        "days_remaining": 21,
+        "confidence": "low",
+        "sources": [
+          {
+            "id": "bili-dynamics",
+            "tier": "L0",
+            "url": "https://www.bilibili.com/opus/1274182795947671576",
+            "fetched_at": "2026-11-26T21:03:58+08:00"
+          }
+        ],
+        "version": null,
+        "note": "异环限定棋盘（官方措辞）；返场/复刻；起点按版更日 05:00 近似（原文：版本更新后）",
+        "source": "bili-dynamics"
+      },
+      {
+        "label": "离线的算式",
+        "phase": null,
+        "pool_name": "离线的算式",
+        "pool_type": "pact",
+        "pool_type_label": "协定",
+        "characters": [
+          "Exe"
+        ],
+        "start_at": "2026-11-26T05:00:00+08:00",
+        "end_at": "2026-12-17T05:59:00+08:00",
+        "status": "进行中",
+        "days_remaining": 21,
+        "confidence": "low",
+        "sources": [
+          {
+            "id": "bili-dynamics",
+            "tier": "L0",
+            "url": "https://www.bilibili.com/opus/1274120948395540484",
+            "fetched_at": "2026-11-26T21:03:58+08:00"
+          }
+        ],
+        "version": null,
+        "note": "异环限定棋盘（官方措辞）；起点按版更日 05:00 近似（原文：版本更新后）",
+        "source": "bili-dynamics"
+      }
+    ],
+    "icon_url_fallback": "https://yangziyuezy.github.io/GameNewsPull/img/633672ebf3738e81.jpg",
+    "icon_url_local": "img/633672ebf3738e81.jpg",
+    "preview_images_fallback": [
+      "https://yangziyuezy.github.io/GameNewsPull/img/9dcffaa31bb48599.jpg"
+    ],
+    "preview_images_local": [
+      "img/9dcffaa31bb48599.jpg"
+    ]
+  }
+}

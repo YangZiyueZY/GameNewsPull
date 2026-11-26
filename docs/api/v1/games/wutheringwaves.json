@@ -1,0 +1,210 @@
+{
+  "api_version": "v1",
+  "schema_version": 4,
+  "generated_at": "2026-11-26T21:03:58+08:00",
+  "generated_at_utc": "2026-11-26T13:03:58.000Z",
+  "count": 1,
+  "cdn": {
+    "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
+    "api": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/api/v1"
+  },
+  "game": {
+    "game_name": "鸣潮",
+    "key": "wutheringwaves",
+    "icon_url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/9f52c0849d371e3e.jpg",
+    "publisher_key": "kuro",
+    "publisher_name": "库洛游戏",
+    "publisher_color": "#ff9f6b",
+    "stage": "live",
+    "official_account": {
+      "mid": "1955897084",
+      "name": "鸣潮",
+      "url": "https://space.bilibili.com/1955897084"
+    },
+    "download": {
+      "available": true,
+      "label": "官方下载",
+      "url": null
+    },
+    "release": {
+      "label": "已上线",
+      "date": null,
+      "days_until": null
+    },
+    "events": [
+      {
+        "id": "curated:wuwa-lahailuo-block",
+        "title": "「拉海洛方块・逆转」休闲活动",
+        "category": "event",
+        "status": "进行中",
+        "start_at": "2026-11-19T04:00:00+08:00",
+        "end_at": "2026-12-03T03:59:00+08:00",
+        "days_remaining": 7,
+        "note": "官方活动说明：每日开放新关卡，完成目标领取星声等奖励",
+        "url": "https://www.bilibili.com/opus/1271866964588888065",
+        "source": "curated"
+      },
+      {
+        "id": "curated:wuwa-38-version",
+        "title": "3.8 版本「旧梦凋零的百合」",
+        "category": "event",
+        "status": "进行中",
+        "start_at": "2026-11-12T00:00:00+08:00",
+        "end_at": null,
+        "days_remaining": null,
+        "note": "官方公告：11 月 12 日正式开启",
+        "url": "https://www.bilibili.com/video/BV1L44q6eEyt",
+        "source": "curated"
+      },
+      {
+        "id": "curated:wuwa-annual-chapter",
+        "title": "年度篇章《鸣潮：永明的烬焰》",
+        "category": "event",
+        "status": "即将开始",
+        "start_at": "2026-12-22T00:00:00+08:00",
+        "end_at": null,
+        "days_remaining": null,
+        "note": "官方公告：12 月 22 日开启",
+        "url": "https://www.bilibili.com/video/BV1jKsq6cEEP",
+        "source": "curated"
+      }
+    ],
+    "birthdays": [],
+    "current_version": "3.8版本",
+    "current_content": [
+      "在普罗米厄的怀抱下",
+      "#鸣潮# #鸣潮3.8版本# 你知道，梦终有一天会醒，但回忆中的事物会一直闪耀。",
+      "【IGN独家】《鸣潮：永明的烬焰》实机演示",
+      "先约电台——群星交错音乐特辑Vol.4"
+    ],
+    "current_version_days": 14,
+    "next_version": "4.0版本",
+    "next_version_kind": "version",
+    "next_content": [],
+    "days_to_next_version": null,
+    "preview_status": "已发布",
+    "preview_title": "《鸣潮》3.8版本前瞻通讯 | 回顾影像",
+    "preview_start_at": "2026-11-06T19:40:01+08:00",
+    "preview_replay_url": "https://www.bilibili.com/video/BV1Di4q64EfC",
+    "preview_images": [
+      "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/ed0971ade0bd28e6.jpg"
+    ],
+    "up_banners": [
+      {
+        "label": "第一期",
+        "phase": null,
+        "pool_name": "盛放于昨日梦土的花朵",
+        "pool_type": "limited_character",
+        "pool_type_label": "限定角色",
+        "characters": [
+          "莉莉"
+        ],
+        "start_at": "2026-11-12T11:00:00+08:00",
+        "end_at": "2026-12-03T09:59:00+08:00",
+        "status": "进行中",
+        "days_remaining": 7,
+        "confidence": "high",
+        "sources": [
+          {
+            "id": "kuro-site",
+            "tier": "L0",
+            "url": "https://media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/zh/article/5779.json",
+            "fetched_at": "2026-11-26T21:03:58+08:00"
+          },
+          {
+            "id": "bili-dynamics",
+            "tier": "L0",
+            "url": "https://www.bilibili.com/opus/1269283956235173890",
+            "fetched_at": "2026-11-26T21:03:58+08:00"
+          }
+        ],
+        "version": "3.8",
+        "note": "公告未给出该池的直接时间（版本说明常见）；同篇维护窗口 2026-11-12T04:00:00+08:00 ~ 2026-11-12T11:00:00+08:00；起点按同篇维护结束时刻 2026-11-12T11:00:00+08:00 近似",
+        "source": "kuro-site"
+      },
+      {
+        "label": "1.4 徘徊迷宫尽处",
+        "phase": null,
+        "pool_name": "徘徊迷宫尽处",
+        "pool_type": "limited_character",
+        "pool_type_label": "限定角色",
+        "characters": [
+          "椿"
+        ],
+        "start_at": null,
+        "end_at": "2024-12-12T09:59:00+08:00",
+        "status": "已结束",
+        "days_remaining": null,
+        "confidence": "high",
+        "sources": [
+          {
+            "id": "kuro-site",
+            "tier": "L0",
+            "url": "https://media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/zh/article/1659.json",
+            "fetched_at": "2026-11-26T21:03:58+08:00"
+          }
+        ],
+        "version": "1.4",
+        "note": "起点原文「1.4版本更新后」无法定位绝对时刻，start_at=null",
+        "source": "kuro-site"
+      }
+    ],
+    "current_up_characters": [
+      "莉莉"
+    ],
+    "sources": [
+      {
+        "title": "在普罗米厄的怀抱下",
+        "url": "https://www.bilibili.com/video/BV16Bs26FEAM",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "#鸣潮# #鸣潮3.8版本# 你知道，梦终有一天会醒，但回忆中的事物会一直闪耀。",
+        "url": "https://www.bilibili.com/opus/1273749863207534596",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "【IGN独家】《鸣潮：永明的烬焰》实机演示",
+        "url": "https://www.bilibili.com/video/BV1jKsq6cEEP",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "#鸣潮# #鸣潮永明的烬焰# #鸣潮露希尔#互动抽奖",
+        "url": "https://www.bilibili.com/opus/1273007699332694072",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "#鸣潮# #鸣潮永明的烬焰# #鸣潮安娜#互动抽奖",
+        "url": "https://www.bilibili.com/opus/1272992258930507959",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "《鸣潮》先约电台——群星交错音乐特辑Vol.4",
+        "url": "https://www.bilibili.com/video/BV1oYsh67EqR",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      }
+    ],
+    "facts_checked_at": "2026-11-26T21:03:58+08:00",
+    "pact_banners": [],
+    "icon_url_fallback": "https://yangziyuezy.github.io/GameNewsPull/img/9f52c0849d371e3e.jpg",
+    "icon_url_local": "img/9f52c0849d371e3e.jpg",
+    "preview_images_fallback": [
+      "https://yangziyuezy.github.io/GameNewsPull/img/ed0971ade0bd28e6.jpg"
+    ],
+    "preview_images_local": [
+      "img/ed0971ade0bd28e6.jpg"
+    ]
+  }
+}

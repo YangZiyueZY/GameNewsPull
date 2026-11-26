@@ -1,0 +1,60 @@
+{
+  "api_version": "v1",
+  "schema_version": 4,
+  "generated_at": "2026-11-26T21:03:58+08:00",
+  "generated_at_utc": "2026-11-26T13:03:58.000Z",
+  "count": 1,
+  "cdn": {
+    "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
+    "api": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/api/v1"
+  },
+  "items": [
+    {
+      "game_key": "genshin",
+      "game_name": "原神",
+      "count": 4,
+      "birthdays": [
+        {
+          "character": "莱欧斯利",
+          "month_day": "11-23",
+          "next_at": "2027-11-23T00:00:00+08:00",
+          "days_until": 362,
+          "days_since": 3,
+          "state": "recent",
+          "url": "https://www.bilibili.com/opus/1273749863246331908",
+          "source": "official"
+        },
+        {
+          "character": "刻晴",
+          "month_day": "11-20",
+          "next_at": "2027-11-20T00:00:00+08:00",
+          "days_until": 359,
+          "days_since": 6,
+          "state": "recent",
+          "url": "https://www.bilibili.com/opus/1272636607710625801",
+          "source": "official"
+        },
+        {
+          "character": "布伦妮",
+          "month_day": "11-20",
+          "next_at": "2027-11-20T00:00:00+08:00",
+          "days_until": 359,
+          "days_since": 6,
+          "state": "recent",
+          "url": "https://www.bilibili.com/opus/1272636607701188631",
+          "source": "official"
+        },
+        {
+          "character": "瓦雷莎",
+          "month_day": "11-15",
+          "next_at": "2027-11-15T00:00:00+08:00",
+          "days_until": 354,
+          "days_since": 11,
+          "state": "recent",
+          "url": "https://www.bilibili.com/opus/1270781181855531017",
+          "source": "official"
+        }
+      ]
+    }
+  ]
+}

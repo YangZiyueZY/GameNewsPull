@@ -1,0 +1,178 @@
+{
+  "api_version": "v1",
+  "schema_version": 4,
+  "generated_at": "2026-11-26T21:03:58+08:00",
+  "generated_at_utc": "2026-11-26T13:03:58.000Z",
+  "count": 1,
+  "cdn": {
+    "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
+    "api": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/api/v1"
+  },
+  "game": {
+    "game_name": "蓝色星原：旅谣",
+    "key": "azurpromilia",
+    "icon_url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/021859f48f32205c.jpg",
+    "publisher_key": "manjuu",
+    "publisher_name": "蛮啾网络",
+    "publisher_color": "#9bb8ff",
+    "stage": "live",
+    "official_account": {
+      "mid": "3546569016085336",
+      "name": "蓝色星原：旅谣",
+      "url": "https://space.bilibili.com/3546569016085336"
+    },
+    "download": {
+      "available": true,
+      "label": "官方下载",
+      "url": null
+    },
+    "release": {
+      "label": "2026 年 11 月 26 日正式公测",
+      "date": "2026-11-26T00:00:00+08:00",
+      "days_until": 0
+    },
+    "events": [
+      {
+        "id": "curated:azurpromilia-prepublic",
+        "title": "正式公测",
+        "category": "prelaunch",
+        "status": "进行中",
+        "start_at": "2026-11-26T00:00:00+08:00",
+        "end_at": null,
+        "days_remaining": null,
+        "note": "官方公告：11 月 26 日正式公测，bilibili 预约已开启",
+        "url": "https://www.bilibili.com/video/BV1NdWo6vEQL",
+        "source": "curated"
+      },
+      {
+        "id": "curated:azurpromilia-trail-test-end",
+        "title": "「旅迹测试」已结束",
+        "category": "prelaunch",
+        "status": "已结束",
+        "start_at": "2026-10-07T16:00:00+08:00",
+        "end_at": "2026-10-07T16:00:00+08:00",
+        "days_remaining": null,
+        "note": "官方公告：旅迹测试已于 10 月 7 日 16:00（UTC+8）结束",
+        "url": "https://www.bilibili.com/opus/1256355265002864695",
+        "source": "curated"
+      },
+      {
+        "id": "curated:azurpromilia-prepublic-program",
+        "title": "公测前瞻节目",
+        "category": "prelaunch",
+        "status": "已结束",
+        "start_at": "2026-11-20T19:00:00+08:00",
+        "end_at": null,
+        "days_remaining": null,
+        "note": "官方直播已于 11 月 20 日 19:00 开播，回顾影像已发布",
+        "url": "https://www.bilibili.com/opus/1272636622711554145",
+        "source": "curated"
+      }
+    ],
+    "birthdays": [],
+    "current_version": "版本资讯更新中",
+    "current_content": [
+      "预下载现已开启",
+      "公测常见问题说明",
+      "公测B站UP主激励计划现已开启！",
+      "涂山小玉PV | 一笺桃花"
+    ],
+    "current_version_days": 0,
+    "next_version": "暂未公布",
+    "next_version_kind": null,
+    "next_content": [],
+    "days_to_next_version": null,
+    "preview_status": "已发布",
+    "preview_title": "《蓝色星原：旅谣》公测前瞻节目回顾",
+    "preview_start_at": "2026-11-20T20:30:01+08:00",
+    "preview_replay_url": "https://www.bilibili.com/video/BV13Fsb6AEam",
+    "preview_images": [
+      "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/881a153ec86be306.jpg"
+    ],
+    "up_banners": [
+      {
+        "label": "桃笺为契",
+        "phase": null,
+        "pool_name": "桃笺为契",
+        "pool_type": "limited_character",
+        "pool_type_label": "限定角色",
+        "characters": [
+          "涂山小玉"
+        ],
+        "start_at": null,
+        "end_at": "2026-12-17T03:59:00+08:00",
+        "status": "进行中",
+        "days_remaining": 21,
+        "confidence": "low",
+        "sources": [
+          {
+            "id": "bili-dynamics",
+            "tier": "L0",
+            "url": "https://www.bilibili.com/opus/1274151900107767840",
+            "fetched_at": "2026-11-26T21:03:58+08:00"
+          }
+        ],
+        "version": null,
+        "note": "观测时间原文 2026年11月26日开服后 - 2026年12月17日 03:59（UTC+8）；起点为「开服后」等相对表述，start_at=null",
+        "source": "bili-dynamics"
+      }
+    ],
+    "current_up_characters": [
+      "涂山小玉"
+    ],
+    "sources": [
+      {
+        "title": "互动抽奖",
+        "url": "https://www.bilibili.com/opus/1274106205897228296",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "《蓝色星原：旅谣》预下载现已开启 ！！",
+        "url": "https://www.bilibili.com/opus/1274167727012970499",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "《蓝色星原：旅谣》预下载现已开启",
+        "url": "https://www.bilibili.com/opus/1274167331926310949",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "互动抽奖",
+        "url": "https://www.bilibili.com/opus/1274151900107767840",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "《蓝色星原：旅谣》公测常见问题说明",
+        "url": "https://www.bilibili.com/opus/1274128690074091522",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "《蓝色星原：旅谣》公测B站UP主激励计划现已开启！",
+        "url": "https://www.bilibili.com/opus/1274113217435533320",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      }
+    ],
+    "facts_checked_at": "2026-11-26T21:03:58+08:00",
+    "pact_banners": [],
+    "icon_url_fallback": "https://yangziyuezy.github.io/GameNewsPull/img/021859f48f32205c.jpg",
+    "icon_url_local": "img/021859f48f32205c.jpg",
+    "preview_images_fallback": [
+      "https://yangziyuezy.github.io/GameNewsPull/img/881a153ec86be306.jpg"
+    ],
+    "preview_images_local": [
+      "img/881a153ec86be306.jpg"
+    ]
+  }
+}

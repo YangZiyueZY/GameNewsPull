@@ -1,0 +1,143 @@
+{
+  "api_version": "v1",
+  "schema_version": 4,
+  "generated_at": "2026-11-26T21:03:58+08:00",
+  "generated_at_utc": "2026-11-26T13:03:58.000Z",
+  "count": 1,
+  "cdn": {
+    "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
+    "api": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/api/v1"
+  },
+  "game": {
+    "game_name": "碧蓝航线",
+    "key": "azurlane",
+    "icon_url": "https://i1.hdslb.com/bfs/face/c6af5327e1c8a53ede6d0de048edf407bcf052ac.jpg",
+    "publisher_key": "manjuu",
+    "publisher_name": "蛮啾网络",
+    "publisher_color": "#9bb8ff",
+    "stage": "live",
+    "official_account": {
+      "mid": "233114659",
+      "name": "碧蓝航线",
+      "url": "https://space.bilibili.com/233114659"
+    },
+    "download": {
+      "available": true,
+      "label": "官方下载",
+      "url": null
+    },
+    "release": {
+      "label": "已上线",
+      "date": null,
+      "days_until": null
+    },
+    "events": [],
+    "birthdays": [],
+    "current_version": "版本资讯更新中",
+    "current_content": [
+      "「真理学院的转校生」活动前瞻",
+      "#碧蓝航线# #碧蓝玩家团激励计划# 第61期激励计划获奖名单揭晓~",
+      "#碧蓝航线# ◆活动时间注意◆",
+      "各位亲爱的指挥官："
+    ],
+    "current_version_days": 0,
+    "next_version": "暂未公布",
+    "next_version_kind": null,
+    "next_content": [],
+    "days_to_next_version": null,
+    "preview_status": "已发布",
+    "preview_title": "《碧蓝航线》「真理学院的转校生」活动前瞻",
+    "preview_start_at": "2026-11-23T16:00:48+08:00",
+    "preview_replay_url": "https://www.bilibili.com/video/BV14QynzPEUj",
+    "preview_images": [
+      "https://i1.hdslb.com/bfs/archive/5667e55c285f76faa44c880890d0ef00d5c60a3c.jpg"
+    ],
+    "up_banners": [
+      {
+        "label": "Event Construction Pool",
+        "phase": null,
+        "pool_name": "Event Construction Pool",
+        "pool_type": "limited_character",
+        "pool_type_label": "限定角色",
+        "characters": [
+          "莫洛托夫",
+          "锡诺普"
+        ],
+        "start_at": "2026-11-24T23:00:00+08:00",
+        "end_at": "2026-12-10T14:59:00+08:00",
+        "status": "进行中",
+        "days_remaining": 14,
+        "confidence": "high",
+        "sources": [
+          {
+            "id": "azurlane-en",
+            "tier": "L0",
+            "url": "https://azurlane.yo-star.com/news/2026/11/23/maintenance-notice-11-24-12-a-m-utc-7-2/",
+            "fetched_at": null
+          }
+        ],
+        "version": null,
+        "note": "server=EN；post=2479；原文区间 Available for a limited time between 11/24 – 12/9, 11:59 P.M. (UTC-7)；start 取维护结束（原文 approximately N hours）",
+        "source": "azurlane-en"
+      }
+    ],
+    "current_up_characters": [
+      "莫洛托夫",
+      "锡诺普"
+    ],
+    "sources": [
+      {
+        "title": "《碧蓝航线》「真理学院的转校生」活动前瞻",
+        "url": "https://www.bilibili.com/video/BV14QynzPEUj",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "#碧蓝航线# #碧蓝玩家团激励计划# 第61期激励计划获奖名单揭晓~",
+        "url": "https://www.bilibili.com/opus/1274940428149325825",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "#碧蓝航线# ◆活动时间注意◆",
+        "url": "https://www.bilibili.com/opus/1274584804875042840",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "#碧蓝航线#互动抽奖",
+        "url": "https://www.bilibili.com/opus/1274553904733880358",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "各位亲爱的指挥官：",
+        "url": "https://www.bilibili.com/opus/1274266627254255616",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      },
+      {
+        "title": "#碧蓝航线# #碧蓝玩家团激励计划# ★碧蓝玩家团激励计划第62期★ 现已开启！",
+        "url": "https://www.bilibili.com/opus/1274190546193088517",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-26T21:03:58+08:00"
+      }
+    ],
+    "facts_checked_at": "2026-11-26T21:03:58+08:00",
+    "pact_banners": [],
+    "icon_url_fallback": "https://i1.hdslb.com/bfs/face/c6af5327e1c8a53ede6d0de048edf407bcf052ac.jpg",
+    "icon_url_local": "https://i1.hdslb.com/bfs/face/c6af5327e1c8a53ede6d0de048edf407bcf052ac.jpg",
+    "preview_images_fallback": [
+      "https://i1.hdslb.com/bfs/archive/5667e55c285f76faa44c880890d0ef00d5c60a3c.jpg"
+    ],
+    "preview_images_local": [
+      "https://i1.hdslb.com/bfs/archive/5667e55c285f76faa44c880890d0ef00d5c60a3c.jpg"
+    ]
+  }
+}
