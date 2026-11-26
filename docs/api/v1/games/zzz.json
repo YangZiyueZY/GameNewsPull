@@ -1,8 +1,8 @@
 {
   "api_version": "v1",
   "schema_version": 4,
-  "generated_at": "2026-11-26T21:52:00+08:00",
-  "generated_at_utc": "2026-11-26T13:52:00.000Z",
+  "generated_at": "2026-11-26T22:21:41+08:00",
+  "generated_at_utc": "2026-11-26T14:21:41.000Z",
   "count": 1,
   "cdn": {
     "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
@@ -110,13 +110,13 @@
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1268925755981561865",
-            "fetched_at": "2026-11-26T21:52:01+08:00"
+            "fetched_at": "2026-11-26T22:21:41+08:00"
           },
           {
             "id": "akasha",
             "tier": "L2",
             "url": "https://www.miyoushe.com/zzz/article/79004828",
-            "fetched_at": "2026-11-26T21:52:01+08:00"
+            "fetched_at": "2026-11-26T22:21:41+08:00"
           }
         ],
         "version": "3.3",
@@ -143,13 +143,13 @@
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1271894437347196948",
-            "fetched_at": "2026-11-26T21:52:01+08:00"
+            "fetched_at": "2026-11-26T22:21:41+08:00"
           },
           {
             "id": "akasha",
             "tier": "L2",
             "url": "https://www.miyoushe.com/zzz/article/79450581",
-            "fetched_at": "2026-11-26T21:52:01+08:00"
+            "fetched_at": "2026-11-26T22:21:41+08:00"
           }
         ],
         "version": "3.3",
@@ -167,45 +167,45 @@
         "url": "https://www.bilibili.com/video/BV1S4yhzcEgW",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:52:00+08:00"
+        "checked_at": "2026-11-26T22:21:41+08:00"
       },
       {
         "title": "《绝区零》3.4 版本「长日终尽」前瞻特别节目",
         "url": "https://www.bilibili.com/video/BV1WwyWzNEXz",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:52:00+08:00"
+        "checked_at": "2026-11-26T22:21:41+08:00"
       },
       {
         "title": "《绝区零》3.4版本PV | 长日终尽",
         "url": "https://www.bilibili.com/video/BV1nuyWz8Eji",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:52:00+08:00"
+        "checked_at": "2026-11-26T22:21:41+08:00"
       },
       {
         "title": "​#绝区零# #长日终尽#",
         "url": "https://www.bilibili.com/opus/1272636670003380229",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:52:00+08:00"
+        "checked_at": "2026-11-26T22:21:41+08:00"
       },
       {
         "title": "互动抽奖  #绝区零#",
         "url": "https://www.bilibili.com/opus/1272250079986581657",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:52:00+08:00"
+        "checked_at": "2026-11-26T22:21:41+08:00"
       },
       {
         "title": "互动抽奖 #绝区零# #绝区零妮可# #生日快乐妮可#",
         "url": "https://www.bilibili.com/opus/1271878994776555603",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:52:00+08:00"
+        "checked_at": "2026-11-26T22:21:41+08:00"
       }
     ],
-    "facts_checked_at": "2026-11-26T21:52:00+08:00",
+    "facts_checked_at": "2026-11-26T22:21:41+08:00",
     "pact_banners": [],
     "icon_url_fallback": "https://yangziyuezy.github.io/GameNewsPull/img/97329efbfc6004aa.jpg",
     "icon_url_local": "img/97329efbfc6004aa.jpg",

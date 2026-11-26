@@ -1,8 +1,8 @@
 {
   "api_version": "v1",
   "schema_version": 4,
-  "generated_at": "2026-11-26T21:52:00+08:00",
-  "generated_at_utc": "2026-11-26T13:52:00.000Z",
+  "generated_at": "2026-11-26T22:21:41+08:00",
+  "generated_at_utc": "2026-11-26T14:21:41.000Z",
   "count": 1,
   "cdn": {
     "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
@@ -109,7 +109,7 @@
             "id": "kuro-site",
             "tier": "L0",
             "url": "https://media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/zh/article/5569.json",
-            "fetched_at": "2026-11-26T21:52:01+08:00"
+            "fetched_at": "2026-11-26T22:21:41+08:00"
           }
         ],
         "version": "3.7",
@@ -135,7 +135,7 @@
             "id": "kuro-site",
             "tier": "L0",
             "url": "https://media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/zh/article/5569.json",
-            "fetched_at": "2026-11-26T21:52:01+08:00"
+            "fetched_at": "2026-11-26T22:21:41+08:00"
           }
         ],
         "version": "3.7",
@@ -161,13 +161,13 @@
             "id": "kuro-site",
             "tier": "L0",
             "url": "https://media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/zh/article/5779.json",
-            "fetched_at": "2026-11-26T21:52:01+08:00"
+            "fetched_at": "2026-11-26T22:21:41+08:00"
           },
           {
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1269283956235173890",
-            "fetched_at": "2026-11-26T21:52:01+08:00"
+            "fetched_at": "2026-11-26T22:21:41+08:00"
           }
         ],
         "version": "3.8",
@@ -184,45 +184,45 @@
         "url": "https://www.bilibili.com/video/BV16Bs26FEAM",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:52:00+08:00"
+        "checked_at": "2026-11-26T22:21:41+08:00"
       },
       {
         "title": "#鸣潮# #鸣潮3.8版本# 你知道，梦终有一天会醒，但回忆中的事物会一直闪耀。",
         "url": "https://www.bilibili.com/opus/1273749863207534596",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:52:00+08:00"
+        "checked_at": "2026-11-26T22:21:41+08:00"
       },
       {
         "title": "【IGN独家】《鸣潮：永明的烬焰》实机演示",
         "url": "https://www.bilibili.com/video/BV1jKsq6cEEP",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:52:00+08:00"
+        "checked_at": "2026-11-26T22:21:41+08:00"
       },
       {
         "title": "#鸣潮# #鸣潮永明的烬焰# #鸣潮露希尔#互动抽奖",
         "url": "https://www.bilibili.com/opus/1273007699332694072",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:52:00+08:00"
+        "checked_at": "2026-11-26T22:21:41+08:00"
       },
       {
         "title": "#鸣潮# #鸣潮永明的烬焰# #鸣潮安娜#互动抽奖",
         "url": "https://www.bilibili.com/opus/1272992258930507959",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:52:00+08:00"
+        "checked_at": "2026-11-26T22:21:41+08:00"
       },
       {
         "title": "《鸣潮》先约电台——群星交错音乐特辑Vol.4",
         "url": "https://www.bilibili.com/video/BV1oYsh67EqR",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:52:00+08:00"
+        "checked_at": "2026-11-26T22:21:41+08:00"
       }
     ],
-    "facts_checked_at": "2026-11-26T21:52:00+08:00",
+    "facts_checked_at": "2026-11-26T22:21:41+08:00",
     "pact_banners": [],
     "icon_url_fallback": "https://yangziyuezy.github.io/GameNewsPull/img/9f52c0849d371e3e.jpg",
     "icon_url_local": "img/9f52c0849d371e3e.jpg",

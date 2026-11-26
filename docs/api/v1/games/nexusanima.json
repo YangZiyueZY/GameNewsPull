@@ -1,8 +1,8 @@
 {
   "api_version": "v1",
   "schema_version": 4,
-  "generated_at": "2026-11-26T21:52:00+08:00",
-  "generated_at_utc": "2026-11-26T13:52:00.000Z",
+  "generated_at": "2026-11-26T22:21:41+08:00",
+  "generated_at_utc": "2026-11-26T14:21:41.000Z",
   "count": 1,
   "cdn": {
     "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
@@ -83,45 +83,45 @@
         "url": "https://www.bilibili.com/opus/1267070422448341012",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:52:00+08:00"
+        "checked_at": "2026-11-26T22:21:41+08:00"
       },
       {
         "title": "#崩坏因缘精灵# #幸福测试# 「幸福测试」资格发放及预下载开启",
         "url": "https://www.bilibili.com/opus/1273718939472363542",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:52:00+08:00"
+        "checked_at": "2026-11-26T22:21:41+08:00"
       },
       {
         "title": "#崩坏因缘精灵# #幸福测试# 同行手记丨亨格丽&猪莉哼",
         "url": "https://www.bilibili.com/opus/1272636607669731348",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:52:00+08:00"
+        "checked_at": "2026-11-26T22:21:41+08:00"
       },
       {
         "title": "\"#崩坏因缘精灵# #幸福测试#",
         "url": "https://www.bilibili.com/opus/1271894437323079704",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:52:00+08:00"
+        "checked_at": "2026-11-26T22:21:41+08:00"
       },
       {
         "title": "#崩坏因缘精灵# #幸福测试# 同行手记丨帕拉雅雅&寐魔",
         "url": "https://www.bilibili.com/opus/1271152267022565397",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:52:00+08:00"
+        "checked_at": "2026-11-26T22:21:41+08:00"
       },
       {
         "title": "互动抽奖 #崩坏因缘精灵# #幸福测试#",
         "url": "https://www.bilibili.com/opus/1270039013635391504",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:52:00+08:00"
+        "checked_at": "2026-11-26T22:21:41+08:00"
       }
     ],
-    "facts_checked_at": "2026-11-26T21:52:00+08:00",
+    "facts_checked_at": "2026-11-26T22:21:41+08:00",
     "pact_banners": [],
     "icon_url_fallback": "https://yangziyuezy.github.io/GameNewsPull/img/835f9f6b8e4350e9.jpg",
     "icon_url_local": "img/835f9f6b8e4350e9.jpg"

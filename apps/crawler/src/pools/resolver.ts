@@ -615,6 +615,12 @@ function refinePools(pools: ResolvedPool[], now: number, warnings: string[]): Re
       .map((p) => (p.start_at ? Date.parse(p.start_at) : NaN))
       .filter((ms) => Number.isFinite(ms)))] as number[];
     starts.sort((a, b) => a - b);
+    // 异环「限定棋盘」是轮换位：只按棋盘池自己的开池时间排序
+    const pactStarts = [...new Set(list
+      .filter((p) => p.pool_type === 'pact')
+      .map((p) => (p.start_at ? Date.parse(p.start_at) : NaN))
+      .filter((ms) => Number.isFinite(ms)))] as number[];
+    pactStarts.sort((a, b) => a - b);
 
     for (const pool of list) {
       let endAt = pool.end_at;
@@ -629,6 +635,18 @@ function refinePools(pools: ResolvedPool[], now: number, warnings: string[]): Re
       }
 
       const startMs = pool.start_at ? Date.parse(pool.start_at) : null;
+
+      // 轮换位截断（异环棋盘）：官方 1.5 公告写「11-11 版本更新后 ~ 12-02」，
+      // 但 11-26 新棋盘上线后旧棋盘实际在 11-26 结束；否则页面会把已下架的棋盘当成「进行中」。
+      if (pool.pool_type === 'pact' && endAt && startMs !== null) {
+        const declaredEnd = Date.parse(endAt);
+        const nextStart = pactStarts.find((ms) => ms > startMs && ms < declaredEnd);
+        if (nextStart !== undefined) {
+          endAt = toCstIso(nextStart);
+          note = [note, '结束时间按下一期棋盘开池时间截断'].filter(Boolean).join('；');
+        }
+      }
+
       const endMs = endAt ? Date.parse(endAt) : null;
       let status = pool.status;
       if (startMs !== null && endMs !== null) status = now < startMs ? '未开始' : now > endMs ? '已结束' : '进行中';
