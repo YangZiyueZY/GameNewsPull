@@ -63,6 +63,8 @@ export interface PoolCandidate {
   version?: string | null;
   /** 期次标签，如「第 2 期」「上半」「4.7 第 1 期」 */
   period?: string | null;
+  /** 该候选所依据公告的发布时间（ISO）；同名冲突时用于「以后发为准」 */
+  published_at?: string | null;
   /** 解析原文证据（截断），便于回溯到公告 */
   evidence?: string | null;
   note?: string | null;

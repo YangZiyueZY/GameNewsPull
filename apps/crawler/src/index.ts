@@ -75,6 +75,8 @@ interface HealthReport {
   banner_warnings?: string[];
   /** 每个信源贡献的候选池数量与健康状态 */
   banner_sources?: Array<{ id: string; candidates: number; ok: boolean; error?: string }>;
+  /** 本轮角色字典自动扩写统计 */
+  banner_dict?: { added: number; updated: number } | null;
 }
 
 function parseFailRate(stats: CrawlStats): number {
@@ -233,6 +235,7 @@ async function runOnce() {
   const endpointCheck: Record<string, boolean> = {};
   const bannerWarnings: string[] = [];
   let bannerSources: Array<{ id: string; candidates: number; ok: boolean; error?: string }> = [];
+  let bannerDict: { added: number; updated: number } | null = null;
 
   for (const game of BILI_GAMES) {
     try {
@@ -366,7 +369,21 @@ async function runOnce() {
     feed = bannerResult.feed;
     bannerWarnings.push(...bannerResult.warnings);
     bannerSources = bannerResult.sourceStats;
+    bannerDict = { added: bannerResult.dictAdded, updated: bannerResult.dictUpdated };
     log(`[banners] 合并 ${bannerResult.pools.length} 个卡池，信源 ${bannerResult.sourceStats.map(s => s.id + '=' + s.candidates).join(' ')}`);
+    log(`[banners] 角色字典：新增 ${bannerResult.dictAdded} 条、补齐 ${bannerResult.dictUpdated} 条`);
+
+    // 信源健康自检：与上一轮对比每个源的候选数，骤降/归零就告警（每日自动体检，无需人工盯）
+    const prevSources = Array.isArray(previousHealth?.banner_sources) ? previousHealth.banner_sources : [];
+    for (const cur of bannerResult.sourceStats) {
+      const prev = prevSources.find((p: any) => p?.id === cur.id);
+      if (!prev || typeof prev.candidates !== 'number') continue;
+      if (prev.candidates > 0 && cur.candidates === 0) {
+        bannerWarnings.push(`[信源告警] ${cur.id} 本轮 0 条（上轮 ${prev.candidates} 条），可能失效`);
+      } else if (prev.candidates >= 5 && cur.candidates < prev.candidates * 0.3) {
+        bannerWarnings.push(`[信源告警] ${cur.id} 候选骤降 ${prev.candidates} → ${cur.candidates}`);
+      }
+    }
   } catch (e: any) {
     // 卡池引擎整体失败不能拖垮站点：保留 feed 里原有的（config/公告）卡池，记告警
     bannerWarnings.push('卡池引擎失败: ' + (e?.message ?? e));
@@ -429,6 +446,7 @@ async function runOnce() {
     feed_generated_at: feed.generated_at ?? null,
     banner_warnings: bannerWarnings.length ? bannerWarnings : undefined,
     banner_sources: bannerSources.length ? bannerSources : undefined,
+    banner_dict: bannerDict,
   });
   if (failedGames.length) {
     console.warn(`[crawler] WARN 部分游戏抓取失败（${failedGames.join('、')}），已用其余游戏数据输出，health.json 记为 degraded`);

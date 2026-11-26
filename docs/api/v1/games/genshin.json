@@ -1,8 +1,8 @@
 {
   "api_version": "v1",
   "schema_version": 4,
-  "generated_at": "2026-11-26T21:05:56+08:00",
-  "generated_at_utc": "2026-11-26T13:05:56.000Z",
+  "generated_at": "2026-11-26T21:52:00+08:00",
+  "generated_at_utc": "2026-11-26T13:52:00.000Z",
   "count": 1,
   "cdn": {
     "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
@@ -150,13 +150,13 @@
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1257794489195429889",
-            "fetched_at": "2026-11-26T21:05:56+08:00"
+            "fetched_at": "2026-11-26T21:52:01+08:00"
           },
           {
             "id": "akasha",
             "tier": "L2",
             "url": "https://www.miyoushe.com/ys/article/78782590",
-            "fetched_at": "2026-11-26T21:05:56+08:00"
+            "fetched_at": "2026-11-26T21:52:01+08:00"
           }
         ],
         "version": "7.1",
@@ -183,7 +183,7 @@
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1258536659570393096",
-            "fetched_at": "2026-11-26T21:05:56+08:00"
+            "fetched_at": "2026-11-26T21:52:01+08:00"
           }
         ],
         "version": null,
@@ -210,7 +210,7 @@
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1273842634488545282",
-            "fetched_at": "2026-11-26T21:05:56+08:00"
+            "fetched_at": "2026-11-26T21:52:01+08:00"
           }
         ],
         "version": "7.2",
@@ -236,13 +236,13 @@
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1273378778045743106",
-            "fetched_at": "2026-11-26T21:05:56+08:00"
+            "fetched_at": "2026-11-26T21:52:01+08:00"
           },
           {
             "id": "akasha",
             "tier": "L2",
             "url": "https://www.miyoushe.com/ys/article/79660850",
-            "fetched_at": "2026-11-26T21:05:56+08:00"
+            "fetched_at": "2026-11-26T21:52:01+08:00"
           }
         ],
         "version": "7.2",
@@ -260,45 +260,45 @@
         "url": "https://www.bilibili.com/video/BV1jiWi6dEQg",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:05:56+08:00"
+        "checked_at": "2026-11-26T21:52:00+08:00"
       },
       {
         "title": "《原神》过场动画-「高天的门扉」",
         "url": "https://www.bilibili.com/video/BV1oiWi6oEqR",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:05:56+08:00"
+        "checked_at": "2026-11-26T21:52:00+08:00"
       },
       {
         "title": "互动抽奖 #原神# #达妮卡# #冬宫侍影#",
         "url": "https://www.bilibili.com/opus/1270441069821034503",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:05:56+08:00"
+        "checked_at": "2026-11-26T21:52:00+08:00"
       },
       {
         "title": "互动抽奖 #原神# #安娜丝塔夏# #霜冕昭苏#",
         "url": "https://www.bilibili.com/opus/1270069971733446680",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:05:56+08:00"
+        "checked_at": "2026-11-26T21:52:00+08:00"
       },
       {
         "title": "《原神》过场动画-「雷与永恒」",
         "url": "https://www.bilibili.com/video/BV1zTWd6EE6o",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:05:56+08:00"
+        "checked_at": "2026-11-26T21:52:00+08:00"
       },
       {
         "title": "互动抽奖 #原神# #原神千星奇域# #千星奇域沪上奇景#",
         "url": "https://www.bilibili.com/opus/1270024586800398375",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:05:56+08:00"
+        "checked_at": "2026-11-26T21:52:00+08:00"
       }
     ],
-    "facts_checked_at": "2026-11-26T21:05:56+08:00",
+    "facts_checked_at": "2026-11-26T21:52:00+08:00",
     "pact_banners": [],
     "icon_url_fallback": "https://yangziyuezy.github.io/GameNewsPull/img/a98c83cc3d922f29.jpg",
     "icon_url_local": "img/a98c83cc3d922f29.jpg",

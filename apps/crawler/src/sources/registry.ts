@@ -9,6 +9,8 @@ import { kuroSiteAdapter } from './kuro/site.ts';
 import { bluearchiveCargoAdapter } from './bluearchive/cargo.ts';
 import { azurlaneJpAdapter, azurlaneEnAdapter } from './azurlane/news.ts';
 import { nteGuideAdapter } from './nte/guide.ts';
+import { nteSiteAdapter } from './nte/site.ts';
+import { nteHistoryAdapter } from './nte/history.ts';
 import { biliDynamicsAdapter } from './bili/pools.ts';
 
 export const SOURCE_ADAPTERS: SourceAdapter[] = [
@@ -17,10 +19,12 @@ export const SOURCE_ADAPTERS: SourceAdapter[] = [
   kuroSiteAdapter,          // 鸣潮官网公告 JSON
   azurlaneJpAdapter,        // 碧蓝航线日服公告（含维护窗口换算）
   azurlaneEnAdapter,        // 碧蓝航线国际服 WP REST
-  biliDynamicsAdapter,      // B 站官方正文（蓝色星原「弦定观测」/ 鸣潮「唤取」/ BA「招募」/ 星铁「跃迁」）
+  biliDynamicsAdapter,      // B 站官方正文（蓝色星原「弦定观测」/ 鸣潮「唤取」/ BA「招募」/ 星铁「跃迁」/ 异环「限定棋盘」/ 绝区零「代理人调频」）
+  nteSiteAdapter,           // 异环官网公告（限定棋盘 + 维护时间锚定）
   // —— L2 社区结构化 ——
   prtsSmwAdapter,           // 明日方舟常驻轮换（SMW ask + 卡池一览）
   akashaAdapter,            // 原神 / 星铁 / 绝区零 卡池日历
   bluearchiveCargoAdapter,  // 蔚蓝档案 日服/国际服（仅作校验，note 标 server）
   nteGuideAdapter,          // 异环角色名单（只提供 roster，不提供当期池）
+  nteHistoryAdapter,        // 异环 nteguide 历史卡池（只做历史，非当期；L3）
 ];

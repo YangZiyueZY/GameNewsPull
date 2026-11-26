@@ -351,7 +351,16 @@ export function parseEnPost(post: EnPost): PoolCandidate[] {
 }
 
 export async function collectAzurLaneEn(ctx: SourceContext): Promise<PoolCandidate[]> {
-  const posts = await withSourceCache<EnPost[]>(ctx, EN_CACHE_ID, () => fetchJson<EnPost[]>(EN_URL));
+  // 国际服 WP 站点偶发超时（>20s）：放宽到 45s 并重试一次，避免「碧蓝航线无卡池」这类空窗
+  const fetchEn = () => fetchJson<EnPost[]>(EN_URL, { timeoutMs: 45_000 });
+  const posts = await withSourceCache<EnPost[]>(ctx, EN_CACHE_ID, async () => {
+    try {
+      return await fetchEn();
+    } catch (e: any) {
+      ctx.log('[source:azurlane-en] 首次请求失败，重试一次:', e?.message ?? e);
+      return await fetchEn();
+    }
+  });
   if (!Array.isArray(posts)) {
     ctx.log('[source:azurlane-en] 公告列表不可用（离线无缓存或请求失败），返回空');
     return [];

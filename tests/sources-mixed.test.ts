@@ -20,6 +20,7 @@ import {
   parseHsrText,
   parseKuroDynamicText,
   parseGenshinText,
+  parseZzzText,
 } from '../apps/crawler/src/sources/bili/pools.ts';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
@@ -212,7 +213,7 @@ test('bili/pools：适配器元信息与 store.json 采集', async () => {
   assert.equal(biliDynamicsAdapter.id, 'bili-dynamics');
   assert.equal(biliDynamicsAdapter.tier, 'L0');
   // yh 加入：异环「限定棋盘」也走 B 站正文解析（归到 pact 协定卡池）
-  assert.deepEqual(biliDynamicsAdapter.games, ['azurpromilia', 'genshin', 'wutheringwaves', 'bluearchive', 'hsr', 'yh']);
+  assert.deepEqual(biliDynamicsAdapter.games, ['azurpromilia', 'genshin', 'wutheringwaves', 'bluearchive', 'hsr', 'yh', 'zzz']);
   const pools = await biliDynamicsAdapter.collect(offlineCtx());
   assert.ok(pools.length > 0, '应从 data/store.json 解析出卡池');
   assert.ok(pools.every((p) => p.source.id === 'bili-dynamics'));
@@ -369,4 +370,25 @@ test('bili/pools：store.json 缺失时返回 [] 并打日志', async () => {
   const pools = await biliDynamicsAdapter.collect(ctx);
   assert.deepEqual(pools, []);
   assert.ok(logs.some((l) => l.indexOf('bili-dynamics') >= 0));
+});
+
+test('bili/pools：绝区零版本动态只给角色 → 产出无时间池，交 resolver 与日历合并', () => {
+  const text = [
+    '#绝区零# #重返天空的旅程# | 调频统计工具介绍',
+    '▼《绝区零》3.3版本「重返天空的旅程」现已上线！',
+    '限定S级代理人「赛维里安」&「诺姆」现已加入调频&复刻。',
+  ].join(' ') + '\n';
+  const pools = parseZzzText(text, { id: 'test', gameKey: 'zzz', publishedAt: '2026-11-18T04:00:00.000Z' });
+  assert.equal(pools.length, 1);
+  assert.equal(pools[0].game_key, 'zzz');
+  assert.equal(pools[0].pool_name, '代理人调频');
+  assert.deepEqual(pools[0].characters, ['赛维里安', '诺姆']);
+  assert.equal(pools[0].start_at, null);
+  assert.equal(pools[0].end_at, null);
+  assert.match(String(pools[0].note), /Akasha/);
+
+  // 版本内容一览里的「加入限时频段」写法
+  const text2 = 'S级代理人[菲欧妮(冰·异常)]、[维琳娜(以太·支援)]与S级音擎[涅槃初翎]加入限时频段~';
+  const pools2 = parseZzzText(text2, { id: 't2', gameKey: 'zzz', publishedAt: '2026-11-01T04:00:00.000Z' });
+  assert.deepEqual(pools2[0].characters, ['菲欧妮', '维琳娜']);
 });

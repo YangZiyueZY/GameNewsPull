@@ -16,7 +16,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import type { PoolCandidate, PoolType, SourceAdapter, SourceContext } from '../pools/types.ts';
 
-export const BILI_GAMES = ['azurpromilia', 'genshin', 'wutheringwaves', 'bluearchive', 'hsr', 'yh'];
+export const BILI_GAMES = ['azurpromilia', 'genshin', 'wutheringwaves', 'bluearchive', 'hsr', 'yh', 'zzz'];
 const SOURCE_ID = 'bili-dynamics';
 const CST_OFFSET_MS = 8 * 3_600_000;
 /** 每个游戏最多产出的候选数 */
@@ -619,6 +619,47 @@ export function parseYhText(text: string, meta: ParseMeta): PoolCandidate[] {
     source: sourceRef(meta),
   }));
 }
+
+// ————————————————————————— 绝区零：代理人调频 —————————————————————————
+// B 站官号没有「带时间的调频公告」（时间都在图里），但每条版本动态都带一句
+// 「限定S级代理人「A」&「B」现已加入调频&复刻」，版本内容一览里还会写「…加入限时频段」。
+// 因此这里只产出「角色 + 池类型」，时间留空，由 resolver 的「无时间候选按角色交集并入」规则
+// 合并到 Akasha 日历里同时段的同类型池，从而把置信度从 low 抬到 high。
+const ZZZ_FOOTER_RE = /限定S级代理人「([^」]{1,20})」\s*&\s*「([^」]{1,20})」现已加入调频/g;
+const ZZZ_FREQ_RE = /S级代理人\[([^\]()]{1,20})(?:\([^)]*\))?\]、?\[([^\]()]{1,20})(?:\([^)]*\))?\][^。\n]{0,20}加入限时频段/g;
+
+export function parseZzzText(text: string, meta: ParseMeta): PoolCandidate[] {
+  const chars: string[] = [];
+  const pushChar = (raw: string) => {
+    const name = cleanCharacterName(raw);
+    if (isNameLike(name) && chars.indexOf(name) < 0) chars.push(name);
+  };
+  for (const m of text.matchAll(ZZZ_FOOTER_RE)) { pushChar(m[1]); pushChar(m[2]); }
+  for (const m of text.matchAll(ZZZ_FREQ_RE)) { pushChar(m[1]); pushChar(m[2]); }
+  if (!chars.length) return [];
+
+  const isRerun = /现已加入调频&复刻|复刻/.test(text);
+  const noteParts = ['B 站版本动态只给角色名，时间由 Akasha 日历同池补齐'];
+  if (isRerun) noteParts.push('含复刻');
+
+  return [{
+    game_key: 'zzz',
+    pool_name: '代理人调频',
+    pool_type: 'limited_character' as PoolType,
+    characters: chars.slice(0, UP_LIMIT_HINT),
+    start_at: null,
+    end_at: null,
+    version: (text.match(/(\d+\.\d+)\s*版本/) ?? [])[1] ?? null,
+    period: null,
+    evidence: text.slice(0, 200),
+    note: noteParts.join('；'),
+    source: sourceRef(meta),
+    published_at: meta.publishedAt,
+  }];
+}
+
+/** 单条动态最多取几个代理人（与 resolver 的 UP 上限一致，多余的在守卫里会被丢弃） */
+const UP_LIMIT_HINT = 2;
 export function parseDynamic(dyn: { id: string; game_key: string; published_at: string; raw: string; url?: string | null }, fetchedAt?: string): PoolCandidate[] {
   const text = dynamicTextFromRaw(dyn.raw);
   if (!text) return [];
@@ -643,6 +684,9 @@ export function parseDynamic(dyn: { id: string; game_key: string; published_at: 
     case 'yh':
       // 异环：限定棋盘 → 协定卡池（pact）
       return parseYhText(text, meta);
+    case 'zzz':
+      // 绝区零：只给角色，时间由 Akasha 日历补齐
+      return parseZzzText(text, meta);
     default:
       return [];
   }

@@ -1,8 +1,8 @@
 {
   "api_version": "v1",
   "schema_version": 4,
-  "generated_at": "2026-11-26T21:05:56+08:00",
-  "generated_at_utc": "2026-11-26T13:05:56.000Z",
+  "generated_at": "2026-11-26T21:52:00+08:00",
+  "generated_at_utc": "2026-11-26T13:52:00.000Z",
   "count": 1,
   "cdn": {
     "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
@@ -89,6 +89,32 @@
     "preview_images": [],
     "up_banners": [
       {
+        "label": "夏日炎炎 笑靥未改",
+        "phase": null,
+        "pool_name": "夏日炎炎 笑靥未改",
+        "pool_type": "rerun_character",
+        "pool_type_label": "复刻角色",
+        "characters": [
+          "野宫"
+        ],
+        "start_at": "2026-11-12T14:00:00+08:00",
+        "end_at": "2026-11-26T13:59:00+08:00",
+        "status": "已结束",
+        "days_remaining": null,
+        "confidence": "high",
+        "sources": [
+          {
+            "id": "bili-dynamics",
+            "tier": "L0",
+            "url": "https://www.bilibili.com/opus/1268539208915484704",
+            "fetched_at": "2026-11-26T21:52:01+08:00"
+          }
+        ],
+        "version": null,
+        "note": "动态 1268539208915484704；起点按「维护结束后」当日 14:00 近似；招募时间原文 招募时间 11月12日 维护结束后 ~ 11月26日 13:59",
+        "source": "bili-dynamics"
+      },
+      {
         "label": "夏空渺渺 遥寄心愿",
         "phase": null,
         "pool_name": "夏空渺渺 遥寄心愿",
@@ -107,33 +133,7 @@
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1268539208915484704",
-            "fetched_at": "2026-11-26T21:05:56+08:00"
-          }
-        ],
-        "version": null,
-        "note": "动态 1268539208915484704；起点按「维护结束后」当日 14:00 近似；招募时间原文 招募时间 11月12日 维护结束后 ~ 11月26日 13:59",
-        "source": "bili-dynamics"
-      },
-      {
-        "label": "花阴映白浪",
-        "phase": null,
-        "pool_name": "花阴映白浪",
-        "pool_type": "rerun_character",
-        "pool_type_label": "复刻角色",
-        "characters": [
-          "纱织"
-        ],
-        "start_at": "2026-11-12T14:00:00+08:00",
-        "end_at": "2026-11-26T13:59:00+08:00",
-        "status": "已结束",
-        "days_remaining": null,
-        "confidence": "high",
-        "sources": [
-          {
-            "id": "bili-dynamics",
-            "tier": "L0",
-            "url": "https://www.bilibili.com/opus/1268539208915484704",
-            "fetched_at": "2026-11-26T21:05:56+08:00"
+            "fetched_at": "2026-11-26T21:52:01+08:00"
           }
         ],
         "version": null,
@@ -159,7 +159,7 @@
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1274105486497546261",
-            "fetched_at": "2026-11-26T21:05:56+08:00"
+            "fetched_at": "2026-11-26T21:52:01+08:00"
           }
         ],
         "version": null,
@@ -185,7 +185,7 @@
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1274105486497546261",
-            "fetched_at": "2026-11-26T21:05:56+08:00"
+            "fetched_at": "2026-11-26T21:52:01+08:00"
           }
         ],
         "version": null,
@@ -203,45 +203,45 @@
         "url": "https://www.bilibili.com/opus/1272250157293895685",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:05:56+08:00"
+        "checked_at": "2026-11-26T21:52:00+08:00"
       },
       {
         "title": "#蔚蓝档案# 限时复刻招募活动即将开启，请老师不要错过哦！",
         "url": "https://www.bilibili.com/opus/1274105486497546261",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:05:56+08:00"
+        "checked_at": "2026-11-26T21:52:00+08:00"
       },
       {
         "title": "#蔚蓝档案# 全新咖啡厅套装【狂猎校园】即将更新！",
         "url": "https://www.bilibili.com/opus/1273734401369309202",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:05:56+08:00"
+        "checked_at": "2026-11-26T21:52:00+08:00"
       },
       {
         "title": "#蔚蓝档案# 全新成员&家具互动动作即将更新！在咖啡厅配置“可互动的家具”后，当特定成员来访时，就会与家具产生交互动作！",
         "url": "https://www.bilibili.com/opus/1273363316182351891",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:05:56+08:00"
+        "checked_at": "2026-11-26T21:52:00+08:00"
       },
       {
         "title": "#蔚蓝档案# //////////档案启封//////////",
         "url": "https://www.bilibili.com/opus/1272992231018463249",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:05:56+08:00"
+        "checked_at": "2026-11-26T21:52:00+08:00"
       },
       {
         "title": "#蔚蓝档案# //////////档案启封//////////",
         "url": "https://www.bilibili.com/opus/1272621145813680134",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:05:56+08:00"
+        "checked_at": "2026-11-26T21:52:00+08:00"
       }
     ],
-    "facts_checked_at": "2026-11-26T21:05:56+08:00",
+    "facts_checked_at": "2026-11-26T21:52:00+08:00",
     "pact_banners": [],
     "icon_url_fallback": "https://yangziyuezy.github.io/GameNewsPull/img/5420ec47013166fa.jpg",
     "icon_url_local": "img/5420ec47013166fa.jpg"

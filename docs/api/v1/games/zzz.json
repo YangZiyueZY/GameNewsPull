@@ -1,8 +1,8 @@
 {
   "api_version": "v1",
   "schema_version": 4,
-  "generated_at": "2026-11-26T21:05:56+08:00",
-  "generated_at_utc": "2026-11-26T13:05:56.000Z",
+  "generated_at": "2026-11-26T21:52:00+08:00",
+  "generated_at_utc": "2026-11-26T13:52:00.000Z",
   "count": 1,
   "cdn": {
     "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
@@ -104,18 +104,24 @@
         "end_at": "2026-11-11T11:59:00+08:00",
         "status": "已结束",
         "days_remaining": null,
-        "confidence": "low",
+        "confidence": "high",
         "sources": [
+          {
+            "id": "bili-dynamics",
+            "tier": "L0",
+            "url": "https://www.bilibili.com/opus/1268925755981561865",
+            "fetched_at": "2026-11-26T21:52:01+08:00"
+          },
           {
             "id": "akasha",
             "tier": "L2",
             "url": "https://www.miyoushe.com/zzz/article/79004828",
-            "fetched_at": "2026-11-26T21:05:56+08:00"
+            "fetched_at": "2026-11-26T21:52:01+08:00"
           }
         ],
         "version": "3.3",
-        "note": null,
-        "source": "akasha"
+        "note": "B 站版本动态只给角色名，时间由 Akasha 日历同池补齐；含复刻",
+        "source": "bili-dynamics"
       },
       {
         "label": "3.3 版本",
@@ -131,18 +137,24 @@
         "end_at": "2026-12-01T14:59:00+08:00",
         "status": "进行中",
         "days_remaining": 5,
-        "confidence": "low",
+        "confidence": "high",
         "sources": [
+          {
+            "id": "bili-dynamics",
+            "tier": "L0",
+            "url": "https://www.bilibili.com/opus/1271894437347196948",
+            "fetched_at": "2026-11-26T21:52:01+08:00"
+          },
           {
             "id": "akasha",
             "tier": "L2",
             "url": "https://www.miyoushe.com/zzz/article/79450581",
-            "fetched_at": "2026-11-26T21:05:56+08:00"
+            "fetched_at": "2026-11-26T21:52:01+08:00"
           }
         ],
         "version": "3.3",
-        "note": null,
-        "source": "akasha"
+        "note": "B 站版本动态只给角色名，时间由 Akasha 日历同池补齐；含复刻",
+        "source": "bili-dynamics"
       }
     ],
     "current_up_characters": [
@@ -155,45 +167,45 @@
         "url": "https://www.bilibili.com/video/BV1S4yhzcEgW",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:05:56+08:00"
+        "checked_at": "2026-11-26T21:52:00+08:00"
       },
       {
         "title": "《绝区零》3.4 版本「长日终尽」前瞻特别节目",
         "url": "https://www.bilibili.com/video/BV1WwyWzNEXz",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:05:56+08:00"
+        "checked_at": "2026-11-26T21:52:00+08:00"
       },
       {
         "title": "《绝区零》3.4版本PV | 长日终尽",
         "url": "https://www.bilibili.com/video/BV1nuyWz8Eji",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:05:56+08:00"
+        "checked_at": "2026-11-26T21:52:00+08:00"
       },
       {
         "title": "​#绝区零# #长日终尽#",
         "url": "https://www.bilibili.com/opus/1272636670003380229",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:05:56+08:00"
+        "checked_at": "2026-11-26T21:52:00+08:00"
       },
       {
         "title": "互动抽奖  #绝区零#",
         "url": "https://www.bilibili.com/opus/1272250079986581657",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:05:56+08:00"
+        "checked_at": "2026-11-26T21:52:00+08:00"
       },
       {
         "title": "互动抽奖 #绝区零# #绝区零妮可# #生日快乐妮可#",
         "url": "https://www.bilibili.com/opus/1271878994776555603",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T21:05:56+08:00"
+        "checked_at": "2026-11-26T21:52:00+08:00"
       }
     ],
-    "facts_checked_at": "2026-11-26T21:05:56+08:00",
+    "facts_checked_at": "2026-11-26T21:52:00+08:00",
     "pact_banners": [],
     "icon_url_fallback": "https://yangziyuezy.github.io/GameNewsPull/img/97329efbfc6004aa.jpg",
     "icon_url_local": "img/97329efbfc6004aa.jpg",

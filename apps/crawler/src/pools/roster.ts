@@ -250,3 +250,39 @@ export function sanitizeCharacterNames(
   }
   return { valid, invalid };
 }
+
+/** 合并新的角色条目进字典：cn 为准，已有条目只补空的 en/jp/aliases，绝不覆盖人工维护的 cn */
+export function mergeCharBook(book: CharacterBook, entries: CharacterBookEntry[]): { book: CharacterBook; added: number; updated: number } {
+  const next: CharacterBook = { generated_at: book.generated_at, games: { ...(book.games ?? {}) } };
+  let added = 0;
+  let updated = 0;
+  for (const entry of entries ?? []) {
+    const gameKey = String(entry?.game_key ?? '').trim();
+    const cn = String(entry?.cn ?? '').trim();
+    if (!gameKey || !cn) continue;
+    const list = [...(next.games[gameKey] ?? [])];
+    const hit = list.find((item) => nameKey(item.cn) === nameKey(cn));
+    if (!hit) {
+      list.push({ cn, en: entry.en ?? null, jp: entry.jp ?? null, aliases: entry.aliases ?? [] });
+      added++;
+    } else {
+      let touched = false;
+      if (!hit.en && entry.en) { hit.en = entry.en; touched = true; }
+      if (!hit.jp && entry.jp) { hit.jp = entry.jp; touched = true; }
+      if (entry.aliases?.length) {
+        const aliases = new Set([...(hit.aliases ?? []), ...entry.aliases]);
+        if (aliases.size !== (hit.aliases ?? []).length) { hit.aliases = [...aliases]; touched = true; }
+      }
+      if (touched) updated++;
+    }
+    next.games[gameKey] = list;
+  }
+  return { book: next, added, updated };
+}
+
+/** 写回 data/char-names.json（只在内容有变化时由调用方触发，避免每天产生无意义 diff） */
+export function writeCharBook(dataDir: string, book: CharacterBook): void {
+  const file = path.join(dataDir, 'char-names.json');
+  fs.mkdirSync(dataDir, { recursive: true });
+  fs.writeFileSync(file, JSON.stringify({ generated_at: book.generated_at ?? null, games: book.games }, null, 2) + '\n');
+}

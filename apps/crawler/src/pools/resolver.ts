@@ -180,9 +180,24 @@ function prepareCandidate(candidate: PoolCandidate, index: RosterIndex | null, w
     const coverage = roster?.size ?? 0;
     // 字典覆盖不足时把 index 置空：sanitize 会退化为「归一化 + 噪声过滤」，不误杀真实角色
     const weak = coverage < MIN_ROSTER_COVERAGE;
+    // 官方一手/官方挖掘（L0/L1）从公告里点名道姓的角色，本身就是最权威来源：
+    // 字典缺条目（新角色、新游）时不应把整池角色丢掉，只做噪声过滤即可；
+    // L2/L3 社区源仍必须过名单校验（它们最容易把池名/活动名当角色）。
+    const trustworthy = tier === 'L0' || tier === 'L1';
     const { valid, invalid } = sanitizeCharacterNames(candidate.characters ?? [], weak ? null : index, roster, gameKey);
     if (invalid.length) {
-      warnings.push('[' + gameKey + '] 「' + label + '」角色名未通过校验已丢弃: ' + invalid.join('、'));
+      if (trustworthy) {
+        // 官方源点名道姓的角色：字典没收录也保留（只过噪声过滤），并记 info 便于人工补字典；
+        // 否则新角色/新游会整池被丢掉（碧蓝航线的英文舰名、异环的 Exe 都踩过这个坑）。
+        const extra = sanitizeCharacterNames(invalid, null, null, gameKey).valid
+          .filter((name) => !valid.some((v) => v.toLowerCase() === name.toLowerCase()));
+        if (extra.length) {
+          valid.push(...extra);
+          warnings.push('[' + gameKey + '] 「' + label + '」字典未收录（官方源，已保留）: ' + extra.join('、'));
+        }
+      } else {
+        warnings.push('[' + gameKey + '] 「' + label + '」角色名未通过校验已丢弃: ' + invalid.join('、'));
+      }
     }
     if (weak && (candidate.characters ?? []).length) {
       const note = '[' + gameKey + '] 角色字典覆盖不足(' + coverage + ' 条)，已跳过名单校验并降级置信度';
@@ -234,16 +249,39 @@ function charKeyOf(name: string): string {
  *    否则页面上会出现「同一个角色两张卡」。
  */
 function groupsCompatible(a: PoolGroup, b: PoolGroup): boolean {
-  const x = a.members[0];
-  const y = b.members[0];
+  // 组内任意一对成员兼容即视为同一期。
+  // 必要性：合并后成员顺序会变（后来并入的无时间候选可能排在首位），只看 members[0] 会漏判，
+  // 典型是绝区零「上半」先被无时间候选错过、之后再也合并不上。
+  const left = a.members.slice(0, 8);
+  const right = b.members.slice(0, 8);
+  for (const x of left) for (const y of right) if (membersCompatible(x, y)) return true;
+  return false;
+}
+
+function membersCompatible(x: Prepared, y: Prepared): boolean {
   if (x.candidate.game_key !== y.candidate.game_key) return false;
   // ⓪ 池名完全相同 + 时间不冲突（一方缺字段就算不冲突）→ 同一期。
   //    典型：鸣潮官网公告只给池名不给时间，B 站公告给结束时间不给角色，两条必须并成一个池。
-  const sameName = poolNameKey(x.poolName) && poolNameKey(x.poolName) === poolNameKey(y.poolName);
+  // 「完全没有时间」的候选不参与同名合并：它必须靠角色交集并入具体某一期（规则④），
+  // 否则绝区零上下半会被同一个同名无时间候选拉到错误的一期。
+  const xNoTime = x.startMs === null && x.endMs === null;
+  const yNoTime = y.startMs === null && y.endMs === null;
+  // 两条都没有时间时，只能靠角色交集认定同一期（否则绝区零上下半的无时间候选会按同名互相粘起来）
+  if (xNoTime && yNoTime) {
+    const xs = new Set(x.characters.map(charKeyOf));
+    return y.characters.some((name) => xs.has(charKeyOf(name)));
+  }
+  const sameName = !xNoTime && !yNoTime
+    && poolNameKey(x.poolName) && poolNameKey(x.poolName) === poolNameKey(y.poolName);
   if (sameName) {
     const startOk = x.startMs === null || y.startMs === null || hourBucket(x.startMs) === hourBucket(y.startMs);
     const endOk = x.endMs === null || y.endMs === null || hourBucket(x.endMs) === hourBucket(y.endMs);
     if (startOk && endOk) return true;
+    // 同名但两源给出不同时段：仅在**来自不同信源**且开池时间相差 ≤30 天时视为同一期（官方改期 / 旧公告滞后），
+    // 由 buildPool 按「后发布的公告为准」取值。
+    // 反面案例：绝区零「代理人调频」上下半同名同源（akasha），必须保持为两期，不能合并。
+    const differentSource = (x.candidate.source?.id ?? '') !== (y.candidate.source?.id ?? '');
+    if (differentSource && x.startMs !== null && y.startMs !== null && Math.abs(x.startMs - y.startMs) <= 30 * DAY_MS) return true;
   }
   if (hourBucket(x.startMs) === hourBucket(y.startMs) && hourBucket(x.endMs) === hourBucket(y.endMs)) {
     const nx = poolNameKey(x.poolName);
@@ -259,6 +297,24 @@ function groupsCompatible(a: PoolGroup, b: PoolGroup): boolean {
     if (xEnds !== 'x' && xEnds === hourBucket(y.endMs)) {
       const xNames = new Set(x.characters.map(charKeyOf));
       if (y.characters.some((name) => xNames.has(charKeyOf(name)))) return true;
+    }
+  }
+  // ④ 一方完全没有时间（如绝区零版本公告只写「限定S级代理人」）→ 按角色交集并入已有时段的同类型池，
+  //    这样 B 站角色信息能给到 Akasha 的日历池，置信度从 low 升到 high，且不会把上下半张冠李戴
+  //    （上下半角色不同，交集为空就不会合并）。
+  const xTimeless = x.startMs === null && x.endMs === null;
+  const yTimeless = y.startMs === null && y.endMs === null;
+  if (xTimeless !== yTimeless && x.poolType === y.poolType) {
+    const timed = xTimeless ? y : x;
+    const sketch = xTimeless ? x : y;
+    if (timed.startMs !== null || timed.endMs !== null) {
+      const timedChars = new Set(timed.characters.map(charKeyOf));
+      const intersects = sketch.characters.some((name) => timedChars.has(charKeyOf(name)));
+      // 同名时允许「一方没有角色」的互补合并（鸣潮官网只给池名、B 站只给时间）；
+      // 不同名时必须有角色交集，避免把不相干的池子粘在一起。
+      const sameTitle = !!poolNameKey(timed.poolName) && poolNameKey(timed.poolName) === poolNameKey(sketch.poolName);
+      if (intersects) return true;
+      if (sameTitle && (!timed.characters.length || !sketch.characters.length)) return true;
     }
   }
   // ② 结束时间一致 + 角色有交集 + 恰好一方没有开始时间
@@ -289,7 +345,11 @@ function groupCandidates(prepared: Prepared[], warnings: string[]): PoolGroup[] 
   // ① 正式候选：game_key + 池名 + 起止（小时粒度）
   for (const item of prepared) {
     if (item.skeleton) continue;
-    const key = [item.candidate.game_key, poolNameKey(item.poolName), hourBucket(item.startMs), hourBucket(item.endMs)].join('|');
+    // 无时间的候选（如绝区零版本动态只给角色）必须把「角色集合」并进分组键，
+    // 否则同一 pool_name 下不同期的角色会被揉成一组，再按交集并到错误的那一期（上下半张冠李戴）。
+    const timeless = item.startMs === null && item.endMs === null;
+    const charSig = timeless ? [...item.characters].map(charKeyOf).sort().join('+') : '';
+    const key = [item.candidate.game_key, poolNameKey(item.poolName), hourBucket(item.startMs), hourBucket(item.endMs), charSig].join('|');
     const existing = groups.find((g) => g.key === key);
     if (existing) existing.members.push(item);
     else groups.push({ key, members: [item] });
@@ -329,6 +389,17 @@ function groupCandidates(prepared: Prepared[], warnings: string[]): PoolGroup[] 
 
 /** 时间按 tier 取：最高 tier 源优先；该源缺这个字段时用次高 tier 补齐（并标注来源，绝不静默回填） */
 function pickTime(members: Prepared[], field: 'startMs' | 'endMs', gameKey: string, label: string, warnings: string[]): number | null {
+  // 同 tier 时优先「公告发布更晚」的那条（官方改期/旧公告滞后）；发布时间缺失的排后面
+  members = [...members].sort((a, b) => {
+    const tierDiff = TIER_RANK[a.tier] - TIER_RANK[b.tier];
+    if (tierDiff !== 0) return tierDiff;
+    const pa = a.candidate.published_at ? Date.parse(a.candidate.published_at) : NaN;
+    const pb = b.candidate.published_at ? Date.parse(b.candidate.published_at) : NaN;
+    if (Number.isFinite(pa) && Number.isFinite(pb)) return pb - pa;
+    if (Number.isFinite(pa)) return -1;
+    if (Number.isFinite(pb)) return 1;
+    return 0;
+  });
   for (let i = 0; i < members.length; i++) {
     const value = members[i][field];
     if (value === null) continue;

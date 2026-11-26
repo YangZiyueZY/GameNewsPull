@@ -13,6 +13,7 @@ import {
   normalizeCharacterName,
   validateCharacters,
   sanitizeCharacterNames,
+  mergeCharBook,
 } from '../apps/crawler/src/pools/roster.ts';
 import { resolvePools, applyPoolsToFeed, stablePoolId, visiblePools } from '../apps/crawler/src/pools/resolver.ts';
 
@@ -472,4 +473,32 @@ test('同名跨源合并：一方缺时间、一方缺角色 → 合成一个池
   assert.equal(pools.length, 1, '同名候选应合并成一个池');
   assert.deepEqual(pools[0].characters, ['莉莉']);
   assert.equal(pools[0].end_at, '2026-12-03T09:59:00+08:00');
+});
+
+test('合并规则④：无时间的角色候选（绝区零 B 站）并入同时段的日历池，置信度升为 high', () => {
+  const { pools } = resolvePools([
+    // Akasha 日历：有池名 + 时段 + 角色（L2 社区源）
+    candidate({ game_key: 'zzz', pool_name: '代理人调频', characters: ['赛维里安', '诺姆'], start_at: '2026-11-11T12:00:00+08:00', end_at: '2026-12-01T14:59:00+08:00', source: { id: 'akasha', tier: 'L2' } }),
+    // B 站版本动态：只有角色、没有时间（L0 官方）
+    candidate({ game_key: 'zzz', pool_name: '代理人调频', characters: ['赛维里安', '诺姆'], start_at: null, end_at: null, source: { id: 'bili-dynamics', tier: 'L0' } }),
+  ], { now: NOW, roster: BOOK });
+  assert.equal(pools.length, 1, '无时间候选应并入时段池，而不是独立成空卡');
+  const pool = pools[0];
+  assert.deepEqual(pool.characters, ['赛维里安', '诺姆']);
+  assert.equal(pool.start_at, '2026-11-11T12:00:00+08:00');
+  assert.equal(pool.confidence, 'high', '有 L0 参与即 high');
+  assert.deepEqual(pool.sources.map((s) => s.id).sort(), ['akasha', 'bili-dynamics']);
+});
+
+test('mergeCharBook：自动扩写只补空字段，不覆盖人工维护的 cn', () => {
+  const base = { games: { yh: [{ cn: '真红', en: null, jp: null }] } };
+  const { book, added, updated } = mergeCharBook(base, [
+    { game_key: 'yh', cn: '真红', en: 'Zhenhong' } as any,
+    { game_key: 'yh', cn: '卡厄斯', en: 'Chaos' } as any,
+  ]);
+  assert.equal(added, 1);
+  assert.equal(updated, 1);
+  assert.equal(book.games.yh.length, 2);
+  assert.equal(book.games.yh.find((e) => e.cn === '真红')!.en, 'Zhenhong');
+  assert.equal(book.games.yh.find((e) => e.cn === '卡厄斯')!.en, 'Chaos');
 });

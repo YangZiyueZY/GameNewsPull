@@ -1,6 +1,5 @@
 {
-  "generated_at": "2026-11-26T14:45:00+08:00",
-  "_comment": "角色名多语言字典（决策 q10=A）。cn 为准，en/jp 用于把 Prydwen/Cargo/wiki.gg 的名字映射回国服中文名。覆盖不足 8 条的游戏会自动跳过名单校验并降级置信度（见 pools/resolver.ts MIN_ROSTER_COVERAGE），因此新游（蓝色星原/异环）初期允许条目偏少。",
+  "generated_at": "2026-11-26T21:48:31+08:00",
   "games": {
     "genshin": [
       {
@@ -472,12 +471,400 @@
       {
         "cn": "曳尔沐",
         "en": "Yermu",
-        "jp": "イェールム"
+        "jp": "イェールム",
+        "aliases": [
+          "elyms"
+        ]
       },
       {
         "cn": "真红",
         "en": "Zhenhong",
-        "jp": "シンク"
+        "jp": "シンク",
+        "aliases": [
+          "zhenhong"
+        ]
+      },
+      {
+        "cn": "明音凛",
+        "en": null,
+        "jp": null,
+        "aliases": []
+      },
+      {
+        "cn": "黑羽",
+        "en": null,
+        "jp": null,
+        "aliases": []
+      },
+      {
+        "cn": "安魂曲",
+        "en": "Lacrimosa",
+        "jp": null,
+        "aliases": [
+          "lacrimosa"
+        ]
+      },
+      {
+        "cn": "赞空",
+        "en": "Zankou",
+        "jp": null,
+        "aliases": []
+      },
+      {
+        "cn": "链子",
+        "en": "Linko",
+        "jp": null,
+        "aliases": []
+      },
+      {
+        "cn": "Iroi",
+        "en": "Illica",
+        "jp": null,
+        "aliases": []
+      },
+      {
+        "cn": "伊洛伊",
+        "en": "Iroi",
+        "jp": null,
+        "aliases": [
+          "illica"
+        ]
+      },
+      {
+        "cn": "卡厄斯",
+        "en": "Chaos",
+        "jp": null,
+        "aliases": [
+          "chaos"
+        ]
+      },
+      {
+        "cn": "娜娜莉",
+        "en": "Nanally",
+        "jp": null,
+        "aliases": [
+          "nanally"
+        ]
+      },
+      {
+        "cn": "穗鸟",
+        "en": "Hotori",
+        "jp": null,
+        "aliases": [
+          "hotori"
+        ]
+      },
+      {
+        "cn": "咲里",
+        "en": "Sakiri",
+        "jp": null,
+        "aliases": [
+          "sakiri"
+        ]
+      },
+      {
+        "cn": "法蒂亚",
+        "en": "Fadia",
+        "jp": null,
+        "aliases": [
+          "fadia"
+        ]
+      },
+      {
+        "cn": "白藏",
+        "en": "Baicang",
+        "jp": null,
+        "aliases": [
+          "baicang"
+        ]
+      },
+      {
+        "cn": "零（男）",
+        "en": "Zero (Male)",
+        "jp": null,
+        "aliases": [
+          "zero-male"
+        ]
+      },
+      {
+        "cn": "零（女）",
+        "en": "Zero (Female)",
+        "jp": null,
+        "aliases": [
+          "zero-female"
+        ]
+      },
+      {
+        "cn": "达芙迪尔",
+        "en": "Daffodil",
+        "jp": null,
+        "aliases": [
+          "daffodil"
+        ]
+      },
+      {
+        "cn": "九原",
+        "en": "Jiuyuan",
+        "jp": null,
+        "aliases": [
+          "jiuyuan"
+        ]
+      },
+      {
+        "cn": "哈尼尔",
+        "en": "Haniel",
+        "jp": null,
+        "aliases": [
+          "haniel"
+        ]
+      },
+      {
+        "cn": "阿德勒",
+        "en": "Adler",
+        "jp": null,
+        "aliases": [
+          "adler"
+        ]
+      },
+      {
+        "cn": "翳",
+        "en": "Skia",
+        "jp": null,
+        "aliases": [
+          "skia"
+        ]
+      },
+      {
+        "cn": "埃德加",
+        "en": "Edgar",
+        "jp": null,
+        "aliases": [
+          "edgar"
+        ]
+      },
+      {
+        "cn": "薄荷",
+        "en": "Mint",
+        "jp": null,
+        "aliases": [
+          "mint"
+        ]
+      },
+      {
+        "cn": "奈莉",
+        "en": "Nelly",
+        "jp": null,
+        "aliases": [
+          "nelly"
+        ]
+      },
+      {
+        "cn": "梅露拉",
+        "en": "Merula",
+        "jp": null,
+        "aliases": [
+          "merula"
+        ]
+      },
+      {
+        "cn": "阿尔法德",
+        "en": "Alphard",
+        "jp": null,
+        "aliases": [
+          "alphard"
+        ]
+      },
+      {
+        "cn": "泰格多",
+        "en": "Taygedo",
+        "jp": null,
+        "aliases": [
+          "taygedo"
+        ]
+      },
+      {
+        "cn": "哈索尔",
+        "en": "Hathor",
+        "jp": null,
+        "aliases": [
+          "hathor"
+        ]
+      },
+      {
+        "cn": "赤子",
+        "en": "Chiz",
+        "jp": null,
+        "aliases": [
+          "chiz"
+        ]
+      },
+      {
+        "cn": "莉莉娜",
+        "en": "Lilina",
+        "jp": null,
+        "aliases": [
+          "lilina"
+        ]
+      },
+      {
+        "cn": "凛子",
+        "en": "Lingko",
+        "jp": null,
+        "aliases": [
+          "lingko"
+        ]
+      },
+      {
+        "cn": "密斯莫",
+        "en": "Mismo",
+        "jp": null,
+        "aliases": [
+          "mismo"
+        ]
+      },
+      {
+        "cn": "沁红",
+        "en": "Shinku",
+        "jp": null,
+        "aliases": [
+          "shinku"
+        ]
+      },
+      {
+        "cn": "尼察",
+        "en": "Nitsa",
+        "jp": null,
+        "aliases": [
+          "nitsa"
+        ]
+      },
+      {
+        "cn": "黑鸟",
+        "en": "Black Bird",
+        "jp": null,
+        "aliases": [
+          "black-bird"
+        ]
+      },
+      {
+        "cn": "明虎",
+        "en": "Xiaozhen",
+        "jp": null,
+        "aliases": [
+          "xiaozhen"
+        ]
+      },
+      {
+        "cn": "赤音",
+        "en": "Akane",
+        "jp": null,
+        "aliases": [
+          "akane"
+        ]
+      },
+      {
+        "cn": "詹森",
+        "en": "Jenson",
+        "jp": null,
+        "aliases": [
+          "jenson"
+        ]
+      },
+      {
+        "cn": "风花",
+        "en": "Fuuka",
+        "jp": null,
+        "aliases": [
+          "fuuka"
+        ]
+      },
+      {
+        "cn": "克劳",
+        "en": "Crow",
+        "jp": null,
+        "aliases": [
+          "crow"
+        ]
+      },
+      {
+        "cn": "蕾妮",
+        "en": "Renee",
+        "jp": null,
+        "aliases": [
+          "renee"
+        ]
+      },
+      {
+        "cn": "吾郎",
+        "en": "Goro",
+        "jp": null,
+        "aliases": [
+          "goro"
+        ]
+      },
+      {
+        "cn": "玛丽娜",
+        "en": "Marina",
+        "jp": null,
+        "aliases": [
+          "marina"
+        ]
+      },
+      {
+        "cn": "海斗",
+        "en": "Kaito",
+        "jp": null,
+        "aliases": [
+          "kaito"
+        ]
+      },
+      {
+        "cn": "希尔菲",
+        "en": "Sylphy",
+        "jp": null,
+        "aliases": [
+          "sylphy"
+        ]
+      },
+      {
+        "cn": "奥蕾莉亚",
+        "en": "Aurelia",
+        "jp": null,
+        "aliases": [
+          "aurelia"
+        ]
+      },
+      {
+        "cn": "小吱",
+        "en": "Xiaozhi",
+        "jp": null,
+        "aliases": [
+          "xiaozhi"
+        ]
+      },
+      {
+        "cn": "浔",
+        "en": "Xun",
+        "jp": null,
+        "aliases": [
+          "xun"
+        ]
+      },
+      {
+        "cn": "残虹",
+        "en": "Canhong",
+        "jp": null,
+        "aliases": [
+          "canhong"
+        ]
+      },
+      {
+        "cn": "妮夏",
+        "en": "Nixia",
+        "jp": null,
+        "aliases": [
+          "nixia"
+        ]
       }
     ]
   }
