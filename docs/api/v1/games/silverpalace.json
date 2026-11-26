@@ -1,8 +1,8 @@
 {
   "api_version": "v1",
   "schema_version": 4,
-  "generated_at": "2026-11-26T22:21:41+08:00",
-  "generated_at_utc": "2026-11-26T14:21:41.000Z",
+  "generated_at": "2026-11-26T22:30:14+08:00",
+  "generated_at_utc": "2026-11-26T14:30:14.000Z",
   "count": 1,
   "cdn": {
     "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
@@ -95,45 +95,45 @@
         "url": "https://www.bilibili.com/opus/1274151917234159616",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:21:41+08:00"
+        "checked_at": "2026-11-26T22:30:14+08:00"
       },
       {
         "title": "角色扉页 |「汀思黎·优等生」",
         "url": "https://www.bilibili.com/opus/1274151895813849095",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:21:41+08:00"
+        "checked_at": "2026-11-26T22:30:14+08:00"
       },
       {
         "title": "隐藏的书页丨「小聪明之谜」",
         "url": "https://www.bilibili.com/video/BV1ScyXztEMY",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:21:41+08:00"
+        "checked_at": "2026-11-26T22:30:14+08:00"
       },
       {
         "title": "同谋情报 |「菲斯·招待」",
         "url": "https://www.bilibili.com/opus/1274105492954677251",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:21:41+08:00"
+        "checked_at": "2026-11-26T22:30:14+08:00"
       },
       {
         "title": "角色扉页 |「蓝舌·军师」",
         "url": "https://www.bilibili.com/opus/1273409729740144645",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:21:41+08:00"
+        "checked_at": "2026-11-26T22:30:14+08:00"
       },
       {
         "title": "隐藏的书页丨「青春期之谜」",
         "url": "https://www.bilibili.com/video/BV1rByhzXEZm",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:21:41+08:00"
+        "checked_at": "2026-11-26T22:30:14+08:00"
       }
     ],
-    "facts_checked_at": "2026-11-26T22:21:41+08:00",
+    "facts_checked_at": "2026-11-26T22:30:14+08:00",
     "pact_banners": [],
     "icon_url_fallback": "https://yangziyuezy.github.io/GameNewsPull/img/d46b90c7d46dfe05.jpg",
     "icon_url_local": "img/d46b90c7d46dfe05.jpg"

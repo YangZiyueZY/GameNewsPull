@@ -1,8 +1,8 @@
 {
   "api_version": "v1",
   "schema_version": 4,
-  "generated_at": "2026-11-26T22:21:41+08:00",
-  "generated_at_utc": "2026-11-26T14:21:41.000Z",
+  "generated_at": "2026-11-26T22:30:14+08:00",
+  "generated_at_utc": "2026-11-26T14:30:14.000Z",
   "count": 1,
   "cdn": {
     "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
@@ -44,7 +44,7 @@
     "next_version": "暂未公布",
     "next_version_kind": null,
     "next_content": [],
-    "days_to_next_version": null,
+    "days_to_next_version": 14,
     "preview_status": "已发布",
     "preview_title": "《碧蓝航线》「真理学院的转校生」活动前瞻",
     "preview_start_at": "2026-11-23T16:00:48+08:00",
@@ -91,46 +91,50 @@
         "url": "https://www.bilibili.com/video/BV14QynzPEUj",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:21:41+08:00"
+        "checked_at": "2026-11-26T22:30:14+08:00"
       },
       {
         "title": "#碧蓝航线# #碧蓝玩家团激励计划# 第61期激励计划获奖名单揭晓~",
         "url": "https://www.bilibili.com/opus/1274940428149325825",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:21:41+08:00"
+        "checked_at": "2026-11-26T22:30:14+08:00"
       },
       {
         "title": "#碧蓝航线# ◆活动时间注意◆",
         "url": "https://www.bilibili.com/opus/1274584804875042840",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:21:41+08:00"
+        "checked_at": "2026-11-26T22:30:14+08:00"
       },
       {
         "title": "#碧蓝航线#互动抽奖",
         "url": "https://www.bilibili.com/opus/1274553904733880358",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:21:41+08:00"
+        "checked_at": "2026-11-26T22:30:14+08:00"
       },
       {
         "title": "各位亲爱的指挥官：",
         "url": "https://www.bilibili.com/opus/1274266627254255616",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:21:41+08:00"
+        "checked_at": "2026-11-26T22:30:14+08:00"
       },
       {
         "title": "#碧蓝航线# #碧蓝玩家团激励计划# ★碧蓝玩家团激励计划第62期★ 现已开启！",
         "url": "https://www.bilibili.com/opus/1274190546193088517",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:21:41+08:00"
+        "checked_at": "2026-11-26T22:30:14+08:00"
       }
     ],
-    "facts_checked_at": "2026-11-26T22:21:41+08:00",
+    "facts_checked_at": "2026-11-26T22:30:14+08:00",
     "pact_banners": [],
+    "next_node_at": "2026-12-10T14:59:00+08:00",
+    "next_node_label": "本期卡池结束（Event Construction Pool）",
+    "next_node_kind": "pool_end",
+    "next_node_source": "azurlane-en",
     "icon_url_fallback": "https://i1.hdslb.com/bfs/face/c6af5327e1c8a53ede6d0de048edf407bcf052ac.jpg",
     "icon_url_local": "https://i1.hdslb.com/bfs/face/c6af5327e1c8a53ede6d0de048edf407bcf052ac.jpg",
     "preview_images_fallback": [

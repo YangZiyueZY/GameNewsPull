@@ -795,7 +795,38 @@ function recencyOf(pool: ResolvedPool): number {
   const start = pool.start_at ? Date.parse(pool.start_at) : NaN;
   return Number.isFinite(start) ? start : 0;
 }
-export function applyPoolsToFeed(feed: FeedLike, resolved: ResolvedPool[]): ApplyPoolsResult {
+/**
+ * 从卡池排期推导「下个节点」：
+ * ① 有未开始的池 → 最近一次开池日；
+ * ② 否则取进行中池里最晚的结束日（= 本期轮换结束 / 下一期开池日）。
+ * 版本号往往要等官方前瞻才公布，而卡池/轮换日期每天都拿得到，用它兜住「暂未公布」。
+ */
+export function nextNodeFromPools(
+  pools: ResolvedPool[],
+  now: number,
+): { at: string; kind: 'pool_start' | 'pool_end'; label: string; pool: ResolvedPool } | null {
+  const upcoming = pools
+    .filter((pool) => pool.status === '未开始' && pool.start_at)
+    .slice()
+    .sort((a, b) => Date.parse(a.start_at as string) - Date.parse(b.start_at as string));
+  if (upcoming.length) {
+    const pool = upcoming[0];
+    const name = pool.pool_name ?? pool.label;
+    return { at: pool.start_at as string, kind: 'pool_start', label: name + ' 开启', pool };
+  }
+  const ongoing = pools
+    .filter((pool) => pool.status === '进行中' && pool.end_at)
+    .slice()
+    .sort((a, b) => Date.parse(b.end_at as string) - Date.parse(a.end_at as string));
+  if (ongoing.length) {
+    const pool = ongoing[0];
+    const name = pool.pool_name ?? pool.label;
+    return { at: pool.end_at as string, kind: 'pool_end', label: '本期卡池结束（' + name + '）', pool };
+  }
+  return null;
+}
+export function applyPoolsToFeed(feed: FeedLike, resolved: ResolvedPool[], opts: { now?: number } = {}): ApplyPoolsResult {
+  const now = typeof opts.now === 'number' && Number.isFinite(opts.now) ? opts.now : Date.now();
   const warnings: string[] = [];
   const games = (feed?.data?.games ?? feed?.games) as FeedGameLike[] | undefined;
   if (!Array.isArray(games)) {
@@ -824,11 +855,23 @@ export function applyPoolsToFeed(feed: FeedLike, resolved: ResolvedPool[]): Appl
       if (game.stage !== 'prelaunch') warnings.push('[' + key + '] 未解析到卡池，up_banners 置空');
       return { ...game, up_banners: [], pact_banners: [], current_up_characters: [] };
     }
+
+    // 下个节点：版本日期拿不到时，用卡池排期兜底（版本前瞻公布前也能给出具体日期）
+    const node = nextNodeFromPools(pools, now);
+    const nodeDays = node ? Math.max(0, cstDayDiff(now, Date.parse(node.at))) : null;
+    const hasVersionDays = typeof (game as any).days_to_next_version === 'number';
+
     return {
       ...game,
       up_banners: characterPools.map(bannerFromPool),
       pact_banners: pactPools.map(bannerFromPool),
       current_up_characters: currentUpCharacters(all),
+      next_node_at: node?.at ?? null,
+      next_node_label: node?.label ?? null,
+      next_node_kind: node?.kind ?? null,
+      next_node_source: node ? (node.pool.sources[0]?.id ?? node.pool.source) : null,
+      // 只有版本日期缺失时才用卡池日期兜底，避免把「版本更新」误写成「卡池结束」
+      days_to_next_version: hasVersionDays ? (game as any).days_to_next_version : nodeDays,
     };
   });
 

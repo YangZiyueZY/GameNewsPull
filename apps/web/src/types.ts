@@ -169,6 +169,11 @@ export interface Game {
   current_version_days?: number | null;
   next_version?: string | null;
   next_version_kind?: string | null;
+  /** 由卡池排期推导的下个节点（版本未公布时的兜底） */
+  next_node_at?: string | null;
+  next_node_label?: string | null;
+  next_node_kind?: 'pool_start' | 'pool_end' | null;
+  next_node_source?: string | null;
   next_content?: string[];
   days_to_next_version?: number | null;
   preview_status?: string | null;

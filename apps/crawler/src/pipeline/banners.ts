@@ -63,7 +63,7 @@ export async function runBannerPipeline(
   }
   const index = buildRosterIndex([...bookEntries(mergeCharBook(mergedBook.book, []).book)]);
   const { pools, warnings } = resolvePools(candidates, { now: ctx.now, rosterIndex: index });
-  const applied = applyPoolsToFeed(feed, pools);
+  const applied = applyPoolsToFeed(feed, pools, { now: ctx.now });
 
   // applyPoolsToFeed 返回新对象，这里必须把 feed 一并带出去，否则调用方拿到的还是旧 feed
   return { feed: applied.feed ?? feed, pools, warnings: [...warnings, ...(applied.warnings ?? [])], sourceStats, dictAdded, dictUpdated };

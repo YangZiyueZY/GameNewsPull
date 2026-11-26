@@ -60,6 +60,23 @@ const banners = computed(() => (props.game.up_banners || []).filter((b) => b.poo
 const pactBanners = computed(() => (props.game.pact_banners || []).filter((b) => b.pool_type !== 'weapon'));
 const official = computed(() => props.game.official_account || null);
 const releaseLabel = computed(() => props.game.release?.label || '上线时间待官方公布');
+
+/**
+ * 「下个节点」文案：优先官方版本号；版本还没公布时用卡池排期推导的节点
+ * （如「本期卡池结束（xxx）」「xxx 开启」），避免整块显示「暂未公布」。
+ */
+const nextNodeText = computed(() => {
+  const version = (props.game.next_version || '').trim();
+  const usable = version && version !== '暂未公布' && version !== '待定档' && version !== '—';
+  if (usable) return version;
+  return props.game.next_node_label || version || '—';
+});
+const nextNodeDate = computed(() => {
+  const version = (props.game.next_version || '').trim();
+  const usable = version && version !== '暂未公布' && version !== '待定档' && version !== '—';
+  const at = usable ? null : props.game.next_node_at;
+  return at ? fmtDate(at) : '';
+});
 const releaseDays = computed(() => props.game.release?.days_until ?? null);
 
 function sourceCount() {
@@ -117,7 +134,7 @@ function bannerSourcesTitle(b: { sources?: Array<{ id?: string; title?: string; 
         </div>
         <div class="stat">
           <div class="stat-label">下个节点</div>
-          <div class="stat-value">{{ game.next_version || '—' }}</div>
+          <div class="stat-value" :title="nextNodeDate ? '预计 ' + nextNodeDate : ''">{{ nextNodeText }}</div>
         </div>
         <div class="stat" :class="{ 'is-accent': game.days_to_next_version != null }">
           <div class="stat-label">距离更新</div>

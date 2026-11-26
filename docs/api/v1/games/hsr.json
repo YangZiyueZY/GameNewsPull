@@ -1,8 +1,8 @@
 {
   "api_version": "v1",
   "schema_version": 4,
-  "generated_at": "2026-11-26T22:21:41+08:00",
-  "generated_at_utc": "2026-11-26T14:21:41.000Z",
+  "generated_at": "2026-11-26T22:30:14+08:00",
+  "generated_at_utc": "2026-11-26T14:30:14.000Z",
   "count": 1,
   "cdn": {
     "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
@@ -81,7 +81,7 @@
     "next_version": "4.8版本",
     "next_version_kind": "version",
     "next_content": [],
-    "days_to_next_version": null,
+    "days_to_next_version": 26,
     "preview_status": "已发布",
     "preview_title": "《崩坏：星穹铁道》走近星穹——「货币战争•入画奇航」特别节目",
     "preview_start_at": "2026-11-10T12:00:13+08:00",
@@ -109,13 +109,13 @@
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1261163891038093314",
-            "fetched_at": "2026-11-26T22:21:41+08:00"
+            "fetched_at": "2026-11-26T22:30:14+08:00"
           },
           {
             "id": "akasha",
             "tier": "L2",
             "url": "https://www.miyoushe.com/sr/article/78448395",
-            "fetched_at": "2026-11-26T22:21:41+08:00"
+            "fetched_at": "2026-11-26T22:30:14+08:00"
           }
         ],
         "version": "4.6",
@@ -141,13 +141,13 @@
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1261163891038093314",
-            "fetched_at": "2026-11-26T22:21:41+08:00"
+            "fetched_at": "2026-11-26T22:30:14+08:00"
           },
           {
             "id": "akasha",
             "tier": "L2",
             "url": "https://www.miyoushe.com/sr/article/79023863",
-            "fetched_at": "2026-11-26T22:21:41+08:00"
+            "fetched_at": "2026-11-26T22:30:14+08:00"
           }
         ],
         "version": "4.6",
@@ -173,13 +173,13 @@
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1268910294088810533",
-            "fetched_at": "2026-11-26T22:21:41+08:00"
+            "fetched_at": "2026-11-26T22:30:14+08:00"
           },
           {
             "id": "akasha",
             "tier": "L2",
             "url": "https://www.miyoushe.com/sr/article/79466344",
-            "fetched_at": "2026-11-26T22:21:41+08:00"
+            "fetched_at": "2026-11-26T22:30:14+08:00"
           }
         ],
         "version": "4.7",
@@ -207,13 +207,13 @@
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1268910294088810533",
-            "fetched_at": "2026-11-26T22:21:41+08:00"
+            "fetched_at": "2026-11-26T22:30:14+08:00"
           },
           {
             "id": "akasha",
             "tier": "L2",
             "url": "https://www.miyoushe.com/sr/article/79466344",
-            "fetched_at": "2026-11-26T22:21:41+08:00"
+            "fetched_at": "2026-11-26T22:30:14+08:00"
           }
         ],
         "version": "4.7",
@@ -233,46 +233,50 @@
         "url": "https://www.bilibili.com/opus/1272313722814070793",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:21:41+08:00"
+        "checked_at": "2026-11-26T22:30:14+08:00"
       },
       {
         "title": "互动抽奖 #崩坏星穹铁道# #此刻将群星付之一笑# #崩坏：星穹铁道创作者激励计划#",
         "url": "https://www.bilibili.com/opus/1271942641933615124",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:21:41+08:00"
+        "checked_at": "2026-11-26T22:30:14+08:00"
       },
       {
         "title": "互动抽奖 #崩坏星穹铁道# #此刻将群星付之一笑# #星穹铁道星神阿哈#",
         "url": "https://www.bilibili.com/opus/1271942637606141953",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:21:41+08:00"
+        "checked_at": "2026-11-26T22:30:14+08:00"
       },
       {
         "title": "互动抽奖 #崩坏星穹铁道# #1111开启阿哈时刻# 倒计时1天 |「阿哈全明星」",
         "url": "https://www.bilibili.com/opus/1271571552462176260",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:21:41+08:00"
+        "checked_at": "2026-11-26T22:30:14+08:00"
       },
       {
         "title": "互动抽奖 #崩坏星穹铁道# #1111开启阿哈时刻# 倒计时4天 |「阿哈全明星」",
         "url": "https://www.bilibili.com/opus/1271200505944604674",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:21:41+08:00"
+        "checked_at": "2026-11-26T22:30:14+08:00"
       },
       {
         "title": "互动抽奖 #崩坏星穹铁道# #此刻将群星付之一笑# #星穹铁道星神阿哈#",
         "url": "https://www.bilibili.com/opus/1271200501599305736",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T22:21:41+08:00"
+        "checked_at": "2026-11-26T22:30:14+08:00"
       }
     ],
-    "facts_checked_at": "2026-11-26T22:21:41+08:00",
+    "facts_checked_at": "2026-11-26T22:30:14+08:00",
     "pact_banners": [],
+    "next_node_at": "2026-12-22T15:00:00+08:00",
+    "next_node_label": "本期卡池结束（星神★阿哈）",
+    "next_node_kind": "pool_end",
+    "next_node_source": "bili-dynamics",
     "icon_url_fallback": "https://yangziyuezy.github.io/GameNewsPull/img/0f01306058505549.jpg",
     "icon_url_local": "img/0f01306058505549.jpg",
     "preview_images_fallback": [

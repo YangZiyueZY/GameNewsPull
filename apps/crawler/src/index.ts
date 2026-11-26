@@ -77,6 +77,8 @@ interface HealthReport {
   banner_sources?: Array<{ id: string; candidates: number; ok: boolean; error?: string }>;
   /** 本轮角色字典自动扩写统计 */
   banner_dict?: { added: number; updated: number } | null;
+  /** 仍缺少「下个节点」的 live 游戏（版本未公布且卡池排期也没推导出来） */
+  next_node_missing?: string[];
 }
 
 function parseFailRate(stats: CrawlStats): number {
@@ -236,6 +238,7 @@ async function runOnce() {
   const bannerWarnings: string[] = [];
   let bannerSources: Array<{ id: string; candidates: number; ok: boolean; error?: string }> = [];
   let bannerDict: { added: number; updated: number } | null = null;
+  const nextNodeMissing: string[] = [];
 
   for (const game of BILI_GAMES) {
     try {
@@ -373,6 +376,19 @@ async function runOnce() {
     log(`[banners] 合并 ${bannerResult.pools.length} 个卡池，信源 ${bannerResult.sourceStats.map(s => s.id + '=' + s.candidates).join(' ')}`);
     log(`[banners] 角色字典：新增 ${bannerResult.dictAdded} 条、补齐 ${bannerResult.dictUpdated} 条`);
 
+    // 下个节点覆盖自检：live 游戏既没有版本日期、也没从卡池排期推出节点 → 告警
+    for (const g of (feed?.data?.games ?? []) as any[]) {
+      if (g?.stage === 'prelaunch') continue;
+      if (g?.next_node_at) continue;
+      if (typeof g?.days_to_next_version === 'number') continue;
+      const v = String(g?.next_version ?? '').trim();
+      if (v && v !== '暂未公布' && v !== '待定档') continue;
+      nextNodeMissing.push(String(g?.key ?? g?.game_name ?? '?'));
+    }
+    if (nextNodeMissing.length) {
+      bannerWarnings.push('[节点告警] 以下游戏既无版本日期也无卡池排期，页面只能显示「暂未公布」: ' + nextNodeMissing.join('、'));
+    }
+
     // 信源健康自检：与上一轮对比每个源的候选数，骤降/归零就告警（每日自动体检，无需人工盯）
     const prevSources = Array.isArray(previousHealth?.banner_sources) ? previousHealth.banner_sources : [];
     for (const cur of bannerResult.sourceStats) {
@@ -447,6 +463,7 @@ async function runOnce() {
     banner_warnings: bannerWarnings.length ? bannerWarnings : undefined,
     banner_sources: bannerSources.length ? bannerSources : undefined,
     banner_dict: bannerDict,
+    next_node_missing: nextNodeMissing.length ? nextNodeMissing : undefined,
   });
   if (failedGames.length) {
     console.warn(`[crawler] WARN 部分游戏抓取失败（${failedGames.join('、')}），已用其余游戏数据输出，health.json 记为 degraded`);

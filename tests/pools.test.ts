@@ -502,3 +502,25 @@ test('mergeCharBook：自动扩写只补空字段，不覆盖人工维护的 cn'
   assert.equal(book.games.yh.find((e) => e.cn === '真红')!.en, 'Zhenhong');
   assert.equal(book.games.yh.find((e) => e.cn === '卡厄斯')!.en, 'Chaos');
 });
+
+test('applyPoolsToFeed：版本日期缺失时用卡池排期补「下个节点」', () => {
+  const resolved = resolvePools([
+    candidate({ game_key: 'genshin', pool_name: '活动祈愿', characters: ['兹白'], start_at: '2026-11-24T18:00:00+08:00', end_at: '2026-12-15T14:59:00+08:00', source: { id: 'bili-dynamics', tier: 'L0' } }),
+  ], { now: NOW, roster: BOOK }).pools;
+  const feed = { data: { games: [{ key: 'genshin', stage: 'live', next_version: '暂未公布', days_to_next_version: null, up_banners: [], current_up_characters: [] }] } };
+  const game = (applyPoolsToFeed(feed, resolved, { now: NOW }).feed.data!.games as any[])[0];
+  assert.equal(game.next_node_at, '2026-12-15T14:59:00+08:00');
+  assert.match(game.next_node_label, /本期卡池结束/);
+  assert.equal(game.next_node_kind, 'pool_end');
+  assert.equal(game.days_to_next_version, 19, '应补充距离下个节点的天数');
+});
+
+test('applyPoolsToFeed：已有版本日期时不覆盖 days_to_next_version', () => {
+  const resolved = resolvePools([
+    candidate({ game_key: 'zzz', pool_name: '代理人调频', characters: ['赛维里安'], start_at: '2026-11-11T12:00:00+08:00', end_at: '2026-12-01T14:59:00+08:00', source: { id: 'akasha', tier: 'L2' } }),
+  ], { now: NOW, roster: BOOK }).pools;
+  const feed = { data: { games: [{ key: 'zzz', stage: 'live', next_version: '3.4版本', days_to_next_version: 6, up_banners: [], current_up_characters: [] }] } };
+  const game = (applyPoolsToFeed(feed, resolved, { now: NOW }).feed.data!.games as any[])[0];
+  assert.equal(game.days_to_next_version, 6, '版本日期优先，不被卡池日期覆盖');
+  assert.equal(game.next_node_at, '2026-12-01T14:59:00+08:00', '仍记录卡池排期节点，供前端 tooltip 使用');
+});

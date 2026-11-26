@@ -65,7 +65,8 @@ jobs:
       - name: 产出摘要（便于排查）
         run: |
           node -e "const d=require('./docs/feed.json');console.log('generated_at',d.generated_at);console.log('games',d.data.games.length,'news',d.news.length);"
-          node -e "const h=require('./data/health.json');console.log('health',h.status,h.checked_at);console.log('banner sources',JSON.stringify(h.banner_sources||[]));console.log('banner warnings',JSON.stringify(h.banner_warnings||[]));"
+          node -e "const h=require('./data/health.json');console.log('health',h.status,h.checked_at);console.log('banner sources',JSON.stringify(h.banner_sources||[]));console.log('next node missing',JSON.stringify(h.next_node_missing||[]));console.log('banner warnings',JSON.stringify(h.banner_warnings||[]));"
+          node -e "const d=require('./docs/feed.json');for(const g of d.data.games){console.log('  '+(g.key||'').padEnd(15)+' 下个节点: '+(g.next_node_label||g.next_version||'-')+' @ '+(g.next_node_at||'-')+' | 距离 '+(g.days_to_next_version==null?'-':g.days_to_next_version+' 天'))}"
 
       - name: 上传健康报告
         if: always()
