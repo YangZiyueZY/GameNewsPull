@@ -248,7 +248,8 @@ test('没有生日数据的游戏 birthdayItems 返回空（明日方舟 / 终�
 // ——————————————————————— 预约卡 / feed v3 ———————————————————————
 
 test('buildFeed：预约游戏没有正式卡池与版本号，release 用官方档期', () => {
-  const feed = buildFeed([], [gameOf('azurpromilia')], {}, { now: NOW });
+  // 蓝色星原已于 2026-11-26 公测转 live（决策 q7=A），这里改用仍在预约期的白银之城
+  const feed = buildFeed([], [gameOf('silverpalace')], {}, { now: NOW });
   const game = feed.data.games[0];
   assert.equal(game.stage, 'prelaunch');
   assert.deepEqual(game.up_banners, []);
@@ -258,16 +259,25 @@ test('buildFeed：预约游戏没有正式卡池与版本号，release 用官方
   assert.equal(game.next_version_kind, null);
   assert.equal(game.days_to_next_version, null);
   assert.equal(game.download.available, false);
-  assert.equal(game.release.date, '2026-11-26T00:00:00+08:00');
+  assert.equal(game.release.date, '2026-12-14T00:00:00+08:00');
   assert.deepEqual(game.birthdays, []);
   assert.ok(game.events.length >= 2, '预约游戏应有预热里程碑');
   assert.ok(game.events.every((ev) => ev.category === 'prelaunch'));
 });
 
+test('buildFeed：蓝色星原公测后按 live 渲染（决策 q7=A）', () => {
+  const feed = buildFeed([], [gameOf('azurpromilia')], {}, { now: NOW });
+  const game = feed.data.games[0];
+  assert.equal(game.stage, 'live');
+  assert.equal(game.download.available, true);
+  assert.equal(game.release.date, '2026-11-26T00:00:00+08:00');
+});
+
 test('buildFeed：live 游戏保留卡池与版本字段，未知游戏不抛错', () => {
   const feed = buildFeed([], GAMES, {}, { now: NOW });
-  assert.equal(feed.schema_version, 3);
-  assert.equal(feed.data.games.length, 11);
+  assert.equal(feed.schema_version, 4);   // schema v4：新增 generated_at_utc / 卡池 confidence 等字段
+  // 2026-11-26：蓝色星原转公测、碧蓝航线纳入，共 12 款
+  assert.equal(feed.data.games.length, 12);
   const genshin = feed.data.games.find((g) => g.key === 'genshin')!;
   assert.equal(genshin.stage, 'live');
   assert.ok(genshin.up_banners.length >= 2);
@@ -290,5 +300,6 @@ test('buildFeed 顶层 publishers 按契约顺序输出 7 个厂商', () => {
     acc[g.publisher_key] = (acc[g.publisher_key] ?? 0) + 1;
     return acc;
   }, {});
-  assert.deepEqual(counts, { mihoyo: 4, hypergryph: 2, kuro: 1, yostar: 1, manjuu: 1, happyelements: 1, perfectworld: 1 });
+  // 蛮啾现有 2 款：蓝色星原：旅谣（2026-11-26 公测）+ 碧蓝航线（q8=B 纳入）
+  assert.deepEqual(counts, { mihoyo: 4, hypergryph: 2, kuro: 1, yostar: 1, manjuu: 2, happyelements: 1, perfectworld: 1 });
 });

@@ -1,0 +1,95 @@
+{
+  "cached_at": "2026-11-26T14:30:00+08:00",
+  "data": {
+    "cargoquery": [
+      {
+        "title": {
+          "Id": "1091",
+          "Server": "JP",
+          "Type": "PickupGacha",
+          "NameEN": "",
+          "Rateup character": "Urara",
+          "Start date": "2026-11-25 02:00:00",
+          "End date": "2026-12-09 01:59:00",
+          "Rerun": "0",
+          "Limited": "0",
+          "Start date__precision": "0",
+          "End date__precision": "0"
+        }
+      },
+      {
+        "title": {
+          "Id": "1090",
+          "Server": "JP",
+          "Type": "PickupGacha",
+          "NameEN": "",
+          "Rateup character": "Manami",
+          "Start date": "2026-11-25 02:00:00",
+          "End date": "2026-12-09 01:59:00",
+          "Rerun": "0",
+          "Limited": "0",
+          "Start date__precision": "0",
+          "End date__precision": "0"
+        }
+      },
+      {
+        "title": {
+          "Id": "745",
+          "Server": "GL",
+          "Type": "PickupGacha",
+          "NameEN": "",
+          "Rateup character": "Niya",
+          "Start date": "2026-11-24 02:00:00",
+          "End date": "2026-12-08 01:59:00",
+          "Rerun": "1",
+          "Limited": "0",
+          "Start date__precision": "0",
+          "End date__precision": "0"
+        }
+      },
+      {
+        "title": {
+          "Id": "744",
+          "Server": "GL",
+          "Type": "PickupGacha",
+          "NameEN": "",
+          "Rateup character": "Nagusa",
+          "Start date": "2026-11-24 02:00:00",
+          "End date": "2026-12-08 01:59:00",
+          "Rerun": "1",
+          "Limited": "0",
+          "Start date__precision": "0",
+          "End date__precision": "0"
+        }
+      },
+      {
+        "title": {
+          "Id": "741",
+          "Server": "GL",
+          "Type": "FesGacha",
+          "NameEN": "",
+          "Rateup character": "Neru (School Uniform)",
+          "Start date": "2026-11-17 02:00:00",
+          "End date": "2026-11-24 01:59:00",
+          "Rerun": "1",
+          "Limited": "1",
+          "Start date__precision": "0",
+          "End date__precision": "0"
+        }
+      },
+      {
+        "title": {
+          "Id": "9",
+          "Server": "CN",
+          "Type": "PickupGacha",
+          "NameEN": "",
+          "Rateup character": "Shiroko",
+          "Start date": "2026-11-20 02:00:00",
+          "End date": "2026-12-04 01:59:00",
+          "Rerun": "0",
+          "Limited": "0"
+        }
+      }
+    ]
+  }
+}

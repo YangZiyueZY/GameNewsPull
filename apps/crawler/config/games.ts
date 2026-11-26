@@ -8,6 +8,8 @@ export interface GameConfig {
   aliases: string[];
   publisher: string;                       // PublisherConfig.key
   stage: GameStage;
+  /** 是否有可抓取的 B 站国服官号（碧蓝航线国服 mid 未确认，仅走日服/国际服 JSON） */
+  bili?: boolean;
   official: { name: string; mid: string; url: string };
   download: { available: boolean; label: string; url: string | null };
   release: { label: string; date: string | null };   // date 为 ISO 8601 或 null（官方未公布不编造）
@@ -73,10 +75,11 @@ export const GAMES: GameConfig[] = [
   },
   // —— 蛮啾网络 ——
   {
+    // 2026-11-26 正式公测、已开放下载（决策 q7=A）：卡池走 B 站官号「弦定观测」解析
     key: 'azurpromilia', name: '蓝色星原：旅谣', mid: '3546569016085336', icon: '/icons/azurpromilia.svg',
-    aliases: ['蓝色星原', '蓝色星原：旅谣', 'Azur Promilia'], publisher: 'manjuu', stage: 'prelaunch',
-    official: official('蓝色星原：旅谣', '3546569016085336'), download: PRELAUNCH_DOWNLOAD,
-    release: { label: '预下载已开启 · 11 月 26 日正式公测', date: '2026-11-26T00:00:00+08:00' },
+    aliases: ['蓝色星原', '蓝色星原：旅谣', 'Azur Promilia'], publisher: 'manjuu', stage: 'live',
+    official: official('蓝色星原：旅谣', '3546569016085336'), download: LIVE_DOWNLOAD,
+    release: { label: '2026 年 11 月 26 日正式公测', date: '2026-11-26T00:00:00+08:00' },
   },
   // —— 乐元素 ——
   {
@@ -84,6 +87,14 @@ export const GAMES: GameConfig[] = [
     aliases: ['白银之城', 'Silver Palace'], publisher: 'happyelements', stage: 'prelaunch',
     official: official('白银之城', '3546879304403742'), download: PRELAUNCH_DOWNLOAD,
     release: { label: '全球公测定档 2026 年 12 月 14 日', date: '2026-12-14T00:00:00+08:00' },
+  },
+  // —— 蛮啾网络（碧蓝航线）——
+  // 决策 q8=B：纳入本站，但只用日服/国际服官方 JSON（国服 B 站官号 mid 未确认，故 bili:false）
+  {
+    key: 'azurlane', name: '碧蓝航线', mid: '233114659', icon: '/icons/azurlane.svg',
+    aliases: ['碧蓝航线', 'Azur Lane', 'AL', '碧蓝'], publisher: 'manjuu', stage: 'live',
+    official: official('碧蓝航线', '233114659'),
+    download: LIVE_DOWNLOAD, release: LIVE_RELEASE,
   },
   // —— 完美世界 ——
   {

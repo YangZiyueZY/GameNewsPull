@@ -9,6 +9,12 @@ import { buildFeed, buildRss } from './extract/feed.ts';
 import { learnBirthdays, mergeBirthdayBook } from './extract/calendar.ts';
 import type { BirthdayBook } from './extract/calendar.ts';
 import { localizeImages } from './utils/media.ts';
+import { applyCdn } from './utils/cdnize.ts';
+import { buildApiBundle, writeApiBundle } from './extract/api.ts';
+import { runBannerPipeline } from './pipeline/banners.ts';
+import { SOURCE_ADAPTERS } from './sources/registry.ts';
+import type { SourceContext } from './pools/types.ts';
+import { nowCstIso } from './utils/datetime.ts';
 import { GAMES } from '../config/games.ts';
 import type { GameConfig } from '../config/games.ts';
 
@@ -32,8 +38,10 @@ const FIRST_SCREEN_COVERAGE_FATAL = 0.90;
 
 const client = new BiliClient();
 const store = new Store(DATA_DIR);
+// 碧蓝航线国服官号 mid 未确认（q8=B），只走日服/国际服 JSON，不参与 B 站抓取
+const BILI_GAMES = GAMES.filter(g => g.bili !== false);
 
-function log(...args: any[]) { console.log('[crawler]', new Date().toISOString(), ...args); }
+function log(...args: any[]) { console.log('[crawler]', nowCstIso(), ...args); }
 function sleep(ms: number) { return new Promise(r => setTimeout(r, ms)); }
 
 interface CrawlStats {
@@ -61,6 +69,12 @@ interface HealthReport {
   endpoint_check: Record<string, boolean>;
   store_count: number;
   feed_generated_at?: string | null;
+  /** 与 checked_at 同一瞬间的 UTC 形式，供机器对齐 */
+  checked_at_utc?: string | null;
+  /** 卡池信源告警：解析失败 / 守卫丢弃 / 单源低置信 */
+  banner_warnings?: string[];
+  /** 每个信源贡献的候选池数量与健康状态 */
+  banner_sources?: Array<{ id: string; candidates: number; ok: boolean; error?: string }>;
 }
 
 function parseFailRate(stats: CrawlStats): number {
@@ -88,7 +102,7 @@ function writeBirthdayBook(book: BirthdayBook): void {
   try {
     fs.mkdirSync(DATA_DIR, { recursive: true });
     fs.writeFileSync(BIRTHDAY_FILE, JSON.stringify({
-      generated_at: new Date().toISOString(),
+      generated_at: nowCstIso(),
       games: book,
     }, null, 2));
   } catch (e: any) {
@@ -159,7 +173,7 @@ async function crawlGame(game: GameConfig): Promise<CrawlStats> {
       const inserted = store.insertDynamic({
         id: item.id, game_key: game.key, mid: game.mid, type: item.type,
         published_at: item.published_at, raw: JSON.stringify(raw),
-        url: item.url, fetched_at: new Date().toISOString(),
+        url: item.url, fetched_at: nowCstIso(),
       });
       if (inserted) stats.inserted++;
       knownIds.add(id);   // 本轮已处理过的都算「已入库」，避免重复插入
@@ -178,7 +192,7 @@ async function crawlGame(game: GameConfig): Promise<CrawlStats> {
   if (!stopReason) stopReason = `达到最大页数 ${MAX_PAGES}`;
 
   // 正常结束（未抛错）且确实抓到数据 → 标记回填完成，之后按增量早停
-  if (!backfillDone && stats.fetched > 0) store.setState(backfillKey, new Date().toISOString());
+  if (!backfillDone && stats.fetched > 0) store.setState(backfillKey, nowCstIso());
 
   const coverage = Math.round(firstScreenCoverage(stats) * 100);
   log(`[crawl] game=${game.name} mid=${game.mid} pages=${stats.pages} fetched=${stats.fetched} parsed=${stats.parsed} opus=${stats.opusParsed}/${stats.opusOnly} coverage=${coverage}% inserted=${stats.inserted} 停止原因=${stopReason}`);
@@ -187,7 +201,7 @@ async function crawlGame(game: GameConfig): Promise<CrawlStats> {
 
 async function resolveIcons(): Promise<Record<string, string>> {
   const icons: Record<string, string> = {};
-  for (const game of GAMES) {
+  for (const game of BILI_GAMES) {
     try {
       const cached = store.getState(`face:${game.mid}`);
       const ts = Number(store.getState(`face_ts:${game.mid}`) || 0);
@@ -217,8 +231,10 @@ async function runOnce() {
   const warnings: string[] = [];   // 轻度异常：仅告警
   const failedGames: string[] = [];
   const endpointCheck: Record<string, boolean> = {};
+  const bannerWarnings: string[] = [];
+  let bannerSources: Array<{ id: string; candidates: number; ok: boolean; error?: string }> = [];
 
-  for (const game of GAMES) {
+  for (const game of BILI_GAMES) {
     try {
       const stats = await crawlGame(game);
       statsList.push(stats);
@@ -276,10 +292,11 @@ async function runOnce() {
 
   // —— 全部游戏都没抓到：不覆盖 feed，保留上一次数据，写 health 并红灯 ——
   if (!statsList.length || totalFetched === 0) {
-    const staleSince = previousHealth?.stale_since ?? previousHealth?.checked_at ?? lastFeedGeneratedAt() ?? new Date().toISOString();
+    const staleSince = previousHealth?.stale_since ?? previousHealth?.checked_at ?? lastFeedGeneratedAt() ?? nowCstIso();
     writeHealth({
       status: 'stale',
-      checked_at: new Date().toISOString(),
+      checked_at: nowCstIso(),
+      checked_at_utc: new Date().toISOString(),
       stale_since: staleSince,
       reason: failures.length ? failures.join('；') : '全部游戏抓取失败（fetched=0）',
       games: gamesHealth,
@@ -324,17 +341,48 @@ async function runOnce() {
 
   const icons = await resolveIcons();
   let feed = buildFeed(allItems, GAMES, icons, { birthdays });
-  const rss = buildRss(allItems);
 
-  // 图片本地化：静态站没有服务端代理
+  // ——— 多信源卡池（q1–q6）：适配器 → 合并校验 → 写回 up_banners ———
+  const sourceCtx: SourceContext = {
+    now: Date.now(),
+    nowCst: nowCstIso(),
+    cacheDir: path.join(DATA_DIR, 'source-cache'),
+    offline: false,
+    dataDir: DATA_DIR,
+    log,
+  };
+  try {
+    const bannerResult = await runBannerPipeline(sourceCtx, SOURCE_ADAPTERS, feed);
+    feed = bannerResult.feed;
+    bannerWarnings.push(...bannerResult.warnings);
+    bannerSources = bannerResult.sourceStats;
+    log(`[banners] 合并 ${bannerResult.pools.length} 个卡池，信源 ${bannerResult.sourceStats.map(s => s.id + '=' + s.candidates).join(' ')}`);
+  } catch (e: any) {
+    // 卡池引擎整体失败不能拖垮站点：保留 feed 里原有的（config/公告）卡池，记告警
+    bannerWarnings.push('卡池引擎失败: ' + (e?.message ?? e));
+    log('卡池引擎失败，保留原有卡池字段:', e?.message ?? e);
+  }
+
+  // 图片本地化：静态站没有服务端代理（q13 配额：最新 N 条 × 每条 M 张）
   const cache: Record<string, string> = {};
   try {
     const cachedRaw = fs.existsSync(path.join(DATA_DIR, 'image-cache.json'))
       ? JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'image-cache.json'), 'utf8')) : {};
-    const result = await localizeImages(feed, cachedRaw);
+    const manifestFile = path.join(DATA_DIR, 'image-manifest.json');
+    const prevManifest = fs.existsSync(manifestFile)
+      ? JSON.parse(fs.readFileSync(manifestFile, 'utf8')) : {};
+    const result = await localizeImages(feed, cachedRaw, { manifest: prevManifest });
     feed = result.feed;
     fs.writeFileSync(path.join(DATA_DIR, 'image-cache.json'), JSON.stringify(result.cache));
+    fs.writeFileSync(manifestFile, JSON.stringify(result.manifest, null, 2));
+    log(`[media] 本地化完成：下载 ${result.stats?.downloaded ?? '?'} 张，命中缓存 ${result.stats?.cached ?? '?'} 张`);
   } catch (e: any) { log('图片本地化失败，保留原始链接:', e.message); }
+
+  // CDN 三件套（q13）：主字段 CDN、*_fallback GitHub Pages、*_local 站内相对路径
+  feed = applyCdn(feed);
+
+  // RSS 用 cdnize 之后的 news，才能带上图片与 CDN 地址
+  const rss = buildRss(feed.news ?? allItems, GAMES);
 
   // 输出：源 public（供 dev）、docs（供 Pages 直接托管）
   const feedJson = JSON.stringify(feed, null, 2);
@@ -343,12 +391,25 @@ async function runOnce() {
     fs.writeFileSync(path.join(dir, 'feed.json'), feedJson);
     fs.writeFileSync(path.join(dir, 'feed.rss'), rss);
   }
+
+  // 嵌入用静态 API（q11/q12）：docs/api/v1 为主，public/api/v1 供 dev
+  try {
+    const apiBundle = buildApiBundle(feed);
+    // API 文档随产物写出（vite build 会清空 docs/，手写文件会丢）
+    const apiDoc = path.resolve('plans/api-v1-embedding.md');
+    for (const dir of [path.join(BUILD_ROOT, 'api', 'v1'), path.join(WEB_PUBLIC, 'api', 'v1')]) {
+      const written = writeApiBundle(dir, apiBundle);
+      if (fs.existsSync(apiDoc)) fs.copyFileSync(apiDoc, path.join(path.dirname(dir), 'README.md'));
+      if (dir.startsWith(BUILD_ROOT)) log(`[api] 写出 ${written.length} 个端点到 docs/api/v1`);
+    }
+  } catch (e: any) { log('API 生成失败（不影响站点）:', e?.message ?? e); }
   store.flush();
   log(`完成：库存 ${store.count()} 条，本次新增 ${added} 条`);
 
   writeHealth({
     status: failedGames.length ? 'degraded' : 'ok',
-    checked_at: new Date().toISOString(),
+    checked_at: nowCstIso(),
+    checked_at_utc: new Date().toISOString(),
     stale_since: null,
     reason: failedGames.length ? `部分游戏抓取失败：${failedGames.join('、')}` : null,
     games: gamesHealth,
@@ -356,6 +417,8 @@ async function runOnce() {
     endpoint_check: endpointCheck,
     store_count: store.count(),
     feed_generated_at: feed.generated_at ?? null,
+    banner_warnings: bannerWarnings.length ? bannerWarnings : undefined,
+    banner_sources: bannerSources.length ? bannerSources : undefined,
   });
   if (failedGames.length) {
     console.warn(`[crawler] WARN 部分游戏抓取失败（${failedGames.join('、')}），已用其余游戏数据输出，health.json 记为 degraded`);
@@ -374,7 +437,7 @@ async function runOnce() {
 
 async function main() {
   log('初始化：核验官方账号...');
-  for (const game of GAMES) {
+  for (const game of BILI_GAMES) {
     try {
       const info = await client.verifyOfficial(game.mid);
       const ok = info.verified && (info.name.includes(game.name.slice(0, 2)) || info.desc.includes(game.name.slice(0, 2)));

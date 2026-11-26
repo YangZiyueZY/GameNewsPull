@@ -1,0 +1,65 @@
+{
+  "cached_at": "2026-11-26T14:30:00+08:00",
+  "data": [
+    {
+      "id": "nanally",
+      "name": "Nanally",
+      "nameCn": "娜娜莉",
+      "slug": "nanally",
+      "element": "anima",
+      "weapon": "Plasma",
+      "rarity": 5,
+      "role": "Attack",
+      "image": "/images/characters/nanally.webp"
+    },
+    {
+      "id": "sakiri",
+      "name": "Sakiri",
+      "nameCn": "咲里",
+      "slug": "sakiri",
+      "element": "incantation",
+      "weapon": "Gas",
+      "rarity": 5,
+      "role": "Support",
+      "image": "/images/characters/sakiri.webp"
+    },
+    {
+      "id": "fadia",
+      "name": "Fadia",
+      "nameCn": "法蒂亚",
+      "slug": "fadia",
+      "element": "psyche",
+      "weapon": "Condensate",
+      "rarity": 5,
+      "role": "Attack",
+      "image": "/images/characters/fadia.webp"
+    },
+    {
+      "id": "lacrimosa",
+      "name": "Lacrimosa",
+      "nameCn": "安魂曲",
+      "slug": "lacrimosa",
+      "element": "chaos",
+      "weapon": "Liquid",
+      "rarity": 5,
+      "role": "Attack",
+      "image": "/images/characters/lacrimosa.webp"
+    },
+    {
+      "id": "baicang",
+      "name": "Baicang",
+      "nameCn": "白藏",
+      "slug": "baicang",
+      "element": "incantation",
+      "weapon": "Condensate",
+      "rarity": 5,
+      "role": "Defense",
+      "image": "/images/characters/baicang.webp"
+    },
+    {
+      "id": "broken",
+      "name": "",
+      "nameCn": ""
+    }
+  ]
+}

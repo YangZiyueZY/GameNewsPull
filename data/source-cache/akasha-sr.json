@@ -1,0 +1,94 @@
+{
+  "cached_at": "2026-11-26T14:23:16+08:00",
+  "data": {
+    "total": 14,
+    "trimmed": true,
+    "original_items": 14,
+    "items": [
+      {
+        "id": "c9088ccc6ece4c0de1fe10b977beb328",
+        "kind": "卡池",
+        "title": "活动跃迁：真珠、献给明日的色彩",
+        "start": "2026-09-28T03:00:00Z",
+        "end": "2026-11-10T07:00:00Z",
+        "all_day": false,
+        "version": "4.6",
+        "cover": "https://upload-bbs.miyoushe.com/upload/2026/09/24/288909600/515f864877707da83e62fa6bf7f403cd_660648913595571180.jpg",
+        "labels": [],
+        "url": "https://www.miyoushe.com/sr/article/78448395"
+      },
+      {
+        "id": "5ac17d3e9096c51071c24f71dafaf2b1",
+        "kind": "卡池",
+        "title": "活动跃迁：千冶•刃、灼尽炼狱的新骸",
+        "start": "2026-10-21T04:00:00Z",
+        "end": "2026-11-10T07:00:00Z",
+        "all_day": false,
+        "version": "4.6",
+        "cover": "https://upload-bbs.miyoushe.com/upload/2026/10/19/288909600/18632b45aaafdc3348f0181032691b60_7368544493166757158.png",
+        "labels": [],
+        "url": "https://www.miyoushe.com/sr/article/79023863"
+      },
+      {
+        "id": "74a895aa2eafb9855a2eb9f24db1376f",
+        "kind": "卡池",
+        "title": "活动跃迁：银狼LV.999、火花、爻光、欢迎来到银河城、花花世界迷人眼、当她决定看见",
+        "start": "2026-11-11T03:00:00Z",
+        "end": "2026-12-02T03:59:00Z",
+        "all_day": false,
+        "version": "4.7",
+        "cover": "https://upload-bbs.miyoushe.com/upload/2026/11/09/288909600/d2bf0ff30c7b382387fa1f392cb37cc5_1870393205157683716.png",
+        "labels": [],
+        "url": "https://www.miyoushe.com/sr/article/79466344"
+      },
+      {
+        "id": "b559482862c0ea113dd136aa343c3fb2",
+        "kind": "卡池",
+        "title": "活动跃迁：星神★阿哈、当第一声『阿哈』响起",
+        "start": "2026-11-11T03:00:00Z",
+        "end": "2026-12-22T07:00:00Z",
+        "all_day": false,
+        "version": "4.7",
+        "cover": "https://upload-bbs.miyoushe.com/upload/2026/11/09/288909600/d2bf0ff30c7b382387fa1f392cb37cc5_1870393205157683716.png",
+        "labels": [],
+        "url": "https://www.miyoushe.com/sr/article/79466344"
+      },
+      {
+        "id": "4aa842d2dd06997f33db570399a9be67",
+        "kind": "网页活动",
+        "title": "「乐子神智取米哈游」网页活动上线",
+        "start": "2026-09-28T02:00:00Z",
+        "end": "2026-11-10T22:00:00Z",
+        "all_day": false,
+        "version": "4.5",
+        "cover": "https://upload-bbs.miyoushe.com/upload/2026/09/28/288909600/14fe21e55ad64f724e31fa484c9452d3_413455643266190034.png",
+        "labels": [],
+        "url": "https://www.miyoushe.com/sr/article/78470442"
+      },
+      {
+        "id": "6eb668b43f8db488e668a0485ded6650",
+        "kind": "通行证",
+        "title": "无名勋礼",
+        "start": "2026-09-28T03:00:00Z",
+        "end": "2026-11-08T19:59:00Z",
+        "all_day": false,
+        "version": "4.6",
+        "cover": "https://upload-bbs.miyoushe.com/upload/2026/09/24/288909600/55572af95157a57d5913f708cbe29ff3_8749802783506346262.jpg",
+        "labels": [],
+        "url": "https://www.miyoushe.com/sr/article/78395357"
+      },
+      {
+        "id": "48b8f1443ba60d03ad1104326a5e966e",
+        "kind": "游戏内活动",
+        "title": "星际和平盛典：一镜到底",
+        "start": "2026-10-21T04:00:00Z",
+        "end": "2026-11-10T19:59:00Z",
+        "all_day": false,
+        "version": "4.6",
+        "cover": "https://upload-bbs.miyoushe.com/upload/2026/10/19/288909600/6c1d6d84979f9171a965b278fd0f334a_2897373366193361279.jpg",
+        "labels": [],
+        "url": "https://www.miyoushe.com/sr/article/79021232"
+      }
+    ]
+  }
+}

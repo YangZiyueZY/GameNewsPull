@@ -11,6 +11,12 @@ import { buildFeed, buildRss } from './extract/feed.ts';
 import { learnBirthdays, mergeBirthdayBook } from './extract/calendar.ts';
 import type { BirthdayBook } from './extract/calendar.ts';
 import { GAMES } from '../config/games.ts';
+import { runBannerPipeline } from './pipeline/banners.ts';
+import { SOURCE_ADAPTERS } from './sources/registry.ts';
+import type { SourceContext } from './pools/types.ts';
+import { applyCdn } from './utils/cdnize.ts';
+import { buildApiBundle, writeApiBundle } from './extract/api.ts';
+import { nowCstIso } from './utils/datetime.ts';
 
 const DATA_DIR = path.resolve(process.env.DATA_DIR || './data');
 const WEB_PUBLIC = path.resolve('apps/web/public');
@@ -24,7 +30,7 @@ function readJson(file: string): any | null {
   try { return JSON.parse(fs.readFileSync(file, 'utf8')); } catch { return null; }
 }
 
-function main(): void {
+async function main(): Promise<void> {
   const store = readJson(STORE_FILE);
   if (!store?.dynamics) {
     console.error('[rebuild] 找不到 data/store.json，无法离线重建');
@@ -64,9 +70,30 @@ function main(): void {
   }
   const birthdays = mergeBirthdayBook(previous, learned);
   fs.mkdirSync(DATA_DIR, { recursive: true });
-  fs.writeFileSync(BIRTHDAY_FILE, JSON.stringify({ generated_at: new Date().toISOString(), games: birthdays }, null, 2));
+  fs.writeFileSync(BIRTHDAY_FILE, JSON.stringify({ generated_at: nowCstIso(), games: birthdays }, null, 2));
 
-  const feed = buildFeed(allItems, GAMES, icons, { birthdays });
+  let feed = buildFeed(allItems, GAMES, icons, { birthdays });
+
+  // —— 多信源卡池：离线模式只读 data/source-cache，不联网（q1–q6）——
+  const sourceCtx: SourceContext = {
+    now: Date.now(),
+    nowCst: nowCstIso(),
+    cacheDir: path.join(DATA_DIR, 'source-cache'),
+    offline: true,
+    dataDir: DATA_DIR,
+    log,
+  };
+  try {
+    const bannerResult = await runBannerPipeline(sourceCtx, SOURCE_ADAPTERS, feed);
+    feed = bannerResult.feed;
+    log('[banners] 离线合并 ' + bannerResult.pools.length + ' 个卡池；信源 ' +
+      bannerResult.sourceStats.map(s => s.id + '=' + s.candidates).join(' '));
+    if (bannerResult.warnings.length) {
+      for (const w of bannerResult.warnings) log('[banners] WARN ' + w);
+    }
+  } catch (e: any) {
+    log('[banners] 卡池引擎失败，保留原有卡池字段:', e?.message ?? e);
+  }
 
   // 离线把远程图片地址映射回已提交到 public/img / docs/img 的本地文件。
   // image-cache.json 由抓取阶段的 localizeImages() 维护，键是原始 URL，值是 img/<sha1>.<ext>。
@@ -78,8 +105,15 @@ function main(): void {
     g.preview_images = (g.preview_images ?? []).map((u: string) => localize(u) as string);
   }
   for (const m of feed.media.items) m.poster_url = localize(m.poster_url);
+  for (const n of feed.news ?? []) {
+    n.images = (n.images ?? []).map((u: string) => localize(u) as string);
+    n.cover = localize(n.cover);
+  }
 
-  const rss = buildRss(allItems);
+  // CDN 三件套（q13）
+  feed = applyCdn(feed);
+
+  const rss = buildRss(feed.news ?? allItems, GAMES);
   const feedJson = JSON.stringify(feed, null, 2);
   for (const dir of [WEB_PUBLIC, BUILD_ROOT]) {
     fs.mkdirSync(dir, { recursive: true });
@@ -87,10 +121,21 @@ function main(): void {
     fs.writeFileSync(path.join(dir, 'feed.rss'), rss);
   }
 
+  // 嵌入用静态 API（q11/q12）
+  try {
+    const apiBundle = buildApiBundle(feed);
+    const apiDoc = path.resolve('plans/api-v1-embedding.md');
+    for (const dir of [path.join(BUILD_ROOT, 'api', 'v1'), path.join(WEB_PUBLIC, 'api', 'v1')]) {
+      writeApiBundle(dir, apiBundle);
+      if (fs.existsSync(apiDoc)) fs.copyFileSync(apiDoc, path.join(path.dirname(dir), 'README.md'));
+    }
+    log('[api] 写出 ' + apiBundle.files.length + ' 个端点到 docs/api/v1');
+  } catch (e: any) { log('[api] 生成失败:', e?.message ?? e); }
+
   log('完成：games=' + feed.data.games.length + ' news=' + feed.news.length + ' media=' + feed.media.items.length);
   for (const g of feed.data.games) {
     log('  ' + g.key + ' stage=' + g.stage + ' events=' + g.events.length + ' birthdays=' + g.birthdays.length + ' current=' + g.current_version);
   }
 }
 
-main();
+main().catch((e) => { console.error('[rebuild] 失败:', e); process.exitCode = 1; });

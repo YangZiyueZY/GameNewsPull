@@ -1,0 +1,102 @@
+{
+  "cached_at": "2026-11-26T14:23:16+08:00",
+  "data": {
+    "total": 72,
+    "trimmed": true,
+    "original_items": 72,
+    "items": [
+      {
+        "id": "226acecbbe767e4ec7eac2d43a54c5b5",
+        "kind": "卡池",
+        "title": "代理人调频：菲欧妮、维琳娜",
+        "start": "2026-10-21T03:00:00Z",
+        "end": "2026-11-11T03:59:00Z",
+        "all_day": false,
+        "version": "3.3",
+        "cover": "https://upload-bbs.miyoushe.com/upload/2026/10/19/152039148/108b6685bcc2078d05a12fea31e5a12d_7889491531391685801.png",
+        "labels": [
+          "代理人调频"
+        ],
+        "url": "https://www.miyoushe.com/zzz/article/79004828"
+      },
+      {
+        "id": "98551c4f137089749f5f1efd4bb30f43",
+        "kind": "卡池",
+        "title": "音擎调频：涅槃初翎、琳琅鎏心",
+        "start": "2026-10-21T03:00:00Z",
+        "end": "2026-11-11T03:59:00Z",
+        "all_day": false,
+        "version": "3.3",
+        "cover": "https://upload-bbs.miyoushe.com/upload/2026/10/19/152039148/108b6685bcc2078d05a12fea31e5a12d_7889491531391685801.png",
+        "labels": [
+          "音擎调频"
+        ],
+        "url": "https://www.miyoushe.com/zzz/article/79004828"
+      },
+      {
+        "id": "9166a885d5e5689e6a0be0fefe4395a0",
+        "kind": "卡池",
+        "title": "音擎调频：禁罪囚笼、首席跟班",
+        "start": "2026-11-11T04:00:00Z",
+        "end": "2026-12-01T06:59:00Z",
+        "all_day": false,
+        "version": "3.3",
+        "cover": "https://upload-bbs.miyoushe.com/upload/2026/11/09/152039148/791d9b8c4c6313c1a5db3a00df997756_3688591780766171660.png",
+        "labels": [
+          "音擎调频"
+        ],
+        "url": "https://www.miyoushe.com/zzz/article/79450581"
+      },
+      {
+        "id": "c75e74a0c5dc40b33797506cb3209af6",
+        "kind": "卡池",
+        "title": "代理人调频：赛维里安、诺姆",
+        "start": "2026-11-11T04:00:00Z",
+        "end": "2026-12-01T06:59:00Z",
+        "all_day": false,
+        "version": "3.3",
+        "cover": "https://upload-bbs.miyoushe.com/upload/2026/11/09/152039148/791d9b8c4c6313c1a5db3a00df997756_3688591780766171660.png",
+        "labels": [
+          "代理人调频"
+        ],
+        "url": "https://www.miyoushe.com/zzz/article/79450581"
+      },
+      {
+        "id": "d9cbcbc61468a36dca7c76e6e7920bbd",
+        "kind": "游戏内活动",
+        "title": "天使应援大作战",
+        "start": "2026-09-09T03:00:00Z",
+        "end": "2026-11-29T19:59:00Z",
+        "all_day": false,
+        "version": "3.2",
+        "cover": "https://upload-bbs.miyoushe.com/upload/2026/09/07/152039148/d31c5c277faa4f773c551001a84c4d08_6477251139063195202.png",
+        "labels": [],
+        "url": "https://www.miyoushe.com/zzz/article/78028041"
+      },
+      {
+        "id": "5d2a4b897e2f95385dc85d0864e7f2f2",
+        "kind": "游戏内活动",
+        "title": "全新放送",
+        "start": "2026-10-21T03:00:00Z",
+        "end": "2026-11-30T19:59:00Z",
+        "all_day": false,
+        "version": "3.3",
+        "cover": "https://upload-bbs.miyoushe.com/upload/2026/10/20/152039148/f17522c82ba4841bd8715dc11aac3678_5813597452963839457.png",
+        "labels": [],
+        "url": "https://www.miyoushe.com/zzz/article/79024037"
+      },
+      {
+        "id": "d51f3f8eb2a83e543384e21068bfbf3a",
+        "kind": "通行证",
+        "title": "丽都城募",
+        "start": "2026-10-21T03:00:00Z",
+        "end": "2026-11-29T19:59:00Z",
+        "all_day": false,
+        "version": "3.3",
+        "cover": "https://upload-bbs.miyoushe.com/upload/2026/10/20/152039148/dc9b02ce2440eb4dfabe47717eaa952a_9168056469265034924.png",
+        "labels": [],
+        "url": "https://www.miyoushe.com/zzz/article/79023864"
+      }
+    ]
+  }
+}

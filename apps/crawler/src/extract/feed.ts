@@ -7,9 +7,13 @@ import { buildBanners, parseBannerAnnouncements } from './banners.ts';
 import type { BannerOutput } from './banners.ts';
 import { buildEvents, birthdayItems } from './calendar.ts';
 import type { BirthdayBook } from './calendar.ts';
+// 时间一律走统一时间源（东八区，且不依赖进程时区）
+import { cstDayDiff, cstDayKey, cstParts, fromCstParts, toCstIso } from '../utils/datetime.ts';
 
 // 卡池抽取已迁到 extract/banners.ts，这里保持既有 import 兼容
 export { buildBanners } from './banners.ts';
+// RSS 实现已迁到 extract/rss.ts，这里保持既有 import 兼容
+export { buildRss } from './rss.ts';
 
 const MEDIA_CATS: Record<string, string> = {
   version_pv: '版本 PV',
@@ -104,18 +108,20 @@ export function findReleaseStatements(items: NewsItem[]): ReleaseStatement[] {
       if (!num && GACHA_STATEMENT_RE.test(m[0])) continue;
       const ym = m[2].match(/(?:(\d{4})年)?(\d{1,2})月(\d{1,2})日/);
       if (!ym) continue;
-      let year = ym[1] ? +ym[1] : new Date().getFullYear();
-      let d = new Date(year, +ym[2] - 1, +ym[3], 12, 0, 0);
+      // 用 +08:00 显式构造：旧实现走 Date(y,m,d) 本地时区，TZ 不同会得到不同的 UTC 时刻
+      const nowMs = Date.now();
+      const year = ym[1] ? +ym[1] : cstParts(nowMs).year;
+      let at = fromCstParts(year, +ym[2], +ym[3], 12, 0);
       if (!ym[1]) {
-        const nowMs = Date.now();
-        if (d.getTime() - nowMs > 200 * 86400000) d = new Date(year - 1, +ym[2] - 1, +ym[3], 12, 0, 0);
-        else if (nowMs - d.getTime() > 200 * 86400000) d = new Date(year + 1, +ym[2] - 1, +ym[3], 12, 0, 0);
+        // 没写年份时把明显跑偏的日期挪到最近一年（跨年前后的公告）
+        if (at - nowMs > 200 * 86400000) at = fromCstParts(year - 1, +ym[2], +ym[3], 12, 0);
+        else if (nowMs - at > 200 * 86400000) at = fromCstParts(year + 1, +ym[2], +ym[3], 12, 0);
       }
       const label = num ? `${num}版本「${name}」` : `「${name}」版本`;
-      const key = `${label}|${d.toISOString().slice(0, 10)}`;
+      const key = `${label}|${cstDayKey(at)}`;
       if (seen.has(key)) continue;
       seen.add(key);
-      out.push({ name: num ?? name, label, at: d.getTime(), numeric: !!num });
+      out.push({ name: num ?? name, label, at, numeric: !!num });
     }
   }
   return out;
@@ -344,7 +350,9 @@ export function buildFeed(
   extras: FeedExtras = {},
 ) {
   const now = extras.now ?? Date.now();
-  const generatedAt = new Date(now).toISOString();
+  // 契约 §1：主字段为东八区 ISO，另并列输出 UTC（Z）形式供只认 UTC 的消费方使用
+  const generatedAt = toCstIso(now);
+  const generatedAtUtc = new Date(now).toISOString();
   const birthdayBook: BirthdayBook = extras.birthdays ?? {};
   const games: any[] = [];
   const mediaItems: any[] = [];
@@ -368,8 +376,9 @@ export function buildFeed(
     const birthdays = birthdayItems(birthdayBook[game.key] ?? [], now);
     const releaseDate = game.release?.date ?? null;
     const releaseMs = releaseDate ? new Date(releaseDate).getTime() : null;
+    // 天数一律按东八区日历日差算（契约 §1），不是毫秒差四舍五入
     const releaseDays = releaseMs !== null && Number.isFinite(releaseMs)
-      ? Math.max(0, Math.ceil((releaseMs - now) / 86_400_000))
+      ? Math.max(0, cstDayDiff(now, releaseMs))
       : null;
 
     games.push({
@@ -399,11 +408,11 @@ export function buildFeed(
       birthdays,
       current_version: prelaunch ? '尚未上线' : (current ? current.label : '版本资讯更新中'),
       current_content: contentItems.slice(0, 4).map(i => (i.title.replace(/^《[^》]+》/, '').trim() || i.title)),
-      current_version_days: prelaunch ? 0 : (versionStart ? Math.max(0, Math.floor((now - versionStart) / 86400000)) : 0),
+      current_version_days: prelaunch ? 0 : (versionStart ? Math.max(0, cstDayDiff(versionStart, now)) : 0),
       next_version: prelaunch ? '待定档' : (next ? next.label : '暂未公布'),
       next_version_kind: prelaunch ? null : nextKind,
       next_content: prelaunch ? [] : (next ? next.posts.slice(0, 3).map(p => p.title) : []),
-      days_to_next_version: prelaunch ? null : (nextStart ? Math.max(0, Math.ceil((nextStart - now) / 86400000)) : null),
+      days_to_next_version: prelaunch ? null : (nextStart ? Math.max(0, cstDayDiff(now, nextStart)) : null),
       preview_status: preview ? '已发布' : '尚未发布',
       preview_title: preview?.title || null,
       preview_start_at: preview?.published_at || null,
@@ -446,8 +455,9 @@ export function buildFeed(
   mediaItems.sort((a, b) => new Date(b.published_at).getTime() - new Date(a.published_at).getTime());
 
   return {
-    schema_version: 3,
+    schema_version: 4,
     generated_at: generatedAt,
+    generated_at_utc: generatedAtUtc,
     // 厂商标签页：顺序由 config/publishers.ts 的 order 决定
     publishers: [...PUBLISHERS].sort((a, b) => a.order - b.order),
     ui: {
@@ -472,30 +482,12 @@ export function buildFeed(
     },
     data: { games },
     media: { categories: Object.entries(MEDIA_CATS).map(([id, label]) => ({ id, label })), items: mediaItems },
-    news: allItems.filter(i => !NOISE_RE.test(i.title) && !NOISE_RE.test(i.summary)).slice(0, 500),
+    // 必须按发布时间倒序后再截断：否则新游戏（刚补抓的碧蓝航线）会因为排在 store 尾部而被截掉，
+    // 表现为「卡片没有任何消息」。
+    news: allItems
+      .filter(i => !NOISE_RE.test(i.title) && !NOISE_RE.test(i.summary))
+      .slice()
+      .sort((a, b) => new Date(b.published_at).getTime() - new Date(a.published_at).getTime())
+      .slice(0, 500),
   };
-}
-
-export function buildRss(items: NewsItem[], gameConfigs: GameConfig[] = GAMES): string {
-  const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-  const sorted = [...items].sort((a, b) => new Date(b.published_at).getTime() - new Date(a.published_at).getTime()).slice(0, 100);
-  const itemsXml = sorted.map(i => `    <item>
-      <title>${esc(`[${i.game_name}] ${i.title}`)}</title>
-      <link>${esc(i.url)}</link>
-      <guid isPermaLink="false">${esc(i.id)}</guid>
-      <pubDate>${new Date(i.published_at).toUTCString()}</pubDate>
-      <description>${esc(i.summary.slice(0, 300))}</description>
-      <category>${esc(i.game_name)}</category>
-    </item>`).join('\n');
-  return `<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>二游资讯 · B站官方动态</title>
-    <link>http://localhost:5173/</link>
-    <description>${esc(gameConfigs.map(g => g.name).slice(0, 8).join('、'))} 等 ${gameConfigs.length} 款二游官方 B 站资讯聚合</description>
-    <language>zh-CN</language>
-    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
-${itemsXml}
-  </channel>
-</rss>`;
 }

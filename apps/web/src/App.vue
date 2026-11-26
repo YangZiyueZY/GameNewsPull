@@ -2,9 +2,11 @@
 import { computed, onMounted, onUnmounted, ref, watch } from 'vue';
 import type { Feed, Game, MediaItem, NewsItem } from './types';
 import PublisherTabs from './PublisherTabs.vue';
+import ApiDocs from './ApiDocs.vue';
 import GameCard from './GameCard.vue';
 import { buildPublishers, publisherKeyOf } from './lib/publishers';
-import { fmtDate, fmtDay } from './lib/format';
+import { fmtDate } from './lib/format';
+import SmartImage from './components/SmartImage.vue';
 
 const feed = ref<Feed | null>(null);
 const loading = ref(true);
@@ -13,6 +15,8 @@ const activeMedia = ref<MediaItem | null>(null);
 const sourcesFor = ref<Game | null>(null);
 const activeTab = ref('mihoyo');
 const isDemo = ref(false);
+// 本项目 API 文档面板（信源整理在 README，这里只讲本站自己的拉取 API）
+const showApi = ref(false);
 
 const demoMode = new URLSearchParams(location.search).get('demo') === 'v3';
 
@@ -123,7 +127,8 @@ function onHashChange() {
 
 function onKeydown(e: KeyboardEvent) {
   if (e.key !== 'Escape') return;
-  if (activeMedia.value) activeMedia.value = null;
+  if (showApi.value) showApi.value = false;
+  else if (activeMedia.value) activeMedia.value = null;
   else if (sourcesFor.value) sourcesFor.value = null;
 }
 
@@ -139,7 +144,8 @@ onUnmounted(() => {
 
 const overview = computed(() => {
   const parts = [`${games.value.length} 款游戏`, `${visiblePublishers.value.length} 家厂商`];
-  if (feed.value?.generated_at) parts.push(`更新于 ${fmtDate(feed.value.generated_at)}`);
+  const generatedAt = feed.value?.generated_at || feed.value?.generated_at_utc;
+  if (generatedAt) parts.push(`更新于 ${fmtDate(generatedAt)}（北京时间）`);
   return parts;
 });
 </script>
@@ -149,7 +155,7 @@ const overview = computed(() => {
     <header class="header">
       <div class="brand">
         <a class="brand-mark" href="./" aria-label="二游资讯首页">
-          <img :src="logoUrl" alt="" width="38" height="38" />
+          <SmartImage :cdn="logoUrl" fallback="" local="" alt="" width="38" height="38" />
         </a>
         <div class="brand-text">
           <h1>二游资讯<span class="brand-dot">.</span></h1>
@@ -162,6 +168,12 @@ const overview = computed(() => {
           </div>
         </div>
       </div>
+      <button class="rss-link api-entry" type="button" @click="showApi = true">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path d="M4 6h16M4 12h10M4 18h7" />
+        </svg>
+        API 文档
+      </button>
       <a class="rss-link" href="./feed.rss" target="_blank" rel="noopener">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
           <path d="M4 11a9 9 0 0 1 9 9" /><path d="M4 4a16 16 0 0 1 16 16" /><circle cx="5" cy="19" r="1" />
@@ -211,7 +223,7 @@ const overview = computed(() => {
             :game="g"
             :media="mediaFor(g)"
             :news="newsFor(g)"
-            :generated-at="feed?.generated_at"
+            :generated-at="feed?.generated_at || feed?.generated_at_utc"
             @play-media="activeMedia = $event"
             @show-sources="sourcesFor = $event"
           />
@@ -220,9 +232,11 @@ const overview = computed(() => {
       </section>
 
       <div class="footer">
-        数据来自各游戏 B 站官方账号 · 仅供玩家参考 · 以官方公告为准 · 生成于 {{ fmtDay(feed?.generated_at) }}
+        数据来自各游戏 B 站官方账号 · 仅供玩家参考 · 以官方公告为准 · 更新于 {{ fmtDate(feed?.generated_at || feed?.generated_at_utc) }}（北京时间）
       </div>
     </template>
+
+    <ApiDocs v-if="showApi" @close="showApi = false" />
 
     <div v-if="activeMedia" class="modal-backdrop" @click.self="activeMedia = null">
       <div class="modal" role="dialog" aria-modal="true" :aria-label="activeMedia.title">

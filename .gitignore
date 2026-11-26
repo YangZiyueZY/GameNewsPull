@@ -8,7 +8,8 @@ logs/
 *.log
 *.db
 *.db-*
-# public/img 是构建中间产物，由 docs/img（已提交）缓存恢复，无需入库
+# public/img 与 public/api 是构建中间产物，由 docs/img、docs/api（已提交）恢复，无需入库
 apps/web/public/img/
+apps/web/public/api/
 data/feed.json
 data/feed.rss

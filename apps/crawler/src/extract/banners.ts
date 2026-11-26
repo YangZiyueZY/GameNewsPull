@@ -394,7 +394,7 @@ function isSamePeriod(period: BannerPeriod, official: AutoBannerPeriod): boolean
     if (periodEnd !== null && officialStart >= periodStart && officialStart <= periodEnd) return true;
     return false;
   }
-  return official.characters.some(name => period.characters.includes(name));
+  return official.characters.some(name => (period.characters ?? []).includes(name));
 }
 
 function startMsOf(banner: BannerOutput): number {
@@ -430,7 +430,8 @@ export function buildBanners(gameKey: string, items: NewsItem[], nowMs?: number)
   const used = new Set<number>();
   const output: BannerOutput[] = configured.map(period => {
     const matchedIndex = official.findIndex((o, i) => !used.has(i) && isSamePeriod(period, o));
-    let characters = [...period.characters];
+    // config 已不再手写角色名（q5=A），这里只从官方公告补齐
+    let characters = [...(period.characters ?? [])];
     let start = period.start;
     let end = period.end;
     let source: BannerOutput['source'] = 'config';

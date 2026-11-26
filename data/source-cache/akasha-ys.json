@@ -1,0 +1,170 @@
+{
+  "cached_at": "2026-11-26T14:23:16+08:00",
+  "data": {
+    "total": 182,
+    "trimmed": true,
+    "original_items": 182,
+    "items": [
+      {
+        "id": "2c64c0be164ed9cb3905e4f5480848f3",
+        "kind": "卡池",
+        "title": "莓色香颂",
+        "start": "2026-10-13T10:00:00Z",
+        "end": "2026-11-03T06:59:00Z",
+        "all_day": false,
+        "version": "7.1",
+        "cover": "https://upload-bbs.miyoushe.com/upload/2026/09/29/75276539/28aa3ccee3afc45dbce456c31be8868a_6092291719872831676.png",
+        "labels": [],
+        "url": "https://www.miyoushe.com/ys/article/78782590"
+      },
+      {
+        "id": "79c13d8e6791111b30c8d5e9828feed4",
+        "kind": "卡池",
+        "title": "神铸赋形",
+        "start": "2026-10-13T10:00:00Z",
+        "end": "2026-11-03T06:59:00Z",
+        "all_day": false,
+        "version": "7.1",
+        "cover": "https://fastcdn.mihoyo.com/content-v2/hk4e/166638/893505f8b2185b2babb974257e4cdfac_3367280676436970011.png",
+        "labels": [],
+        "url": "https://ys.mihoyo.com/main/news/detail/166638"
+      },
+      {
+        "id": "dd45933aa56fdcacbc21947429874a2b",
+        "kind": "卡池",
+        "title": "虚星临渡",
+        "start": "2026-10-13T10:00:00Z",
+        "end": "2026-11-03T06:59:00Z",
+        "all_day": false,
+        "version": "7.1",
+        "cover": "https://upload-bbs.miyoushe.com/upload/2026/09/29/75276539/132bfef9120a9d1504821057c5f1ba14_1511906511069703156.png",
+        "labels": [],
+        "url": "https://www.miyoushe.com/ys/article/78782589"
+      },
+      {
+        "id": "1440a3d0986acdfa584adea2f97131d3",
+        "kind": "卡池",
+        "title": "众水的颂诗",
+        "start": "2026-11-04T03:00:00Z",
+        "end": "2026-11-24T09:59:00Z",
+        "all_day": false,
+        "version": "7.2",
+        "cover": "https://upload-bbs.miyoushe.com/upload/2026/10/29/75276539/df6d56071df3972b3f2a64dc124d2260_6391127053568931267.png",
+        "labels": [],
+        "url": "https://www.miyoushe.com/ys/article/79287291"
+      },
+      {
+        "id": "567687cefbdab934f6abf8b856c18daa",
+        "kind": "卡池",
+        "title": "万序衍盈",
+        "start": "2026-11-04T03:00:00Z",
+        "end": "2026-11-24T09:59:00Z",
+        "all_day": false,
+        "version": "7.2",
+        "cover": "https://upload-bbs.miyoushe.com/upload/2026/10/29/75276539/f8942892de197ac5527cdb31a13e28fd_8535114736042281317.png",
+        "labels": [],
+        "url": "https://www.miyoushe.com/ys/article/79287292"
+      },
+      {
+        "id": "e857d7e94e3d8078d8e9c30c911885ae",
+        "kind": "卡池",
+        "title": "神铸赋形",
+        "start": "2026-11-04T03:00:00Z",
+        "end": "2026-11-24T09:59:00Z",
+        "all_day": false,
+        "version": "7.2",
+        "cover": "https://fastcdn.mihoyo.com/content-v2/hk4e/167163/8a1b70dbb3ab2c97bb478f3fa4ca4188_777900444688288515.png",
+        "labels": [],
+        "url": "https://ys.mihoyo.com/main/news/detail/167163"
+      },
+      {
+        "id": "0ca9f46590bcfad2afaa7e86a3bcf065",
+        "kind": "卡池",
+        "title": "呀吼吼博物志",
+        "start": "2026-11-24T10:00:00Z",
+        "end": "2026-12-15T06:59:00Z",
+        "all_day": false,
+        "version": "7.2",
+        "cover": "https://upload-bbs.miyoushe.com/upload/2026/11/18/75276539/9479993e2a49d13cac70e1d824434f89_7027780927877350308.png",
+        "labels": [],
+        "url": "https://www.miyoushe.com/ys/article/79660850"
+      },
+      {
+        "id": "39f8a13381bb77bf6abce300f468f048",
+        "kind": "卡池",
+        "title": "炎天铸名",
+        "start": "2026-11-24T10:00:00Z",
+        "end": "2026-12-15T06:59:00Z",
+        "all_day": false,
+        "version": "7.2",
+        "cover": "https://upload-bbs.miyoushe.com/upload/2026/11/18/75276539/409211c8c97c5ce9612cd6edd13216e3_6490159877357675458.png",
+        "labels": [],
+        "url": "https://www.miyoushe.com/ys/article/79660855"
+      },
+      {
+        "id": "8e14cc1c49092cb6d0ffd5a9fb206b1c",
+        "kind": "卡池",
+        "title": "华黍由仪",
+        "start": "2026-11-24T10:00:00Z",
+        "end": "2026-12-15T06:59:00Z",
+        "all_day": false,
+        "version": "7.2",
+        "cover": "https://upload-bbs.miyoushe.com/upload/2026/11/18/75276539/66a768ec13aeaae39744a0e826ee6677_1814485906032116611.png",
+        "labels": [],
+        "url": "https://www.miyoushe.com/ys/article/79660849"
+      },
+      {
+        "id": "f240207e1ef605a1fa34a4115ebfb952",
+        "kind": "卡池",
+        "title": "神铸赋形",
+        "start": "2026-11-24T10:00:00Z",
+        "end": "2026-12-15T06:59:00Z",
+        "all_day": false,
+        "version": "7.2",
+        "cover": "https://fastcdn.mihoyo.com/content-v2/hk4e/167386/b9c339d9d30a827df3389f27969d16f3_7110933892900554093.png",
+        "labels": [],
+        "url": "https://ys.mihoyo.com/main/news/detail/167386"
+      },
+      {
+        "id": "4c543326bd19ff72b07778edd54ce793",
+        "kind": "游戏内活动",
+        "title": "「无神怜爱的冻土」时限内完成探索任务",
+        "start": "2026-08-12T03:00:00Z",
+        "end": "2026-11-03T06:59:00Z",
+        "all_day": false,
+        "version": "7.0",
+        "cover": "https://upload-bbs.miyoushe.com/upload/2026/08/07/75276539/19a1d08e7c287f9d79d800027a3581a2_6855325099806016483.jpg",
+        "labels": [],
+        "url": "https://www.miyoushe.com/ys/article/77322283"
+      },
+      {
+        "id": "5af98dba347f2b83c8fac06e553fc832",
+        "kind": "游戏内活动",
+        "title": "绮星盛会",
+        "start": "2026-09-23T03:00:00Z",
+        "end": "2026-11-02T20:00:00Z",
+        "all_day": false,
+        "version": "7.1",
+        "cover": "https://upload-bbs.miyoushe.com/upload/2026/09/15/378227958/8678c60cb95d9977cd7c939fb5db8dc1_433833872695586363.png",
+        "labels": [
+          "千星奇域"
+        ],
+        "url": "https://www.miyoushe.com/ys/article/78324484"
+      },
+      {
+        "id": "932f5aac490b97116af43f8924b11fb4",
+        "kind": "游戏内活动",
+        "title": "绮衣珍赏·晴暖",
+        "start": "2026-09-23T03:00:00Z",
+        "end": "2026-11-03T21:59:00Z",
+        "all_day": false,
+        "version": "7.1",
+        "cover": "https://upload-bbs.miyoushe.com/upload/2026/09/15/75276539/eddaec01e50b1ffe98dcb2f4fde61f44_4720754957403520257.png",
+        "labels": [
+          "千星奇域"
+        ],
+        "url": "https://www.miyoushe.com/ys/article/78322888"
+      }
+    ]
+  }
+}

@@ -9,20 +9,42 @@ export function img(url?: string | null): string {
   return url.startsWith('./') || url.startsWith('/') ? url : './' + url;
 }
 
-/** MM-DD HH:mm（本地时区） */
-export function fmtDate(s?: string | null): string {
-  if (!s) return '';
+const CST = 'Asia/Shanghai';
+
+/** 东八区日期时间格式化：浏览器时区无关，旧 Z 时间戳也会按北京时间显示 */
+function cstParts(s?: string | null): { year: string; month: string; day: string; hour: string; minute: string } | null {
+  if (!s) return null;
   const d = new Date(s);
-  if (Number.isNaN(d.getTime())) return '';
-  return `${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')} ${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}`;
+  if (Number.isNaN(d.getTime())) return null;
+  const parts = new Intl.DateTimeFormat('zh-CN', {
+    timeZone: CST,
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    hourCycle: 'h23',
+  }).formatToParts(d);
+  const pick = (type: string) => parts.find((p) => p.type === type)?.value || '';
+  return { year: pick('year'), month: pick('month'), day: pick('day'), hour: pick('hour'), minute: pick('minute') };
 }
 
-/** MM-DD */
+/** MM-DD HH:mm（北京时间） */
+export function fmtDate(s?: string | null): string {
+  const p = cstParts(s);
+  return p ? `${p.month}-${p.day} ${p.hour}:${p.minute}` : '';
+}
+
+/** MM-DD（北京时间） */
 export function fmtDay(s?: string | null): string {
-  if (!s) return '';
-  const d = new Date(s);
-  if (Number.isNaN(d.getTime())) return '';
-  return `${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+  const p = cstParts(s);
+  return p ? `${p.month}-${p.day}` : '';
+}
+
+/** YYYY-MM-DD HH:mm（北京时间） */
+export function fmtDateTime(s?: string | null): string {
+  const p = cstParts(s);
+  return p ? `${p.year}-${p.month}-${p.day} ${p.hour}:${p.minute}` : '';
 }
 
 /** 图标兜底用的首字 */

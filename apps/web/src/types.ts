@@ -63,6 +63,8 @@ export interface MediaItem {
   url: string;
   player_url: string;
   poster_url?: string | null;
+  poster_url_fallback?: string | null;
+  poster_url_local?: string | null;
   source?: {
     platform?: string;
     official_mid?: string;
@@ -79,6 +81,12 @@ export interface NewsItem {
   source_mid?: string | null;
   source_name?: string | null;
   images?: string[];
+  images_fallback?: string[];
+  images_local?: string[];
+  cover_fallback?: string | null;
+  cover_local?: string | null;
+  /** 图片本地化状态（external / localized 等，旧 feed 缺失时忽略） */
+  image_status?: string | null;
   type?: 'video' | 'forward' | 'dynamic' | string;
   title: string;
   summary?: string | null;
@@ -98,6 +106,23 @@ export interface UpBanner {
   days_remaining?: number | null;
   note?: string | null;
   source?: string;
+  // —— 多信源卡池（可选，旧 feed 缺失时照常渲染）——
+  pool_name?: string | null;
+  pool_type?: string | null;
+  pool_type_label?: string | null;
+  confidence?: 'high' | 'low' | string;
+  sources?: BannerSourceRef[];
+}
+
+/** 卡池信源引用（前端只需要展示 id / 名称 / 链接） */
+export interface BannerSourceRef {
+  id?: string;
+  title?: string;
+  name?: string;
+  label?: string;
+  url?: string | null;
+  tier?: string;
+  [key: string]: unknown;
 }
 
 export interface SourceRef {
@@ -133,6 +158,10 @@ export interface Game {
   key: string;
   game_name: string;
   icon_url?: string | null;
+  icon_url_fallback?: string | null;
+  icon_url_local?: string | null;
+  preview_images_fallback?: string[];
+  preview_images_local?: string[];
 
   // ——— 旧字段（v2）———
   current_version?: string | null;
@@ -148,6 +177,8 @@ export interface Game {
   preview_replay_url?: string | null;
   preview_images?: string[];
   up_banners?: UpBanner[];
+  /** 协定卡池（异环「限定棋盘」）：与角色限定池分开，避免混排 */
+  pact_banners?: UpBanner[];
   current_up_characters?: string[];
   sources?: SourceRef[];
   facts_checked_at?: string | null;
@@ -178,6 +209,7 @@ export interface FeedUi {
 export interface Feed {
   schema_version?: number;
   generated_at: string;
+  generated_at_utc?: string;
   publishers?: Publisher[];
   ui?: FeedUi;
   data: { games: Game[] };

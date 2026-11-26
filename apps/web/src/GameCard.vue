@@ -5,6 +5,7 @@ import EventList from './EventList.vue';
 import BirthdayList from './BirthdayList.vue';
 import { cleanTitle, fmtDate, img, initials } from './lib/format';
 import { publisherOf } from './lib/publishers';
+import SmartImage from './components/SmartImage.vue';
 
 const props = withDefaults(defineProps<{
   game: Game;
@@ -53,7 +54,10 @@ const versionContent = computed(() => {
   }
   return out;
 });
-const banners = computed(() => props.game.up_banners || []);
+// 武器池不展示（2026-11-26 决策：没有武器名的半成品一律砍掉，旧 feed 里若还有也在这里过滤）
+const banners = computed(() => (props.game.up_banners || []).filter((b) => b.pool_type !== 'weapon'));
+// 协定卡池：异环「限定棋盘」走独立字段，避免与角色限定池混在一起
+const pactBanners = computed(() => (props.game.pact_banners || []).filter((b) => b.pool_type !== 'weapon'));
 const official = computed(() => props.game.official_account || null);
 const releaseLabel = computed(() => props.game.release?.label || '上线时间待官方公布');
 const releaseDays = computed(() => props.game.release?.days_until ?? null);
@@ -71,6 +75,14 @@ function bannerTime(b: { end_at?: string | null; note?: string | null }) {
   if (b.note) return b.note;
   return '';
 }
+
+/** 多信源卡池 title：列出信源 id（缺失字段时返回空串，不显示 tooltip） */
+function bannerSourcesTitle(b: { sources?: Array<{ id?: string; title?: string; name?: string; label?: string } | null> }) {
+  const ids = (b.sources || [])
+    .map((s) => s?.id || s?.title || s?.name || s?.label || '')
+    .filter(Boolean);
+  return ids.length ? `信源：${ids.join('、')}` : '';
+}
 </script>
 
 <template>
@@ -79,12 +91,12 @@ function bannerTime(b: { end_at?: string | null; note?: string | null }) {
       <div class="game-title">
         <div class="game-icon">
           <span>{{ initials(game.game_name) }}</span>
-          <img
-            v-if="game.icon_url"
-            :src="img(game.icon_url)"
+          <SmartImage
+            v-if="game.icon_url || game.icon_url_fallback || game.icon_url_local"
+            :cdn="game.icon_url || ''"
+            :fallback="game.icon_url_fallback || ''"
+            :local="game.icon_url_local || ''"
             alt=""
-            loading="lazy"
-            @error="(e) => ((e.target as HTMLImageElement).hidden = true)"
           />
         </div>
         <div class="title-main">
@@ -169,7 +181,13 @@ function bannerTime(b: { end_at?: string | null; note?: string | null }) {
         </div>
         <div class="media-featured">
           <button class="thumb" type="button" @click="emit('play-media', featured)">
-            <img v-if="featured.poster_url" :src="img(featured.poster_url)" alt="" loading="lazy" />
+            <SmartImage
+              v-if="featured.poster_url || featured.poster_url_fallback || featured.poster_url_local"
+              :cdn="featured.poster_url || ''"
+              :fallback="featured.poster_url_fallback || ''"
+              :local="featured.poster_url_local || ''"
+              alt=""
+            />
             <span class="thumb-play" aria-hidden="true">
               <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z" /></svg>
             </span>
@@ -214,9 +232,12 @@ function bannerTime(b: { end_at?: string | null; note?: string | null }) {
             :key="b.label + (b.characters || []).join('/')"
             class="banner"
             :class="{ 'is-ended': b.status === '已结束', 'is-soon': b.status === '未开始' }"
+            :title="bannerSourcesTitle(b)"
           >
             <div class="banner-row">
               <span class="banner-label">{{ b.label }}</span>
+              <span v-if="b.pool_type_label" class="banner-type">{{ b.pool_type_label }}</span>
+              <span v-if="b.confidence === 'low'" class="banner-pending">待核实</span>
               <span class="banner-chars">
                 <span v-for="c in b.characters || []" :key="c" class="char-chip">{{ c }}</span>
               </span>
@@ -234,6 +255,36 @@ function bannerTime(b: { end_at?: string | null; note?: string | null }) {
       <div v-else-if="!isPrelaunch && (game.current_up_characters || []).length" class="block">
         <div class="section-title">当期推荐</div>
         <div class="up-chars">{{ (game.current_up_characters || []).join('、') }}</div>
+      </div>
+
+      <!-- 协定卡池（异环）：有数据才渲染 -->
+      <div v-if="!isPrelaunch && pactBanners.length" class="block">
+        <div class="section-title">协定卡池</div>
+        <div class="banners">
+          <div
+            v-for="b in pactBanners"
+            :key="'pact-' + b.label + (b.characters || []).join('/')"
+            class="banner"
+            :class="{ 'is-ended': b.status === '已结束', 'is-soon': b.status === '未开始' }"
+            :title="bannerSourcesTitle(b)"
+          >
+            <div class="banner-row">
+              <span class="banner-label">{{ b.pool_name || b.label }}</span>
+              <span v-if="b.pool_type_label" class="banner-type">{{ b.pool_type_label }}</span>
+              <span v-if="b.confidence === 'low'" class="banner-pending">待核实</span>
+              <span class="banner-chars">
+                <span v-for="c in b.characters || []" :key="c" class="char-chip">{{ c }}</span>
+              </span>
+              <span class="banner-remain">
+                <template v-if="b.status === '进行中' && b.days_remaining != null">剩余 {{ b.days_remaining }} 天</template>
+                <template v-else-if="b.status === '已结束'">已结束</template>
+                <template v-else-if="b.status === '未开始'">{{ b.start_at ? fmtDate(b.start_at) + ' 开始' : '即将开始' }}</template>
+                <template v-else>时间待公布</template>
+              </span>
+            </div>
+            <div v-if="bannerTime(b)" class="banner-time">{{ bannerTime(b) }}</div>
+          </div>
+        </div>
       </div>
 
       <!-- 当前活动 / 预热进度 -->
@@ -261,10 +312,31 @@ function bannerTime(b: { end_at?: string | null; note?: string | null }) {
     </div>
 
     <footer class="card-footer">
-      <span class="footer-time">更新于 {{ generatedAt ? fmtDate(generatedAt) : '—' }}</span>
+      <span class="footer-time">更新于 {{ generatedAt ? fmtDate(generatedAt) : '—' }}（北京时间）</span>
       <button class="source-btn" type="button" @click="emit('show-sources', game)">
         信源 {{ sourceCount() }} 条 ›
       </button>
     </footer>
   </article>
 </template>
+
+<style scoped>
+.banner-type,
+.banner-pending {
+  flex-shrink: 0;
+  font-size: .66rem;
+  line-height: 1.5;
+  color: var(--muted);
+}
+.banner-type {
+  padding: 0 .35rem;
+  border-radius: 1rem;
+  background: var(--bg-raise);
+}
+.banner-pending {
+  padding: 0 .35rem;
+  border: 1px solid var(--primary-line);
+  border-radius: 1rem;
+  color: var(--primary);
+}
+</style>
