@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-11-25T10:11:19.643Z",
+  "generated_at": "2026-11-26T09:52:38.128Z",
   "publishers": [
     {
       "key": "mihoyo",
@@ -161,11 +161,21 @@
         ],
         "birthdays": [
           {
+            "character": "砂糖",
+            "month_day": "11-26",
+            "next_at": "2026-11-26T00:00:00+08:00",
+            "days_until": 0,
+            "days_since": 0,
+            "state": "today",
+            "url": "https://www.bilibili.com/opus/1274863118730657797",
+            "source": "official"
+          },
+          {
             "character": "莱欧斯利",
             "month_day": "11-23",
             "next_at": "2027-11-23T00:00:00+08:00",
-            "days_until": 363,
-            "days_since": 2,
+            "days_until": 362,
+            "days_since": 3,
             "state": "recent",
             "url": "https://www.bilibili.com/opus/1273749863246331908",
             "source": "official"
@@ -174,8 +184,8 @@
             "character": "刻晴",
             "month_day": "11-20",
             "next_at": "2027-11-20T00:00:00+08:00",
-            "days_until": 360,
-            "days_since": 5,
+            "days_until": 359,
+            "days_since": 6,
             "state": "recent",
             "url": "https://www.bilibili.com/opus/1272636607710625801",
             "source": "official"
@@ -184,20 +194,10 @@
             "character": "布伦妮",
             "month_day": "11-20",
             "next_at": "2027-11-20T00:00:00+08:00",
-            "days_until": 360,
-            "days_since": 5,
+            "days_until": 359,
+            "days_since": 6,
             "state": "recent",
             "url": "https://www.bilibili.com/opus/1272636607701188631",
-            "source": "official"
-          },
-          {
-            "character": "瓦雷莎",
-            "month_day": "11-15",
-            "next_at": "2027-11-15T00:00:00+08:00",
-            "days_until": 355,
-            "days_since": 10,
-            "state": "recent",
-            "url": "https://www.bilibili.com/opus/1270781181855531017",
             "source": "official"
           }
         ],
@@ -208,7 +208,7 @@
           "#原神# #兹白# 为守护故土，兹白曾以身对抗天罚。幸而，她最终还是循着月光，回到了她所珍爱的故土。",
           "#原神# #莉奈娅# 生活应在每一个当下，而非等待未来的某一天。命运无法改变，可同样不变的，是家人间注定相连的牵绊。"
         ],
-        "current_version_days": 32,
+        "current_version_days": 33,
         "next_version": "暂未公布",
         "next_version_kind": null,
         "next_content": [],
@@ -245,7 +245,7 @@
             "start_at": "2026-11-24T18:00:00+08:00",
             "end_at": "2026-12-15T14:59:00+08:00",
             "status": "进行中",
-            "days_remaining": 20,
+            "days_remaining": 19,
             "note": null,
             "source": "config+bilibili"
           }
@@ -256,49 +256,49 @@
         ],
         "sources": [
           {
+            "title": "#原神# #砂糖# #生日快乐# 今天天气很好，阳光暖洋洋的，洒在脸上很舒服。",
+            "url": "https://www.bilibili.com/opus/1274863118730657797",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-26T09:52:38.128Z"
+          },
+          {
             "title": "#原神# #原神7.2版本# 旅行者好呀~",
             "url": "https://www.bilibili.com/opus/1274214112706953219",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           },
           {
             "title": "#原神# #原神7.2版本# 旅行者好呀~",
             "url": "https://www.bilibili.com/opus/1273842634488545282",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           },
           {
             "title": "#原神# #莱欧斯利# #生日快乐# 每份礼物都贴着不一样的贴纸啊，还有独家定制的糖霜饼干？",
             "url": "https://www.bilibili.com/opus/1273749863246331908",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           },
           {
             "title": "#原神# #兹白# 为守护故土，兹白曾以身对抗天罚。幸而，她最终还是循着月光，回到了她所珍爱的故土。",
             "url": "https://www.bilibili.com/opus/1273471549368696833",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           },
           {
             "title": "#原神# #莉奈娅# 生活应在每一个当下，而非等待未来的某一天。命运无法改变，可同样不变的，是家人间注定相连的牵绊。",
             "url": "https://www.bilibili.com/opus/1273378778045743106",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
-          },
-          {
-            "title": "#原神# 「挪德卡莱」、「至冬」…",
-            "url": "https://www.bilibili.com/opus/1273007692840960000",
-            "type": "official_community",
-            "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           }
         ],
-        "facts_checked_at": "2026-11-25T10:11:19.643Z"
+        "facts_checked_at": "2026-11-26T09:52:38.128Z"
       },
       {
         "game_name": "绝区零",
@@ -331,7 +331,7 @@
             "status": "进行中",
             "start_at": "2026-11-25T04:00:00+08:00",
             "end_at": "2026-11-30T03:59:00+08:00",
-            "days_remaining": 5,
+            "days_remaining": 4,
             "note": "官方活动说明：实战模拟室双倍奖励",
             "url": "https://www.bilibili.com/opus/1273749863225360393",
             "source": "curated"
@@ -343,7 +343,7 @@
             "status": "进行中",
             "start_at": "2026-11-20T00:00:00+08:00",
             "end_at": "2026-12-02T05:59:00+08:00",
-            "days_remaining": 7,
+            "days_remaining": 6,
             "note": "网页预约与游戏内签到活动进行中",
             "url": "https://www.bilibili.com/opus/1272751066454163522",
             "source": "curated"
@@ -364,16 +364,16 @@
         "birthdays": [],
         "current_version": "3.3版本「重返天空的旅程」",
         "current_content": [
+          "#绝区零# #长日终尽# #绝区零挽昼# 代理人机制介绍丨挽昼篇",
           "新品情报丨咔嚓留影系列mini相机盲盒",
           "挽昼角色展示 | 日陨之前",
-          "#绝区零# #重返天空的旅程# 「数据悬赏-实战模拟」活动说明",
-          "#绝区零# #长日终尽# #绝区零挽昼# 🎁决战于黎明之前丨薪火之影挑战现已开启"
+          "#绝区零# #重返天空的旅程# 「数据悬赏-实战模拟」活动说明"
         ],
-        "current_version_days": 34,
+        "current_version_days": 35,
         "next_version": "3.4版本「长日终尽」",
         "next_version_kind": "version",
         "next_content": [],
-        "days_to_next_version": 8,
+        "days_to_next_version": 7,
         "preview_status": "已发布",
         "preview_title": "《绝区零》第三季纪念回顾 | 新世界前夜",
         "preview_start_at": "2026-11-21T04:00:30.000Z",
@@ -406,7 +406,7 @@
             "start_at": "2026-11-11T12:00:00+08:00",
             "end_at": "2026-12-01T14:59:00+08:00",
             "status": "进行中",
-            "days_remaining": 6,
+            "days_remaining": 5,
             "note": null,
             "source": "config"
           }
@@ -417,49 +417,49 @@
         ],
         "sources": [
           {
+            "title": "互动抽奖 #绝区零# #绝区零周边# #绝区零南宫羽#",
+            "url": "https://www.bilibili.com/opus/1274881228482281478",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-26T09:52:38.128Z"
+          },
+          {
+            "title": "互动抽奖 #绝区零# #绝区零周边# #绝区零艾莲#",
+            "url": "https://www.bilibili.com/opus/1274872054440525828",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-26T09:52:38.128Z"
+          },
+          {
+            "title": "#绝区零# #长日终尽# #绝区零挽昼# 代理人机制介绍丨挽昼篇",
+            "url": "https://www.bilibili.com/opus/1274870849653964825",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-26T09:52:38.128Z"
+          },
+          {
             "title": "互动抽奖 #绝区零# #长日终尽# #绝区零挽昼#",
             "url": "https://www.bilibili.com/opus/1274507553423753222",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           },
           {
             "title": "互动抽奖 #绝区零# #绝区零比利# #生日快乐比利#",
             "url": "https://www.bilibili.com/opus/1274499874006499351",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           },
           {
             "title": "新品情报丨咔嚓留影系列mini相机盲盒",
             "url": "https://www.bilibili.com/video/BV1NMyzzjESQ",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
-          },
-          {
-            "title": "互动抽奖 #绝区零# #长日终尽# #绝区零挽昼#",
-            "url": "https://www.bilibili.com/opus/1274496038654181399",
-            "type": "official_community",
-            "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
-          },
-          {
-            "title": "互动抽奖 #绝区零# #长日终尽# #绝区零挽昼#",
-            "url": "https://www.bilibili.com/opus/1274492095825969192",
-            "type": "official_community",
-            "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
-          },
-          {
-            "title": "《绝区零》挽昼角色展示 | 日陨之前",
-            "url": "https://www.bilibili.com/video/BV1esyZz7ExF",
-            "type": "official_community",
-            "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           }
         ],
-        "facts_checked_at": "2026-11-25T10:11:19.643Z"
+        "facts_checked_at": "2026-11-26T09:52:38.128Z"
       },
       {
         "game_name": "崩坏：星穹铁道",
@@ -492,7 +492,7 @@
             "status": "进行中",
             "start_at": "2026-11-23T04:00:00+08:00",
             "end_at": "2026-12-07T03:59:00+08:00",
-            "days_remaining": 12,
+            "days_remaining": 11,
             "note": "官方活动说明：模拟宇宙 / 饰品提取双倍奖励",
             "url": "https://www.bilibili.com/opus/1273378778045743111",
             "source": "curated"
@@ -530,7 +530,7 @@
           "#崩坏星穹铁道# #此刻将群星付之一笑# 欢迎来到乐园 | 来自点星船的邀请函",
           "#崩坏星穹铁道# #此刻将群星付之一笑# 命运的魔术"
         ],
-        "current_version_days": 13,
+        "current_version_days": 14,
         "next_version": "4.8版本",
         "next_version_kind": "version",
         "next_content": [],
@@ -555,7 +555,7 @@
             "start_at": "2026-11-11T00:00:00+08:00",
             "end_at": "2026-12-22T15:00:00+08:00",
             "status": "进行中",
-            "days_remaining": 27,
+            "days_remaining": 26,
             "note": null,
             "source": "bilibili"
           }
@@ -572,45 +572,45 @@
             "url": "https://www.bilibili.com/opus/1274492033569914949",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           },
           {
             "title": "互动抽奖 #崩坏星穹铁道# #星穹铁道填色挑战#  #抵达彩色的彼方# #星穹铁道公益第三卷#",
             "url": "https://www.bilibili.com/opus/1274169148675457064",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           },
           {
             "title": "#崩坏星穹铁道# #此刻将群星付之一笑# 「位面分裂」活动说明",
             "url": "https://www.bilibili.com/opus/1273378778045743111",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           },
           {
             "title": "互动抽奖 #崩坏星穹铁道# #绝区零# #星穹铁道绝区零联动# 限定5星角色登录即领",
             "url": "https://www.bilibili.com/opus/1272748712773287971",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           },
           {
             "title": "互动抽奖 #崩坏星穹铁道# #此刻将群星付之一笑# #歌曲无中生有#",
             "url": "https://www.bilibili.com/opus/1272313722814070793",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           },
           {
             "title": "互动抽奖 #崩坏星穹铁道# #此刻将群星付之一笑# #崩坏：星穹铁道创作者激励计划#",
             "url": "https://www.bilibili.com/opus/1271942641933615124",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           }
         ],
-        "facts_checked_at": "2026-11-25T10:11:19.643Z"
+        "facts_checked_at": "2026-11-26T09:52:38.128Z"
       },
       {
         "game_name": "崩坏：因缘精灵",
@@ -687,45 +687,45 @@
             "url": "https://www.bilibili.com/opus/1274522989565575171",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           },
           {
             "title": "#崩坏因缘精灵# #幸福测试# 「幸福测试」正式开启！",
             "url": "https://www.bilibili.com/opus/1274461109773926437",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           },
           {
             "title": "#崩坏因缘精灵# #幸福测试# 「幸福测试」资格发放及预下载开启",
             "url": "https://www.bilibili.com/opus/1273718939472363542",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           },
           {
             "title": "#崩坏因缘精灵# #幸福测试# 同行手记丨亨格丽&猪莉哼",
             "url": "https://www.bilibili.com/opus/1272636607669731348",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           },
           {
             "title": "\"#崩坏因缘精灵# #幸福测试#",
             "url": "https://www.bilibili.com/opus/1271894437323079704",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           },
           {
             "title": "#崩坏因缘精灵# #幸福测试# 同行手记丨帕拉雅雅&寐魔",
             "url": "https://www.bilibili.com/opus/1271152267022565397",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           }
         ],
-        "facts_checked_at": "2026-11-25T10:11:19.643Z"
+        "facts_checked_at": "2026-11-26T09:52:38.128Z"
       },
       {
         "game_name": "明日方舟",
@@ -791,12 +791,12 @@
         "birthdays": [],
         "current_version": "「雪山降临1101」版本",
         "current_content": [
-          "集成战略「沉沦者的黑流树海」",
-          "SideStory「雪山降临1101」复刻即将于11月22日04:00开启！",
-          "#123罗德岛！？##明日方舟# 明日方舟官方四格漫画《123罗德岛！？》",
-          "《乌萨斯人那些事》"
+          "【集成战略「沉沦者的黑流树海」奖励可交互家具预告】",
+          "【集成战略「沉沦者的黑流树海」奖励服饰】",
+          "【中坚寻访】",
+          "集成战略「沉沦者的黑流树海」"
         ],
-        "current_version_days": 2,
+        "current_version_days": 3,
         "next_version": "暂未公布",
         "next_version_kind": null,
         "next_content": [],
@@ -812,49 +812,49 @@
         "current_up_characters": [],
         "sources": [
           {
+            "title": "【集成战略「沉沦者的黑流树海」奖励可交互家具预告】",
+            "url": "https://www.bilibili.com/opus/1274940428141985793",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-26T09:52:38.128Z"
+          },
+          {
+            "title": "【集成战略「沉沦者的黑流树海」奖励服饰】",
+            "url": "https://www.bilibili.com/opus/1274924966276497410",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-26T09:52:38.128Z"
+          },
+          {
+            "title": "【中坚寻访】",
+            "url": "https://www.bilibili.com/opus/1274624080207675394",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-26T09:52:38.128Z"
+          },
+          {
             "title": "集成战略「沉沦者的黑流树海」",
             "url": "https://www.bilibili.com/opus/1274569343004311559",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           },
           {
             "title": "互动抽奖 #序言组曲：火与路##明日方舟#",
             "url": "https://www.bilibili.com/opus/1274507514790019080",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           },
           {
             "title": "互动抽奖 《明日方舟》× 名创优品「秋意茶话会」合作宣传PV 现已发布",
             "url": "https://www.bilibili.com/opus/1274136425281880082",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
-          },
-          {
-            "title": "SideStory「雪山降临1101」复刻即将于11月22日04:00开启！",
-            "url": "https://www.bilibili.com/opus/1273100464188030994",
-            "type": "official_community",
-            "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
-          },
-          {
-            "title": "#123罗德岛！？##明日方舟# 明日方舟官方四格漫画《123罗德岛！？》",
-            "url": "https://www.bilibili.com/opus/1272992231006928896",
-            "type": "official_community",
-            "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
-          },
-          {
-            "title": "《乌萨斯人那些事》",
-            "url": "https://www.bilibili.com/opus/1272713917107273761",
-            "type": "official_community",
-            "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           }
         ],
-        "facts_checked_at": "2026-11-25T10:11:19.643Z"
+        "facts_checked_at": "2026-11-26T09:52:38.128Z"
       },
       {
         "game_name": "明日方舟：终末地",
@@ -918,18 +918,18 @@
           }
         ],
         "birthdays": [],
-        "current_version": "「丹青渡」版本",
+        "current_version": "「穿越甚大蘑境与你相逢」版本",
         "current_content": [
+          "#明日方舟终末地##穿越甚大蘑境与你相逢# 后勤备忘 - 独家揭秘! | 小刻",
           "#明日方舟终末地创作者应援计划# 管理员，明日方舟：终末地「穿越甚大蘑境与你相逢」UP主应援计划正在进行中。",
           "#明日方舟终末地##穿越甚大蘑境与你相逢# 《明日方舟：终末地》「穿越甚大蘑境与你相逢」版本现已开启！",
-          "小刻EP - JUST THE START",
-          "「穿越甚大蘑境与你相逢」版本更新说明"
+          "小刻EP - JUST THE START"
         ],
-        "current_version_days": 26,
-        "next_version": "「穿越甚大蘑境与你相逢」版本",
-        "next_version_kind": "version",
+        "current_version_days": 0,
+        "next_version": "暂未公布",
+        "next_version_kind": null,
         "next_content": [],
-        "days_to_next_version": 1,
+        "days_to_next_version": null,
         "preview_status": "已发布",
         "preview_title": "《明日方舟：终末地》「全新版本&2.0揭幕前瞻」特别节目回顾",
         "preview_start_at": "2026-11-21T12:45:01.000Z",
@@ -983,49 +983,49 @@
         ],
         "sources": [
           {
+            "title": "#明日方舟终末地##穿越甚大蘑境与你相逢# 后勤备忘 - 独家揭秘! | 小刻",
+            "url": "https://www.bilibili.com/opus/1274863118723317794",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-26T09:52:38.128Z"
+          },
+          {
             "title": "互动抽奖   #明日方舟终末地##穿越甚大蘑境与你相逢#",
             "url": "https://www.bilibili.com/opus/1274585597269245957",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           },
           {
             "title": "#明日方舟终末地创作者应援计划# 管理员，明日方舟：终末地「穿越甚大蘑境与你相逢」UP主应援计划正在进行中。",
             "url": "https://www.bilibili.com/opus/1274522957363806216",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           },
           {
             "title": "互动抽奖 #明日方舟终末地##穿越甚大蘑境与你相逢#",
             "url": "https://www.bilibili.com/opus/1274499908377772052",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           },
           {
             "title": "#明日方舟终末地##穿越甚大蘑境与你相逢# 《明日方舟：终末地》「穿越甚大蘑境与你相逢」版本现已开启！",
             "url": "https://www.bilibili.com/opus/1274492033541603347",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           },
           {
             "title": "互动抽奖 #明日方舟终末地##穿越甚大蘑境与你相逢##小刻#",
             "url": "https://www.bilibili.com/opus/1274478115740975104",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
-          },
-          {
-            "title": "《明日方舟：终末地》小刻EP - JUST THE START",
-            "url": "https://www.bilibili.com/video/BV1YhyzzhEJU",
-            "type": "official_community",
-            "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           }
         ],
-        "facts_checked_at": "2026-11-25T10:11:19.643Z"
+        "facts_checked_at": "2026-11-26T09:52:38.128Z"
       },
       {
         "game_name": "鸣潮",
@@ -1058,7 +1058,7 @@
             "status": "进行中",
             "start_at": "2026-11-19T04:00:00+08:00",
             "end_at": "2026-12-03T03:59:00+08:00",
-            "days_remaining": 8,
+            "days_remaining": 7,
             "note": "官方活动说明：每日开放新关卡，完成目标领取星声等奖励",
             "url": "https://www.bilibili.com/opus/1271866964588888065",
             "source": "curated"
@@ -1096,7 +1096,7 @@
           "【IGN独家】《鸣潮：永明的烬焰》实机演示",
           "先约电台——群星交错音乐特辑Vol.4"
         ],
-        "current_version_days": 12,
+        "current_version_days": 13,
         "next_version": "4.0版本",
         "next_version_kind": "version",
         "next_content": [],
@@ -1112,49 +1112,49 @@
         "current_up_characters": [],
         "sources": [
           {
-            "title": "#鸣潮# #鸣潮3.8版本# [回音盈域]养成材料限时双倍活动",
-            "url": "https://www.bilibili.com/opus/1274476571668774920",
+            "title": "玫瑰与妄欲",
+            "url": "https://www.bilibili.com/opus/1274615790928134213",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           },
           {
-            "title": "#鸣潮# #鸣潮3.8版本# 你知道，梦终有一天会醒，但回忆中的事物会一直闪耀。",
-            "url": "https://www.bilibili.com/opus/1273749863207534596",
+            "title": "缄默与锋芒",
+            "url": "https://www.bilibili.com/opus/1274615786638409763",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           },
           {
-            "title": "【IGN独家】《鸣潮：永明的烬焰》实机演示",
-            "url": "https://www.bilibili.com/video/BV1jKsq6cEEP",
+            "title": "真实与假象",
+            "url": "https://www.bilibili.com/opus/1274615786619535511",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           },
           {
-            "title": "#鸣潮# #鸣潮永明的烬焰# #鸣潮露希尔#互动抽奖",
-            "url": "https://www.bilibili.com/opus/1273007699332694072",
+            "title": "明日与谎言",
+            "url": "https://www.bilibili.com/opus/1274615782339248163",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           },
           {
-            "title": "#鸣潮# #鸣潮永明的烬焰# #鸣潮安娜#互动抽奖",
-            "url": "https://www.bilibili.com/opus/1272992258930507959",
+            "title": "罪血与净雨",
+            "url": "https://www.bilibili.com/opus/1274615773721002016",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           },
           {
-            "title": "《鸣潮》先约电台——群星交错音乐特辑Vol.4",
-            "url": "https://www.bilibili.com/video/BV1oYsh67EqR",
+            "title": "幽浮与烂漫",
+            "url": "https://www.bilibili.com/opus/1274615769444909061",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           }
         ],
-        "facts_checked_at": "2026-11-25T10:11:19.643Z"
+        "facts_checked_at": "2026-11-26T09:52:38.128Z"
       },
       {
         "game_name": "蔚蓝档案",
@@ -1181,6 +1181,18 @@
         },
         "events": [
           {
+            "id": "curated:bluearchive-reprint-recruit",
+            "title": "限时复刻招募【银装素裹，一樽星月】等",
+            "category": "event",
+            "status": "进行中",
+            "start_at": "2026-11-26T00:00:00+08:00",
+            "end_at": "2026-12-10T13:59:00+08:00",
+            "days_remaining": 14,
+            "note": "官方公告：11 月 26 日维护结束后 ~ 12 月 10 日 13:59",
+            "url": "https://www.bilibili.com/opus/1274105486497546261",
+            "source": "curated"
+          },
+          {
             "id": "curated:bluearchive-occult-event",
             "title": "限时活动「我等乃神秘学研究会！~学院之谜与古老咒文~」",
             "category": "event",
@@ -1193,22 +1205,10 @@
             "source": "curated"
           },
           {
-            "id": "curated:bluearchive-reprint-recruit",
-            "title": "限时复刻招募【银装素裹，一樽星月】等",
-            "category": "event",
-            "status": "即将开始",
-            "start_at": "2026-11-26T00:00:00+08:00",
-            "end_at": "2026-12-10T13:59:00+08:00",
-            "days_remaining": null,
-            "note": "官方公告：11 月 26 日维护结束后 ~ 12 月 10 日 13:59",
-            "url": "https://www.bilibili.com/opus/1274105486497546261",
-            "source": "curated"
-          },
-          {
             "id": "curated:bluearchive-art-event",
             "title": "限时活动「为谁而存的艺术 ~赝品与美学的归宿~」",
             "category": "event",
-            "status": "即将开始",
+            "status": "进行中",
             "start_at": "2026-11-26T00:00:00+08:00",
             "end_at": null,
             "days_remaining": null,
@@ -1220,10 +1220,10 @@
         "birthdays": [],
         "current_version": "版本资讯更新中",
         "current_content": [
-          "11月26日维护更新说明",
-          "#蔚蓝档案# “欢迎连接【什亭之箱】，老师。”",
-          "#蔚蓝档案# 【掉落量2倍活动】即将开启！请不要错过哦！",
-          "#蔚蓝档案# 神名十文字是一个自称为神圣求道者的人工智能系统。追随它的10名先知目前正在基沃托斯各地出没。"
+          "#蔚蓝档案# 老师，维护更新已结束",
+          "#蔚蓝档案# 【成员爱用品】即将更新！",
+          "#蔚蓝档案# 无限制决战\"赛特之怒\"即将开启，参与活动即可获得礼物选择盒、合成石、辅导手册及其他各类养成素材",
+          "11月26日维护更新说明"
         ],
         "current_version_days": 0,
         "next_version": "暂未公布",
@@ -1239,49 +1239,49 @@
         "current_up_characters": [],
         "sources": [
           {
+            "title": "#蔚蓝档案# 老师，维护更新已结束",
+            "url": "https://www.bilibili.com/opus/1274940428170297413",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-26T09:52:38.128Z"
+          },
+          {
+            "title": "#蔚蓝档案# 【成员爱用品】即将更新！",
+            "url": "https://www.bilibili.com/opus/1274894042493091848",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-26T09:52:38.128Z"
+          },
+          {
+            "title": "#蔚蓝档案# 无限制决战\"赛特之怒\"即将开启，参与活动即可获得礼物选择盒、合成石、辅导手册及其他各类养成素材",
+            "url": "https://www.bilibili.com/opus/1274847656857829377",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-26T09:52:38.128Z"
+          },
+          {
             "title": "《蔚蓝档案》11月26日维护更新说明",
             "url": "https://www.bilibili.com/opus/1274584815625044007",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           },
           {
             "title": "#蔚蓝档案# “欢迎连接【什亭之箱】，老师。”",
             "url": "https://www.bilibili.com/opus/1274553881130434561",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           },
           {
             "title": "#蔚蓝档案# 【掉落量2倍活动】即将开启！请不要错过哦！",
             "url": "https://www.bilibili.com/opus/1274522957337591824",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
-          },
-          {
-            "title": "#蔚蓝档案# 神名十文字是一个自称为神圣求道者的人工智能系统。追随它的10名先知目前正在基沃托斯各地出没。",
-            "url": "https://www.bilibili.com/opus/1274476571674017798",
-            "type": "official_community",
-            "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
-          },
-          {
-            "title": "#蔚蓝档案# 限时复刻招募活动即将开启，请老师不要错过哦！",
-            "url": "https://www.bilibili.com/opus/1274105486497546261",
-            "type": "official_community",
-            "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
-          },
-          {
-            "title": "#蔚蓝档案# 全新咖啡厅套装【狂猎校园】即将更新！",
-            "url": "https://www.bilibili.com/opus/1273734401369309202",
-            "type": "official_community",
-            "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           }
         ],
-        "facts_checked_at": "2026-11-25T10:11:19.643Z"
+        "facts_checked_at": "2026-11-26T09:52:38.128Z"
       },
       {
         "game_name": "蓝色星原：旅谣",
@@ -1304,14 +1304,14 @@
         "release": {
           "label": "预下载已开启 · 11 月 26 日正式公测",
           "date": "2026-11-26T00:00:00+08:00",
-          "days_until": 1
+          "days_until": 0
         },
         "events": [
           {
             "id": "curated:azurpromilia-prepublic",
             "title": "正式公测",
             "category": "prelaunch",
-            "status": "即将开始",
+            "status": "进行中",
             "start_at": "2026-11-26T00:00:00+08:00",
             "end_at": null,
             "days_remaining": null,
@@ -1347,10 +1347,10 @@
         "birthdays": [],
         "current_version": "尚未上线",
         "current_content": [
-          "亲爱的星临者，「花会缘结之约」即将开启。",
-          "预下载现已开启",
-          "公测常见问题说明",
-          "公测B站UP主激励计划现已开启！"
+          "花间千丝系尘缘 | 涂山小玉",
+          "亲爱的星临者，羁点观测「绯影入怀」现已开启。",
+          "公测版本PV | 星跃始动",
+          "星旅指南 | Vol.06"
         ],
         "current_version_days": 0,
         "next_version": "待定档",
@@ -1368,49 +1368,49 @@
         "current_up_characters": [],
         "sources": [
           {
-            "title": "亲爱的星临者，「花会缘结之约」即将开启。",
-            "url": "https://www.bilibili.com/opus/1274584804887625728",
+            "title": "互动抽奖",
+            "url": "https://www.bilibili.com/opus/1274948182749478961",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           },
           {
             "title": "互动抽奖",
-            "url": "https://www.bilibili.com/opus/1274577101826031689",
+            "url": "https://www.bilibili.com/opus/1274940490464100389",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
+          },
+          {
+            "title": "花间千丝系尘缘 | 涂山小玉",
+            "url": "https://www.bilibili.com/video/BV1KKyrzxEds",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-26T09:52:38.128Z"
+          },
+          {
+            "title": "亲爱的星临者，羁点观测「绯影入怀」现已开启。",
+            "url": "https://www.bilibili.com/opus/1274894042517209129",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-26T09:52:38.128Z"
           },
           {
             "title": "互动抽奖",
-            "url": "https://www.bilibili.com/opus/1274530716204400656",
+            "url": "https://www.bilibili.com/opus/1274832218622001289",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           },
           {
             "title": "互动抽奖",
-            "url": "https://www.bilibili.com/opus/1274522976672284771",
+            "url": "https://www.bilibili.com/opus/1274825252179804183",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
-          },
-          {
-            "title": "互动抽奖",
-            "url": "https://www.bilibili.com/opus/1274468851505954888",
-            "type": "official_community",
-            "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
-          },
-          {
-            "title": "《蓝色星原：旅谣》预下载现已开启 ！！",
-            "url": "https://www.bilibili.com/opus/1274167727012970499",
-            "type": "official_community",
-            "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           }
         ],
-        "facts_checked_at": "2026-11-25T10:11:19.643Z"
+        "facts_checked_at": "2026-11-26T09:52:38.128Z"
       },
       {
         "game_name": "白银之城",
@@ -1433,7 +1433,7 @@
         "release": {
           "label": "全球公测定档 2026 年 12 月 14 日",
           "date": "2026-12-14T00:00:00+08:00",
-          "days_until": 19
+          "days_until": 18
         },
         "events": [
           {
@@ -1476,10 +1476,10 @@
         "birthdays": [],
         "current_version": "尚未上线",
         "current_content": [
+          "隐藏的书页丨「无声雨之谜」",
           "隐藏的书页丨「小聪明之谜」",
           "隐藏的书页丨「青春期之谜」",
-          "角色PV - 馨西亚二世：到月下的城邦去",
-          "隐藏的书页丨「午间梦之谜」"
+          "角色PV - 馨西亚二世：到月下的城邦去"
         ],
         "current_version_days": 0,
         "next_version": "待定档",
@@ -1495,49 +1495,49 @@
         "current_up_characters": [],
         "sources": [
           {
+            "title": "角色扉页 |「摩戈·守墓人」",
+            "url": "https://www.bilibili.com/opus/1274894061815201825",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-26T09:52:38.128Z"
+          },
+          {
+            "title": "隐藏的书页丨「无声雨之谜」",
+            "url": "https://www.bilibili.com/video/BV1HZyrzDE8f",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-26T09:52:38.128Z"
+          },
+          {
+            "title": "同谋情报 |「梭闪·信使」",
+            "url": "https://www.bilibili.com/opus/1274847658981195778",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-26T09:52:38.128Z"
+          },
+          {
             "title": "互动抽奖 #白银之城##白银之城突袭上线##白银之城预抽卡送5080##馨西亚二世#",
             "url": "https://www.bilibili.com/opus/1274151917234159616",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           },
           {
             "title": "角色扉页 |「汀思黎·优等生」",
             "url": "https://www.bilibili.com/opus/1274151895813849095",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           },
           {
             "title": "隐藏的书页丨「小聪明之谜」",
             "url": "https://www.bilibili.com/video/BV1ScyXztEMY",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
-          },
-          {
-            "title": "同谋情报 |「菲斯·招待」",
-            "url": "https://www.bilibili.com/opus/1274105492954677251",
-            "type": "official_community",
-            "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
-          },
-          {
-            "title": "角色扉页 |「蓝舌·军师」",
-            "url": "https://www.bilibili.com/opus/1273409729740144645",
-            "type": "official_community",
-            "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
-          },
-          {
-            "title": "隐藏的书页丨「青春期之谜」",
-            "url": "https://www.bilibili.com/video/BV1rByhzXEZm",
-            "type": "official_community",
-            "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           }
         ],
-        "facts_checked_at": "2026-11-25T10:11:19.643Z"
+        "facts_checked_at": "2026-11-26T09:52:38.128Z"
       },
       {
         "game_name": "异环",
@@ -1591,12 +1591,12 @@
         "birthdays": [],
         "current_version": "1.5版本",
         "current_content": [
+          "轨外之境「云集环线」特别路线即将开启",
+          "Exe EP丨Blue light",
           "闲趣时光丨Exe",
-          "11月26日停服维护公告",
-          "角色档案介绍丨Exe",
-          "Exe角色PV丨追杀计数"
+          "11月26日停服维护公告"
         ],
-        "current_version_days": 19,
+        "current_version_days": 20,
         "next_version": "暂未公布",
         "next_version_kind": null,
         "next_content": [],
@@ -1617,8 +1617,8 @@
             ],
             "start_at": "2026-11-05T00:00:00+08:00",
             "end_at": "2026-11-26T05:59:00+08:00",
-            "status": "进行中",
-            "days_remaining": 1,
+            "status": "已结束",
+            "days_remaining": null,
             "note": null,
             "source": "config"
           },
@@ -1630,8 +1630,8 @@
             ],
             "start_at": "2026-11-05T00:00:00+08:00",
             "end_at": "2026-11-26T05:59:00+08:00",
-            "status": "进行中",
-            "days_remaining": 1,
+            "status": "已结束",
+            "days_remaining": null,
             "note": null,
             "source": "config"
           }
@@ -1641,49 +1641,49 @@
         ],
         "sources": [
           {
+            "title": "轨外之境「云集环线」特别路线即将开启",
+            "url": "https://www.bilibili.com/opus/1274894985278259222",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-26T09:52:38.128Z"
+          },
+          {
+            "title": "《异环》ExeEP丨Blue light",
+            "url": "https://www.bilibili.com/opus/1274857378502672392",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-26T09:52:38.128Z"
+          },
+          {
+            "title": "《异环》Exe EP丨Blue light",
+            "url": "https://www.bilibili.com/video/BV1AYsq6kE5v",
+            "type": "official_community",
+            "claims": [],
+            "checked_at": "2026-11-26T09:52:38.128Z"
+          },
+          {
             "title": "闲趣时光丨Exe",
             "url": "https://www.bilibili.com/opus/1274522976684867604",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           },
           {
             "title": "《异环》11月26日停服维护公告",
             "url": "https://www.bilibili.com/opus/1274492117307097144",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           },
           {
             "title": "角色档案介绍丨Exe",
             "url": "https://www.bilibili.com/opus/1274492033582497800",
             "type": "official_community",
             "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
-          },
-          {
-            "title": "《异环》Exe角色PV丨追杀计数",
-            "url": "https://www.bilibili.com/opus/1274477510106546179",
-            "type": "official_community",
-            "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
-          },
-          {
-            "title": "《异环》Exe角色PV丨追杀计数",
-            "url": "https://www.bilibili.com/video/BV1wYsq6kEeg",
-            "type": "official_community",
-            "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
-          },
-          {
-            "title": "限定S级角色「卡厄斯」即将返场",
-            "url": "https://www.bilibili.com/opus/1274182795947671576",
-            "type": "official_community",
-            "claims": [],
-            "checked_at": "2026-11-25T10:11:19.643Z"
+            "checked_at": "2026-11-26T09:52:38.128Z"
           }
         ],
-        "facts_checked_at": "2026-11-25T10:11:19.643Z"
+        "facts_checked_at": "2026-11-26T09:52:38.128Z"
       }
     ]
   },
@@ -1711,6 +1711,27 @@
       }
     ],
     "items": [
+      {
+        "id": "azurpromilia:BV1UByzzRE4K",
+        "game_name": "蓝色星原：旅谣",
+        "game_key": "azurpromilia",
+        "category": "version_pv",
+        "category_label": "版本 PV",
+        "title": "《蓝色星原：旅谣》公测版本PV | 星跃始动",
+        "description": "送送送！\n美美美！\n抓抓抓！\n玩玩玩！\n《蓝色星原：旅谣》11月26日正式公测！\n\n✦《蓝色星原：旅谣》下载地址：https://www.biligame.com/detail/?id=111392&spm_id_from=333.1369.0.0",
+        "version": null,
+        "bvid": "BV1UByzzRE4K",
+        "published_at": "2026-11-26T01:30:01.000Z",
+        "duration": "04:36",
+        "url": "https://www.bilibili.com/video/BV1UByzzRE4K",
+        "player_url": "https://player.bilibili.com/player.html?bvid=BV1UByzzRE4K",
+        "poster_url": "img/449ca376aaba346e.jpg",
+        "source": {
+          "platform": "bilibili",
+          "official_mid": "3546569016085336",
+          "dynamic_url": "https://www.bilibili.com/video/BV1UByzzRE4K"
+        }
+      },
       {
         "id": "zzz:BV1esyZz7ExF",
         "game_name": "绝区零",
@@ -3016,6 +3037,266 @@
     ]
   },
   "news": [
+    {
+      "id": "1274940428141985793",
+      "game_key": "arknights",
+      "game_name": "明日方舟",
+      "published_at": "2026-11-26T09:00:00.000Z",
+      "url": "https://www.bilibili.com/opus/1274940428141985793",
+      "source_mid": "161775300",
+      "source_name": "明日方舟",
+      "images": [
+        "https://i0.hdslb.com/bfs/new_dyn/f51ecd671f8babeab36b2151be1d147f161775300.png",
+        "https://i0.hdslb.com/bfs/new_dyn/64b94ebb8d78c32c94bde2ee04faeb90161775300.gif"
+      ],
+      "type": "dynamic",
+      "title": "【集成战略「沉沦者的黑流树海」奖励可交互家具预告】",
+      "summary": "【集成战略「沉沦者的黑流树海」奖励可交互家具预告】\n//“橙黄色的美梦”\n这只橙黄色的可爱生物希望能和你玩一次捉迷藏，别担心，找不到她也没关系，她会一直在这里等你。\n至少，大家还可以在梦里相见。"
+    },
+    {
+      "id": "1274940428170297413",
+      "game_key": "bluearchive",
+      "game_name": "蔚蓝档案",
+      "published_at": "2026-11-26T09:00:00.000Z",
+      "url": "https://www.bilibili.com/opus/1274940428170297413",
+      "source_mid": "3493265644980448",
+      "source_name": "蔚蓝档案",
+      "images": [
+        "https://i0.hdslb.com/bfs/new_dyn/44791865bfc6945a5dd6a47cc77eb0913493265644980448.png"
+      ],
+      "type": "dynamic",
+      "title": "#蔚蓝档案# 老师，维护更新已结束",
+      "summary": "#蔚蓝档案# \n老师，维护更新已结束\n限时活动【为谁而存的艺术~赝品与美学的归宿~】现已开启！\n特殊交易部接到了一项奇怪的委托：从美术馆的藏品库中取出赝品，再将其调换成真品。行动看似准备得十分顺利，然而，随着“慈爱的怪盗”的预告函飞来，一切都开始乱了套……\n\n■ 秘密礼赠（1/3）：来自特殊交易部的礼物\n高级活动报告书×50、特级活动报告书×15、行动点×240\n可领取时间：11月26日 维护结束后 ~ 12月17日 13:59\n\n秘密礼赠（2/3）：来自特殊交易部的礼物\n高级强化珠×50、特级强化珠×10、行动点×240\n可领取时间：11月27日 11:00 ~ 12月17日 13:59\n\n秘密礼赠（3/3）：来自特殊交易部的礼物\n总力战奖币×200、大决战奖币×200、熟练证书×2000、青辉石×800\n可领取时间：11月28日 11:00 ~ 12月17日 13:59"
+    },
+    {
+      "id": "1274924966276497410",
+      "game_key": "arknights",
+      "game_name": "明日方舟",
+      "published_at": "2026-11-26T08:00:00.000Z",
+      "url": "https://www.bilibili.com/opus/1274924966276497410",
+      "source_mid": "161775300",
+      "source_name": "明日方舟",
+      "images": [
+        "https://i0.hdslb.com/bfs/new_dyn/6e740bb57f94876f66fd397183792ee0161775300.jpg",
+        "https://i0.hdslb.com/bfs/new_dyn/4a64679d20f42df0a225e25d092b636d161775300.gif",
+        "https://i0.hdslb.com/bfs/new_dyn/7bdc78e7a00fbe3e6cb94bdb9d82f142161775300.gif",
+        "https://i0.hdslb.com/bfs/new_dyn/ee41c274074d7e87555cda75fdfca2de161775300.gif",
+        "https://i0.hdslb.com/bfs/new_dyn/20e2408571736450a921347012e87e49161775300.gif",
+        "https://i0.hdslb.com/bfs/new_dyn/68effb3238c14c630072e6df4efea530161775300.gif",
+        "https://i0.hdslb.com/bfs/new_dyn/772ce0e06d01e52038f363639cb7779a161775300.gif"
+      ],
+      "type": "dynamic",
+      "title": "【集成战略「沉沦者的黑流树海」奖励服饰】",
+      "summary": "【集成战略「沉沦者的黑流树海」奖励服饰】\n//绿影之下 - 麦哲伦\nEPOQUE系列新款/绿影之下。麦哲伦在丛林中游览时的穿着。素色上衣搭配轻薄褶裙，引出了穿戴者的别样魅力，彰显她无论何时都无法掩藏的好奇心。\n\n_____________\n探索从来都不是探索者单方面的旅程，此刻听着她热情讲解的林中“兽群”，也因她的到来欢喜不已。"
+    },
+    {
+      "id": "1274901771273109557",
+      "game_key": "azurpromilia",
+      "game_name": "蓝色星原：旅谣",
+      "published_at": "2026-11-26T06:30:00.000Z",
+      "url": "https://www.bilibili.com/video/BV1KKyrzxEds",
+      "source_mid": "3546569016085336",
+      "source_name": "蓝色星原旅谣",
+      "images": [],
+      "type": "video",
+      "title": "花间千丝系尘缘 | 涂山小玉",
+      "summary": "与你的相遇，一定也是命定的因缘吧！\n\n✦《蓝色星原：旅谣》下载地址：https://www.biligame.com/detail/?id=111392&spm_id_from=333.1369.0.0",
+      "bvid": "BV1KKyrzxEds",
+      "cover": "https://i1.hdslb.com/bfs/archive/4f4163d4921572149067d782e17250fe1705b016.jpg",
+      "duration": "00:43"
+    },
+    {
+      "id": "1274894985278259222",
+      "game_key": "yh",
+      "game_name": "异环",
+      "published_at": "2026-11-26T06:03:40.000Z",
+      "url": "https://www.bilibili.com/opus/1274894985278259222",
+      "source_mid": "3546636978489848",
+      "source_name": "异环",
+      "images": [
+        "https://i0.hdslb.com/bfs/new_dyn/0ab697990125b341f04590a8809d2e053546636978489848.jpg"
+      ],
+      "type": "dynamic",
+      "title": "轨外之境「云集环线」特别路线即将开启",
+      "summary": "#致电空想迷数# #异环# 亲爱的乘客，欢迎乘坐海特洛市异象列车「幽灵号」。特别路线「云集环线」即将开放，列车即将启程，祝您旅途愉快。\n▸活动时间：2026/11/27 5:00:00 - 2026/12/11 4:59:59\n▸活动奖励：「云集环线」特别路线开启期间，完成挑战即有机会获得[环石] [方斯] [行车日志]等奖励！\n▸参与条件：完成正篇任务「序章 - 全新的目的地 - 前往『伊波恩古董店』」。\n*更多信息请点击游戏内活动详情查看。"
+    },
+    {
+      "id": "1274894042493091848",
+      "game_key": "bluearchive",
+      "game_name": "蔚蓝档案",
+      "published_at": "2026-11-26T06:00:00.000Z",
+      "url": "https://www.bilibili.com/opus/1274894042493091848",
+      "source_mid": "3493265644980448",
+      "source_name": "蔚蓝档案",
+      "images": [
+        "https://i0.hdslb.com/bfs/new_dyn/f932eee42431e06628b7de65b00f707b3493265644980448.png"
+      ],
+      "type": "dynamic",
+      "title": "#蔚蓝档案# 【成员爱用品】即将更新！",
+      "summary": "#蔚蓝档案#\n【成员爱用品】即将更新！\n11月26日版本更新后，将新增成员\"小雪\"、\"晴奈（体操服）\"、\"海香\"、\"桃\"的爱用品，通过爱用品可以使对应成员获得属性增加、基础技能提升等加成各种效果，同时还将解锁全新的成员专属好感剧情。\n\n■ 爱用品解锁条件\n成员的好感等级达到15后，可解锁爱用品\n\n■ 爱用品进阶\n成员的好感等级达到20后，消耗一定量的信用积分、神秘古物素材和特定的礼物，可将爱用品从T1提升至 ➟ T2\n\n■ 本次开放爱用品的4位成员\n • “小雪” 解锁爱用品【一决胜负硬币】\n • “晴奈（体操服）” 解锁爱用品【蝶形翅膀装饰】\n • “海香” 解锁爱用品【古旧的庆典人偶】\n • “桃” 解锁爱用品【盒中的旧游戏机】\n\n※后续版本更新中，将陆续解锁更多成员的爱用品。"
+    },
+    {
+      "id": "1274894042517209129",
+      "game_key": "azurpromilia",
+      "game_name": "蓝色星原：旅谣",
+      "published_at": "2026-11-26T06:00:00.000Z",
+      "url": "https://www.bilibili.com/opus/1274894042517209129",
+      "source_mid": "3546569016085336",
+      "source_name": "蓝色星原旅谣",
+      "images": [
+        "https://i0.hdslb.com/bfs/new_dyn/57468ee85fc408496420c4342611e6653546569016085336.png"
+      ],
+      "type": "dynamic",
+      "title": "亲爱的星临者，羁点观测「绯影入怀」现已开启。",
+      "summary": "亲爱的星临者，羁点观测「绯影入怀」现已开启。\n\n▶ 观测时间\n2026年11月26日开服后 - 2026年12月17日 03:59（UTC+8）\n\n▶ 观测说明\n● 活动期间，可通过「绯影入怀」观测获取当期限定五星灵子「花之舞（猛攻）」、限定四星灵子「折纸寄情（猛攻）」。如果连续60次观测未获得限定五星灵子，后续每次获得限定五星灵子概率都会进行递增，直至第80次观测必定获得限定五星灵子。\n● 活动期间，通过「绯影入怀」观测获取四星灵子「折纸寄情（猛攻）」、「未来之星（增幅）」、「一点都不痛（赋予）」的概率将大幅提升。\n● 「绯影入怀」属于「羁点观测」，在「绯影入怀」的观测保底次数会一直累积在「羁点观测」中。所有「羁点观测」共享限定五星灵子保底次数，星临者未获得限定五星灵子的保底计数将在任意「羁点观测」活动中继承，并在获得限定五星灵子后重新计数。\n\n※更多详情，可前往游戏内观测详情页查看。 \n\n———————————————————\n《蓝色星原：旅谣》11/26正式公测！\n顶级美术！海量福利！各种美少女角色、全新载具、灵子、星彩奇波等奖励等你拿！ \n✦《蓝色星原：旅谣》下载地址：http"
+    },
+    {
+      "id": "1274870849653964825",
+      "game_key": "zzz",
+      "game_name": "绝区零",
+      "published_at": "2026-11-26T04:30:00.000Z",
+      "url": "https://www.bilibili.com/opus/1274870849653964825",
+      "source_mid": "1636034895",
+      "source_name": "绝区零",
+      "images": [
+        "https://i0.hdslb.com/bfs/new_dyn/5b199c213d3ccb08e841b8e593e306a81636034895.png",
+        "https://i0.hdslb.com/bfs/new_dyn/c4799f31fd87326a1206aea1fd08f1ae1636034895.png",
+        "https://i0.hdslb.com/bfs/new_dyn/1925d672b6b8a06a33a7cd75962b33951636034895.png",
+        "https://i0.hdslb.com/bfs/new_dyn/98c06a1a349b04822c93314ad4acce951636034895.gif",
+        "https://i0.hdslb.com/bfs/new_dyn/8d2fd7ca83a073527207ed37414840fc1636034895.gif",
+        "https://i0.hdslb.com/bfs/new_dyn/391fd3f6387d05e35fd6c73a63bdd1281636034895.gif",
+        "https://i0.hdslb.com/bfs/new_dyn/334e3ac59eb27edaf774ee81f1c36edf1636034895.gif",
+        "https://i0.hdslb.com/bfs/new_dyn/5bf5e0713443875b3c2291898c0bddfb1636034895.gif",
+        "https://i0.hdslb.com/bfs/new_dyn/1c9a39ebbae3ced0d61458d4f37f71181636034895.gif"
+      ],
+      "type": "dynamic",
+      "title": "#绝区零# #长日终尽# #绝区零挽昼# 代理人机制介绍丨挽昼篇",
+      "summary": "#绝区零# #长日终尽# #绝区零挽昼# \n代理人机制介绍丨挽昼篇\n  \n更新即将完成…\n资料库中已收录代理人「挽昼」的战斗相关信息，重点内容解析完毕，请查收。\n \n「挽昼，不会辜负你的期待。」\n  \n—— 欢迎来到罗斯凯利法！——\n▼《绝区零》3.4版本「长日终尽」将于12月2日上线！\n3.4版本「决战于黎明之前」预约活动现已开启，参与版本预约&签到活动，可领取640菲林！\n版本期间，登录即领联动限定S级代理人「知更鸟」及其养成材料，参与签到即可领取加密母带×10、菲林×1840、配饰：「帕姆」趴趴等奖励，参与活动还可免费领取邦布「帕姆」。\nbilibili安卓端下载地址：https://www.biligame.com/detail/?id=108434\nbilibiliPC端下载地址：https://www.biligame.com/detail/?id=111210"
+    },
+    {
+      "id": "1274863118730657797",
+      "game_key": "genshin",
+      "game_name": "原神",
+      "published_at": "2026-11-26T04:00:00.000Z",
+      "url": "https://www.bilibili.com/opus/1274863118730657797",
+      "source_mid": "401742377",
+      "source_name": "原神",
+      "images": [
+        "https://i0.hdslb.com/bfs/new_dyn/10706ff0f09ca78582e56901fe4a2635401742377.jpg"
+      ],
+      "type": "dynamic",
+      "title": "#原神# #砂糖# #生日快乐# 今天天气很好，阳光暖洋洋的，洒在脸上很舒服。",
+      "summary": "#原神# #砂糖# #生日快乐# \n\n今天天气很好，阳光暖洋洋的，洒在脸上很舒服。\n这种时刻，当然不能少得了下午茶了——最新出炉的「实验品」，水果奶油蛋糕。\n说来挺不好意思的，这是我第一次尝试制作这种蛋糕，失败了好几次才总结出来了最终的配方。\n所以…能不能请你品尝后给我提些建议？不用担心会打击到我，实验反馈就是要真实才能有效！"
+    },
+    {
+      "id": "1274863118723317794",
+      "game_key": "endfield",
+      "game_name": "明日方舟：终末地",
+      "published_at": "2026-11-26T04:00:00.000Z",
+      "url": "https://www.bilibili.com/opus/1274863118723317794",
+      "source_mid": "1265652806",
+      "source_name": "明日方舟终末地",
+      "images": [
+        "https://i0.hdslb.com/bfs/new_dyn/ffda6edc821cb4f4f0e1c366860282e61265652806.png"
+      ],
+      "type": "dynamic",
+      "title": "#明日方舟终末地##穿越甚大蘑境与你相逢# 后勤备忘 - 独家揭秘! | 小刻",
+      "summary": "#明日方舟终末地##穿越甚大蘑境与你相逢#\n后勤备忘 - 独家揭秘! | 小刻\n\n[当前资料状态：已入库]\n\n>>>干员综合情报已完成上传！管理员，请查阅~\n————————\n▼//「穿越甚大蘑境与你相逢」版本现已开启！\n新干员【小刻】登场，全新区域「旧水坝」开放！全新活动「阵列建设：旧伤弥合」现已开启！\n前往下载：https://www.biligame.com/detail?id=108406"
+    },
+    {
+      "id": "1274855407155675264",
+      "game_key": "silverpalace",
+      "game_name": "白银之城",
+      "published_at": "2026-11-26T03:30:05.000Z",
+      "url": "https://www.bilibili.com/video/BV1HZyrzDE8f",
+      "source_mid": "3546879304403742",
+      "source_name": "白银之城",
+      "images": [],
+      "type": "video",
+      "title": "隐藏的书页丨「无声雨之谜」",
+      "summary": "隐藏的书页 Hidden Pages\n\n—— 无声雨之谜 ——\n\n雨滴，微风，还有巴士到站时的提示铃……白银城总是充斥着各种各样的声音，永不休止，永不减轻，只有她习惯了维持缄默。\n\n一次递送的间隙，梭闪被骤然的雨困在街角。雨声连绵不断，让人不自觉联想起船桨划过水道时扬起的浪花……\n不，不要再想，不能再想了。她垂下眼眸，以无声对抗一切。\n\n----------------------------------\n《白银之城》全球公测正式定档2026年12月14日！\n▍「疑案开幕」预抽卡活动开启中\n参与网页活动邀",
+      "bvid": "BV1HZyrzDE8f",
+      "cover": "https://i2.hdslb.com/bfs/archive/9474c91e2b27b98247b9b178120d7f0dcafeba6f.jpg",
+      "duration": "00:10"
+    },
+    {
+      "id": "1274847656857829377",
+      "game_key": "bluearchive",
+      "game_name": "蔚蓝档案",
+      "published_at": "2026-11-26T03:00:00.000Z",
+      "url": "https://www.bilibili.com/opus/1274847656857829377",
+      "source_mid": "3493265644980448",
+      "source_name": "蔚蓝档案",
+      "images": [
+        "https://i0.hdslb.com/bfs/new_dyn/cb030ceca93439d1eb1c92810115dbb63493265644980448.png"
+      ],
+      "type": "dynamic",
+      "title": "#蔚蓝档案# 无限制决战\"赛特之怒\"即将开启，参与活动即可获得礼物选择盒、合成石、辅导手册及其他各类养成素材",
+      "summary": "#蔚蓝档案# \n无限制决战\"赛特之怒\"即将开启，参与活动即可获得礼物选择盒、合成石、辅导手册及其他各类养成素材\n\n■ 活动时间\n• 赛季持续时间：11月27日 14:00 ~ 12月17日 03:59\n\n■ 首领\"赛特之怒\"的信息\n• 地形：野外战\n• 难度：分为124层共5个组别（1~24、25~49、50~74、75~99、100~124）\n• 防御类型：特殊装甲\n\n■ 参加条件\n• 通关任务（普通难度）5-1\n\n■关于挑战奖励\n• 首次通关阶段时，可以获得首次通关奖励，如信用积分，强化珠，以及【能力解放】所需的各类辅导手册。\n• 当老师通关更高阶段后，比已通关的阶段更低的阶段，将自动视为已通关，并会同时发放首次通关奖励。\n详细奖励请老师在游戏内查看吧。"
+    },
+    {
+      "id": "1274847654686228483",
+      "game_key": "yh",
+      "game_name": "异环",
+      "published_at": "2026-11-26T03:00:00.000Z",
+      "url": "https://www.bilibili.com/video/BV1AYsq6kE5v",
+      "source_mid": "3546636978489848",
+      "source_name": "异环",
+      "images": [],
+      "type": "video",
+      "title": "《异环》Exe EP丨Blue light",
+      "summary": "超自然都市开放世界RPG《异环》全新版本「致电，空想迷数」现已开启！立刻下载>>>https://www.biligame.com/detail/?id=111795\n\n清清楚楚 冷冷冰冰\n零差错 城市照样运行\n一切照旧 今天什么都没留下\n明天继续 任务启动",
+      "bvid": "BV1AYsq6kE5v",
+      "cover": "https://i2.hdslb.com/bfs/archive/a1091239307a2043355a7769a23fcca091853c2b.jpg",
+      "duration": "03:20"
+    },
+    {
+      "id": "1274824466197643280",
+      "game_key": "azurpromilia",
+      "game_name": "蓝色星原：旅谣",
+      "published_at": "2026-11-26T01:30:01.000Z",
+      "url": "https://www.bilibili.com/video/BV1UByzzRE4K",
+      "source_mid": "3546569016085336",
+      "source_name": "蓝色星原旅谣",
+      "images": [],
+      "type": "video",
+      "title": "《蓝色星原：旅谣》公测版本PV | 星跃始动",
+      "summary": "送送送！\n美美美！\n抓抓抓！\n玩玩玩！\n《蓝色星原：旅谣》11月26日正式公测！\n\n✦《蓝色星原：旅谣》下载地址：https://www.biligame.com/detail/?id=111392&spm_id_from=333.1369.0.0",
+      "bvid": "BV1UByzzRE4K",
+      "cover": "https://i1.hdslb.com/bfs/archive/e29374ce6788de77caef8070b7ee5137813dfe61.jpg",
+      "duration": "04:36"
+    },
+    {
+      "id": "1274624080207675394",
+      "game_key": "arknights",
+      "game_name": "明日方舟",
+      "published_at": "2026-11-25T12:32:25.000Z",
+      "url": "https://www.bilibili.com/opus/1274624080207675394",
+      "source_mid": "161775300",
+      "source_name": "明日方舟",
+      "images": [
+        "https://i0.hdslb.com/bfs/new_dyn/c63ce120f2e4ebf9164470366c1bcb68161775300.png"
+      ],
+      "type": "dynamic",
+      "title": "【中坚寻访】",
+      "summary": "【中坚寻访】\n起止时间：11月26日04:00 ~ 12月10日03:59\n寻访说明：该寻访中以下干员获得概率提升；\n★★★★★★：山 / 黑键（占6★出率的50%）\n★★★★★：卡夫卡 / 布洛卡 / 拉普兰德（占5★出率的50%）\n*本次寻访期间，以下干员可于凭证交易所内使用高级凭证或通用凭证兑换：山、卡夫卡\n\n更多后续活动内容及最新消息请关注《明日方舟》游戏内公告，感谢大家的支持"
+    },
+    {
+      "id": "1274592535785766916",
+      "game_key": "azurpromilia",
+      "game_name": "蓝色星原：旅谣",
+      "published_at": "2026-11-25T10:30:00.000Z",
+      "url": "https://www.bilibili.com/opus/1274592535785766916",
+      "source_mid": "3546569016085336",
+      "source_name": "蓝色星原旅谣",
+      "images": [
+        "https://i0.hdslb.com/bfs/new_dyn/e681a111f023f993bc422592800293a73546569016085336.png",
+        "https://i0.hdslb.com/bfs/new_dyn/fc921bcbb9121c2d56e3ff00610bc2643546569016085336.png"
+      ],
+      "type": "dynamic",
+      "title": "星旅指南 | Vol.06",
+      "summary": "星旅指南 | Vol.06\n\n“花会缘结之约”\n\n「花会缘结之约」将在「星跃始动」版本期间开放。修行考核在即，近来疏于修炼的小玉亟需星临者的帮助。 \n\n———————————————————\n《蓝色星原：旅谣》11/26正式公测！\n顶级美术！海量福利！各种美少女角色、全新载具、灵子、星彩奇波等奖励等你拿！ \n✦《蓝色星原：旅谣》抢先预下载地址：https://www.biligame.com/detail/?id=111392&spm_id_from=333.1369.0.0\n#蓝色星原旅谣# #蓝色星原1126正式公测# #涂山小玉#"
+    },
     {
       "id": "1274584815625044007",
       "game_key": "bluearchive",
@@ -10902,264 +11183,6 @@
       "type": "dynamic",
       "title": "#明日方舟终末地##丹青渡# //塔卫二畅游指南//特别篇7//",
       "summary": "#明日方舟终末地##丹青渡#\n//塔卫二畅游指南//特别篇7//\n\n再代一回班，给你讲讲最近画里的大小事。\n\n————————\n▼ 「丹青渡」核心章节版本现已开启！\n新干员「祀」「明河」依次登场，全新区域「祀的画」开放！全新活动「烟火生缘」现已开启！\n前往下载：https://www.biligame.com/detail?id=108406"
-    },
-    {
-      "id": "1262601846132834322",
-      "game_key": "arknights",
-      "game_name": "明日方舟",
-      "published_at": "2026-10-24T03:00:00.000Z",
-      "url": "https://www.bilibili.com/opus/1262601846132834322",
-      "source_mid": "161775300",
-      "source_name": "明日方舟",
-      "images": [
-        "https://i0.hdslb.com/bfs/new_dyn/71769a613213669cdebc61794d6d7126161775300.png",
-        "https://i0.hdslb.com/bfs/new_dyn/2ce40814a8ad5d6068b79a0a752bbd93161775300.jpg",
-        "https://i0.hdslb.com/bfs/new_dyn/e11d7cede97a89643485570b6f8a289e161775300.jpg",
-        "https://i0.hdslb.com/bfs/new_dyn/5de381d89ab40a5e288e8f5fb9901317161775300.jpg"
-      ],
-      "type": "dynamic",
-      "title": "#123罗德岛！？##明日方舟# 明日方舟官方四格漫画《123罗德岛！？》",
-      "summary": "#123罗德岛！？##明日方舟#\n明日方舟官方四格漫画《123罗德岛！？》\n——「泡泡」篇"
-    },
-    {
-      "id": "1262601846120251544",
-      "game_key": "bluearchive",
-      "game_name": "蔚蓝档案",
-      "published_at": "2026-10-24T03:00:00.000Z",
-      "url": "https://www.bilibili.com/opus/1262601846120251544",
-      "source_mid": "3493265644980448",
-      "source_name": "蔚蓝档案",
-      "images": [
-        "https://i0.hdslb.com/bfs/new_dyn/77bad89d136f90d2c591dfca620e3b953493265644980448.png"
-      ],
-      "type": "dynamic",
-      "title": "#蔚蓝档案# 今日的基沃托斯几分甜？有老师在的每一天都很甜！",
-      "summary": "#蔚蓝档案#\n今日的基沃托斯几分甜？有老师在的每一天都很甜！\n\n《蔚蓝档案》今日几分甜 × QQ音乐联动周边现已上架！\n\n🌹上架时间🌹\n2026年10月24日 11:00\n\n🌹周边详情🌹\n总计7位在【今日几分甜】系列中登场的角色立牌、双闪徽章、镭射票及惊喜小卡\n\n🌹购买渠道🌹\n包含Bilibili会员购在内等多种渠道可选，具体信息老师请点击图片查看\n\n*任何售卖相关问题，请前往购买订单页面的客服入口进行咨询"
-    },
-    {
-      "id": "1262385379753852962",
-      "game_key": "genshin",
-      "game_name": "原神",
-      "published_at": "2026-10-23T13:00:00.000Z",
-      "url": "https://www.bilibili.com/opus/1262385379753852962",
-      "source_mid": "401742377",
-      "source_name": "原神",
-      "images": [
-        "https://i0.hdslb.com/bfs/new_dyn/2272c57e3ea14722776f0276f5479e44401742377.png"
-      ],
-      "type": "dynamic",
-      "title": "#原神# #原神音乐# #原神7.2版本# 亲爱的旅行者，原神7.2版本PV音乐《坏灭肇始之时 Hour of Rui…",
-      "summary": "#原神# #原神音乐# #原神7.2版本#\n\n亲爱的旅行者，原神7.2版本PV音乐《坏灭肇始之时 Hour of Ruin》现已更新加入专辑《流星的轨迹 Footprints of the Traveler》中。后续版本PV曲目将随版本PV同步更新。\n欢迎旅行者前往QQ音乐以及酷狗音乐，收听最新版本PV曲目及完整版OST。"
-    },
-    {
-      "id": "1262384376906252297",
-      "game_key": "genshin",
-      "game_name": "原神",
-      "published_at": "2026-10-23T12:56:07.000Z",
-      "url": "https://www.bilibili.com/opus/1262384376906252297",
-      "source_mid": "401742377",
-      "source_name": "原神",
-      "images": [
-        "https://i0.hdslb.com/bfs/new_dyn/8fc04183dd257906d3a14264e80f82843546889200863460.png"
-      ],
-      "type": "forward",
-      "title": "#原神# #原神千星奇域# #千星创作赛# 「千星创作赛·拾光季」活动将于11月4日正式开启~",
-      "summary": "亲爱的旅行者，「千星创作赛·拾光季」活动即将开启~\n#原神# #原神千星奇域# #千星创作赛#\n\n「千星创作赛·拾光季」活动将于11月4日正式开启~ \n\n本次创作赛设双赛道——「沪上奇旅」与「织景造境」，具体的主题要求如下：\n「沪上奇旅」主题要求：奇域需围绕主题城市「上海」展开，关联城市文化印象、美食特色、地域景观、音乐、方言等均可，关联需清晰可感；\n「织景造境」主题要求：奇域需同时包含「美术」和「玩法」两个核心，其中玩法类型不限（如竞速跑酷、社交派对、益智小游戏、模拟经营、文字冒险等）。\n\n详细活动规则以后续活动的正式页面为准。"
-    },
-    {
-      "id": "1262382749097918518",
-      "game_key": "genshin",
-      "game_name": "原神",
-      "published_at": "2026-10-23T12:49:48.000Z",
-      "url": "https://www.bilibili.com/opus/1262382749097918518",
-      "source_mid": "401742377",
-      "source_name": "原神",
-      "images": [
-        "https://i0.hdslb.com/bfs/new_dyn/b0d9817b5bd48c55411b9b24ce14a3d33546889200863460.png"
-      ],
-      "type": "forward",
-      "title": "#原神# #原神千星奇域# #千星奇域沪上奇景# 「星境奇景·沪上奇缘」联动活动即将开启！",
-      "summary": "亲爱的旅行者，「星境奇景·沪上奇缘」联动活动即将开启！\n#原神# #原神千星奇域# #千星奇域沪上奇景#\n\n「星境奇景·沪上奇缘」联动活动即将开启！ \n\n11月13日，千星奇域将携手上海文旅，为旅行者带来一场特别的联动。\n一起穿行奇域，领略独特的沪上风光，留下专属你的回忆吧~！\n————————\n感谢上海市文化和旅游局、徐汇区文化旅游局、黄浦区文化和旅游局、松江区文化和旅游局、武康路街区、东方明珠广播电视塔、上海中心大厦、金茂大厦、上海环球金融中心、豫园景区、广富林文化遗址公园等单位对本次活动的大力支持~"
-    },
-    {
-      "id": "1262381512162017351",
-      "game_key": "genshin",
-      "game_name": "原神",
-      "published_at": "2026-10-23T12:45:00.000Z",
-      "url": "https://www.bilibili.com/video/BV1aNn46jEtW",
-      "source_mid": "401742377",
-      "source_name": "原神",
-      "images": [],
-      "type": "video",
-      "title": "《原神》7.2版本「坏灭肇始之时」活动汇总",
-      "summary": "《原神》7.2版本「坏灭肇始之时」将于2026年11月4日上线，感谢各位旅行者的支持与陪伴~\n（*开发中内容，请以实际上线内容为准）\n\n《原神》bilibili服下载地址： https://www.biligame.com/detail/?id=103496",
-      "bvid": "BV1aNn46jEtW",
-      "cover": "https://i1.hdslb.com/bfs/archive/118321bd4743ada57476bf9b72798b3afd7ba2be.jpg",
-      "duration": "02:08"
-    },
-    {
-      "id": "1262380227969941522",
-      "game_key": "genshin",
-      "game_name": "原神",
-      "published_at": "2026-10-23T12:40:01.000Z",
-      "url": "https://www.bilibili.com/video/BV1dan166EHf",
-      "source_mid": "401742377",
-      "source_name": "原神",
-      "images": [],
-      "type": "video",
-      "title": "《原神》千星奇域 - 7.2版本传说套装PV - 殊律覆音",
-      "summary": "声律循法度，万籁起回澜。深邃的幽蓝与澄澈的流光交相辉映，精致的羽饰与典雅的礼服相得益彰。优美的律调被细细织入衣料之中，仿佛只要踏入聚光灯下，便能以最精妙的法度激荡起动人的回音。\n\n*奇偶妆容及动作仅供搭配参考，最终请以实机表现为准。",
-      "bvid": "BV1dan166EHf",
-      "cover": "https://i2.hdslb.com/bfs/archive/34f59442df31157643f980f88c5ae61bc2661b75.jpg",
-      "duration": "01:05"
-    },
-    {
-      "id": "1262380223650856963",
-      "game_key": "genshin",
-      "game_name": "原神",
-      "published_at": "2026-10-23T12:40:00.000Z",
-      "url": "https://www.bilibili.com/video/BV1z9nt6aE5H",
-      "source_mid": "401742377",
-      "source_name": "原神",
-      "images": [],
-      "type": "video",
-      "title": "《原神》7.2版本PV：「坏灭肇始之时」",
-      "summary": "世界的坟墓我已看见，我将它指给无上的高天。\n人若为毁灭而造下，倒不如燃烧那愤怒与生的火焰。\n \n中文CV：\n派蒙——多多\n「光之镜」——多多\n空——鹿喑\n米提亚——苏尚卿\n诺伊——三石\n「丑角」皮耶罗——符冲\n瓦列里——淦子齐\n安娜丝塔夏·费奥多罗夫娜·雪奈茨娜娅——刘校妤\n玛薇卡——李晔\n那维莱特——桑毓泽\n纳西妲——花玲\n温迪——喵☆酱\n钟离——彭博\n八重神子——杜冥鸦\n影——菊花花\n\n日文CV：\n派蒙——古贺葵\n「光之镜」——古贺葵\n空——堀江瞬\n米提亚——小林裕介\n诺伊——三木真一郎\n「丑角」皮耶",
-      "bvid": "BV1z9nt6aE5H",
-      "cover": "https://i1.hdslb.com/bfs/archive/b902371f8d2f165449eb06c11f482b7776c458e5.jpg",
-      "duration": "16:49"
-    },
-    {
-      "id": "1262339163782381634",
-      "game_key": "endfield",
-      "game_name": "明日方舟：终末地",
-      "published_at": "2026-10-23T10:00:40.000Z",
-      "url": "https://www.bilibili.com/video/BV1psnb63Epe",
-      "source_mid": "1265652806",
-      "source_name": "明日方舟终末地",
-      "images": [],
-      "type": "video",
-      "title": "《明日方舟：终末地》「丹青渡」 幕后创作分享",
-      "summary": "「丹青渡」版本已正式上线，我们邀请了参与制作的研发老师，以创作者的视角为各位管理员们分享版本诞生过程中的设计思考与迭代。",
-      "bvid": "BV1psnb63Epe",
-      "cover": "https://i2.hdslb.com/bfs/archive/95a405d10ea46463e46a3d195a80dd272cbe764a.jpg",
-      "duration": "37:04"
-    },
-    {
-      "id": "1262338994077696040",
-      "game_key": "bluearchive",
-      "game_name": "蔚蓝档案",
-      "published_at": "2026-10-23T10:00:00.000Z",
-      "url": "https://www.bilibili.com/opus/1262338994077696040",
-      "source_mid": "3493265644980448",
-      "source_name": "蔚蓝档案",
-      "images": [
-        "https://i0.hdslb.com/bfs/new_dyn/24e6db050ddb5ca850612ece324c15383493265644980448.gif",
-        "https://i0.hdslb.com/bfs/new_dyn/38e3003a774ae2e7588a5a1d149a464e3493265644980448.gif"
-      ],
-      "type": "dynamic",
-      "title": "#蔚蓝档案# 全新成员&家具互动动作即将更新！在咖啡厅配置“可互动的家具”后，当特定成员来访时，就会与家具产生交互动作！",
-      "summary": "#蔚蓝档案#\n全新成员&家具互动动作即将更新！在咖啡厅配置“可互动的家具”后，当特定成员来访时，就会与家具产生交互动作！\n\n■ 更新时间\n 10月29日 维护结束后\n\n■ 互动更新\n• 艾利 & 魔法飞毯循环扇\n华丽的魔法地毯与循环扇的组合。\n即使毯子不会飞，靠现代科学也能体验一番风驰电掣的感觉。\n\n• 庚 & 可疑的坩埚\n沸腾着可疑液体的大锅。\n虽然里面的内容让人望而却步，但从挑战者的反应来看，味道应该不算太坏……吧？"
-    },
-    {
-      "id": "1262323532200673288",
-      "game_key": "arknights",
-      "game_name": "明日方舟",
-      "published_at": "2026-10-23T09:00:00.000Z",
-      "url": "https://www.bilibili.com/opus/1262323532200673288",
-      "source_mid": "161775300",
-      "source_name": "明日方舟",
-      "images": [
-        "https://i0.hdslb.com/bfs/new_dyn/fe86c0798e56c8dc6e4dbc6eb1c0db33161775300.jpg"
-      ],
-      "type": "dynamic",
-      "title": "◤矢量突破#3「拟生态」◢",
-      "summary": "◤矢量突破#3「拟生态」◢"
-    },
-    {
-      "id": "1262308070372933640",
-      "game_key": "arknights",
-      "game_name": "明日方舟",
-      "published_at": "2026-10-23T08:00:00.000Z",
-      "url": "https://www.bilibili.com/opus/1262308070372933640",
-      "source_mid": "161775300",
-      "source_name": "明日方舟",
-      "images": [
-        "https://i0.hdslb.com/bfs/new_dyn/1de524339cff28170fffed749ee2cbcf161775300.png"
-      ],
-      "type": "dynamic",
-      "title": "//【明日方舟×国家图书馆】，新装限时上架",
-      "summary": "//【明日方舟×国家图书馆】，新装限时上架\n◆【CROSSOVER】系列 - 源远流长 - 黍\n◆【CROSSOVER】系列 - 夜行烛火 - 烛煌\n◆【CROSSOVER】系列 - 盛世之象 - 琳琅诗怀雅\n\n_____________\n时装商店售卖时间：2026年10月16日 16:00 - 2026年11月6日 03:59"
-    },
-    {
-      "id": "1262308070337282053",
-      "game_key": "bluearchive",
-      "game_name": "蔚蓝档案",
-      "published_at": "2026-10-23T08:00:00.000Z",
-      "url": "https://www.bilibili.com/opus/1262308070337282053",
-      "source_mid": "3493265644980448",
-      "source_name": "蔚蓝档案",
-      "images": [
-        "https://i0.hdslb.com/bfs/new_dyn/36d22e696e77785967ea3fdf1ee5ebbe3493265644980448.jpg",
-        "https://i0.hdslb.com/bfs/new_dyn/78bc814339bce86083f29e25215e0b773493265644980448.jpg",
-        "https://i0.hdslb.com/bfs/new_dyn/655e3e3e8f820e4be5596d3e79d28c2e3493265644980448.gif",
-        "https://i0.hdslb.com/bfs/new_dyn/c7b3df3110a59750195631f9e30a91703493265644980448.gif"
-      ],
-      "type": "dynamic",
-      "title": "#蔚蓝档案# //////////档案启封//////////",
-      "summary": "#蔚蓝档案#\n//////////档案启封//////////\n■ 庚\n\n致力于探究蕴藏在艺术中的神秘学的神秘学研究会成员。\n虽然是神秘学研究会中唯一的3年学员，但她并不是会长，而是作为助力者在背后支持着成员们。因其可疑的外貌和行为，甚至有传闻称其本人就是行走的神秘现象……\n\n“我一直都在注视着你……从前世就……”"
-    },
-    {
-      "id": "1262292608479133696",
-      "game_key": "arknights",
-      "game_name": "明日方舟",
-      "published_at": "2026-10-23T07:00:00.000Z",
-      "url": "https://www.bilibili.com/opus/1262292608479133696",
-      "source_mid": "161775300",
-      "source_name": "明日方舟",
-      "images": [
-        "https://i0.hdslb.com/bfs/new_dyn/eba8ce80709a50ce0955c6ec2fad73e2161775300.gif"
-      ],
-      "type": "dynamic",
-      "title": "【新增主题场景】",
-      "summary": "【新增主题场景】\n//演化\n到底输入什么样的操作指令，才能开启通往终极演化的隐藏关卡？"
-    },
-    {
-      "id": "1262277146592673812",
-      "game_key": "bluearchive",
-      "game_name": "蔚蓝档案",
-      "published_at": "2026-10-23T06:00:00.000Z",
-      "url": "https://www.bilibili.com/opus/1262277146592673812",
-      "source_mid": "3493265644980448",
-      "source_name": "蔚蓝档案",
-      "images": [
-        "https://i0.hdslb.com/bfs/new_dyn/3c98c2c116c0ad822575c302dc2fe5273493265644980448.jpg",
-        "https://i0.hdslb.com/bfs/new_dyn/274953974dee02a7518500d9906401733493265644980448.jpg",
-        "https://i0.hdslb.com/bfs/new_dyn/19eead26c245180a33c88de98a84d8273493265644980448.gif",
-        "https://i0.hdslb.com/bfs/new_dyn/a4f162ed661b7a9e858129699e2695eb3493265644980448.gif"
-      ],
-      "type": "dynamic",
-      "title": "#蔚蓝档案#​",
-      "summary": "#蔚蓝档案#​\n//////////档案启封//////////\n■ 艾利\n\n致力于探究蕴藏在艺术中的神秘学的神秘学研究会会长。\n总是戴着巨大的女巫帽，言谈间捋一切比喻成魔法。坚信可以利用神秘学提升自己不够理想的成绩。\n\n“呦呼呼，莫非您需要我的魔法？”"
-    },
-    {
-      "id": "1262253953752498183",
-      "game_key": "zzz",
-      "game_name": "绝区零",
-      "published_at": "2026-10-23T04:30:00.000Z",
-      "url": "https://www.bilibili.com/opus/1262253953752498183",
-      "source_mid": "1636034895",
-      "source_name": "绝区零",
-      "images": [
-        "https://i0.hdslb.com/bfs/new_dyn/7654c9b916dace70ea7a9cdc2c5994951636034895.jpg",
-        "https://i0.hdslb.com/bfs/new_dyn/719de663800f115e19f0150eb0b7aeda1636034895.png",
-        "https://i0.hdslb.com/bfs/new_dyn/8e614e30bcdc0f7fbbcbfe7fc92962751636034895.png",
-        "https://i0.hdslb.com/bfs/new_dyn/d131b4b58fe9542dec5575fd5559134c1636034895.png",
-        "https://i0.hdslb.com/bfs/new_dyn/f76a9d502243f3ab5285c5f17209168c1636034895.png"
-      ],
-      "type": "dynamic",
-      "title": "#绝区零# #重返天空的旅程# #绝区零菲欧妮# #绝区零赛维里安# 《绝区零》3.3版本角色头像",
-      "summary": "#绝区零# #重返天空的旅程# #绝区零菲欧妮# #绝区零赛维里安# \n《绝区零》3.3版本角色头像\n  \n感谢绳匠们对3.3版本「重返天空的旅程」的支持！\n菲欧妮&赛维里安的头像现已公开，欢迎绳匠们使用~\n  \n—— 欢迎来到罗斯凯利法！——\n▼《绝区零》3.3版本「重返天空的旅程」现已上线！\n限定S级代理人「菲欧妮」&「维琳娜」现已加入调频&复刻。\n版本期间，参与活动可免费领取妄想天使时装！\nbilibili安卓端下载地址：https://www.biligame.com/detail/?id=108434\nbilibiliPC端下载地址：https://www.biligame.com/detail/?id=111210"
     }
   ]
 }
