@@ -311,3 +311,43 @@ docs/                           构建产物（Pages 托管源）
 - **同名跨源合并加固**：同名池在不同信源给出不同时段时，取「公告发布更新」的那条；但**同源**同名（绝区零上下半、原神双池）绝不合并；无时间候选不参与同名合并，只能靠角色交集归位。
 - **信源健康自检**：每轮与上一轮对比各源候选数，归零或骤降 >70% 写 `banner_warnings`（Actions 摘要可见），无需人工盯。
 - **新增 `skill/`**：`skill/SKILL.md` 是给运维人员与 AI agent 的「定期手动维护」作业指导（体检 → 校正手写信源 → 提交验证 → 故障速查 → 红线）。
+
+## 部署到其他静态托管（帽子云 / Cloudflare Pages / Vercel 等）
+
+本项目是**纯静态站点**：构建产物在 `docs/`，没有 Node 服务、没有运行时环境变量。
+
+| 配置项 | 建议值 | 说明 |
+|---|---|---|
+| 根目录 | `/`（仓库根，或留空） | 构建需要根 `package.json` 与 `vite.config.ts` |
+| 构建类型 | 静态站点 / Buildpack（Node） | 仓库内**没有 Dockerfile**；若平台强制 Docker，见下方说明 |
+| 构建命令 | `npm ci && npm run build` | `build` = `sync:public` + `web:build`，会把 `docs/img`、`docs/api` 同步回 `public/` 再构建 |
+| 发布/输出目录 | `docs` | vite `outDir` 固定为 `../../docs`（相对 `apps/web`） |
+| 启动命令 | 不填 | 静态站点无进程；若平台强制要求，用 `npx --yes serve docs -l $PORT --single` |
+| 构建环境变量 | `NODE_VERSION=22`、`NPM_CONFIG_PRODUCTION=false`、`TZ=Asia/Shanghai` | 前两个保证 Node 版本与 devDependencies 安装；`TZ` 保证构建期时间一致 |
+| 运行时环境变量 | 无 | 站点运行时只读取相对路径的 `feed.json` / `api/v1/*` |
+
+> ⚠️ 不要在该平台配置 `BILIBILI_COOKIE`：抓取仍由 GitHub Actions 负责，平台只托管构建产物。
+> 若平台无法安装 devDependencies（如强制 `NODE_ENV=production`），把构建命令改成 `npm ci --include=dev && npm run build`。
+
+### 如果平台只支持 Dockerfile
+
+仓库目前没有 Dockerfile。需要时可用多阶段构建（Node 构建 → nginx 托管 `docs/`），
+构建上下文保持仓库根，Dockerfile 路径填 `./Dockerfile`。可直接使用：
+
+```dockerfile
+FROM node:22-alpine AS build
+WORKDIR /app
+COPY package*.json ./
+RUN npm ci
+COPY . .
+RUN npm run build
+
+FROM nginx:alpine
+COPY --from=build /app/docs /usr/share/nginx/html
+EXPOSE 80
+```
+
+### 换域名后图片回退地址
+
+`feed.json` 里图片的 `*_fallback` 目前指向 GitHub Pages。改为自有域名时：
+设置 `PAGES_BASE=https://<新域名>` 后执行 `npm run feed:rebuild` 并提交，或继续依赖 CDN 主地址（`cdn.jsdelivr.net`）即可。

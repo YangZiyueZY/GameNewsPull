@@ -51,16 +51,11 @@ jobs:
           CI: 'true'
         run: npm run crawl:once
 
-      # crawl 成功时两处都会写；crawl 失败（stale）时必须保住已提交的图片与 API，
-      # 否则下一步 vite build 会用空的 public/ 覆盖掉 docs/img 与 docs/api。
-      - name: 同步已提交产物到 public/（防止构建清空 docs）
-        run: |
-          mkdir -p apps/web/public/img apps/web/public/api
-          cp -a docs/img/. apps/web/public/img/ 2>/dev/null || true
-          cp -a docs/api/. apps/web/public/api/ 2>/dev/null || true
-
+      # `npm run build` = sync:public（把已提交的 docs/img、docs/api 递归同步到 public/）
+      # + web:build。缺了同步这步，vite 会清空 docs/ 后只从 public/ 拷回文件，
+      # 图片与 API 会整体丢失（干净克隆场景必踩，PaaS 部署同理）。
       - name: 构建静态站点（含 docs/api 端点）
-        run: npm run web:build
+        run: npm run build
 
       - name: 产出摘要（便于排查）
         run: |

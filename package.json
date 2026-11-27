@@ -10,7 +10,9 @@
     "test": "tsx --test tests/*.test.ts",
     "web:dev": "vite --config apps/web/vite.config.ts",
     "web:build": "vite build --config apps/web/vite.config.ts",
-    "build": "npm run web:build"
+    "sync:public": "node scripts/sync-public.mjs",
+    "//build": "clean-clone 安全：先同步 docs/img 与 docs/api 到 public/，再 vite build",
+    "build": "npm run sync:public && npm run web:build"
   },
   "dependencies": {
     "dotenv": "^16.4.7",
