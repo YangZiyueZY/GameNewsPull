@@ -1,0 +1,35 @@
+# Netlify 部署配置（也可用于其他读取 netlify.toml 的平台）
+# 关键点：本项目是纯静态站，构建产物在 docs/（vite outDir = ../../docs），不是默认的 dist/。
+
+[build]
+  command = "npm ci && npm run build"
+  publish = "docs"
+
+[build.environment]
+  # 与 GitHub Actions 保持一致；Vite 6 要求 Node >= 18
+  NODE_VERSION = "22"
+  TZ = "Asia/Shanghai"
+
+# 静态资源带 hash，长缓存；数据文件短缓存，保证每天刷新后尽快生效
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/feed.json"
+  [headers.values]
+    Cache-Control = "public, max-age=300"
+    Access-Control-Allow-Origin = "*"
+
+[[headers]]
+  for = "/api/v1/*"
+  [headers.values]
+    Cache-Control = "public, max-age=300"
+    Access-Control-Allow-Origin = "*"
+
+[[headers]]
+  for = "/feed.rss"
+  [headers.values]
+    Cache-Control = "public, max-age=300"
+    Content-Type = "application/rss+xml; charset=utf-8"
