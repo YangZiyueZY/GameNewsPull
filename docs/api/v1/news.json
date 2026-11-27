@@ -1,14 +1,210 @@
 {
   "api_version": "v1",
   "schema_version": 4,
-  "generated_at": "2026-11-26T23:13:37+08:00",
-  "generated_at_utc": "2026-11-26T15:13:37.000Z",
+  "generated_at": "2026-11-27T17:57:37+08:00",
+  "generated_at_utc": "2026-11-27T09:57:37.000Z",
   "count": 500,
   "cdn": {
     "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
     "api": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/api/v1"
   },
   "items": [
+    {
+      "id": "1275241934852456464",
+      "game_key": "zzz",
+      "game_name": "绝区零",
+      "title": "#绝区零# #长日终尽# #绝区零知更鸟# 代理人机制介绍丨知更鸟篇",
+      "summary": "#绝区零# #长日终尽# #绝区零知更鸟# \n代理人机制介绍丨知更鸟篇\n  \n更新即将完成…\n资料库中已收录代理人「知更鸟」的战斗相关信息，重点内容解析完毕，请查收。\n \n「让今天的舞台热闹起来吧！」\n  \n—— 欢迎来到罗斯凯利法！——\n▼《绝区零》3.4版本「长日终尽」将于12月2日上线！\n3.4版本「决战于黎明之前」预约活动现已开启，参与版本预约&签到活动，可领取640菲林！\n版本期间，登录即领联动限定S级代理人「知更鸟」及其养成材料，参与签到即可领取加密母带×10、菲林×1840、配饰：「帕姆」趴趴等奖励，参与活动还可免费领取邦布「帕姆」。\nbilibili安卓端下载地址：https://www.biligame.com/detail/?id=108434\nbilibiliPC端下载地址：https://www.biligame.com/detail/?id=111210",
+      "url": "https://www.bilibili.com/opus/1275241934852456464",
+      "published_at": "2026-11-27T12:30:00+08:00",
+      "type": "dynamic",
+      "images": [
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/08e6531625d9cb6985ccf372f31ade9e1636034895.png",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/08e6531625d9cb6985ccf372f31ade9e1636034895.png",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/08e6531625d9cb6985ccf372f31ade9e1636034895.png"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/2aa757b12adc18d7849dade58746a8d41636034895.jpg",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/2aa757b12adc18d7849dade58746a8d41636034895.jpg",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/2aa757b12adc18d7849dade58746a8d41636034895.jpg"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/2e2b75c12761c56bb1ac102e963677dc1636034895.jpg",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/2e2b75c12761c56bb1ac102e963677dc1636034895.jpg",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/2e2b75c12761c56bb1ac102e963677dc1636034895.jpg"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/153956ba7e446425c6e47f5c6836044b1636034895.gif",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/153956ba7e446425c6e47f5c6836044b1636034895.gif",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/153956ba7e446425c6e47f5c6836044b1636034895.gif"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/a455960cd6b7cd2e4d44df6ca069e77d1636034895.gif",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/a455960cd6b7cd2e4d44df6ca069e77d1636034895.gif",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/a455960cd6b7cd2e4d44df6ca069e77d1636034895.gif"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/daf4569815b58d5a85f83458511a6d011636034895.gif",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/daf4569815b58d5a85f83458511a6d011636034895.gif",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/daf4569815b58d5a85f83458511a6d011636034895.gif"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/94e5eefb0900d7b01d9a05c1d7cd40271636034895.gif",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/94e5eefb0900d7b01d9a05c1d7cd40271636034895.gif",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/94e5eefb0900d7b01d9a05c1d7cd40271636034895.gif"
+        }
+      ],
+      "cover": null
+    },
+    {
+      "id": "1275241934836727826",
+      "game_key": "wutheringwaves",
+      "game_name": "鸣潮",
+      "title": "#鸣潮# #鸣潮3.8版本# 各位漂泊者好~欢迎收看MetaGames开发组播报喵！",
+      "summary": "#鸣潮# #鸣潮3.8版本#\n各位漂泊者好~欢迎收看MetaGames开发组播报喵！\n《第二索拉：未名之梦》自上线以来反响热烈，看到大家这么喜欢，我们都很开心喵🐾！\n\n那么，今天就来给大家分享一些学园生活中的有趣数据——\n令人倍感意外的故事结局、连开发组都吓了一跳的「学院徽记」数量、商店中最受欢迎的商品……全都记录在这里喵！\n你在第二索拉学院中度过的，是一段怎样的时光呢？\n\n※以下内容可能涉及剧透~还没体验过《第二索拉：未名之梦》的漂泊者，可以在游玩之后再来看看喵🐱！\n——————————————————\n《鸣潮》3.8版本「旧梦凋零的百合」已开启！\n下载游戏：https://www.biligame.com/detail/?id=108820",
+      "url": "https://www.bilibili.com/opus/1275241934836727826",
+      "published_at": "2026-11-27T12:30:00+08:00",
+      "type": "dynamic",
+      "images": [
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/db6eee760899a6eb9a4c78c045045c781955897084.png",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/db6eee760899a6eb9a4c78c045045c781955897084.png",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/db6eee760899a6eb9a4c78c045045c781955897084.png"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/140421d58be85f28e2b283af72bb5b5e1955897084.png",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/140421d58be85f28e2b283af72bb5b5e1955897084.png",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/140421d58be85f28e2b283af72bb5b5e1955897084.png"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/25fa071bf3d75c957c6911cfc8feefdd1955897084.png",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/25fa071bf3d75c957c6911cfc8feefdd1955897084.png",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/25fa071bf3d75c957c6911cfc8feefdd1955897084.png"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/cf3720a4a7eec2764cf3ae020d5a7ee51955897084.png",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/cf3720a4a7eec2764cf3ae020d5a7ee51955897084.png",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/cf3720a4a7eec2764cf3ae020d5a7ee51955897084.png"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/2199ffa7d37037383a6e36a115e716fe1955897084.png",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/2199ffa7d37037383a6e36a115e716fe1955897084.png",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/2199ffa7d37037383a6e36a115e716fe1955897084.png"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/016946d9dada1687b1151401e0baa7e31955897084.png",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/016946d9dada1687b1151401e0baa7e31955897084.png",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/016946d9dada1687b1151401e0baa7e31955897084.png"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/bd32fee50212bebac5cbaa67befba9051955897084.png",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/bd32fee50212bebac5cbaa67befba9051955897084.png",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/bd32fee50212bebac5cbaa67befba9051955897084.png"
+        }
+      ],
+      "cover": null
+    },
+    {
+      "id": "1275234334910971958",
+      "game_key": "zzz",
+      "game_name": "绝区零",
+      "title": "《绝区零》挽昼动画短片 | 最后的旅途",
+      "summary": "「挽昼，你和教授一直都不一样…你一直都能看见，不是吗？」\n \n挽昼女士CV\n中：张若瑜\n日：大原沙耶香\n \n艾尔妲·挽昼CV\n中：张若瑜\n日：大原沙耶香\n \n林德薇恩·挽昼CV\n中：张若瑜\n日：大原沙耶香\n \n德蕾琪娜·挽昼CV\n中：张若瑜\n日：大原沙耶香\n \n动画制作：摔跤社&火药方糖\n制作协力：麦冬映画\n \n—— 欢迎来到罗斯凯利法！——\n▼《绝区零》3.4版本「长日终尽」将于12月2日上线！\n3.4版本「决战于黎明之前」预约活动现已开启，参与版本预约&签到活动，可领取640菲林！\n版本期间，登录即领",
+      "url": "https://www.bilibili.com/video/BV1or1HzXEi1",
+      "published_at": "2026-11-27T12:00:31+08:00",
+      "type": "video",
+      "images": [],
+      "cover": {
+        "url": "https://i1.hdslb.com/bfs/archive/49d9187838df6a612b749d2ce258a3ddf23279d9.jpg",
+        "fallback": "https://i1.hdslb.com/bfs/archive/49d9187838df6a612b749d2ce258a3ddf23279d9.jpg",
+        "local": "https://i1.hdslb.com/bfs/archive/49d9187838df6a612b749d2ce258a3ddf23279d9.jpg"
+      }
+    },
+    {
+      "id": "1275234304867172376",
+      "game_key": "endfield",
+      "game_name": "明日方舟：终末地",
+      "title": "「2027明日方舟：终末地终末回响专场演出-镌宇留声」先导预告公开",
+      "summary": "最初，人们记录声音，是为了抵抗遗忘。\n留声机的童谣，深海的鲸歌，废墟上的咏叹……\n可生命如此短暂，连文明也只是一瞬划过的流星。\n于是，我们开始思考，\n如果只有一瞬的声音，也能让文明抵达未来？\n如果……将它们刻录、保存，送往一片未知的星海？\n听着！金唱片计划——这伟大的名字！\n我们正在进行一场前所未有的远征，将塔卫二的旋律，文明的乐章，带往远方！\n\n---------------------------------------------------------\n\n原创音乐作曲：Hans Zimmer（汉斯",
+      "url": "https://www.bilibili.com/video/BV1GF17zKEiP",
+      "published_at": "2026-11-27T12:00:24+08:00",
+      "type": "video",
+      "images": [],
+      "cover": {
+        "url": "https://i2.hdslb.com/bfs/archive/c332388ea14a5beac6ff5ad2c9d0657bf09f50cc.jpg",
+        "fallback": "https://i2.hdslb.com/bfs/archive/c332388ea14a5beac6ff5ad2c9d0657bf09f50cc.jpg",
+        "local": "https://i2.hdslb.com/bfs/archive/c332388ea14a5beac6ff5ad2c9d0657bf09f50cc.jpg"
+      }
+    },
+    {
+      "id": "1275234203899789346",
+      "game_key": "genshin",
+      "game_name": "原神",
+      "title": "#原神# #原神千星奇域# #奇域拾光季# 亲爱的旅行者，「奇域拾光季」网页活动限时开启，参与必得奇偶动作、重现晶簇等…",
+      "summary": "#原神# #原神千星奇域# #奇域拾光季# \n\n亲爱的旅行者，「奇域拾光季」网页活动限时开启，参与必得奇偶动作、重现晶簇等游戏内奖励！\n点击https://b23.tv/4cGCWta 参与活动~\n\n〓活动时间〓\n2026/11/27 12:00 至 2026/12/08 03:59（服务器时间）\n*活动结束后不可领取奖励，请旅行者及时领取*\n\n〓参与条件〓\n冒险等阶≥1级的旅行者即可参与活动\n\n〓活动介绍〓\n活动期间，旅行者完成网页任务，即可领取重现晶簇、「千星奇域」道具等奖励，任务详情请见活动页面。\n※数据统计可能存在1-2小时延迟，若任务进度未更新，请旅行者刷新页面或耐心等待。\n\n〓活动注意事项〓\n1、请各位旅行者登录米哈游通行证并绑定《原神》中的游戏角色参与活动，以保证活动奖励的正常发放与领取。\n2、活动结束后将无法参与活动与领取奖励，请旅行者及时参与。\n3、游戏内奖励将通过游戏内邮件发放，邮件有效期为30天，请及时领取。\n4、该网页活动仅供娱乐，不代表游戏内实际剧情与设定，与游戏内实际情况无关。",
+      "url": "https://www.bilibili.com/opus/1275234203899789346",
+      "published_at": "2026-11-27T12:00:00+08:00",
+      "type": "dynamic",
+      "images": [
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/3497e61a20337bea4475b9adb69838be401742377.png",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/3497e61a20337bea4475b9adb69838be401742377.png",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/3497e61a20337bea4475b9adb69838be401742377.png"
+        }
+      ],
+      "cover": null
+    },
+    {
+      "id": "1275220030510858274",
+      "game_key": "arknights",
+      "game_name": "明日方舟",
+      "title": "SideStory「星星不愿入睡」限时活动即将开启",
+      "summary": "SideStory「星星不愿入睡」限时活动即将开启\n\n一、全新SideStory「星星不愿入睡」，活动关卡开启\n二、【惊奇幻想夜】限时寻访开启\n三、新干员登场，信赖获取提升\n四、【冰原信使】&【时代】系列，新装限时上架\n五、复刻时装限时上架\n六、新增罗德岛动态频道\n七、勋章系统优化\n八、界面配置优化\n九、PC端新增等比例缩放窗口功能\n十、新增【梦途休憩小屋】主题家具，限时获取\n十一、礼包限时上架\n十二、采购中心【高级凭证区】&【通用凭证区】可兑换内容追加\n\n更多活动内容请持续关注《明日方舟》游戏内公告及官方公告。",
+      "url": "https://www.bilibili.com/opus/1275220030510858274",
+      "published_at": "2026-11-27T11:05:00+08:00",
+      "type": "dynamic",
+      "images": [
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/3e7f62e673b15a2fc12cdfffb31b1377161775300.jpg",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/3e7f62e673b15a2fc12cdfffb31b1377161775300.jpg",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/3e7f62e673b15a2fc12cdfffb31b1377161775300.jpg"
+        }
+      ],
+      "cover": null
+    },
+    {
+      "id": "1275218765645086816",
+      "game_key": "silverpalace",
+      "game_name": "白银之城",
+      "title": "《白银之城》世界观PV | 童话的起笔",
+      "summary": "铅字如藤蔓，爬满枯卷。\n黑鸟落在窗棂，诉说结局，从不改变。\n直至你的歌中亦有了这字眼。\n\n幽深夜里，唯有银与血在呢喃：\n“寓言，终会应验。”\n\n----------------------------------\n《白银之城》全球公测正式定档2026年12月14日！\n▍「疑案开幕」预抽卡活动开启中\n参与网页活动邀请好友预约，即可领取专属游戏道具、更有机会抽5080显卡~\n点击参与>>>https://www.bilibili.com/blackboard/era/ro7bzXmkZ2XJ8Ela.html",
+      "url": "https://www.bilibili.com/video/BV1uT17zhEJX",
+      "published_at": "2026-11-27T11:00:06+08:00",
+      "type": "video",
+      "images": [],
+      "cover": {
+        "url": "https://i0.hdslb.com/bfs/archive/6fcf6af54e42b7f361718eb08c849ef9555f78ad.jpg",
+        "fallback": "https://i0.hdslb.com/bfs/archive/6fcf6af54e42b7f361718eb08c849ef9555f78ad.jpg",
+        "local": "https://i0.hdslb.com/bfs/archive/6fcf6af54e42b7f361718eb08c849ef9555f78ad.jpg"
+      }
+    },
+    {
+      "id": "1275218761391013957",
+      "game_key": "arknights",
+      "game_name": "明日方舟",
+      "title": "《明日方舟》SideStory「星星不愿入睡」活动宣传PV",
+      "summary": "《明日方舟》SideStory「星星不愿入睡」活动即将开启\n\n在那个不可思议的夜晚，梦与现实不再泾渭分明。\n\n————————————\n详细活动内容敬请关注《明日方舟》游戏内相关公告。",
+      "url": "https://www.bilibili.com/video/BV19k1Jz5Ea8",
+      "published_at": "2026-11-27T11:00:05+08:00",
+      "type": "video",
+      "images": [],
+      "cover": {
+        "url": "https://i1.hdslb.com/bfs/archive/87874efad17dc24ec116c4dcdb6db5f04f25ea1d.jpg",
+        "fallback": "https://i1.hdslb.com/bfs/archive/87874efad17dc24ec116c4dcdb6db5f04f25ea1d.jpg",
+        "local": "https://i1.hdslb.com/bfs/archive/87874efad17dc24ec116c4dcdb6db5f04f25ea1d.jpg"
+      }
+    },
     {
       "id": "1274940428149325825",
       "game_key": "azurlane",
@@ -10963,293 +11159,6 @@
         "url": "https://i1.hdslb.com/bfs/archive/59bbf1aaa9f63533c8183ee3899150b2eae98ed4.jpg",
         "fallback": "https://i1.hdslb.com/bfs/archive/59bbf1aaa9f63533c8183ee3899150b2eae98ed4.jpg",
         "local": "https://i1.hdslb.com/bfs/archive/59bbf1aaa9f63533c8183ee3899150b2eae98ed4.jpg"
-      }
-    },
-    {
-      "id": "1263823334817136657",
-      "game_key": "azurpromilia",
-      "game_name": "蓝色星原：旅谣",
-      "title": "予你，启程的祝福 | 夏儿篇",
-      "summary": "予你，启程的祝福 | 夏儿篇\n\n「咴——」\n「看洛伊莱的反应，我就知道是你。」\n「我不会再迷茫了，你的背后就安心托付给我吧。」\n\n隶属于高等精灵王座的骑士夏儿，将你视为值得追随的重要之人。\n\n骑士的誓约从不轻许，她愿为你执起长枪，也愿将忠诚一并献予你。 \n\n———————————————————\n✦《蓝色星原：旅谣》预约地址：https://www.biligame.com/detail/?id=111392&spm_id_from=333.1369.0.0\n#蓝色星原旅谣# #蓝色星原1126正式公测# #夏儿#",
-      "url": "https://www.bilibili.com/opus/1263823334817136657",
-      "published_at": "2026-10-27T18:00:00+08:00",
-      "type": "dynamic",
-      "images": [
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/8e66bb38a516ba15fe5c786bdb47b3d13546569016085336.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/8e66bb38a516ba15fe5c786bdb47b3d13546569016085336.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/8e66bb38a516ba15fe5c786bdb47b3d13546569016085336.jpg"
-        }
-      ],
-      "cover": null
-    },
-    {
-      "id": "1263807872948502537",
-      "game_key": "arknights",
-      "game_name": "明日方舟",
-      "title": "【新增家具】",
-      "summary": "【新增家具】\n//行宫一隅\n依照干员冻河的描述复原的乌萨斯皇室行宫风格房间。他的童年曾在相似的居所中度过，最大的区别可能在于，那个房间的窗外，有片一望无际的苹果林。\n\n_________________\n新增【行宫一隅】主题家具，限时上架\n家具商店贩售时间：11月1日12:00 - 11月29日03:59",
-      "url": "https://www.bilibili.com/opus/1263807872948502537",
-      "published_at": "2026-10-27T17:00:00+08:00",
-      "type": "dynamic",
-      "images": [
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/89571c038cbe966a27830748787b9914161775300.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/89571c038cbe966a27830748787b9914161775300.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/89571c038cbe966a27830748787b9914161775300.jpg"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/4063cb5c37d3b40e9e1837e0e1aae272161775300.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/4063cb5c37d3b40e9e1837e0e1aae272161775300.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/4063cb5c37d3b40e9e1837e0e1aae272161775300.jpg"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/518918381c24edea323647cd584f4e0a161775300.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/518918381c24edea323647cd584f4e0a161775300.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/518918381c24edea323647cd584f4e0a161775300.jpg"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/8457e351be227c52f532f3b2413781ac161775300.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/8457e351be227c52f532f3b2413781ac161775300.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/8457e351be227c52f532f3b2413781ac161775300.jpg"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/b1c864d2d7abdd30a90112e2137712f3161775300.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/b1c864d2d7abdd30a90112e2137712f3161775300.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/b1c864d2d7abdd30a90112e2137712f3161775300.jpg"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/31aa5b20b579fa4d8f4d51ba6e5c6c70161775300.gif",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/31aa5b20b579fa4d8f4d51ba6e5c6c70161775300.gif",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/31aa5b20b579fa4d8f4d51ba6e5c6c70161775300.gif"
-        }
-      ],
-      "cover": null
-    },
-    {
-      "id": "1263792653694140425",
-      "game_key": "genshin",
-      "game_name": "原神",
-      "title": "#原神# #原神千星奇域# #殊律覆音# #覆音谐度# ★ 传说装扮 | 殊律覆音",
-      "summary": "亲爱的旅行者，前往@原神千星奇域 了解更多装扮信息~\n#原神# #原神千星奇域# #殊律覆音# #覆音谐度#\n\n★ 传说装扮 | 殊律覆音\n声律循法度，万籁起回澜。深邃的幽蓝与澄澈的流光交相辉映，精致的羽饰与典雅的礼服相得益彰。优美的律调被细细织入衣料之中，仿佛只要踏入聚光灯下，便能以最精妙的法度激荡起动人的回音。\n\n★ 传说装扮 | 殊律覆音·遐苍\n升炼后的殊律覆音套装。\n以生机盎然的青色为主调，仿佛蕴含着抚平一切喧嚣的纯净力量。\n————————\n在以音律为基石的12号星球，声音不仅是人们交流的纽带，更维系着整个文明的秩序。然而，受外部邪恶力量的影响，这颗星球时常会出现难以调和的「杂音」，于是，这里的乐师们世代都在探寻能够平息「杂音」的乐理法度。\n在这场漫长的斗争中，两位年轻的首席乐师挺身而出。他们决心谱写一部前所未有的宏大乐章，在「杂音」最盛之时演奏，将混乱的声音引导为谐振的回音。\n初抵此处的欧科塔维亚见证了两位乐师决意登台前的坚毅神情，为这份对音律的执着追求所打动，遂将这套象征秩序与法度的华美礼服郑重记录了下来…\n\n获取方式：活动期间，旅行者可以通过「覆音谐度」活动颂愿限时获取相应传说（5星）装扮。\n*奇偶妆容及动作仅供搭配参考，最终请以实机表现为准。",
-      "url": "https://www.bilibili.com/opus/1263792653694140425",
-      "published_at": "2026-10-27T16:00:57+08:00",
-      "type": "forward",
-      "images": [
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/db6f283fcc1793294d0815052047e2273546889200863460.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/db6f283fcc1793294d0815052047e2273546889200863460.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/db6f283fcc1793294d0815052047e2273546889200863460.jpg"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/6cacb0d8b2c0fa793efced0818df441b3546889200863460.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/6cacb0d8b2c0fa793efced0818df441b3546889200863460.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/6cacb0d8b2c0fa793efced0818df441b3546889200863460.jpg"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/40d671779834bcc79d094922e8c7082b3546889200863460.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/40d671779834bcc79d094922e8c7082b3546889200863460.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/40d671779834bcc79d094922e8c7082b3546889200863460.jpg"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/35903201546f1855b972531fec5497653546889200863460.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/35903201546f1855b972531fec5497653546889200863460.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/35903201546f1855b972531fec5497653546889200863460.jpg"
-        }
-      ],
-      "cover": null
-    },
-    {
-      "id": "1263792411019051015",
-      "game_key": "arknights",
-      "game_name": "明日方舟",
-      "title": "【新增服饰】",
-      "summary": "【新增服饰】\n//雪覆伦城 - 凛御银灰\n忒斯特收藏系列/雪覆伦城。恩希欧迪斯·希瓦艾什成为维多利亚护国公后出席正式场合的着装之一。寒风化作暴雪，伦蒂尼姆改变了面目，终如他所愿。\n\n_____________\n萨卡兹撤出伦蒂尼姆时，你与这位年轻的新任大公爵曾有一面之缘。如今踏入他的领地，你握住对方微笑伸出的手，双方便已了然这一局棋的赌注。",
-      "url": "https://www.bilibili.com/opus/1263792411019051015",
-      "published_at": "2026-10-27T16:00:00+08:00",
-      "type": "dynamic",
-      "images": [
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/95e2279e7cca8bd80230cc240ce07786161775300.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/95e2279e7cca8bd80230cc240ce07786161775300.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/95e2279e7cca8bd80230cc240ce07786161775300.jpg"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/2cbd5ef13511a323720783580ecc644c161775300.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/2cbd5ef13511a323720783580ecc644c161775300.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/2cbd5ef13511a323720783580ecc644c161775300.jpg"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/a3f2496a32fb9c3f3ec4b27f2b92284d161775300.gif",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/a3f2496a32fb9c3f3ec4b27f2b92284d161775300.gif",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/a3f2496a32fb9c3f3ec4b27f2b92284d161775300.gif"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/3c7f6622e653413f7e5ef1d097e168ae161775300.gif",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/3c7f6622e653413f7e5ef1d097e168ae161775300.gif",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/3c7f6622e653413f7e5ef1d097e168ae161775300.gif"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/8f096fd3f9c77708a048b4d70b29e44e161775300.gif",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/8f096fd3f9c77708a048b4d70b29e44e161775300.gif",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/8f096fd3f9c77708a048b4d70b29e44e161775300.gif"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/a457db8c73c2eee187e1d7120d7cecbc161775300.gif",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/a457db8c73c2eee187e1d7120d7cecbc161775300.gif",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/a457db8c73c2eee187e1d7120d7cecbc161775300.gif"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/5c128667f6a81ba3b6017624baab12aa161775300.gif",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/5c128667f6a81ba3b6017624baab12aa161775300.gif",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/5c128667f6a81ba3b6017624baab12aa161775300.gif"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/41607a133cf0c13680e2ecf09d9a436c161775300.gif",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/41607a133cf0c13680e2ecf09d9a436c161775300.gif",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/41607a133cf0c13680e2ecf09d9a436c161775300.gif"
-        }
-      ],
-      "cover": null
-    },
-    {
-      "id": "1263776949164048424",
-      "game_key": "arknights",
-      "game_name": "明日方舟",
-      "title": "【新增干员】",
-      "summary": "【新增干员】\n//奥尔佳\n“很高兴认识您，博士，我是奥尔佳·达尼洛夫娜·特里波列娃。当然，为了我们长久的友谊，您可以直接称我为奥尔佳。”\n\n____________\n“您好，我是奥尔佳。”面前的人向我伸出手。我有些局促，用围裙擦了擦手上的水。\n迟疑了一会，我回握住她的手，在脑海中搜寻这个名字。\n见我没反应，她重复了一遍。\n“哦，全名……有点长。奥尔佳·达尼洛夫娜·特里波列娃。”\n我这才想起来她是谁。走廊上她总是走得很快，和许多人侃侃而谈。她过来，也是联络任务的一部分吗？\n她会问我问题吗？我又该说些什么……\n“全名有点难写。”她指着我在咖啡杯上写下的名字。\n原来只是点咖啡而已。可我刚刚已经想好了要讲的故事……\n也是。和我，一个做咖啡的小干员，有什么可聊的呢？\n“一杯咖啡，简单的就好。”她向我微笑。\n“不知在做完这杯咖啡之后，可否请您和我聊聊？聊什么都行。”",
-      "url": "https://www.bilibili.com/opus/1263776949164048424",
-      "published_at": "2026-10-27T15:00:00+08:00",
-      "type": "dynamic",
-      "images": [
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/f32c7ef6398c9b37fecec04daf364f03161775300.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/f32c7ef6398c9b37fecec04daf364f03161775300.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/f32c7ef6398c9b37fecec04daf364f03161775300.jpg"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/254cb5640b14d0b31bed85bc75fc1dcf161775300.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/254cb5640b14d0b31bed85bc75fc1dcf161775300.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/254cb5640b14d0b31bed85bc75fc1dcf161775300.jpg"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/43cbf41e985bfe10327b8e4666d32963161775300.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/43cbf41e985bfe10327b8e4666d32963161775300.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/43cbf41e985bfe10327b8e4666d32963161775300.jpg"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/79bb2b31fa7a601d3e880602831ce383161775300.gif",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/79bb2b31fa7a601d3e880602831ce383161775300.gif",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/79bb2b31fa7a601d3e880602831ce383161775300.gif"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/eec4e3a43aaa3551ef0bcb82a29055d7161775300.gif",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/eec4e3a43aaa3551ef0bcb82a29055d7161775300.gif",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/eec4e3a43aaa3551ef0bcb82a29055d7161775300.gif"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/3ce03697e92744d40df1a9971c455667161775300.gif",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/3ce03697e92744d40df1a9971c455667161775300.gif",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/3ce03697e92744d40df1a9971c455667161775300.gif"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/ae11cf913d8d6b74f2fa39d30db98473161775300.gif",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/ae11cf913d8d6b74f2fa39d30db98473161775300.gif",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/ae11cf913d8d6b74f2fa39d30db98473161775300.gif"
-        }
-      ],
-      "cover": null
-    },
-    {
-      "id": "1263731852034703369",
-      "game_key": "genshin",
-      "game_name": "原神",
-      "title": "#原神# #米提亚# 旅行者好呀！能源协会顾问米提亚不光擅长科学研究，在战斗中也可以游刃有余应对各种场景，一起来看看吧~",
-      "summary": "#原神# #米提亚# \n\n旅行者好呀！能源协会顾问米提亚不光擅长科学研究，在战斗中也可以游刃有余应对各种场景，一起来看看吧~\n「万序衍盈」活动祈愿将于11月4日7.2版本更新后开启，「列律名虚·米提亚(雷)」的祈愿获取概率将大幅提升！",
-      "url": "https://www.bilibili.com/opus/1263731852034703369",
-      "published_at": "2026-10-27T12:05:00+08:00",
-      "type": "dynamic",
-      "images": [
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/c8e20d21f7c45f23056fe49f5a1c26f1401742377.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/c8e20d21f7c45f23056fe49f5a1c26f1401742377.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/c8e20d21f7c45f23056fe49f5a1c26f1401742377.jpg"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/67f6e5f688310ba6384721340f43a307401742377.gif",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/67f6e5f688310ba6384721340f43a307401742377.gif",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/67f6e5f688310ba6384721340f43a307401742377.gif"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/0e2aa5adcc312bcb0e2d9228e6ba61a6401742377.gif",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/0e2aa5adcc312bcb0e2d9228e6ba61a6401742377.gif",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/0e2aa5adcc312bcb0e2d9228e6ba61a6401742377.gif"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/1927a7ae3bf36a79e421aa3300feaab5401742377.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/1927a7ae3bf36a79e421aa3300feaab5401742377.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/1927a7ae3bf36a79e421aa3300feaab5401742377.jpg"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/db2ae8fae9467531b8021d8a8a094044401742377.gif",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/db2ae8fae9467531b8021d8a8a094044401742377.gif",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/db2ae8fae9467531b8021d8a8a094044401742377.gif"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/afb73c5f3af52fa1032e3db22f06578d401742377.gif",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/afb73c5f3af52fa1032e3db22f06578d401742377.gif",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/afb73c5f3af52fa1032e3db22f06578d401742377.gif"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/1e9161cda15c04768f4df8dc35781d88401742377.gif",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/1e9161cda15c04768f4df8dc35781d88401742377.gif",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/1e9161cda15c04768f4df8dc35781d88401742377.gif"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/f3bf87886f26f1ba394399f4fd8e38d6401742377.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/f3bf87886f26f1ba394399f4fd8e38d6401742377.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/f3bf87886f26f1ba394399f4fd8e38d6401742377.jpg"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/fa24d322fcfc42d0ccfd5dc6e7d3df9f401742377.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/fa24d322fcfc42d0ccfd5dc6e7d3df9f401742377.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/fa24d322fcfc42d0ccfd5dc6e7d3df9f401742377.jpg"
-        }
-      ],
-      "cover": null
-    },
-    {
-      "id": "1263730690227175433",
-      "game_key": "zzz",
-      "game_name": "绝区零",
-      "title": "#绝区零# #重返天空的旅程# 《绝区零》「丽都漫步」系列表情包第八弹",
-      "summary": "#绝区零# #重返天空的旅程# \n《绝区零》「丽都漫步」系列表情包第八弹\n \n亲爱的绳匠，「丽都漫步」系列表情包第八弹现已上架，欢迎绳匠们使用~\n \n大家可以通过以下方式下载使用！\n  \n▼ 微信表情包获取方式：\n方式一：\n①点击微信界面底部导航栏「我」，进入我的页面；\n②点击「表情」按钮，进入表情商城；\n③搜索「绝区零」，即可下载使用。\n  \n方式二：\n①进入聊天界面，点击表情按钮；\n②点击列表左侧「放大镜」图标，展开搜索页面；\n③点击「更多表情」按钮，进入微信表情商店；\n④搜索「绝区零」，即可下载使用。\n  \n—— 欢迎来到罗斯凯利法！——\n▼《绝区零》3.3版本「重返天空的旅程」现已上线！\n限定S级代理人「菲欧妮」&「维琳娜」现已加入调频&复刻。\n版本期间，参与活动可免费领取妄想天使时装！\nbilibili安卓端下载地址：https://www.biligame.com/detail/?id=108434\nbilibiliPC端下载地址：https://www.biligame.com/detail/?id=111210",
-      "url": "https://www.bilibili.com/opus/1263730690227175433",
-      "published_at": "2026-10-27T12:00:30+08:00",
-      "type": "dynamic",
-      "images": [
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/1e67270b5b120c2942574e82a483b47e1636034895.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/1e67270b5b120c2942574e82a483b47e1636034895.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/1e67270b5b120c2942574e82a483b47e1636034895.jpg"
-        }
-      ],
-      "cover": null
-    },
-    {
-      "id": "1263730673056743522",
-      "game_key": "hsr",
-      "game_name": "崩坏：星穹铁道",
-      "title": "《崩坏：星穹铁道》天外卫星通信：「艾莲」",
-      "summary": "「感谢指名，维多利亚家政不优秀员工艾莲•乔为您服务。需要我做份蛋包饭、给咖啡施加美味魔法，还是…清扫碍事的家伙？…你不会真的要点前两项，对吧？」\n \n认真敷衍，准时迟到，今天也是被闹钟击败的打工少女！\n即使在异世界也要写假期作业，身为旅行团的保镖却时常站着睡觉——\n但请千万别惹她，除了慵懒的尾巴，她还有锋利的鲨牙。\n\n中文CV：萧清源\n日文CV：若山诗音\n韩文CV：이지나",
-      "url": "https://www.bilibili.com/video/BV13uxT66EUb",
-      "published_at": "2026-10-27T12:00:26+08:00",
-      "type": "video",
-      "images": [],
-      "cover": {
-        "url": "https://i2.hdslb.com/bfs/archive/d90b5186464c332b416fec0941cd57f15cfd9d96.jpg",
-        "fallback": "https://i2.hdslb.com/bfs/archive/d90b5186464c332b416fec0941cd57f15cfd9d96.jpg",
-        "local": "https://i2.hdslb.com/bfs/archive/d90b5186464c332b416fec0941cd57f15cfd9d96.jpg"
       }
     }
   ]

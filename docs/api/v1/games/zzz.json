@@ -1,8 +1,8 @@
 {
   "api_version": "v1",
   "schema_version": 4,
-  "generated_at": "2026-11-26T23:13:37+08:00",
-  "generated_at_utc": "2026-11-26T15:13:37.000Z",
+  "generated_at": "2026-11-27T17:57:37+08:00",
+  "generated_at_utc": "2026-11-27T09:57:37.000Z",
   "count": 1,
   "cdn": {
     "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
@@ -39,7 +39,7 @@
         "status": "进行中",
         "start_at": "2026-11-25T04:00:00+08:00",
         "end_at": "2026-11-30T03:59:00+08:00",
-        "days_remaining": 4,
+        "days_remaining": 3,
         "note": "官方活动说明：实战模拟室双倍奖励",
         "url": "https://www.bilibili.com/opus/1273749863225360393",
         "source": "curated"
@@ -51,7 +51,7 @@
         "status": "进行中",
         "start_at": "2026-11-20T00:00:00+08:00",
         "end_at": "2026-12-02T05:59:00+08:00",
-        "days_remaining": 6,
+        "days_remaining": 5,
         "note": "网页预约与游戏内签到活动进行中",
         "url": "https://www.bilibili.com/opus/1272751066454163522",
         "source": "curated"
@@ -72,16 +72,16 @@
     "birthdays": [],
     "current_version": "3.3版本「重返天空的旅程」",
     "current_content": [
+      "#绝区零# #长日终尽# #绝区零知更鸟# 代理人机制介绍丨知更鸟篇",
+      "挽昼动画短片 | 最后的旅途",
       "#绝区零# #长日终尽# #绝区零挽昼# 代理人机制介绍丨挽昼篇",
-      "新品情报丨咔嚓留影系列mini相机盲盒",
-      "挽昼角色展示 | 日陨之前",
-      "#绝区零# #重返天空的旅程# 「数据悬赏-实战模拟」活动说明"
+      "新品情报丨咔嚓留影系列mini相机盲盒"
     ],
-    "current_version_days": 36,
+    "current_version_days": 37,
     "next_version": "3.4版本「长日终尽」",
     "next_version_kind": "version",
     "next_content": [],
-    "days_to_next_version": 6,
+    "days_to_next_version": 5,
     "preview_status": "已发布",
     "preview_title": "《绝区零》第三季纪念回顾 | 新世界前夜",
     "preview_start_at": "2026-11-21T12:00:30+08:00",
@@ -110,13 +110,13 @@
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1268925755981561865",
-            "fetched_at": "2026-11-26T23:13:37+08:00"
+            "fetched_at": "2026-11-27T17:57:37+08:00"
           },
           {
             "id": "akasha",
             "tier": "L2",
             "url": "https://www.miyoushe.com/zzz/article/79004828",
-            "fetched_at": "2026-11-26T23:13:37+08:00"
+            "fetched_at": "2026-11-27T17:57:37+08:00"
           }
         ],
         "version": "3.3",
@@ -136,20 +136,20 @@
         "start_at": "2026-11-11T12:00:00+08:00",
         "end_at": "2026-12-01T14:59:00+08:00",
         "status": "进行中",
-        "days_remaining": 5,
+        "days_remaining": 4,
         "confidence": "high",
         "sources": [
           {
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1271894437347196948",
-            "fetched_at": "2026-11-26T23:13:37+08:00"
+            "fetched_at": "2026-11-27T17:57:37+08:00"
           },
           {
             "id": "akasha",
             "tier": "L2",
             "url": "https://www.miyoushe.com/zzz/article/79450581",
-            "fetched_at": "2026-11-26T23:13:37+08:00"
+            "fetched_at": "2026-11-27T17:57:37+08:00"
           }
         ],
         "version": "3.3",
@@ -163,49 +163,49 @@
     ],
     "sources": [
       {
-        "title": "互动抽奖 #绝区零# #长日终尽# #绝区零星穹铁道联动# #绝区零知更鸟#",
-        "url": "https://www.bilibili.com/opus/1274959796308541461",
+        "title": "互动抽奖 #绝区零##绝区零周边#",
+        "url": "https://www.bilibili.com/opus/1275243650714959872",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T23:13:37+08:00"
+        "checked_at": "2026-11-27T17:57:37+08:00"
       },
       {
-        "title": "互动抽奖 #绝区零# #绝区零周边# #绝区零南宫羽#",
-        "url": "https://www.bilibili.com/opus/1274881228482281478",
+        "title": "#绝区零# #长日终尽# #绝区零知更鸟# 代理人机制介绍丨知更鸟篇",
+        "url": "https://www.bilibili.com/opus/1275241934852456464",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T23:13:37+08:00"
+        "checked_at": "2026-11-27T17:57:37+08:00"
       },
       {
-        "title": "互动抽奖 #绝区零# #绝区零周边# #绝区零艾莲#",
-        "url": "https://www.bilibili.com/opus/1274872054440525828",
+        "title": "《绝区零》挽昼动画短片 | 最后的旅途",
+        "url": "https://www.bilibili.com/video/BV1or1HzXEi1",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T23:13:37+08:00"
+        "checked_at": "2026-11-27T17:57:37+08:00"
       },
       {
-        "title": "#绝区零# #长日终尽# #绝区零挽昼# 代理人机制介绍丨挽昼篇",
-        "url": "https://www.bilibili.com/opus/1274870849653964825",
+        "title": "互动抽奖  #绝区零# #长日终尽# #绝区零挽昼#",
+        "url": "https://www.bilibili.com/opus/1275234249044132024",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T23:13:37+08:00"
+        "checked_at": "2026-11-27T17:57:37+08:00"
       },
       {
-        "title": "互动抽奖 #绝区零# #长日终尽# #绝区零挽昼#",
-        "url": "https://www.bilibili.com/opus/1274507553423753222",
+        "title": "互动抽奖 #绝区零# #长日终尽#",
+        "url": "https://www.bilibili.com/opus/1275230349216972837",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T23:13:37+08:00"
+        "checked_at": "2026-11-27T17:57:37+08:00"
       },
       {
-        "title": "互动抽奖 #绝区零# #绝区零比利# #生日快乐比利#",
-        "url": "https://www.bilibili.com/opus/1274499874006499351",
+        "title": "互动抽奖 #绝区零# #长日终尽#",
+        "url": "https://www.bilibili.com/opus/1275226487996284981",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T23:13:37+08:00"
+        "checked_at": "2026-11-27T17:57:37+08:00"
       }
     ],
-    "facts_checked_at": "2026-11-26T23:13:37+08:00",
+    "facts_checked_at": "2026-11-27T17:57:37+08:00",
     "pact_banners": [],
     "next_node_at": "2026-12-01T14:59:00+08:00",
     "next_node_label": "本期卡池结束（代理人调频）",

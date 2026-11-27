@@ -1,8 +1,8 @@
 {
   "api_version": "v1",
   "schema_version": 4,
-  "generated_at": "2026-11-26T23:13:37+08:00",
-  "generated_at_utc": "2026-11-26T15:13:37.000Z",
+  "generated_at": "2026-11-27T17:57:37+08:00",
+  "generated_at_utc": "2026-11-27T09:57:37.000Z",
   "count": 1,
   "cdn": {
     "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
@@ -39,7 +39,7 @@
         "status": "进行中",
         "start_at": "2026-11-26T00:00:00+08:00",
         "end_at": "2026-12-10T13:59:00+08:00",
-        "days_remaining": 14,
+        "days_remaining": 13,
         "note": "官方公告：11 月 26 日维护结束后 ~ 12 月 10 日 13:59",
         "url": "https://www.bilibili.com/opus/1274105486497546261",
         "source": "curated"
@@ -81,7 +81,7 @@
     "next_version": "暂未公布",
     "next_version_kind": null,
     "next_content": [],
-    "days_to_next_version": 14,
+    "days_to_next_version": 13,
     "preview_status": "尚未发布",
     "preview_title": null,
     "preview_start_at": null,
@@ -107,7 +107,7 @@
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1268539208915484704",
-            "fetched_at": "2026-11-26T23:13:37+08:00"
+            "fetched_at": "2026-11-27T17:57:37+08:00"
           }
         ],
         "version": null,
@@ -133,7 +133,7 @@
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1268539208915484704",
-            "fetched_at": "2026-11-26T23:13:37+08:00"
+            "fetched_at": "2026-11-27T17:57:37+08:00"
           }
         ],
         "version": null,
@@ -152,14 +152,14 @@
         "start_at": "2026-11-26T14:00:00+08:00",
         "end_at": "2026-12-10T13:59:00+08:00",
         "status": "进行中",
-        "days_remaining": 14,
+        "days_remaining": 13,
         "confidence": "high",
         "sources": [
           {
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1274105486497546261",
-            "fetched_at": "2026-11-26T23:13:37+08:00"
+            "fetched_at": "2026-11-27T17:57:37+08:00"
           }
         ],
         "version": null,
@@ -178,14 +178,14 @@
         "start_at": "2026-11-26T14:00:00+08:00",
         "end_at": "2026-12-10T13:59:00+08:00",
         "status": "进行中",
-        "days_remaining": 14,
+        "days_remaining": 13,
         "confidence": "high",
         "sources": [
           {
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1274105486497546261",
-            "fetched_at": "2026-11-26T23:13:37+08:00"
+            "fetched_at": "2026-11-27T17:57:37+08:00"
           }
         ],
         "version": null,
@@ -203,45 +203,45 @@
         "url": "https://www.bilibili.com/opus/1274940428170297413",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T23:13:37+08:00"
+        "checked_at": "2026-11-27T17:57:37+08:00"
       },
       {
         "title": "#蔚蓝档案# 【成员爱用品】即将更新！",
         "url": "https://www.bilibili.com/opus/1274894042493091848",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T23:13:37+08:00"
+        "checked_at": "2026-11-27T17:57:37+08:00"
       },
       {
         "title": "#蔚蓝档案# 无限制决战\"赛特之怒\"即将开启，参与活动即可获得礼物选择盒、合成石、辅导手册及其他各类养成素材",
         "url": "https://www.bilibili.com/opus/1274847656857829377",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T23:13:37+08:00"
+        "checked_at": "2026-11-27T17:57:37+08:00"
       },
       {
         "title": "《蔚蓝档案》11月26日维护更新说明",
         "url": "https://www.bilibili.com/opus/1274584815625044007",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T23:13:37+08:00"
+        "checked_at": "2026-11-27T17:57:37+08:00"
       },
       {
         "title": "#蔚蓝档案# “欢迎连接【什亭之箱】，老师。”",
         "url": "https://www.bilibili.com/opus/1274553881130434561",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T23:13:37+08:00"
+        "checked_at": "2026-11-27T17:57:37+08:00"
       },
       {
         "title": "#蔚蓝档案# 【掉落量2倍活动】即将开启！请不要错过哦！",
         "url": "https://www.bilibili.com/opus/1274522957337591824",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T23:13:37+08:00"
+        "checked_at": "2026-11-27T17:57:37+08:00"
       }
     ],
-    "facts_checked_at": "2026-11-26T23:13:37+08:00",
+    "facts_checked_at": "2026-11-27T17:57:37+08:00",
     "pact_banners": [],
     "next_node_at": "2026-12-10T13:59:00+08:00",
     "next_node_label": "本期卡池结束（这里是RABBIT 4，凭指尖完成证明）",

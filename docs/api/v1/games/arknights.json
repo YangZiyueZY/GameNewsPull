@@ -1,8 +1,8 @@
 {
   "api_version": "v1",
   "schema_version": 4,
-  "generated_at": "2026-11-26T23:13:37+08:00",
-  "generated_at_utc": "2026-11-26T15:13:37.000Z",
+  "generated_at": "2026-11-27T17:57:37+08:00",
+  "generated_at_utc": "2026-11-27T09:57:37.000Z",
   "count": 1,
   "cdn": {
     "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
@@ -72,16 +72,16 @@
     "birthdays": [],
     "current_version": "「雪山降临1101」版本",
     "current_content": [
+      "SideStory「星星不愿入睡」限时活动即将开启",
+      "SideStory「星星不愿入睡」活动宣传PV",
       "【集成战略「沉沦者的黑流树海」奖励可交互家具预告】",
-      "【集成战略「沉沦者的黑流树海」奖励服饰】",
-      "【中坚寻访】",
-      "集成战略「沉沦者的黑流树海」"
+      "【集成战略「沉沦者的黑流树海」奖励服饰】"
     ],
-    "current_version_days": 4,
+    "current_version_days": 5,
     "next_version": "暂未公布",
     "next_version_kind": null,
     "next_content": [],
-    "days_to_next_version": null,
+    "days_to_next_version": 6,
     "preview_status": "已发布",
     "preview_title": "《明日方舟》限定干员「塔露拉」前瞻PV",
     "preview_start_at": "2026-10-29T11:00:04+08:00",
@@ -110,7 +110,7 @@
             "id": "hypergryph-cms",
             "tier": "L0",
             "url": "https://ak.hypergryph.com/news/4916",
-            "fetched_at": "2026-11-26T23:13:37+08:00"
+            "fetched_at": "2026-11-27T17:57:37+08:00"
           }
         ],
         "version": null,
@@ -118,7 +118,7 @@
         "source": "hypergryph-cms"
       },
       {
-        "label": "常驻标准寻访",
+        "label": "常驻标准寻访 197 期",
         "phase": null,
         "pool_name": "常驻标准寻访",
         "pool_type": "standard_character",
@@ -136,66 +136,96 @@
           {
             "id": "prts-smw",
             "tier": "L2",
-            "url": "https://prts.wiki/w/%E6%96%87%E4%BB%B6:%E5%B9%B2%E5%91%98%E8%BD%AE%E6%8D%A2%E5%8D%A1%E6%B1%A0197.png",
-            "fetched_at": "2026-11-26T23:13:37+08:00"
+            "url": "https://prts.wiki/w/%E5%8D%A1%E6%B1%A0%E4%B8%80%E8%A7%88%2F%E5%B8%B8%E9%A9%BB%E6%A0%87%E5%87%86%E5%AF%BB%E8%AE%BF%2F2026",
+            "fetched_at": "2026-11-27T17:57:37+08:00"
           }
         ],
         "version": null,
-        "note": "商店兑换：薇薇安娜、深律（出率提升含 5★，以 wikitext 的 6★ 名单为准）",
+        "note": "5★ 出率提升：深律、但书、阿罗玛",
+        "source": "prts-smw"
+      },
+      {
+        "label": "常驻标准寻访 198 期",
+        "phase": null,
+        "pool_name": "常驻标准寻访",
+        "pool_type": "standard_character",
+        "pool_type_label": "常驻角色",
+        "characters": [
+          "娜仁图亚",
+          "霍尔海雅"
+        ],
+        "start_at": "2026-11-19T04:00:00+08:00",
+        "end_at": "2026-12-03T03:59:00+08:00",
+        "status": "进行中",
+        "days_remaining": 6,
+        "confidence": "low",
+        "sources": [
+          {
+            "id": "prts-smw",
+            "tier": "L2",
+            "url": "https://prts.wiki/w/%E5%8D%A1%E6%B1%A0%E4%B8%80%E8%A7%88%2F%E5%B8%B8%E9%A9%BB%E6%A0%87%E5%87%86%E5%AF%BB%E8%AE%BF%2F2026",
+            "fetched_at": "2026-11-27T17:57:37+08:00"
+          }
+        ],
+        "version": null,
+        "note": "5★ 出率提升：裁度、小满、乌啾",
         "source": "prts-smw"
       }
     ],
-    "current_up_characters": [],
+    "current_up_characters": [
+      "娜仁图亚",
+      "霍尔海雅"
+    ],
     "sources": [
+      {
+        "title": "SideStory「星星不愿入睡」限时活动即将开启",
+        "url": "https://www.bilibili.com/opus/1275220030510858274",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-27T17:57:37+08:00"
+      },
+      {
+        "title": "《明日方舟》SideStory「星星不愿入睡」活动宣传PV",
+        "url": "https://www.bilibili.com/video/BV19k1Jz5Ea8",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-27T17:57:37+08:00"
+      },
       {
         "title": "【集成战略「沉沦者的黑流树海」奖励可交互家具预告】",
         "url": "https://www.bilibili.com/opus/1274940428141985793",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T23:13:37+08:00"
+        "checked_at": "2026-11-27T17:57:37+08:00"
       },
       {
         "title": "【集成战略「沉沦者的黑流树海」奖励服饰】",
         "url": "https://www.bilibili.com/opus/1274924966276497410",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T23:13:37+08:00"
+        "checked_at": "2026-11-27T17:57:37+08:00"
       },
       {
         "title": "【中坚寻访】",
         "url": "https://www.bilibili.com/opus/1274624080207675394",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T23:13:37+08:00"
+        "checked_at": "2026-11-27T17:57:37+08:00"
       },
       {
         "title": "集成战略「沉沦者的黑流树海」",
         "url": "https://www.bilibili.com/opus/1274569343004311559",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-26T23:13:37+08:00"
-      },
-      {
-        "title": "互动抽奖 #序言组曲：火与路##明日方舟#",
-        "url": "https://www.bilibili.com/opus/1274507514790019080",
-        "type": "official_community",
-        "claims": [],
-        "checked_at": "2026-11-26T23:13:37+08:00"
-      },
-      {
-        "title": "互动抽奖 《明日方舟》× 名创优品「秋意茶话会」合作宣传PV 现已发布",
-        "url": "https://www.bilibili.com/opus/1274136425281880082",
-        "type": "official_community",
-        "claims": [],
-        "checked_at": "2026-11-26T23:13:37+08:00"
+        "checked_at": "2026-11-27T17:57:37+08:00"
       }
     ],
-    "facts_checked_at": "2026-11-26T23:13:37+08:00",
+    "facts_checked_at": "2026-11-27T17:57:37+08:00",
     "pact_banners": [],
-    "next_node_at": null,
-    "next_node_label": null,
-    "next_node_kind": null,
-    "next_node_source": null,
+    "next_node_at": "2026-12-03T03:59:00+08:00",
+    "next_node_label": "本期卡池结束（常驻标准寻访）",
+    "next_node_kind": "pool_end",
+    "next_node_source": "prts-smw",
     "icon_url_fallback": "https://yangziyuezy.github.io/GameNewsPull/img/7b9eaa62e6d43d44.jpg",
     "icon_url_local": "img/7b9eaa62e6d43d44.jpg",
     "preview_images_fallback": [

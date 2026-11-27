@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "checked_at": "2026-11-26T23:15:05+08:00",
-  "checked_at_utc": "2026-11-26T15:15:05.178Z",
+  "checked_at": "2026-11-27T17:58:07+08:00",
+  "checked_at_utc": "2026-11-27T09:58:07.570Z",
   "stale_since": null,
   "reason": null,
   "games": [
     {
       "name": "原神",
       "mid": "401742377",
-      "pages": 1,
-      "fetched": 13,
-      "parsed": 13,
-      "inserted": 0,
+      "pages": 2,
+      "fetched": 24,
+      "parsed": 24,
+      "inserted": 1,
       "coverage": 100,
-      "opus": "11/11"
+      "opus": "15/15"
     },
     {
       "name": "绝区零",
@@ -21,19 +21,19 @@
       "pages": 2,
       "fetched": 24,
       "parsed": 24,
-      "inserted": 1,
+      "inserted": 8,
       "coverage": 100,
-      "opus": "16/16"
+      "opus": "14/14"
     },
     {
       "name": "崩坏：星穹铁道",
       "mid": "1340190821",
-      "pages": 1,
-      "fetched": 13,
-      "parsed": 13,
-      "inserted": 0,
+      "pages": 2,
+      "fetched": 25,
+      "parsed": 25,
+      "inserted": 1,
       "coverage": 100,
-      "opus": "5/5"
+      "opus": "10/10"
     },
     {
       "name": "崩坏：因缘精灵",
@@ -48,32 +48,32 @@
     {
       "name": "明日方舟",
       "mid": "161775300",
-      "pages": 1,
-      "fetched": 12,
-      "parsed": 12,
-      "inserted": 0,
+      "pages": 2,
+      "fetched": 24,
+      "parsed": 24,
+      "inserted": 2,
       "coverage": 100,
-      "opus": "10/10"
+      "opus": "20/20"
     },
     {
       "name": "明日方舟：终末地",
       "mid": "1265652806",
-      "pages": 1,
-      "fetched": 13,
-      "parsed": 13,
-      "inserted": 0,
+      "pages": 2,
+      "fetched": 25,
+      "parsed": 25,
+      "inserted": 2,
       "coverage": 100,
-      "opus": "11/11"
+      "opus": "19/19"
     },
     {
       "name": "鸣潮",
       "mid": "1955897084",
-      "pages": 1,
-      "fetched": 13,
-      "parsed": 13,
-      "inserted": 0,
+      "pages": 2,
+      "fetched": 25,
+      "parsed": 25,
+      "inserted": 1,
       "coverage": 100,
-      "opus": "4/4"
+      "opus": "10/10"
     },
     {
       "name": "蔚蓝档案",
@@ -91,29 +91,29 @@
       "pages": 2,
       "fetched": 24,
       "parsed": 24,
-      "inserted": 1,
+      "inserted": 3,
       "coverage": 100,
-      "opus": "17/17"
+      "opus": "16/16"
     },
     {
       "name": "白银之城",
       "mid": "3546879304403742",
+      "pages": 2,
+      "fetched": 24,
+      "parsed": 24,
+      "inserted": 2,
+      "coverage": 100,
+      "opus": "8/8"
+    },
+    {
+      "name": "碧蓝航线",
+      "mid": "233114659",
       "pages": 1,
       "fetched": 12,
       "parsed": 12,
       "inserted": 0,
       "coverage": 100,
-      "opus": "3/3"
-    },
-    {
-      "name": "碧蓝航线",
-      "mid": "233114659",
-      "pages": 8,
-      "fetched": 96,
-      "parsed": 96,
-      "inserted": 60,
-      "coverage": 100,
-      "opus": "79/79"
+      "opus": "9/9"
     },
     {
       "name": "异环",
@@ -128,35 +128,38 @@
   ],
   "failed_games": [],
   "endpoint_check": {},
-  "store_count": 1089,
-  "feed_generated_at": "2026-11-26T23:13:37+08:00",
+  "store_count": 1109,
+  "feed_generated_at": "2026-11-27T17:57:37+08:00",
   "banner_warnings": [
+    "[wutheringwaves] 「但愿长圆如此夜」字典未收录（官方源，已保留）: 心",
+    "[wutheringwaves] 「余心所向九死未悔」字典未收录（官方源，已保留）: 锁暝",
+    "[wutheringwaves] 「仙风玉影水天清」字典未收录（官方源，已保留）: 清宵",
+    "[wutheringwaves] 「身赴三途」字典未收录（官方源，已保留）: 景燃",
+    "[wutheringwaves] 「牵翎祈万声」字典未收录（官方源，已保留）: 玄翎",
+    "[wutheringwaves] 「斟雨祝荷风」字典未收录（官方源，已保留）: 玄翎",
+    "[wutheringwaves] 「显影于明日」字典未收录（官方源，已保留）: 洛瑟菈",
     "[azurpromilia] 角色字典覆盖不足(3 条)，已跳过名单校验并降级置信度",
     "[yh] 「离线的算式」字典未收录（官方源，已保留）: Exe",
     "[bluearchive] 「夏日炎炎 笑靥未改」字典未收录（官方源，已保留）: 野宫",
     "[bluearchive] 「指挥室通知监视员，迅速前往滑梯」字典未收录（官方源，已保留）: 康娜",
     "[bluearchive] 「监视员了解。等我吃完甜甜圈冰淇淋哦」字典未收录（官方源，已保留）: 吹雪",
-    "[arknights] 丢弃候选「常驻标准寻访」: UP 角色 5 人超过上限 2",
-    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 但书、深律、阿罗玛",
-    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 玫拉、波卜、雪猎",
-    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 和弦、寒檀、聆音",
-    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 洋灰、海霓、录武官",
-    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 烈夏、折桠、裂响",
-    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 空构、衡沙、风絮",
-    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 鸿雪、逻各斯、晓歌、铎铃、撷英调香师",
-    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 琳琅诗怀雅、缇缇、子月、深律、温米",
-    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 焰影苇草、莱伊、刺玫、历阵锐枪芬、特克诺",
-    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 林、但书、阿罗玛、波卜",
-    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 赫德雷、阿斯卡纶、明椒、和弦、响石",
-    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 白铁、维娜·维多利亚、渡桥、寻澜、吉星",
-    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 圣约送葬人、洋灰、海霓、录武官",
-    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 杏仁、诺威尔",
-    "[arknights] 丢弃候选「常驻标准寻访」: UP 角色 3 人超过上限 2",
-    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 鸿雪、铎铃、青枳、烈夏",
-    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 历阵锐枪芬、衡沙、特克诺",
-    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 白铁、莱伊、寒檀、深律、吉星",
-    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 多萝西、焰影苇草、玫拉、聆音、雪猎",
-    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 琳琅诗怀雅、锏、夏栎、阿罗玛、阿兰娜",
+    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 逻各斯、鸿雪",
+    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 琳琅诗怀雅、缇缇",
+    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 焰影苇草、莱伊",
+    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 林",
+    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 阿斯卡纶、赫德雷",
+    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 白铁、维娜·维多利亚",
+    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 圣约送葬人",
+    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 鸿雪",
+    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 莱伊、白铁",
+    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 多萝西、焰影苇草",
+    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 锏、琳琅诗怀雅",
+    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 菲亚梅塔",
+    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 伊内丝、烛煌",
+    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 老鲤",
+    "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 赫德雷、司霆惊蛰",
+    "[wutheringwaves] 「第一期」结束时间由 bili-dynamics(L0)补齐",
+    "[wutheringwaves] 「第一期」结束时间由 bili-dynamics(L0)补齐",
     "[genshin] 「7.2 版本」结束时间由 akasha(L2)补齐",
     "[zzz] 「3.3 版本」开始时间由 akasha(L2)补齐",
     "[zzz] 「3.3 版本」结束时间由 akasha(L2)补齐",
@@ -174,18 +177,19 @@
     "[genshin] 丢弃无 UP 角色的卡池: 7.2 版本",
     "[genshin] 丢弃无 UP 角色的卡池: 7.2 版本",
     "[genshin] 丢弃无起止时间的卡池: 7.2 活动祈愿",
-    "[arknights] 丢弃无 UP 角色的卡池: 常驻标准寻访",
-    "[arknights] 丢弃无 UP 角色的卡池: 常驻标准寻访",
-    "[arknights] 丢弃无 UP 角色的卡池: 常驻标准寻访",
-    "[arknights] 丢弃无 UP 角色的卡池: 常驻标准寻访",
-    "[arknights] 丢弃无 UP 角色的卡池: 常驻标准寻访",
-    "[arknights] 丢弃无 UP 角色的卡池: 常驻标准寻访",
-    "[arknights] 丢弃无 UP 角色的卡池: 常驻标准寻访",
-    "[arknights] 丢弃无 UP 角色的卡池: 常驻标准寻访",
+    "[arknights] 丢弃无 UP 角色的卡池: 常驻标准寻访 175 期",
+    "[arknights] 丢弃无 UP 角色的卡池: 常驻标准寻访 177 期",
+    "[arknights] 丢弃无 UP 角色的卡池: 常驻标准寻访 179 期",
+    "[arknights] 丢弃无 UP 角色的卡池: 常驻标准寻访 180 期",
+    "[arknights] 丢弃无 UP 角色的卡池: 常驻标准寻访 181 期",
+    "[arknights] 丢弃无 UP 角色的卡池: 常驻标准寻访 186 期",
+    "[arknights] 丢弃无 UP 角色的卡池: 常驻标准寻访 187 期",
+    "[arknights] 丢弃无 UP 角色的卡池: 常驻标准寻访 189 期",
+    "[arknights] 丢弃无 UP 角色的卡池: 常驻标准寻访 190 期",
+    "[arknights] 丢弃无 UP 角色的卡池: 常驻标准寻访 191 期",
     "[endfield] 丢弃无起止时间的卡池: 重构寻访1",
     "[wutheringwaves] 丢弃无 UP 角色的卡池: 第一期",
-    "[wutheringwaves] 丢弃无 UP 角色的卡池: 第一期",
-    "[节点告警] 以下游戏既无版本日期也无卡池排期，页面只能显示「暂未公布」: arknights"
+    "[wutheringwaves] 丢弃无 UP 角色的卡池: 第一期"
   ],
   "banner_sources": [
     {
@@ -195,7 +199,7 @@
     },
     {
       "id": "kuro-site",
-      "candidates": 0,
+      "candidates": 16,
       "ok": true
     },
     {
@@ -221,7 +225,7 @@
     },
     {
       "id": "prts-smw",
-      "candidates": 20,
+      "candidates": 24,
       "ok": true
     },
     {
@@ -248,8 +252,5 @@
   "banner_dict": {
     "added": 0,
     "updated": 0
-  },
-  "next_node_missing": [
-    "arknights"
-  ]
+  }
 }

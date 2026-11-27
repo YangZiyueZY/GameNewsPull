@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T23:13:29+08:00",
+  "generated_at": "2026-11-27T17:57:37+08:00",
   "games": {
     "genshin": [
       {
@@ -7,7 +7,7 @@
         "month_day": "10-13",
         "url": "https://www.bilibili.com/opus/1258535371102224393",
         "source": "official",
-        "learned_at": "2026-11-26T15:13:29.960Z",
+        "learned_at": "2026-11-27T09:57:37.201Z",
         "explicit": false
       },
       {
@@ -15,7 +15,7 @@
         "month_day": "10-14",
         "url": "https://www.bilibili.com/opus/1258906456270307337",
         "source": "official",
-        "learned_at": "2026-11-26T15:13:29.960Z",
+        "learned_at": "2026-11-27T09:57:37.201Z",
         "explicit": false
       },
       {
@@ -23,7 +23,7 @@
         "month_day": "10-16",
         "url": "https://www.bilibili.com/opus/1259648626612764673",
         "source": "official",
-        "learned_at": "2026-11-26T15:13:29.960Z",
+        "learned_at": "2026-11-27T09:57:37.201Z",
         "explicit": false
       },
       {
@@ -31,7 +31,7 @@
         "month_day": "10-19",
         "url": "https://www.bilibili.com/opus/1260761882134839296",
         "source": "official",
-        "learned_at": "2026-11-26T15:13:29.960Z",
+        "learned_at": "2026-11-27T09:57:37.201Z",
         "explicit": false
       },
       {
@@ -39,7 +39,7 @@
         "month_day": "10-25",
         "url": "https://www.bilibili.com/opus/1262988393175842838",
         "source": "official",
-        "learned_at": "2026-11-26T15:13:29.960Z",
+        "learned_at": "2026-11-27T09:57:37.201Z",
         "explicit": false
       },
       {
@@ -47,7 +47,7 @@
         "month_day": "10-27",
         "url": "https://www.bilibili.com/opus/1263730563498377222",
         "source": "official",
-        "learned_at": "2026-11-26T15:13:29.960Z",
+        "learned_at": "2026-11-27T09:57:37.201Z",
         "explicit": false
       },
       {
@@ -55,7 +55,7 @@
         "month_day": "10-29",
         "url": "https://www.bilibili.com/opus/1264472733873340419",
         "source": "official",
-        "learned_at": "2026-11-26T15:13:29.960Z",
+        "learned_at": "2026-11-27T09:57:37.201Z",
         "explicit": false
       },
       {
@@ -63,7 +63,7 @@
         "month_day": "10-31",
         "url": "https://www.bilibili.com/opus/1265214904208457746",
         "source": "official",
-        "learned_at": "2026-11-26T15:13:29.960Z",
+        "learned_at": "2026-11-27T09:57:37.201Z",
         "explicit": false
       },
       {
@@ -71,7 +71,7 @@
         "month_day": "11-02",
         "url": "https://www.bilibili.com/opus/1265957074590760966",
         "source": "official",
-        "learned_at": "2026-11-26T15:13:29.960Z",
+        "learned_at": "2026-11-27T09:57:37.201Z",
         "explicit": false
       },
       {
@@ -79,7 +79,7 @@
         "month_day": "11-05",
         "url": "https://www.bilibili.com/opus/1267070330112835603",
         "source": "official",
-        "learned_at": "2026-11-26T15:13:29.960Z",
+        "learned_at": "2026-11-27T09:57:37.201Z",
         "explicit": false
       },
       {
@@ -87,7 +87,7 @@
         "month_day": "11-11",
         "url": "https://www.bilibili.com/opus/1269296841156984832",
         "source": "official",
-        "learned_at": "2026-11-26T15:13:29.960Z",
+        "learned_at": "2026-11-27T09:57:37.201Z",
         "explicit": false
       },
       {
@@ -95,7 +95,7 @@
         "month_day": "11-15",
         "url": "https://www.bilibili.com/opus/1270781181855531017",
         "source": "official",
-        "learned_at": "2026-11-26T15:13:29.960Z",
+        "learned_at": "2026-11-27T09:57:37.201Z",
         "explicit": false
       },
       {
@@ -103,7 +103,7 @@
         "month_day": "11-20",
         "url": "https://www.bilibili.com/opus/1272636607710625801",
         "source": "official",
-        "learned_at": "2026-11-26T15:13:29.960Z",
+        "learned_at": "2026-11-27T09:57:37.201Z",
         "explicit": false
       },
       {
@@ -111,7 +111,7 @@
         "month_day": "11-20",
         "url": "https://www.bilibili.com/opus/1272636607701188631",
         "source": "official",
-        "learned_at": "2026-11-26T15:13:29.960Z",
+        "learned_at": "2026-11-27T09:57:37.201Z",
         "explicit": false
       },
       {
@@ -119,7 +119,7 @@
         "month_day": "11-23",
         "url": "https://www.bilibili.com/opus/1273749863246331908",
         "source": "official",
-        "learned_at": "2026-11-26T15:13:29.960Z",
+        "learned_at": "2026-11-27T09:57:37.201Z",
         "explicit": false
       },
       {
@@ -127,7 +127,7 @@
         "month_day": "11-26",
         "url": "https://www.bilibili.com/opus/1274863118730657797",
         "source": "official",
-        "learned_at": "2026-11-26T15:13:29.960Z",
+        "learned_at": "2026-11-27T09:57:37.201Z",
         "explicit": false
       }
     ]

@@ -1,14 +1,210 @@
 {
   "api_version": "v1",
   "schema_version": 4,
-  "generated_at": "2026-11-26T23:13:37+08:00",
-  "generated_at_utc": "2026-11-26T15:13:37.000Z",
+  "generated_at": "2026-11-27T17:57:37+08:00",
+  "generated_at_utc": "2026-11-27T09:57:37.000Z",
   "count": 50,
   "cdn": {
     "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
     "api": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/api/v1"
   },
   "items": [
+    {
+      "id": "1275241934852456464",
+      "game_key": "zzz",
+      "game_name": "绝区零",
+      "title": "#绝区零# #长日终尽# #绝区零知更鸟# 代理人机制介绍丨知更鸟篇",
+      "summary": "#绝区零# #长日终尽# #绝区零知更鸟# \n代理人机制介绍丨知更鸟篇\n  \n更新即将完成…\n资料库中已收录代理人「知更鸟」的战斗相关信息，重点内容解析完毕，请查收。\n \n「让今天的舞台热闹起来吧！」\n  \n—— 欢迎来到罗斯凯利法！——\n▼《绝区零》3.4版本「长日终尽」将于12月2日上线！\n3.4版本「决战于黎明之前」预约活动现已开启，参与版本预约&签到活动，可领取640菲林！\n版本期间，登录即领联动限定S级代理人「知更鸟」及其养成材料，参与签到即可领取加密母带×10、菲林×1840、配饰：「帕姆」趴趴等奖励，参与活动还可免费领取邦布「帕姆」。\nbilibili安卓端下载地址：https://www.biligame.com/detail/?id=108434\nbilibiliPC端下载地址：https://www.biligame.com/detail/?id=111210",
+      "url": "https://www.bilibili.com/opus/1275241934852456464",
+      "published_at": "2026-11-27T12:30:00+08:00",
+      "type": "dynamic",
+      "images": [
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/08e6531625d9cb6985ccf372f31ade9e1636034895.png",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/08e6531625d9cb6985ccf372f31ade9e1636034895.png",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/08e6531625d9cb6985ccf372f31ade9e1636034895.png"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/2aa757b12adc18d7849dade58746a8d41636034895.jpg",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/2aa757b12adc18d7849dade58746a8d41636034895.jpg",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/2aa757b12adc18d7849dade58746a8d41636034895.jpg"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/2e2b75c12761c56bb1ac102e963677dc1636034895.jpg",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/2e2b75c12761c56bb1ac102e963677dc1636034895.jpg",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/2e2b75c12761c56bb1ac102e963677dc1636034895.jpg"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/153956ba7e446425c6e47f5c6836044b1636034895.gif",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/153956ba7e446425c6e47f5c6836044b1636034895.gif",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/153956ba7e446425c6e47f5c6836044b1636034895.gif"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/a455960cd6b7cd2e4d44df6ca069e77d1636034895.gif",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/a455960cd6b7cd2e4d44df6ca069e77d1636034895.gif",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/a455960cd6b7cd2e4d44df6ca069e77d1636034895.gif"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/daf4569815b58d5a85f83458511a6d011636034895.gif",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/daf4569815b58d5a85f83458511a6d011636034895.gif",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/daf4569815b58d5a85f83458511a6d011636034895.gif"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/94e5eefb0900d7b01d9a05c1d7cd40271636034895.gif",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/94e5eefb0900d7b01d9a05c1d7cd40271636034895.gif",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/94e5eefb0900d7b01d9a05c1d7cd40271636034895.gif"
+        }
+      ],
+      "cover": null
+    },
+    {
+      "id": "1275241934836727826",
+      "game_key": "wutheringwaves",
+      "game_name": "鸣潮",
+      "title": "#鸣潮# #鸣潮3.8版本# 各位漂泊者好~欢迎收看MetaGames开发组播报喵！",
+      "summary": "#鸣潮# #鸣潮3.8版本#\n各位漂泊者好~欢迎收看MetaGames开发组播报喵！\n《第二索拉：未名之梦》自上线以来反响热烈，看到大家这么喜欢，我们都很开心喵🐾！\n\n那么，今天就来给大家分享一些学园生活中的有趣数据——\n令人倍感意外的故事结局、连开发组都吓了一跳的「学院徽记」数量、商店中最受欢迎的商品……全都记录在这里喵！\n你在第二索拉学院中度过的，是一段怎样的时光呢？\n\n※以下内容可能涉及剧透~还没体验过《第二索拉：未名之梦》的漂泊者，可以在游玩之后再来看看喵🐱！\n——————————————————\n《鸣潮》3.8版本「旧梦凋零的百合」已开启！\n下载游戏：https://www.biligame.com/detail/?id=108820",
+      "url": "https://www.bilibili.com/opus/1275241934836727826",
+      "published_at": "2026-11-27T12:30:00+08:00",
+      "type": "dynamic",
+      "images": [
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/db6eee760899a6eb9a4c78c045045c781955897084.png",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/db6eee760899a6eb9a4c78c045045c781955897084.png",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/db6eee760899a6eb9a4c78c045045c781955897084.png"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/140421d58be85f28e2b283af72bb5b5e1955897084.png",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/140421d58be85f28e2b283af72bb5b5e1955897084.png",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/140421d58be85f28e2b283af72bb5b5e1955897084.png"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/25fa071bf3d75c957c6911cfc8feefdd1955897084.png",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/25fa071bf3d75c957c6911cfc8feefdd1955897084.png",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/25fa071bf3d75c957c6911cfc8feefdd1955897084.png"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/cf3720a4a7eec2764cf3ae020d5a7ee51955897084.png",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/cf3720a4a7eec2764cf3ae020d5a7ee51955897084.png",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/cf3720a4a7eec2764cf3ae020d5a7ee51955897084.png"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/2199ffa7d37037383a6e36a115e716fe1955897084.png",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/2199ffa7d37037383a6e36a115e716fe1955897084.png",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/2199ffa7d37037383a6e36a115e716fe1955897084.png"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/016946d9dada1687b1151401e0baa7e31955897084.png",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/016946d9dada1687b1151401e0baa7e31955897084.png",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/016946d9dada1687b1151401e0baa7e31955897084.png"
+        },
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/bd32fee50212bebac5cbaa67befba9051955897084.png",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/bd32fee50212bebac5cbaa67befba9051955897084.png",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/bd32fee50212bebac5cbaa67befba9051955897084.png"
+        }
+      ],
+      "cover": null
+    },
+    {
+      "id": "1275234334910971958",
+      "game_key": "zzz",
+      "game_name": "绝区零",
+      "title": "《绝区零》挽昼动画短片 | 最后的旅途",
+      "summary": "「挽昼，你和教授一直都不一样…你一直都能看见，不是吗？」\n \n挽昼女士CV\n中：张若瑜\n日：大原沙耶香\n \n艾尔妲·挽昼CV\n中：张若瑜\n日：大原沙耶香\n \n林德薇恩·挽昼CV\n中：张若瑜\n日：大原沙耶香\n \n德蕾琪娜·挽昼CV\n中：张若瑜\n日：大原沙耶香\n \n动画制作：摔跤社&火药方糖\n制作协力：麦冬映画\n \n—— 欢迎来到罗斯凯利法！——\n▼《绝区零》3.4版本「长日终尽」将于12月2日上线！\n3.4版本「决战于黎明之前」预约活动现已开启，参与版本预约&签到活动，可领取640菲林！\n版本期间，登录即领",
+      "url": "https://www.bilibili.com/video/BV1or1HzXEi1",
+      "published_at": "2026-11-27T12:00:31+08:00",
+      "type": "video",
+      "images": [],
+      "cover": {
+        "url": "https://i1.hdslb.com/bfs/archive/49d9187838df6a612b749d2ce258a3ddf23279d9.jpg",
+        "fallback": "https://i1.hdslb.com/bfs/archive/49d9187838df6a612b749d2ce258a3ddf23279d9.jpg",
+        "local": "https://i1.hdslb.com/bfs/archive/49d9187838df6a612b749d2ce258a3ddf23279d9.jpg"
+      }
+    },
+    {
+      "id": "1275234304867172376",
+      "game_key": "endfield",
+      "game_name": "明日方舟：终末地",
+      "title": "「2027明日方舟：终末地终末回响专场演出-镌宇留声」先导预告公开",
+      "summary": "最初，人们记录声音，是为了抵抗遗忘。\n留声机的童谣，深海的鲸歌，废墟上的咏叹……\n可生命如此短暂，连文明也只是一瞬划过的流星。\n于是，我们开始思考，\n如果只有一瞬的声音，也能让文明抵达未来？\n如果……将它们刻录、保存，送往一片未知的星海？\n听着！金唱片计划——这伟大的名字！\n我们正在进行一场前所未有的远征，将塔卫二的旋律，文明的乐章，带往远方！\n\n---------------------------------------------------------\n\n原创音乐作曲：Hans Zimmer（汉斯",
+      "url": "https://www.bilibili.com/video/BV1GF17zKEiP",
+      "published_at": "2026-11-27T12:00:24+08:00",
+      "type": "video",
+      "images": [],
+      "cover": {
+        "url": "https://i2.hdslb.com/bfs/archive/c332388ea14a5beac6ff5ad2c9d0657bf09f50cc.jpg",
+        "fallback": "https://i2.hdslb.com/bfs/archive/c332388ea14a5beac6ff5ad2c9d0657bf09f50cc.jpg",
+        "local": "https://i2.hdslb.com/bfs/archive/c332388ea14a5beac6ff5ad2c9d0657bf09f50cc.jpg"
+      }
+    },
+    {
+      "id": "1275234203899789346",
+      "game_key": "genshin",
+      "game_name": "原神",
+      "title": "#原神# #原神千星奇域# #奇域拾光季# 亲爱的旅行者，「奇域拾光季」网页活动限时开启，参与必得奇偶动作、重现晶簇等…",
+      "summary": "#原神# #原神千星奇域# #奇域拾光季# \n\n亲爱的旅行者，「奇域拾光季」网页活动限时开启，参与必得奇偶动作、重现晶簇等游戏内奖励！\n点击https://b23.tv/4cGCWta 参与活动~\n\n〓活动时间〓\n2026/11/27 12:00 至 2026/12/08 03:59（服务器时间）\n*活动结束后不可领取奖励，请旅行者及时领取*\n\n〓参与条件〓\n冒险等阶≥1级的旅行者即可参与活动\n\n〓活动介绍〓\n活动期间，旅行者完成网页任务，即可领取重现晶簇、「千星奇域」道具等奖励，任务详情请见活动页面。\n※数据统计可能存在1-2小时延迟，若任务进度未更新，请旅行者刷新页面或耐心等待。\n\n〓活动注意事项〓\n1、请各位旅行者登录米哈游通行证并绑定《原神》中的游戏角色参与活动，以保证活动奖励的正常发放与领取。\n2、活动结束后将无法参与活动与领取奖励，请旅行者及时参与。\n3、游戏内奖励将通过游戏内邮件发放，邮件有效期为30天，请及时领取。\n4、该网页活动仅供娱乐，不代表游戏内实际剧情与设定，与游戏内实际情况无关。",
+      "url": "https://www.bilibili.com/opus/1275234203899789346",
+      "published_at": "2026-11-27T12:00:00+08:00",
+      "type": "dynamic",
+      "images": [
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/3497e61a20337bea4475b9adb69838be401742377.png",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/3497e61a20337bea4475b9adb69838be401742377.png",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/3497e61a20337bea4475b9adb69838be401742377.png"
+        }
+      ],
+      "cover": null
+    },
+    {
+      "id": "1275220030510858274",
+      "game_key": "arknights",
+      "game_name": "明日方舟",
+      "title": "SideStory「星星不愿入睡」限时活动即将开启",
+      "summary": "SideStory「星星不愿入睡」限时活动即将开启\n\n一、全新SideStory「星星不愿入睡」，活动关卡开启\n二、【惊奇幻想夜】限时寻访开启\n三、新干员登场，信赖获取提升\n四、【冰原信使】&【时代】系列，新装限时上架\n五、复刻时装限时上架\n六、新增罗德岛动态频道\n七、勋章系统优化\n八、界面配置优化\n九、PC端新增等比例缩放窗口功能\n十、新增【梦途休憩小屋】主题家具，限时获取\n十一、礼包限时上架\n十二、采购中心【高级凭证区】&【通用凭证区】可兑换内容追加\n\n更多活动内容请持续关注《明日方舟》游戏内公告及官方公告。",
+      "url": "https://www.bilibili.com/opus/1275220030510858274",
+      "published_at": "2026-11-27T11:05:00+08:00",
+      "type": "dynamic",
+      "images": [
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/3e7f62e673b15a2fc12cdfffb31b1377161775300.jpg",
+          "fallback": "https://i0.hdslb.com/bfs/new_dyn/3e7f62e673b15a2fc12cdfffb31b1377161775300.jpg",
+          "local": "https://i0.hdslb.com/bfs/new_dyn/3e7f62e673b15a2fc12cdfffb31b1377161775300.jpg"
+        }
+      ],
+      "cover": null
+    },
+    {
+      "id": "1275218765645086816",
+      "game_key": "silverpalace",
+      "game_name": "白银之城",
+      "title": "《白银之城》世界观PV | 童话的起笔",
+      "summary": "铅字如藤蔓，爬满枯卷。\n黑鸟落在窗棂，诉说结局，从不改变。\n直至你的歌中亦有了这字眼。\n\n幽深夜里，唯有银与血在呢喃：\n“寓言，终会应验。”\n\n----------------------------------\n《白银之城》全球公测正式定档2026年12月14日！\n▍「疑案开幕」预抽卡活动开启中\n参与网页活动邀请好友预约，即可领取专属游戏道具、更有机会抽5080显卡~\n点击参与>>>https://www.bilibili.com/blackboard/era/ro7bzXmkZ2XJ8Ela.html",
+      "url": "https://www.bilibili.com/video/BV1uT17zhEJX",
+      "published_at": "2026-11-27T11:00:06+08:00",
+      "type": "video",
+      "images": [],
+      "cover": {
+        "url": "https://i0.hdslb.com/bfs/archive/6fcf6af54e42b7f361718eb08c849ef9555f78ad.jpg",
+        "fallback": "https://i0.hdslb.com/bfs/archive/6fcf6af54e42b7f361718eb08c849ef9555f78ad.jpg",
+        "local": "https://i0.hdslb.com/bfs/archive/6fcf6af54e42b7f361718eb08c849ef9555f78ad.jpg"
+      }
+    },
+    {
+      "id": "1275218761391013957",
+      "game_key": "arknights",
+      "game_name": "明日方舟",
+      "title": "《明日方舟》SideStory「星星不愿入睡」活动宣传PV",
+      "summary": "《明日方舟》SideStory「星星不愿入睡」活动即将开启\n\n在那个不可思议的夜晚，梦与现实不再泾渭分明。\n\n————————————\n详细活动内容敬请关注《明日方舟》游戏内相关公告。",
+      "url": "https://www.bilibili.com/video/BV19k1Jz5Ea8",
+      "published_at": "2026-11-27T11:00:05+08:00",
+      "type": "video",
+      "images": [],
+      "cover": {
+        "url": "https://i1.hdslb.com/bfs/archive/87874efad17dc24ec116c4dcdb6db5f04f25ea1d.jpg",
+        "fallback": "https://i1.hdslb.com/bfs/archive/87874efad17dc24ec116c4dcdb6db5f04f25ea1d.jpg",
+        "local": "https://i1.hdslb.com/bfs/archive/87874efad17dc24ec116c4dcdb6db5f04f25ea1d.jpg"
+      }
+    },
     {
       "id": "1274940428149325825",
       "game_key": "azurlane",
@@ -928,170 +1124,6 @@
           "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/8bb3c8fed91b3ca6.jpg",
           "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/8bb3c8fed91b3ca6.jpg",
           "local": "img/8bb3c8fed91b3ca6.jpg"
-        }
-      ],
-      "cover": null
-    },
-    {
-      "id": "1274182795947671576",
-      "game_key": "yh",
-      "game_name": "异环",
-      "title": "限定S级角色「卡厄斯」即将返场",
-      "summary": "#致电空想迷数# #异环# #异环卡厄斯#\n「无归路」限定棋盘、「沉雾礼遇」、「追猎特刊」弧盘研募计划即将返场，可获得限定S级角色「卡厄斯」和限定S级弧盘「众人追寻之物」！\n\n▸开放时间\n2026/11/26 更新维护后~2026/12/17 5:59（服务器时间）\n\n▸特别说明\n所有「限定棋盘」共享S级角色保底计数、集点赠礼计数和棋盘变格计数；\n装扮礼遇活动计数仅跟随对应棋盘，不同棋盘互相独立，同名棋盘的对应礼遇活动计数将被保留。\n\n*更多详情，请前往游戏内「斯卡布罗集市」、「弧盘商店」查看。",
-      "url": "https://www.bilibili.com/opus/1274182795947671576",
-      "published_at": "2026-11-24T16:00:00+08:00",
-      "type": "dynamic",
-      "images": [
-        {
-          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/f16fda7a18a201fe.jpg",
-          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/f16fda7a18a201fe.jpg",
-          "local": "img/f16fda7a18a201fe.jpg"
-        },
-        {
-          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/44defa520ab4702c.jpg",
-          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/44defa520ab4702c.jpg",
-          "local": "img/44defa520ab4702c.jpg"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/74926ab47e438115e9a624532720560a3546636978489848.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/74926ab47e438115e9a624532720560a3546636978489848.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/74926ab47e438115e9a624532720560a3546636978489848.jpg"
-        }
-      ],
-      "cover": null
-    },
-    {
-      "id": "1274179770151600137",
-      "game_key": "azurlane",
-      "game_name": "碧蓝航线",
-      "title": "「真理学院的转校生」即将开启！11月24日10:00港区改建",
-      "summary": "改建已经完成，全港区正常开放(`・ω・´)ゞ\n各位亲爱的指挥官：\n司令部将于11月24日10:00~16:00对以下港区进行为期6小时的改造建设（如有变动将会另行发布通知）。改建期间将暂时无法进入港区，还请各位指挥官提前做好下线准备，给各位带来的不便敬请谅解。 \n\n『涉及港区』 \n安卓全港区、iOS全港区、HarmonyOS NEXT全港区\n \n『改建内容』\n一、内容新增\n1.开启限时活动「真理学院的转校生」，活动时间11月24日维护后~12月10日维护\n...",
-      "url": "https://www.bilibili.com/opus/1274179770151600137",
-      "published_at": "2026-11-24T15:48:16+08:00",
-      "type": "forward",
-      "images": [
-        {
-          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/f5d606cfc3edc9ba.jpg",
-          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/f5d606cfc3edc9ba.jpg",
-          "local": "img/f5d606cfc3edc9ba.jpg"
-        }
-      ],
-      "cover": null
-    },
-    {
-      "id": "1274167331926310949",
-      "game_key": "azurpromilia",
-      "game_name": "蓝色星原：旅谣",
-      "title": "《蓝色星原：旅谣》预下载现已开启",
-      "summary": "[图片]\n《蓝色星原：旅谣》全平台公测将于2026年11月26日 10:00（UTC+8）正式开启。预下载已于2026年11月24日 15:00（UTC+8）开启，PC、Android、iOS、鸿蒙四个平台同步开放。星临者可提前完成客户端与公测更新资源的下载与安装，以便在公测开启后顺利进入游戏。\n一、预下载说明\n预下载开启后，客户端与公测更新资源将同步开放下载。\n官方服务器支持PC、Android、iOS、鸿蒙四端数据互通，星临者可使用同一账号在多端登录，游戏进度同步。渠道服与官方服务器数据不互通，具体安排以对应渠道说明为准。\n...",
-      "url": "https://www.bilibili.com/opus/1274167331926310949",
-      "published_at": "2026-11-24T15:00:00+08:00",
-      "type": "dynamic",
-      "images": [
-        {
-          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/4332279187f6390d.png",
-          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/4332279187f6390d.png",
-          "local": "img/4332279187f6390d.png"
-        }
-      ],
-      "cover": null
-    },
-    {
-      "id": "1274167334012977176",
-      "game_key": "yh",
-      "game_name": "异环",
-      "title": "读数礼遇丨离线的算式",
-      "summary": "#致电空想迷数# #异环# #异环Exe# \n「离线的算式」读数礼遇即将开启！\n\n活动期间，限定棋盘「离线的算式」内新增：滑翔翼涂装「Y之手」、「E001」车辆涂装「executer」、Exe时装「蓝雪」。累计掷骰50/120/200次可分别在装扮礼遇处直接领取，同时也有概率在棋盘掷骰中提前获得。\n\n*更多详情，请前往游戏内「斯卡布罗集市」查看。",
-      "url": "https://www.bilibili.com/opus/1274167334012977176",
-      "published_at": "2026-11-24T15:00:00+08:00",
-      "type": "dynamic",
-      "images": [
-        {
-          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/6be2d4221eb90031.jpg",
-          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/6be2d4221eb90031.jpg",
-          "local": "img/6be2d4221eb90031.jpg"
-        }
-      ],
-      "cover": null
-    },
-    {
-      "id": "1274151872174751744",
-      "game_key": "endfield",
-      "game_name": "明日方舟：终末地",
-      "title": "#明日方舟终末地##穿越甚大蘑境与你相逢# 「协议通行证·蘑境」说明",
-      "summary": "#明日方舟终末地##穿越甚大蘑境与你相逢#\n「协议通行证·蘑境」说明\n\n亲爱的管理员：\n「协议通行证·蘑境」开放期间，您可在「协议通行证」中获得武库工程师列出的各类支援项目。每期协议通行证开启时，将默认解锁「基础配给」。提升通行证等级，可获得【基础寻访凭证】【嵌晶玉】【兑换惊喜箱】【培养素材】等奖励。\n使用【衍质源石】解锁「源石配给」后，还可额外获得【基础寻访凭证】【贴纸·黏腻与甜香】【滤镜·金色黄昏】，以及【武器补给·蘑境】【衍质源石】【应急理智加强剂】等奖励。\n购买「协议定制」后，还可额外获得【名片·蜜境蘑城】【头像框·食用后的色彩】【头像·蕈类住民】，此外，还可额外获得【武器补给·蘑境】【武库配额】【协议化武器原型】等奖励。\n————————\n▼//「穿越甚大蘑境与你相逢」版本将于11月25日上线！\n新干员【小刻】登场，全新区域「旧水坝」开放！全新活动「阵列建设：旧伤弥合」即将开启！\n前往下载：https://www.biligame.com/detail?id=108406",
-      "url": "https://www.bilibili.com/opus/1274151872174751744",
-      "published_at": "2026-11-24T14:00:00+08:00",
-      "type": "dynamic",
-      "images": [
-        {
-          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/3ae7e41a40ddf490.png",
-          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/3ae7e41a40ddf490.png",
-          "local": "img/3ae7e41a40ddf490.png"
-        }
-      ],
-      "cover": null
-    },
-    {
-      "id": "1274151872190480389",
-      "game_key": "yh",
-      "game_name": "异环",
-      "title": "「密钥特刊」弧盘研募计划即将开启",
-      "summary": "#致电空想迷数# #异环# #异环Exe# \n「密钥特刊」弧盘研募计划即将开启，当期限定S级弧盘「虚线彼方」获取概率提升！\n\n▸研募计划开放时间\n2026/11/26 更新维护后~2026/12/17 5:59（服务器时间）\n\n▸研募计划开放条件\n完成正篇任务「序章 - 全新的目的地 - 前往『伊波恩古董店』」\n\n▸研募计划说明\n1.「密钥特刊」研募计划限时开启，消耗「三重钥匙」或「密钥钥匙」参与本期弧盘研募计划并获取当期计划奖励。\n2.活动期间，限定S级弧盘「虚线彼方」的获取概率将大幅提升！\n3.「密钥特刊」研募计划的研募类型为「限定特刊」，开启1次「限定特刊」共计可获得10个任意品质的弧盘奖励。\n4.所有「限定特刊」中获取弧盘的保底次数完全共享。\n5.「密钥特刊」研募计划中，至多6次研募必定能通过保底获得S级弧盘，至多8次研募必能通过保底获取当期限定S级弧盘「虚线彼方」。该研募保底次数将永久累计并可以继承至其他「限定特刊」中。\n6.限定S级弧盘「虚线彼方」仅可在「密钥特刊」研募计划中获得，活动结束后暂无获取途径。\n\n*更多详情，请前往游戏内「弧盘商店」-「弧盘研募计划」查看。",
-      "url": "https://www.bilibili.com/opus/1274151872190480389",
-      "published_at": "2026-11-24T14:00:00+08:00",
-      "type": "dynamic",
-      "images": [
-        {
-          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/cda49bfbdeddd7e5.jpg",
-          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/cda49bfbdeddd7e5.jpg",
-          "local": "img/cda49bfbdeddd7e5.jpg"
-        }
-      ],
-      "cover": null
-    },
-    {
-      "id": "1274144141229424642",
-      "game_key": "endfield",
-      "game_name": "明日方舟：终末地",
-      "title": "#明日方舟终末地##穿越甚大蘑境与你相逢# //干员回顾//洁尔佩塔",
-      "summary": "#明日方舟终末地##穿越甚大蘑境与你相逢#\n//干员回顾//洁尔佩塔\n“你好呀！你身上有一股令人怀念的气味……好像一封没有写完的信，我很好奇它会去往哪里。” \n\n——————————\n「致每一个飘游之愿」重构寻访1将于「穿越甚大蘑境与你相逢」版本更新后开启，活动期间6星干员【洁尔佩塔】获取概率大幅提升。\n————————\n▼//「穿越甚大蘑境与你相逢」版本将于11月25日上线！\n新干员【小刻】登场，全新区域「旧水坝」开放！全新活动「阵列建设：旧伤弥合」即将开启！\n前往下载：https://www.biligame.com/detail?id=108406",
-      "url": "https://www.bilibili.com/opus/1274144141229424642",
-      "published_at": "2026-11-24T13:30:00+08:00",
-      "type": "dynamic",
-      "images": [
-        {
-          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/6d8d46c02c718451.png",
-          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/6d8d46c02c718451.png",
-          "local": "img/6d8d46c02c718451.png"
-        },
-        {
-          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/02a9adde551bc385.jpg",
-          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/02a9adde551bc385.jpg",
-          "local": "img/02a9adde551bc385.jpg"
-        },
-        {
-          "url": "https://i0.hdslb.com/bfs/new_dyn/4f4d36768c3c25a764521f11307045d61265652806.jpg",
-          "fallback": "https://i0.hdslb.com/bfs/new_dyn/4f4d36768c3c25a764521f11307045d61265652806.jpg",
-          "local": "https://i0.hdslb.com/bfs/new_dyn/4f4d36768c3c25a764521f11307045d61265652806.jpg"
-        }
-      ],
-      "cover": null
-    },
-    {
-      "id": "1274136410262077463",
-      "game_key": "endfield",
-      "game_name": "明日方舟：终末地",
-      "title": "#明日方舟终末地##穿越甚大蘑境与你相逢# 「致每一个飘游之愿」重构寻访1与「飘行申领」重构申领1开放",
-      "summary": "#明日方舟终末地##穿越甚大蘑境与你相逢#\n「致每一个飘游之愿」重构寻访1与「飘行申领」重构申领1开放\n\n亲爱的管理员：\n「致每一个飘游之愿」重构寻访1开放期间，6星干员【洁尔佩塔】获取概率提升！\n「飘行申领」重构申领1开放期间，6星武器【使命必达（施术单元）】获取概率提升！\n\n▼//开放时间\n「穿越甚大蘑境与你相逢」版本更新后 - 2026/12/16 11:59（服务器时间）\n\n▼//开放条件\n完成主线任务「第一章 - 进程Ⅰ - 基地解围」\n\n▼//「致每一个飘游之愿」重构寻访1说明\n■ 寻访说明\n「致每一个飘游之愿」重构寻访中，概率提升的6星干员为【洁尔佩塔】。在本寻访中，前120次寻访必定能获取6星干员【洁尔佩塔】，该规则在所有「致每一个飘游之愿」重构寻访中仅生效1次。该计数将继承到后续的「致每一个飘游之愿」重构寻访中。\n\n■ 寻访奖励\n「致每一个飘游之愿」重构寻访中，累计达到指定寻访次数，即可获得对应奖励。其中累计的寻访次数，将继承至后续的「致每一个飘游之愿」重构寻访中。\n\n· 加急招募\n累计寻访次数达到30/60/90次时，将分别额外获得10次加急招募（即分别额外获得1次",
-      "url": "https://www.bilibili.com/opus/1274136410262077463",
-      "published_at": "2026-11-24T13:00:00+08:00",
-      "type": "dynamic",
-      "images": [
-        {
-          "url": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img/c06e17afc2897cf8.jpg",
-          "fallback": "https://yangziyuezy.github.io/GameNewsPull/img/c06e17afc2897cf8.jpg",
-          "local": "img/c06e17afc2897cf8.jpg"
         }
       ],
       "cover": null
