@@ -1,19 +1,19 @@
 {
   "status": "ok",
-  "checked_at": "2026-11-27T17:58:07+08:00",
-  "checked_at_utc": "2026-11-27T09:58:07.570Z",
+  "checked_at": "2026-11-28T17:13:22+08:00",
+  "checked_at_utc": "2026-11-28T09:13:22.388Z",
   "stale_since": null,
   "reason": null,
   "games": [
     {
       "name": "原神",
       "mid": "401742377",
-      "pages": 2,
-      "fetched": 24,
-      "parsed": 24,
-      "inserted": 1,
+      "pages": 1,
+      "fetched": 13,
+      "parsed": 13,
+      "inserted": 0,
       "coverage": 100,
-      "opus": "15/15"
+      "opus": "11/11"
     },
     {
       "name": "绝区零",
@@ -23,27 +23,27 @@
       "parsed": 24,
       "inserted": 8,
       "coverage": 100,
-      "opus": "14/14"
+      "opus": "13/13"
     },
     {
       "name": "崩坏：星穹铁道",
       "mid": "1340190821",
-      "pages": 2,
-      "fetched": 25,
-      "parsed": 25,
-      "inserted": 1,
-      "coverage": 100,
-      "opus": "10/10"
-    },
-    {
-      "name": "崩坏：因缘精灵",
-      "mid": "3546886017387331",
       "pages": 1,
       "fetched": 13,
       "parsed": 13,
       "inserted": 0,
       "coverage": 100,
-      "opus": "9/9"
+      "opus": "5/5"
+    },
+    {
+      "name": "崩坏：因缘精灵",
+      "mid": "3546886017387331",
+      "pages": 2,
+      "fetched": 25,
+      "parsed": 25,
+      "inserted": 1,
+      "coverage": 100,
+      "opus": "17/17"
     },
     {
       "name": "明日方舟",
@@ -51,7 +51,7 @@
       "pages": 2,
       "fetched": 24,
       "parsed": 24,
-      "inserted": 2,
+      "inserted": 4,
       "coverage": 100,
       "opus": "20/20"
     },
@@ -61,9 +61,9 @@
       "pages": 2,
       "fetched": 25,
       "parsed": 25,
-      "inserted": 2,
+      "inserted": 4,
       "coverage": 100,
-      "opus": "19/19"
+      "opus": "20/20"
     },
     {
       "name": "鸣潮",
@@ -71,9 +71,9 @@
       "pages": 2,
       "fetched": 25,
       "parsed": 25,
-      "inserted": 1,
+      "inserted": 5,
       "coverage": 100,
-      "opus": "10/10"
+      "opus": "8/8"
     },
     {
       "name": "蔚蓝档案",
@@ -91,9 +91,9 @@
       "pages": 2,
       "fetched": 24,
       "parsed": 24,
-      "inserted": 3,
+      "inserted": 6,
       "coverage": 100,
-      "opus": "16/16"
+      "opus": "15/15"
     },
     {
       "name": "白银之城",
@@ -108,36 +108,29 @@
     {
       "name": "碧蓝航线",
       "mid": "233114659",
-      "pages": 1,
-      "fetched": 12,
-      "parsed": 12,
-      "inserted": 0,
+      "pages": 2,
+      "fetched": 24,
+      "parsed": 24,
+      "inserted": 1,
       "coverage": 100,
-      "opus": "9/9"
+      "opus": "19/19"
     },
     {
       "name": "异环",
       "mid": "3546636978489848",
-      "pages": 1,
-      "fetched": 12,
-      "parsed": 12,
-      "inserted": 0,
+      "pages": 2,
+      "fetched": 24,
+      "parsed": 24,
+      "inserted": 1,
       "coverage": 100,
-      "opus": "10/10"
+      "opus": "17/17"
     }
   ],
   "failed_games": [],
   "endpoint_check": {},
-  "store_count": 1109,
-  "feed_generated_at": "2026-11-27T17:57:37+08:00",
+  "store_count": 1141,
+  "feed_generated_at": "2026-11-28T17:12:42+08:00",
   "banner_warnings": [
-    "[wutheringwaves] 「但愿长圆如此夜」字典未收录（官方源，已保留）: 心",
-    "[wutheringwaves] 「余心所向九死未悔」字典未收录（官方源，已保留）: 锁暝",
-    "[wutheringwaves] 「仙风玉影水天清」字典未收录（官方源，已保留）: 清宵",
-    "[wutheringwaves] 「身赴三途」字典未收录（官方源，已保留）: 景燃",
-    "[wutheringwaves] 「牵翎祈万声」字典未收录（官方源，已保留）: 玄翎",
-    "[wutheringwaves] 「斟雨祝荷风」字典未收录（官方源，已保留）: 玄翎",
-    "[wutheringwaves] 「显影于明日」字典未收录（官方源，已保留）: 洛瑟菈",
     "[azurpromilia] 角色字典覆盖不足(3 条)，已跳过名单校验并降级置信度",
     "[yh] 「离线的算式」字典未收录（官方源，已保留）: Exe",
     "[bluearchive] 「夏日炎炎 笑靥未改」字典未收录（官方源，已保留）: 野宫",
@@ -158,8 +151,6 @@
     "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 伊内丝、烛煌",
     "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 老鲤",
     "[arknights] 「常驻标准寻访」角色名未通过校验已丢弃: 赫德雷、司霆惊蛰",
-    "[wutheringwaves] 「第一期」结束时间由 bili-dynamics(L0)补齐",
-    "[wutheringwaves] 「第一期」结束时间由 bili-dynamics(L0)补齐",
     "[genshin] 「7.2 版本」结束时间由 akasha(L2)补齐",
     "[zzz] 「3.3 版本」开始时间由 akasha(L2)补齐",
     "[zzz] 「3.3 版本」结束时间由 akasha(L2)补齐",
@@ -189,7 +180,8 @@
     "[arknights] 丢弃无 UP 角色的卡池: 常驻标准寻访 191 期",
     "[endfield] 丢弃无起止时间的卡池: 重构寻访1",
     "[wutheringwaves] 丢弃无 UP 角色的卡池: 第一期",
-    "[wutheringwaves] 丢弃无 UP 角色的卡池: 第一期"
+    "[wutheringwaves] 丢弃无 UP 角色的卡池: 第一期",
+    "[信源告警] kuro-site 本轮 0 条（上轮 16 条），可能失效"
   ],
   "banner_sources": [
     {
@@ -199,7 +191,7 @@
     },
     {
       "id": "kuro-site",
-      "candidates": 16,
+      "candidates": 0,
       "ok": true
     },
     {

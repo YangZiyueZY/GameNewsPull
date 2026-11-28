@@ -1,8 +1,8 @@
 {
   "api_version": "v1",
   "schema_version": 4,
-  "generated_at": "2026-11-27T17:57:37+08:00",
-  "generated_at_utc": "2026-11-27T09:57:37.000Z",
+  "generated_at": "2026-11-28T17:12:42+08:00",
+  "generated_at_utc": "2026-11-28T09:12:42.000Z",
   "count": 1,
   "cdn": {
     "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
@@ -39,7 +39,7 @@
         "status": "进行中",
         "start_at": "2026-11-19T04:00:00+08:00",
         "end_at": "2026-12-03T03:59:00+08:00",
-        "days_remaining": 6,
+        "days_remaining": 5,
         "note": "官方活动说明：每日开放新关卡，完成目标领取星声等奖励",
         "url": "https://www.bilibili.com/opus/1271866964588888065",
         "source": "curated"
@@ -72,16 +72,16 @@
     "birthdays": [],
     "current_version": "3.8版本",
     "current_content": [
+      "#鸣潮# #鸣潮3.8版本# #鸣潮莉莉# 过往的痛苦随风消散，唯有这缕花香，在她的明日芬芳依旧。",
       "#鸣潮# #鸣潮3.8版本# 各位漂泊者好~欢迎收看MetaGames开发组播报喵！",
       "#鸣潮# #鸣潮3.8版本# [回音盈域]养成材料限时双倍活动",
-      "#鸣潮# #鸣潮3.8版本# 你知道，梦终有一天会醒，但回忆中的事物会一直闪耀。",
-      "【IGN独家】《鸣潮：永明的烬焰》实机演示"
+      "#鸣潮# #鸣潮3.8版本# 你知道，梦终有一天会醒，但回忆中的事物会一直闪耀。"
     ],
-    "current_version_days": 15,
+    "current_version_days": 16,
     "next_version": "4.0版本",
     "next_version_kind": "version",
     "next_content": [],
-    "days_to_next_version": 6,
+    "days_to_next_version": 5,
     "preview_status": "已发布",
     "preview_title": "《鸣潮》3.8版本前瞻通讯 | 回顾影像",
     "preview_start_at": "2026-11-06T19:40:01+08:00",
@@ -91,58 +91,6 @@
     ],
     "up_banners": [
       {
-        "label": "3.7 但愿长圆如此夜",
-        "phase": null,
-        "pool_name": "但愿长圆如此夜",
-        "pool_type": "limited_character",
-        "pool_type_label": "限定角色",
-        "characters": [
-          "心"
-        ],
-        "start_at": "2026-09-30T11:00:00+08:00",
-        "end_at": "2026-11-12T11:00:00+08:00",
-        "status": "已结束",
-        "days_remaining": null,
-        "confidence": "high",
-        "sources": [
-          {
-            "id": "kuro-site",
-            "tier": "L0",
-            "url": "https://media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/zh/article/5569.json",
-            "fetched_at": "2026-11-27T17:57:37+08:00"
-          }
-        ],
-        "version": "3.7",
-        "note": "公告未给出该池的直接时间（版本说明常见）；同篇维护窗口 2026-09-30T04:00:00+08:00 ~ 2026-09-30T11:00:00+08:00；起点按同篇维护结束时刻 2026-09-30T11:00:00+08:00 近似；结束时间按下一期开池时间近似",
-        "source": "kuro-site"
-      },
-      {
-        "label": "3.7 余心所向九死未悔",
-        "phase": null,
-        "pool_name": "余心所向九死未悔",
-        "pool_type": "limited_character",
-        "pool_type_label": "限定角色",
-        "characters": [
-          "锁暝"
-        ],
-        "start_at": "2026-09-30T11:00:00+08:00",
-        "end_at": "2026-11-12T11:00:00+08:00",
-        "status": "已结束",
-        "days_remaining": null,
-        "confidence": "high",
-        "sources": [
-          {
-            "id": "kuro-site",
-            "tier": "L0",
-            "url": "https://media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/zh/article/5569.json",
-            "fetched_at": "2026-11-27T17:57:37+08:00"
-          }
-        ],
-        "version": "3.7",
-        "note": "公告未给出该池的直接时间（版本说明常见）；同篇维护窗口 2026-09-30T04:00:00+08:00 ~ 2026-09-30T11:00:00+08:00；起点按同篇维护结束时刻 2026-09-30T11:00:00+08:00 近似；结束时间按下一期开池时间近似",
-        "source": "kuro-site"
-      },
-      {
         "label": "第一期",
         "phase": null,
         "pool_name": "盛放于昨日梦土的花朵",
@@ -151,28 +99,22 @@
         "characters": [
           "莉莉"
         ],
-        "start_at": "2026-11-12T11:00:00+08:00",
+        "start_at": null,
         "end_at": "2026-12-03T09:59:00+08:00",
         "status": "进行中",
-        "days_remaining": 6,
+        "days_remaining": 5,
         "confidence": "high",
         "sources": [
-          {
-            "id": "kuro-site",
-            "tier": "L0",
-            "url": "https://media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/zh/article/5779.json",
-            "fetched_at": "2026-11-27T17:57:37+08:00"
-          },
           {
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1269283956235173890",
-            "fetched_at": "2026-11-27T17:57:37+08:00"
+            "fetched_at": "2026-11-28T17:12:42+08:00"
           }
         ],
         "version": "3.8",
-        "note": "公告未给出该池的直接时间（版本说明常见）；同篇维护窗口 2026-11-12T04:00:00+08:00 ~ 2026-11-12T11:00:00+08:00；起点按同篇维护结束时刻 2026-11-12T11:00:00+08:00 近似",
-        "source": "kuro-site"
+        "note": "动态 1269283956235173890；活动时间原文 3.8版本更新后 ~ 2026年12月3日09:59；起点为「版本更新后」等相对表述，start_at=null",
+        "source": "bili-dynamics"
       }
     ],
     "current_up_characters": [
@@ -180,54 +122,54 @@
     ],
     "sources": [
       {
+        "title": "#鸣潮# #鸣潮永明的烬焰# #鸣潮安娜#互动抽奖",
+        "url": "https://www.bilibili.com/opus/1275357948372058131",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-28T17:12:42+08:00"
+      },
+      {
+        "title": "#鸣潮# #鸣潮永明的烬焰# #鸣潮露希尔#互动抽奖",
+        "url": "https://www.bilibili.com/opus/1275357944104353817",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-28T17:12:42+08:00"
+      },
+      {
+        "title": "#鸣潮# #鸣潮永明的烬焰# #鸣潮安娜#互动抽奖",
+        "url": "https://www.bilibili.com/opus/1275357935469330497",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-28T17:12:42+08:00"
+      },
+      {
+        "title": "#鸣潮# #鸣潮永明的烬焰# #鸣潮露希尔#互动抽奖",
+        "url": "https://www.bilibili.com/opus/1275357931220500489",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-28T17:12:42+08:00"
+      },
+      {
+        "title": "#鸣潮# #鸣潮3.8版本# #鸣潮莉莉# 过往的痛苦随风消散，唯有这缕花香，在她的明日芬芳依旧。",
+        "url": "https://www.bilibili.com/opus/1275326975223791619",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-28T17:12:42+08:00"
+      },
+      {
         "title": "#鸣潮# #鸣潮3.8版本# 各位漂泊者好~欢迎收看MetaGames开发组播报喵！",
         "url": "https://www.bilibili.com/opus/1275241934836727826",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-27T17:57:37+08:00"
-      },
-      {
-        "title": "玫瑰与妄欲",
-        "url": "https://www.bilibili.com/opus/1274615790928134213",
-        "type": "official_community",
-        "claims": [],
-        "checked_at": "2026-11-27T17:57:37+08:00"
-      },
-      {
-        "title": "缄默与锋芒",
-        "url": "https://www.bilibili.com/opus/1274615786638409763",
-        "type": "official_community",
-        "claims": [],
-        "checked_at": "2026-11-27T17:57:37+08:00"
-      },
-      {
-        "title": "真实与假象",
-        "url": "https://www.bilibili.com/opus/1274615786619535511",
-        "type": "official_community",
-        "claims": [],
-        "checked_at": "2026-11-27T17:57:37+08:00"
-      },
-      {
-        "title": "明日与谎言",
-        "url": "https://www.bilibili.com/opus/1274615782339248163",
-        "type": "official_community",
-        "claims": [],
-        "checked_at": "2026-11-27T17:57:37+08:00"
-      },
-      {
-        "title": "罪血与净雨",
-        "url": "https://www.bilibili.com/opus/1274615773721002016",
-        "type": "official_community",
-        "claims": [],
-        "checked_at": "2026-11-27T17:57:37+08:00"
+        "checked_at": "2026-11-28T17:12:42+08:00"
       }
     ],
-    "facts_checked_at": "2026-11-27T17:57:37+08:00",
+    "facts_checked_at": "2026-11-28T17:12:42+08:00",
     "pact_banners": [],
     "next_node_at": "2026-12-03T09:59:00+08:00",
     "next_node_label": "本期卡池结束（盛放于昨日梦土的花朵）",
     "next_node_kind": "pool_end",
-    "next_node_source": "kuro-site",
+    "next_node_source": "bili-dynamics",
     "icon_url_fallback": "https://yangziyuezy.github.io/GameNewsPull/img/9f52c0849d371e3e.jpg",
     "icon_url_local": "img/9f52c0849d371e3e.jpg",
     "preview_images_fallback": [

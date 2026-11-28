@@ -1,8 +1,8 @@
 {
   "api_version": "v1",
   "schema_version": 4,
-  "generated_at": "2026-11-27T17:57:37+08:00",
-  "generated_at_utc": "2026-11-27T09:57:37.000Z",
+  "generated_at": "2026-11-28T17:12:42+08:00",
+  "generated_at_utc": "2026-11-28T09:12:42.000Z",
   "count": 1,
   "cdn": {
     "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
@@ -60,16 +60,16 @@
     "birthdays": [],
     "current_version": "1.5版本",
     "current_content": [
+      "同人绘画展示 | Hello World",
       "轨外之境「云集环线」特别路线即将开启",
       "Exe EP丨Blue light",
-      "闲趣时光丨Exe",
-      "11月26日停服维护公告"
+      "闲趣时光丨Exe"
     ],
-    "current_version_days": 22,
+    "current_version_days": 23,
     "next_version": "暂未公布",
     "next_version_kind": null,
     "next_content": [],
-    "days_to_next_version": 20,
+    "days_to_next_version": 19,
     "preview_status": "已发布",
     "preview_title": "《异环》1.5版本前瞻特别节目回顾",
     "preview_start_at": "2026-10-28T20:05:01+08:00",
@@ -84,49 +84,49 @@
     ],
     "sources": [
       {
+        "title": "同人绘画展示 | Hello World",
+        "url": "https://www.bilibili.com/opus/1275614495373262854",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-28T17:12:42+08:00"
+      },
+      {
         "title": "轨外之境「云集环线」特别路线即将开启",
         "url": "https://www.bilibili.com/opus/1274894985278259222",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-27T17:57:37+08:00"
+        "checked_at": "2026-11-28T17:12:42+08:00"
       },
       {
         "title": "《异环》ExeEP丨Blue light",
         "url": "https://www.bilibili.com/opus/1274857378502672392",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-27T17:57:37+08:00"
+        "checked_at": "2026-11-28T17:12:42+08:00"
       },
       {
         "title": "《异环》Exe EP丨Blue light",
         "url": "https://www.bilibili.com/video/BV1AYsq6kE5v",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-27T17:57:37+08:00"
+        "checked_at": "2026-11-28T17:12:42+08:00"
       },
       {
         "title": "闲趣时光丨Exe",
         "url": "https://www.bilibili.com/opus/1274522976684867604",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-27T17:57:37+08:00"
+        "checked_at": "2026-11-28T17:12:42+08:00"
       },
       {
         "title": "《异环》11月26日停服维护公告",
         "url": "https://www.bilibili.com/opus/1274492117307097144",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-27T17:57:37+08:00"
-      },
-      {
-        "title": "角色档案介绍丨Exe",
-        "url": "https://www.bilibili.com/opus/1274492033582497800",
-        "type": "official_community",
-        "claims": [],
-        "checked_at": "2026-11-27T17:57:37+08:00"
+        "checked_at": "2026-11-28T17:12:42+08:00"
       }
     ],
-    "facts_checked_at": "2026-11-27T17:57:37+08:00",
+    "facts_checked_at": "2026-11-28T17:12:42+08:00",
     "pact_banners": [
       {
         "label": "1.5 电子人之梦",
@@ -147,13 +147,13 @@
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1274492117307097144",
-            "fetched_at": "2026-11-27T17:57:37+08:00"
+            "fetched_at": "2026-11-28T17:12:42+08:00"
           },
           {
             "id": "nte-site",
             "tier": "L0",
             "url": "https://nte.perfectworld.com/cn/article/news/gamenews/20261109/264946.html",
-            "fetched_at": "2026-11-27T17:57:37+08:00"
+            "fetched_at": "2026-11-28T17:12:42+08:00"
           }
         ],
         "version": "1.5",
@@ -179,13 +179,13 @@
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1266374545351114759",
-            "fetched_at": "2026-11-27T17:57:37+08:00"
+            "fetched_at": "2026-11-28T17:12:42+08:00"
           },
           {
             "id": "nte-site",
             "tier": "L0",
             "url": "https://nte.perfectworld.com/cn/article/news/gamenews/20261109/264946.html",
-            "fetched_at": "2026-11-27T17:57:37+08:00"
+            "fetched_at": "2026-11-28T17:12:42+08:00"
           }
         ],
         "version": "1.5",
@@ -204,14 +204,14 @@
         "start_at": "2026-11-26T05:00:00+08:00",
         "end_at": "2026-12-17T05:59:00+08:00",
         "status": "进行中",
-        "days_remaining": 20,
+        "days_remaining": 19,
         "confidence": "high",
         "sources": [
           {
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1274182795947671576",
-            "fetched_at": "2026-11-27T17:57:37+08:00"
+            "fetched_at": "2026-11-28T17:12:42+08:00"
           }
         ],
         "version": null,
@@ -230,14 +230,14 @@
         "start_at": "2026-11-26T05:00:00+08:00",
         "end_at": "2026-12-17T05:59:00+08:00",
         "status": "进行中",
-        "days_remaining": 20,
+        "days_remaining": 19,
         "confidence": "high",
         "sources": [
           {
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1274120948395540484",
-            "fetched_at": "2026-11-27T17:57:37+08:00"
+            "fetched_at": "2026-11-28T17:12:42+08:00"
           }
         ],
         "version": null,

@@ -1,8 +1,8 @@
 {
   "api_version": "v1",
   "schema_version": 4,
-  "generated_at": "2026-11-27T17:57:37+08:00",
-  "generated_at_utc": "2026-11-27T09:57:37.000Z",
+  "generated_at": "2026-11-28T17:12:42+08:00",
+  "generated_at_utc": "2026-11-28T09:12:42.000Z",
   "count": 1,
   "cdn": {
     "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
@@ -29,7 +29,7 @@
     "release": {
       "label": "全球公测定档 2026 年 12 月 14 日",
       "date": "2026-12-14T00:00:00+08:00",
-      "days_until": 17
+      "days_until": 16
     },
     "events": [
       {
@@ -72,10 +72,10 @@
     "birthdays": [],
     "current_version": "尚未上线",
     "current_content": [
+      "公测前瞻特别节目 直播预告",
       "世界观PV | 童话的起笔",
       "隐藏的书页丨「无声雨之谜」",
-      "隐藏的书页丨「小聪明之谜」",
-      "隐藏的书页丨「青春期之谜」"
+      "隐藏的书页丨「小聪明之谜」"
     ],
     "current_version_days": 0,
     "next_version": "待定档",
@@ -91,49 +91,49 @@
     "current_up_characters": [],
     "sources": [
       {
+        "title": "同谋情报 |「考狄莱·坏学生」",
+        "url": "https://www.bilibili.com/opus/1275636232156610624",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-28T17:12:42+08:00"
+      },
+      {
+        "title": "《白银之城》公测前瞻特别节目 直播预告",
+        "url": "https://www.bilibili.com/opus/1275589868036030472",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-28T17:12:42+08:00"
+      },
+      {
         "title": "互动抽奖 #白银之城##白银之城突袭上线##白银之城预抽卡送5080#",
         "url": "https://www.bilibili.com/opus/1275218782849073187",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-27T17:57:37+08:00"
+        "checked_at": "2026-11-28T17:12:42+08:00"
       },
       {
         "title": "《白银之城》世界观PV | 童话的起笔",
         "url": "https://www.bilibili.com/video/BV1uT17zhEJX",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-27T17:57:37+08:00"
+        "checked_at": "2026-11-28T17:12:42+08:00"
       },
       {
         "title": "角色扉页 |「摩戈·守墓人」",
         "url": "https://www.bilibili.com/opus/1274894061815201825",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-27T17:57:37+08:00"
+        "checked_at": "2026-11-28T17:12:42+08:00"
       },
       {
         "title": "隐藏的书页丨「无声雨之谜」",
         "url": "https://www.bilibili.com/video/BV1HZyrzDE8f",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-27T17:57:37+08:00"
-      },
-      {
-        "title": "同谋情报 |「梭闪·信使」",
-        "url": "https://www.bilibili.com/opus/1274847658981195778",
-        "type": "official_community",
-        "claims": [],
-        "checked_at": "2026-11-27T17:57:37+08:00"
-      },
-      {
-        "title": "互动抽奖 #白银之城##白银之城突袭上线##白银之城预抽卡送5080##馨西亚二世#",
-        "url": "https://www.bilibili.com/opus/1274151917234159616",
-        "type": "official_community",
-        "claims": [],
-        "checked_at": "2026-11-27T17:57:37+08:00"
+        "checked_at": "2026-11-28T17:12:42+08:00"
       }
     ],
-    "facts_checked_at": "2026-11-27T17:57:37+08:00",
+    "facts_checked_at": "2026-11-28T17:12:42+08:00",
     "pact_banners": [],
     "icon_url_fallback": "https://yangziyuezy.github.io/GameNewsPull/img/d46b90c7d46dfe05.jpg",
     "icon_url_local": "img/d46b90c7d46dfe05.jpg"

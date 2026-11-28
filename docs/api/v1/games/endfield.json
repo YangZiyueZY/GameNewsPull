@@ -1,8 +1,8 @@
 {
   "api_version": "v1",
   "schema_version": 4,
-  "generated_at": "2026-11-27T17:57:37+08:00",
-  "generated_at_utc": "2026-11-27T09:57:37.000Z",
+  "generated_at": "2026-11-28T17:12:42+08:00",
+  "generated_at_utc": "2026-11-28T09:12:42.000Z",
   "count": 1,
   "cdn": {
     "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
@@ -72,16 +72,16 @@
     "birthdays": [],
     "current_version": "「穿越甚大蘑境与你相逢」版本",
     "current_content": [
-      "「2027明日方舟：终末地终末回响专场演出-镌宇留声」先导预告公开",
-      "#明日方舟终末地##穿越甚大蘑境与你相逢# 后勤备忘 - 独家揭秘! | 小刻",
-      "#明日方舟终末地创作者应援计划# 管理员，明日方舟：终末地「穿越甚大蘑境与你相逢」UP主应援计划正在进行中。",
-      "#明日方舟终末地##穿越甚大蘑境与你相逢# 《明日方舟：终末地》「穿越甚大蘑境与你相逢」版本现已开启！"
+      "#加油吧！终末地##明日方舟：终末地# 这样也可以？！《加油吧！终末地》18话",
+      "#明日方舟终末地##穿越甚大蘑境与你相逢# 11 月 28 日 穿越甚大蘑境与你相逢OST 正式上架QQ音乐、网易云音…",
+      "#明日方舟终末地##穿越甚大蘑境与你相逢# 后勤备忘 - 独家揭秘! | 洁尔佩塔",
+      "「2027明日方舟：终末地终末回响专场演出-镌宇留声」先导预告公开"
     ],
-    "current_version_days": 2,
-    "next_version": "暂未公布",
-    "next_version_kind": null,
+    "current_version_days": 3,
+    "next_version": "「2027终末回响-镌宇留声」版本",
+    "next_version_kind": "version",
     "next_content": [],
-    "days_to_next_version": 26,
+    "days_to_next_version": 1,
     "preview_status": "已发布",
     "preview_title": "《明日方舟：终末地》「全新版本&2.0揭幕前瞻」特别节目回顾",
     "preview_start_at": "2026-11-21T20:45:01+08:00",
@@ -109,7 +109,7 @@
             "id": "hypergryph-cms",
             "tier": "L0",
             "url": "https://endfield.hypergryph.com/news/8548",
-            "fetched_at": "2026-11-27T17:57:37+08:00"
+            "fetched_at": "2026-11-28T17:12:42+08:00"
           }
         ],
         "version": null,
@@ -135,7 +135,7 @@
             "id": "hypergryph-cms",
             "tier": "L0",
             "url": "https://endfield.hypergryph.com/news/7204",
-            "fetched_at": "2026-11-27T17:57:37+08:00"
+            "fetched_at": "2026-11-28T17:12:42+08:00"
           }
         ],
         "version": null,
@@ -154,14 +154,14 @@
         "start_at": "2026-11-25T06:00:00+08:00",
         "end_at": "2026-12-23T11:59:00+08:00",
         "status": "进行中",
-        "days_remaining": 26,
+        "days_remaining": 25,
         "confidence": "high",
         "sources": [
           {
             "id": "hypergryph-cms",
             "tier": "L0",
             "url": "https://endfield.hypergryph.com/news/8535",
-            "fetched_at": "2026-11-27T17:57:37+08:00"
+            "fetched_at": "2026-11-28T17:12:42+08:00"
           }
         ],
         "version": null,
@@ -180,14 +180,14 @@
         "start_at": "2026-11-25T06:00:00+08:00",
         "end_at": "2026-12-16T11:59:00+08:00",
         "status": "进行中",
-        "days_remaining": 19,
+        "days_remaining": 18,
         "confidence": "high",
         "sources": [
           {
             "id": "hypergryph-cms",
             "tier": "L0",
             "url": "https://endfield.hypergryph.com/news/7201",
-            "fetched_at": "2026-11-27T17:57:37+08:00"
+            "fetched_at": "2026-11-28T17:12:42+08:00"
           }
         ],
         "version": null,
@@ -202,48 +202,48 @@
     "sources": [
       {
         "title": "互动抽奖 #明日方舟终末地##终末回响#",
+        "url": "https://www.bilibili.com/opus/1275621113895845926",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-28T17:12:42+08:00"
+      },
+      {
+        "title": "#加油吧！终末地##明日方舟：终末地# 这样也可以？！《加油吧！终末地》18话",
+        "url": "https://www.bilibili.com/opus/1275605289075212323",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-28T17:12:42+08:00"
+      },
+      {
+        "title": "#明日方舟终末地##穿越甚大蘑境与你相逢# 11 月 28 日 穿越甚大蘑境与你相逢OST 正式上架QQ音乐、网易云音…",
+        "url": "https://www.bilibili.com/opus/1275589827221258245",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-28T17:12:42+08:00"
+      },
+      {
+        "title": "#明日方舟终末地##穿越甚大蘑境与你相逢# 后勤备忘 - 独家揭秘! | 洁尔佩塔",
+        "url": "https://www.bilibili.com/opus/1275342437118640165",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-28T17:12:42+08:00"
+      },
+      {
+        "title": "互动抽奖 #明日方舟终末地##终末回响#",
         "url": "https://www.bilibili.com/opus/1275242027232002054",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-27T17:57:37+08:00"
+        "checked_at": "2026-11-28T17:12:42+08:00"
       },
       {
         "title": "「2027明日方舟：终末地终末回响专场演出-镌宇留声」先导预告公开",
         "url": "https://www.bilibili.com/video/BV1GF17zKEiP",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-27T17:57:37+08:00"
-      },
-      {
-        "title": "#明日方舟终末地##穿越甚大蘑境与你相逢# 后勤备忘 - 独家揭秘! | 小刻",
-        "url": "https://www.bilibili.com/opus/1274863118723317794",
-        "type": "official_community",
-        "claims": [],
-        "checked_at": "2026-11-27T17:57:37+08:00"
-      },
-      {
-        "title": "互动抽奖   #明日方舟终末地##穿越甚大蘑境与你相逢#",
-        "url": "https://www.bilibili.com/opus/1274585597269245957",
-        "type": "official_community",
-        "claims": [],
-        "checked_at": "2026-11-27T17:57:37+08:00"
-      },
-      {
-        "title": "#明日方舟终末地创作者应援计划# 管理员，明日方舟：终末地「穿越甚大蘑境与你相逢」UP主应援计划正在进行中。",
-        "url": "https://www.bilibili.com/opus/1274522957363806216",
-        "type": "official_community",
-        "claims": [],
-        "checked_at": "2026-11-27T17:57:37+08:00"
-      },
-      {
-        "title": "互动抽奖 #明日方舟终末地##穿越甚大蘑境与你相逢#",
-        "url": "https://www.bilibili.com/opus/1274499908377772052",
-        "type": "official_community",
-        "claims": [],
-        "checked_at": "2026-11-27T17:57:37+08:00"
+        "checked_at": "2026-11-28T17:12:42+08:00"
       }
     ],
-    "facts_checked_at": "2026-11-27T17:57:37+08:00",
+    "facts_checked_at": "2026-11-28T17:12:42+08:00",
     "pact_banners": [],
     "next_node_at": "2026-12-23T11:59:00+08:00",
     "next_node_label": "本期卡池结束（锻砧、行囊与蜜糖）",

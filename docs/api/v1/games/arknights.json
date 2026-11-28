@@ -1,8 +1,8 @@
 {
   "api_version": "v1",
   "schema_version": 4,
-  "generated_at": "2026-11-27T17:57:37+08:00",
-  "generated_at_utc": "2026-11-27T09:57:37.000Z",
+  "generated_at": "2026-11-28T17:12:42+08:00",
+  "generated_at_utc": "2026-11-28T09:12:42.000Z",
   "count": 1,
   "cdn": {
     "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
@@ -72,16 +72,16 @@
     "birthdays": [],
     "current_version": "「雪山降临1101」版本",
     "current_content": [
-      "SideStory「星星不愿入睡」限时活动即将开启",
-      "SideStory「星星不愿入睡」活动宣传PV",
-      "【集成战略「沉沦者的黑流树海」奖励可交互家具预告】",
-      "【集成战略「沉沦者的黑流树海」奖励服饰】"
+      "【新增服饰】",
+      "【活动奖励干员】",
+      "#123罗德岛！？##明日方舟# 明日方舟官方四格漫画《123罗德岛！？》",
+      "卫戍协议：规程 协议前瞻"
     ],
-    "current_version_days": 5,
+    "current_version_days": 6,
     "next_version": "暂未公布",
     "next_version_kind": null,
     "next_content": [],
-    "days_to_next_version": 6,
+    "days_to_next_version": 5,
     "preview_status": "已发布",
     "preview_title": "《明日方舟》限定干员「塔露拉」前瞻PV",
     "preview_start_at": "2026-10-29T11:00:04+08:00",
@@ -110,7 +110,7 @@
             "id": "hypergryph-cms",
             "tier": "L0",
             "url": "https://ak.hypergryph.com/news/4916",
-            "fetched_at": "2026-11-27T17:57:37+08:00"
+            "fetched_at": "2026-11-28T17:12:42+08:00"
           }
         ],
         "version": null,
@@ -137,7 +137,7 @@
             "id": "prts-smw",
             "tier": "L2",
             "url": "https://prts.wiki/w/%E5%8D%A1%E6%B1%A0%E4%B8%80%E8%A7%88%2F%E5%B8%B8%E9%A9%BB%E6%A0%87%E5%87%86%E5%AF%BB%E8%AE%BF%2F2026",
-            "fetched_at": "2026-11-27T17:57:37+08:00"
+            "fetched_at": "2026-11-28T17:12:42+08:00"
           }
         ],
         "version": null,
@@ -157,14 +157,14 @@
         "start_at": "2026-11-19T04:00:00+08:00",
         "end_at": "2026-12-03T03:59:00+08:00",
         "status": "进行中",
-        "days_remaining": 6,
+        "days_remaining": 5,
         "confidence": "low",
         "sources": [
           {
             "id": "prts-smw",
             "tier": "L2",
             "url": "https://prts.wiki/w/%E5%8D%A1%E6%B1%A0%E4%B8%80%E8%A7%88%2F%E5%B8%B8%E9%A9%BB%E6%A0%87%E5%87%86%E5%AF%BB%E8%AE%BF%2F2026",
-            "fetched_at": "2026-11-27T17:57:37+08:00"
+            "fetched_at": "2026-11-28T17:12:42+08:00"
           }
         ],
         "version": null,
@@ -178,49 +178,49 @@
     ],
     "sources": [
       {
+        "title": "【新增服饰】",
+        "url": "https://www.bilibili.com/opus/1275667136646217768",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-28T17:12:42+08:00"
+      },
+      {
+        "title": "【活动奖励干员】",
+        "url": "https://www.bilibili.com/opus/1275605289107718160",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-28T17:12:42+08:00"
+      },
+      {
+        "title": "#123罗德岛！？##明日方舟# 明日方舟官方四格漫画《123罗德岛！？》",
+        "url": "https://www.bilibili.com/opus/1275589827182460935",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-28T17:12:42+08:00"
+      },
+      {
+        "title": "卫戍协议：规程 协议前瞻",
+        "url": "https://www.bilibili.com/opus/1275342492921757703",
+        "type": "official_community",
+        "claims": [],
+        "checked_at": "2026-11-28T17:12:42+08:00"
+      },
+      {
         "title": "SideStory「星星不愿入睡」限时活动即将开启",
         "url": "https://www.bilibili.com/opus/1275220030510858274",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-27T17:57:37+08:00"
+        "checked_at": "2026-11-28T17:12:42+08:00"
       },
       {
         "title": "《明日方舟》SideStory「星星不愿入睡」活动宣传PV",
         "url": "https://www.bilibili.com/video/BV19k1Jz5Ea8",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-27T17:57:37+08:00"
-      },
-      {
-        "title": "【集成战略「沉沦者的黑流树海」奖励可交互家具预告】",
-        "url": "https://www.bilibili.com/opus/1274940428141985793",
-        "type": "official_community",
-        "claims": [],
-        "checked_at": "2026-11-27T17:57:37+08:00"
-      },
-      {
-        "title": "【集成战略「沉沦者的黑流树海」奖励服饰】",
-        "url": "https://www.bilibili.com/opus/1274924966276497410",
-        "type": "official_community",
-        "claims": [],
-        "checked_at": "2026-11-27T17:57:37+08:00"
-      },
-      {
-        "title": "【中坚寻访】",
-        "url": "https://www.bilibili.com/opus/1274624080207675394",
-        "type": "official_community",
-        "claims": [],
-        "checked_at": "2026-11-27T17:57:37+08:00"
-      },
-      {
-        "title": "集成战略「沉沦者的黑流树海」",
-        "url": "https://www.bilibili.com/opus/1274569343004311559",
-        "type": "official_community",
-        "claims": [],
-        "checked_at": "2026-11-27T17:57:37+08:00"
+        "checked_at": "2026-11-28T17:12:42+08:00"
       }
     ],
-    "facts_checked_at": "2026-11-27T17:57:37+08:00",
+    "facts_checked_at": "2026-11-28T17:12:42+08:00",
     "pact_banners": [],
     "next_node_at": "2026-12-03T03:59:00+08:00",
     "next_node_label": "本期卡池结束（常驻标准寻访）",

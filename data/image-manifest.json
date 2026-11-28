@@ -1012,11 +1012,5 @@
     "sha1": "27720496ca5d8b3c45966a7a6b5549f1c8d20655",
     "bytes": 490823,
     "first_seen": "2026-11-26T15:14:37.272Z"
-  },
-  "https://i0.hdslb.com/bfs/new_dyn/bd966f63ce2e4039c73b8b509c6987ae233114659.jpg": {
-    "local": "img/e18ec8103972990c.jpg",
-    "sha1": "a4bc58e085c78afb67816d779a0fec177cd190fb",
-    "bytes": 156887,
-    "first_seen": "2026-11-26T15:14:37.272Z"
   }
 }

@@ -1,8 +1,8 @@
 {
   "api_version": "v1",
   "schema_version": 4,
-  "generated_at": "2026-11-27T17:57:37+08:00",
-  "generated_at_utc": "2026-11-27T09:57:37.000Z",
+  "generated_at": "2026-11-28T17:12:42+08:00",
+  "generated_at_utc": "2026-11-28T09:12:42.000Z",
   "count": 1,
   "cdn": {
     "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
@@ -74,8 +74,8 @@
         "character": "砂糖",
         "month_day": "11-26",
         "next_at": "2027-11-26T00:00:00+08:00",
-        "days_until": 364,
-        "days_since": 1,
+        "days_until": 363,
+        "days_since": 2,
         "state": "recent",
         "url": "https://www.bilibili.com/opus/1274863118730657797",
         "source": "official"
@@ -84,8 +84,8 @@
         "character": "莱欧斯利",
         "month_day": "11-23",
         "next_at": "2027-11-23T00:00:00+08:00",
-        "days_until": 361,
-        "days_since": 4,
+        "days_until": 360,
+        "days_since": 5,
         "state": "recent",
         "url": "https://www.bilibili.com/opus/1273749863246331908",
         "source": "official"
@@ -94,8 +94,8 @@
         "character": "刻晴",
         "month_day": "11-20",
         "next_at": "2027-11-20T00:00:00+08:00",
-        "days_until": 358,
-        "days_since": 7,
+        "days_until": 357,
+        "days_since": 8,
         "state": "recent",
         "url": "https://www.bilibili.com/opus/1272636607710625801",
         "source": "official"
@@ -104,8 +104,8 @@
         "character": "布伦妮",
         "month_day": "11-20",
         "next_at": "2027-11-20T00:00:00+08:00",
-        "days_until": 358,
-        "days_since": 7,
+        "days_until": 357,
+        "days_since": 8,
         "state": "recent",
         "url": "https://www.bilibili.com/opus/1272636607701188631",
         "source": "official"
@@ -118,11 +118,11 @@
       "#原神# #原神7.2版本# 旅行者好呀~",
       "#原神# #兹白# 为守护故土，兹白曾以身对抗天罚。幸而，她最终还是循着月光，回到了她所珍爱的故土。"
     ],
-    "current_version_days": 35,
+    "current_version_days": 36,
     "next_version": "暂未公布",
     "next_version_kind": null,
     "next_content": [],
-    "days_to_next_version": 18,
+    "days_to_next_version": 17,
     "preview_status": "已发布",
     "preview_title": "《原神》7.2版本「坏灭肇始之时」前瞻特别节目",
     "preview_start_at": "2026-10-23T20:50:01+08:00",
@@ -150,13 +150,13 @@
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1257794489195429889",
-            "fetched_at": "2026-11-27T17:57:37+08:00"
+            "fetched_at": "2026-11-28T17:12:42+08:00"
           },
           {
             "id": "akasha",
             "tier": "L2",
             "url": "https://www.miyoushe.com/ys/article/78782590",
-            "fetched_at": "2026-11-27T17:57:37+08:00"
+            "fetched_at": "2026-11-28T17:12:42+08:00"
           }
         ],
         "version": "7.1",
@@ -183,7 +183,7 @@
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1258536659570393096",
-            "fetched_at": "2026-11-27T17:57:37+08:00"
+            "fetched_at": "2026-11-28T17:12:42+08:00"
           }
         ],
         "version": null,
@@ -203,14 +203,14 @@
         "start_at": "2026-11-24T18:00:00+08:00",
         "end_at": "2026-12-15T14:59:00+08:00",
         "status": "进行中",
-        "days_remaining": 18,
+        "days_remaining": 17,
         "confidence": "high",
         "sources": [
           {
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1273842634488545282",
-            "fetched_at": "2026-11-27T17:57:37+08:00"
+            "fetched_at": "2026-11-28T17:12:42+08:00"
           }
         ],
         "version": "7.2",
@@ -229,20 +229,20 @@
         "start_at": "2026-11-24T18:00:00+08:00",
         "end_at": "2026-12-15T14:59:00+08:00",
         "status": "进行中",
-        "days_remaining": 18,
+        "days_remaining": 17,
         "confidence": "high",
         "sources": [
           {
             "id": "bili-dynamics",
             "tier": "L0",
             "url": "https://www.bilibili.com/opus/1273378778045743106",
-            "fetched_at": "2026-11-27T17:57:37+08:00"
+            "fetched_at": "2026-11-28T17:12:42+08:00"
           },
           {
             "id": "akasha",
             "tier": "L2",
             "url": "https://www.miyoushe.com/ys/article/79660850",
-            "fetched_at": "2026-11-27T17:57:37+08:00"
+            "fetched_at": "2026-11-28T17:12:42+08:00"
           }
         ],
         "version": "7.2",
@@ -260,45 +260,45 @@
         "url": "https://www.bilibili.com/opus/1275234203899789346",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-27T17:57:37+08:00"
+        "checked_at": "2026-11-28T17:12:42+08:00"
       },
       {
         "title": "#原神# #砂糖# #生日快乐# 今天天气很好，阳光暖洋洋的，洒在脸上很舒服。",
         "url": "https://www.bilibili.com/opus/1274863118730657797",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-27T17:57:37+08:00"
+        "checked_at": "2026-11-28T17:12:42+08:00"
       },
       {
         "title": "#原神# #原神7.2版本# 旅行者好呀~",
         "url": "https://www.bilibili.com/opus/1274214112706953219",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-27T17:57:37+08:00"
+        "checked_at": "2026-11-28T17:12:42+08:00"
       },
       {
         "title": "#原神# #原神7.2版本# 旅行者好呀~",
         "url": "https://www.bilibili.com/opus/1273842634488545282",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-27T17:57:37+08:00"
+        "checked_at": "2026-11-28T17:12:42+08:00"
       },
       {
         "title": "#原神# #莱欧斯利# #生日快乐# 每份礼物都贴着不一样的贴纸啊，还有独家定制的糖霜饼干？",
         "url": "https://www.bilibili.com/opus/1273749863246331908",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-27T17:57:37+08:00"
+        "checked_at": "2026-11-28T17:12:42+08:00"
       },
       {
         "title": "#原神# #兹白# 为守护故土，兹白曾以身对抗天罚。幸而，她最终还是循着月光，回到了她所珍爱的故土。",
         "url": "https://www.bilibili.com/opus/1273471549368696833",
         "type": "official_community",
         "claims": [],
-        "checked_at": "2026-11-27T17:57:37+08:00"
+        "checked_at": "2026-11-28T17:12:42+08:00"
       }
     ],
-    "facts_checked_at": "2026-11-27T17:57:37+08:00",
+    "facts_checked_at": "2026-11-28T17:12:42+08:00",
     "pact_banners": [],
     "next_node_at": "2026-12-15T14:59:00+08:00",
     "next_node_label": "本期卡池结束（活动祈愿）",

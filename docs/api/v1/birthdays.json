@@ -1,8 +1,8 @@
 {
   "api_version": "v1",
   "schema_version": 4,
-  "generated_at": "2026-11-27T17:57:37+08:00",
-  "generated_at_utc": "2026-11-27T09:57:37.000Z",
+  "generated_at": "2026-11-28T17:12:42+08:00",
+  "generated_at_utc": "2026-11-28T09:12:42.000Z",
   "count": 1,
   "cdn": {
     "images": "https://cdn.jsdelivr.net/gh/YangZiyueZY/GameNewsPull@main/docs/img",
@@ -18,8 +18,8 @@
           "character": "砂糖",
           "month_day": "11-26",
           "next_at": "2027-11-26T00:00:00+08:00",
-          "days_until": 364,
-          "days_since": 1,
+          "days_until": 363,
+          "days_since": 2,
           "state": "recent",
           "url": "https://www.bilibili.com/opus/1274863118730657797",
           "source": "official"
@@ -28,8 +28,8 @@
           "character": "莱欧斯利",
           "month_day": "11-23",
           "next_at": "2027-11-23T00:00:00+08:00",
-          "days_until": 361,
-          "days_since": 4,
+          "days_until": 360,
+          "days_since": 5,
           "state": "recent",
           "url": "https://www.bilibili.com/opus/1273749863246331908",
           "source": "official"
@@ -38,8 +38,8 @@
           "character": "刻晴",
           "month_day": "11-20",
           "next_at": "2027-11-20T00:00:00+08:00",
-          "days_until": 358,
-          "days_since": 7,
+          "days_until": 357,
+          "days_since": 8,
           "state": "recent",
           "url": "https://www.bilibili.com/opus/1272636607710625801",
           "source": "official"
@@ -48,8 +48,8 @@
           "character": "布伦妮",
           "month_day": "11-20",
           "next_at": "2027-11-20T00:00:00+08:00",
-          "days_until": 358,
-          "days_since": 7,
+          "days_until": 357,
+          "days_since": 8,
           "state": "recent",
           "url": "https://www.bilibili.com/opus/1272636607701188631",
           "source": "official"
